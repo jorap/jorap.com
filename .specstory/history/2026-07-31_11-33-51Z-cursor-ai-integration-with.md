@@ -1365,4 +1365,2283 @@ _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 Checking global skills at the home directory.
+
+Comparing global ponytail skills across ~/.cursor/skills/, project skills, and Cursor product skills. Checking for duplicate rules between ~/.cursor/rules/ponytail.mdc and the project's .cursor/rules/ponytail.mdc. Also looking for Kilo global configuration.
 </details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **7** results in **1** directory</summary>
+
+Directory: **`/home/jorap/.cursor/skills`** (7 files)
+
+| File |
+|------|
+| `impeccable/SKILL.md` |
+| `ponytail-review/SKILL.md` |
+| `ponytail-help/SKILL.md` |
+| `ponytail-gain/SKILL.md` |
+| `ponytail-debt/SKILL.md` |
+| `ponytail-audit/SKILL.md` |
+| `ponytail/SKILL.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/rules/ponytail.mdc</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/rules/ponytail.mdc</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+Path does not exist: /home/jorap/.config/kilo
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A global ponytail rule was found.
+
+Global skills include `impeccible` and several `ponytail*` variants. Project-level skills duplicate these. Cursor product skills are also located under `~/.cursor/skills-cursor/`.
+
+Cursor product skills cover automation, review, SDK, shell, and configuration management. Kilo's global config directory does not exist yet. The user's question about adding skills and rules is ambiguous—it could refer to this repository, Kilo's global settings, or AGENTS.md.
+
+The user likely wants to know what global skills and rules are missing from this repository. They may instead want to know what this repository lacks compared to global settings. A comparison of the project and global ponytail and impeccable skill sets is needed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: echo &#34;=== project skills ===&#34; &amp;&amp; ls /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ &amp;&amp; echo &#34;=== global ~/.cursor/skills ===&#34; &amp;&amp; ls /home/jorap/.cursor/skills/ &amp;&amp; echo &#34;=== global skills-cursor ===&#34; &amp;&amp; ls /home/jorap/.cursor/skills-cursor/ | grep -v canvas</summary>
+```bash
+echo "=== project skills ===" && ls /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ && echo "=== global ~/.cursor/skills ===" && ls /home/jorap/.cursor/skills/ && echo "=== global skills-cursor ===" && ls /home/jorap/.cursor/skills-cursor/ | grep -v canvas
+```
+
+```
+=== project skills ===
+ai-writing-system
+alex-eala-tracker-update
+changelog-update
+find-skills
+flashcards
+garden-maintenance
+garden-voice
+hugo-template-guidance
+impeccable
+jorap-voice
+personal-context-management
+ponytail
+ponytail-audit
+ponytail-debt
+ponytail-gain
+ponytail-help
+ponytail-review
+sync-upstreams
+=== global ~/.cursor/skills ===
+impeccable
+ponytail
+ponytail-audit
+ponytail-debt
+ponytail-gain
+ponytail-help
+ponytail-review
+=== global skills-cursor ===
+automate
+babysit
+create-hook
+create-rule
+create-skill
+create-subagent
+loop
+migrate-to-skills
+review
+review-bugbot
+review-security
+sdk
+shell
+split-to-prs
+statusline
+update-cli-config
+update-cursor-settings
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-agent-config.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing existing user rules around commits, pull requests, and communication style.
+
+Global skills and rules must live in `~/.config/kilo/kilo.jsonc`. This file loads the global ponytail rule, any skills missing from the repo, and Kilo-specific Cursor tooling skills. The repo itself already contains all site-specific `.cursor/` files. Cursor will merge both the project `.cursor/` directory and the global `~/.cursor/rules/ponytail.mdc`.
+
+Global skills from `~/.cursor/skills/` and `~/.cursor/skills-cursor/` may duplicate the project-level ponytail rule. This risks confusion. The repository is self-contained for site work. Nothing is strictly required here.
+
+The global ponytail rule is newer and richer than the project version. The project file should be updated to match, or removed entirely in favor of the global copy. The Kilo config must reference the global rule path and include `~/.cursor/skills` and `~/.cursor/skills-cursor` under `skills.paths`. If the global config points to these user-level directories, the repository itself needs no additional files.
+
+Commit rules, PR workflows, and communication style are Cursor UI settings. They must be added manually to the global Kilo config or a global markdown file. Checking for an existing Cursor user rules file on diski.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **3856** results in **1** directory</summary>
+
+Directory: **`/home/jorap/.cursor`** (3856 files)
+
+| File |
+|------|
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ac029b41-f0ec-4c65-b0b9-24c2f9313c87/ac029b41-f0ec-4c65-b0b9-24c2f9313c87.jsonl` |
+| `unified_repo_list.json` |
+| `ide_state.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/terminals/6.txt` |
+| `skills-cursor/canvas/sdk/ui-primitives.test.d.ts` |
+| `skills-cursor/canvas/sdk/form-primitives.d.ts` |
+| `skills-cursor/canvas/sdk/index.d.ts` |
+| `skills-cursor/canvas/sdk/theme.d.ts` |
+| `skills-cursor/canvas/sdk/todo-list.d.ts` |
+| `skills-cursor/canvas/sdk/callout-tone-icons.d.ts` |
+| `skills-cursor/canvas/sdk/swatch.d.ts` |
+| `skills-cursor/canvas/sdk/diff-view.d.ts` |
+| `skills-cursor/canvas/sdk/canvas-tokens.d.ts` |
+| `skills-cursor/canvas/sdk/hooks.d.ts` |
+| `skills-cursor/canvas/sdk/ui-primitives.d.ts` |
+| `skills-cursor/canvas/sdk/usage-bar.d.ts` |
+| `skills-cursor/canvas/sdk/chart-primitives.d.ts` |
+| `skills-cursor/canvas/sdk/dag-layout.d.ts` |
+| `skills-cursor/canvas/sdk/collapsible-section.d.ts` |
+| `skills-cursor/.sync-manifest.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/00eb3b13-ceb3-425e-90ae-a62455d26276/00eb3b13-ceb3-425e-90ae-a62455d26276.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/9d2815c4-260a-4a91-bb2e-5835941d2ccb/9d2815c4-260a-4a91-bb2e-5835941d2ccb.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/5a2d9618-efd5-403d-b060-105a1ada9c1c.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/240a4c05-dfa9-475f-bfb5-55290c564e60/240a4c05-dfa9-475f-bfb5-55290c564e60.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/0e90b624-2b9b-4c7d-b803-6efd388f5f31.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/43fb7db0-8775-43fb-b670-ef7200e6ef95.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/aa7154b9-33e3-4d14-9a10-a8d5d26da17f.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/79d86d71-2132-4634-b929-862e38edc91f/79d86d71-2132-4634-b929-862e38edc91f.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/08351438-b409-4422-b52f-e050b22d6476.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/INSTRUCTIONS.md` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/prompts/create_design_system_rules.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/SERVER_METADATA.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-standalone_index_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--creating_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_variable-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_validation-and-recovery_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--using_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-effect-styles_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-text-styles_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_text-style-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--creating_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--using_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-design_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-gotchas_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-lifecycle_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-content_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_effect-style-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-grid_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_common-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_component-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-properties_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-motion_references_motion-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use_references_api-reference_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-figjam_references_edit-text_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-shape-with-text_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-section_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-motion_references_motion-easing_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-connector_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-figjam_references_figjam-colors_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-table_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-figjam_references_plan-board-content_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-label_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-text_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-sticky_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-figjam_references_position-figjam-nodes_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-implement-motion_references_motion-lint-rules_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-implement-motion_references_examples-and-anti-examples_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-implement-motion_references_unsupported-and-fallbacks_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-swiftui_references_code-to-design_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-library_references_token-creation_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-figjam_references_batch-modify_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-implement-motion_references_svg-and-path-motion_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-implement-motion_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-swiftui_references_design-to-code_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-implement-motion_references_framework-recommendations_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-library_references_naming-conventions_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-code-block_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-library_references_discovery-phase_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_workflow_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-library_references_error-recovery_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_architecture_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-design_references_discover-product-font_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_sequence_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_gantt_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-library_references_component-creation_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-library_references_code-connect-setup_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_state_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_flowchart_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-library_references_documentation-creation_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_erd_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-design.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-figjam.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-implement-motion.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-code-connect_references_api_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-library.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-diagram.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-swiftui.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-generate-design_references_componentization_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-code-connect_references_advanced-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-slides.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-use-motion.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/trigger-specific-tools.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/write-effective-prompts.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/stuck-or-slow.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-create-new-file.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/tools-not-loading.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-code-connect.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/tools-and-prompts.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/write-to-canvas.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/variables-vs-code.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figma-design-to-code.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/create-skills.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/structure-figma-file.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/images-stopped-loading.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/server-returning-web-code.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/rate-limits-access.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/mcp-clients-issues.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/intro.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/local-server-installation.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/remote-server-installation.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/mcp-vs-agent.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/getting-500-error.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/get_shader_fill.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/code-connect-integration.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/add-custom-rules.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/skill-index.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/avoid-large-frames.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/figjam-diagram-mcp-app.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/code-to-canvas.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/architecture-diagram-instructions.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/resources/bringing-make-context-to-your-agent.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/list_shader_fills.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/upload_assets.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/list_shader_effects.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/search_design_system.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/get_shader_effect.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/use_figma.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/create_new_file.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/list_file_components_for_code_connect.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/download_assets.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/get_libraries.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/add_code_connect_map.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/whoami.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/generate_diagram.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/get_code_connect_suggestions.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/export_video.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/send_code_connect_mappings.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/get_context_for_code_connect.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/get_code_connect_map.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/generate_figma_design.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/get_figjam.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/get_screenshot.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/get_metadata.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/get_variable_defs.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/get_design_context.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/mcps/plugin-figma-figma/tools/get_motion_context.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/INSTRUCTIONS.md` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/prompts/create_design_system_rules.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/SERVER_METADATA.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--creating_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--using_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-effect-styles_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-text-styles_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--creating_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--using_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_effect-style-patterns_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_variable-patterns_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_validation-and-recovery_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_common-patterns_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_component-patterns_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-patterns_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_text-style-patterns_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-standalone_index_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-lifecycle_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-content_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-grid_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-properties_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use_references_api-reference_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-design_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-gotchas_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-motion_references_motion-easing_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-figjam_references_plan-board-content_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-motion_references_motion-patterns_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-figjam_references_position-figjam-nodes_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-section_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-figjam_references_figjam-colors_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-table_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-label_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-text_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-sticky_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-figjam_references_edit-text_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-shape-with-text_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-implement-motion_references_motion-lint-rules_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-swiftui_references_code-to-design_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-connector_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-figjam_references_batch-modify_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-implement-motion_references_svg-and-path-motion_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-implement-motion_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-swiftui_references_design-to-code_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-implement-motion_references_framework-recommendations_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-code-block_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-implement-motion_references_unsupported-and-fallbacks_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-library_references_token-creation_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_sequence_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-library_references_component-creation_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-library_references_code-connect-setup_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_state_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-library_references_documentation-creation_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-library_references_naming-conventions_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-library_references_discovery-phase_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_workflow_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-implement-motion_references_examples-and-anti-examples_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-library_references_error-recovery_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_architecture_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-design_references_discover-product-font_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_gantt_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_flowchart_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-design_references_componentization_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-code-connect_references_advanced-patterns_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_erd_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-slides.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-motion.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-use-figjam.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-code-connect_references_api_md.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-library.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-diagram.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-create-new-file.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-swiftui.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-code-connect.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/write-to-canvas.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-design-to-code.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-generate-design.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figma-implement-motion.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/structure-figma-file.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/server-returning-web-code.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/trigger-specific-tools.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/write-effective-prompts.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/stuck-or-slow.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/tools-not-loading.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/tools-and-prompts.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/variables-vs-code.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/create-skills.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/rate-limits-access.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/mcp-clients-issues.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/intro.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/local-server-installation.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/code-to-canvas.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/remote-server-installation.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/mcp-vs-agent.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/getting-500-error.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/images-stopped-loading.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/list_shader_fills.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/get_shader_fill.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/code-connect-integration.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/add-custom-rules.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/skill-index.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/avoid-large-frames.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/figjam-diagram-mcp-app.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/architecture-diagram-instructions.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/resources/bringing-make-context-to-your-agent.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/upload_assets.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/list_shader_effects.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/search_design_system.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/get_shader_effect.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/use_figma.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/create_new_file.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/download_assets.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/get_libraries.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/list_file_components_for_code_connect.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/get_context_for_code_connect.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/get_code_connect_suggestions.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/export_video.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/send_code_connect_mappings.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/add_code_connect_map.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/generate_figma_design.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/get_figjam.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/whoami.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/generate_diagram.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/get_metadata.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/get_variable_defs.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/get_code_connect_map.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/get_motion_context.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/get_screenshot.json` |
+| `projects/home-jorap-Documents-jobsearch/mcps/plugin-figma-figma/tools/get_design_context.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/7ba2e794-9531-46a2-b417-8ebadc3ed790/7ba2e794-9531-46a2-b417-8ebadc3ed790.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/44093e33-fd71-4bb7-a43a-67f93c6709f2/44093e33-fd71-4bb7-a43a-67f93c6709f2.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/205a9f34-0102-4fa1-b033-9cc79b33fca2.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/e6c90ace-032a-4975-976a-fe48c93f6cd4.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/1487fbc9-c8ad-45d0-9982-d42ec0f6371b.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/50f1e2e0-1388-4852-90f2-a5f31c17cfad.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/092880df-30ef-46d5-a283-61eb469f3e3c.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/92e8861c-bb99-4c73-b37b-bdc7304675f7.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/8744e5aa-1e6c-4a66-989c-463545d2f384.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/00fda188-6c97-44a6-9b73-c90707318807.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/16a2690a-d5ac-404d-ae7a-5d68031a0a5f.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/c49a5182-3d97-4a72-ae1f-90f4fc5e7d09.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/4ac52689-6848-42d2-ba6b-273302865410.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/715c7613-360b-4bad-82d8-1ff631bd532b.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/a2dd6411-49ad-4b07-bd75-777511a0125b.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/d051e5ad-6f18-4339-ac01-bf8838cf3c9a.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/82715f84-e04a-4c70-adb6-1ef5b743ae38.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/d2069c2c-16a0-4905-9e4f-20abd33183b8.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/e14276ed-e35c-4bdd-8c36-def6574be22d.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/d39852a7-1c1e-4910-8db9-9a7a31d40854.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/248c97b9-3f3d-4dc5-a7ba-97a00fd8b2bb.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/94393d81-766a-4797-b0c9-a2eaf24d72af.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/1b0a7ab4-c6dc-4b6e-8962-180976fdaff2.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/e1a6a671-95da-4096-ab2d-15fb2b0e1ca4.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/8b98477c-94b2-4e5c-826d-139fd57a7d94.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/b662f215-de4b-4028-862e-8631bc88b1bc.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/88e3ed5e-9e8c-4b8c-889b-4c5773f5bba7.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/a2b1da16-7dba-4533-8db1-b2f68f1a5ecc/a2b1da16-7dba-4533-8db1-b2f68f1a5ecc.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/bd042e3e-8ebd-479e-bbb5-f023fa9b19ea.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/803496fe-4625-4864-b537-7dd6e8abb2be/803496fe-4625-4864-b537-7dd6e8abb2be.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/ef9951ce-9c42-4133-9776-b307de2f1212.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/e31d9e62-c232-4ad6-875e-d99f2386565b.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/f3148db0-3986-4448-a4be-3b9c51463856.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/34baa0fd-7e70-432d-a1d6-451ded63ff4d/34baa0fd-7e70-432d-a1d6-451ded63ff4d.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/539c9b55-53c2-462e-bc2f-359b39208c7d/539c9b55-53c2-462e-bc2f-359b39208c7d.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/3ed54f98-df40-47d8-98ab-249d4a3aa7e5/3ed54f98-df40-47d8-98ab-249d4a3aa7e5.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/cbbfedaf-d8af-417f-bc00-41d64818007c.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/b1671f45-4111-4fb1-9719-78b1b38756f1.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/09e47a9e-bab9-4e9a-938a-0e62a48c5888.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/841f2123-9138-44f4-a6e5-0d527fd47327.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/245d76e2-0f3e-4c45-999f-73f50a258fa9.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/61116f49-1942-4ebf-adc5-c062ca530cb1.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/f0ef076a-512f-4748-b0c6-3cd63ab98444.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/b184dc80-66a5-4796-b5e3-56d6c64fa351.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/9bf81e84-ad1a-43bc-86e9-78f913a57948.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/33d3df6d-09d6-4e88-af36-9298a4a7db8e.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/3a74eae1-a407-46d2-bd9b-b510ee1a9a93.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/dbd65698-3b09-4d12-9344-9f15e0aeed74.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/07bf5144-a0cd-4920-8174-111527eaea7a.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/3902c62a-9367-4824-9d04-bc9cb5342365.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/6d90e420-f771-4f6b-a1ac-ed061d1f9fc9.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/ed68ae73-ba94-49c6-b240-f361fe3ff066.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/25986b2b-6aad-499b-9702-6214357ba017/25986b2b-6aad-499b-9702-6214357ba017.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/2b7675f2-adc3-4105-b359-19f146aec5f7.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/90a6cbe1-07af-4bec-afbd-80161419f995.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/f4e00c68-9cd1-4ecb-8990-58abae6a2b5c.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/26a35686-a17a-4c7a-9113-25edc744fdba.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/f6106238-f5bb-420e-8d68-c7ba6cc23a65.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/f68d0269-a47d-4476-a9fb-116677ec0260.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/f441ae38-a1cf-476b-a826-1b7f48a003d0.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/8e1aec07-28ba-4538-8d10-4a68f7dfc991.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/2f93058c-1469-4ffa-9ede-634f07ccdc11.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/b0bde523-2b09-4982-acc5-d804090d08e1.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/4835abb7-c61a-4d9b-8c9b-9955b2572a0e.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/5090987c-5dbb-4eaa-a756-a7ad76ffbc60.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/4687edc7-66c6-4228-b186-240d57062dea.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/39d863ee-1fca-4007-9eca-af09d9ae9e39.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/ba4526b5-f581-4a5a-81a1-1cf038e3aed7.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/a4b2c031-a0c4-4d56-b21a-2ee33bb971e2.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/b9a5cf38-2d75-4456-917e-d0ce02ce0f52.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/3912f978-30a6-4747-84a0-dc1d4fbd9cb5.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/ecaa945f-ec04-4729-97d2-bddeeb8120d2.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/afe1bd26-7fa4-4c93-9159-c24389459987.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/be44f32e-3f74-4bb0-8c78-7b5364327069.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/950a4815-10e1-4327-9ee2-7208a2ead727/950a4815-10e1-4327-9ee2-7208a2ead727.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/a50c03fe-a3ff-4e15-8cf0-391c200f73c4.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/bb6ae538-ee3d-4cdd-a271-521eb94bd5f0.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/7654b603-c7f8-4036-a09e-988b139f5ed1/7654b603-c7f8-4036-a09e-988b139f5ed1.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/90c54cb3-9d6e-404e-9937-d8b83cc74b4e.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/60937092-0953-47a3-a46c-ac576b328d65.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/f305877a-65fb-4c51-84d1-144f04855f2f.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/7a8c9f9e-7272-4567-8771-c94d54812a4a.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/a143ff8b-4346-4534-bfc5-04e041d88a14.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/d15a68ff-e046-4b5e-8be2-00d37772cd2a.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/0a5c756d-d484-4c8b-8a51-dd5d5dd3f84d.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/70a3d79c-ec98-4280-893d-58c9199d50d8.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/dee86c1d-f784-4cfd-944a-926286ea9de7.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/ea13458c-23a9-401a-8b56-1fbdead1010c.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/01d3eb41-27e4-478b-9275-9dc4c9a11ea8.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/c04b8c65-24f5-4e43-a29c-08ea2d306fc0/c04b8c65-24f5-4e43-a29c-08ea2d306fc0.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/438aec50-8780-4b41-b624-b31adbffce8c.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/73ae3551-b5f3-4b85-983e-902509adb33f.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/985b4104-9ed8-46b5-a32b-b7a4d409acfd.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/17dcd577-e65e-4cb6-9992-fc548bf2000b.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/6fdf555a-7128-48e8-9c25-be42b13243fa.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/39970d04-80ab-43a7-889b-e20d8ce698d5.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/64d3a709-40d6-459b-8c65-95f0436203bc.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/44d0230c-0139-4872-bbe8-2218e8b3f031.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/cf0987f3-46ed-4734-b60a-60b5895db38c.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/b2b917f3-14e3-45b9-8c67-0ef7669be0b5.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/bc82a9cf-baf0-4a9d-bc9c-50234bb8086b/bc82a9cf-baf0-4a9d-bc9c-50234bb8086b.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/7854e702-2e1e-43b1-a768-90b74ededc05/7854e702-2e1e-43b1-a768-90b74ededc05.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/a0c0d393-7e36-4c18-84ec-aa29ca1a56e6.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/299291e4-63e0-4a48-b8a4-7473c5d157b7.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/8095f854-c0ad-4d75-ab7a-a02d2d944bda/8095f854-c0ad-4d75-ab7a-a02d2d944bda.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/70b90690-82fa-4800-855a-17bcf464f6b5.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/45fdaf1d-2ee0-412b-8531-e909497a38e9.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/635c089d-a948-4e0a-8d62-e1cd8f7d8082.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/32c78ded-af3b-456b-91bd-115239899b87.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/ff25f795-1b10-4429-b723-3226d82b542e/ff25f795-1b10-4429-b723-3226d82b542e.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/9d1228c0-3c72-4308-ac3e-b3dad400f2b3.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/e0572b11-10e0-46e0-bf99-a30fd61ee5df.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/9a14e1c3-b512-46ea-8ef8-8b3b171ee35d.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/e5556883-f014-4444-ab2b-ed14921459e4.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/74da4ea9-ea83-491a-8d17-0779ad18390a.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/4f2c7001-6816-49bb-bc87-ac8badb885f6.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/9eadfa99-75e0-4a88-8acd-abbdf9981028.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/c12f01dd-51f9-4d0e-9cb4-efb864fc9be9.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/86d4e75e-8a5d-4704-a163-eb70c7f9431c.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/ef48b7a7-8667-4c40-b4a3-38d8a55abf20.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/b208599b-8047-4a33-a7d9-f13283a382b1.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/a5b16da7-69bf-4891-aac0-8102e3deb7e4/a5b16da7-69bf-4891-aac0-8102e3deb7e4.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/3bcaebb3-8649-46ab-b934-3a188c2b3788/3bcaebb3-8649-46ab-b934-3a188c2b3788.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/71b111f4-7d61-4d0a-89d5-a3f7e627a25b/71b111f4-7d61-4d0a-89d5-a3f7e627a25b.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/368bac5a-c61f-4828-b908-efa517af8612.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/54bbb905-d0f8-432d-86b2-7ee952238d4f.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/9adc5827-4670-40d3-b068-113c5b9cec95.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/13c09072-bb15-43d5-ae09-c17d796ce7de.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/0e2a42c8-6e4d-4e8c-b1a4-4aca3e03e760/0e2a42c8-6e4d-4e8c-b1a4-4aca3e03e760.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/66f9ab30-7fdd-4e52-83e9-7325a7b53f9f.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-transcripts/0470cdba-8813-4624-a920-214d6fd58bbd/0470cdba-8813-4624-a920-214d6fd58bbd.jsonl` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/2d729c08-ed7a-4aac-ab3f-386b969b9fd6.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/f085735a-7315-4e80-ade6-3ff5b18dc573.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/9242f690-a6bd-4cbe-b2f6-a821eb999c0c.txt` |
+| `projects/home-jorap-Documents-jobsearch/agent-tools/45258bb7-b866-493a-9586-ad335874ea3d.txt` |
+| `projects/home-jorap-Documents-jobsearch/canvases/tsconfig.json` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/@types/react/index.d.ts` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/@types/react/package.json` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/@types/react/jsx-runtime.d.ts` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/canvas-sdk-version` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/cursor/package.json` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/cursor/canvas/ui-primitives.test.d.ts` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/cursor/canvas/form-primitives.d.ts` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/cursor/canvas/index.d.ts` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/cursor/canvas/theme.d.ts` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/cursor/canvas/todo-list.d.ts` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/cursor/canvas/callout-tone-icons.d.ts` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/cursor/canvas/swatch.d.ts` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/cursor/canvas/diff-view.d.ts` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/cursor/canvas/canvas-tokens.d.ts` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/cursor/canvas/hooks.d.ts` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/cursor/canvas/ui-primitives.d.ts` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/cursor/canvas/usage-bar.d.ts` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/cursor/canvas/chart-primitives.d.ts` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/cursor/canvas/dag-layout.d.ts` |
+| `projects/home-jorap-Documents-jobsearch/canvases/node_modules/cursor/canvas/collapsible-section.d.ts` |
+| `extensions/.obsolete` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/5519f216-0ab4-4e8d-806b-945193c9df98/5519f216-0ab4-4e8d-806b-945193c9df98.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/63329f40-92a4-4a06-8a69-a91d445e0658/63329f40-92a4-4a06-8a69-a91d445e0658.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/de733fbf-69f9-430c-89ca-c5e1c954bc8b/de733fbf-69f9-430c-89ca-c5e1c954bc8b.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/9ebd8792-2654-4730-af5c-13d8d8cb8f99/9ebd8792-2654-4730-af5c-13d8d8cb8f99.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/f62179fc-f277-40ba-ae04-7f11c2dc0787/f62179fc-f277-40ba-ae04-7f11c2dc0787.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/c9f6a1cf-ab02-4454-8333-f69b5061beff/c9f6a1cf-ab02-4454-8333-f69b5061beff.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/95c2531b-f1d0-4768-94a5-6d0da0e7015f/95c2531b-f1d0-4768-94a5-6d0da0e7015f.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/6cc8986c-1fea-45f5-8250-d34a4d35ec3c/6cc8986c-1fea-45f5-8250-d34a4d35ec3c.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/86687905-a500-4109-87ac-ce3129580ad2/86687905-a500-4109-87ac-ce3129580ad2.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/8a75d74c-f1db-441a-9600-cc318452d124/8a75d74c-f1db-441a-9600-cc318452d124.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/59be5213-08d6-46e3-abb8-a1f80c6a9c44/59be5213-08d6-46e3-abb8-a1f80c6a9c44.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/203ee8cc-d53c-4f3e-8094-4ff18093586e/203ee8cc-d53c-4f3e-8094-4ff18093586e.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/43c66c4e-80e0-4f6a-a33a-b58d736bbdd6/43c66c4e-80e0-4f6a-a33a-b58d736bbdd6.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/7e3b2340-c1b0-4e10-a168-ce24c16910ea/7e3b2340-c1b0-4e10-a168-ce24c16910ea.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/7827518b-ac35-469d-b10e-4772009bb3c0/7827518b-ac35-469d-b10e-4772009bb3c0.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/a348c721-d88c-468b-b843-b41bcdd88e89/a348c721-d88c-468b-b843-b41bcdd88e89.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/8170c6ba-f690-4059-a8de-22a7a96ee018/8170c6ba-f690-4059-a8de-22a7a96ee018.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/9fac1dbc-719a-4cee-bdbc-83302913c073/9fac1dbc-719a-4cee-bdbc-83302913c073.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/44990cb1-2762-4152-8bc4-df3130b38141.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/912f77f1-0d19-4b6f-aa08-417f2e3be113.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/62abef3e-42c4-42f5-a66f-1f97563a26ed/62abef3e-42c4-42f5-a66f-1f97563a26ed.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/0a7248ca-2f1b-4b97-9233-b2cdd9c888e1/0a7248ca-2f1b-4b97-9233-b2cdd9c888e1.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/0a7248ca-2f1b-4b97-9233-b2cdd9c888e1/subagents/0ba65385-9e55-479d-9779-87723aa14ff4.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/0a7248ca-2f1b-4b97-9233-b2cdd9c888e1/subagents/dcdab379-3853-40cf-8c76-cdced85de19c.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/c3cc6ad8-0646-4412-8268-1cfd824043a7/c3cc6ad8-0646-4412-8268-1cfd824043a7.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/0a7248ca-2f1b-4b97-9233-b2cdd9c888e1/subagents/c3cc6ad8-0646-4412-8268-1cfd824043a7.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/24c25f6a-b208-4d35-9902-6a9083906788/24c25f6a-b208-4d35-9902-6a9083906788.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/0a7248ca-2f1b-4b97-9233-b2cdd9c888e1/subagents/24c25f6a-b208-4d35-9902-6a9083906788.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/20bcd06b-25c7-4e0c-a241-57c1953d7102/20bcd06b-25c7-4e0c-a241-57c1953d7102.jsonl` |
+| `extensions/extensions.json` |
+| `extensions/specstory.specstory-vscode-2.0.0-universal/package.json` |
+| `extensions/specstory.specstory-vscode-2.0.0-universal/.impeccable/critique/2026-07-02T00-01-34Z__src-webview.md` |
+| `extensions/specstory.specstory-vscode-2.0.0-universal/.impeccable/critique/2026-07-02T01-42-10Z__src-webview.md` |
+| `extensions/specstory.specstory-vscode-2.0.0-universal/.impeccable/critique/2026-07-20T18-42-24Z__src-webview.md` |
+| `extensions/specstory.specstory-vscode-2.0.0-universal/dist/webview/cloud.css` |
+| `extensions/specstory.specstory-vscode-2.0.0-universal/dist/webview/cloud.js` |
+| `extensions/specstory.specstory-vscode-2.0.0-universal/dist/extension.js` |
+| `extensions/specstory.specstory-vscode-2.0.0-universal/resources/specstory.svg` |
+| `extensions/specstory.specstory-vscode-2.0.0-universal/changelog.md` |
+| `extensions/specstory.specstory-vscode-2.0.0-universal/LICENSE.txt` |
+| `extensions/specstory.specstory-vscode-2.0.0-universal/PRODUCT.md` |
+| `extensions/specstory.specstory-vscode-2.0.0-universal/readme.md` |
+| `extensions/specstory.specstory-vscode-2.0.0-universal/.vsixmanifest` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/114b35c9-bb26-4ebe-9bbe-ba32a58c7f6d/114b35c9-bb26-4ebe-9bbe-ba32a58c7f6d.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/dd042a16-1803-40ba-8ae1-946714fd427a/dd042a16-1803-40ba-8ae1-946714fd427a.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/5903409f-adfe-41cb-bc32-a06f29c743e9/5903409f-adfe-41cb-bc32-a06f29c743e9.jsonl` |
+| `skills-cursor/canvas/SKILL.md` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/e5cb72e0-7b3d-45c3-a42a-b263b3efa9cd/e5cb72e0-7b3d-45c3-a42a-b263b3efa9cd.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/530b1e50-a2d5-4d5b-832c-804fe57c7e90/530b1e50-a2d5-4d5b-832c-804fe57c7e90.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/68afb19c-c110-47e1-9c06-c3f482ae1622/68afb19c-c110-47e1-9c06-c3f482ae1622.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/403c3c62-e121-4942-9d0d-4a8dc91951ad/403c3c62-e121-4942-9d0d-4a8dc91951ad.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/cb7c4726-f078-43d0-872e-2af61fd2a23c.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/edc795ee-f142-40e2-b9db-a888306e73d2/edc795ee-f142-40e2-b9db-a888306e73d2.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/991f7331-39d8-4604-8044-b0d1fec73930/991f7331-39d8-4604-8044-b0d1fec73930.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/255f6726-8b7d-405a-bd4a-c806d6ab9ed6/255f6726-8b7d-405a-bd4a-c806d6ab9ed6.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/2ab0c3ae-7383-463b-915d-d20872f24946/2ab0c3ae-7383-463b-915d-d20872f24946.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/64d84e6b-db8e-42be-a63c-6f11e8def36a/64d84e6b-db8e-42be-a63c-6f11e8def36a.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/fa77a4c7-983e-4815-83d6-9556afb006ed/fa77a4c7-983e-4815-83d6-9556afb006ed.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/dc7d9489-ca0e-4ac5-8352-fc72a903bbe4/dc7d9489-ca0e-4ac5-8352-fc72a903bbe4.jsonl` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/package.json` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/node_modules/@vscode/codicons/dist/codicon.css` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/assets/icons/social/discord.svg` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/assets/icons/social/github.svg` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/assets/icons/social/linkedin.svg` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/assets/icons/social/reddit.svg` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/assets/icons/social/x.svg` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/webview-ui/build/assets/index.css` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/webview-ui/build/assets/index.js` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/assets/icons/cline-bot.svg` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/assets/icons/icon.svg` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/assets/icons/sleepy-cline.svg` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/cline/account.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/cline/browser.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/cline/checkpoints.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/cline/commands.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/cline/common.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/cline/file.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/cline/hooks.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/cline/mcp.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/cline/models.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/cline/oca_account.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/cline/slash.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/cline/state.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/cline/task.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/cline/ui.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/cline/web.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/host/diff.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/cline/worktree.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/host/env.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/host/testing.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/host/window.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/webview-ui/.storybook/README.md` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/host/workspace.proto` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/webview-ui/build/index.html` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/tests/specs/grpc_recorded_session_single_root.json` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/dist/extension.js` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/proto/descriptor_set.pb` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/add-endpoints-to-jetbrains.sh` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/add-endpoints-to-vsix.sh` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/api-secrets-parser.mjs` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/build-proto.mjs` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/build-python-proto.mjs` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/build-tests.js` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/download-ripgrep.mjs` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/file-utils.mjs` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/generate-host-bridge-client.mjs` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/generate-protobus-setup.mjs` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/generate-state-proto.mjs` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/generate-stubs.js` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/get-vscode-usages.sh` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/marketplace-readme.mjs` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/package-standalone.mjs` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/proto-lint.sh` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/proto-shared-utils.mjs` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/proto-utils.mjs` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/publish-marketplace.mjs` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/publish-nightly.mjs` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/report-issue.js` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/run-extension-host.sh` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/testing-platform/README.md` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/scripts/runclinecore.sh` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/testing-platform/package-lock.json` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/testing-platform/package.json` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/testing-platform/tsconfig.json` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/webview-ui/components.json` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/webview-ui/tailwind.config.mjs` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/webview-ui/tsconfig.app.json` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/webview-ui/tsconfig.json` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/walkthrough/step1.md` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/webview-ui/tsconfig.node.json` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/walkthrough/step2.md` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/walkthrough/step3.md` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/walkthrough/step4.md` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/walkthrough/step5.md` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/.env.example` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/.nycrc.unit.json` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/LICENSE.txt` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/readme.md` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/biome.jsonc` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/esbuild.mjs` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/knip.json` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/skills-lock.json` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/test-setup.js` |
+| `extensions/saoudrizwan.claude-dev-4.0.12-universal/.vsixmanifest` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/26d77573-26a8-4e49-a0ce-95cd1924b1b9/26d77573-26a8-4e49-a0ce-95cd1924b1b9.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/737ec4ca-d43b-4d47-b57c-8589aa760be4.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/9ed285f2-d9f4-4757-afe6-3e38c93a9fc7.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/1eb94e68-ecf1-4b4c-8b25-3e92722097e2.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/817aed07-4331-4e36-b187-50ebb7b976ec.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/efb034a6-f72e-4161-a2e7-a25c07643b04.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/30b34f87-73cf-48ab-9c0d-86242eabd2ec.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/6192fb67-98bd-4817-9b22-e46f05475430.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/92b7f811-f526-4908-8d34-7685978f3ac1.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/d20a92d4-1154-4979-9e82-b5d5f3d948c0.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/fbecdc0d-da39-4b2b-951f-8697db93dfc5.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/03dbae82-59f3-49e3-b090-0f256fd98500.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/f091ec85-7918-4a54-b323-8e237b24e01b.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/30422109-753c-4f6f-acd4-6e8d2c4b3078.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/2d88602b-901f-4623-b95d-b0a79ecadf6f.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/f1fd1a3c-dbd8-434b-9c15-37867efd790e.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/91435521-5c16-47bb-a571-47435bb962f7.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/0052849d-c43e-4fcd-ae05-1a1494fc0ca4.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/a88f0d96-5f5b-48e5-817f-e1da3176fb0f/a88f0d96-5f5b-48e5-817f-e1da3176fb0f.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/29dc09fe-f65b-4337-af90-a41cdbd36e3c.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/9f928697-250d-4011-aded-5aa7e3e71b31.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/d0c0795f-9072-4d52-aeb0-8da1f0cce60f.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/0e648eae-eb8e-4ee8-b99a-3452fcb57785.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/e0c2f794-85bb-403b-9a4c-847641d2b312.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/320a5481-dd1d-456a-9606-f365ca7af55b.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ee133e2b-69bc-494b-90c1-8652cc4668d6/ee133e2b-69bc-494b-90c1-8652cc4668d6.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/5231cdad-7b12-4da7-a5a9-facf6b7eb2aa.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/b24fe144-f1be-4827-84c1-e239f5c1219f.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/dfc356a7-b3e9-4596-80cd-dc61881b9525/dfc356a7-b3e9-4596-80cd-dc61881b9525.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/0cd420f8-63b0-49a0-909d-776dcbc7ff40/0cd420f8-63b0-49a0-909d-776dcbc7ff40.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/93fa4715-673b-471f-95b9-889d954e998c/93fa4715-673b-471f-95b9-889d954e998c.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4e59f224-30e4-4a18-a5e9-a350f97f89b2/4e59f224-30e4-4a18-a5e9-a350f97f89b2.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/15ceb759-5d33-440d-a073-5c1822246b28/15ceb759-5d33-440d-a073-5c1822246b28.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/3155f5da-7ea1-4e3d-9cd5-aa77688649d5/3155f5da-7ea1-4e3d-9cd5-aa77688649d5.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/c00ccf3b-a1d5-473d-a2b5-bba5c329bd05/c00ccf3b-a1d5-473d-a2b5-bba5c329bd05.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/7a7f8f8a-9103-40ed-83b3-1c40a5bba92e.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/5077671c-b790-40af-bfa7-5b4c826f1885.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/1134fbdf-0af1-41dd-bcdd-ab2490b8cf12.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/d8f09cb4-c31f-472d-9b99-5fd7dac0b752.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/276031be-f22b-4eba-afd4-2eeebb75a080.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/9762e06d-0be7-459f-8bd2-a979f488b0be.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/336646f1-6768-46a7-a990-13b80e720ee1.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/c3c39b01-0845-45cb-9ac1-180cd9cf6b36.txt` |
+| `skills-cursor/update-cli-config/SKILL.md` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/900cfe6d-e65b-481b-a3aa-ca281ed718ed/900cfe6d-e65b-481b-a3aa-ca281ed718ed.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/235254b7-17f5-4019-9fa0-2f29a9d01260.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/c49dfc09-0d16-4518-bb2a-1adb9deb1f0b.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/e6c11bc2-4427-41f1-a30c-012247dfd565.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/6a18a82e-a9eb-4198-8e87-a99b4d88eec6.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/eea85291-84bf-4d00-8943-e075cfa3ecf8.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/a74acfc6-1aee-4aa3-a28b-9e9c49793f98/a74acfc6-1aee-4aa3-a28b-9e9c49793f98.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4c697c47-1ca7-45d2-9750-eaddcca0e1cc/4c697c47-1ca7-45d2-9750-eaddcca0e1cc.jsonl` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/SERVER_METADATA.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/INSTRUCTIONS.md` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--creating_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/prompts/create_design_system_rules.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--using_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_variable-patterns_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_validation-and-recovery_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-effect-styles_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-text-styles_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_text-style-patterns_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--creating_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--using_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-lifecycle_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_effect-style-patterns_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-grid_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_common-patterns_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_component-patterns_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-patterns_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-properties_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_api-reference_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-standalone_index_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-motion_references_motion-easing_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-design_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-gotchas_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-figjam_references_figjam-colors_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-content_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-figjam_references_plan-board-content_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-motion_references_motion-patterns_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-figjam_references_position-figjam-nodes_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-shape-with-text_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-section_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-connector_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-figjam_references_batch-modify_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-table_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-swiftui_references_design-to-code_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-label_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-text_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-sticky_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-code-block_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-figjam_references_edit-text_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-implement-motion_references_motion-lint-rules_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-library_references_discovery-phase_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-swiftui_references_code-to-design_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-implement-motion_references_examples-and-anti-examples_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-implement-motion_references_unsupported-and-fallbacks_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-library_references_error-recovery_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-library_references_token-creation_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-implement-motion_references_svg-and-path-motion_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-implement-motion_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-implement-motion_references_framework-recommendations_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-library_references_documentation-creation_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-library_references_naming-conventions_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_workflow_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_architecture_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-design_references_discover-product-font_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_sequence_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_gantt_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-library_references_component-creation_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-library_references_code-connect-setup_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_state_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_flowchart_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-design_references_componentization_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_erd_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-design.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-figjam.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-implement-motion.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-code-connect_references_api_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-library.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-generate-diagram.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-swiftui.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-code-connect_references_advanced-patterns_md.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-slides.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use-motion.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-use.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/trigger-specific-tools.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/write-effective-prompts.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-create-new-file.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/tools-not-loading.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-code-connect.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/tools-and-prompts.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/write-to-canvas.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/variables-vs-code.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figma-design-to-code.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/structure-figma-file.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/server-returning-web-code.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/rate-limits-access.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/mcp-clients-issues.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/stuck-or-slow.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/local-server-installation.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/remote-server-installation.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/mcp-vs-agent.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/code-connect-integration.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/add-custom-rules.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/create-skills.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/images-stopped-loading.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/skill-index.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/avoid-large-frames.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/intro.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/figjam-diagram-mcp-app.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/code-to-canvas.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/architecture-diagram-instructions.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/getting-500-error.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/resources/bringing-make-context-to-your-agent.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/list_shader_fills.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/upload_assets.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/list_shader_effects.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/get_shader_fill.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/download_assets.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/get_shader_effect.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/create_new_file.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/list_file_components_for_code_connect.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/get_context_for_code_connect.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/search_design_system.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/get_libraries.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/use_figma.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/add_code_connect_map.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/generate_figma_design.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/whoami.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/generate_diagram.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/get_code_connect_map.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/get_code_connect_suggestions.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/export_video.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/send_code_connect_mappings.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/get_figjam.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/get_design_context.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/get_motion_context.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/get_screenshot.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/get_variable_defs.json` |
+| `projects/home-jorap-Documents-AI-KOS/mcps/plugin-figma-figma/tools/get_metadata.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4c697c47-1ca7-45d2-9750-eaddcca0e1cc/subagents/704a845c-fee1-4d1b-9b52-c32b8a7dfe06.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4c697c47-1ca7-45d2-9750-eaddcca0e1cc/subagents/c236f324-d3c3-4bd4-bbce-bf82a3dca517.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/c6763723-f019-45af-bfe6-70bd322b2b40.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/09fce23e-2471-423f-903c-8fb14b2747a5/09fce23e-2471-423f-903c-8fb14b2747a5.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/09fce23e-2471-423f-903c-8fb14b2747a5/subagents/9da0e26f-e7d5-44c7-8d99-b34d3bcad141.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/8d4fdb24-588f-40c1-bb34-c6be71a10c40/8d4fdb24-588f-40c1-bb34-c6be71a10c40.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/1e35b7e4-73ff-47f9-b5d8-2f36a4a99ca2/1e35b7e4-73ff-47f9-b5d8-2f36a4a99ca2.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/56f99b1a-56a4-4c49-9878-84436c4764d1/56f99b1a-56a4-4c49-9878-84436c4764d1.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/56f99b1a-56a4-4c49-9878-84436c4764d1/subagents/8f41756f-f891-408b-aa6f-223d00415225.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/e2954e68-0d05-43a0-82b2-e398b951a1c6/e2954e68-0d05-43a0-82b2-e398b951a1c6.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/c71aa244-3304-4aee-be2c-075fcafd82a1.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/418787b3-b439-4062-967c-439976a4b793/418787b3-b439-4062-967c-439976a4b793.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/174bc81e-0b08-4f15-a326-56314aa95b7b/174bc81e-0b08-4f15-a326-56314aa95b7b.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/811cfcde-82d6-4392-8155-2fa58f3ce146/811cfcde-82d6-4392-8155-2fa58f3ce146.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/cb86dd93-415c-484d-9a3e-df67ad50660a/cb86dd93-415c-484d-9a3e-df67ad50660a.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/dd17843d-a71a-4f9f-aeb8-6ca010cde24a/dd17843d-a71a-4f9f-aeb8-6ca010cde24a.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/92e76e85-dce8-44e6-96d2-53c034f5fbf3/92e76e85-dce8-44e6-96d2-53c034f5fbf3.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/e2372253-6397-4050-be55-e3a704cbd182/e2372253-6397-4050-be55-e3a704cbd182.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/fbace402-77df-4e7e-87b4-6bc3a34ad63a/fbace402-77df-4e7e-87b4-6bc3a34ad63a.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ccd0d82d-90fc-481d-9797-b6a344a6df07/ccd0d82d-90fc-481d-9797-b6a344a6df07.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/38951ff3-6254-4a42-8a6c-3dda693228ff/38951ff3-6254-4a42-8a6c-3dda693228ff.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/806ef021-b7f1-4ab4-99a0-51541cfe0cbe/806ef021-b7f1-4ab4-99a0-51541cfe0cbe.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/90c8a7e4-c3b9-4001-b224-e03ccbba38da.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/435982a0-ee67-4a7b-88bf-a7f21e6685c9.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ff9bc831-c0d8-4eab-94f8-d67791a6fbe8/ff9bc831-c0d8-4eab-94f8-d67791a6fbe8.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/f18f8aed-8b5c-4c39-b924-cb1e2fe8a4bc.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/b051d399-36a2-4f4b-911a-3a640fd18bc8.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/70e455bc-9333-499c-a140-7741c375463f.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/028f16e5-1d25-4008-b55d-e2510567b530.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/6627200d-c567-4ee3-8228-4100f1905c25.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/56a39e5c-7dd0-4c59-836e-fa2720dad482/56a39e5c-7dd0-4c59-836e-fa2720dad482.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/8c9d9a63-4370-48a5-9056-5d5e4ed2844c/8c9d9a63-4370-48a5-9056-5d5e4ed2844c.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4859c2fb-202a-4ac5-ace5-a079bcca7e47/4859c2fb-202a-4ac5-ace5-a079bcca7e47.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/38a8fb8a-afae-423a-a853-98f24d0eb314/38a8fb8a-afae-423a-a853-98f24d0eb314.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4859c2fb-202a-4ac5-ace5-a079bcca7e47/subagents/853941a2-d0b5-495e-9d51-0cb81328e50b.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4859c2fb-202a-4ac5-ace5-a079bcca7e47/subagents/8f4aee80-081c-4a7e-8018-03fb2b954f47.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4859c2fb-202a-4ac5-ace5-a079bcca7e47/subagents/28115c10-6c4e-494c-a0de-12b4a0824d25.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4859c2fb-202a-4ac5-ace5-a079bcca7e47/subagents/3c602aa3-54db-41fe-8f8f-a3fc605fdfd6.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4859c2fb-202a-4ac5-ace5-a079bcca7e47/subagents/06e0163b-ee0e-49c5-9dd4-67a22a3eaf2c.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/8387bc44-9825-4069-8bcb-1816d6b7623e/8387bc44-9825-4069-8bcb-1816d6b7623e.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4859c2fb-202a-4ac5-ace5-a079bcca7e47/subagents/bbb0fed3-70e1-4963-9481-47a3e2fe9861.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4859c2fb-202a-4ac5-ace5-a079bcca7e47/subagents/f152633f-e38c-4e17-ac7c-7d40c1b9fc9e.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4859c2fb-202a-4ac5-ace5-a079bcca7e47/subagents/cd398975-7238-4b4f-9e42-13de342d381d.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4859c2fb-202a-4ac5-ace5-a079bcca7e47/subagents/32afad8b-baa8-4a16-bc2b-fc3d240ed1f8.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/8387bc44-9825-4069-8bcb-1816d6b7623e/subagents/274e4b8f-475a-48da-9329-94449c44efca.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/8387bc44-9825-4069-8bcb-1816d6b7623e/subagents/fcc4af98-7195-4962-9104-85e568da73b8.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/8387bc44-9825-4069-8bcb-1816d6b7623e/subagents/07031459-ca11-414a-b2c9-7662fe2b6e2d.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/8387bc44-9825-4069-8bcb-1816d6b7623e/subagents/a17c654f-af1d-40db-9659-3f627ef45ccc.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/aa4abc0b-38c5-471b-927e-ad4f369e9aa1.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4c213455-440e-4bd5-afa8-77660cfae3e7/4c213455-440e-4bd5-afa8-77660cfae3e7.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/bda1e8fa-2f45-42ed-9ded-650785007ea5/bda1e8fa-2f45-42ed-9ded-650785007ea5.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/12222728-9b65-4b62-aac1-7ccdfb27ea2b/12222728-9b65-4b62-aac1-7ccdfb27ea2b.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/54fb8e0e-b194-4324-8afc-115ac3a8959b/54fb8e0e-b194-4324-8afc-115ac3a8959b.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/638a95e7-0cf5-4ea1-9a2a-c78a3d8f091a/638a95e7-0cf5-4ea1-9a2a-c78a3d8f091a.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/de0b5cb7-941a-4d96-a942-abd8ef8cb128/de0b5cb7-941a-4d96-a942-abd8ef8cb128.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/d4759d94-99a2-4613-b596-6d04dbfc222d/d4759d94-99a2-4613-b596-6d04dbfc222d.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/2d0e6f5c-79b9-4a8d-9498-4bccf9ef3c32/2d0e6f5c-79b9-4a8d-9498-4bccf9ef3c32.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/3a5da5d6-1941-4483-a64b-70b2003173e6/3a5da5d6-1941-4483-a64b-70b2003173e6.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4a279613-03e8-4528-b41c-914919b1825f/4a279613-03e8-4528-b41c-914919b1825f.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/7bdf14dd-b70a-4108-a028-60ef77c7e8ef/7bdf14dd-b70a-4108-a028-60ef77c7e8ef.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/b1ed4c03-f1fa-41fd-9785-93622261c18e.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ab50e7ed-b906-4ffe-a1fa-822189a39545/ab50e7ed-b906-4ffe-a1fa-822189a39545.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/47f0aa5a-5fe3-416d-8940-5e9d406ffcf7/47f0aa5a-5fe3-416d-8940-5e9d406ffcf7.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/0d01550f-8c1a-42b6-94b5-da2e985a3dac/0d01550f-8c1a-42b6-94b5-da2e985a3dac.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/c72e57be-3b48-47b6-8d32-486e3e22bb4c/c72e57be-3b48-47b6-8d32-486e3e22bb4c.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/9d3b73c0-2428-48c8-9433-9d87e32d87c2/9d3b73c0-2428-48c8-9433-9d87e32d87c2.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/204f9196-e51c-4c16-b6e7-c7b6dbbe262f/204f9196-e51c-4c16-b6e7-c7b6dbbe262f.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/204f9196-e51c-4c16-b6e7-c7b6dbbe262f/subagents/f14374af-bab7-4a5f-ac42-46115b7838ef.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/c0c440f2-5131-482d-b84c-48de6bd09a8a/c0c440f2-5131-482d-b84c-48de6bd09a8a.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/b1a3a248-d858-471f-afed-8cc90a162d60/b1a3a248-d858-471f-afed-8cc90a162d60.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/204f9196-e51c-4c16-b6e7-c7b6dbbe262f/subagents/57b5bc7e-9c8d-4617-90d7-f3f4502bc0c3.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/204f9196-e51c-4c16-b6e7-c7b6dbbe262f/subagents/ce6fcdcb-18ff-4d07-8be8-8260533d17f4.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4d459545-48ba-4dd5-b832-71537ad4666d/4d459545-48ba-4dd5-b832-71537ad4666d.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ad12fdb5-ee03-417c-a8fc-303b7bf1ae14/ad12fdb5-ee03-417c-a8fc-303b7bf1ae14.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/96d8598c-9f73-44f5-95ec-41aef9c1081a/96d8598c-9f73-44f5-95ec-41aef9c1081a.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/b432ae19-fb0e-477c-a1a7-e9815968fec5/b432ae19-fb0e-477c-a1a7-e9815968fec5.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/88fb5049-de92-4939-b319-1d913c33d292.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/69ae2eec-c683-4026-846e-71078f4d9b47.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/f1b5c3b7-9170-47d1-aed5-b87189b666b8/f1b5c3b7-9170-47d1-aed5-b87189b666b8.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4b7f22c5-4618-44cb-b5b6-56fe1333e13a/4b7f22c5-4618-44cb-b5b6-56fe1333e13a.jsonl` |
+| `projects/home-jorap-Documents-AI-KOS/agent-transcripts/384a7aa8-a4dc-4350-8b67-cb361eb03631/384a7aa8-a4dc-4350-8b67-cb361eb03631.jsonl` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/9f4c4a12-7a72-4e85-aba2-439c29c25dc2.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/469603df-6251-4ed2-a6af-a9af0667945a.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/afa18b03-6c78-4caf-8434-c69e16ce702c.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/3913888e-75a2-4c5c-958e-b3c0617f85ad.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/96afe8d5-2a90-44a9-b996-0659b65023c0.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/c0729e2a-4d2a-4bac-b7ed-6e5695f815d6.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/4121b16c-2fa3-4523-9682-7826764d6839.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/7c2f90fc-e911-4c3c-9b42-9198eeaccc40.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/4463e9a1-ef83-4c05-9779-3975f722e9f3.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/6201f837-c2d8-421b-963a-4e84bfe23579.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/644cdcf5-1c6f-4808-ac27-a5034955c341.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/e451138a-2a06-4ca2-b9f0-7216a454801a.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/91ff72c9-3498-45d1-8e81-accf85ce11bd.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/ff077268-f663-480f-ad71-57071878b4de.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/ac7de92f-bca9-4b80-80a6-8f9d8618a2a7.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/9aac80f0-385b-49ac-a58e-525e5e1b7e0b.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/5e24f77a-650d-44d4-930c-a8e82aaf8f67.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/b6a1ec70-6bfb-4ee8-8996-1890ab969b2b.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/bd06980e-6432-4168-960b-6a363623ba1d.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/9f002da5-fe9f-4b1f-a1cb-af1d7ad5127a.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/57432512-c6b4-476d-a1d5-d614b5e9119c.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-transcripts/07065c1c-2bd0-4b28-b144-e6748b2b68e6/07065c1c-2bd0-4b28-b144-e6748b2b68e6.jsonl` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/2f6d1cea-c3fb-4cb2-a2bb-3c71b638060f.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/716ba646-162b-48b3-9f4f-03dd6727b33b.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/c69011f8-3514-4c50-ab27-64f153c4e0dd.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/7044777b-05ed-45e2-94ad-29a3356e3a9f.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/4fac0921-f8bc-4d00-a10f-1a77cd3aa005.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/0bba43f6-0522-4ff1-a6cc-db86858ddf0a.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/b1f87642-7da7-4d6f-b33c-3a668a706715.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/0abf35e2-7aa6-4a85-930d-0351afda2eee.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/852aa224-b2f3-4766-a18e-9627718e9e69.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-transcripts/5489ef00-88a5-43e2-a0cc-3cce91205476/5489ef00-88a5-43e2-a0cc-3cce91205476.jsonl` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/9117fe67-be7b-4df6-ab55-ad348b7e31f6.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-transcripts/0fa0126a-147e-4f79-9fdc-eeda3263561d/0fa0126a-147e-4f79-9fdc-eeda3263561d.jsonl` |
+| `projects/home-jorap-Documents-AI-KOS/agent-transcripts/bf43c9ac-468b-4b11-9e71-133840c5e20f/bf43c9ac-468b-4b11-9e71-133840c5e20f.jsonl` |
+| `projects/home-jorap-Documents-AI-KOS/agent-transcripts/f642b83a-5fa7-4aa9-9578-22336a17a099/f642b83a-5fa7-4aa9-9578-22336a17a099.jsonl` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/e08a4ce3-221f-40b1-8c11-9eab66e6f26b.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-tools/198d1edf-5978-408f-9de2-f5ac7e8d467b.txt` |
+| `projects/home-jorap-Documents-AI-KOS/agent-transcripts/8d5ca488-e027-4b34-a805-54e70ec9f662/8d5ca488-e027-4b34-a805-54e70ec9f662.jsonl` |
+| `projects/home-jorap-Documents-AI-KOS/agent-transcripts/a8bd0e58-6075-48a8-9028-9516cfe129bb/a8bd0e58-6075-48a8-9028-9516cfe129bb.jsonl` |
+| `projects/home-jorap-Documents-AI-KOS/agent-transcripts/7269be82-f6e3-46e4-b7be-2935048a6a98/7269be82-f6e3-46e4-b7be-2935048a6a98.jsonl` |
+| `projects/home-jorap-Documents-AI-KOS/agent-transcripts/7269be82-f6e3-46e4-b7be-2935048a6a98/subagents/c5bdc0db-2b9e-4e8c-acdf-9819067ef6e3.jsonl` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/tsconfig.json` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/@types/react/index.d.ts` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/@types/react/package.json` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/@types/react/jsx-runtime.d.ts` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/canvas-sdk-version` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/cursor/package.json` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/cursor/canvas/ui-primitives.test.d.ts` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/cursor/canvas/form-primitives.d.ts` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/cursor/canvas/index.d.ts` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/cursor/canvas/theme.d.ts` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/cursor/canvas/todo-list.d.ts` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/cursor/canvas/callout-tone-icons.d.ts` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/cursor/canvas/swatch.d.ts` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/cursor/canvas/diff-view.d.ts` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/cursor/canvas/canvas-tokens.d.ts` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/cursor/canvas/hooks.d.ts` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/cursor/canvas/ui-primitives.d.ts` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/cursor/canvas/usage-bar.d.ts` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/cursor/canvas/chart-primitives.d.ts` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/cursor/canvas/dag-layout.d.ts` |
+| `projects/home-jorap-Documents-AI-KOS/canvases/node_modules/cursor/canvas/collapsible-section.d.ts` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/SERVER_METADATA.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/INSTRUCTIONS.md` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/prompts/create_design_system_rules.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--creating_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--using_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-effect-styles_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_variable-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_validation-and-recovery_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--using_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-text-styles_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--creating_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_common-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_effect-style-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-standalone_index_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_component-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-properties_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_text-style-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use_references_api-reference_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-motion_references_motion-easing_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-lifecycle_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-design_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-gotchas_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-grid_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-content_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-figjam_references_position-figjam-nodes_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-motion_references_motion-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-section_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-connector_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-table_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-shape-with-text_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-figjam_references_figjam-colors_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-sticky_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-figjam_references_edit-text_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-figjam_references_plan-board-content_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-text_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-label_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-implement-motion_references_motion-lint-rules_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-swiftui_references_code-to-design_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-swiftui_references_design-to-code_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-implement-motion_references_unsupported-and-fallbacks_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-implement-motion_references_svg-and-path-motion_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-figjam_references_batch-modify_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-code-block_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-implement-motion_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-library_references_token-creation_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-implement-motion_references_examples-and-anti-examples_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-library_references_discovery-phase_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-library_references_error-recovery_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-library_references_component-creation_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-library_references_documentation-creation_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-implement-motion_references_framework-recommendations_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-library_references_naming-conventions_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_architecture_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_erd_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_sequence_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_gantt_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-library_references_code-connect-setup_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_workflow_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_flowchart_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_state_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-design_references_discover-product-font_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-slides.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-code-connect_references_api_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-design_references_componentization_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-code-connect_references_advanced-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-library.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-design.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-create-new-file.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-swiftui.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-figjam.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use-motion.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-generate-diagram.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-implement-motion.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-design-to-code.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-use.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/structure-figma-file.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/server-returning-web-code.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/trigger-specific-tools.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/write-effective-prompts.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figma-code-connect.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/stuck-or-slow.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/write-to-canvas.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/variables-vs-code.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/remote-server-installation.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/tools-not-loading.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/tools-and-prompts.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/code-connect-integration.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/create-skills.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/getting-500-error.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/rate-limits-access.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/mcp-clients-issues.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/bringing-make-context-to-your-agent.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/intro.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/code-to-canvas.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/local-server-installation.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/images-stopped-loading.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/mcp-vs-agent.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/list_shader_fills.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/list_shader_effects.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/get_shader_fill.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/get_shader_effect.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/add-custom-rules.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/skill-index.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/avoid-large-frames.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/figjam-diagram-mcp-app.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/resources/architecture-diagram-instructions.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/upload_assets.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/search_design_system.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/use_figma.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/export_video.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/create_new_file.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/list_file_components_for_code_connect.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/get_context_for_code_connect.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/download_assets.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/get_libraries.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/add_code_connect_map.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/whoami.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/generate_diagram.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/get_code_connect_suggestions.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/send_code_connect_mappings.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/get_code_connect_map.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/generate_figma_design.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/get_figjam.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/get_screenshot.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/get_metadata.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/get_variable_defs.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/get_design_context.json` |
+| `projects/home-jorap-Documents-GitHub-dd3/mcps/plugin-figma-figma/tools/get_motion_context.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/SERVER_METADATA.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/INSTRUCTIONS.md` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/prompts/create_design_system_rules.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--using_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--creating_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_variable-patterns_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_validation-and-recovery_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-effect-styles_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-text-styles_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_text-style-patterns_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--creating_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--using_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_effect-style-patterns_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_common-patterns_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_component-patterns_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-patterns_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-properties_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_api-reference_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-standalone_index_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-lifecycle_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-content_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-grid_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-motion_references_motion-patterns_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-design_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-gotchas_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-motion_references_motion-easing_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-figjam_references_figjam-colors_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-figjam_references_plan-board-content_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-text_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-figjam_references_position-figjam-nodes_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-figjam_references_edit-text_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-section_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-connector_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-table_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-label_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-sticky_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-code-block_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-shape-with-text_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-implement-motion_references_motion-lint-rules_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-swiftui_references_code-to-design_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-figjam_references_batch-modify_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-implement-motion_references_svg-and-path-motion_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-implement-motion_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-swiftui_references_design-to-code_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-implement-motion_references_framework-recommendations_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-implement-motion_references_unsupported-and-fallbacks_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-library_references_token-creation_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-library_references_component-creation_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-library_references_code-connect-setup_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-library_references_documentation-creation_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-library_references_naming-conventions_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-library_references_discovery-phase_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-library_references_error-recovery_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-implement-motion_references_examples-and-anti-examples_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_sequence_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_gantt_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_state_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_flowchart_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_erd_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_workflow_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_architecture_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-design_references_discover-product-font_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-swiftui.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-design_references_componentization_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-code-connect_references_advanced-patterns_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-slides.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-motion.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-use-figjam.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-code-connect_references_api_md.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-library.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/write-effective-prompts.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-diagram.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-create-new-file.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-code-connect.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/write-to-canvas.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/variables-vs-code.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-design-to-code.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-generate-design.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figma-implement-motion.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/structure-figma-file.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/server-returning-web-code.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/trigger-specific-tools.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/rate-limits-access.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/mcp-clients-issues.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/stuck-or-slow.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/tools-not-loading.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/remote-server-installation.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/mcp-vs-agent.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/tools-and-prompts.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/code-connect-integration.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/add-custom-rules.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/create-skills.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/avoid-large-frames.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/intro.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/local-server-installation.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/code-to-canvas.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/getting-500-error.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/bringing-make-context-to-your-agent.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/images-stopped-loading.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/list_shader_fills.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/list_shader_effects.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/get_shader_fill.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/get_shader_effect.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/skill-index.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/figjam-diagram-mcp-app.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/resources/architecture-diagram-instructions.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/upload_assets.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/search_design_system.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/use_figma.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/create_new_file.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/list_file_components_for_code_connect.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/get_libraries.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/download_assets.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/add_code_connect_map.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/whoami.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/get_code_connect_suggestions.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/export_video.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/send_code_connect_mappings.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/get_context_for_code_connect.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/generate_diagram.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/get_code_connect_map.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/generate_figma_design.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/get_figjam.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/get_metadata.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/get_variable_defs.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/get_screenshot.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/get_motion_context.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/plugin-figma-figma/tools/get_design_context.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/INSTRUCTIONS.md` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/prompts/create_design_system_rules.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/SERVER_METADATA.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--creating_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--using_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-effect-styles_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-text-styles_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_effect-style-patterns_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_variable-patterns_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_validation-and-recovery_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_component-patterns_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-patterns_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_text-style-patterns_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--using_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--creating_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-standalone_index_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-lifecycle_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-grid_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_common-patterns_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-properties_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use_references_api-reference_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-motion_references_motion-easing_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-content_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-figjam_references_plan-board-content_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-motion_references_motion-patterns_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-design_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-gotchas_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-figjam_references_position-figjam-nodes_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-figjam_references_figjam-colors_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-table_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-text_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-figjam_references_edit-text_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-sticky_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-section_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-swiftui_references_code-to-design_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-connector_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-figjam_references_batch-modify_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-swiftui_references_design-to-code_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-label_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-shape-with-text_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-code-block_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-implement-motion_references_motion-lint-rules_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-library_references_token-creation_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-implement-motion_references_svg-and-path-motion_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-implement-motion_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-implement-motion_references_framework-recommendations_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-library_references_naming-conventions_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-implement-motion_references_examples-and-anti-examples_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-implement-motion_references_unsupported-and-fallbacks_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-library_references_error-recovery_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_sequence_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_gantt_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-library_references_component-creation_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-library_references_code-connect-setup_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_state_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-library_references_documentation-creation_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-library_references_discovery-phase_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_workflow_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_architecture_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-design_references_discover-product-font_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_flowchart_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-design_references_componentization_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-code-connect_references_advanced-patterns_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_erd_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-code-connect_references_api_md.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-slides.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-library.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-diagram.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-swiftui.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-generate-design.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-figjam.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-implement-motion.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-use-motion.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/trigger-specific-tools.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/write-effective-prompts.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-create-new-file.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/tools-not-loading.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-code-connect.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/write-to-canvas.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/variables-vs-code.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figma-design-to-code.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/structure-figma-file.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/server-returning-web-code.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/rate-limits-access.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/mcp-clients-issues.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/stuck-or-slow.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/intro.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/local-server-installation.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/remote-server-installation.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/mcp-vs-agent.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/tools-and-prompts.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/code-connect-integration.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/add-custom-rules.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/create-skills.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/avoid-large-frames.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/code-to-canvas.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/getting-500-error.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/bringing-make-context-to-your-agent.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/images-stopped-loading.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/get_shader_fill.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/skill-index.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/figjam-diagram-mcp-app.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/resources/architecture-diagram-instructions.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/list_shader_fills.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/list_shader_effects.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/get_shader_effect.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/upload_assets.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/search_design_system.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/use_figma.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/create_new_file.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/list_file_components_for_code_connect.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/get_context_for_code_connect.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/download_assets.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/get_libraries.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/export_video.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/send_code_connect_mappings.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/add_code_connect_map.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/generate_figma_design.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/get_figjam.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/whoami.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/generate_diagram.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/get_code_connect_suggestions.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/get_metadata.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/get_variable_defs.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/get_code_connect_map.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/get_screenshot.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/get_design_context.json` |
+| `projects/home-jorap-Documents-automattic/mcps/plugin-figma-figma/tools/get_motion_context.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4993c40d-d45e-43f8-a2fd-753a103aebda/4993c40d-d45e-43f8-a2fd-753a103aebda.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ed4ead4b-a9fa-46b6-a215-86d2660e4d37/ed4ead4b-a9fa-46b6-a215-86d2660e4d37.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4993c40d-d45e-43f8-a2fd-753a103aebda/subagents/ca65a93b-e9f5-408c-9000-e34c4451de4e.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4993c40d-d45e-43f8-a2fd-753a103aebda/subagents/b19d4436-a94a-41af-96c7-fb52f4c6c53a.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/607a16f4-6ca8-4a82-a0ac-29d2898c3968/607a16f4-6ca8-4a82-a0ac-29d2898c3968.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/6c094c9a-57ef-4e8c-9161-6b65bf6976b4/6c094c9a-57ef-4e8c-9161-6b65bf6976b4.jsonl` |
+| `projects/home-jorap-Documents-automattic/terminals/2.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/010317f9-9faa-454a-87bf-ff85472389e0/010317f9-9faa-454a-87bf-ff85472389e0.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/55fa41b6-fdd1-46b9-bed8-792d239d7a1c/55fa41b6-fdd1-46b9-bed8-792d239d7a1c.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/d9e2a612-d7ae-4b14-99e7-73f8fdc351fb/d9e2a612-d7ae-4b14-99e7-73f8fdc351fb.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/e86ae02e-d3e5-4140-9e14-2eebc5dba718/e86ae02e-d3e5-4140-9e14-2eebc5dba718.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4e272907-f0a1-4635-ac22-f55736e10235/4e272907-f0a1-4635-ac22-f55736e10235.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/dd57a711-f71c-4883-9395-7653ae9ab1cf.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/db41973d-35f3-4588-8704-f79584ad60ae.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/b9a3dacf-7bf5-434a-9138-bb9592758758.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/cc63028a-0c08-4337-9ca7-e7193d98f9dd.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/0b5fc13a-7ec2-47a3-a5cb-3107564c973f.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/478ccfdf-bd26-4e75-b613-38c31fdaf257.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/f1be2f73-8d1f-407c-b9a0-b1babe9f5548/f1be2f73-8d1f-407c-b9a0-b1babe9f5548.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/3785b86e-613c-4f55-a3e4-f8f3704298fc.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/cce9dfb0-0d90-4506-98e8-368686e42edc.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/6505cbb7-13eb-483a-adc1-6b5991f33dae.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/8517a2dc-96ae-41aa-b7c1-92047d8ab7e8.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/cb5a0a0c-8fc0-42d0-82e3-5c25f7495625.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/f8405b29-80de-429f-a805-aca72354f047.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/a77e37cf-9797-401c-9552-35bedf78ba38.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/fb10f04d-ab88-47f8-be33-724bdab5fd77.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/99e53e9b-aad2-4dd7-9e5f-0530bb4d08b7.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/45faab16-f1b2-444b-ac1b-3fa6df9e3b33.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/712da246-7000-48b4-b15b-366055b5ab4f.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/20d3b493-0a55-4234-a6c6-768280abab76.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/07983634-be14-4678-925e-a8ac1d781862/07983634-be14-4678-925e-a8ac1d781862.jsonl` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/project-0-jngtech-novamira-localhost/SERVER_METADATA.json` |
+| `projects/home-jorap-Documents-local-jngtech/mcps/project-0-jngtech-novamira-localhost/STATUS.md` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/79895587-30a1-4c1f-8724-1a7229febb1a/79895587-30a1-4c1f-8724-1a7229febb1a.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/8b5ffd18-054f-46f0-ab23-2fad1f22181e/8b5ffd18-054f-46f0-ab23-2fad1f22181e.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/eb30b9d8-d0ca-4602-be72-25460cab9421/eb30b9d8-d0ca-4602-be72-25460cab9421.jsonl` |
+| `projects/home-jorap-Documents-GitHub-dd3/terminals/1.txt` |
+| `projects/home-jorap-Documents-GitHub-dd3/agent-transcripts/269700f6-57fe-4bf9-948f-0f687cb2adf6/269700f6-57fe-4bf9-948f-0f687cb2adf6.jsonl` |
+| `projects/home-jorap-Documents-GitHub-dd3/agent-transcripts/6f5d756b-76fc-4812-a5e4-6b629e910c7b/6f5d756b-76fc-4812-a5e4-6b629e910c7b.jsonl` |
+| `projects/home-jorap-Documents-GitHub-dd3/agent-transcripts/c2092370-8aea-4013-9622-ba56c4ea84fb/c2092370-8aea-4013-9622-ba56c4ea84fb.jsonl` |
+| `projects/home-jorap-Documents-GitHub-dd3/agent-tools/59b59a9c-0765-4c3b-bd7f-600137c97cb0.txt` |
+| `projects/home-jorap-Documents-GitHub-dd3/terminals/3.txt` |
+| `projects/home-jorap-Documents-local-jngtech/agent-transcripts/bd113555-e6bd-442a-a338-8cdcb5a08bea/bd113555-e6bd-442a-a338-8cdcb5a08bea.jsonl` |
+| `projects/home-jorap-Documents-local-jngtech/agent-tools/13660a5e-5b1c-4ca0-989c-e57ed14c627f.txt` |
+| `projects/home-jorap-Documents-local-jngtech/terminals/1.txt` |
+| `projects/home-jorap-Documents-local-jngtech/agent-transcripts/2ac1ae2d-7cf9-45e0-a00e-78bc1dc27dfe/2ac1ae2d-7cf9-45e0-a00e-78bc1dc27dfe.jsonl` |
+| `projects/home-jorap-Documents-local-jngtech/agent-transcripts/39780ef9-ca11-4345-ae13-5e8e4b794bdc/39780ef9-ca11-4345-ae13-5e8e4b794bdc.jsonl` |
+| `projects/home-jorap-Documents-local-jngtech/agent-tools/d1b718af-f6cc-4549-8026-d36f4af4bc70.txt` |
+| `projects/home-jorap-Documents-local-jngtech/agent-transcripts/af27090b-7414-4a7b-918e-9132e7cfe6a6/af27090b-7414-4a7b-918e-9132e7cfe6a6.jsonl` |
+| `projects/home-jorap-Documents-local-jngtech/agent-tools/4efe462f-507c-4e5d-bfa7-b55068f61755.txt` |
+| `projects/home-jorap-Documents-local-jngtech/agent-transcripts/2264d099-1bf5-4709-969f-83f9a85b3b33/2264d099-1bf5-4709-969f-83f9a85b3b33.jsonl` |
+| `projects/home-jorap-Documents-local-jngtech/agent-transcripts/6f8b918a-ba78-4a47-b37a-f07781c6d019/6f8b918a-ba78-4a47-b37a-f07781c6d019.jsonl` |
+| `projects/home-jorap-Documents-local-jngtech/agent-transcripts/0dffa743-dce2-48c4-85b8-2edf03a1f54b/0dffa743-dce2-48c4-85b8-2edf03a1f54b.jsonl` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/tsconfig.json` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/@types/react/index.d.ts` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/@types/react/package.json` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/@types/react/jsx-runtime.d.ts` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/canvas-sdk-version` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/cursor/package.json` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/cursor/canvas/ui-primitives.test.d.ts` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/cursor/canvas/form-primitives.d.ts` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/cursor/canvas/index.d.ts` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/cursor/canvas/theme.d.ts` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/cursor/canvas/todo-list.d.ts` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/cursor/canvas/callout-tone-icons.d.ts` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/cursor/canvas/swatch.d.ts` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/cursor/canvas/diff-view.d.ts` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/cursor/canvas/canvas-tokens.d.ts` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/cursor/canvas/hooks.d.ts` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/cursor/canvas/ui-primitives.d.ts` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/cursor/canvas/usage-bar.d.ts` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/cursor/canvas/chart-primitives.d.ts` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/cursor/canvas/dag-layout.d.ts` |
+| `projects/home-jorap-Documents-local-jngtech/canvases/node_modules/cursor/canvas/collapsible-section.d.ts` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/6ec68f11-0574-4238-b6a8-de1d8d3bdff3/6ec68f11-0574-4238-b6a8-de1d8d3bdff3.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/746672e0-d050-4469-b11d-966aa2b76fc1/746672e0-d050-4469-b11d-966aa2b76fc1.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-tools/558c34fa-6b4a-4e9c-98c1-4d078ec8661d.txt` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/eeaa23e0-e1dd-488f-a03e-8234c72a7f54/eeaa23e0-e1dd-488f-a03e-8234c72a7f54.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-tools/daef9729-eb7d-4da8-b3c6-469f8aecc257.txt` |
+| `projects/home-jorap-Documents-automattic/agent-tools/33a401aa-221b-4948-8a6b-450a42891c11.txt` |
+| `projects/home-jorap-Documents-automattic/agent-tools/6839af7c-7454-4703-ac3b-6893738735ed.txt` |
+| `projects/home-jorap-Documents-automattic/agent-tools/2c4fa0a1-5c49-4617-a334-ac3fd0dab52e.txt` |
+| `projects/home-jorap-Documents-automattic/agent-tools/cb8d688c-918a-4b13-920b-bc5e8496e446.txt` |
+| `projects/home-jorap-Documents-automattic/agent-tools/5dab4fed-f9a1-428b-a43d-e5ab90cc4dff.txt` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/c825b713-4f4f-41a4-910b-c5cc795b53ee/c825b713-4f4f-41a4-910b-c5cc795b53ee.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/666166f4-4f02-4af8-b61b-c53aab00e721/666166f4-4f02-4af8-b61b-c53aab00e721.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/229aa711-efca-4c4a-aadd-a052fbf487af/229aa711-efca-4c4a-aadd-a052fbf487af.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/6b1c9caf-9415-415b-9f0f-12c343c85466/6b1c9caf-9415-415b-9f0f-12c343c85466.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/dc0a1e4e-a702-4a9a-b8fd-8e5da22f2ba7/dc0a1e4e-a702-4a9a-b8fd-8e5da22f2ba7.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/e2567b70-5108-4d83-b7d1-a72e449aa4d9/e2567b70-5108-4d83-b7d1-a72e449aa4d9.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/498082e7-c3d5-489e-97f8-bdea65a21dbe/498082e7-c3d5-489e-97f8-bdea65a21dbe.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/9fbbd9b3-c9f4-46d6-993f-bb25b38d2e75/9fbbd9b3-c9f4-46d6-993f-bb25b38d2e75.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/a7e42ebe-3f3a-494e-b793-d18887e90a8f/a7e42ebe-3f3a-494e-b793-d18887e90a8f.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/ef71e60c-5b32-48ed-9acb-3ce426fd05ac/ef71e60c-5b32-48ed-9acb-3ce426fd05ac.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/14c9211e-0a44-4338-aa0b-19a05c4c8c81/14c9211e-0a44-4338-aa0b-19a05c4c8c81.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/211e391a-201f-41de-b34c-16b8f7f4c080/211e391a-201f-41de-b34c-16b8f7f4c080.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/6351e00a-38e4-4df4-aa6e-e6511d4a0c80/6351e00a-38e4-4df4-aa6e-e6511d4a0c80.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/572f62c7-981b-49f1-9f65-e1bdc1fb31de/572f62c7-981b-49f1-9f65-e1bdc1fb31de.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/29a71879-a221-4399-be44-b81fe6bc96ab/29a71879-a221-4399-be44-b81fe6bc96ab.jsonl` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/package.json` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/dist/ThirdPartyNotices.txt` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/dist/extension.js` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/dist/oxide-helper.js` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/dist/tailwindModeServer.js` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/dist/tailwindServer.js` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/syntaxes/at-apply.tmLanguage.json` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/syntaxes/at-rules.postcss.tmLanguage.json` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/syntaxes/at-rules.scss.tmLanguage.json` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/syntaxes/at-rules.tmLanguage.json` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/syntaxes/screen-fn.tmLanguage.json` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/syntaxes/source.css.tailwind.tmLanguage.json` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/syntaxes/theme-fn.tmLanguage.json` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/changelog.md` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/LICENSE.txt` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/readme.md` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/tailwindcss.language.configuration.json` |
+| `extensions/bradlc.vscode-tailwindcss-0.16.0-universal/.vsixmanifest` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/09c18e75-5842-4628-a620-1d773224bfcc/09c18e75-5842-4628-a620-1d773224bfcc.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/09c18e75-5842-4628-a620-1d773224bfcc/subagents/71221fe2-6f64-485d-aa14-749b1abe00b6.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/09c18e75-5842-4628-a620-1d773224bfcc/subagents/49603d0a-2402-412b-b9bd-60fed4f2d2f3.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/9d9a044d-3191-4e72-b3e1-b05561d7e764/9d9a044d-3191-4e72-b3e1-b05561d7e764.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/9d9a044d-3191-4e72-b3e1-b05561d7e764/subagents/cafe134b-63b7-4bde-9938-e0392b391a53.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/9d9a044d-3191-4e72-b3e1-b05561d7e764/subagents/78f1075b-f870-408d-b13c-11442ca15329.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4a87acec-055d-427e-af32-a29a92c9c0f7/4a87acec-055d-427e-af32-a29a92c9c0f7.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/fe814ff4-e0a7-4768-a301-3026e846b8a4/fe814ff4-e0a7-4768-a301-3026e846b8a4.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/19a71101-05a5-45aa-be47-01887ce3e03b/19a71101-05a5-45aa-be47-01887ce3e03b.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/8b23a0b2-8ecd-4c35-9d18-3ea33517eb2b/8b23a0b2-8ecd-4c35-9d18-3ea33517eb2b.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/98f5a682-1815-438c-8eb2-fced2b7462cc/98f5a682-1815-438c-8eb2-fced2b7462cc.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/c106cb54-98f8-48a1-84ae-41e341c69277/c106cb54-98f8-48a1-84ae-41e341c69277.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/5ad513c5-5094-4a98-af57-c20fd466029f/5ad513c5-5094-4a98-af57-c20fd466029f.jsonl` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/prompts/create_design_system_rules.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/SERVER_METADATA.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/INSTRUCTIONS.md` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--creating_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--using_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--using_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_effect-style-patterns_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-standalone_index_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_variable-patterns_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_validation-and-recovery_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_text-style-patterns_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-effect-styles_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-text-styles_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--creating_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-patterns_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-motion_references_motion-patterns_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_api-reference_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-motion_references_motion-easing_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-lifecycle_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-content_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-grid_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-design_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-gotchas_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_common-patterns_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-properties_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use_references_component-patterns_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-section_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-connector_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-sticky_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-figjam_references_position-figjam-nodes_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-figjam_references_figjam-colors_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-figjam_references_edit-text_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-shape-with-text_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-table_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-figjam_references_plan-board-content_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-label_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-text_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-implement-motion_references_motion-lint-rules_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-swiftui_references_code-to-design_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-code-block_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-figjam_references_batch-modify_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-implement-motion_references_svg-and-path-motion_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-implement-motion_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-swiftui_references_design-to-code_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-implement-motion_references_unsupported-and-fallbacks_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-implement-motion_references_framework-recommendations_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-library_references_token-creation_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-library_references_component-creation_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-library_references_discovery-phase_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_workflow_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-implement-motion_references_examples-and-anti-examples_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-library_references_error-recovery_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-library_references_code-connect-setup_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-library_references_documentation-creation_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-library_references_naming-conventions_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_architecture_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_erd_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-design_references_discover-product-font_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_sequence_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_gantt_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-slides.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-code-connect_references_api_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_flowchart_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-design_references_componentization_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-code-connect_references_advanced-patterns_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_state_md.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/write-to-canvas.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-library.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-design-to-code.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-motion.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-diagram.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-create-new-file.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-generate-design.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-use-figjam.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-implement-motion.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-swiftui.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figma-code-connect.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/structure-figma-file.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/server-returning-web-code.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/trigger-specific-tools.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/write-effective-prompts.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/variables-vs-code.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/rate-limits-access.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/stuck-or-slow.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/tools-not-loading.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/remote-server-installation.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/tools-and-prompts.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/code-connect-integration.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/add-custom-rules.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/create-skills.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/getting-500-error.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/bringing-make-context-to-your-agent.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/mcp-clients-issues.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/avoid-large-frames.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/intro.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/local-server-installation.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/images-stopped-loading.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/code-to-canvas.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/mcp-vs-agent.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/list_shader_fills.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/upload_assets.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/list_shader_effects.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/get_shader_fill.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/get_shader_effect.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/create_new_file.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/download_assets.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/skill-index.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/figjam-diagram-mcp-app.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/resources/architecture-diagram-instructions.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/search_design_system.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/get_code_connect_suggestions.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/use_figma.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/export_video.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/send_code_connect_mappings.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/list_file_components_for_code_connect.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/get_context_for_code_connect.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/get_libraries.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/add_code_connect_map.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/generate_figma_design.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/get_figjam.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/whoami.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/generate_diagram.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/get_variable_defs.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/get_code_connect_map.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/get_screenshot.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/get_metadata.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/get_design_context.json` |
+| `projects/home-jorap-Documents-tailwind-ui/mcps/plugin-figma-figma/tools/get_motion_context.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/c70d545b-1455-49fb-baff-dd0416641167/c70d545b-1455-49fb-baff-dd0416641167.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4c1d357f-38dd-4fa1-8b00-b88050bdcee5/4c1d357f-38dd-4fa1-8b00-b88050bdcee5.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4c1d357f-38dd-4fa1-8b00-b88050bdcee5/subagents/7fd8267b-7b48-446e-ab22-402244ac6cbf.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/b9d2b4e9-d5ff-41f3-a1a3-295504033b22/b9d2b4e9-d5ff-41f3-a1a3-295504033b22.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/b0b6a7f3-60b7-45cc-a356-87c18a871bd3.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/8e1d4020-48fc-4ff1-b23e-5856edffe6c4.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/5ceb3a9e-488c-44ad-9588-a86513005c62.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/f37c4cfa-fed8-4212-b8ed-fd35aa49aa68.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/20580ee0-2f90-4f36-8591-68917f4d479a.txt` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/fa2c71b5-183f-4c20-940a-a3240e265583/fa2c71b5-183f-4c20-940a-a3240e265583.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/294bc83e-502d-4d09-9c73-701fbc16453f/294bc83e-502d-4d09-9c73-701fbc16453f.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/294bc83e-502d-4d09-9c73-701fbc16453f/subagents/ce389500-f013-495c-87ae-fee40e8b7822.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/4c269125-e9cc-453f-a12d-f8af73e46626/4c269125-e9cc-453f-a12d-f8af73e46626.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/63a8a941-dadc-4b70-a6f4-b1ce4726972f/63a8a941-dadc-4b70-a6f4-b1ce4726972f.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/caf4ccc8-997b-4f30-a461-321bdc6c0207/caf4ccc8-997b-4f30-a461-321bdc6c0207.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/1a52e3b5-7af2-4077-aec7-c9ae3ace5385/1a52e3b5-7af2-4077-aec7-c9ae3ace5385.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/975f29a1-a755-4736-9433-62a1fe3f2ede/975f29a1-a755-4736-9433-62a1fe3f2ede.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/622ee44f-e0c3-4390-bcac-9e563a3ae212/622ee44f-e0c3-4390-bcac-9e563a3ae212.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/0ee347a1-59fd-4b40-bd9b-015e948b25cd/0ee347a1-59fd-4b40-bd9b-015e948b25cd.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/08d630ba-d791-4a47-825d-0654fa025136/08d630ba-d791-4a47-825d-0654fa025136.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/439c4301-8181-4c72-a262-92e8d9dbcc9e/439c4301-8181-4c72-a262-92e8d9dbcc9e.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/87ad1d70-9762-43f7-96a4-a0f2fcee387f/87ad1d70-9762-43f7-96a4-a0f2fcee387f.jsonl` |
+| `skills-cursor/review-security/SKILL.md` |
+| `skills-cursor/review-bugbot/SKILL.md` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/90876914-3e84-4635-9f94-431f8ca3d85f/90876914-3e84-4635-9f94-431f8ca3d85f.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/83a0abdd-e24c-4576-a191-f6ba8c25fc54/83a0abdd-e24c-4576-a191-f6ba8c25fc54.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/d0f25b8a-59ca-4878-93d4-54ff3ecc9da9/d0f25b8a-59ca-4878-93d4-54ff3ecc9da9.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/e8c2e78f-9b49-4003-aee8-6b7a89f8af95/e8c2e78f-9b49-4003-aee8-6b7a89f8af95.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/0dd3956d-8656-4501-8f2d-6b5119ed0d69/0dd3956d-8656-4501-8f2d-6b5119ed0d69.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/67d81010-f177-47a9-abd0-0eff993ab106/67d81010-f177-47a9-abd0-0eff993ab106.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/f2db64fb-aedd-4fac-b62b-b0811bb3e27d.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/e8de5baf-d330-4b93-bd0d-108a91b148f9.txt` |
+| `projects/home-jorap-Documents-tailwind-ui/agent-transcripts/c56eebbd-6543-41a7-ac0b-ff8a23c478f4/c56eebbd-6543-41a7-ac0b-ff8a23c478f4.jsonl` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/tsconfig.json` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/@types/react/index.d.ts` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/@types/react/package.json` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/@types/react/jsx-runtime.d.ts` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/canvas-sdk-version` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/cursor/package.json` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/cursor/canvas/ui-primitives.test.d.ts` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/cursor/canvas/form-primitives.d.ts` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/cursor/canvas/index.d.ts` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/cursor/canvas/theme.d.ts` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/cursor/canvas/todo-list.d.ts` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/cursor/canvas/callout-tone-icons.d.ts` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/cursor/canvas/swatch.d.ts` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/cursor/canvas/diff-view.d.ts` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/cursor/canvas/canvas-tokens.d.ts` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/cursor/canvas/hooks.d.ts` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/cursor/canvas/ui-primitives.d.ts` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/cursor/canvas/usage-bar.d.ts` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/cursor/canvas/chart-primitives.d.ts` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/cursor/canvas/dag-layout.d.ts` |
+| `projects/home-jorap-Documents-tailwind-ui/canvases/node_modules/cursor/canvas/collapsible-section.d.ts` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/763f8dba-200d-4992-bfb8-97f48680b98a/763f8dba-200d-4992-bfb8-97f48680b98a.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/e0157445-430a-46b8-b109-a0d2e932b5d3/e0157445-430a-46b8-b109-a0d2e932b5d3.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/f695817e-72f5-4317-8d78-258806506c13/f695817e-72f5-4317-8d78-258806506c13.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/959c2023-9fec-4555-81c9-b03b72dbb8cd/959c2023-9fec-4555-81c9-b03b72dbb8cd.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/6c11f24c-e237-4f1d-90c3-7f7f250159a2/6c11f24c-e237-4f1d-90c3-7f7f250159a2.jsonl` |
+| `projects/home-jorap-Documents-automattic/agent-transcripts/d7a7b1e6-1da4-4284-80df-706bbd03cc0e/d7a7b1e6-1da4-4284-80df-706bbd03cc0e.jsonl` |
+| `projects/home-jorap-Documents-automattic/canvases/tsconfig.json` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/@types/react/index.d.ts` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/@types/react/package.json` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/@types/react/jsx-runtime.d.ts` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/canvas-sdk-version` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/cursor/package.json` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/cursor/canvas/ui-primitives.test.d.ts` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/cursor/canvas/form-primitives.d.ts` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/cursor/canvas/index.d.ts` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/cursor/canvas/theme.d.ts` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/cursor/canvas/todo-list.d.ts` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/cursor/canvas/callout-tone-icons.d.ts` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/cursor/canvas/swatch.d.ts` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/cursor/canvas/diff-view.d.ts` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/cursor/canvas/canvas-tokens.d.ts` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/cursor/canvas/hooks.d.ts` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/cursor/canvas/ui-primitives.d.ts` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/cursor/canvas/usage-bar.d.ts` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/cursor/canvas/chart-primitives.d.ts` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/cursor/canvas/dag-layout.d.ts` |
+| `projects/home-jorap-Documents-automattic/canvases/node_modules/cursor/canvas/collapsible-section.d.ts` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/7f2c502c-ce58-4895-87ed-830decb6b96c/7f2c502c-ce58-4895-87ed-830decb6b96c.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/e3c28429-fc81-48b3-a559-95b39a3f5659/e3c28429-fc81-48b3-a559-95b39a3f5659.jsonl` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.mcp.json` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/video-interaction-mapper/SKILL.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/video-interaction-mapper/README.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/video-interaction-mapper/scripts/update_run_manifest.py` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/video-interaction-mapper/scripts/extract_key_frames.py` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/video-interaction-mapper/scripts/resolve_moment_frames.py` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/video-interaction-mapper/scripts/prepare_upload_frames.py` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/video-interaction-mapper/scripts/generate_figma_calls.py` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/generate-project-plan/SKILL.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/generate-project-plan/references/section-catalog.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/generate-project-plan/references/foundation/layout.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/generate-project-plan/references/foundation/palette.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/generate-project-plan/references/foundation/codebase-grounding.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/generate-project-plan/references/foundation/plugin-api-traps.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/generate-project-plan/references/blocks/text-primitives.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/generate-project-plan/references/blocks/diagram-section.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/generate-project-plan/references/blocks/section.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/generate-project-plan/references/blocks/metadata-strip.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/generate-project-plan/references/blocks/intro-callout.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/generate-project-plan/references/blocks/table.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/generate-project-plan/references/blocks/multi-column-text.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/generate-project-plan/references/blocks/nested-section.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/workflow-skills/generate-project-plan/references/blocks/sticky-column.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/gemini-extension.json` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.claude-plugin/plugin.json` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.cursor-plugin/plugin.json` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/server.json` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/README.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-diagram/SKILL.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-diagram/references/state.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-diagram/references/workflow.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-diagram/references/architecture.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-diagram/references/flowchart.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-diagram/references/sequence.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-diagram/references/erd.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-diagram/references/gantt.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-motion/SKILL.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-motion/references/motion-easing.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-motion/references/motion-patterns.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-design/SKILL.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-design/references/componentization.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-design/references/discover-product-font.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/SKILL.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/text-style-patterns.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/validation-and-recovery.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/plugin-api-standalone.index.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/plugin-api-standalone.d.ts` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/working-with-design-systems/wwds-effect-styles.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/working-with-design-systems/wwds-text-styles.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/working-with-design-systems/wwds-variables.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/working-with-design-systems/wwds-variables--creating.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/working-with-design-systems/wwds-components--using.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/working-with-design-systems/wwds.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/working-with-design-systems/wwds-variables--using.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/working-with-design-systems/wwds-components--creating.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/working-with-design-systems/wwds-components.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/variable-patterns.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/effect-style-patterns.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/common-patterns.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/gotchas.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/plugin-api-patterns.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/component-patterns.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use/references/api-reference.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-code-connect/SKILL.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-code-connect/references/advanced-patterns.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-code-connect/references/api.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-create-new-file/SKILL.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-design-to-code/SKILL.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-slides/SKILL.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-slides/references/slide-gotchas.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-slides/references/slide-grid.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-slides/references/slide-design.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-slides/references/slide-lifecycle.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-slides/references/slide-content.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-slides/references/slide-properties.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-implement-motion/SKILL.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-implement-motion/references/motion-lint-rules.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-implement-motion/references/unsupported-and-fallbacks.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-implement-motion/references/framework-recommendations.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-implement-motion/references/svg-and-path-motion.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-implement-motion/references/examples-and-anti-examples.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-implement-motion/references/gotchas.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-swiftui/SKILL.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-swiftui/references/design-to-code.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-swiftui/references/code-to-design.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-figjam/SKILL.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-figjam/references/create-text.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-figjam/references/create-label.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-figjam/references/create-code-block.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-figjam/references/create-table.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-figjam/references/edit-text.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-figjam/references/plan-board-content.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-figjam/references/position-figjam-nodes.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-figjam/references/create-section.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-figjam/references/create-connector.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-figjam/references/figjam-colors.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-figjam/references/create-sticky.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-figjam/references/batch-modify.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-use-figjam/references/create-shape-with-text.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/SKILL.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/references/component-creation.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/references/naming-conventions.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/references/documentation-creation.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/references/error-recovery.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/references/discovery-phase.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/references/code-connect-setup.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/references/token-creation.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/scripts/rehydrateState.js` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/scripts/cleanupOrphans.js` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/scripts/createDocumentationPage.js` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/scripts/validateCreation.js` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/scripts/createVariableCollection.js` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/scripts/createSemanticTokens.js` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/scripts/createComponentWithVariants.js` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/scripts/bindVariablesToComponent.js` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/skills/figma-generate-library/scripts/inspectFileStructure.js` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/hooks/update.sample` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/hooks/fsmonitor-watchman.sample` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/hooks/pre-receive.sample` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/hooks/sendemail-validate.sample` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/hooks/commit-msg.sample` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/hooks/push-to-checkout.sample` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/hooks/pre-rebase.sample` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/hooks/pre-merge-commit.sample` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/hooks/pre-commit.sample` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/hooks/applypatch-msg.sample` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/hooks/pre-applypatch.sample` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/hooks/prepare-commit-msg.sample` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/hooks/post-update.sample` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/hooks/pre-push.sample` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/info/exclude` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/HEAD` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/logs/HEAD` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/config` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/FETCH_HEAD` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/shallow` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.git/description` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/Figma Icon (Mono-line black, tight).svg` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/.github/plugin/plugin.json` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/Figma Icon (Full-color).svg` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/figma-power/POWER.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/figma-power/steering/code-connect-components.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/figma-power/steering/implement-design.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/figma-power/steering/create-design-system-rules.md` |
+| `plugins/cache/cursor-public/figma/07316dd2920d61303ca0e52812b31f5f341e7b15/figma-power/mcp.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ca570a56-998c-41dc-a679-da3bd69116a9/ca570a56-998c-41dc-a679-da3bd69116a9.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ca570a56-998c-41dc-a679-da3bd69116a9/subagents/70e8df70-c078-4084-a3c3-2f5b5be58681.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/2efe0d9c-0c84-403f-9dc2-0f1c343fcbbe/2efe0d9c-0c84-403f-9dc2-0f1c343fcbbe.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/0c5b3222-99e1-417e-87c3-cc0079805b28/0c5b3222-99e1-417e-87c3-cc0079805b28.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/484df158-3acb-44de-9091-69326dd63ead.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/309cf49b-4b15-4b1b-b221-e366cc903316/309cf49b-4b15-4b1b-b221-e366cc903316.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/6656341b-87ab-42ca-9857-3c36e145dd92/6656341b-87ab-42ca-9857-3c36e145dd92.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/a8c414d2-5caf-47f8-9cf3-0b905dc8c629/a8c414d2-5caf-47f8-9cf3-0b905dc8c629.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/58a38724-357e-4f56-9bc4-2ce9fe31ef42/58a38724-357e-4f56-9bc4-2ce9fe31ef42.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/fc503dae-bee8-48de-9989-d4365dc7a7f3/fc503dae-bee8-48de-9989-d4365dc7a7f3.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/edf952d2-16ba-4f11-826e-1236ff132ba5/edf952d2-16ba-4f11-826e-1236ff132ba5.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ecbe0b56-3ed7-4ef2-b466-ed0bcb448597/ecbe0b56-3ed7-4ef2-b466-ed0bcb448597.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/00864008-6161-49e6-a620-836716c5b7f6.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/2034b623-ea0d-4c76-821f-28aae835f044.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/8c7b219c-d348-43bb-863b-c9456808d952.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/23a9e32d-1aa5-44fa-a06f-3bd5e8d0d9f2/23a9e32d-1aa5-44fa-a06f-3bd5e8d0d9f2.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/db7adbff-ccce-427a-9852-fd60cd937411/db7adbff-ccce-427a-9852-fd60cd937411.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/efe1c39d-9f11-48c0-b4f9-9a64003b6bd0/efe1c39d-9f11-48c0-b4f9-9a64003b6bd0.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/6e1d46aa-bdfe-4186-9da5-cf7769da252a.txt` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/7418d345-eee7-41f6-9864-e5de0d9099d9.txt` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/INSTRUCTIONS.md` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/prompts/create_design_system_rules.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/SERVER_METADATA.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--creating_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_variable-patterns_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--using_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-effect-styles_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-text-styles_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--using_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--creating_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_effect-style-patterns_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_validation-and-recovery_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_common-patterns_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_component-patterns_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-patterns_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-standalone_index_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_text-style-patterns_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-properties_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use_references_api-reference_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-motion_references_motion-easing_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-lifecycle_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-content_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-grid_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-figjam_references_plan-board-content_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-figjam_references_position-figjam-nodes_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-design_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-gotchas_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-motion_references_motion-patterns_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-section_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-connector_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-figjam_references_figjam-colors_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-table_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-sticky_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-code-block_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-figjam_references_edit-text_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-shape-with-text_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-label_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-figjam_references_create-text_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-implement-motion_references_motion-lint-rules_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-swiftui_references_code-to-design_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-figjam_references_batch-modify_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-implement-motion_references_svg-and-path-motion_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-implement-motion_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-swiftui_references_design-to-code_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-implement-motion_references_framework-recommendations_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-implement-motion_references_examples-and-anti-examples_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-implement-motion_references_unsupported-and-fallbacks_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-library_references_token-creation_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_sequence_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_gantt_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-library_references_component-creation_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-library_references_code-connect-setup_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_state_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-library_references_discovery-phase_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-library_references_documentation-creation_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_workflow_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-library_references_error-recovery_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-library_references_naming-conventions_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_architecture_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-design_references_discover-product-font_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-slides.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-motion.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_flowchart_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-design_references_componentization_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-code-connect_references_api_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-code-connect_references_advanced-patterns_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-diagram_references_erd_md.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-library.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-diagram.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-create-new-file.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-swiftui.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-design-to-code.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-generate-design.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-use-figjam.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-implement-motion.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/structure-figma-file.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/trigger-specific-tools.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/write-effective-prompts.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/stuck-or-slow.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/tools-not-loading.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figma-code-connect.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/variables-vs-code.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/tools-and-prompts.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/write-to-canvas.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/create-skills.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/server-returning-web-code.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/rate-limits-access.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/mcp-clients-issues.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/intro.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/local-server-installation.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/remote-server-installation.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/images-stopped-loading.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/mcp-vs-agent.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/getting-500-error.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/list_shader_fills.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/get_shader_fill.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/code-connect-integration.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/add-custom-rules.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/skill-index.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/avoid-large-frames.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/figjam-diagram-mcp-app.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/code-to-canvas.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/architecture-diagram-instructions.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/resources/bringing-make-context-to-your-agent.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/upload_assets.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/list_shader_effects.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/search_design_system.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/get_shader_effect.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/use_figma.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/create_new_file.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/list_file_components_for_code_connect.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/get_context_for_code_connect.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/download_assets.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/get_libraries.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/add_code_connect_map.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/generate_figma_design.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/whoami.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/generate_diagram.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/get_code_connect_suggestions.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/export_video.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/send_code_connect_mappings.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/get_code_connect_map.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/get_figjam.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/get_screenshot.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/get_metadata.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/get_variable_defs.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/get_design_context.json` |
+| `projects/home-jorap-Documents-local-jrf-app-public-wp-content-plugins-jr-blocks/mcps/plugin-figma-figma/tools/get_motion_context.json` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/f000d7fb-9e64-4c11-9475-025102db2449/f000d7fb-9e64-4c11-9475-025102db2449.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/de922c8e-132e-44f1-9f7b-d0743c7bfacf/de922c8e-132e-44f1-9f7b-d0743c7bfacf.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/d60304ff-05ae-4666-b3e6-37028aa4d815/d60304ff-05ae-4666-b3e6-37028aa4d815.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/82b4af51-8217-488d-91b5-bc523bf28cee/82b4af51-8217-488d-91b5-bc523bf28cee.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/6d40a3b0-1dc4-4dbf-9ee8-97d2ea8425bf/6d40a3b0-1dc4-4dbf-9ee8-97d2ea8425bf.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/19ce5f5a-5606-4779-a23d-6652a4ea33bf/19ce5f5a-5606-4779-a23d-6652a4ea33bf.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/beefa5ab-565c-440b-a5c2-f7accc6520d7/beefa5ab-565c-440b-a5c2-f7accc6520d7.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/c3c3b8ce-741f-4eb5-9901-c545d940ab96/c3c3b8ce-741f-4eb5-9901-c545d940ab96.jsonl` |
+| `projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/c8510693-414a-4d8a-bcea-4106ded6e185/c8510693-414a-4d8a-bcea-4106ded6e185.jsonl` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/INSTRUCTIONS.md` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/SERVER_METADATA.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/prompts/create_design_system_rules.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--creating_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables--using_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-effect-styles_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-text-styles_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-variables_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_effect-style-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_variable-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_validation-and-recovery_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_gotchas_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_component-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_text-style-patterns_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--creating_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_working-with-design-systems_wwds-components--using_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use_references_plugin-api-standalone_index_md.json` |
+| `projects/home-jorap-Documents-GitHub-static-site-system/mcps/plugin-figma-figma/resources/figma-use-slides_references_slide-lifecycle_md.json` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/rules/git-commits.mdc</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Organizing the response by category.
+
+The repository itself is complete for site work. Kilo needs global equivalents for parity with Cursor. Ponytail skills are duplicated across project and global levels. Cursor user rules without files need Kilo global replacements. Optional Cursor IDE skills may apply. AGENTS.md intentionally omits globals; only canonical paths belong there.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Short answer: **nothing else is required in this repo** for jorap.com work. The repo’s `.cursor/` tree is already complete. What’s missing is **Kilo’s global layer** (and optionally aligning a stale duplicate).
+
+## What this repo already covers
+
+`kilo.jsonc` loads only project paths:
+
+```1:7:kilo.jsonc
+{
+  // Canonical agent config lives under .cursor/ (shared with Cursor). See AGENTS.md.
+  "skills": {
+    "paths": [".cursor/skills"]
+  },
+  "instructions": ["AGENTS.md", ".cursor/rules/*.mdc"]
+}
+```
+
+That gives Kilo **8 rules** and **17 skills**, including site-specific ones (`garden-voice`, `jorap-voice`, `hugo-template-guidance`, etc.) plus ponytail/impeccable copies already in the repo.
+
+So you do **not** need to add more rules or skills under `.cursor/` or `AGENTS.md` for this project to function.
+
+---
+
+## What exists globally (outside the repo)
+
+| Location | Contents | Loaded by Cursor? | Loaded by Kilo (today)? |
+|----------|----------|-------------------|-------------------------|
+| `~/.cursor/rules/ponytail.mdc` | Global ponytail rule | Yes (always) | **No** — no `~/.config/kilo/` yet |
+| `~/.cursor/skills/` | ponytail*, impeccable (7 skills) | Yes | **No** |
+| `~/.cursor/skills-cursor/` | Cursor product skills (create-rule, babysit, sdk, etc.) | Yes | **No** |
+| Cursor **User Rules** (settings UI) | commits, PRs, prose style, ask mode, etc. | Yes | **No** |
+
+Kilo only sees what’s in **project** `kilo.jsonc` unless you add a **global** `~/.config/kilo/kilo.jsonc`.
+
+---
+
+## What must be added for Kilo parity (not in the repo)
+
+Create **`~/.config/kilo/kilo.jsonc`** and point it at your user-level paths — no copying into jorap.com:
+
+```jsonc
+{
+  "instructions": [
+    "~/.cursor/rules/ponytail.mdc"
+    // optional: a single ~/.config/kilo/user-rules.md for Cursor User Rules prose
+  ],
+  "skills": {
+    "paths": [
+      "~/.cursor/skills",
+      "~/.cursor/skills-cursor"
+    ]
+  }
+}
+```
+
+### Global rules — recommended
+
+| Rule | Why |
+|------|-----|
+| `~/.cursor/rules/ponytail.mdc` | **Yes** — applies everywhere; Kilo won’t get it otherwise |
+
+Optional: one markdown file for Cursor User Rules that aren’t files (git safety, PR workflow, communication style). Those live in Cursor settings today and **don’t sync automatically** to Kilo.
+
+### Global skills — by need
+
+| Skill set | Add to Kilo global? |
+|-----------|---------------------|
+| `~/.cursor/skills/` (ponytail*, impeccable) | **Optional** — already duplicated in this repo’s `.cursor/skills/`; Kilo gets them from project config |
+| `~/.cursor/skills-cursor/` (create-rule, babysit, sdk, etc.) | **Only if** you use those workflows in Kilo on any repo |
+
+For **jorap.com only**, global skills are not required because the project tree already includes ponytail/impeccable.
+
+---
+
+## Duplication to be aware of (not “add”, but fix)
+
+You currently have **two ponytail rules**:
+
+- **Global** `~/.cursor/rules/ponytail.mdc` — richer (reuse codebase, root-cause fixes, “understand before climbing”)
+- **Project** `.cursor/rules/ponytail.mdc` — older/shorter 6-rung version
+
+Cursor loads **both** on this repo. Kilo loads only the project one.
+
+**Recommendation:** update the project `ponytail.mdc` to match the global version (one canonical copy in the repo), and keep global for other repos — or drop the project copy and rely on global in Cursor only (but then Kilo needs global config).
+
+Same for ponytail/impeccable **skills**: duplicated in `~/.cursor/skills/` and `.cursor/skills/`. No need to add more; pick one source of truth per tool.
+
+---
+
+## What does **not** belong in `AGENTS.md` or this repo
+
+Per `agent-config-sync.mdc`, don’t paste global rule/skill bodies into `AGENTS.md`. That file should stay an index.
+
+Also don’t add to this repo:
+
+- `~/.cursor/skills-cursor/*` — Cursor-product tooling, not site-specific
+- Cursor User Rules from settings — unless you export them to a global Kilo file
+
+---
+
+## Practical checklist
+
+**For jorap.com in Kilo (minimum):** open repo → new session. Project config is enough.
+
+**For Kilo ≈ Cursor on this repo:**
+1. Create `~/.config/kilo/kilo.jsonc` with global ponytail rule (+ optional user-rules markdown)
+2. Sync project `ponytail.mdc` with the global version
+3. Add `skills-cursor` paths only if you want Kilo to run Cursor meta-skills (create-rule, babysit, etc.)
+
+**For other repos:** global `kilo.jsonc` + global ponytail rule is what you need; jorap-specific skills stay in this repo only.
+
+If you want, switch to Agent mode and I can scaffold `~/.config/kilo/kilo.jsonc` and align the project `ponytail.mdc` with your global one.

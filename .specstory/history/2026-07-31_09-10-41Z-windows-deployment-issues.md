@@ -1817,3 +1817,99 @@ _**Agent (auto-low)**_
 <summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-tailwind-bin.js</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-tailwind-bin.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I realized I made a mistake in the self-check.
+
+The self-check hack failed because `detectPlatform` reads `platform()` directly from the imported `os` module. I'll refactor it to accept an optional OS name argument so tests can pass explicit values cleanly.
+
+I'll replace the broken `.call()` self-check with a loop testing win32, darwin, linux, and freebsd against their expected outputs. The module-level `os` variable remains correct since it still resolves to the real platform at load time.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing the self-check: the platform-detection test was incorrect.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-tailwind-bin.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-tailwind-bin.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running a self-check to verify the fix works on Linux.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/fix-tailwind-bin.js --self-check &amp;&amp; node scripts/fix-tailwind-bin.js &amp;&amp; head -3 node_modules/.bin/tailwindcss &amp;&amp; ls node_modules/.bin/tailwindcss* 2&gt;/dev/null</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/fix-tailwind-bin.js --self-check && node scripts/fix-tailwind-bin.js && head -3 node_modules/.bin/tailwindcss && ls node_modules/.bin/tailwindcss* 2>/dev/null
+```
+
+```
+fix-tailwind-bin self-check OK
+#!/usr/bin/env node
+// fix-tailwind-bin-shim
+import "./tailwindcss-shim.mjs";
+node_modules/.bin/tailwindcss
+node_modules/.bin/tailwindcss-shim.mjs
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Linux output correctly avoids Windows-specific .cmd and .ps1 files.
+
+Self-check passed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+`fix-tailwind-bin.js` now detects the OS explicitly and branches per platform.
+
+**Platform detection** — `detectPlatform()` maps:
+- `win32` → `windows`
+- `darwin` → `macos`
+- `linux` → `linux`
+- anything else → `unknown` (falls back to Unix layout with a warning)
+
+**Per-platform behavior**
+
+| Platform | Files written |
+|----------|----------------|
+| **Windows** | `tailwindcss-shim.mjs`, shebang `tailwindcss`, Hugo-parseable `tailwindcss.cmd` (CRLF), `tailwindcss.ps1` |
+| **macOS / Linux** | `tailwindcss-shim.mjs`, shebang `tailwindcss` only (no `.cmd`/`.ps1`) |
+| **Unknown** | Same as macOS/Linux + warning |
+
+**`isFixed()`** validates the layout for the current OS (Windows checks `.cmd` path; Unix checks shebang).
+
+**Self-check** tests all four `detectPlatform()` inputs (`win32`, `darwin`, `linux`, `freebsd`).
+
+## Session close
+- Fixed: `fix-tailwind-bin.js` now explicitly branches for Windows, macOS, Linux, and unknown platforms.
+- Encode: none
+- Open: clean

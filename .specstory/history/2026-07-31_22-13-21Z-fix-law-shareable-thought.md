@@ -504,5 +504,511 @@ law-of-connection.md is complete. law-of-empowerment.md is next.
 
 law-of-empowerment.md is complete. law-of-explosive-growth.md is next.
 
-law-of-explosive-growth.md
+law-of-explosive-growth.md is complete. law-of-influence.md is next.
+
+law-of-influence.md is complete. law-of-intuition.md is next.
+
+law-of-intuition.md is complete. law-of-legacy.md is next.
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-legacy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Proceeding to batch all StrReplace operations across the 22 files.
+
+A Node.js script will parse Level 1 and Level 2 from key_concept and rewrite the shareable_thought lines. This avoids manual errors across 22 files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Writing a script to update shareable_thought lines 3–4 from current key_concept Level 1/2 across all 22 files.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node &lt;&lt;&#39;SCRIPT&#39;
+const fs = require(&#39;fs&#39;);
+const path = require(&#39;path&#39;);
+
+const notesDir = &#39;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#39;;
+const files = [
+  ...fs.readdirSync(notesDir).filter(f =&gt; f.startsWith(&#39;law-of-&#39;) &amp;&amp; f.endsWith(&#39;.md&#39;)),
+  &#39;21-laws-of-leadership-in-the-bible.md&#39;,
+].sort();
+
+let updated = 0;
+
+for (const file of files) {
+  const fp = path.join(notesDir, file);
+  let content = fs.readFileSync(fp, &#39;utf8&#39;);
+
+  const level1Match = content.match(/^  - Level 1: (.+)$/m);
+  const level2Match = content.match(/^  - Level 2: (.+)$/m);
+  if (!level1Match || !level2Match) {
+    console.error(`SKIP ${file}: missing Level 1/2`);
+    continue;
+  }
+  const level1 = level1Match[1].trim();
+  const level2 = level2Match[1].trim();
+
+  const shareableMatch = content.match(/shareable_thought:\n((?:  - &#34;[^&#34;]*&#34;\n){4})/);
+  if (!shareableMatch) {
+    console.error(`SKIP ${file}: shareable_thought not found or not 4 lines`);
+    continue;
+  }
+
+  const lines = shareableMatch[1].match(/  - &#34;[^&#34;]*&#34;/g);
+  if (!lines || lines.length !== 4) {
+    console.error(`SKIP ${file}: expected 4 shareable lines, got ${lines?.length}`);
+    continue;
+  }
+
+  const newLine3 = `  - &#34;${level1.replace(/&#34;/g, &#39;\\&#34;&#39;)}&#34;`;
+  const newLine4 = `  - &#34;${level2.replace(/&#34;/g, &#39;\\&#34;&#39;)}&#34;`;
+
+  const oldBlock = shareableMatch[1];
+  const newLines = [lines[0], lines[1], newLine3, newLine4];
+  const newBlock = newLines.map(l =&gt; l + &#39;\n&#39;).join(&#39;&#39;);
+
+  if (oldBlock === newBlock) {
+    console.log(`UNCHANGED ${file}`);
+    continue;
+  }
+
+  content = content.replace(oldBlock, newBlock);
+  fs.writeFileSync(fp, content);
+  updated++;
+  console.log(`UPDATED ${file}`);
+}
+
+console.log(`\nTotal updated: ${updated}`);
+SCRIPT</summary>
+```bash
+node <<'SCRIPT'
+const fs = require('fs');
+const path = require('path');
+
+const notesDir = '/home/jorap/Documents/GitHub/jorap.com/content/english/notes';
+const files = [
+  ...fs.readdirSync(notesDir).filter(f => f.startsWith('law-of-') && f.endsWith('.md')),
+  '21-laws-of-leadership-in-the-bible.md',
+].sort();
+
+let updated = 0;
+
+for (const file of files) {
+  const fp = path.join(notesDir, file);
+  let content = fs.readFileSync(fp, 'utf8');
+
+  const level1Match = content.match(/^  - Level 1: (.+)$/m);
+  const level2Match = content.match(/^  - Level 2: (.+)$/m);
+  if (!level1Match || !level2Match) {
+    console.error(`SKIP ${file}: missing Level 1/2`);
+    continue;
+  }
+  const level1 = level1Match[1].trim();
+  const level2 = level2Match[1].trim();
+
+  const shareableMatch = content.match(/shareable_thought:\n((?:  - "[^"]*"\n){4})/);
+  if (!shareableMatch) {
+    console.error(`SKIP ${file}: shareable_thought not found or not 4 lines`);
+    continue;
+  }
+
+  const lines = shareableMatch[1].match(/  - "[^"]*"/g);
+  if (!lines || lines.length !== 4) {
+    console.error(`SKIP ${file}: expected 4 shareable lines, got ${lines?.length}`);
+    continue;
+  }
+
+  const newLine3 = `  - "${level1.replace(/"/g, '\\"')}"`;
+  const newLine4 = `  - "${level2.replace(/"/g, '\\"')}"`;
+
+  const oldBlock = shareableMatch[1];
+  const newLines = [lines[0], lines[1], newLine3, newLine4];
+  const newBlock = newLines.map(l => l + '\n').join('');
+
+  if (oldBlock === newBlock) {
+    console.log(`UNCHANGED ${file}`);
+    continue;
+  }
+
+  content = content.replace(oldBlock, newBlock);
+  fs.writeFileSync(fp, content);
+  updated++;
+  console.log(`UPDATED ${file}`);
+}
+
+console.log(`\nTotal updated: ${updated}`);
+SCRIPT
+```
+
+```
+UPDATED 21-laws-of-leadership-in-the-bible.md
+UPDATED law-of-addition.md
+UPDATED law-of-buy-in.md
+UPDATED law-of-connection.md
+UPDATED law-of-empowerment.md
+UPDATED law-of-explosive-growth.md
+UPDATED law-of-influence.md
+UPDATED law-of-intuition.md
+UPDATED law-of-legacy.md
+UPDATED law-of-magnetism.md
+UPDATED law-of-navigation.md
+UPDATED law-of-priorities.md
+UPDATED law-of-process.md
+UPDATED law-of-respect.md
+UPDATED law-of-sacrifice.md
+UPDATED law-of-solid-ground.md
+UPDATED law-of-the-big-mo.md
+UPDATED law-of-the-inner-circle.md
+UPDATED law-of-the-lid.md
+UPDATED law-of-the-picture.md
+UPDATED law-of-timing.md
+UPDATED law-of-victory.md
+
+Total updated: 22
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 22 files were updated. Now verifying that no "Level 1:" or "Level 2:" prefixes remain in shareable_thought lines 3-4.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Verifying no stale Level prefixes remain and spot-checking a few files:
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "law-of-*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level [12]:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level [12]:",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-the-big-mo.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-the-inner-circle.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-the-picture.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-victory.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-the-lid.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-timing.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-process.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-respect.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-priorities.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-solid-ground.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-sacrifice.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-navigation.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-magnetism.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-legacy.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-intuition.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-explosive-growth.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-buy-in.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-connection.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-influence.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-empowerment.md"
+    }
+  ],
+  "totalFiles": 21,
+  "totalMatches": 42
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/21-laws-of-leadership-in-the-bible.md",
+  "pattern": "Level [12]:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/21-laws-of-leadership-in-the-bible.md",
+  "pattern": "Level [12]:",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/21-laws-of-leadership-in-the-bible.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-addition.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/21-laws-of-leadership-in-the-bible.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 22 law-of files now have their shareable_thought lines 3 and 4 rewritten without "Level 1:" or "Level 2:" prefixes.
+
+The 21-laws hub file still contains old "Level 1:" text on line 2, though lines 3 and 4 are now correct. A final grep confirms no "Level 1:" or "Level 2:" prefixes remain in shareable_thought lines 3-4 across all 22 files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "law-of-*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\"Level [12]:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\"Level [12]:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/21-laws-of-leadership-in-the-bible.md",
+  "pattern": "\"Level [23]:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/21-laws-of-leadership-in-the-bible.md",
+  "pattern": "\"Level [23]:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Re-checking 21-laws-of-leadership-in-the-bible.md to confirm whether line 2 still contains the "Level 1:" prefix.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/21-laws-of-leadership-in-the-bible.md",
+  "pattern": "Level"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/21-laws-of-leadership-in-the-bible.md",
+  "pattern": "Level",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/21-laws-of-leadership-in-the-bible.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Lines 3 and 4 of shareable_thought were updated. Line 16 was left unchanged since it falls outside the requested range.
+
+All 22 files were updated. The final count is 22.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 22 files were updated. Shareable_thought lines 3 and 4 now echo current key_concept Level 1 and Level 2 wording without "Level N:" prefixes.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+**22 files updated.**
+
+For every `law-of-*.md` note and `21-laws-of-leadership-in-the-bible.md`, `shareable_thought` lines 3 and 4 now mirror the current `key_concept` Level 1 and Level 2 bullets — no `"Level N:"` prefix, substance preserved, nothing else changed.
+
+Example from `law-of-addition.md`:
+
+- Line 3: `"The law of addition is that leaders add value by serving others - giving away advantage can become the blessing lane."`
+- Line 4: `"Abram let Lot pick first - generosity added peace, not loss; Jesus redefined greatness as service, Paul told Philippi to put others first like Christ."`
+
+No `law-of-*` file still has `"Level 1:"` or `"Level 2:"` in `shareable_thought`. The hub note’s line 2 still has old Level 1 text — you asked for lines 3–4 only.
+
+## Session close
+- Fixed: `shareable_thought` lines 3–4 in all 22 Bible leadership law notes now echo current Level 1/2 `key_concept` wording.
+- Encode: none
+- Open: clean

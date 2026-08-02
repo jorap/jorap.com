@@ -981,3 +981,2291 @@ _**Agent (composer-2.5-fast)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
 
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Next I will inspect garden-health.py, lint-notes-frontmatter.py, notes_content.py, search-index-fields, static/admin/config.yml, the garden-voice SKILL.md Level section, depth-of-understanding note, normalize-notes-format.py, voice-lint.py, and assets/js files.
+
+I will also check the data/ directory for level-specific files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml",
+  "pattern": "key_concept|Level|level"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml",
+  "pattern": "key_concept|Level|level",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "static/admin/config.yml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py",
+  "pattern": "key_concept|Level|level"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py",
+  "pattern": "key_concept|Level|level",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The search now covers index fields, backlinks, HTML templates, JavaScript assets, Python normalization scripts, linting tools, and seed scripts to locate every reference to Level 1–5 bullets.
+
+The themes folder and single-note layout templates are also being checked.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,json,js,mjs,py,yml,yaml,toml,md}",
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "key_concept|keyConcept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "key_concept|keyConcept",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-07_03-36-19Z-marvel-snap-experience.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-02_05-35-18Z-ai-prompts-review.md"
+    },
+    {
+      "matchCount": 40,
+      "uri": ".specstory/history/2026-07-03_05-14-19Z-shareable-thoughts-review.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-03_01-49-12Z-notes-with-five-word.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-08_01-33-43Z-nasb1995-bible-yaml-format.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-07-08_00-42-13Z-verse-display-standards-update.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": ".specstory/history/2026-07-02_23-40-15Z-site-voice-consistency-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "archetypes/notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "archetypes/notes-review.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-01_11-55-29Z-key-concepts-from-notes.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-07-02_00-11-43Z-effective-flashcard-philosophy.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": ".specstory/history/2026-07-03_06-55-32Z-review-voice-audit.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": ".specstory/history/2026-07-05_14-32-06Z-new-notes-creation.md"
+    },
+    {
+      "matchCount": 20,
+      "uri": ".specstory/history/2026-07-02_01-02-48Z-rewrite-note-descriptions-batch.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": ".specstory/history/2026-07-02_01-02-56Z-rewrite-note-descriptions-batch.md"
+    },
+    {
+      "matchCount": 72,
+      "uri": ".specstory/history/2026-07-02_00-24-02Z-notes-layout-preference.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-03_11-30-03Z-garden-link-issues.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": ".specstory/history/2026-07-02_07-20-36Z-expand-thin-key-concepts.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-02_00-21-59Z-fix-flashcards-batch-4.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-07-03_01-49-12Z-notes-with-five-word-titles.md"
+    }
+  ],
+  "totalFiles": 87,
+  "totalMatches": 2001
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/search-index-fields.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/backlinks-index.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/depth-of-understanding.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Expanding the search to include themes, single-note layouts, JavaScript assets, normalize-notes-format, voice-lint, slop-lint, archive scripts, and a grep for level_ in non-content directories.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,js,mjs,py,yml,yaml,toml,md}",
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "key_concept|keyConcept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "key_concept|keyConcept",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "archetypes/notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-06_07-13-26Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "data/ep-verse-explanations.yaml"
+    },
+    {
+      "matchCount": 45,
+      "uri": ".specstory/history/2026-07-09_16-10-36Z-key-concept-notes-review.md"
+    },
+    {
+      "matchCount": 61,
+      "uri": ".specstory/history/2026-07-03_04-41-11Z-shareable-lines-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_09-33-35Z-transformation-principles-overview.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-05_14-39-40Z-discipleship-and-leadership-notes.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": ".specstory/history/2026-07-02_23-40-15Z-site-voice-consistency-review.md"
+    },
+    {
+      "matchCount": 75,
+      "uri": ".specstory/history/2026-07-09_15-34-09Z-notes-review-and-key.md"
+    }
+  ],
+  "totalFiles": 9,
+  "totalMatches": 2001
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "first_key_concept|key_concept|KC_BULLET|Level"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "first_key_concept|key_concept|KC_BULLET|Level",
+  "topFiles": [
+    {
+      "matchCount": 14,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/notes-voice-lint.py"
+    },
+    {
+      "matchCount": 10,
+      "uri": "scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/slop-lint.py"
+    },
+    {
+      "matchCount": 22,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/test-search.mjs"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 55
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **190** results in **1** directory</summary>
+
+Directory: **``** (190 files)
+
+| File |
+|------|
+| `layouts/_partials/notes/relationship-types.html` |
+| `themes/jorap/layouts/taxonomy.html` |
+| `themes/jorap/layouts/about/list.html` |
+| `themes/jorap/layouts/_partials/components/author-card.html` |
+| `themes/jorap/layouts/_partials/sections/home-writing.html` |
+| `themes/jorap/layouts/_partials/widgets/tags.html` |
+| `themes/jorap/layouts/single.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/search/layouts/partials/search-page.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/shortcodes/slider.html` |
+| `layouts/notes/cards.html` |
+| `layouts/_partials/components/scroll-progress.html` |
+| `layouts/_partials/logo.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/youtube-lite.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/partials/slider.html` |
+| `layouts/_partials/notes/preview-index.html` |
+| `themes/jorap/layouts/_partials/call-to-action.html` |
+| `layouts/_partials/notes/pages.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/notice/layouts/shortcodes/notice.html` |
+| `layouts/_partials/essentials/fingerprint-asset.html` |
+| `layouts/_partials/essentials/script.html` |
+| `themes/jorap/layouts/shortcodes/spotify_iframe_artist.html` |
+| `layouts/_partials/llms-page-body-fallback.html` |
+| `layouts/_partials/notes/backlinks.html` |
+| `layouts/notes/single.html` |
+| `layouts/_partials/notes/graph-data-local.html` |
+| `layouts/_partials/toc-related-extras.html` |
+| `layouts/_partials/notes/copy-markdown.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/button/layouts/shortcodes/button.html` |
+| `layouts/_partials/notes/search-index-fields.html` |
+| `layouts/_partials/essentials/publish-asset.html` |
+| `layouts/_partials/notes/is-utility-page.html` |
+| `layouts/_partials/notes/note-issues-panel.html` |
+| `themes/jorap/layouts/_partials/sections/features.html` |
+| `layouts/_partials/notes/index-has-body-wikilinks.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/images/layouts/partials/image.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/partials/gallery.html` |
+| `layouts/_partials/notes/sort-by-connections.html` |
+| `layouts/_partials/notes/tag-chips.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/partials/video.html` |
+| `layouts/notes/create.html` |
+| `layouts/_partials/essentials/header.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/images/layouts/partials/logo.html` |
+| `layouts/_partials/essentials/self-hosted-fonts.html` |
+| `layouts/_partials/notes/flashcard.html` |
+| `themes/jorap/layouts/_partials/components/icon.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/video.html` |
+| `themes/jorap/layouts/authors/list.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/components/announcement/layouts/partials/announcement.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/mermaid/layouts/partials/mermaid-js.html` |
+| `themes/jorap/layouts/_partials/components/blog-card.html` |
+| `layouts/_partials/notes/cards-for-page.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/table-of-contents/layouts/shortcodes/toc.html` |
+| `layouts/_partials/notes/card-sets.html` |
+| `themes/jorap/layouts/_partials/components/social-share.html` |
+| `themes/jorap/layouts/_partials/components/theme-switcher.html` |
+| `layouts/_partials/notes/toolbar.html` |
+| `themes/jorap/layouts/_partials/sections/home-scope.html` |
+| `layouts/randomizer.html` |
+| `layouts/_partials/notes/graph-data.html` |
+| `themes/jorap/layouts/_partials/essentials/theme-init.html` |
+| `themes/jorap/layouts/_partials/page-header.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/shortcodes/gallery.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/tab/layouts/shortcodes/tab.html` |
+| `themes/jorap/layouts/_partials/widgets/widget-wrapper.html` |
+| `themes/jorap/layouts/_partials/components/back-to-top.html` |
+| `layouts/notes/review.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/search/layouts/partials/search-index.html` |
+| `layouts/_partials/notes/recent-new.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/tab/layouts/shortcodes/tabs.html` |
+| `themes/jorap/layouts/shortcodes/youtube.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/components/custom-script/layouts/partials/custom-script.html` |
+| `themes/jorap/layouts/_partials/widgets/categories.html` |
+| `layouts/_partials/essentials/style.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/partials/vimeo-lite.html` |
+| `layouts/drafts/list.html` |
+| `layouts/_partials/notes/note-raw-body.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/seo-tools/basic-seo/layouts/partials/basic-seo.html` |
+| `layouts/_partials/search-index.html` |
+| `layouts/_partials/notes/expand-bible-mentions.html` |
+| `layouts/_partials/notes/note-meta.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/modal/layouts/partials/modal.html` |
+| `layouts/_partials/notes/note-card.html` |
+| `themes/jorap/layouts/home.html` |
+| `layouts/_partials/notes/note-link-card.html` |
+| `layouts/notes/issues.html` |
+| `layouts/_partials/notes/local-graph.html` |
+| `layouts/_partials/components/theme-switcher.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/accordion/layouts/partials/accordion.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager/layouts/partials/gtm-noscript.html` |
+| `layouts/_partials/notes/backlink-item.html` |
+| `layouts/_partials/notes/card-set-filter-buttons.html` |
+| `layouts/_partials/notes/link-registry.html` |
+| `layouts/_partials/notes/outgoing-links.html` |
+| `themes/jorap/layouts/blog/single.html` |
+| `themes/jorap/layouts/shortcodes/youtube_time.html` |
+| `themes/jorap/layouts/contact/list.html` |
+| `layouts/_partials/notes/assembled-content.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/components/social-share/layouts/partials/social-share.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/adsense/layouts/shortcodes/adsense.html` |
+| `layouts/_partials/blog/related-notes.html` |
+| `layouts/_partials/notes/random-note-select.html` |
+| `layouts/notes/backlinks.html` |
+| `layouts/_partials/notes/toc.html` |
+| `themes/jorap/layouts/list.html` |
+| `layouts/_partials/notes/resolve-target.html` |
+| `themes/jorap/layouts/_partials/components/breadcrumb.html` |
+| `themes/jorap/layouts/_partials/components/image-process.html` |
+| `themes/jorap/layouts/_partials/components/pagination.html` |
+| `themes/jorap/layouts/shortcodes/spotify.html` |
+| `layouts/_partials/blog/toc.html` |
+| `layouts/_partials/notes/random-note.html` |
+| `themes/jorap/layouts/_partials/sections/home-intro.html` |
+| `themes/jorap/layouts/_partials/sections/testimonials.html` |
+| `layouts/partials/shortcodes/bible.html` |
+| `themes/jorap/layouts/_markup/render-heading.html` |
+| `layouts/_partials/page-meta-title.html` |
+| `layouts/_partials/notes/collect-cards.html` |
+| `layouts/_partials/notes/featured-random-note.html` |
+| `layouts/_partials/notes/note-flashcards.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/vimeo-lite.html` |
+| `layouts/_partials/notes/backlinks-index.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/search/layouts/partials/search-modal.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/accordion/layouts/shortcodes/accordion.html` |
+| `layouts/_partials/basic-seo.html` |
+| `themes/jorap/layouts/_partials/components/image.html` |
+| `themes/jorap/layouts/_partials/essentials/head.html` |
+| `layouts/notes/random-duo.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/seo-tools/site-verifications/layouts/partials/site-verifications.html` |
+| `themes/jorap/layouts/_partials/sections/blog-list.html` |
+| `themes/jorap/layouts/_partials/components/tw-size-indicator.html` |
+| `themes/jorap/layouts/shortcodes/spotify_iframe_track.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/mermaid/layouts/_markup/render-codeblock-mermaid.html` |
+| `layouts/blog/list.html` |
+| `layouts/blog/single.html` |
+| `layouts/_partials/blog/copy-markdown.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/table-of-contents/layouts/partials/toc.html` |
+| `themes/jorap/layouts/_partials/components/language-switcher.html` |
+| `themes/jorap/layouts/_partials/sections/banner.html` |
+| `layouts/notes/graph.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/components/preloader/layouts/partials/preloader.html` |
+| `themes/jorap/layouts/baseof.html` |
+| `layouts/_partials/notes/graph-layout-controls.html` |
+| `layouts/_partials/essentials/footer.html` |
+| `layouts/_partials/notes/related-notes.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/pwa/layouts/partials/manifest.html` |
+| `layouts/_partials/notes/relationships-index.html` |
+| `layouts/_partials/blog/related-posts.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/modal/layouts/shortcodes/modal.html` |
+| `layouts/_partials/llms-page-blurb.html` |
+| `layouts/_partials/notes/random-prompt-panel.html` |
+| `layouts/_partials/notes/relationship-neighbors.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/components/cookie-consent/layouts/partials/cookie-consent.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager/layouts/partials/gtm.html` |
+| `layouts/shortcodes/bible.html` |
+| `layouts/_partials/notes/render-content.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/adsense/layouts/partials/adsense-script.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/components/render-link/layouts/_default/_markup/render-link.html` |
+| `layouts/_partials/notes/note-blurb.html` |
+| `layouts/_partials/notes/see-also.html` |
+| `layouts/baseof.html` |
+| `layouts/_partials/blog/related-posts-lookup.html` |
+| `layouts/shortcodes/card.html` |
+| `themes/jorap/layouts/authors/single.html` |
+| `themes/jorap/layouts/_partials/sections/home-proof.html` |
+| `layouts/_partials/notes/is-index-page.html` |
+| `layouts/_partials/notes/toc-headings.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/pwa/layouts/partials/pwa.html` |
+| `layouts/_partials/notes/dev-banner.html` |
+| `themes/jorap/layouts/term.html` |
+| `themes/jorap/layouts/404.en.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/components/announcement/layouts/partials/announcement-script.html` |
+| `layouts/notes/list.html` |
+| `layouts/_partials/image.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/images/layouts/partials/bg-image.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/search/layouts/partials/searchImage.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/images/layouts/partials/favicon.html` |
+| `themes/jorap/layouts/blog/list.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/adsense/layouts/partials/adsense.html` |
+| `layouts/_partials/notes/build-issues-report.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/partials/youtube-lite.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/mermaid/layouts/shortcodes/mermaid.html` |
+| `layouts/_partials/notes/file-dates.html` |
+| `layouts/_partials/notes/note-shareable-thought.html` |
+| `layouts/_partials/notes/collect-note-issues.html` |
+| `layouts/_partials/notes/random-pool.html` |
+| `layouts/_partials/notes/build-hub-cluster.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/partials/image-pipe.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/images/layouts/shortcodes/image.html` |
+| `layouts/_partials/sort-featured-first.html` |
+| `layouts/_partials/notes/random-unrelated-notes.html` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "assembled-content|note-blurb|key.concept|Key Concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "assembled-content|note-blurb|key.concept|Key Concept",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/outgoing-links.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/relationship-types.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/note-blurb.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/backlinks.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/graph-data.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-card.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/recent-new.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/backlinks-index.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/render-content.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/search-index-fields.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-link-card.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/random-pool.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/toc.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/issues.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/_partials/notes/collect-note-issues.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/assembled-content.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/blog/related-notes.html"
+    }
+  ],
+  "totalFiles": 18,
+  "totalMatches": 25
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+I will examine the remaining key files next: notes/single.html, render-content.html, assets/js/search-core.js, normalize-notes-format.py, scripts/archive, static/admin/config.yml, and voice-lint.
+
+I will also check whether seed-note-shareable-lines exists or was removed.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search-core.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py",
+  "pattern": "key_concept|Level"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py",
+  "pattern": "key_concept|Level",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
+
+Directory: **``** (3 files)
+
+| File |
+|------|
+| `scripts/archive/__pycache__/expand-four-card-batch2.cpython-312.pyc` |
+| `scripts/archive/__pycache__/expand-four-card-batch3.cpython-312.pyc` |
+| `scripts/archive/__pycache__/expand-two-to-six.cpython-312.pyc` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The search now targets specific scripts and utilities that parse `key_concept` or level data: `notes_content.py`, `voice-lint.py`, `slop-rules.yaml`, `import-from-obsidian`, sync scripts, `assets/js/notes-creator`, `copy-markdown`, `expand-bible-mentions`, `lintNotes.mjs`, and data files for level batches. A broader grep for "Level" across the scripts directory is also planned.
+
+Checking how `first_key_concept_line` handles Level bullets. Counting notes with Level 1–5 versus without. Searching for any existing `level_1` frontmatter fields.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "level_[1-5]|level-[1-5]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "level_[1-5]|level-[1-5]",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-09_14-07-18Z-site-improvement-suggestions.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_15-27-45Z-file-name-change-to-mental-models.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_02-16-32Z-missing-hugo-extended-package.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-23_12-19-24Z-wider-levels-batch-4.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-24_10-18-20Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_17-18-55Z-button-and-link-padding-consistency.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/blog/toc.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-24_00-13-49Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_02-16-32Z-missing-hugo-extended-package-warning.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-31_00-43-58Z-deployment-symlink-configuration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-23_12-11-10Z-levels-batch-3-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-23_12-19-23Z-wider-levels-batch-3.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/assets/css/components.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-08_00-50-03Z-nasb1995-addition-request.md"
+    }
+  ],
+  "totalFiles": 14,
+  "totalMatches": 14
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level 1:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level 1:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/into-your-hands.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/god-centered-design.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/break-the-escalation-cycle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/inspectable-stack.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/intellectual-sourcing.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/periodic-knowledge-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/hierarchy-of-controls.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/quarterly-planning.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/habit-stacking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-victory.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/influence-without-title.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/great-commission.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/steward-after-the-win.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/peacemakers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/duty-of-care.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/table-fellowship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-the-inner-circle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/okf-export.md"
+    }
+  ],
+  "totalFiles": 318,
+  "totalMatches": 318
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data",
+  "pattern": "key_concept|Level [1-5]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data",
+  "pattern": "key_concept|Level [1-5]",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "data/ep-verse-explanations.yaml"
+    },
+    {
+      "matchCount": 1,
+      "uri": "data/slop-rules.yaml"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets",
+  "pattern": "key_concept|keyConcept|Level"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets",
+  "pattern": "key_concept|keyConcept|Level",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "assets/js/search-core.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-random-core.js"
+    },
+    {
+      "matchCount": 4,
+      "uri": "assets/js/notes-creator.js"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/rules",
+  "pattern": "Level [1-5]|key_concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/rules",
+  "pattern": "Level [1-5]|key_concept",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": ".cursor/rules/anti-slop.mdc"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking garden-voice-lint's first_key_concept_line logic, the copy-markdown partial, and collect-note-issues for Level bullet handling.
+
+Now checking OKF export scripts, import-from-obsidian, sync-note-flashcards, and notes-voice-sanitize for Level bullet handling. Will count notes missing Level 1, read slop-rules.yaml, inspect list.searchindex.json, check theme layouts for key_concept rendering, and grep for "Level N" across scripts and docs.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/slop-rules.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "docs/**",
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "key_concept|Level [1-5]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "key_concept|Level [1-5]",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./docs/SPEC.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./docs/CONTENT_VOICE_REVIEW.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/copy-markdown.html",
+  "pattern": "key_concept|assembled"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/copy-markdown.html",
+  "pattern": "key_concept|assembled",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py",
+  "pattern": "key_concept|Level"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py",
+  "pattern": "key_concept|Level",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap/Documents/GitHub/jorap.com/content/english/notes -name &#39;*.md&#39; | wc -l &amp;&amp; rg -l &#39;Level 1:&#39; /home/jorap/Documents/GitHub/jorap.com/content/english/notes | wc -l &amp;&amp; rg -L &#39;Level 1:&#39; /home/jorap/Documents/GitHub/jorap.com/content/english/notes --glob &#39;*.md&#39; | head -30</summary>
+```bash
+find /home/jorap/Documents/GitHub/jorap.com/content/english/notes -name '*.md' | wc -l && rg -l 'Level 1:' /home/jorap/Documents/GitHub/jorap.com/content/english/notes | wc -l && rg -L 'Level 1:' /home/jorap/Documents/GitHub/jorap.com/content/english/notes --glob '*.md' | head -30
+```
+
+```
+319
+318
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md:  - Level 1: Pray for His own is the high priestly prayer - Jesus intercedes for Himself, the twelve, and every future believer in John 17.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-buy-in.md:  - Level 1: The law of buy-in is that people trust the leader before the vision - buy the guide, then the map.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md:  - Level 1: Repent and believe is Jesus' opening command - turn from self-rule and trust the gospel that the kingdom is at hand.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/reliability.md:  - Level 1: Reliability is closing small loops on time often enough that people stop asking twice.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md:  - Level 1: Eternal rewards are what the Father repays believers for faithful obedience after salvation - hidden devotion counted, not applause theater.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/know-your-lane.md:  - Level 1: Know your lane is clarity on the role you actually run - yes to your work, clean handoffs for what is not yours.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/discern-his-will-daily.md:  - Level 1: Discern His will daily is testing what God wants - good, acceptable, perfect - after Scripture and prayer reshape judgment, not culture noise first.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/static-site-client-scope.md:  - Level 1: Static site client scope is deciding which website jobs fit the static stack before you name a price.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md:  - Level 1: Outcomes over pitch decks means trusting delivered results over slide polish and profile aura.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/reversibility.md:  - Level 1: Reversibili
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+A scan of 319 notes shows 318 contain Level 1. One note is missing it.
+
+Now locating the single note that lacks Level 1.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg -L &#39;Level 1:&#39; /home/jorap/Documents/GitHub/jorap.com/content/english/notes --glob &#39;*.md&#39;</summary>
+```bash
+rg -L 'Level 1:' /home/jorap/Documents/GitHub/jorap.com/content/english/notes --glob '*.md'
+```
+
+```
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-second-brain-workflow.md:  - Level 1: The second brain workflow is CODE and PARA in one daily-to-weekly loop - capture daily, organize by project, express weekly.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-inner-circle.md:  - Level 1: The law of the inner circle is that a leader's potential is determined by those closest - pick counselors who tell the truth.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/cross-platform-software.md:  - Level 1: Cross-platform software runs on Mac, Windows, and Linux so one skill and workflow travel across machines - you can name what it is.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/by-their-fruits.md:  - Level 1: By their fruits you evaluate teachers by outcome over time - wolves wear sheep's clothing; results tell, not polished talk.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-picture.md:  - Level 1: The law of the picture is that people follow what leaders model in action, not only what they announce.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-process.md:  - Level 1: The law of process is that leadership compounds in hidden years - you cannot microwave what God grows in the pit.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/purpose-and-vision.md:  - Level 1: Purpose and vision mean naming the outcome worth tradeoffs and what closer looks like - a filter for Tuesday's calendar, not a poster.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/attention-to-detail.md:  - Level 1: Attention to detail is catching typos, edge cases, and loose ends before they become incidents.
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/mental-models.md:  - Level 1: A mental model is a reusable frame for decisions - keep the few you actually reach for, not every framework you read once.
+/home/jorap/Documents/GitHub/jorap.com/content/engl
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/SPEC.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/voice-lint.py",
+  "pattern": "key_concept|Level"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/voice-lint.py",
+  "pattern": "key_concept|Level",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py",
+  "pattern": "key_concept|Level|first_key"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py",
+  "pattern": "key_concept|Level|first_key",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "scripts/slop-lint.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/import-from-obsidian.py",
+  "pattern": "key_concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/import-from-obsidian.py",
+  "pattern": "key_concept",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The ripgrep search returned 318 lines of files without matches, suggesting the pattern may have failed or the flag was misused.
+
+Thirty-one of thirty-one-nine notes contain "Level 1:", leaving exactly one file unmatched. The next step is to identify that single outlier.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: comm -23 &lt;(find /home/jorap/Documents/GitHub/jorap.com/content/english/notes -name &#39;*.md&#39; -printf &#39;%f\n&#39; | sort) &lt;(rg -l &#39;Level 1:&#39; /home/jorap/Documents/GitHub/jorap.com/content/english/notes --glob &#39;*.md&#39; -0 | xargs -0 -n1 basename | sort)</summary>
+```bash
+comm -23 <(find /home/jorap/Documents/GitHub/jorap.com/content/english/notes -name '*.md' -printf '%f\n' | sort) <(rg -l 'Level 1:' /home/jorap/Documents/GitHub/jorap.com/content/english/notes --glob '*.md' -0 | xargs -0 -n1 basename | sort)
+```
+
+```
+_index.md
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_default/list.searchindex.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/copy-markdown.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/okf_bundle.py",
+  "pattern": "key_concept|assembled"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/okf_bundle.py",
+  "pattern": "key_concept|assembled",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py",
+  "pattern": "key_concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py",
+  "pattern": "key_concept",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Only `_index.md` lacks Level 1, which is expected for a hub page. Now checking the `lint-notes-frontmatter` script's `BULLET_RE` regex.
+
+Expanding the search to include `notes-voice-lint`, `collect-note-issues`, `bible_shortcode`, `expand-bible-mentions`, `test-search.mjs`, `data/wider-levels` batch files, `.cursor/skills/garden-voice/examples.md`, and the flashcards skill. Also grepping for `Level 5:` validcount checks across active scripts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{py,mjs,js,html,md,mdc,yml,yaml,toml}",
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Level [1-5]:|Level N|levels 1-5|level bullets"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Level [1-5]:|Level N|levels 1-5|level bullets",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/community-depth.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/treasure-in-heaven.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/dont-worry.md"
+    },
+    {
+      "matchCount": 51,
+      "uri": ".specstory/history/2026-07-23_12-11-07Z-levels-batch-1-notes.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/the-beatitudes.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/golden-rule-at-work.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/repent-and-believe.md"
+    },
+    {
+      "matchCount": 100,
+      "uri": ".specstory/history/2026-07-23_12-19-24Z-wider-levels-batch-4.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/invest-in-the-few.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/evergreen-notes.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/finish-strong.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/compounding.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/pray-for-his-own.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/change-takes-repetition.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/let-your-yes-be-yes.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/quarterly-planning.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/people-centered-design.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/blameless-after-action-review.md"
+    },
+    {
+      "matchCount": 27,
+      "uri": ".specstory/history/2026-07-26_15-04-10Z-okf-version-update-steps.md"
+    }
+  ],
+  "totalFiles": 298,
+  "totalMatches": 2001
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/examples.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards",
+  "pattern": "key_concept|Level"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards",
+  "pattern": "key_concept|Level",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking scripts/normalize-notes-format.py for key_concept field ordering. Reviewing scripts/notes-voice-sanitize, audit-flashcard-north-star, expand-bible-mentions, and collect-note-issues for Level parsing. Scanning data/ and scripts/archive for JSON batch files or alternate level naming conventions.
+
+`content/english/notes/capture.md` provides structural reference. `first_key_concept_line` treats the first bullet as line 1, keeping claim validation intact. `note-blurb` pulls the first four lines from `key_concept`, which may include Level 1–3 bullets. `principle_line_pool` scans the full `key_concept` for shareable thought validation. No active script currently validates Level 1–5 presence or prefix format. Historical or batch scripts referenced in specstory are absent from the active `scripts/` tree.
+
+Several historical scripts were identified: add-key-concept-sections.py, pad-thin-key-concepts.py, split-key-concept-bullets.py, strip-desc-from-key-concept.py, bulletize-key-concepts.py, seed-note-sha-lines.py, fix-shareable-principles.py, and wider-levels batch scripts. These are being verified against the active scripts directory.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **27** results in **1** directory</summary>
+
+Directory: **``** (27 files)
+
+| File |
+|------|
+| `scripts/import-from-obsidian.py` |
+| `scripts/notes-voice-sanitize.py` |
+| `scripts/blog_shortcodes.py` |
+| `scripts/notes_content.py` |
+| `scripts/okf-viz/generate.py` |
+| `scripts/okf_bundle.py` |
+| `scripts/lint-randomizer.py` |
+| `scripts/bible_shortcode.py` |
+| `scripts/notes-voice-lint.py` |
+| `scripts/garden-health.py` |
+| `scripts/slop-lint.py` |
+| `scripts/voice-lint.py` |
+| `scripts/lint-flashcard-frontmatter.py` |
+| `scripts/export-okf-bundle.py` |
+| `scripts/slop-score.py` |
+| `scripts/export-anki-deck.py` |
+| `scripts/sync-note-relationships.py` |
+| `scripts/bible-red-letter-mark.py` |
+| `scripts/blog_frontmatter.py` |
+| `scripts/sync-note-flashcards.py` |
+| `scripts/normalize-notes-format.py` |
+| `scripts/lint-utility-wikilinks.py` |
+| `scripts/export-okf-blog-bundle.py` |
+| `scripts/audit-flashcard-north-star.py` |
+| `scripts/normalize-blog-frontmatter.py` |
+| `scripts/lint-notes-frontmatter.py` |
+| `scripts/garden-voice-lint.py` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py",
+  "pattern": "key_concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py",
+  "pattern": "key_concept",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/audit-flashcard-north-star.py",
+  "pattern": "key_concept|Level"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/audit-flashcard-north-star.py",
+  "pattern": "key_concept|Level",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py",
+  "pattern": "key_concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py",
+  "pattern": "key_concept",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking garden-health.py, lintNotes.mjs, test-search, and theme CSS for key_concept and Level bullet references.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes",
+  "pattern": "key.concept|key_concept|Level"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes",
+  "pattern": "key.concept|key_concept|Level",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/_markup/render-heading.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/_partials/sections/home-writing.html"
+    },
+    {
+      "matchCount": 6,
+      "uri": "themes/jorap/layouts/_partials/components/blog-card.html"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/test-search.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py",
+  "pattern": "key_concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py",
+  "pattern": "key_concept",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/notes-voice-lint.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking `notes_content.py` for `KEY_CONCEPT` field ordering within `FRONTMATTER_KEYS`. Also examining `collect-note-issues` for key_concept handling.
+
+Checking whether the OKF export script uses assembled content.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py",
+  "pattern": "key_concept|assemble"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py",
+  "pattern": "key_concept|assemble",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/export-okf-bundle.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html",
+  "pattern": "key_concept|Key Concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html",
+  "pattern": "key_concept|Key Concept",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/collect-note-issues.html"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ai-writing-system",
+  "pattern": "Level [1-5]|key_concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ai-writing-system",
+  "pattern": "Level [1-5]|key_concept",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".cursor/skills/ai-writing-system/implementation-guide.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/ai-writing-system/style-priorities.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/ai-writing-system/writing-samples.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking `.cursor/skills/garden-maintenance` for level references and the Hugo theme's `render-content` partial for bullet-specific rendering logic.
+
+`note-blurb` currently pulls the first four non-empty lines from `key_concept`, so Level bullets would appear in search blurbs alongside the claim. If levels become separate frontmatter fields, several areas need updates: `assembled-content.html`, `search-index-fields`, `backlinks-index`, and every script that parses `key_concept` as a monolithic string. The CMS config, archetypes, and `garden-voice` skill also define the current frontmatter shape.
+
+`notes_content.py` and `normalize-notes-format` both rely on `FM_ORDER` to order frontmatter fields. Separate `level_1` through `level_5` fields would require reordering those entries.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-maintenance",
+  "pattern": "Level|key_concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-maintenance",
+  "pattern": "Level|key_concept",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-feynman-technique.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Enough information has been gathered to compile the final inventory. It will be organized by the five requested categories.
+
+Levels currently exist only as bullets inside the `key_concept` YAML block scalar. No separate `level_1` through `level_5` frontmatter fields exist anywhere. All 318 atomic notes carry these levels; only `_index.md` lacks them. No active script validates the Level 1-5 presence or prefix. Only the garden-voice SKILL documents the convention. Historical batch migrations were handled by ad-hoc Python scripts documented in `.specstory`, but those scripts are absent from the current `scripts/` tree. `expand-bible-mentions` and the render flow also feed into the assembled content.
+
+Direct `key_concept` reads appear in `assembled-content.html`, `note-blurb.html`, `search-index-fields.html`, `backlinks-index.html`, and `issues.html`. The `assembled-content` partial chain covers `render-content.html`, `toc.html`, `graph-data.html`, `outgoing-links.html`, `relationship-types.html`, and both `backlinks-index` variants. Scripts that parse or validate the Level convention include `notes_content.py` (core assembly and overlap checks), `lint-notes-frontmatter.py` (bullet presence, overlap, and missing levels), and `garden-voice-lint.py` (first-line and faith/workplace conventions).
+
+Additional scripts and assets that touch the Level convention include `slop-lint.py` (dictionary opener check), `notes-voice-lint.py` (field scan), `export-okf-bundle.py` (assemble_markdown), `test-search.mjs` (keyConcept search), and JavaScript assets (`search-core`, `notes-creator` prompts). Data files `ep-verse-explanations.yaml` and `slop-rules.yaml` define gloss and opener rules for `key_concept` blocks. Documentation `docs/SPEC.md` and `anti-slop.mdc` reference the field without Level details. Archetypes and CMS hints are outdated and omit Level 1–5. Sample notes `capture.md`, `depth-of-undernding.md`, and `the-feynman-technique.md` still use the legacy bullet format.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Compiling the full inventory of key_concept and Level bullet references across layouts, scripts, skills, and frontmatter schemas.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+## Answer to #5 (storage model)
+
+**Yes — levels live only inside `key_concept`.** They are YAML block-scalar bullets with the prefix `Level N: ` (capital L, space after colon), after the line-1 claim bullet and before any post-level wikilink stack.
+
+- **318 / 319** note files contain `Level 1:`; the only exception is `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/_index.md` (hub, not an atomic note).
+- **No** `level_1`…`level_5` frontmatter fields exist anywhere in the repo (layouts, scripts, archetypes, CMS, or note content).
+- **No active lint** checks Level count, prefix format, or presence — only `.cursor/skills/garden-voice/SKILL.md` documents the convention.
+
+Canonical shape (from `capture.md`):
+
+```yaml
+key_concept: |
+  - <claim you'd argue — line 1, no wikilinks>
+  - Level 1: …
+  - Level 2: …
+  - Level 3: …
+  - Level 4: …
+  - Level 5: …
+  - <optional bullets 7+ — wikilink stack, etc.>
+```
+
+---
+
+## 1. Hugo layouts/partials (render & read `key_concept`)
+
+| Path | Role |
+|------|------|
+| `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html` | **Primary assembler.** Reads `$page.Params.key_concept` as one string and injects `## Key Concept\n\n{full block}` into synthetic markdown used for render, TOC, graph, wikilink scans. Levels render as ordinary bullets — no Level-specific logic. |
+| `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html` | Calls `assembled-content` → `RenderString` → wikilink resolution. This is what users see on note pages (`layouts/notes/single.html` intro/tail scopes). |
+| `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html` | Reads `key_concept`, splits on `\n`, takes **first 4 non-empty lines** as blurb candidates (non-card / search list use). With Level bullets present, candidates 2–4 are often Level 1–3, not the claim alone. |
+| `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/search-index-fields.html` | Exports entire `key_concept` string as search field `keyConcept` (includes all Level bullets). |
+| `/home/jorap/Documents/GitHub/jorap.com/layouts/_default/list.searchindex.json` | Writes `keyConcept` into `searchindex.json` per page. |
+| `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/backlinks-index.html` | Uses full `key_concept` text when building backlink snippet context around wikilinks. |
+| `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html` | TOC from `assembled-content` → includes Key Concept H2 and all bullets. |
+| `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/graph-data.html` | Graph wikilink extraction via `assembled-content`. |
+| `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/outgoing-links.html` | Same. |
+| `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/relationship-types.html` | Same. |
+| `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html` | Flags body `## Key Concept` sections; assembly path uses `assembled-content`. |
+| `/home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.html` | UI copy: move body `## Key Concept` → `key_concept:` frontmatter. |
+| `/home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html` | Uses `note-blurb` (with/without `DescriptionOnly`). Cards use description only; list search blurbs can pull from `key_concept` lines including Levels. |
+| `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html`, `note-link-card.html`, `recent-new.html`, `random-pool.html`, `layouts/_partials/blog/related-notes.html` | Card blurbs use `DescriptionOnly: true` (description only). No direct `key_concept` read on cards. |
+
+**Indirect consumers of assembled markdown:** OKF export (`scripts/export-okf-bundle.py` → `assemble_markdown`), copy-markdown (raw file, not assembled).
+
+---
+
+## 2. Lint/scripts (parse structure, not Level prefix)
+
+| Path | Role re `key_concept` / Levels |
+|------|--------------------------------|
+| `/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py` | **Shared core.** Parses `key_concept` block scalar; `assemble_markdown()`; `principle_line_pool()` walks **all** `key_concept` lines (Levels included) for `shareable_thought` sourcing; `key_concept_overlaps_description()` / `strip_description_from_key_concept()` iterate bullets via `KC_BULLET_RE`; `FM_ORDER` lists `key_concept` as single field. **No `Level N:` regex.** |
+| `/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py` | Requires `key_concept` on atomic notes; `lint_key_concept_bullets()` — prose must be `- ` bullets (bible shortcodes/tables exempt); `lint_description_in_key_concept()` — description must not repeat in any bullet. Level bullets pass as normal bullets. |
+| `/home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py` | `first_key_concept_line()` — first `- ` bullet after skipping `{{< bible >}}`; checks line-1 wikilinks, faith verse presence, workplace bible ban. **Treats first claim bullet as line 1; does not distinguish Level bullets.** |
+| `/home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py` | Scans `key_concept` for slop patterns; `first_key_concept_line()` for dictionary-opener warn on line 1. |
+| `/home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py` | Vocabulary scan includes `key_concept` as one text field. |
+| `/home/jorap/Documents/GitHub/jorap.com/scripts/voice-lint.py` | Router for garden/slop linters above (`pnpm lint:garden-voice`, `lint:slop`). |
+| `/home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py` | Rebuilds note body via `assemble_markdown(fm, body)` — full `key_concept` including Levels. |
+| `/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py` | Rewrites frontmatter via `dump_frontmatter()`; does not special-case `key_concept` content. |
+| `/home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py` | Runs `pnpm lint:garden` (orchestrator only). |
+| `/home/jorap/Documents/GitHub/jorap.com/scripts/test-search.mjs` | Asserts `matchesSearch(..., "bema")` hits `keyConcept` on judgment-seat note. |
+| `/home/jorap/Documents/GitHub/jorap.com/assets/js/search-core.js` | Client search joins `item.keyConcept` with content/shareable/relationships. |
+| `/home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js` | Agent prompt templates document `key_concept` shape (pre-Level convention wording). |
+
+**Not in active tree (historical only, mentioned in `.specstory/`):** `add-key-concept-sections.py`, `pad-thin-key-concepts.py`, `split-key-concept-bullets.py`, `strip-desc-from-key-concept.py`, `bulletize-key-concepts.py`, `seed-note-shareable-lines.py`, wider-levels batch apply scripts. Batch Level 1–5 rewrites were one-off session tooling, not shipped scripts.
+
+**No script validates:** five levels present, `Level N:` prefix, level ordering, or “bullets 7+ unchanged.”
+
+---
+
+## 3. Skills/rules documenting Level 1–5
+
+| Path | Role |
+|------|------|
+| `/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md` | **Canonical spec.** Section “Understanding levels (Level 1-5)”: table (Definition → Generative), prefix `Level N: `, rules (L1 definitional, L2 analogy OK, L5 wikilinks OK, keep bullets 7+), book-anchor notes, link to [[Depth of Understanding]]. |
+| `/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/examples.md` | `key_concept` claim examples; **no Level ladder examples.** |
+| `/home/jorap/Documents/GitHub/jorap.com/.cursor/rules/anti-slop.mdc` | `key_concept` shape (claim, 2–4 sentences, wikilink stack) — **no Level 1–5 mention.** |
+| `/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md` | Points notes work to garden-voice. |
+| `/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ai-writing-system/implementation-guide.md`, `style-priorities.md`, `writing-samples.md` | Mention `key_concept` line 1 only. |
+
+---
+
+## 4. Schema, archetypes, samples, CMS
+
+| Path | Role |
+|------|------|
+| `/home/jorap/Documents/GitHub/jorap.com/docs/SPEC.md` §5.3 | Lists `key_concept` as required atomic field (“angle + stakes; wikilinks allowed”) — **no Level 1–5 schema.** |
+| `/home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md` | Sample `key_concept: \|` with one sentence + optional paragraph — **outdated vs current Level ladder.** |
+| `/home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md` | Same outdated template. |
+| `/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml` | Decap CMS `key_concept` text widget; hint still “one sentence first, optional second paragraph” — **no Level fields.** |
+| `/home/jorap/Documents/GitHub/jorap.com/data/ep-verse-explanations.yaml` | Gloss lines for bible shortcodes in faith `key_concept` blocks. |
+| `/home/jorap/Documents/GitHub/jorap.com/data/slop-rules.yaml` | Warn rule `dictionary-opener` on `key_concept` line 1. |
+| `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/depth-of-understanding.md` | Meta note defining the ladder; itself uses Level 1–5 **inside** `key_concept`. |
+| `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md`, `the-feynman-technique.md` | Reference atomic shape: claim + Levels + post-level stack. |
+
+---
+
+## Migration impact summary (if `level_1`…`level_5` become separate fields)
+
+**Must update:** `assembled-content.html` (merge fields into rendered Key Concept), `search-index-fields.html` + `search-core.js`, `note-blurb.html` (exclude level fields from blurb pool or read claim only), `notes_content.py` (`FM_ORDER`, `assemble_markdown`, `principle_line_pool`, overlap helpers), all linters using `first_key_concept_line`, `static/admin/config.yml`, both archetypes, `garden-voice/SKILL.md`, and ~318 note files.
+
+**Optional / policy:** whether `shareable_thought` sourcing includes level fields; whether OKF export flattens levels back to bullets for compatibility.
+
+**Unchanged conceptually:** Hugo still renders Key Concept as markdown bullets; no template today treats `Level N:` specially — only the string contents differ.

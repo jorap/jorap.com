@@ -208,9 +208,16 @@ Parameters:
   "url": "https://www.wtatennis.com/news/4550519/svitolina-sets-eala-rematch-in-washington-quarterfinals"
 }
 ```
+Result:
+
+```json
+{
+  "markdown": "Svitolina sets Eala rematch in Washington quarterfinals: 'A new challenge'\n\nGo back to the home page\n\n-\n\n# Svitolina sets Eala rematch in Washington quarterfinals: 'A new challenge'\n\n2m read 31 Jul 2026 22h ago\n\nFive weeks ago in Berlin, Alexandra Eala's victory over Elina Svitolina was one of three Top 10 wins that defined her breakthrough grass-court season.\n\nBut on a \"new surface\" and in \"a new country and new city,\" as Svitolina put it, the Ukrainian hopes for a different result when they meet Friday in the quarterfinals of the Mubadala DC Open.\n\nSvitolina set the rematch with a 7-6(4), 6-4 win over Polina Kudermetova in the second round on Thursday night. Kudermetova served for the first set twice, and had a set point at 40-30 at 6-5, before Svitolina completed the win.\n\nThe second seed saved set point with a backhand passing shot winner that closed a nine-shot rally where Kudermetova was in control, and later, dug out of a 4-3 second-set game in which she saved three break points to complete the gritty victory.\n\nView this post on Instagram\n\nA post shared by WTA (@wta)\n\nThe 1 hour and 27-minute win marked Svitolina's first in over a month, dating back to an opening win against Liudmila Samsonova in Bad Homburg on June 23.\n\n\"I was trying to be locked in ... first match, hard courts, everything is new,\" Svitolina said afterwards. \"She had a couple of matches in the qualifying, the first round ... so it was nice to find my game, find my serve towards then end of the match, so I'm happy to be through into the quarterfinals.\"\n\n\"I was eager to get back on track,\" she added. \"I'm happy that I could handle the first set, get back as quick as I can, and find opportunity to win. I was not expecting to play perfectly in the first match. When you have a break, when you have not played competitively for a bit, it's not easy.\n\n\"I think she played quite well ... her game is quite big with big shots, so I missed a couple
+… (output truncated)
+```
 User decision: **accepted**
 
-Status: **loading**
+Status: **completed**
 
 </details></tool-use>
 
@@ -240,8 +247,644 @@ Parameters:
   "searchTerm": "\"Eala\" \"Svitolina\" Washington OR \"DC Open\" score OR beats OR defeated 2026"
 }
 ```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Svitolina sets Eala rematch in Washington quarterfinals: 'A new challenge'](https://www.wtatennis.com/news/4550519/svitolina-sets-eala-rematch-in-washington-quarterfinals)\n2. [DC Open 2026: Elina Svitolina Sets Up Alexandra Eala Rematch in Quarterfinals](https://justwomenssports.com/reads/elina-svitolina-vs-alexandraeala-washington-mubadala-dc-open-2026/)\n3. [Jessica Pegula, Elina Svitolina advance to DC Open quarterfinals](https://sports.inquirer.net/688216/jessica-pegula-elina-svitolina-advance-to-dc-open-quarterfinals)\n4. [Alexandra Eala vs Elina Svitolina Preview \u0026 Prediction | 2026 Washington Open (Mubadala DC Open) | Quarter-Final - The Stats Zone](https://www.thestatszone.com/alexandra-eala-vs-elina-svitolina-preview-prediction-2026-washington-open-mubadala-dc-open-quarter-final-212798)\n5. [Alex Eala eyes repeat vs Elina Svitolina at DC Open quarterfinals](https://sports.inquirer.net/688231/alex-eala-eyes-repeat-vs-elina-svitolina-at-dc-open-quarterfinals)\n\nSynthesis:\nElina Svitolina defeated Polina Kudermetova 7-6(4), 6-4 in the second round of the 2026 Mubadala DC Open to advance to the quarterfinals [1][2][3]. She is scheduled to face Alexandra Eala in that quarterfinal match [4][5]. Eala and Svitolina previously met at the Berlin Open in June 2026, where Eala won 6-3, 6-4 [6][2][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eSvitolina sets Eala rematch in Washington quarterfinals: 'A new challenge'\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4550519/svitolina-sets-eala-rematch-in-washington-quarterfinals\u003c/url\u003e\n\u003ccontent\u003eSvitolina sets Eala rematch in Washington quarterfinals: 'A new challenge'\n...\n# Svitolina sets Eala rematch in Washington quarterfinals: 'A new challenge'\n...\nFive weeks ago in Berlin, Alexandra Eala's victory over Elina Svitolina was one of three Top 10 wins that defined her breakthrough gra
+… (output truncated)
+```
 User decision: **accepted**
 
-Status: **loading**
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Search results still show the match as upcoming. Preview articles from July 31 remain.
+
+The user reports a recent match result. I will fetch live scores from WTA and tennis.com. I also need to confirm Osaka's quarterfinal win over Cocciaretto.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Alex Eala defeats Svitolina DC Open quarterfinal 2026 score"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Eala seeks repeat vs Svitolina, eyes Mubadala DC Open semis | Philstar.com](https://www.philstar.com/sports/2026/07/31/2546074/eala-seeks-repeat-vs-svitolina-eyes-mubadala-dc-open-semis)\n2. [Alex Eala faces world No. 10 Elina Svitolina in DC Open quarterfinals | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/996843/alex-eala-faces-world-no-10-elina-svitolina-in-dc-open-quarterfinals/story/)\n3. [Eala eyes another Svitolina stunner | Philstar.com](https://www.philstar.com/sports/2026/08/01/2546191/eala-eyes-another-svitolina-stunner)\n4. [Eala vs Svitolina • Washington 2026 • TennisTemple](https://en.tennistemple.com/match/eala-svitolina-washington-2026/9475367/)\n\nSynthesis:\nThe quarterfinal match between Alex Eala and Elina Svitolina at the 2026 Mubadala DC Open is scheduled for today, August 1, 2026 [1][2][3]. As of today's date, the match has not yet concluded, so there is no final score available [2][3]. The two previously met in the Berlin Open quarterfinals last June, where Eala won 6-3, 6-4 [4][5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala seeks repeat vs Svitolina, eyes Mubadala DC Open semis | Philstar.com\u003c/title\u003e\n\u003curl\u003ehttps://www.philstar.com/sports/2026/07/31/2546074/eala-seeks-repeat-vs-svitolina-eyes-mubadala-dc-open-semis\u003c/url\u003e\n\u003ccontent\u003e# Eala seeks repeat vs Svitolina, eyes Mubadala DC Open semis\n...\nMANILA, Philippines -- A tough road is only going to get tougher for Alex Eala.\n...\nEala will try to continue her spirited run in the Mubadala DC Open, but standing in her way is World No. 10 Elina Svitolina Saturday morning (Manila time).\n...\nSvitolina set her date with Eala after sweeping Polina Kudermetova, 7-6(4), 6-4, in the Round of 16.\n...\nEala defeated the Ukrainian tennister, seeded second in the WTA 500 tournament, in the quarterfinal round of the Berlin Open last month.\n.
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: sleep 2 &amp;&amp; curl -sL -A &#34;Mozilla/5.0&#34; &#34;https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-08-01&#34; | head -c 3000; echo; echo &#34;---&#34;; curl -sL -A &#34;Mozilla/5.0&#34; -o /dev/null -w &#34;%{http_code} %{url_effective}\n&#34; &#34;https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-08-01&#34;; curl -sL -A &#34;Mozilla/5.0&#34; -o /dev/null -w &#34;%{http_code} %{url_effective}\n&#34; &#34;https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-07-31&#34;; curl -sL -A &#34;Mozilla/5.0&#34; -o /dev/null -w &#34;%{http_code} %{url_effective}\n&#34; &#34;https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31&#34;</summary>
+```bash
+sleep 2 && curl -sL -A "Mozilla/5.0" "https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-08-01" | head -c 3000; echo; echo "---"; curl -sL -A "Mozilla/5.0" -o /dev/null -w "%{http_code} %{url_effective}\n" "https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-08-01"; curl -sL -A "Mozilla/5.0" -o /dev/null -w "%{http_code} %{url_effective}\n" "https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-07-31"; curl -sL -A "Mozilla/5.0" -o /dev/null -w "%{http_code} %{url_effective}\n" "https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31"
+```
+
+```
+
+---
+000 https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-08-01
+000 https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-07-31
+000 https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="await"><details>
+<summary>Tool use: **await**</summary>
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+A network sandbox blocked the curl request.
+
+Trying full network access to fetch WTA score pages directly. The result may not be indexed yet. Washington DC likely uses LS007 or LS008 for the quarterfinal score page.
+
+A Philstar article dated August 1 still predicts a Svitolina win. This suggests the match is either live or just finished. I will fetch live score sources directly.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Search still shows preview articles — fetching live score pages for the Washington QF result.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: sleep 2
+for url in \
+  &#34;https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007&#34; \
+  &#34;https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS008&#34; \
+  &#34;https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS003&#34; \
+  &#34;https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS004&#34; \
+  &#34;https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS015&#34;; do
+  code=$(curl -sL -A &#34;Mozilla/5.0&#34; -o /tmp/wta_score.html -w &#34;%{http_code}&#34; &#34;$url&#34;)
+  title=$(rg -o &#39;&lt;title&gt;[^&lt;]+&#39; /tmp/wta_score.html | head -1)
+  echo &#34;$code $url :: $title&#34;
+  sleep 2
+done
+echo &#34;==== tennis.com ====&#34;
+for url in \
+  &#34;https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-08-01&#34; \
+  &#34;https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-08-01&#34; \
+  &#34;https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-07-31&#34; \
+  &#34;https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31&#34;; do
+  code=$(curl -sL -A &#34;Mozilla/5.0&#34; -o /tmp/tc.html -w &#34;%{http_code}|%{url_effective}&#34;)
+  # fix: need to pass url
+done
+for url in \
+  &#34;https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-08-01&#34; \
+  &#34;https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-08-01&#34; \
+  &#34;https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-07-31&#34; \
+  &#34;https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31&#34;; do
+  out=$(curl -sL -A &#34;Mozilla/5.0&#34; -o /tmp/tc.html -w &#34;%{http_code}|%{url_effective}&#34; &#34;$url&#34;)
+  title=$(rg -o &#39;&lt;title&gt;[^&lt;]+&#39; /tmp/tc.html | head -1)
+  echo &#34;$out :: $title&#34;
+  sleep 2
+done
+</summary>
+```bash
+sleep 2
+for url in \
+  "https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007" \
+  "https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS008" \
+  "https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS003" \
+  "https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS004" \
+  "https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS015"; do
+  code=$(curl -sL -A "Mozilla/5.0" -o /tmp/wta_score.html -w "%{http_code}" "$url")
+  title=$(rg -o '<title>[^<]+' /tmp/wta_score.html | head -1)
+  echo "$code $url :: $title"
+  sleep 2
+done
+echo "==== tennis.com ===="
+for url in \
+  "https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-08-01" \
+  "https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-08-01" \
+  "https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-07-31" \
+  "https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31"; do
+  code=$(curl -sL -A "Mozilla/5.0" -o /tmp/tc.html -w "%{http_code}|%{url_effective}")
+  # fix: need to pass url
+done
+for url in \
+  "https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-08-01" \
+  "https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-08-01" \
+  "https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-07-31" \
+  "https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31"; do
+  out=$(curl -sL -A "Mozilla/5.0" -o /tmp/tc.html -w "%{http_code}|%{url_effective}" "$url")
+  title=$(rg -o '<title>[^<]+' /tmp/tc.html | head -1)
+  echo "$out :: $title"
+  sleep 2
+done
+
+```
+
+```
+]633;P;Cwd=/home/jorap/Documents/GitHub/jorap.com]633;P;HasRichCommandDetection=True]633;A$ ]633;B]633;E;sleep 2\x0afor url in \\\x0a  "https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007" \\\x0a  "https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS008" \\\x0a  "https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS003" \\\x0a  "https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS004" \\\x0a  "https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS015"\x3b do\x0a  code=$(curl -sL -A "Mozilla/5.0" -o /tmp/wta_score.html -w "%{http_code}" "$url")\x0a  title=$(rg -o '<title>[^<]+' /tmp/wta_score.html | head -1)\x0a  echo "$code $url :: $title"\x0a  sleep 2\x0adone\x0aecho "==== tennis.com ===="\x0afor url in \\\x0a  "https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-08-01" \\\x0a  "https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-08-01" \\\x0a  "https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-07-31" \\\x0a  "https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31"\x3b do\x0a  code=$(curl -sL -A "Mozilla/5.0" -o /tmp/tc.html -w "%{http_code}|%{url_effective}")\x0a  # fix: need to pass url\x0adone\x0afor url in \\\x0a  "https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-08-01" \\\x0a  "https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-08-01" \\\x0a  "https://www.tennis.com/tournaments/mubadala-dc-open/matches/e-svitolina-vs-a-eala-2026-07-31" \\\x0a  "https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31"\x3b do\x0a  out=$(curl -sL -A "Mozilla/5.0" -o /tmp/tc.html -w "%{http_code}|%{url_effective}" "$url")\x0a  title=$(rg -o '<title>[^<]+' /tmp/tc.html | head -1)\x0a  echo "$out :: $title"\x0a  sleep 2\x0adone\
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Found the WTA score page for the Eala versus Svitolina quarterfinal match.
+
+The semifinal page shows a blank opponent for Osaka. This suggests Eala may have just qualified. The tennis.com link for the quarterfinal match is also noted.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A &#34;Mozilla/5.0&#34; &#34;https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007&#34; -o /tmp/wta_ls007.html
+rg -i &#34;score|winner|sets|games|eala|svitolina|completed|status|6-|7-&#34; /tmp/wta_ls007.html | head -80
+echo &#34;==== JSON/embedded ====&#34;
+rg -o &#39;\{&#34;[^&#34;]*score[^&#34;]*&#34;[^}]{0,200}&#39; /tmp/wta_ls007.html | head -20
+rg -o &#39;&#34;sets?&#34;[^,}]{0,300}&#39; /tmp/wta_ls007.html | head -20
+rg -o &#39;LS[0-9]+[^&#34;]{0,50}&#39; /tmp/wta_ls007.html | head -20
+# try next-data or __NEXT
+rg -o &#39;&#34;__NEXT_DATA__&#34;[^&lt;]+&#39; /tmp/wta_ls007.html | head -c 5000
+python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import re, json
+html=Path(&#39;/tmp/wta_ls007.html&#39;).read_text(errors=&#39;ignore&#39;)
+# find next data
+m=re.search(r&#39;&lt;script id=&#34;__NEXT_DATA__&#34;[^&gt;]*&gt;(.*?)&lt;/script&gt;&#39;, html)
+if m:
+    data=json.loads(m.group(1))
+    print(json.dumps(data, indent=2)[:8000])
+else:
+    print(&#39;no next data&#39;)
+    # look for scores in text
+    for pat in [r&#39;\d-\d&#39;, r&#39;scoreLine&#39;, r&#39;games&#39;]:
+        print(pat, len(re.findall(pat, html)))
+PY
+</summary>
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007" -o /tmp/wta_ls007.html
+rg -i "score|winner|sets|games|eala|svitolina|completed|status|6-|7-" /tmp/wta_ls007.html | head -80
+echo "==== JSON/embedded ===="
+rg -o '\{"[^"]*score[^"]*"[^}]{0,200}' /tmp/wta_ls007.html | head -20
+rg -o '"sets?"[^,}]{0,300}' /tmp/wta_ls007.html | head -20
+rg -o 'LS[0-9]+[^"]{0,50}' /tmp/wta_ls007.html | head -20
+# try next-data or __NEXT
+rg -o '"__NEXT_DATA__"[^<]+' /tmp/wta_ls007.html | head -c 5000
+python3 - <<'PY'
+from pathlib import Path
+import re, json
+html=Path('/tmp/wta_ls007.html').read_text(errors='ignore')
+# find next data
+m=re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html)
+if m:
+    data=json.loads(m.group(1))
+    print(json.dumps(data, indent=2)[:8000])
+else:
+    print('no next data')
+    # look for scores in text
+    for pat in [r'\d-\d', r'scoreLine', r'games']:
+        print(pat, len(re.findall(pat, html)))
+PY
+
+```
+
+```
+    <meta name="twitter:title" content="Eala vs. Svitolina | Quarterfinals Mubadala DC Open 2026 | WTA Official"/>
+<meta name="twitter:url" content="www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007"/>
+<title>Eala vs. Svitolina | Quarterfinals Mubadala DC Open 2026 | WTA Official</title>
+<meta name="description" content="A. Eala d [2]E. Svitolina 6-3,6-4 | Quarterfinals match of Mubadala DC Open 2026. Stats, head-to-head and scores."/>
+<meta name="twitter:description" content="A. Eala d [2]E. Svitolina 6-3,6-4 | Quarterfinals match of Mubadala DC Open 2026. Stats, head-to-head and scores."/>
+<meta property="og:url" content="https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007"/>
+<link rel="canonical" href="https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007"/>
+<meta property="og:title" content="Eala vs. Svitolina | Quarterfinals Mubadala DC Open 2026 | WTA Official"/>
+<meta property="og:description" content="A. Eala d [2]E. Svitolina 6-3,6-4 | Quarterfinals match of Mubadala DC Open 2026. Stats, head-to-head and scores."/>
+    "startDate": "2026-01-01",
+    "endDate": "2026-12-31",
+    "eventStatus": "http://schema.org/EventScheduled",
+    data-token="[REDACTED:generic-api-key]"
+                    <source class="" srcset="https://photoresources.wtatennis.com/photo-resources/2025/12/16/da304a4e-6ed8-4f3b-9796-b557c74baef5/WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white-1-.png?height=16, https://photoresources.wtatennis.com/photo-resources/2025/12/16/da304a4e-6ed8-4f3b-9796-b557c74baef5/WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white-1-.png?height=32 2x" media="(min-width: 0px)">
+                        src="https://photoresources.wtatennis.com/photo-resources/2025/12/16/da304a4e-6ed8-4f3b-9796-b557c74baef5/WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white-1-.png?height=16"
+                href="https://www.wtatennis.com/scores"
+                title="Scores" aria-label="Scores"
+        da
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: sleep 2
+curl -sL -A &#34;Mozilla/5.0&#34; &#34;https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31&#34; -o /tmp/tc_qf.html
+python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import re, json
+html=Path(&#39;/tmp/tc_qf.html&#39;).read_text(errors=&#39;ignore&#39;)
+m=re.search(r&#39;&lt;script id=&#34;__NEXT_DATA__&#34;[^&gt;]*&gt;(.*?)&lt;/script&gt;&#39;, html)
+if m:
+    data=json.loads(m.group(1))
+    s=json.dumps(data)
+    # find score-ish
+    for key in [&#39;score&#39;,&#39;sets&#39;,&#39;winner&#39;,&#39;status&#39;,&#39;games&#39;,&#39;result&#39;]:
+        if key in s.lower():
+            pass
+    print(json.dumps(data, indent=2)[:12000])
+else:
+    title=re.search(r&#39;&lt;title&gt;([^&lt;]+)&#39;, html)
+    print(&#39;title&#39;, title.group(1) if title else None)
+    # meta description
+    for m in re.finditer(r&#39;content=&#34;([^&#34;]{10,200})&#34;&#39;, html):
+        c=m.group(1)
+        if any(x in c.lower() for x in [&#39;eala&#39;,&#39;svitolina&#39;,&#39;score&#39;,&#39;won&#39;,&#39;defeated&#39;]):
+            print(&#39;meta&#39;, c)
+PY
+</summary>
+```bash
+sleep 2
+curl -sL -A "Mozilla/5.0" "https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31" -o /tmp/tc_qf.html
+python3 - <<'PY'
+from pathlib import Path
+import re, json
+html=Path('/tmp/tc_qf.html').read_text(errors='ignore')
+m=re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html)
+if m:
+    data=json.loads(m.group(1))
+    s=json.dumps(data)
+    # find score-ish
+    for key in ['score','sets','winner','status','games','result']:
+        if key in s.lower():
+            pass
+    print(json.dumps(data, indent=2)[:12000])
+else:
+    title=re.search(r'<title>([^<]+)', html)
+    print('title', title.group(1) if title else None)
+    # meta description
+    for m in re.finditer(r'content="([^"]{10,200})"', html):
+        c=m.group(1)
+        if any(x in c.lower() for x in ['eala','svitolina','score','won','defeated']):
+            print('meta', c)
+PY
+
+```
+
+```
+title Alexandra Eala vs Elina Svitolina · Quarterfinal · ATP/WTA Washington D.C.
+meta Alexandra Eala vs Elina Svitolina · Quarterfinal · ATP/WTA Washington D.C. — Live score, statistics, and broadcast info on Tennis.com.
+meta Alexandra Eala vs Elina Svitolina · Quarterfinal · ATP/WTA Washington D.C.
+meta Alexandra Eala vs Elina Svitolina · Quarterfinal · ATP/WTA Washington D.C. — Live score, statistics, and broadcast info on Tennis.com.
+meta https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31
+meta Alexandra Eala vs Elina Svitolina
+meta Alexandra Eala vs Elina Svitolina · Quarterfinal · ATP/WTA Washington D.C.
+meta Alexandra Eala vs Elina Svitolina · Quarterfinal · ATP/WTA Washington D.C. — Live score, statistics, and broadcast info on Tennis.com.
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Eala beat Svitolina 6-3, 6-4 in the Washington quarterfinals.
+
+The same score as Berlin. Osaka is listed as Eala's semifinal opponent but needs confirmation. No new notable firsts apply since the semifinal is already recorded.
+
+Updating the Washington Best Performances section to list the semifinal alongside the quarterfinal win over Svitolina.
+
+The Washington semifinal will be listed as an incomplete placeholder, with the quarterfinal win over Svitolina added as a sub-bullet.
+
+Svitolina’s H2H record will be updated with the Washington win. Osaka remains on the watch list until the semifinal is played. YouTube highlights will be skipped for now. The last modified timestamp will be bumped.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Confirmed: Eala d. Svitolina 6-3, 6-4 in Washington QF; SF is vs Osaka. Checking Osaka QF and any video, then updating the tracker.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: sleep 2
+curl -sL -A &#34;Mozilla/5.0&#34; &#34;https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS003&#34; -o /tmp/wta_sf.html
+rg -i &#34;og:description|twitter:description|&lt;title&gt;|Osaka|Eala|Cocciaretto|match_status|match_players&#34; /tmp/wta_sf.html | head -40
+echo &#34;==== Osaka QF ====&#34;
+sleep 2
+# likely LS006 or LS005 for Osaka QF
+for id in LS005 LS006 LS009 LS010 LS011 LS012; do
+  code=$(curl -sL -A &#34;Mozilla/5.0&#34; -o /tmp/wta_tmp.html -w &#34;%{http_code}&#34; &#34;https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/$id&#34;)
+  title=$(rg -o &#39;&lt;title&gt;[^&lt;]+&#39; /tmp/wta_tmp.html | head -1)
+  desc=$(rg -o &#39;og:description&#34; content=&#34;[^&#34;]+&#39; /tmp/wta_tmp.html | head -1)
+  echo &#34;$code $id :: $title :: $desc&#34;
+  sleep 2
+done
+</summary>
+```bash
+sleep 2
+curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS003" -o /tmp/wta_sf.html
+rg -i "og:description|twitter:description|<title>|Osaka|Eala|Cocciaretto|match_status|match_players" /tmp/wta_sf.html | head -40
+echo "==== Osaka QF ===="
+sleep 2
+# likely LS006 or LS005 for Osaka QF
+for id in LS005 LS006 LS009 LS010 LS011 LS012; do
+  code=$(curl -sL -A "Mozilla/5.0" -o /tmp/wta_tmp.html -w "%{http_code}" "https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/$id")
+  title=$(rg -o '<title>[^<]+' /tmp/wta_tmp.html | head -1)
+  desc=$(rg -o 'og:description" content="[^"]+' /tmp/wta_tmp.html | head -1)
+  echo "$code $id :: $title :: $desc"
+  sleep 2
+done
+
+```
+
+```
+    <meta name="twitter:title" content="Osaka vs.  | Semifinals Mubadala DC Open 2026 | WTA Official"/>
+<title>Osaka vs.  | Semifinals Mubadala DC Open 2026 | WTA Official</title>
+<meta name="description" content="Osaka vs.  | Semifinals match of Mubadala DC Open 2026. Stats, head-to-head and scores."/>
+<meta name="twitter:description" content="Osaka vs.  | Semifinals match of Mubadala DC Open 2026. Stats, head-to-head and scores."/>
+<meta property="og:title" content="Osaka vs.  | Semifinals Mubadala DC Open 2026 | WTA Official"/>
+<meta property="og:description" content="Osaka vs.  | Semifinals match of Mubadala DC Open 2026. Stats, head-to-head and scores."/>
+        data-global-params="{&quot;match_id&quot;:&quot;1045-2026-LS003&quot;,&quot;match_status&quot;:&quot;Upcoming&quot;,&quot;match_type&quot;:&quot;WTA 500&quot;,&quot;match_players&quot;:&quot;Naomi Osaka \u003cspan style\u003d\&quot;text-transform: lowercase;\&quot;\u003evs.\u003c/span\u003e  &quot;}"
+                    data-player-name="Naomi Osaka"
+        data-tracking-detail="Naomi Osaka"
+        data-tracking-detail="Naomi Osaka"
+                                N. Osaka
+                                        <a class="match-table__player match-table__player--link" href="/players/319998/naomi-osaka">
+                                                        N. Osaka
+        title="Osaka vs.  | Semifinals Mubadala DC Open 2026 | Match Center" aria-label="Osaka vs.  | Semifinals Mubadala DC Open 2026 | Match Center"
+            data-tracking-featured-players="Osaka vs. "
+            "name": "Osaka vs. ",
+                    "@id": "https://www.wtatennis.com/players/319998/naomi-osaka",
+                    "name": "Naomi Osaka"
+                    "@id": "https://www.wtatennis.com/players/319998/naomi-osaka",
+                    "name": "Naomi Osaka"
+            data-player-last-name="Osaka"
+            href="/news/4549633/osaka-reaches-first-washington-quarterfinal-as-krueger-retires-with-right-ankle-
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Eala Svitolina Washington 2026 highlights youtube WTA"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Svitolina sets Eala rematch in Washington quarterfinals: 'A new challenge'](https://www.wtatennis.com/news/4550519/svitolina-sets-eala-rematch-in-washington-quarterfinals)\n2. [Alexandra Eala | Player Stats \u0026 More – WTA Official](https://www.wtatennis.com/players/330332/alexandra-eala)\n3. [How to watch Svitolina vs. Eala on live streaming in Washington on Saturday - Tennis Tonic - News, Predictions, H2H, Live Scores, stats](https://tennistonic.com/tennis-news/1033338/how-to-watch-svitolina-vs-eala-on-live-streaming-in-washington-on-saturday/)\n4. [Elina Svitolina vs. Alexandra Eala | 2026 Berlin Quarterfinal | WTA Match Highlights](https://www.youtube.com/watch?v=AdoeRVzt6FQ)\n5. [Elina Svitolina overcomes Kudermetova in the 2nd round to battle vs Eala – WASHINGTON RESULTS. HIGHLIGHTS - Tennis Tonic - News, Predictions, H2H, Live Scores, stats](https://tennistonic.com/tennis-news/1033282/elina-svitolina-overcomes-kudermetova-in-the-2nd-round-to-battle-vs-eala-washington-results-highlights/)\n\nSynthesis:\nYou can find match highlights for the 2026 WTA tour on the official WTA website at wtatennis.com/videos/highlights [1][2]. While Elina Svitolina and Alexandra Eala are scheduled to play their Washington quarterfinal match on Saturday, August 1, 2026, highlights for this specific encounter will be uploaded to the official WTA YouTube channel and website following the conclusion of the match [1][3]. Previous highlights of their Berlin meeting earlier this season are already available through these official channels [4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eSvitolina sets Eala rematch in Washington quarterfinals: 'A new challenge'\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4550519/svitolina-sets-eala-rematch-in-washington-quarterfinals\u003c/url\u003e\n\u003ccontent\u003eSvitolina sets Eala rematch in Washington quarterfinals: 'A new challenge'
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Gathering data on Washington Best Performances.
+
+Updating Alex's tracker to semifinals against Osaka. Adding Svitolina's quarterfinal win at Washington with WTA and tennis.com links. Keeping the 2026 Berlin grass win in Svitolina's H2H. Matching the existing H2H format.
+
+Osaka remains on the watch list until the semifinal is played. No YouTube link exists yet for the Washington rematch. The career high stays at 28. No new firsts or invented semifinal details will be added.
+
+The Washington semifinal placeholder will remain clean without extra opponent context. WTA and tennis.com both confirm the 6-3, 6-4 Svitolina result. The Washington block currently has no video embeds.
+
+Zheng and Fernandez already have H2H embeds. Svitolina's Washington highlight will wait for official footage. The lastmod timestamp is set to 2026-08-01T01:00:00Z. Tennis.com shows the match date as 2026-07-31, which aligns with the user's local evening. Checking the H2H match line format for Other Top 20 entries.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: sleep 2
+# confirm tennis.com has score in page somehow
+python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import re
+html=Path(&#39;/tmp/tc_qf.html&#39;).read_text(errors=&#39;ignore&#39;)
+# look for 6-3 patterns near score widgets
+for pat in [r&#39;6-3&#39;, r&#39;6–3&#39;, r&#39;&#34;sets&#34;&#39;, r&#39;winner&#39;, r&#39;Completed&#39;, r&#39;Finished&#39;, r&#39;score&#39;]:
+    print(pat, html.count(pat))
+# extract any JSON blobs with set scores
+m=re.findall(r&#39;&#34;set[^&#34;]{0,20}&#34;\s*:\s*[^,}]{1,40}&#39;, html)
+print(&#39;sets samples&#39;, m[:30])
+m2=re.findall(r&#39;Eala[^&lt;]{0,80}Svitolina|Svitolina[^&lt;]{0,80}Eala&#39;, html)
+print(&#39;name context&#39;, m2[:10])
+# check for scoreboard numbers
+nums=re.findall(r&#39;data-score[^&gt;]{0,100}|class=&#34;[^&#34;]*score[^&#34;]*&#34;[^&gt;]{0,80}&#39;, html)
+print(&#39;score attrs&#39;, nums[:20])
+PY
+# spot-check WTA LS007 title already verified; tennis.com URL works
+curl -sL -A &#34;Mozilla/5.0&#34; -o /dev/null -w &#34;%{http_code}\n&#34; &#34;https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31&#34;
+</summary>
+```bash
+sleep 2
+# confirm tennis.com has score in page somehow
+python3 - <<'PY'
+from pathlib import Path
+import re
+html=Path('/tmp/tc_qf.html').read_text(errors='ignore')
+# look for 6-3 patterns near score widgets
+for pat in [r'6-3', r'6–3', r'"sets"', r'winner', r'Completed', r'Finished', r'score']:
+    print(pat, html.count(pat))
+# extract any JSON blobs with set scores
+m=re.findall(r'"set[^"]{0,20}"\s*:\s*[^,}]{1,40}', html)
+print('sets samples', m[:30])
+m2=re.findall(r'Eala[^<]{0,80}Svitolina|Svitolina[^<]{0,80}Eala', html)
+print('name context', m2[:10])
+# check for scoreboard numbers
+nums=re.findall(r'data-score[^>]{0,100}|class="[^"]*score[^"]*"[^>]{0,80}', html)
+print('score attrs', nums[:20])
+PY
+# spot-check WTA LS007 title already verified; tennis.com URL works
+curl -sL -A "Mozilla/5.0" -o /dev/null -w "%{http_code}\n" "https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31"
+
+```
+
+```
+6-3 2
+6–3 0
+"sets" 0
+winner 1
+Completed 3
+Finished 0
+score 27
+sets samples ['"sets\\":[{\\"setNumber\\":1', '"setNumber\\":2']
+name context ['Eala vs Svitolina', 'Eala vs Elina Svitolina', 'Eala vs Svitolina', 'Eala vs Elina Svitolina', 'Eala","nationality":"PHL"},"awayTeam":{"@type":"Person","name":"Elina Svitolina', 'Eala, Alexandra vs Svitolina', 'Eala vs Elina Svitolina', 'Eala vs Elina Svitolina', 'Eala vs Elina Svitolina', 'Eala vs Elina Svitolina']
+score attrs ['class="MatchCardSkeleton-module-scss-module__T0NFMW__fill MatchCardSkeleton-module-scss-module__T0NFMW__score"', 'class="MatchCardSkeleton-module-scss-module__T0NFMW__fill MatchCardSkeleton-module-scss-module__T0NFMW__score"', 'class="MatchCardSkeleton-module-scss-module__T0NFMW__fill MatchCardSkeleton-module-scss-module__T0NFMW__score"', 'class="MatchCardSkeleton-module-scss-module__T0NFMW__fill MatchCardSkeleton-module-scss-module__T0NFMW__score"', 'class="MatchCardSkeleton-module-scss-module__T0NFMW__fill MatchCardSkeleton-module-scss-module__T0NFMW__score"', 'class="MatchCardSkeleton-module-scss-module__T0NFMW__fill MatchCardSkeleton-module-scss-module__T0NFMW__score"', 'class="MatchCardSkeleton-module-scss-module__T0NFMW__fill MatchCardSkeleton-module-scss-module__T0NFMW__score"', 'class="MatchCardSkeleton-module-scss-module__T0NFMW__fill MatchCardSkeleton-module-scss-module__T0NFMW__score"']
+200
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Confirmed Alex beats Svitolina. WTA score is clear. Tennis.com URL works.
+
+Proceeding to make the edits.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Updating Washington to semis, logging the Svitolina QF win, and adding it to the H2H block.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The Svitolina section may have been broken.
+
+Verifying the replacement only targeted Svitolina's block. The old string included a unique Berlin match line, preventing accidental matches elsewhere. Now checking the file looks correct.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Osaka remains on the watch list until the semifinal is played.
+
+Eala beat Svitolina 6-3, 6-4 in Washington. Svitolina now leads their head-to-head 2-0. No YouTube video is available yet. The session close block is required since files were edited.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+**Washington QF logged.** Eala beat Svitolina again, 6-3, 6-4 (same score as Berlin), and reaches the semis vs Osaka.
+
+### Changes
+- **Best Performances:** Washington updated to Semifinals (vs Naomi Osaka); QF win over Elina Svitolina with WTA + tennis.com links
+- **H2H — Elina Svitolina:** Washington QF WIN added (newest first); H2H now **2-0**
+- **`lastmod`:** bumped to `2026-08-01T01:00:00Z`
+
+### Unchanged / pending
+- **At a glance:** no change (WTA 500 SF first already noted from Berlin)
+- **Osaka:** still on **Matches to Watch Out For** until the SF is played
+- **YouTube:** no official Washington highlights yet — Berlin embed stays under Svitolina H2H
+
+## Session close
+- Fixed: Logged Washington Svitolina QF win and Osaka SF pairing on the Eala tracker
+- Encode: none
+- Open: clean
+
+---
+
+_**User**_
+
+<timestamp>Saturday, Aug 1, 2026, 8:59 AM (UTC+8)</timestamp>
+<system_notification>
+The following task has finished. If you were already aware, ignore this notification and do not restate prior responses.
+
+<task>
+kind: shell
+status: success
+task_id: 220719
+title: Fetch WTA and tennis.com QF score pages
+output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/220719.txt
+</task>
+</system_notification>
+<user_query>Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.</user_query>
+
+---
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The shell task has completed. I will report the result now.
+
+The fetch succeeded. The tracker was updated.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+The score-page fetch finished successfully — WTA confirmed **Eala d. Svitolina 6-3, 6-4** at Washington QF (`LS007`), and those links are already in the tracker update from this session.

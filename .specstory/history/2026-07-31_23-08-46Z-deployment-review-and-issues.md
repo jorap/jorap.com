@@ -6823,10 +6823,857 @@ Additional data:
 
 ```json
 {
-  "status": "loading",
-  "subagentComposerId": "e8cd40c1-1a34-450f-a5c9-60727e71953d"
+  "status": "success",
+  "subagentComposerId": "e8cd40c1-1a34-450f-a5c9-60727e71953d",
+  "terminationReason": "completed"
 }
 ```
-Status: **loading**
+Result:
+
+```json
+{
+  "agentId": "e8cd40c1-1a34-450f-a5c9-60727e71953d"
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Live deployment verification shows good progress.
+
+Legacy redirects, 404s, and CSP headers are confirmed working. Apex was already verified. Next steps include marking verification complete, updating documentation, and implementing performance improvements by dropping RSS from pages, removing markdown rendering from taxonomy terms, and caching related posts. Image cache documentation in TROUBLESHOOTING also needs review. Need to confirm commit 7835ac36 is actually deployed.
+
+The redirect file is clean without invalid Apex rules. The live site shows recent builds with working path redirects and CSP headers. Documentation will be updated to accurately describe the SuperCP wildcard redirect. Performance improvements will be implemented safely and measured.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Live deploy checks out. Updating the docs next, then applying the safe Hugo output and related-posts cache wins.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Verify Cloudflare Pages deploy (redirects, build, live site)",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Document apex → www redirect (SuperCP, not _redirects)",
+      "id": "2",
+      "status": "in_progress"
+    },
+    {
+      "content": "Deeper Hugo build performance (safe structural win)",
+      "id": "3",
+      "status": "pending"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Verify Cloudflare Pages deploy (redirects, build, live site)",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Document apex → www redirect (SuperCP, not _redirects)",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Deeper Hugo build performance (safe structural win)",
+      "id": "3",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/docs/TROUBLESHOOTING.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/docs/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/docs/CLIENT_STATIC_SITE.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/_redirects</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+A build cache note could be added to TROUBLESHOOTING if useful.
+
+Checking TROUBLESHOOTING for existing image cache notes. Implementing performance changes: hugo.toml outputs and related-posts-lookup caching. Reading related-posts.html and toc-related-extras for exact strings. Checking CLIENT_STATIC_SITE for image cache mentions.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-posts.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/toc-related-extras.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/docs/TROUBLESHOOTING.md",
+  "pattern": "Build cache|cacheDir|images"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/docs/TROUBLESHOOTING.md",
+  "pattern": "Build cache|cacheDir|images",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/CLIENT_STATIC_SITE.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+A short note about image cache will be added to CLIENT_STATIC_SITE near the cacheDir section.
+
+Then implementing performance optimizations.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/docs/CLIENT_STATIC_SITE.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-posts.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/toc-related-extras.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Verify Cloudflare Pages deploy (redirects, build, live site)",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Document apex → www redirect (SuperCP, not _redirects)",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Deeper Hugo build performance (safe structural win)",
+      "id": "3",
+      "status": "in_progress"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Verify Cloudflare Pages deploy (redirects, build, live site)",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Document apex → www redirect (SuperCP, not _redirects)",
+      "id": "2",
+      "status": "in_progress"
+    },
+    {
+      "content": "Deeper Hugo build performance (safe structural win)",
+      "id": "3",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Building with GOMAXPROCS=2. Verifying section RSS and page counts.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rm -rf /tmp/pub-before-out &amp;&amp; cp -a public /tmp/pub-before-out
+# baseline page count from previous build summary if available
+echo &#34;=== build after outputs + related-posts cache ===&#34;
+CI=true GOMAXPROCS=2 .cache/hugo/0.163.3/hugo --gc --minify --forceSyncStatic --buildFuture --cacheDir &#34;$PWD/.cache&#34; 2&gt;&amp;1 | tee /tmp/hugo-out.log | grep -E &#39;Pages|Paginator|Aliases|Processed|Total in|Error|ERROR&#39;
+echo
+test -f public/blog/index.xml &amp;&amp; echo &#39;section RSS OK&#39; || echo &#39;section RSS MISSING&#39;
+test -f public/index.xml &amp;&amp; echo &#39;home RSS OK&#39; || echo &#39;home RSS MISSING&#39;
+# per-page rss/md should be gone
+echo &#34;sample per-page artifacts:&#34;
+ls public/notes/depth-of-understanding/ 2&gt;/dev/null | head
+ls public/blog/alex-eala-pro-career-tracker/ 2&gt;/dev/null | head
+echo
+echo &#34;=== HTML content sanity (related posts section still present) ===&#34;
+grep -c &#39;id=&#34;related-posts&#34;&#39; public/notes/depth-of-understanding/index.html public/blog/hugoplate-theme-review/index.html 2&gt;/dev/null
+echo
+echo &#34;=== removed output formats (expect many) ===&#34;
+diff -rq /tmp/pub-before-out public 2&gt;/dev/null | grep -E &#39;Only in /tmp/pub-before-out.*(index\.(xml|md)|page/)&#39; | wc -l
+echo &#34;HTML files that differ (should be few/none for content):&#34;
+diff -rq /tmp/pub-before-out public 2&gt;/dev/null | grep &#39;differ$&#39; | grep -v &#39;exports/okf/log.md&#39; | grep &#39;\.html$&#39; | wc -l
+</summary>
+```bash
+rm -rf /tmp/pub-before-out && cp -a public /tmp/pub-before-out
+# baseline page count from previous build summary if available
+echo "=== build after outputs + related-posts cache ==="
+CI=true GOMAXPROCS=2 .cache/hugo/0.163.3/hugo --gc --minify --forceSyncStatic --buildFuture --cacheDir "$PWD/.cache" 2>&1 | tee /tmp/hugo-out.log | grep -E 'Pages|Paginator|Aliases|Processed|Total in|Error|ERROR'
+echo
+test -f public/blog/index.xml && echo 'section RSS OK' || echo 'section RSS MISSING'
+test -f public/index.xml && echo 'home RSS OK' || echo 'home RSS MISSING'
+# per-page rss/md should be gone
+echo "sample per-page artifacts:"
+ls public/notes/depth-of-understanding/ 2>/dev/null | head
+ls public/blog/alex-eala-pro-career-tracker/ 2>/dev/null | head
+echo
+echo "=== HTML content sanity (related posts section still present) ==="
+grep -c 'id="related-posts"' public/notes/depth-of-understanding/index.html public/blog/hugoplate-theme-review/index.html 2>/dev/null
+echo
+echo "=== removed output formats (expect many) ==="
+diff -rq /tmp/pub-before-out public 2>/dev/null | grep -E 'Only in /tmp/pub-before-out.*(index\.(xml|md)|page/)' | wc -l
+echo "HTML files that differ (should be few/none for content):"
+diff -rq /tmp/pub-before-out public 2>/dev/null | grep 'differ$' | grep -v 'exports/okf/log.md' | grep '\.html$' | wc -l
+
+```
+
+```
+=== build after outputs + related-posts cache ===
+ Pages            │ 840 
+ Paginator pages  │  34 
+ Processed images │ 577 
+ Aliases          │ 980 
+Total in 46031 ms
+
+section RSS OK
+home RSS OK
+sample per-page artifacts:
+index.html
+index.md
+index.xml
+index.html
+index.md
+index.xml
+
+=== HTML content sanity (related posts section still present) ===
+public/notes/depth-of-understanding/index.html:0
+public/blog/hugoplate-theme-review/index.html:0
+
+=== removed output formats (expect many) ===
+0
+HTML files that differ (should be few/none for content):
+0
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Pages dropped from 2477 to 840. That is a major improvement.
+
+Hugo may not have removed leftover index files from the public directory. A clean rebuild after deleting public is needed to verify.
+
+Related-posts IDs are zero. Those pages likely lack that section or use different IDs. The 46-second total is nearly identical to the previous ~45 seconds. HTML generation is the main cost. Removing parallel RSS and markdown work did not help much. The real speedup comes from the smaller page count.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Pages dropped 2477 → 840. Cleaning `public` and rebuilding so leftover `index.md`/`index.xml` aren't masking the change.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rm -rf public
+CI=true GOMAXPROCS=2 .cache/hugo/0.163.3/hugo --gc --minify --forceSyncStatic --buildFuture --cacheDir &#34;$PWD/.cache&#34; 2&gt;&amp;1 | grep -E &#39;Pages|Paginator|Aliases|Processed|Total in|Error&#39;
+echo
+echo &#39;=== artifacts ===&#39;
+ls public/notes/depth-of-understanding/
+ls public/blog/alex-eala-pro-career-tracker/
+test -f public/blog/index.xml &amp;&amp; echo &#39;blog RSS OK&#39;
+test -f public/index.xml &amp;&amp; echo &#39;home RSS OK&#39;
+test ! -f public/notes/depth-of-understanding/index.md &amp;&amp; echo &#39;per-page md gone OK&#39;
+test ! -f public/notes/depth-of-understanding/index.xml &amp;&amp; echo &#39;per-page RSS gone OK&#39;
+echo
+echo &#39;=== related posts ===&#39;
+rg -l &#39;id=&#34;related-posts&#34;&#39; public/blog public/notes --glob &#39;**/index.html&#39; | head -5
+# full deploy for CSP too
+echo
+CI=true GOMAXPROCS=2 node scripts/deployBuild.mjs 2&gt;&amp;1 | grep -E &#39;Pages|Total in|cspHashes|ERROR&#39;
+</summary>
+```bash
+rm -rf public
+CI=true GOMAXPROCS=2 .cache/hugo/0.163.3/hugo --gc --minify --forceSyncStatic --buildFuture --cacheDir "$PWD/.cache" 2>&1 | grep -E 'Pages|Paginator|Aliases|Processed|Total in|Error'
+echo
+echo '=== artifacts ==='
+ls public/notes/depth-of-understanding/
+ls public/blog/alex-eala-pro-career-tracker/
+test -f public/blog/index.xml && echo 'blog RSS OK'
+test -f public/index.xml && echo 'home RSS OK'
+test ! -f public/notes/depth-of-understanding/index.md && echo 'per-page md gone OK'
+test ! -f public/notes/depth-of-understanding/index.xml && echo 'per-page RSS gone OK'
+echo
+echo '=== related posts ==='
+rg -l 'id="related-posts"' public/blog public/notes --glob '**/index.html' | head -5
+# full deploy for CSP too
+echo
+CI=true GOMAXPROCS=2 node scripts/deployBuild.mjs 2>&1 | grep -E 'Pages|Total in|cspHashes|ERROR'
+
+```
+
+```
+ Pages            │ 840 
+ Paginator pages  │  34 
+ Processed images │ 577 
+ Aliases          │ 980 
+Total in 45937 ms
+
+=== artifacts ===
+index.html
+index.html
+blog RSS OK
+home RSS OK
+per-page md gone OK
+per-page RSS gone OK
+
+=== related posts ===
+
+ Pages            │ 840 
+Total in 44661 ms
+[cspHashes] Rewrote 27 inline onerror= attribute(s) in 7 file(s).
+[cspHashes] Hashed 3474 inline <script> block(s) → 9 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The related-posts ID is missing. I'm checking whether the section uses different markup or if a caching bug is causing the lookup to return empty.
+
+I'll also compare A/B timing against the previous outputs configuration.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: # Find related posts markup
+rg -n &#39;related.posts|related-posts|Related posts&#39; public/blog/hugoplate-theme-review/index.html | head -10
+rg -n &#39;related&#39; layouts/_partials/blog/related-posts.html themes/jorap/layouts/blog/single.html | head -20
+# Check a note that should have related posts
+python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import re
+html = Path(&#39;public/notes/depth-of-understanding/index.html&#39;).read_text()
+for pat in [&#39;related-posts&#39;, &#39;Related posts&#39;, &#39;related_posts&#39;, &#39;blog-card&#39;]:
+    print(pat, html.lower().count(pat.lower()))
+# show a slice around related if any
+m = re.search(r&#39;.{80}related.{80}&#39;, html, re.I)
+print(&#39;sample:&#39;, (m.group(0)[:200] if m else &#39;none&#39;))
+PY
+</summary>
+```bash
+# Find related posts markup
+rg -n 'related.posts|related-posts|Related posts' public/blog/hugoplate-theme-review/index.html | head -10
+rg -n 'related' layouts/_partials/blog/related-posts.html themes/jorap/layouts/blog/single.html | head -20
+# Check a note that should have related posts
+python3 - <<'PY'
+from pathlib import Path
+import re
+html = Path('public/notes/depth-of-understanding/index.html').read_text()
+for pat in ['related-posts', 'Related posts', 'related_posts', 'blog-card']:
+    print(pat, html.lower().count(pat.lower()))
+# show a slice around related if any
+m = re.search(r'.{80}related.{80}', html, re.I)
+print('sample:', (m.group(0)[:200] if m else 'none'))
+PY
+
+```
+
+```
+100:<script type=application/json class=notes-copy-data>{"source":"---\ntitle: \"HugoPlate: The Theme Quietly Powering This Site\"\nmeta_title: \"HugoPlate Theme Review: Why It Powers JoRap Notes\"\ndescription: \"After losing half a Saturday to theme-shopping, I picked HugoPlate - a year later I'm still on it. What I changed and where it still bites.\"\nslug: \"hugoplate-theme-review\"\ndate: \"2026-05-29T05:00:00Z\"\nimage: \"/images/joraps-world.jpg\"\ncategories: [\"Website\", \"Technology\", \"Reviews\"]\nauthor: \"JoRap\"\ntags: [\"Hugoplate\", \"Hugo\", \"Tailwind CSS\", \"Themes\", \"Static Sites\", \"Open Source\", \"Website Building\", \"Digital Garden\"]\nrelated_notes:\n  - the-garage-concept\n  - digital-garden\n  - drafting-in-public\n  - git-based-cms\n  - free-tier-hosting-stack\n  - selling-static-sites\nfeatured: false\ndraft: false\n---\n\nIf you've ever spent a Saturday \"just browsing\" Hugo themes, you already know the trap. Every one of them looks gorgeous on a landing page. Half of them haven't been touched in two years. The other half are tied to a styling system you'll spend a month fighting before you can change a button color.\n\nI gave myself one weekend to pick a theme for this site. I ended up on [HugoPlate](https://github.com/zeon-studio/hugoplate), and a year later I still haven't replaced it.\n\n---\n\n## What HugoPlate actually is\n\nHugoPlate is a free, open-source Hugo theme from [Zeon Studio](https://zeon.studio). The real reason I picked it: it's built on **Tailwind CSS**. Sounds like a small detail. It was the whole decision.\n\nMost Hugo themes rely on their own bespoke CSS, often layered on Bootstrap or a custom SCSS pipeline. Tweaking them means learning that one theme's specific conventions. With HugoPlate, if you know any Tailwind, you already know how to restyle 90% of the site. Want a tighter card? Change `p-8` to `p-6`. Want a different accent color? Edit a config file. No theme-specific dialect to learn.\n\nOne thing 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the output file.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/7e778a0a-eb90-433b-baa7-ff030f2da180.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-posts-lookup.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Related posts are working correctly. The `id=related-posts` attribute appears in the minified HTML.
+
+Warm builds take roughly 45 seconds with two workers. Page count differences are minor because HTML template work dominates. Cold Cloudflare builds should benefit more from fewer pages to write and upload. Next steps include restoring old outputs to measure clean public builds, verifying llms.txt, updating the troubleshooting guide, completing remaining todos, and summarizing results without committing unless requested.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: # Spot-check llms + search index + compare HTML related section vs live
+test -f public/llms.txt &amp;&amp; echo &#39;llms.txt OK&#39; || echo &#39;llms MISSING&#39;
+test -f public/index.json &amp;&amp; echo &#39;search OK&#39; || ls public/*.json 2&gt;/dev/null | head
+head -20 public/llms.txt
+echo
+# A/B: restore old outputs briefly
+cp hugo.toml /tmp/hugo.toml.new
+python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+p = Path(&#39;hugo.toml&#39;)
+t = p.read_text()
+old = &#39;&#39;&#39;[outputs]
+home     = [&#34;HTML&#34;, &#34;RSS&#34;, &#34;WebAppManifest&#34;, &#34;SearchIndex&#34;, &#34;llms&#34;, &#34;llmsfull&#34;, &#34;md&#34;]
+# Per-page RSS/md had no consumers (feeds are section/home; OKF/copy-md use static/exports).
+# Dropping them cuts ~800+ Hugo page renders per build.
+page     = [&#34;HTML&#34;]
+section  = [&#34;HTML&#34;, &#34;RSS&#34;]
+taxonomy = [&#34;HTML&#34;]
+term     = [&#34;HTML&#34;]&#39;&#39;&#39;
+new = &#39;&#39;&#39;[outputs]
+home     = [&#34;HTML&#34;, &#34;RSS&#34;, &#34;WebAppManifest&#34;, &#34;SearchIndex&#34;, &#34;llms&#34;, &#34;llmsfull&#34;, &#34;md&#34;]
+page     = [&#34;HTML&#34;, &#34;RSS&#34;, &#34;md&#34;]
+section  = [&#34;HTML&#34;, &#34;RSS&#34;, &#34;md&#34;]
+taxonomy = [&#34;HTML&#34;, &#34;RSS&#34;, &#34;md&#34;]
+term     = [&#34;HTML&#34;, &#34;RSS&#34;, &#34;md&#34;]&#39;&#39;&#39;
+assert old in t, &#39;block missing&#39;
+p.write_text(t.replace(old, new))
+print(&#39;restored old outputs&#39;)
+PY
+t_old=$( { GOMAXPROCS=2 /usr/bin/time -f %e .cache/hugo/0.163.3/hugo --gc --minify --forceSyncStatic --buildFuture --cacheDir &#34;$PWD/.cache&#34; 2&gt;/tmp/hugo-old.err &gt;/dev/null; } 2&gt;&amp;1 )
+pages_old=$(grep -E &#39;Pages&#39; /tmp/hugo-old.err | head -1)
+cp /tmp/hugo.toml.new hugo.toml
+t_new=$( { GOMAXPROCS=2 /usr/bin/time -f %e .cache/hugo/0.163.3/hugo --gc --minify --forceSyncStatic --buildFuture --cacheDir &#34;$PWD/.cache&#34; 2&gt;/tmp/hugo-new.err &gt;/dev/null; } 2&gt;&amp;1 )
+pages_new=$(grep -E &#39;Pages&#39; /tmp/hugo-new.err | head -1)
+echo &#34;OLD outputs: $pages_old time=${t_old}s&#34;
+echo &#34;NEW outputs: $pages_new time=${t_new}s&#34;
+git status --short | grep -v specstory
+</summary>
+```bash
+# Spot-check llms + search index + compare HTML related section vs live
+test -f public/llms.txt && echo 'llms.txt OK' || echo 'llms MISSING'
+test -f public/index.json && echo 'search OK' || ls public/*.json 2>/dev/null | head
+head -20 public/llms.txt
+echo
+# A/B: restore old outputs briefly
+cp hugo.toml /tmp/hugo.toml.new
+python3 - <<'PY'
+from pathlib import Path
+p = Path('hugo.toml')
+t = p.read_text()
+old = '''[outputs]
+home     = ["HTML", "RSS", "WebAppManifest", "SearchIndex", "llms", "llmsfull", "md"]
+# Per-page RSS/md had no consumers (feeds are section/home; OKF/copy-md use static/exports).
+# Dropping them cuts ~800+ Hugo page renders per build.
+page     = ["HTML"]
+section  = ["HTML", "RSS"]
+taxonomy = ["HTML"]
+term     = ["HTML"]'''
+new = '''[outputs]
+home     = ["HTML", "RSS", "WebAppManifest", "SearchIndex", "llms", "llmsfull", "md"]
+page     = ["HTML", "RSS", "md"]
+section  = ["HTML", "RSS", "md"]
+taxonomy = ["HTML", "RSS", "md"]
+term     = ["HTML", "RSS", "md"]'''
+assert old in t, 'block missing'
+p.write_text(t.replace(old, new))
+print('restored old outputs')
+PY
+t_old=$( { GOMAXPROCS=2 /usr/bin/time -f %e .cache/hugo/0.163.3/hugo --gc --minify --forceSyncStatic --buildFuture --cacheDir "$PWD/.cache" 2>/tmp/hugo-old.err >/dev/null; } 2>&1 )
+pages_old=$(grep -E 'Pages' /tmp/hugo-old.err | head -1)
+cp /tmp/hugo.toml.new hugo.toml
+t_new=$( { GOMAXPROCS=2 /usr/bin/time -f %e .cache/hugo/0.163.3/hugo --gc --minify --forceSyncStatic --buildFuture --cacheDir "$PWD/.cache" 2>/tmp/hugo-new.err >/dev/null; } 2>&1 )
+pages_new=$(grep -E 'Pages' /tmp/hugo-new.err | head -1)
+echo "OLD outputs: $pages_old time=${t_old}s"
+echo "NEW outputs: $pages_new time=${t_new}s"
+git status --short | grep -v specstory
+
+```
+
+```
+llms.txt OK
+public/searchindex.json
+# JoRap Notes
+
+> Front-end developer in Metro Manila. Freelance since 2013. WordPress, Hugo, web development, technical support, and training - remote only.
+
+## Pages
+- [Home](https://www.jorap.com/index.md)
+- [About](https://www.jorap.com/about/): Front-end developer in Metro Manila. International, multicultural remote work across Australia, the U.S., and Asia. WordPress, Hugo, training - remote only.
+- [Contact](https://www.jorap.com/contact/): Get in touch about web development, technical support, training, or remote freelance work.
+
+## Notes
+- [Notes](https://www.jorap.com/notes/): My linked note garden - wikilinks, backlinks, and a graph view of connected ideas.
+
+- [Depth of Understanding](https://www.jorap.com/notes/depth-of-understanding/): Atomic ideas climb five depths of understanding - not three education tiers.
+- [21 Laws of Leadership in the Bible](https://www.jorap.com/notes/21-laws-of-leadership-in-the-bible/): Twenty-one leadership laws illustrated with Old and New Testament stories - one claim per lesson, three biblical cases each.
+- [Law of Addition](https://www.jorap.com/notes/law-of-addition/): Leaders add value by serving others.
+- [Law of Big Mo](https://www.jorap.com/notes/law-of-the-big-mo/): Momentum is a leader&#39;s best friend.
+- [Law of Buy-In](https://www.jorap.com/notes/law-of-buy-in/): People buy into the leader, then the vision.
+- [Law of Connection](https://www.jorap.com/notes/law-of-connection/): Leaders touch a heart before they ask for a hand.
+- [Law of Empowerment](https://www.jorap.com/notes/law-of-empowerment/): Only secure leaders give power to others.
+- [Law of Explosive Growth](https://www.jorap.com/notes/law-of-explosive-growth/): To add growth, lead followers - to multiply, lead leaders.
+
+restored old outputs
+OLD outputs:  time=s
+NEW outputs:  time=s
+ M docs/CLIENT_STATIC_SITE.md
+ M docs/README.md
+ M docs/TROUBLESHOOTING.md
+ M hugo.toml
+ M layouts/_partials/blog/related-posts.html
+ M la
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+A/B timing failed because stderr redirection swallowed output oddly.
+
+Home page links correctly to HTML permalinks. The OKF blog log.md likely needs reverting if it only changed timestamps. I will verify hugo.toml outputs and run a clean timing comparison.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg -n -A8 &#39;^\[outputs\]&#39; hugo.toml; echo &#39;---&#39;; git checkout -- static/exports/okf-blog/log.md 2&gt;/dev/null; git status --short | grep -v specstory
+# Proper A/B with summary from hugo stdout
+rm -rf /tmp/ab-old /tmp/ab-new
+mkdir -p /tmp/ab-old /tmp/ab-new
+# OLD
+python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+p=Path(&#39;hugo.toml&#39;); t=p.read_text()
+t2=t.replace(&#39;page     = [&#34;HTML&#34;]\nsection  = [&#34;HTML&#34;, &#34;RSS&#34;]\ntaxonomy = [&#34;HTML&#34;]\nterm     = [&#34;HTML&#34;]&#39;,
+             &#39;page     = [&#34;HTML&#34;, &#34;RSS&#34;, &#34;md&#34;]\nsection  = [&#34;HTML&#34;, &#34;RSS&#34;, &#34;md&#34;]\ntaxonomy = [&#34;HTML&#34;, &#34;RSS&#34;, &#34;md&#34;]\nterm     = [&#34;HTML&#34;, &#34;RSS&#34;, &#34;md&#34;]&#39;)
+# also strip comment block if present for clean swap - already done by replace of page lines
+Path(&#39;/tmp/hugo-old.toml&#39;).write_text(t2)
+Path(&#39;/tmp/hugo-new.toml&#39;).write_text(t)
+print(&#39;prepared&#39;)
+PY
+cp /tmp/hugo-old.toml hugo.toml
+{ GOMAXPROCS=2 /usr/bin/time -f &#39;REAL %e&#39; .cache/hugo/0.163.3/hugo --gc --minify --forceSyncStatic --buildFuture --cacheDir &#34;$PWD/.cache&#34; &gt; /tmp/ab-old/out.txt; } 2&gt; /tmp/ab-old/time.txt
+cp /tmp/hugo-new.toml hugo.toml
+{ GOMAXPROCS=2 /usr/bin/time -f &#39;REAL %e&#39; .cache/hugo/0.163.3/hugo --gc --minify --forceSyncStatic --buildFuture --cacheDir &#34;$PWD/.cache&#34; &gt; /tmp/ab-new/out.txt; } 2&gt; /tmp/ab-new/time.txt
+echo OLD:; grep -E &#39;Pages|Total in|REAL&#39; /tmp/ab-old/out.txt /tmp/ab-old/time.txt
+echo NEW:; grep -E &#39;Pages|Total in|REAL&#39; /tmp/ab-new/out.txt /tmp/ab-new/time.txt
+</summary>
+```bash
+rg -n -A8 '^\[outputs\]' hugo.toml; echo '---'; git checkout -- static/exports/okf-blog/log.md 2>/dev/null; git status --short | grep -v specstory
+# Proper A/B with summary from hugo stdout
+rm -rf /tmp/ab-old /tmp/ab-new
+mkdir -p /tmp/ab-old /tmp/ab-new
+# OLD
+python3 - <<'PY'
+from pathlib import Path
+p=Path('hugo.toml'); t=p.read_text()
+t2=t.replace('page     = ["HTML"]\nsection  = ["HTML", "RSS"]\ntaxonomy = ["HTML"]\nterm     = ["HTML"]',
+             'page     = ["HTML", "RSS", "md"]\nsection  = ["HTML", "RSS", "md"]\ntaxonomy = ["HTML", "RSS", "md"]\nterm     = ["HTML", "RSS", "md"]')
+# also strip comment block if present for clean swap - already done by replace of page lines
+Path('/tmp/hugo-old.toml').write_text(t2)
+Path('/tmp/hugo-new.toml').write_text(t)
+print('prepared')
+PY
+cp /tmp/hugo-old.toml hugo.toml
+{ GOMAXPROCS=2 /usr/bin/time -f 'REAL %e' .cache/hugo/0.163.3/hugo --gc --minify --forceSyncStatic --buildFuture --cacheDir "$PWD/.cache" > /tmp/ab-old/out.txt; } 2> /tmp/ab-old/time.txt
+cp /tmp/hugo-new.toml hugo.toml
+{ GOMAXPROCS=2 /usr/bin/time -f 'REAL %e' .cache/hugo/0.163.3/hugo --gc --minify --forceSyncStatic --buildFuture --cacheDir "$PWD/.cache" > /tmp/ab-new/out.txt; } 2> /tmp/ab-new/time.txt
+echo OLD:; grep -E 'Pages|Total in|REAL' /tmp/ab-old/out.txt /tmp/ab-old/time.txt
+echo NEW:; grep -E 'Pages|Total in|REAL' /tmp/ab-new/out.txt /tmp/ab-new/time.txt
+
+```
+
+```
+]633;P;Cwd=/home/jorap/Documents/GitHub/jorap.com]633;P;HasRichCommandDetection=True]633;A$ ]633;B]633;E;rg -n -A8 '^\\[outputs\\]' hugo.toml\x3b echo '---'\x3b git checkout -- static/exports/okf-blog/log.md 2>/dev/null\x3b git status --short | grep -v specstory\x0a# Proper A/B with summary from hugo stdout\x0arm -rf /tmp/ab-old /tmp/ab-new\x0amkdir -p /tmp/ab-old /tmp/ab-new\x0a# OLD\x0apython3 - <<'PY'\x0afrom pathlib import Path\x0ap=Path('hugo.toml')\x3b t=p.read_text()\x0at2=t.replace('page     = ["HTML"]\\nsection  = ["HTML", "RSS"]\\ntaxonomy = ["HTML"]\\nterm     = ["HTML"]',\x0a             'page     = ["HTML", "RSS", "md"]\\nsection  = ["HTML", "RSS", "md"]\\ntaxonomy = ["HTML", "RSS", "md"]\\nterm     = ["HTML", "RSS", "md"]')\x0a# also strip comment block if present for clean swap - already done by replace of page lines\x0aPath('/tmp/hugo-old.toml').write_text(t2)\x0aPath('/tmp/hugo-new.toml').write_text(t)\x0aprint('prepared')\x0aPY\x0acp /tmp/hugo-old.toml hugo.toml\x0a{ GOMAXPROCS=2 /usr/bin/time -f 'REAL %e' .cache/hugo/0.163.3/hugo --gc --minify --forceSyncStatic --buildFuture --cacheDir "$PWD/.cache" > /tmp/ab-old/out.txt\x3b } 2> /tmp/ab-old/time.txt\x0acp /tmp/hugo-new.toml hugo.toml\x0a{ GOMAXPROCS=2 /usr/bin/time -f 'REAL %e' .cache/hugo/0.163.3/hugo --gc --minify --forceSyncStatic --buildFuture --cacheDir "$PWD/.cache" > /tmp/ab-new/out.txt\x3b } 2> /tmp/ab-new/time.txt\x0aecho OLD:\x3b grep -E 'Pages|Total in|REAL' /tmp/ab-old/out.txt /tmp/ab-old/time.txt\x0aecho NEW:\x3b grep -E 'Pages|Total in|REAL' /tmp/ab-new/out.txt /tmp/ab-new/time.txt\x0arg -n -A8 '^\[outputs\]' hugo.toml; echo '---'; git checkout -- static/exports/okf-blog/log.md 2>/dev/null; git status --short | grep -v specstory
+# Proper A/B with summary from hugo stdout
+rm -rf /tmp/ab-old /tmp/ab-new
+mkdir -p /tmp/ab-old /tmp/ab-new
+# OLD
+python3 - <<'PY'
+from pathlib import Path
+p=Path('hugo.toml'); t=p.read_text()
+t2=t.replace('page     = ["HTML"]\nsection  = ["HTML", "
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Waiting for the A/B build to finish.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="await"><details>
+<summary>Tool use: **await**</summary>
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the output.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/784240.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Wall-clock time stayed near 45 seconds across all three runs. The page count dropped sharply from 2477 to 840. This suggests the warm cache is masking the actual scaling difference.
+
+Notes HTML generation still dominates. RSS and markdown writes remain cheap. Fewer pages cut Cloudflare uploads by roughly 1600 files and reduce disk I/O. The related-posts cache may ease CPU pressure, though its effect is likely masked. The real bottleneck is the unchanged notes single HTML template.
+
+The llms home link still points to index.md. That is fine. Todo 3 is complete. Closing the session.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Verify Cloudflare Pages deploy (redirects, build, live site)",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Document apex → www redirect (SuperCP, not _redirects)",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Deeper Hugo build performance (safe structural win)",
+      "id": "3",
+      "status": "completed"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Verify Cloudflare Pages deploy (redirects, build, live site)",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Document apex → www redirect (SuperCP, not _redirects)",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Deeper Hugo build performance (safe structural win)",
+      "id": "3",
+      "status": "in_progress"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git status --short | grep -v specstory; echo &#39;---&#39;; git diff --stat -- docs hugo.toml layouts static/_redirects</summary>
+```bash
+git status --short | grep -v specstory; echo '---'; git diff --stat -- docs hugo.toml layouts static/_redirects
+```
+
+```
+ M docs/CLIENT_STATIC_SITE.md
+ M docs/README.md
+ M docs/TROUBLESHOOTING.md
+ M hugo.toml
+ M layouts/_partials/blog/related-posts.html
+ M layouts/_partials/toc-related-extras.html
+ M static/_redirects
+---
+ docs/CLIENT_STATIC_SITE.md                | 22 +++++++-------
+ docs/README.md                            |  2 +-
+ docs/TROUBLESHOOTING.md                   | 48 +++++++++++++++++++++++++------
+ hugo.toml                                 | 10 ++++---
+ layouts/_partials/blog/related-posts.html |  2 +-
+ layouts/_partials/toc-related-extras.html |  2 +-
+ static/_redirects                         |  8 ++++--
+ 7 files changed, 66 insertions(+), 28 deletions(-)
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+A clear summary of all three completed items will follow.
+
+Uncommitted changes remain; the user did not request a commit.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+All three done. Summary:
+
+### 1. Live deploy verified
+- Path redirects work (`/notes/cards/` → flashcards, handoff, worship-pads rename)
+- Custom 404 + CSP headers present
+- Apex → www (including HTTPS deep paths) already confirmed from your SuperCP fix
+
+### 2. Docs updated
+- `docs/TROUBLESHOOTING.md` — apex is SuperCP wildcard 301, not `_redirects`
+- `docs/README.md`, `docs/CLIENT_STATIC_SITE.md` — same truth + image-cache note (`:cacheDir`)
+- `static/_redirects` comments point at the SuperCP setup
+
+### 3. Hugo perf (safe)
+- Dropped unused per-page/taxonomy `RSS` + `md` outputs → **2477 → 840 Pages**
+- Cached `related-posts-lookup` (TOC + body shared)
+- Section/home RSS kept; related-posts HTML still renders
+
+Local 2-core Hugo wall time stayed ~45s (notes HTML still dominates). The big win is fewer deploy artifacts for Cloudflare upload.
+
+Uncommitted: those 7 files. Say if you want a commit.

@@ -139,3 +139,48 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Shortening the press release and rewriting it in JoRap voice.
+
+Checking existing tracker notes for reference. The Washington entry may need a short prose-style note similar to the Wimbledon section.
+
+The rewritten copy will likely serve as a tracker entry or social post. A short voice note under Washington would match the scrapbook style. Checking whether Best Performances or Wimbledon provides the standard note format.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Checking how other scrapbook notes are phrased so the rewrite fits.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'll condense the press copy into a shorter JoRap-voice rewrite.
+
+I'll add a milestone bullet to the tracker noting the identical scoreline twice and the Osaka semifinal. The rewritten prose will follow the JoRap-voice style.
+
+I'm now drafting the shortened JoRap-voice rewrite. I'm flagging AI-style phrases like "stunning repeat performance" to cut.
+
+The draft cuts all AI-style phrases. It uses a direct first-person voice: "Eala beat Svitolina 6-3, 6-4 — same score as Berlin six weeks ago, grass to hard. Next up is Osaka in the semis. I'm nervous and I'm here for it."
+
+I'm trimming the draft even further into a one-line Wimbledon-style quote. I'm also weighing a short scrapbook paragraph with a prediction-free closing line. I'll add a note to the Washington block and bump the last modified timestamp.
+
+The shortened prose will go straight into the reply. A milestone bullet under Washington will record the identical 6-3, 6-4 scoreline from the Berlin quarterfinal. The Osaka semifinal remains a future watch item.
+
+I decided not to edit the tracker file. The user only requested a rewrite, so I'll deliver the shortened JoRap-voice prose directly.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Same score, different surface. Eala beat World No. 10 Svitolina **6-3, 6-4** in the Washington quarterfinals - identical to Berlin six weeks ago on grass. Semifinal is Naomi Osaka, who climbed out of a set hole against Cocciaretto (4-6, 6-4, 6-3). First meeting. I'm not calling it. I'm just watching.
+
+(Already on the tracker under Washington + the Svitolina H2H.)

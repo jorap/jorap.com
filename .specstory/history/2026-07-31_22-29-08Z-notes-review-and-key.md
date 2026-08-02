@@ -1869,3 +1869,620 @@ I need to create 126 cards from 21 notes, with 6 cards each. Even though only 2 
 _**Agent (auto-smart)**_
 
 I’m continuing with the remaining gate: six cue-to-action cards for each of the 21 leadership-law notes, using the faith deck labels and keeping doctrine in the Free Grace lane.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Add six review cards to all 21 leadership-law notes",
+      "id": "cards",
+      "status": "in_progress"
+    },
+    {
+      "content": "Run complete garden and flashcard validation",
+      "id": "final-lint",
+      "status": "pending"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Fix remaining shareable-thought lint failures",
+      "id": "shareables",
+      "status": "completed"
+    },
+    {
+      "content": "Run full garden validation after fixes",
+      "id": "garden-lint",
+      "status": "completed"
+    }
+  ],
+  "success": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
+<summary>Tool use: **task_v2**</summary>
+
+Parameters:
+
+```json
+{
+  "description": "Add cards to laws 1",
+  "model": "auto-smart",
+  "name": "general-purpose",
+  "prompt": "In /home/jorap/Documents/GitHub/jorap.com, add flashcard frontmatter to exactly these notes: law-of-addition.md, law-of-buy-in.md, law-of-connection.md, law-of-empowerment.md, law-of-explosive-growth.md, law-of-influence.md, law-of-intuition.md under content/english/notes. Read and follow .cursor/skills/flashcards/SKILL.md and .cursor/skills/garden-voice/SKILL.md, plus each full note. Add review: true, card_sets: [\"Eternal Principles\", \"Discipleship\"], and exactly six cards per note before draft. Each front must be a specific present-tense first-person life/work/discipleship cue with a subtle open hint question; no verse references, title telegraphy, or multiple choice. Each back must be shorter, plain, one immediate move or decision. Keep Free Grace doctrine: leadership practice follows grace and does not earn eternal life. Do not alter other content. Run relevant direct flashcard lint/audit/voice checks. Do not commit. Report files changed and any blockers.",
+  "subagentType": "unspecified"
+}
+```
+Additional data:
+
+```json
+{
+  "status": "success",
+  "subagentComposerId": "f036e7c1-9362-40d1-91ac-38202faf7cbd",
+  "terminationReason": "completed"
+}
+```
+Result:
+
+```json
+{
+  "agentId": "f036e7c1-9362-40d1-91ac-38202faf7cbd"
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
+<summary>Tool use: **task_v2**</summary>
+
+Parameters:
+
+```json
+{
+  "description": "Add cards to laws 2",
+  "model": "auto-smart",
+  "name": "general-purpose",
+  "prompt": "In /home/jorap/Documents/GitHub/jorap.com, add flashcard frontmatter to exactly these notes: law-of-legacy.md, law-of-magnetism.md, law-of-navigation.md, law-of-priorities.md, law-of-process.md, law-of-respect.md, law-of-sacrifice.md under content/english/notes. Read and follow .cursor/skills/flashcards/SKILL.md and .cursor/skills/garden-voice/SKILL.md, plus each full note. Add review: true, card_sets: [\"Eternal Principles\", \"Discipleship\"], and exactly six cards per note before draft. Each front must be a specific present-tense first-person life/work/discipleship cue with a subtle open hint question; no verse references, title telegraphy, or multiple choice. Each back must be shorter, plain, one immediate move or decision. Keep Free Grace doctrine: leadership practice follows grace and does not earn eternal life. Do not alter other content. Run relevant direct flashcard lint/audit/voice checks. Do not commit. Report files changed and any blockers.",
+  "subagentType": "unspecified"
+}
+```
+Additional data:
+
+```json
+{
+  "status": "success",
+  "subagentComposerId": "c2eb5fb2-3a87-41d6-a784-0f8efc9b0968",
+  "terminationReason": "completed"
+}
+```
+Result:
+
+```json
+{
+  "agentId": "c2eb5fb2-3a87-41d6-a784-0f8efc9b0968"
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
+<summary>Tool use: **task_v2**</summary>
+
+Parameters:
+
+```json
+{
+  "description": "Add cards to laws 3",
+  "model": "auto-smart",
+  "name": "general-purpose",
+  "prompt": "In /home/jorap/Documents/GitHub/jorap.com, add flashcard frontmatter to exactly these notes: law-of-solid-ground.md, law-of-the-big-mo.md, law-of-the-inner-circle.md, law-of-the-lid.md, law-of-the-picture.md, law-of-timing.md, law-of-victory.md under content/english/notes. Read and follow .cursor/skills/flashcards/SKILL.md and .cursor/skills/garden-voice/SKILL.md, plus each full note. Add review: true, card_sets: [\"Eternal Principles\", \"Discipleship\"], and exactly six cards per note before draft. Each front must be a specific present-tense first-person life/work/discipleship cue with a subtle open hint question; no verse references, title telegraphy, or multiple choice. Each back must be shorter, plain, one immediate move or decision. Keep Free Grace doctrine: leadership practice follows grace and does not earn eternal life. Do not alter other content. Run relevant direct flashcard lint/audit/voice checks. Do not commit. Report files changed and any blockers.",
+  "subagentType": "unspecified"
+}
+```
+Additional data:
+
+```json
+{
+  "status": "success",
+  "subagentComposerId": "12192f09-7ae6-4c1e-8467-d78939ade846",
+  "terminationReason": "completed"
+}
+```
+Result:
+
+```json
+{
+  "agentId": "12192f09-7ae6-4c1e-8467-d78939ade846"
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+All 21 law notes now have six-card review decks. I’m running the complete gate; the only issue reported during drafting is two older telegraphing fronts in `depth-of-understanding.md`.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: corepack pnpm lint:garden</summary>
+```bash
+corepack pnpm lint:garden
+```
+
+```
+$ node scripts/runPython.mjs scripts/lint-notes-frontmatter.py && node scripts/runPython.mjs scripts/normalize-notes-format.py --verify && node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py && node scripts/runPython.mjs scripts/audit-flashcard-north-star.py && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py && node scripts/runPython.mjs scripts/voice-lint.py garden --check && node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+Note frontmatter lint OK
+Flashcard frontmatter OK
+Flashcard north-star audit issues:
+  content/english/notes/depth-of-understanding.md [telegraphy-front] front=I can define the idea at dinner but never used it at wo… back=Explanation - not Application yet.…
+  content/english/notes/depth-of-understanding.md [telegraphy-front] front=Stuck between naming the concept and using it in a real… back=Explanation - meaning and relationships …
+
+2 issue(s) in garden flashcards
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git diff --check &amp;&amp; git status --short</summary>
+```bash
+git diff --check && git status --short
+```
+
+```
+ M .cursor/rules/anti-slop.mdc
+ M .cursor/skills/garden-voice/SKILL.md
+ M .specstory/history/2026-07-31_22-29-08Z-notes-review-and-key.md
+ M .specstory/statistics.json
+ M content/english/notes/law-of-addition.md
+ M content/english/notes/law-of-buy-in.md
+ M content/english/notes/law-of-connection.md
+ M content/english/notes/law-of-empowerment.md
+ M content/english/notes/law-of-explosive-growth.md
+ M content/english/notes/law-of-influence.md
+ M content/english/notes/law-of-intuition.md
+ M content/english/notes/law-of-legacy.md
+ M content/english/notes/law-of-magnetism.md
+ M content/english/notes/law-of-navigation.md
+ M content/english/notes/law-of-priorities.md
+ M content/english/notes/law-of-process.md
+ M content/english/notes/law-of-respect.md
+ M content/english/notes/law-of-sacrifice.md
+ M content/english/notes/law-of-solid-ground.md
+ M content/english/notes/law-of-the-big-mo.md
+ M content/english/notes/law-of-the-inner-circle.md
+ M content/english/notes/law-of-the-lid.md
+ M content/english/notes/law-of-the-picture.md
+ M content/english/notes/law-of-timing.md
+ M content/english/notes/law-of-victory.md
+ M data/noteFileDates.json
+ M layouts/_partials/notes/format-key-concept.html
+ M scripts/notes_content.py
+?? .specstory/history/2026-07-31_22-57-38Z-notes-format-update.md
+?? .specstory/history/2026-07-31_22-57-57Z-add-cards-to-laws.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="read_lints"><details>
+<summary>Tool use: **read_lints**</summary>
+
+Parameters:
+
+```json
+{
+  "paths": [
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes"
+  ]
+}
+```
+Result:
+
+```json
+{
+  "linterErrorsByFile": [
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes"
+    }
+  ]
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Add six review cards to all 21 leadership-law notes",
+      "id": "cards",
+      "status": "completed"
+    },
+    {
+      "content": "Run complete garden and flashcard validation",
+      "id": "final-lint",
+      "status": "in_progress"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Add six review cards to all 21 leadership-law notes",
+      "id": "cards",
+      "status": "in_progress"
+    },
+    {
+      "content": "Run complete garden and flashcard validation",
+      "id": "final-lint",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/depth-of-understanding.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/depth-of-understanding.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: corepack pnpm lint:garden</summary>
+```bash
+corepack pnpm lint:garden
+```
+
+```
+$ node scripts/runPython.mjs scripts/lint-notes-frontmatter.py && node scripts/runPython.mjs scripts/normalize-notes-format.py --verify && node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py && node scripts/runPython.mjs scripts/audit-flashcard-north-star.py && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py && node scripts/runPython.mjs scripts/voice-lint.py garden --check && node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+Note frontmatter lint OK
+Flashcard frontmatter OK
+Flashcard north-star audit issues:
+  content/english/notes/depth-of-understanding.md [telegraphy-front] front=Lunch question lands. I can say what the idea means, bu… back=Application - choose and use one move.…
+
+1 issue(s) in garden flashcards
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: corepack pnpm lint:agent-config</summary>
+```bash
+corepack pnpm lint:agent-config
+```
+
+```
+$ node scripts/lint-agent-config.mjs
+agent config OK: 17 skill(s), 8 rule(s), Kilo → .cursor/skills
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git diff --check</summary>
+```bash
+git diff --check
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="read_lints"><details>
+<summary>Tool use: **read_lints**</summary>
+
+Parameters:
+
+```json
+{
+  "paths": [
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/depth-of-understanding.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-addition.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-buy-in.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-connection.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-empowerment.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-explosive-growth.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-influence.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-intuition.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-legacy.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-magnetism.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-navigation.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-priorities.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-process.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-respect.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-sacrifice.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-solid-ground.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-big-mo.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-inner-circle.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-lid.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-picture.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-timing.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-victory.md"
+  ]
+}
+```
+Result:
+
+```json
+{
+  "linterErrorsByFile": [
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/depth-of-understanding.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-addition.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-buy-in.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-connection.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-empowerment.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-explosive-growth.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-influence.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-intuition.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-legacy.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-magnetism.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-navigation.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-priorities.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-process.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-respect.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-sacrifice.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/
+… (output truncated)
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Narrowing down telegraphy**
+
+I'm thinking about whether "move" relates to telegraphy and how it might connect to application prefixes. It seems like I need to understand audit script detection better to avoid any guesswork. I should narrow my search within the script for specific references to telegraphy. That way, I'll better focus on relevant details and avoid missing anything important. Let's work on clarifying this!
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "context": 6,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/audit-flashcard-north-star.py",
+  "pattern": "telegraphy-front|telegraph"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/audit-flashcard-north-star.py",
+  "pattern": "telegraphy-front|telegraph",
+  "topFiles": [
+    {
+      "matchCount": 13,
+      "uri": "scripts/audit-flashcard-north-star.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/audit-flashcard-north-star.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Refining a regex query**
+
+I’m working on using regex to define terms. I notice that while I can describe an idea, I might need to adjust my phrasing. Instead of saying "what is," I think changing it to "Which gap showed up?" would work better. It seems to convey the intent without falling into repetitive wording. I’m just patching up my approach for clarity, ensuring my questions prompt more insightful responses.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/depth-of-understanding.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: corepack pnpm lint:garden</summary>
+```bash
+corepack pnpm lint:garden
+```
+
+```
+$ node scripts/runPython.mjs scripts/lint-notes-frontmatter.py && node scripts/runPython.mjs scripts/normalize-notes-format.py --verify && node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py && node scripts/runPython.mjs scripts/audit-flashcard-north-star.py && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py && node scripts/runPython.mjs scripts/voice-lint.py garden --check && node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+Note frontmatter lint OK
+Flashcard frontmatter OK
+Flashcard north-star audit OK
+Utility wikilinks OK
+Garden voice lint OK
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git diff --check</summary>
+```bash
+git diff --check
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Finalizing updates**
+
+I've completed the updates. I made sure to mention that there are 126 cards and fixed the depth cards. All passes are good to go. However, I didn't commit the changes; instead, I’ve decided to close the session. It feels satisfying to know I've wrapped everything up neatly! Now I can focus on whatever comes next without that lingering on my mind. Let's see what else needs my attention!
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Add six review cards to all 21 leadership-law notes",
+      "id": "cards",
+      "status": "completed"
+    },
+    {
+      "content": "Run complete garden and flashcard validation",
+      "id": "final-lint",
+      "status": "completed"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Add six review cards to all 21 leadership-law notes",
+      "id": "cards",
+      "status": "completed"
+    },
+    {
+      "content": "Run complete garden and flashcard validation",
+      "id": "final-lint",
+      "status": "in_progress"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+Added 126 cue-to-action cards across all 21 leadership-law notes and fixed two telegraphing cards in Depth of Understanding.
+
+`pnpm lint:garden`, agent-config lint, and diff checks now pass completely.
+
+## Session close
+- Fixed: All garden and flashcard checks pass.
+- Encode: none.
+- Open: clean.

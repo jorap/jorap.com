@@ -1,4 +1,4 @@
-{{/* Back-to-top button. Behavior in assets/js/back-to-top.js, styles below moved to themes/jorap/assets/css/components.css. */}}
+{{/* Back-to-top button. Styles in themes/jorap/assets/css/components.css. */}}
 <div id="back-to-top" class="fixed bottom-8 right-8 z-50 hidden">
   <div class="relative">
     <svg class="progress-ring text-accent" width="60" height="60" aria-hidden="true">
@@ -17,3 +17,4 @@
     </button>
   </div>
 </div>
+{{ partial "essentials/fingerprint-asset.html" (dict "src" "js/back-to-top.js" "defer" true) }}

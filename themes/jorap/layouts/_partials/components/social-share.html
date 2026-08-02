@@ -86,4 +86,4 @@
   {{ end }}
 </div>
 
-{{/* Behavior moved out of inline <script>; see assets/js/share.js. */}}
+{{ partial "essentials/fingerprint-asset.html" (dict "src" "js/share.js" "defer" true) }}

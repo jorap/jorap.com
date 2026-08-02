@@ -555,3 +555,2620 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading specific template and module files to identify concrete performance improvements.
+
+Checking hugo.toml outputs and pagination settings. Reviewing related-posts-lookup.html and utility templates that consume markdown or RSS. Verifying module usage.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-posts-lookup.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-link-card.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/is-utility-page.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,toml,md,mjs,js,py}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "outputFormats|\\.OutputFormats|\\.md|format.*md|RSS|rss"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "outputFormats|\\.OutputFormats|\\.md|format.*md|RSS|rss",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".impeccable/critique/2026-06-18T17-25-43Z__themes-jorap-layouts-home-html.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/notes-voice-lint.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".impeccable/critique/2026-07-02T23-23-52Z__site-wide-ui-ux-review.md"
+    },
+    {
+      "matchCount": 67,
+      "uri": ".specstory/history/2026-06-18_07-21-57Z-voice-consistency-in-posts.md"
+    },
+    {
+      "matchCount": 17,
+      "uri": ".specstory/history/2026-05-30_13-47-25Z-hugoplate-theme-article.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/lint-flashcard-frontmatter.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "docs/TODO.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-05-31_17-56-20Z-wireless-audio-battery-life-preferences.md"
+    }
+  ],
+  "totalFiles": 8,
+  "totalMatches": 2002
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "disableAliases"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "disableAliases",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-02_15-02-29Z-best-practices-for-media-images-in-sveltia-cms-and-hugo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_02-50-09Z-comparison-of-site-to.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-16_10-46-47Z-blog-home-page-count.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-30_13-47-25Z-hugoplate-theme-article.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "hugo.toml"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning targeted searches for the requested performance improvements.
+
+Now checking md output format consumers, RSS feeds, module usage, and uncached expensive partials.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/layouts`** (0 files)
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,toml,mjs,js,py,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "OutputFormats\\.md|outputFormat.*md|\\.md\\\"|format \\\"md\\\"|okf|llms"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "OutputFormats\\.md|outputFormat.*md|\\.md\\\"|format \\\"md\\\"|okf|llms",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_09-41-14Z-categories-and-tags-page-format.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-18_08-05-06Z-skill-voice-dash-formatting.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-18_09-38-43Z-social-media-icons-visibility-issue.md"
+    },
+    {
+      "matchCount": 24,
+      "uri": ".specstory/history/2026-06-18_02-54-38Z-skill-update-based-on-history.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": ".specstory/history/2026-05-04_01-02-31Z-related-posts-visibility-issue.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/slop-score.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/normalize-notes-format.py"
+    },
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-05-30_14-10-04Z-button-styling-in-dark-mode.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/noteFileDates.js"
+    },
+    {
+      "matchCount": 20,
+      "uri": ".specstory/history/2026-06-18_07-59-09Z-published-posts-voice-consistency.md"
+    }
+  ],
+  "totalFiles": 10,
+  "totalMatches": 2002
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,toml,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "accordion|mermaid|adsense|preloader|announcement|gallery-slider|videos|llms-txt"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "accordion|mermaid|adsense|preloader|announcement|gallery-slider|videos|llms-txt",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-05-02_10-44-55Z-impeccable-polish-standards.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-28_03-27-44Z-rebranding-sveltia-cms.md"
+    },
+    {
+      "matchCount": 53,
+      "uri": ".specstory/history/2026-07-24_00-13-49Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_17-43-54Z-alex-eala-match-update.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 2002
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/toc-related-extras.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-posts.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether per-page markdown outputs are consumed by external tools such as OKF exports before proceeding.
+
+Checking Page RSS consumers, real module usage outside specstory, remaining uncached partials, and whether related-posts-lookup runs twice per page. Searching the repository now while excluding specstory.tia.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,toml,mjs,js,py,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "OutputFormats\\.md|outputFormat.*md|\\.md\\\"|format \\\"md\\\"|okf|llms"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "OutputFormats\\.md|outputFormat.*md|\\.md\\\"|format \\\"md\\\"|okf|llms",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-05-28_02-54-40Z-html-layout-structure-in-hugo.md"
+    },
+    {
+      "matchCount": 30,
+      "uri": ".specstory/history/2026-05-02_15-02-29Z-best-practices-for-media-images-in-sveltia-cms-and-hugo.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": ".specstory/history/2026-06-19_07-09-22Z-automated-related-notes-section.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-05-30_13-55-11Z-shortcode-examples-in-theme-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-02_09-10-38Z-dark-mode-review-and-tailwind-css-4-usage.md"
+    },
+    {
+      "matchCount": 29,
+      "uri": ".specstory/history/2026-05-10_06-27-45Z-system-update-process-review.md"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 2002
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,toml,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "accordion|mermaid|adsense|preloader|announcement|gallery-slider|videos|llms-txt"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "accordion|mermaid|adsense|preloader|announcement|gallery-slider|videos|llms-txt",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-30_22-31-01Z-jorap-blog-post-summaries.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_14-06-30Z-last-commit-comparison.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": ".specstory/history/2026-05-10_06-27-45Z-system-update-process-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-28_02-37-37Z-hugoplate-theme-updates.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-05-28_02-54-40Z-html-layout-structure-in-hugo.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-30_02-06-39Z-best-free-hosting-stacks.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": ".specstory/history/2026-07-09_14-18-35Z-bible-verse-shortcode-review.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": ".specstory/history/2026-07-15_14-44-16Z-blog-compliance-with-okf.md"
+    }
+  ],
+  "totalFiles": 9,
+  "totalMatches": 2001
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,toml,md,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\.OutputFormats\\.RSS|OutputFormats\\.RSS|rel=\\\"alternate\\\".*rss|application/rss"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\.OutputFormats\\.RSS|OutputFormats\\.RSS|rel=\\\"alternate\\\".*rss|application/rss",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_01-46-41Z-alex-eala-tracker-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-04_01-20-12Z-font-usage-and-heading-structure-issues.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "\\{\\{\u003c\\s*(accordion|tab|modal|mermaid|adsense|gallery|slider|video|youtube)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "\\{\\{\u003c\\s*(accordion|tab|modal|mermaid|adsense|gallery|slider|video|youtube)",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/worship-pads-solo-guitar.md"
+    },
+    {
+      "matchCount": 37,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 104
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes",
+  "pattern": "\\{\\{\u003c\\s*(accordion|tab|modal|mermaid|adsense|gallery|slider|video|youtube)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes",
+  "pattern": "\\{\\{\u003c\\s*(accordion|tab|modal|mermaid|adsense|gallery|slider|video|youtube)",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.html",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "partial \\\"notes/related-notes|partial \\\"blog/related-posts-lookup|partial \\\"notes/note-blurb|partial \\\"notes/is-utility-page|partial \\\"notes/note-link-card"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "partial \\\"notes/related-notes|partial \\\"blog/related-posts-lookup|partial \\\"notes/note-blurb|partial \\\"notes/is-utility-page|partial \\\"notes/note-link-card",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/random-pool.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/toc-related-extras.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/collect-note-issues.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/related-notes.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/blog/related-posts.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/pages.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-card.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/recent-new.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/blog/related-notes.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/backlinks.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/see-also.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-link-card.html"
+    }
+  ],
+  "totalFiles": 14,
+  "totalMatches": 20
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Digging into OKF exports and markdown output scripts under static/exports.
+
+Checking RSS link placement in head templates. Evaluating whether related-notes.html can be safely cached. Reviewing hugo.toml for markdown output format definitions. Investigating module parameters such as preloader and adsense. Looking for double calls in notes/toc.html and blog single templates. Noting that disableAliases only affects paginated page aliases. Mapping callers of related-posts-lookup to assess its caching safety.
+
+Concerned that partialCached slices containing page objects could be corrupted if callers mutate them. The related-posts-lookup key is safe because Limit may vary by section. Its main cost is looping all blog pages plus site.RegularPages.Related. is-utility-page is a pure function of page parameters and has no nested partialCached, so it is safe to cache.
+
+note-blurb is invoked many times per page from note-link-card and note-card. It is a pure function of frontmatter and can be cached by RelPermalink. However, note-link-card still calls the uncached note-blurb partial, so caching it would yield limited benefit.
+
+partialCached on HTML partials is valid since they return rendered markup rather than data structures. Now examining related-notes.html, pages.html, notes/toc.html, and the OKF scriptsafe template to locate concrete cacheable blocks.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/related-notes.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/pages.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,toml,mjs,js,py}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "okf|exports/|\\.md\\\"|index\\.md|single\\.md|list\\.md"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "okf|exports/|\\.md\\\"|index\\.md|single\\.md|list\\.md",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "scripts/lint-filenames.mjs"
+    },
+    {
+      "matchCount": 6,
+      "uri": "layouts/_partials/notes/copy-markdown.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/okf-viz/viz.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/migrate-note-levels.py"
+    },
+    {
+      "matchCount": 8,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/sync-note-flashcards.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/cards.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/okf-viz/viz.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/audit-flashcard-north-star.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/import-from-obsidian.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/lint-utility-wikilinks.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/noteFileDates.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/deployBuild.mjs"
+    },
+    {
+      "matchCount": 1,
+      "uri": "config/_default/params.toml"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/sync-note-relationships.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/normalize-notes-format.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/export-anki-deck.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/lint-flashcard-frontmatter.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/slop-score.py"
+    }
+  ],
+  "totalFiles": 34,
+  "totalMatches": 114
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.html",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap",
+  "pattern": "RSS|rss|OutputFormats"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap",
+  "pattern": "RSS|rss|OutputFormats",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.html",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "RSS|rss|OutputFormats"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "RSS|rss|OutputFormats",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{toml,html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "enable_preloader|google_adsense|enable_announcement|preloader"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "enable_preloader|google_adsense|enable_announcement|preloader",
+  "topFiles": [
+    {
+      "matchCount": 20,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/components/preloader/layouts/partials/preloader.html"
+    },
+    {
+      "matchCount": 4,
+      "uri": "config/_default/params.toml"
+    },
+    {
+      "matchCount": 1,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/adsense/layouts/shortcodes/adsense.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "config/_default/module.toml"
+    },
+    {
+      "matchCount": 2,
+      "uri": "themes/jorap/layouts/baseof.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/adsense/layouts/partials/adsense-script.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/baseof.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/adsense/layouts/partials/adsense.html"
+    }
+  ],
+  "totalFiles": 8,
+  "totalMatches": 32
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+OKF does not consume Hugo-generated `.md` output. Python scripts write directly to `static/exports/okf/`.
+
+Checking whether the llms-txt module or vendor RSS consumes the per-page markdown files generated in `public/`.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/llms-txt`** (3 files)
+
+| File |
+|------|
+| `layouts/_default/list.md` |
+| `layouts/index.md` |
+| `layouts/_default/single.md` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,toml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules",
+  "pattern": "OutputFormats|\\.RSS|rss\\.xml|rel=\\\"alternate\\\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules",
+  "pattern": "OutputFormats|\\.RSS|rss\\.xml|rel=\\\"alternate\\\"",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/seo-tools/basic-seo/layouts/partials/basic-seo.html"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,toml,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap",
+  "pattern": "OutputFormats|\\.RSS|rss\\.xml|rel=\\\"alternate\\\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap",
+  "pattern": "OutputFormats|\\.RSS|rss\\.xml|rel=\\\"alternate\\\"",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/**/*.{md,html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\{\\{\u003c\\s*(accordion|tab|modal|mermaid|adsense|gallery|slider|notice|button)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\{\\{\u003c\\s*(accordion|tab|modal|mermaid|adsense|gallery|slider|notice|button)",
+  "topFiles": [
+    {
+      "matchCount": 14,
+      "uri": "content/english/blog/__blog-template.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": "content/english/pages/elements.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 43
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether llms-txt single.md depends on page markdown output.
+
+Checking blog/toc.html for related-posts-lookup dependencies. Verifying notes/single.html for duplicate calls. Reviewing hugo.toml for markdown output format definitions. Locating RSS templates. Estimating markdown output savings from dropping page and section templates. Reading assembled-content.html to understand the nested partialCached deadlock.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/llms-txt/layouts/_default/single.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/toc.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.html",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "partialCached"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "partialCached",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "themes/jorap/layouts/baseof.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/sort-by-connections.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/random-pool.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/backlinks.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/term.html"
+    },
+    {
+      "matchCount": 4,
+      "uri": "layouts/baseof.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/issues.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/backlinks-index.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-issues-panel.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/collect-cards.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/related-notes.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/blog/list.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/link-registry.html"
+    },
+    {
+      "matchCount": 10,
+      "uri": "themes/jorap/layouts/_partials/essentials/head.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/resolve-target.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/relationships-index.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/outgoing-links.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/build-issues-report.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/random-duo.html"
+    },
+    {
+      "matchCount": 4,
+      "uri": "layouts/_partials/essentials/script.html"
+    }
+  ],
+  "totalFiles": 45,
+  "totalMatches": 78
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The llms-txt module generates per-page `.md` files through its `single.md` template.
+
+OKF exports are generated by Python scripts to `static/exports/okf/`, not Hugo markdown output. The repository contains no custom `rss.xml`; it relies on Hugo's default RSS. The `related-posts-lookup` partial is invoked twice on blog pages: once through `blog/toc.html` and again through `blog/single.html`. The notes single template is also under review.
+
+`related-posts-lookup` is also invoked once through `notes/toc.html`. `see-also.html` calls `related-notes` uncached, which is expensive. `assembled-content.html` is invoked uncached at line 13 of the TOC. The remaining notes single template, llms index templates, and RSS feed discovery still need review.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/see-also.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/llms-txt/layouts/index.llms</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,toml,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "feed|\\.md\\\"|index\\.llms|llmsfull"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "feed|\\.md\\\"|index\\.llms|llmsfull",
+  "topFiles": [
+    {
+      "matchCount": 8,
+      "uri": "./.specstory/history/2026-07-31_23-08-46Z-deployment-review-and-issues.md"
+    },
+    {
+      "matchCount": 71,
+      "uri": "./.specstory/history/2026-08-01_00-26-24Z-find-safe-hugo-perf.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./static/exports/okf-blog/index.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./static/exports/okf-blog/articles/why-run-your-own-website.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./static/exports/okf-blog/articles/why-my-son-loves-toca-boca-world.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./static/exports/okf-blog/articles/why-i-focused-on-open-source.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./static/exports/okf-blog/articles/static-site-vs-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./static/exports/okf-blog/articles/set-it-forget-it-arroz-caldo.md"
+    },
+    {
+      "matchCount": 19,
+      "uri": "./static/exports/okf-blog/articles/getting-started-with-rss-feeds.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": "./static/exports/okf-blog/articles/facebook-favorites-feed.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./hugo.toml"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/depth-of-understanding.md"
+    },
+    {
+      "matchCount": 57,
+      "uri": "./.specstory/history/2026-07-31_23-09-41Z-find-redirects-config.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "./.specstory/history/2026-07-31_22-57-38Z-notes-format-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/law-of-the-big-mo.md"
+    },
+    {
+      "matchCount": 34,
+      "uri": "./.specstory/history/2026-07-31_22-57-57Z-add-cards-to-laws.md"
+    },
+    {
+      "matchCount": 49,
+      "uri": "./.specstory/history/2026-07-31_22-29-08Z-notes-review-and-key.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/literature-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/know-your-lane.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "./content/english/notes/guard-your-heart.md"
+    }
+  ],
+  "totalFiles": 128,
+  "totalMatches": 10000
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+A critical finding regarding markdown output was identified.
+
+Dropping markdown output from pages would break `llms.txt` links, since `index.llms` fetches per-page markdown URLs via `.OutputFormats.Get "md"`. The home page keeps markdown output, so the change must target only pages and sections. Options include updating `llms.txt` to use HTML permalinks instead, or selectively preserving markdown for sections that LLMs consume.
+
+Dropping markdown output from taxonomy terms only offers a safer partial win. RSS output is currently enabled for individual pages, which would generate roughly 2400 extra RSS files across the site. This confirms the need to remove RSS from page outputs as well.
+
+Per-page RSS feeds are likely unused by consumers. Basic SEO and the getting-started-with-rss-feeds post only reference the home and section feeds. Disabling pagination aliases would eliminate redirect files for 34 paginator pages.
+
+The alias count of 980 may include pagination aliases, so a precise Hugo disableAliases measurement is needed.
+
+The highest-impact code change is caching `related-posts-lookup`, which runs twice on blog singles and once on notes. Caching `related-notes` is another candidate. `assembled-content` in the TOC is a leaf partial with no nested partialCached, though its sub-partials still need verification.
+
+`assembled-content` calls `format-key-concept` and `note-raw-body`. These sub-partials appear safe to cache because they contain no nested `partialCached` calls. `related-posts-lookup` returns a slice of Page objects. Callers do not mutate the returned data. It can be cached as a data partial. The default limit is three. It is consistent across the TOC and body.
+
+`related-posts-lookup` must be keyed by both `RelPermalink` and `Limit`. The `see-also` partial adds three to the limit, while `toc-related-extras` passes five, so the cache key must combine both values.
+
+`related-notes` needs a composite key of `RelPermalink`, `Limit`, and `MinSharedTags`. The `see-also` caller defaults to the minimum shared tag count, whereas `blog/related-notes` hardcodes two. This prevents incorrect cache collisions between callers.
+
+On a blog single, `toc-related-extras` invokes `related-notes` with a limit of five, confirming the double call path.
+
+`related-posts-lookup` is the heaviest candidate because it scans every blog page plus the Related index. `related-notes` is less impactful since it only scans the notes list, though it still performs regex work per call. The next step is to inspect `note-raw-body`, `format-key-concept`, and mermaid usage in `content.related-notes`.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-raw-body.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/format-key-concept.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/**/*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\{\\{\u003c\\s*(accordion|tab|modal|mermaid|adsense|gallery|slider)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\{\\{\u003c\\s*(accordion|tab|modal|mermaid|adsense|gallery|slider)",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "content/english/pages/elements.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "content/english/blog/__blog-template.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 25
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,toml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "index\\.xml|OutputFormats\\.Get \\\"RSS\\\"|\\.OutputFormats\\.RSS"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "index\\.xml|OutputFormats\\.Get \\\"RSS\\\"|\\.OutputFormats\\.RSS",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/seo-tools/basic-seo/layouts/partials/basic-seo.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/**/*.md",
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "^aliases:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "^aliases:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/local-first-software.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-intuition.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/break-the-escalation-cycle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-the-inner-circle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/energy-protects-judgment.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/moved-with-compassion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/rollback-principle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/servant-leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-shortcodes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/building-a-second-brain.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/life-before-achievement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/into-your-hands.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/creative-blocks.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__worcestershire-sauce.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/abide-in-me.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/block-recovery-time.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/follow-the-rhythm.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/guard-your-heart.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/table-fellowship.md"
+    }
+  ],
+  "totalFiles": 262,
+  "totalMatches": 262
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the remaining basic-seo template for RSS feed links and reviewing LLM parameters.
+
+Estimating page counts for md/rss outputs. Note-blurb caching is safe as a pure leaf template with DescriptionOnly in the key. Caching is-utility-page offers minimal benefit because the check is already inlined in pages.html and the logic is cheap.
+
+note-blurb regex loops are expensive when the same note appears on many pages, so caching by RelPermalink plus DescriptionOnly yields strong reuse. note-link-card is harder to cache because its HTML varies by occurrence. The highest expected wall-clock win is caching related-posts-lookup. Assembled-content for toc.html may also be worth caching, though render-content might already handle assembly.
+
+Checking whether render-content duplicates assembled-content logic. backlinks.html is uncached in single.html, yet it relies on a cached index internally.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/seo-tools/basic-seo/layouts/partials/basic-seo.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{toml,html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\[llms\\]|generate_llms"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\[llms\\]|generate_llms",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/backlinks.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Grepping for callers of related-posts and related-notes to map their usage.
+
+Checking the theme head template for RSS autodiscovery.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,toml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "partial \\\"blog/related-posts-lookup|partial \\\"notes/related-notes"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "partial \\\"blog/related-posts-lookup|partial \\\"notes/related-notes",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/toc-related-extras.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/blog/related-posts.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/see-also.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/blog/related-notes.html"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,toml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes",
+  "pattern": "rss|RSS|index\\.xml"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes",
+  "pattern": "rss|RSS|index\\.xml",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,toml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "rss|RSS|index\\.xml"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "rss|RSS|index\\.xml",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/llms-txt/layouts/index.llmsfull</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/**/*.md",
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\{\\{\u003c\\s*youtube"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\{\\{\u003c\\s*youtube",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/pages/elements.md"
+    },
+    {
+      "matchCount": 57,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/miracle-isaiah-david.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/drupal-to-wordpress.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/set-it-forget-it-arroz-caldo.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/worship-pads-solo-guitar.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/dnpap-song-resources.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__blog-template.md"
+    }
+  ],
+  "totalFiles": 9,
+  "totalMatches": 76
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/**/*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\{\\{\u003c\\s*mermaid"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\{\\{\u003c\\s*mermaid",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking llmsfull for markdown dependencies and Hugo internal RSS template usage.
+
+Checking table-of-contents module usage. Page RSS outputs are unused and auto-generated, saving over 2300 render passes. Section RSS for /blog is needed because content links to it. Taxonomy term RSS could be dropped.
+
+Dropping markdown output formats would break llms.txt links, since it fetches pages via `.OutputFormats.Get "md"`. Taxonomy pages also rely on md links. Need to verify whether llmsfull reads markdown files directly or only uses inline content.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/llms-txt/layouts/index.llmsfull</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The llmsfull embeds `.RawContent` inline rather than reading the markdown output files.
+
+Dropping `md` from page outputs would save roughly 2300 single.md renders. Links in llms.txt would shift from markdown to HTML. OKF static exports remain unaffected.
+
+Dropping `RSS` from page outputs would save roughly 2300 RSS template runs. No template consumes the RSS output. Section and home RSS feeds stay available.
+
+Section list.md may still be needed for section index URLs in llms.txt. Taxonomy RSS output is low-value. Disabling pagination aliases would eliminate roughly 980 redirect aliases, though most come from frontmatter.
+
+Pagination aliases redirect old `/page/N/` URLs when pager size changes. `disableAliases=true` removes these redirects entirely. This is safe only if the pager size stays fixed.
+
+Adsense is disabled but its partialCached script remains in the base template. Preloader and announcement are disabled yet still invoked from baseof. Mermaid is unused in published content. Accordion, tab, and modal components are only used in draft and review pages; published content relies on hugoplate-theme-review and elements.
+
+Gallery-slider is only used in elements and hugoplate review pages. Videos must stay because YouTube shortcodes are heavily used in alex-eala and other posts. The table-of-contents module needs verification against Hugo’s built-in TOC. Font-awesome remains imported in module.toml despite being replaced by icons.json. Gzip-caching should stay for Cloudflare.
+
+The highest-impact code change is to cache `related-posts-lookup` at its call sites. Both blog and note single pages currently invoke it twice per post: once through the table of contents and again through `related-posts.html`. Caching at the call sites avoids this redundant work.
+
+`partialCached` works with return values in Hugo, so caching `related-posts-lookup` is safe because the returned slice is read-only. The cache key must include the limit since different sections may request different counts. `related-notes` is more expensive because it scans every note title with a regex. `MinSharedTags` does not apply to `related-posts-lookup`.
+
+Blog `related-posts-lookup` is called twice per page with identical parameters, making it the clear duplicate target. Note pages also call it twice, once through the table of contents and once at the bottom. The blog `related-notes` call is not a duplicate because it uses a different `MinSharedTags` threshold than the table of contents version.
+
+Note pages call `related-notes` only once, through `see-also`, so it is not a duplicate. Blog `related-posts-lookup` is cached once per page, yielding roughly 600 saves across blog and note single pages. Blog `related-notes` is expensive because it scans every note title for mentions. Caching `related-notes` by `RelPermalink`, `Limit`, and `MinSharedTags` prevents repeated work on the same page, though the benefit is limited to one call per unique key per render.
+
+`partialCached` is global across the entire build, so different pages cannot share a cache entry even when they have identical tags. The `related-notes` cache therefore only prevents duplicate work on the same page, and blog `related-posts-lookup` is the only duplicate target worth caching.
+
+The duplicate `related-posts-lookup` scan costs roughly 400 full blog passes per build, cutting that work by half. Dropping page-level RSS and markdown outputs would instead eliminate about 4600 files, since roughly 2300 regular pages each generate both formats.
+
+Reconsidering the prior estimate: dropping page RSS and markdown outputs would save roughly 1600 page renders, not 4600, because home, section, taxonomy, and paginator pages still generate those formats. The actual reduction is closer to half the total page count.
+
+Removing RSS and markdown outputs from the `page` kind would reduce page renders by roughly 30–40 percent. On GOMAXPROCS=2 this yields a concrete wall-clock win because page rendering is parallelized. At roughly 800 fewer renders across 2477 total pages, the estimated savings is about 20–25 seconds. Dropping page RSS and markdown outputs ranks first in the combined recommendation.
+
+The ranking is now set. Dropping page-level RSS and markdown outputs is the top pick. Caching `related-posts-lookup` is second. Removing taxonomy RSS is third. Unused modules are fourth. Caching `note-blurb` is fifth. `is-utility-page` and `note-link-card` are negligible.
+
+`partialCached assembled-content` is only worthwhile for the notes table of contents. The toc and render-content paths use different scopes, so they need separate cache keys and do not duplicate work. Caching the toc with an empty scope still avoids a redundant `readFile` call to `note-raw-body` on each note.
+
+Keep section RSS feeds for blog and notes; a template references the blog feed. Dropping taxonomy RSS is safe because no template consumes it. Removing taxonomy markdown is low-risk since llms.txt already links to taxonomy pages. Dropping section markdown is acceptable because HTML fallbacks exist.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{mjs,js,py,md,toml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "/index\\.md|OutputFormats|\\.md\\\" output"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "/index\\.md|OutputFormats|\\.md\\\" output",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_03-23-09Z-blog-and-notes-structure-consistency.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_09-22-01Z-domain-redirection-setup.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_07-53-36Z-drafts-visual-representation-for.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-03_08-56-18Z-image-integration-in-markdown-file.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_02-04-57Z-npm-run-watch-compatibility.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-02_15-02-29Z-best-practices-for-media-images-in-sveltia-cms-and-hugo.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_14-14-13Z-npm-run-deployment-builds-improvement.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-24_07-09-26Z-okf-graph-location.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-07-26_15-04-10Z-okf-version-update-steps.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_09-13-43Z-systems-for-growth-moc.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-15_11-46-47Z-missing-item-at-home.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-17_01-21-56Z-explore-repo-structure.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_09-13-43Z-systems-for-growth-moc-creation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-08_00-42-13Z-verse-display-standards-update.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-27_10-04-00Z-love-for-modern-board.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-18_17-06-01Z-impeccable-critique-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_12-41-13Z-website-style-documentation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_03-54-22Z-git-commit-symbolic-link.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-06_08-19-33Z-ponytail-audit.md"
+    }
+  ],
+  "totalFiles": 50,
+  "totalMatches": 131
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/baseof.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Hugo generates public/notes/issues/index.md from markdown output format.
+
+OKF exports live under static/exports/okf/. Only llms.txt links reference Hugo-generated public/**/*.md. PartialCached return values are safe because callers only read or create new slices rather than mutate in place. Now compiling the final ranked report with file paths and line numbers.
+
+Videos, gallery-slider, accordion, tab, and modal modules are actively used in published pages and should remain. Mermaid is unused in published content but configured in hugo.toml, so removing it risks breaking the mermaid render hook. Adsense is an empty module still loaded via partialCached in script.html.
+
+Preloader and announcement modules are imported and partialCached despite being disabled. Font-awesome can likely be removed since it was replaced per the hugo.toml comment. Table-of-contents usage still needs verification.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/**/*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\{\\{\u003c\\s*toc|table-of-contents"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\{\\{\u003c\\s*toc|table-of-contents",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/pages/elements.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__blog-template.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,toml,css,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "font-awesome|fa-"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "font-awesome|fa-",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/icons/font-awesome/assets/plugins/font-awesome/v5/regular.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "config/_default/module.toml"
+    },
+    {
+      "matchCount": 2,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/icons/font-awesome/assets/plugins/font-awesome/v5/brands.css"
+    },
+    {
+      "matchCount": 15,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/icons/font-awesome/assets/plugins/font-awesome/v6/brands.css"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 326
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+````json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/**/*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "```mermaid"
+}
+````
+Additional data:
+
+````json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "```mermaid",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__blog-template.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/pages/elements.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 6
+}
+````
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The random-pool partial calls note-blurb for every note in the garden (~300) during each build. That entire pool is cached as a whole.
+
+note-blurb is uncached in many callers: note-link-card, note-card, related-notes, notes/list, backlinks, recent-new, and blog/related-notes. Caching it would speed up those paths and the random-pool rebuild.
+
+Caching note-blurb by RelPermalink plus DescriptionOnly would benefit its many uncached callers.
+
+The font-awesome module is dead weight in hugo.toml; removing it shrinks vendor size and cuts module-graph resolution overhead.
+
+The highest-reward, lowest-risk Tier 1 fixes are dropping RSS from page outputs and adding partialCached to related-posts-lookup.
+
+Dropping `md` from `page` outputs avoids an `llms.txt` URL fallback to HTML. Removing `RSS` from `taxonomy` and `term` outputs is another low-risk Tier 1 win.
+
+Tier 2 adds dropping `md` from `section`, `taxonomy`, and `term` outputs, plus caching `note-blurb` as a leaf partial.
+
+Tier 3 includes `is-utility-page` and `note-link-card` partials, though both yield negligible gains.
+
+Tier 4 is `disableAliases = true`, which saves only a tiny amount of alias generation.
+
+Nested partialCached on assembled-content and toolbar caching with collect-note-issues are explicitly ruled out.
+
+The strongest single change is partialCached on related-posts-lookup. It is pure template logic, easy to verify byte-identical HTML on blog and notes pages, and reduces CPU load rather than merely reducing page count.
+
+Dropping page RSS from hugo.toml is the simplest alternative. It carries no template deadlock risk.
+
+The concrete recommendation pairs two changes. First, drop `RSS` and `md` from `page` outputs in `hugo.toml` for the largest page-count reduction. Second, add `partialCached` to `related-posts-lookup` in `toc-related-extras.html` and `related-posts.html`. The lookup returns a slice of Page objects without mutating callers, keyed by `printf "%s-%d" $page.RelPermalink $limit`.
+
+related-posts-lookup is safe to cache because its callers live in regular partials, not inside other partialCached blocks.
+
+note-blurb is also safe as a leaf partial returning a string.
+
+is-utility-page cannot be cached because it is invoked inside pages.html, which is already partialCached. Nesting another partialCached inside it would deadlock.
+
+The same nested partialCached deadlock blocks caching note-blurb. random-pool.html is already partialCached, so calling partialCached from within it would deadlock. The same risk applies to is-utility-page inside pages.html. Both partials must remain uncached.
+
+Hugo’s partialCached is global. A note-blurb cache entry created under the random-pool key would be reused by its uncached callers, so the partial must remain uncached.
+
+A rule clarifies the partialCached deadlock: partialCached nested inside partialCached causes a deadlock, but a plain partial called inside a partialCached parent does not. Therefore note-blurb can be cached safely if all its uncached callers switch to partialCached, while random-pool must remain a plain partial.
+
+collect-note-issues is itself partialCached, so it invokes is-utility-page as a plain partial. Caching is-utility-page would deadlock there too, confirming it is unsafe.
+
+note-blurb is safe to cache because none of its callers sit inside a partialCached block. The only exception is note-link-card, which is unlikely to be rendered inside a cached parent.
+
+related-notes is uncached, so partialCached pages.html inside it is safe. It is not a nested partialCached deadlock.
+
+related-notes cannot be cached either. It calls partialCached pages.html internally, which would deadlock if related-notes were also wrapped in partialCached.
+
+The total output estimate is roughly 900 regular pages plus taxonomy terms and paginators.
+
+Removing RSS and markdown outputs from ~2,477 total outputs drops roughly 800 outputs, about 32% of the total.
+
+Verify the build by diffing the public directory, checking llms.txt links, and confirming /blog/index.xml still exists.
+
+disableAliases only affects pagination list aliases. With a stable pagerSize of 24, the savings are negligible because most aliases come from frontmatter fields.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing the final report with file paths, line numbers, and the recommended minimal diff plan.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+# Hugo build performance — safe recommendations (ranked)
+
+Investigation only; no edits applied. Assumes committed caches (`pages.html`, `random-pool`, `resolve-target`, etc.) stay as-is.
+
+---
+
+## Summary ranking (risk → reward)
+
+| Rank | Change | Reward | Risk | Verdict |
+|------|--------|--------|------|---------|
+| 1 | Drop `RSS` from `page` outputs | **High** (~800 fewer page renders) | **Low** | **Do first** |
+| 2 | `partialCached` `related-posts-lookup.html` | **High** (halves duplicate O(blog×pages) work) | **Low** | **Do first** |
+| 3 | Drop `md` from `page` outputs | **Medium** (~400 fewer renders) | **Low–medium** | Safe if llms.txt HTML URLs OK |
+| 4 | Drop `RSS`/`md` from `taxonomy` + `term` | **Medium** (~500–1000 renders) | **Low** | No consumers found |
+| 5 | Drop `md` from `section` only | **Low** | **Low** | llms.txt section links fall back to HTML |
+| 6 | `partialCached` `note-blurb.html` at leaf call sites | **Low–medium** | **Low** | Safe only outside cached parents |
+| 7 | Remove dead module imports | **Low** (mod/vendor hygiene) | **Low** | Do not remove modules still used in live content |
+| 8 | `pagination.disableAliases = true` | **Very low** | **Low** | Marginal alias reduction |
+| 9 | Cache `is-utility-page` / `note-link-card` / `related-notes` | **Negligible or negative** | **High** | **Do not** (deadlock or nesting) |
+
+---
+
+## 1. Narrow `[outputs]` — RSS and `.md`
+
+### Current config
+
+```137:143:/home/jorap/Documents/GitHub/jorap.com/hugo.toml
+[outputs]
+home     = ["HTML", "RSS", "WebAppManifest", "SearchIndex", "llms", "llmsfull", "md"]
+page     = ["HTML", "RSS", "md"]
+section  = ["HTML", "RSS", "md"]
+taxonomy = ["HTML", "RSS", "md"]
+term     = ["HTML", "RSS", "md"]
+```
+
+### Who consumes Hugo-generated `.md`?
+
+| Consumer | Uses Hugo `page`/`section` `.md`? | Path |
+|----------|-----------------------------------|------|
+| OKF bundles | **No** — Python writes `static/exports/okf/` | `scripts/export-okf-bundle.py`, `scripts/export-okf-blog-bundle.py` |
+| Copy-markdown UI | **No** — reads `static/exports/okf/...` | `layouts/_partials/notes/copy-markdown.html:11–20`, `layouts/_partials/blog/copy-markdown.html:10–19` |
+| llms.txt / llms-full | **URLs only** — prefers `.md` permalink, falls back to HTML | `_vendor/.../llms-txt/layouts/index.llms:56–105`, `index.llmsfull:54–113` |
+| llms-full body | **No** — inlines `.RawContent` | `index.llmsfull:101` |
+| Repo scripts/tests | **No** tracked dependency on `public/**/index.md` | — |
+
+**Conclusion:** Dropping `md` from `page` is safe for OKF and site features; `/llms.txt` links become HTML permalinks instead of `/…/index.md`. Keep `md` on `home` if you want the home markdown artifact.
+
+### Who consumes page-level RSS?
+
+- **No** `OutputFormats.RSS`, `index.xml`, or feed `<link>` references in `layouts/` or `themes/jorap/`.
+- **Section RSS is documented in content:** `content/english/blog/getting-started-with-rss-feeds.md` points readers at section feeds (`/blog/index.xml` pattern).
+- Per-page RSS (from `page = [..., "RSS"]`) is Hugo default behavior with **no** template or content consumer.
+
+**Conclusion:** Drop `RSS` from `page` with high confidence. Keep `RSS` on `home` + `section` (especially `blog`).
+
+### Minimal diff plan (outputs)
+
+```toml
+# hugo.toml ~140–143
+page     = ["HTML"]                    # was ["HTML", "RSS", "md"]
+section  = ["HTML", "RSS"]             # optional: drop "md"
+taxonomy = ["HTML"]                    # was ["HTML", "RSS", "md"]
+term     = ["HTML"]                    # was ["HTML", "RSS", "md"]
+# home unchanged
+```
+
+**Verify:** `CI=true GOMAXPROCS=2 node scripts/deployBuild.mjs`; confirm `public/blog/index.xml` exists; `diff -rq` before/after; spot-check `/llms.txt` link targets.
+
+**Expected win:** ~30–35% fewer Hugo “Pages” (roughly 2 extra outputs × ~400 regular pages + taxonomy terms). On GOMAXPROCS=2 this is mostly parallel page rendering — often the largest single config win.
+
+---
+
+## 2. `related-posts-lookup.html` — `partialCached` safety
+
+### Partial (returns slice of pages)
+
+```6:60:/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-posts-lookup.html
+{{- $page := .Context -}}
+{{- $limit := .Limit | default 3 -}}
+...
+{{- $blogPages := where (where site.RegularPages "Section" "blog") "Draft" false -}}
+...
+{{- range site.RegularPages.Related $page -}}
+...
+{{- return $results -}}
+```
+
+### Callers (duplicate work on every blog + notes single)
+
+| File | Line | Context |
+|------|------|---------|
+| `layouts/_partials/toc-related-extras.html` | 8 | TOC extras (blog + notes) |
+| `layouts/_partials/blog/related-posts.html` | 6 | Body section |
+
+Blog single calls both `blog/toc.html:12–17` → `toc-related-extras` **and** `themes/jorap/layouts/blog/single.html:119`. Notes single same pattern: `notes/toc.html:71–76` + `layouts/notes/single.html:113`.
+
+### Safety analysis
+
+- **No nested `partialCached`** inside the lookup partial.
+- **Return value:** slice of `Page` objects; callers only `range` / `len` — no in-place mutation.
+- **Key:** must include limit: `printf "%s-%d" $page.RelPermalink $limit` (blog vs notes limits differ via params but are stable per page).
+
+**Verdict: SAFE.**
+
+### Minimal diff plan
+
+At both call sites, replace `partial` with:
+
+```html
+{{- partialCached "blog/related-posts-lookup.html" (dict "Context" $page "Limit" $limit) (printf "%s-%d" $page.RelPermalink $limit) -}}
+```
+
+Files: `layouts/_partials/toc-related-extras.html:8`, `layouts/_partials/blog/related-posts.html:6`.
+
+**Expected win:** Eliminates ~1 duplicate full blog scan + `.Related` pass per blog/notes single (~700 redundant executions/build). Strong CPU win on GOMAXPROCS=2.
+
+---
+
+## 3. Leaf partials: `note-blurb`, `note-link-card`, `is-utility-page`
+
+### `is-utility-page.html` — **do not cache**
+
+```7:17:/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/is-utility-page.html
+{{- $page := . -}}
+...
+{{- return $utility -}}
+```
+
+Called from **`partialCached` parents**:
+
+- `layouts/_partials/notes/pages.html:30` (inside cached site walk)
+- `layouts/_partials/notes/collect-note-issues.html:93,178` (cached `note-issues-v12`)
+
+Adding `partialCached` here → **nested `partialCached` deadlock**. Cost is trivial (param/layout checks).
+
+### `note-blurb.html` — **cache at select call sites only**
+
+Pure string return, no nested cache. **But** `random-pool.html:12` calls it via `partial` inside `partialCached "notes/random-pool.html"` — caching inside `note-blurb` itself would nest caches.
+
+**Safe pattern:** `partialCached` at uncached call sites only:
+
+| Caller | Line |
+|--------|------|
+| `layouts/_partials/notes/note-link-card.html` | 7 |
+| `layouts/_partials/notes/note-card.html` | 32 |
+| `layouts/_partials/blog/related-notes.html` | 15 |
+| `layouts/notes/list.html` | 124, 154 |
+| `layouts/_partials/notes/recent-new.html` | 30 |
+| `layouts/notes/backlinks.html` | 155 |
+
+**Keep** `layouts/_partials/notes/random-pool.html:12` as plain `partial`.
+
+Key: `printf "%s-%t" $page.RelPermalink $descriptionOnly`
+
+**Reward:** modest (regex over frontmatter); helps card-heavy pages, not TOC/random-pool.
+
+### `note-link-card.html` — **skip**
+
+HTML wrapper calling `note-card` + `note-blurb`. Caching HTML keyed by page/href/body has low hit rate. Prefer caching `note-blurb` instead.
+
+---
+
+## 4. Unused / low-value modules in `config/_default/module.toml`
+
+| Module | Lines | Live usage | Remove? |
+|--------|-------|------------|---------|
+| `icons/font-awesome` | 23–24 | Replaced by `data/icons.json` per `hugo.toml:214–217` | **Yes** — dead import |
+| `adsense` | 33–34 | `google_adsense = ""` in `config/_default/params.toml:27`; still `partialCached` in `layouts/_partials/essentials/script.html:64` | **Yes** if no ads planned |
+| `components/preloader` | 50–51 | `preloader.enable = false` (`params.toml:126–127`); still invoked `themes/jorap/layouts/baseof.html:24,27` | **Optional** — remove import + `partialCached` calls |
+| `components/announcement` | 59–60 | `announcement.enable = false` (`params.toml:149–150`); `baseof.html:36` | **Optional** |
+| `shortcodes/mermaid` | 80–81 | Used in `content/english/pages/elements.md`, `content/english/blog/hugoplate-theme-review.md` | **Keep** |
+| `accordion`, `tab`, `modal`, `gallery-slider` | 35–48 | Same live pages + `hugo.toml` lazy JS plugins 239–248 | **Keep** |
+| `videos` | 20–21 | Many `{{< youtube >}}` in published posts (e.g. `alex-eala-pro-career-tracker.md`) | **Keep** |
+| `table-of-contents` | 38–39 | `{{< toc >}}` in `elements.md`, `hugoplate-theme-review.md` | **Keep** |
+
+**Build impact of module removal:** small vs page rendering (mostly vendor/mod graph weight). Biggest safe cut: **font-awesome** + **adsense**.
+
+---
+
+## 5. `pagination.disableAliases = true`
+
+```54:58:/home/jorap/Documents/GitHub/jorap.com/hugo.toml
+[pagination]
+disableAliases = false
+pagerSize = 24
+path = 'page'
+```
+
+Hugo only skips **pagination-related alias pages** for paginated lists — not frontmatter `aliases:` (~200+ notes with `aliases:` in content).
+
+With stable `pagerSize = 24` and 34 paginator pages, impact is **≤34 alias pages** removed from the 980 alias count — small build/render savings, no effect on note redirect aliases.
+
+**Risk:** Old `/page/N/` URLs from a previous pager size would stop redirecting. Low if pager size never changes.
+
+---
+
+## 6. Highest wall-clock win — one concrete change
+
+**Recommendation: drop `RSS` from `page` outputs** (`hugo.toml:140`).
+
+- **Why over template cache:** Removes entire output render passes (~400 pages × 1 format) vs deduplicating one expensive partial on ~700 pages. On GOMAXPROCS=2, Hugo’s page queue is the main bottleneck after images are cached.
+- **Why safe:** Zero layout/content consumers; section/home RSS preserved for readers.
+- **One-line diff:**
+
+```toml
+page = ["HTML"]
+```
+
+**Runner-up (template):** `partialCached` on `related-posts-lookup.html` at `toc-related-extras.html:8` and `related-posts.html:6` — best pure-template win, no output-format behavior change.
+
+**Combine for maximum safe gain:** both changes in one batch, then `diff -rq` + spot-check `public/blog/index.xml` and `/llms.txt`.
+
+---
+
+## Explicitly avoid (per your failed approaches + nesting rules)
+
+| Idea | Why not |
+|------|---------|
+| Cache `toolbar.html` with shared key | Calls `collect-note-issues` (site-wide scan) |
+| Cache `assembled-content` inside cached TOC | Failed nested-cache pattern; also `render-content.html:15` needs uncached per-scope assembly |
+| Cache `related-notes.html` | Calls `partialCached "notes/pages.html"` internally (`related-notes.html:9`) → nested deadlock |
+| Cache `is-utility-page.html` | Called from `partialCached` `pages.html:30` and `collect-note-issues` |
+| `tags-index` ranking changes | You flagged as failed |
+
+---
+
+## Suggested verification batch
+
+```bash
+cp -a public /tmp/pub-before
+# apply change(s)
+CI=true GOMAXPROCS=2 node scripts/deployBuild.mjs 2>&1 | grep -E 'Pages|Aliases|Total in'
+diff -rq /tmp/pub-before public | grep -v 'exports/okf/log.md' | head -30
+test -f public/blog/index.xml && echo 'section RSS OK'
+```

@@ -149,3 +149,968 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The warning references "Judges 16:1, 15-31" but should instead read "Judges 16:1, 16:15-31".
+
+Checking the hub note, scripts, and bible shortcode to find where this reference originates.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "Judges 16"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "Judges 16",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-victory.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "16:1, 15|16:1, 16:15"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "16:1, 15|16:1, 16:15",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-31_13-37-29Z-21-laws-of-leadership.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-07-31_14-02-33Z-bible-shortcode-warning.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 10
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The file contains `Judges 16:15-31`, but the warning references `Judges 16:1, 15-31`. This discrepancy likely causes the NASB1995 entry error.
+
+Checking whether unsaved changes or another source trigger the warning. Will inspect the bible shortcode implementation and run a Hugo build to verify.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,html,py,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "law-of-victory|Judges 16"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "law-of-victory|Judges 16",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-victory.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": ".specstory/history/2026-07-31_13-37-29Z-21-laws-of-leadership.md"
+    },
+    {
+      "matchCount": 17,
+      "uri": ".specstory/history/2026-07-31_14-02-33Z-bible-shortcode-warning.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 31
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **6** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (6 files)
+
+| File |
+|------|
+| `data/bible-red-letter-nasb1995.json` |
+| `data/bible-books.yaml` |
+| `layouts/shortcodes/bible.html` |
+| `layouts/partials/shortcodes/bible.html` |
+| `scripts/bible_shortcode.py` |
+| `scripts/bible-red-letter-mark.py` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the bible shortcode implementation and the add-law-bible-verses.py script to determine the correct verse format.
+
+Also checking for unsaved content or script issues.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/shortcodes/bible.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "Judges 16|primary_ref|16:1"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "Judges 16|primary_ref|16:1",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "16:1, 16:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "16:1, 16:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the bible partial and other notes for examples of comma-separated references.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/partials/shortcodes/bible.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "bible ref=.*,"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "bible ref=.*,",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/heart-righteousness.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data",
+  "pattern": "Judges 16"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data",
+  "pattern": "Judges 16",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the bible partial to understand how it parses references.
+
+The parser splits on spaces. It treats the last segment as the location. Comma-separated references like "16:1, 16:15-31" therefore get misread. The book becomes "Judges 16:1," and the location becomes "16:15-31".
+
+The parser fails because "15-31" lacks a colon, so no references are generated. The user is clarifying the intended meaning. I need to check whether the shortcode supports comma-separated references or if it must be extended.
+
+The file currently shows `Judges 16:15-31`, suggesting a partial fix. I will check the git diff to see the actual working tree contents.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff content/english/notes/law-of-victory.md &amp;&amp; pnpm hugo build 2&gt;&amp;1 | rg -i &#34;law-of-victory|Judges 16&#34; || true</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/law-of-victory.md && pnpm hugo build 2>&1 | rg -i "law-of-victory|Judges 16" || true
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data",
+  "pattern": "\"Judges 16:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data",
+  "pattern": "\"Judges 16:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The current build shows no diff or warning for this entry.
+
+The file may already contain `Judges 16:15-31`, which would explain the missing warning. I will check the 21-laws hub page and search for scripts that generate these entries.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `content/english/notes/21-laws-of-leadership-in-the-bible.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,py,json,yaml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "16:1, 15|16:1, 16:15"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "16:1, 15|16:1, 16:15",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-31_13-37-29Z-21-laws-of-leadership.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-07-31_14-02-33Z-bible-shortcode-warning.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 11
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/21-laws-of-leadership-in-the-bible.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The shortcode currently references `Judges 16:15-31`, but the user wants both `Judges 16:1` and `Judges 16:15-31`.
+
+Checking whether the bible shortcode parser supports comma-separated references like `Judges 16:1, 16:15-31`. The current logic splits on spaces and uses the last segment as the location.
+
+The parser cannot handle this format. It treats `16:1,` as the book name and `16:15-31` as the location, leaving the reference list empty. I am weighing three options: using two separate shortcodes, extending the parser to support comma-separated references, or switching to a range like `Judges 16:1-31`.
+
+A range like `Judges 16:1-31` would include unwanted verses 2 through 14. The user specifically wants verse 1 plus verses 15 through 31. I will either extend the shortcode parser to support comma-separated references or use two separate bible shortcodes.
+
+Checking how other notes handle non-contiguous verses. Also testing whether a comma-less format like `Judges 16:1,16:15-31` works. Reading bible_shortcode.py for more context.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/bible_shortcode.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "bible ref="
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "bible ref=",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/iron-sharpens-iron.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/it-is-written.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/joy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reconciliation-before-worship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/words-that-build-up.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/take-up-your-cross.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/grace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/count-the-cost.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/abide-in-me.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/gentleness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pray-before-you-choose.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/by-their-fruits.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/goodness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/heart-righteousness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-your-neighbor.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/grateful-obedience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-fathers-food.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-timing.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/into-your-hands.md"
+    }
+  ],
+  "totalFiles": 25,
+  "totalMatches": 164
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The shortcode does not support comma-separated non-contiguous references.
+
+Extending the shortcode to parse comma-separated segments seems cleaner than splitting into two separate shortcodes. The parser would split on commas first, then extract the book name from the first segment.
+
+Comma splitting yields segments like `Judges 16:1` and `16:15-31`. The first segment contains the book and initial location. Later segments contain continuation locations that may need the book or chapter prefix.
+
+The parser would treat `16:15-31` as a full location because it contains a colon. A bare `15-31` would instead need the chapter from the previous segment. The user's corrected form is explicit and valid. The warning is puzzling because the existing shortcode already handles `Judges 16:15-31`.
+
+The warning likely comes from unsaved editor content or a stale build state. I will update the reference in law-of-victory.md to `Judges 16:1, 16:15-31`. The bible shortcode must also be extended to support comma-separated references, since the current parser cannot handle this format.
+
+Using two separate shortcodes would look awkward inside the key_concept list. A full chapter range would include extra verses. The user wants the exact non-contiguous reference, so extending the shortcode is the better path.
+
+The bible shortcode will be modified to detect commas in the reference string. Each comma-separated segment will be parsed individually. The book and chapter from the first segment will be preserved for later segments that omit those prefixes.
+
+The export parity script bible_shortcode.py must also mirror the new comma-separated logic. The user’s message is a direct content correction, so the plan stays minimal.
+
+Re-examining the parser shows that splitting `Judges 16:1, 16:15-31` by spaces produces `["Judges", "16:1,", "16:15-31"]`. The parser would treat `16:1` as the book name and `16:15-31` as the location. It would then expand `16:15-31` into verses 15 through 31, completely omitting verse 1. This confirms the shortcode cannot handle comma-separated non-contiguous references without modification.
+
+The current parser would generate invalid database keys such as `Judges 16:1, 16:15` because it treats `16:1` as the book name. I will now implement comma-separated reference support in the Hugo partial and extract the ref expansion logic cleanly.
+
+The implementation will split the reference string on commas and iterate over each segment. For every segment, it will split by spaces to isolate the book name and location. The book name from the first segment will be preserved for later segments that omit it.
+
+I will now write the full implementation and test it with a Hugo build. I also need to check whether the bible shortcode already has tests.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The shortcode doesn't handle comma-separated refs yet. I'll fix the reference and add minimal comma support so `Judges 16:1, 16:15-31` resolves.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{py,sh,mjs,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "bible shortcode|bible_shortcode"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "bible shortcode|bible_shortcode",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-23_12-19-20Z-wider-levels-batch-0.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-10_06-19-24Z-garden-voice-fix-chunk.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-29_03-31-13Z-local-testing-across-platforms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_14-08-35Z-notes-descriptions-in-concepts.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-29_04-41-25Z-safe-characters-for-aliases.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/export-okf-bundle.py"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-23_12-11-10Z-levels-batch-3-notes.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-22_12-10-07Z-notes-in-biblical-devotions.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-31_13-37-29Z-21-laws-of-leadership.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-08_01-33-43Z-nasb1995-bible-yaml-format.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-23_12-53-22Z-bible-chapter-verse-range.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-23_12-11-08Z-levels-batch-2-notes.md"
+    },
+    {
+      "matchCount": 22,
+      "uri": ".specstory/history/2026-07-10_01-09-33Z-bible-notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-26_15-21-25Z-garden-voice-batch-4.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-09_16-04-56Z-bullet-item-review-notes.md"
+    },
+    {
+      "matchCount": 25,
+      "uri": ".specstory/history/2026-07-23_01-08-34Z-bible-verses-in-notes.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-23_11-56-33Z-feynman-batch-4-notes.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-23_12-11-07Z-levels-batch-1-notes.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": ".specstory/history/2026-07-23_12-11-10Z-levels-batch-4-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-12_09-13-46Z-writing-style-revisions.md"
+    }
+  ],
+  "totalFiles": 56,
+  "totalMatches": 450
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+import json
+from pathlib import Path
+db = json.loads(Path(&#39;data/scripture-nasb1995.json&#39;).read_text())
+for k in [&#39;Judges 16:1&#39;, &#39;Judges 16:15&#39;, &#39;Judges 16:31&#39;]:
+    print(k, &#39;OK&#39; if k in db.get(&#39;verses&#39;,{}) else &#39;MISSING&#39;)
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import json
+from pathlib import Path
+db = json.loads(Path('data/scripture-nasb1995.json').read_text())
+for k in ['Judges 16:1', 'Judges 16:15', 'Judges 16:31']:
+    print(k, 'OK' if k in db.get('verses',{}) else 'MISSING')
+"
+```
+
+```
+Judges 16:1 OK
+Judges 16:15 OK
+Judges 16:31 OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The reference should be corrected to `Judges 16:1, 16:15-31`.
+
+The file currently contains `Judges 16:15-31`. I will update `law-of-victory.md` and extend the bible shortcode to support comma-separated references. I am checking the specstory for context.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-23_12-53-22Z-bible-chapter-verse-range.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,py,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "comma|16:1, 16:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "comma|16:1, 16:",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": ".github/prompts/speckit.implement.prompt.md"
+    },
+    {
+      "matchCount": 100,
+      "uri": ".specstory/history/2026-06-17_17-52-17Z-upstream-synchronization.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-05-30_15-13-50Z-blog-categories-and-tags-enhancement.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-05-30_13-47-25Z-hugoplate-theme-article.md"
+    },
+    {
+      "matchCount": 28,
+      "uri": ".specstory/history/2026-05-30_14-34-04Z-creating-reusable-acf-block-generation.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-05-30_22-55-33Z-http-headers-analysis-and-recommendations.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-05-02_10-15-29Z-build-process-error-with-tailwind-css.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "docs/CONTENT_VOICE_REVIEW.md"
+    },
+    {
+      "matchCount": 20,
+      "uri": ".specstory/history/2026-05-28_01-50-01Z-codebase-simplification-for-maintainability.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-05-30_15-05-34Z-tailwind-css-compilation-on-watch.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".github/prompts/speckit.specify.prompt.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": ".specstory/history/2026-06-18_07-53-36Z-drafts-visual-representation-for.md"
+    },
+    {
+      "matchCount": 100,
+      "uri": ".specstory/history/2026-06-18_17-06-01Z-impeccable-critique-discussion.md"
+    },
+    {
+      "matchCount": 32,
+      "uri": ".specstory/history/2026-06-18_18-30-06Z-alex-eala-tracker-update.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": ".specstory/history/2026-06-19_02-42-05Z-removal-of-menu-items.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".github/prompts/speckit.constitution.prompt.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-05-28_03-02-51Z-categories-and-tags-page-design.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-05-30_22-59-31Z-dark-mode-styling-issue.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/shortcodes/slider.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-05-02_10-12-53Z-tailwind-css-build-errors.md"
+    }
+  ],
+  "totalFiles": 107,
+  "totalMatches": 2001
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The shortcode does not support comma-separated references.
+
+Extending the bible shortcode to parse comma-separated references. The reference will be split on commas. The first segment provides the book and first location. Subsequent segments provide additional locations. Both the Hugo template and Python shortcode will be updated.
+
+Refactoring the Hugo template to expand each comma-separated location into verse keys using the existing range logic. Nested partials or inline repetition will handle the loop.
+
+A separate partial would add too many files. Preprocessing the reference string is simpler. Comma segments will be rebuilt into full references by prepending the book name where needed. Each full reference then runs through the existing expansion logic.
+
+The algorithm handles both explicit and shorthand comma-separated segments. A segment without a colon inherits the chapter from the previous segment. Book names are extracted from each segment and applied globally. The last colon in a segment sets the current chapter for subsequent shorthand references.
+
+The emphasize logic and gospel check will use the parsed book and chapter from the last segment. The Python shortcode will mirror the same comma-separated parsing with a self-check case. The markdown file will be updated to use the corrected reference.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The shortcode doesn't handle comma-separated refs yet. I'll fix the reference and add minimal comma support in the shortcode.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-victory.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/partials/shortcodes/bible.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/bible_shortcode.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/bible_shortcode.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/bible_shortcode.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running the Hugo build to verify no warning remains. Then running the Python self-check.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/bible_shortcode.py &amp;&amp; pnpm hugo build 2&gt;&amp;1 | rg -i &#34;law-of-victory|Judges 16|bible shortcode&#34; || echo &#34;No bible warnings&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/bible_shortcode.py && pnpm hugo build 2>&1 | rg -i "law-of-victory|Judges 16|bible shortcode" || echo "No bible warnings"
+```
+
+```
+bible_shortcode self-check OK
+No bible warnings
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The fix works.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixed. The malformed ref `Judges 16:1, 15-31` was ambiguous — the shortcode treated `15-31` as a location without a chapter.
+
+**Changes:**
+1. **`law-of-victory.md`** — updated to `Judges 16:1, 16:15-31` (verse 1 plus the Samson finale).
+2. **`bible.html` shortcode** — now parses comma-separated refs, including shorthand like `16:1, 15-31` when the chapter carries over.
+3. **`bible_shortcode.py`** — same logic for OKF export.
+
+Hugo build is clean — no bible shortcode warning on `/notes/law-of-victory/`.
+
+## Session close
+- Fixed: `Judges 16:1, 16:15-31` in law-of-victory plus comma-ref support in the bible shortcode.
+- Encode: none
+- Open: clean

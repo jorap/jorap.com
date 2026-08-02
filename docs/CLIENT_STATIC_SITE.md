@@ -102,7 +102,7 @@ Re-read [Cloudflare Pages limits](https://developers.cloudflare.com/pages/platfo
 
 - Batch content edits into one commit before `git push`.
 - Use `[skip ci]` for commits that don't change the site (`.specstory`, internal `docs/`, editor config). See [`.cursor/rules/deploy-commits.mdc`](../.cursor/rules/deploy-commits.mdc).
-- Run `scripts/setup-git-hooks.sh` once per clone to auto-append `[skip ci]` for non-deploy paths.
+- Run `pnpm setup:hooks` once per clone to auto-append `[skip ci]` for non-deploy paths.
 
 ## Astro / 11ty on the same rails
 

@@ -1078,5 +1078,676 @@ _**Agent (auto-smart)**_
 <think><details><summary>Thought Process</summary>
 Adding `level_depth` to the blog frontmatter field order.
 
-`level_depth` must be an integer from 1 to 5 and required on every blog post. A script will assign levels using a five-tier
+`level_depth` must be an integer from 1 to 5 and required on every blog post. A script will assign levels using a five-tier scoring rubric: recognize, explain, use, connect, or create. A quiet badge will appear on single-page blogs. A brief note will be added to the jorap-voice frontmatter section.
+
+Level 1 covers scrapbooks, catalogs, and reference stubs. Level 2 covers posts that explain features or criteria for choosing products. I am now re-reading the scoring ladder to ensure each post is assigned to the correct tier.
+
+Concrete examples are being mapped to the five tiers. Recipes and how-to tips score as Use (3). Opinion pieces and miracle testimonials score as Explain (2). Career trackers score as Recognize (1). The hanamikoji retheme and the jorap notes system both score as Create (5).
+
+More posts are being scored. Most of the remaining entries fall into Connect (4) or Use (3). The JoRap notes features post scores as Explain/Connect (4). Jobs to be done and selling static sites score as Use (3). The CRAFT framework scores as Use (3).
+
+More posts are being scored. Client pass-offs, mouse wheel clicks, extension cords, RSS, Facebook favorites, and worship pads all land in Use (3). AI contractor problems, streamlining games, Google versus Apple, and Drupal to WordPress map to Connect (4). Personal stories such as everyone communicates, why love board games, why stopped Marvel Snap, and Toca Boca stay in Explain (2). One page zines and Hugoplate reviews remain at Use (3) rather than Create (5).
+
+More posts are being scored. Netlify to Cloudflare, password managers, local AI machines, portable software, remote work checklists, second cellphones, Shopee tips, McGill big three, habit creation, grade one Kumon, humanize AI, and native taxonomies all land in Use (3). Markdown tutorials and Hugo tutorials map to Explain (2) or Use (3). Svelte v4, Tailwind v4, and Obsidian versus Hugo score as Connect (4). The modified ATK recipe style is tentatively placed at Connect (4).
+
+Why git scores as Connect (4). Wireless earphones and wifi router score as Use (3). Internal template stubs are set to Recognize (1), Explain (2), and Recognize (1). A Python script will apply all scores and update frontmatter. The badge will be minimal text next to the date. Labels will follow the five-tier depth definitions.
+
+The progression labels from depth-of-understanding.md will be used: Recognize, Explain, Use, Connect, and Create. The lint rule will skip _index.md. I need to verify which single.html template file to edit.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/blog/single.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/hugo.toml",
+  "pattern": "layoutsDir|themes"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/hugo.toml",
+  "pattern": "layoutsDir|themes",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "hugo.toml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; wc -l layouts/blog/single.html themes/jorap/layouts/blog/single.html 2&gt;/dev/null; head -5 themes/jorap/layouts/blog/single.html</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && wc -l layouts/blog/single.html themes/jorap/layouts/blog/single.html 2>/dev/null; head -5 themes/jorap/layouts/blog/single.html
+```
+
+```
+  128 layouts/blog/single.html
+  124 themes/jorap/layouts/blog/single.html
+  252 total
+{{ define "main" }}
+{{ $blogToc := partial "blog/toc.html" . }}
+{{ $hasToc := $blogToc.has }}
+<section class="section pt-7">
+  <div class="container">
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+A Python script will set level_depth on all posts.
+
+The blog single layout file is the target. A five-level scoring framework is being applied to all 79 posts. The first post scored is alex-eala-pro-career-tracker at level 1.
+
+Level 1 scores now cover __interesting-facts-about-jorap, __blog-template, and dnpap-song-resources. Level 2 covers miracle-isaiah-david, __everyone-communicates-few-connect, and several opinion and product posts. Levels 2 and 3 are being weighed for a few remaining items.
+
+More level 2 posts were scored. Level 3 covers gear guides, recipes, tips, and frameworks. Level 4 applies to systems comparisons. Level 5 is reserved for original builds like jorap-notes and the duopoly retheme. The jorap-notes features post is level 4 because it documents an existing system rather than creating one.
+
+Level 5 now includes the modified-atk recipe style guide. Levels 3 and 4 cover prompt frameworks, publishing advice, and CMS comparisons.
+
+Levels 3 and 4 are now assigned to git, gaming, software, and AI posts. The full depth map is ready to run through the script.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Wiring the field, scoring every post, and updating schema/lint/UI in one pass.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog_frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog_frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog_frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-blog-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-blog-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/blog/single.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The jorap-voice skill needs fixing. A wikilink there looks odd in a skill file.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+&#34;&#34;&#34;Set level_depth on every blog post and rewrite frontmatter in canonical order.&#34;&#34;&#34;
+from __future__ import annotations
+
+from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(&#39;scripts&#39;).resolve()))
+
+from normalize_blog_frontmatter import split_frontmatter  # noqa - wrong module name
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+"""Set level_depth on every blog post and rewrite frontmatter in canonical order."""
+from __future__ import annotations
+
+from pathlib import Path
+import sys
+sys.path.insert(0, str(Path('scripts').resolve()))
+
+from normalize_blog_frontmatter import split_frontmatter  # noqa - wrong module name
+PY
+```
+
+```
+Traceback (most recent call last):
+  File "<stdin>", line 8, in <module>
+ModuleNotFoundError: No module named 'normalize_blog_frontmatter'
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+A self-contained script will import from blog_frontmatter and duplicate the split logic, or import normalize-blog-frontmatter by path.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+from __future__ import annotations
+
+import importlib.util
+import re
+from pathlib import Path
+
+import yaml
+
+ROOT = Path(&#39;.&#39;).resolve()
+scripts = ROOT / &#39;scripts&#39;
+
+def load(name: str, path: Path):
+    spec = importlib.util.spec_from_file_location(name, path)
+    mod = importlib.util.module_from_spec(spec)
+    sys_modules = __import__(&#39;sys&#39;).modules
+    sys_modules[name] = mod
+    spec.loader.exec_module(mod)
+    return mod
+
+# Load notes_content first (blog_frontmatter depends on it)
+load(&#39;notes_content&#39;, scripts / &#39;notes_content.py&#39;)
+bf = load(&#39;blog_frontmatter&#39;, scripts / &#39;blog_frontmatter.py&#39;)
+
+LEVELS = {
+    # 1 Recognize — scrapbook, catalog, stub, bare resource list
+    &#34;alex-eala-pro-career-tracker.md&#34;: 1,
+    &#34;__interesting-facts-about-jorap.md&#34;: 1,
+    &#34;__blog-template.md&#34;: 1,
+    &#34;dnpap-song-resources.md&#34;: 1,
+
+    # 2 Explain — meaning, preference, product story without a lived procedure
+    &#34;__everyone-communicates-few-connect.md&#34;: 2,
+    &#34;miracle-isaiah-david.md&#34;: 2,
+    &#34;why-i-love-modern-board-games.md&#34;: 2,
+    &#34;why-i-stopped-playing-marvel-snap.md&#34;: 2,
+    &#34;why-my-son-loves-toca-boca-world.md&#34;: 2,
+    &#34;__kewpie-mayo.md&#34;: 2,
+    &#34;__worcestershire-sauce.md&#34;: 2,
+    &#34;__inter-font.md&#34;: 2,
+    &#34;__xiaomi-is-the-new-huawei.md&#34;: 2,
+    &#34;__apple-strategically-late.md&#34;: 2,
+    &#34;__canon-g3000.md&#34;: 2,
+    &#34;__mi-box-s.md&#34;: 2,
+    &#34;__rechargeable-batteries.md&#34;: 2,
+    &#34;__smart-plug.md&#34;: 2,
+    &#34;__immune-booster-supplements.md&#34;: 2,
+    &#34;__how-to-create-a-blog-template.md&#34;: 2,
+    &#34;__hugo-static-site-generator.md&#34;: 2,
+    &#34;__markdown-formatting.md&#34;: 2,
+    &#34;streamlining-games-and-sports.md&#34;: 2,
+    &#34;__why-brave-browser.md&#34;: 2,
+
+    # 3 Use — apply it: recipes, checklists, how-tos, lived buying criteria
+    &#34;instant-pot-arroz-caldo.md&#34;: 3,
+    &#34;instant-pot-chicken-adobo.md&#34;: 3,
+    &#34;set-it-forget-it-arroz-caldo.md&#34;: 3,
+    &#34;mouse-wheel-click.md&#34;: 3,
+    &#34;extension-cord.md&#34;: 3,
+    &#34;getting-started-with-rss-feeds.md&#34;: 3,
+    &#34;facebook-favorites-feed.md&#34;: 3,
+    &#34;worship-pads-solo-guitar.md&#34;: 3,
+    &#34;one-page-zine.md&#34;: 3,
+    &#34;what-i-look-for-in-wireless-earphones.md&#34;: 3,
+    &#34;hugoplate-theme-review.md&#34;: 3,
+    &#34;why-keep-desktop-laptop.md&#34;: 3,
+    &#34;__wifi-router.md&#34;: 3,
+    &#34;__password-managers.md&#34;: 3,
+    &#34;__remote-work-checklist.md&#34;: 3,
+    &#34;__second-cellphone.md&#34;: 3,
+    &#34;__shopee-tips.md&#34;: 3,
+    &#34;__mcgill-big-three.md&#34;: 3,
+    &#34;__how-to-create-a-good-habit.md&#34;: 3,
+    &#34;__grade-1-better-than-kumon.md&#34;: 3,
+    &#34;__humanize-ai-articles.md&#34;: 3,
+    &#34;__craft-prompt-framework.md&#34;: 3,
+    &#34;__jobs-to-be-done-framework.md&#34;: 3,
+    &#34;__client-site-pass-off.md&#34;: 3,
+    &#34;__selling-static-sites.md&#34;: 3,
+    &#34;__netlify-to-cloudflare-pages.md&#34;: 3,
+    &#34;__hugo-go-templates.md&#34;: 3,
+    &#34;__hugo-page-bundles.md&#34;: 3,
+    &#34;__hugo-shortcodes.md&#34;: 3,
+    &#34;__markdown-deep-dive.md&#34;: 3,
+    &#34;__native-hugo-taxonomies.md&#34;: 3,
+    &#34;__sveltia-cms.md&#34;: 3,
+    &#34;__tailwind-css-v4.md&#34;: 3,
+
+    # 4 Connect — systems, tradeoffs, cross-idea frameworks
+    &#34;consistent-ai-output-wordpress-builds.md&#34;: 4,
+    &#34;static-site-vs-cms.md&#34;: 4,
+    &#34;sustainable-online-publishing.md&#34;: 4,
+    &#34;why-run-your-own-website.md&#34;: 4,
+    &#34;why-i-focused-on-open-source.md&#34;: 4,
+    &#34;google-over-apple-ecosystem.md&#34;: 4,
+    &#34;drupal-to-wordpress.md&#34;: 4,
+    &#34;__ai-contractor-problem-wordpress.md&#34;: 4,
+    &#34;__how-ai-helps-build-sites-and-content.md&#34;: 4,
+    &#34;__jorap-notes-features.md&#34;: 4,
+    &#34;__free-vs-freedom-open-source.md&#34;: 4,
+    &#34;__optimized-mindset-applied-math-or.md&#34;: 4,
+    &#34;__stack-mismatch-stories.md&#34;: 4,
+    &#34;__three-places-your-words-can-live.md&#34;: 4,
+    &#34;__tenant-not-landlord-on-the-web.md&#34;: 4,
+    &#34;__obsidian-vs-hugo.md&#34;: 4,
+    &#34;__why-git-greatest-open-source-innovation.md&#34;: 4,
+    &#34;__portable-cross-platform-software.md&#34;: 4,
+    &#34;__local-ai-my-machines.md&#34;: 4,
+
+    # 5 Create — invent, ship, or extend something new
+    &#34;how-i-built-jorap-notes.md&#34;: 5,
+    &#34;hanamikoji-duopoly-retheme.md&#34;: 5,
+    &#34;__modified-atk-recipe-style-guide-rules.md&#34;: 5,
+}
+
+blog_dir = ROOT / &#39;content&#39; / &#39;english&#39; / &#39;blog&#39;
+paths = sorted(p for p in blog_dir.glob(&#39;*.md&#39;) if p.name != &#39;_index.md&#39;)
+missing = [p.name for p in paths if p.name not in LEVELS]
+extra = sorted(set(LEVELS) - {p.name for p in paths})
+if missing or extra:
+    raise SystemExit(f&#39;missing={missing} extra={extra}&#39;)
+
+def split_fm(text: str):
+    m = re.match(r&#39;^---\n(.*?)\n---\n?&#39;, text, re.DOTALL)
+    if not m:
+        raise ValueError(&#39;missing frontmatter&#39;)
+    return yaml.safe_load(m.group(1)) or {}, text[m.end():]
+
+changed = 0
+counts = {i: 0 for i in range(1, 6)}
+for path in paths:
+    depth = LEVELS[path.name]
+    counts[depth] += 1
+    text = path.read_text(encoding=&#39;utf-8&#39;)
+    fm, body = split_fm(text)
+    fm[&#39;level_depth&#39;] = depth
+    canon = bf.canonical_blog_fm(fm, path)
+    new_text = f&#34;---\n{bf.dump_blog_frontmatter(canon)}\n---\n\n{body.lstrip(chr(10))}&#34;
+    if new_text != text:
+        path.write_text(new_text, encoding=&#39;utf-8&#39;)
+        changed += 1
+
+print(&#39;updated&#39;, changed, &#39;of&#39;, len(paths))
+print(&#39;counts&#39;, counts)
+for d, label in bf.LEVEL_DEPTH_LABELS.items():
+    print(f&#39;  {d} {label}: {counts[d]}&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+from __future__ import annotations
+
+import importlib.util
+import re
+from pathlib import Path
+
+import yaml
+
+ROOT = Path('.').resolve()
+scripts = ROOT / 'scripts'
+
+def load(name: str, path: Path):
+    spec = importlib.util.spec_from_file_location(name, path)
+    mod = importlib.util.module_from_spec(spec)
+    sys_modules = __import__('sys').modules
+    sys_modules[name] = mod
+    spec.loader.exec_module(mod)
+    return mod
+
+# Load notes_content first (blog_frontmatter depends on it)
+load('notes_content', scripts / 'notes_content.py')
+bf = load('blog_frontmatter', scripts / 'blog_frontmatter.py')
+
+LEVELS = {
+    # 1 Recognize — scrapbook, catalog, stub, bare resource list
+    "alex-eala-pro-career-tracker.md": 1,
+    "__interesting-facts-about-jorap.md": 1,
+    "__blog-template.md": 1,
+    "dnpap-song-resources.md": 1,
+
+    # 2 Explain — meaning, preference, product story without a lived procedure
+    "__everyone-communicates-few-connect.md": 2,
+    "miracle-isaiah-david.md": 2,
+    "why-i-love-modern-board-games.md": 2,
+    "why-i-stopped-playing-marvel-snap.md": 2,
+    "why-my-son-loves-toca-boca-world.md": 2,
+    "__kewpie-mayo.md": 2,
+    "__worcestershire-sauce.md": 2,
+    "__inter-font.md": 2,
+    "__xiaomi-is-the-new-huawei.md": 2,
+    "__apple-strategically-late.md": 2,
+    "__canon-g3000.md": 2,
+    "__mi-box-s.md": 2,
+    "__rechargeable-batteries.md": 2,
+    "__smart-plug.md": 2,
+    "__immune-booster-supplements.md": 2,
+    "__how-to-create-a-blog-template.md": 2,
+    "__hugo-static-site-generator.md": 2,
+    "__markdown-formatting.md": 2,
+    "streamlining-games-and-sports.md": 2,
+    "__why-brave-browser.md": 2,
+
+    # 3 Use — apply it: recipes, checklists, how-tos, lived buying criteria
+    "instant-pot-arroz-caldo.md": 3,
+    "instant-pot-chicken-adobo.md": 3,
+    "set-it-forget-it-arroz-caldo.md": 3,
+    "mouse-wheel-click.md": 3,
+    "extension-cord.md": 3,
+    "getting-started-with-rss-feeds.md": 3,
+    "facebook-favorites-feed.md": 3,
+    "worship-pads-solo-guitar.md": 3,
+    "one-page-zine.md": 3,
+    "what-i-look-for-in-wireless-earphones.md": 3,
+    "hugoplate-theme-review.md": 3,
+    "why-keep-desktop-laptop.md": 3,
+    "__wifi-router.md": 3,
+    "__password-managers.md": 3,
+    "__remote-work-checklist.md": 3,
+    "__second-cellphone.md": 3,
+    "__shopee-tips.md": 3,
+    "__mcgill-big-three.md": 3,
+    "__how-to-create-a-good-habit.md": 3,
+    "__grade-1-better-than-kumon.md": 3,
+    "__humanize-ai-articles.md": 3,
+    "__craft-prompt-framework.md": 3,
+    "__jobs-to-be-done-framework.md": 3,
+    "__client-site-pass-off.md": 3,
+    "__selling-static-sites.md": 3,
+    "__netlify-to-cloudflare-pages.md": 3,
+    "__hugo-go-templates.md": 3,
+    "__hugo-page-bundles.md": 3,
+    "__hugo-shortcodes.md": 3,
+    "__markdown-deep-dive.md": 3,
+    "__native-hugo-taxonomies.md": 3,
+    "__sveltia-cms.md": 3,
+    "__tailwind-css-v4.md": 3,
+
+    # 4 Connect — systems, tradeoffs, cross-idea frameworks
+    "consistent-ai-output-wordpress-builds.md": 4,
+    "static-site-vs-cms.md": 4,
+    "sustainable-online-publishing.md": 4,
+    "why-run-your-own-website.md": 4,
+    "why-i-focused-on-open-source.md": 4,
+    "google-over-apple-ecosystem.md": 4,
+    "drupal-to-wordpress.md": 4,
+    "__ai-contractor-problem-wordpress.md": 4,
+    "__how-ai-helps-build-sites-and-content.md": 4,
+    "__jorap-notes-features.md": 4,
+    "__free-vs-freedom-open-source.md": 4,
+    "__optimized-mindset-applied-math-or.md": 4,
+    "__stack-mismatch-stories.md": 4,
+    "__three-places-your-words-can-live.md": 4,
+    "__tenant-not-landlord-on-the-web.md": 4,
+    "__obsidian-vs-hugo.md": 4,
+    "__why-git-greatest-open-source-innovation.md": 4,
+    "__portable-cross-platform-software.md": 4,
+    "__local-ai-my-machines.md": 4,
+
+    # 5 Create — invent, ship, or extend something new
+    "how-i-built-jorap-notes.md": 5,
+    "hanamikoji-duopoly-retheme.md": 5,
+    "__modified-atk-recipe-style-guide-rules.md": 5,
+}
+
+blog_dir = ROOT / 'content' / 'english' / 'blog'
+paths = sorted(p for p in blog_dir.glob('*.md') if p.name != '_index.md')
+missing = [p.name for p in paths if p.name not in LEVELS]
+extra = sorted(set(LEVELS) - {p.name for p in paths})
+if missing or extra:
+    raise SystemExit(f'missing={missing} extra={extra}')
+
+def split_fm(text: str):
+    m = re.match(r'^---\n(.*?)\n---\n?', text, re.DOTALL)
+    if not m:
+        raise ValueError('missing frontmatter')
+    return yaml.safe_load(m.group(1)) or {}, text[m.end():]
+
+changed = 0
+counts = {i: 0 for i in range(1, 6)}
+for path in paths:
+    depth = LEVELS[path.name]
+    counts[depth] += 1
+    text = path.read_text(encoding='utf-8')
+    fm, body = split_fm(text)
+    fm['level_depth'] = depth
+    canon = bf.canonical_blog_fm(fm, path)
+    new_text = f"---\n{bf.dump_blog_frontmatter(canon)}\n---\n\n{body.lstrip(chr(10))}"
+    if new_text != text:
+        path.write_text(new_text, encoding='utf-8')
+        changed += 1
+
+print('updated', changed, 'of', len(paths))
+print('counts', counts)
+for d, label in bf.LEVEL_DEPTH_LABELS.items():
+    print(f'  {d} {label}: {counts[d]}')
+PY
+```
+
+```
+updated 79 of 79
+counts {1: 4, 2: 20, 3: 33, 4: 19, 5: 3}
+  1 Recognize: 4
+  2 Explain: 20
+  3 Use: 33
+  4 Connect: 19
+  5 Create: 3
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Running lint:blog and self-check. Running lint:agent-config since a skill was edited.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/blog_frontmatter.py &amp;&amp; pnpm lint:blog &amp;&amp; pnpm lint:agent-config &amp;&amp; head -25 content/english/blog/alex-eala-pro-career-tracker.md &amp;&amp; echo &#39;---&#39; &amp;&amp; head -25 content/english/blog/how-i-built-jorap-notes.md &amp;&amp; echo &#39;---&#39; &amp;&amp; head -25 content/english/blog/mouse-wheel-click.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/blog_frontmatter.py && pnpm lint:blog && pnpm lint:agent-config && head -25 content/english/blog/alex-eala-pro-career-tracker.md && echo '---' && head -25 content/english/blog/how-i-built-jorap-notes.md && echo '---' && head -25 content/english/blog/mouse-wheel-click.md
+```
+
+```
+blog_frontmatter self-check OK
+$ node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify && node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only
+Blog frontmatter OK
+Slop lint OK
+$ node scripts/lint-agent-config.mjs
+agent config OK: 17 skill(s), 8 rule(s), Kilo → .cursor/skills
+---
+title: "Alex Eala Pro Career Tracker"
+meta_title: "Alex Eala WTA Career Tracker - Rankings and Matches"
+description: "My running scrapbook of Alex Eala's WTA career - rankings, matches I'll never forget, and matchups I'm watching for next."
+slug: "alex-eala-pro-career-tracker"
+date: "2026-07-29T05:00:00Z"
+image: "/images/alex-eala.jpg"
+categories: ["Sports", "Filipino", "People"]
+author: "JoRap"
+tags: ["Tennis", "Alex Eala", "WTA", "Grand Slam", "Philippines", "Career Tracker", "Pro Tennis", "Sports Fan"]
+related_notes:
+  - expect-the-counter
+  - resilience
+  - complete-the-cycle
+level_depth: 1
+featured: false
+draft: false
+lastmod: "2026-08-01T01:00:00Z"
+---
+
+I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook for it. I update it when something happens worth pinning, not on a schedule.
+
+---
+
+## At a glance
+---
+---
+title: "How I Built JoRap Notes: After Losing PHP Hosting"
+meta_title: "How I Built JoRap Notes - Hugo, GitHub, Cloudflare Pages"
+description: "I lost my old PHP hosting and a chunk of my work. A weekend later I landed on Hugo + GitHub + Cloudflare Pages - faster and better than what I was paying for."
+slug: "how-i-built-jorap-notes"
+date: "2024-06-14T05:00:00Z"
+image: "/images/joraps-world.jpg"
+categories: ["Website", "Technology", "Tutorial"]
+author: "JoRap"
+tags: ["Hugo", "GitHub", "Cloudflare Pages", "Static Sites", "Website Building", "PHP", "Migration", "Digital Garden", "Self-Hosting"]
+related_notes:
+  - digital-garden
+  - drafting-in-public
+  - the-garag
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Add level_depth to blog FM order + lint",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Score all blog posts and set level_depth",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Optional quiet badge on blog single",
+      "id": "3",
+      "status": "completed"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Add level_depth to blog FM order + lint",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Score all blog posts and set level_depth",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Optional quiet badge on blog single",
+      "id": "3",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Added `level_depth` to all blog frontmatter. Determined the depth level for each blog.
+
+A few borderline depth calls may need manual review. A session close block is required since files were modified.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Done. Every blog post has `level_depth` (1–5). Lint requires it; posts show a quiet “Depth N · Label” line under the date.
+
+**Distribution (79 posts):**
+
+| Depth | Label | Count | Examples |
+|------:|-------|------:|----------|
+| 1 | Recognize | 4 | Alex Eala tracker, facts ledger, DNPAP resources, blog template stub |
+| 2 | Explain | 20 | Marvel Snap, Toca Boca, Kewpie, miracle testimony |
+| 3 | Use | 33 | Mouse wheel, recipes, RSS, CRAFT, wireless earphones |
+| 4 | Connect | 19 | Static vs CMS, open source, AI WordPress consistency |
+| 5 | Create | 3 | How I built JoRap Notes, Hanamikoji retheme, ATK recipe style guide |
+
+Borderline calls you may want to nudge: `streamlining-games-and-sports` (2 vs 4), `one-page-zine` (3 vs 5), `__jorap-notes-features` (4 vs 5).
+
+## Session close
+- Fixed: Added required `level_depth` (1–5) to all blog frontmatter, lint, and a quiet post badge.
+- Encode: none (already noted in jorap-voice).
+- Open: clean (3 borderline scores if you want to revisit).

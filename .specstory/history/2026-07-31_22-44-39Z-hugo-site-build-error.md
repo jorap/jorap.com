@@ -194,4 +194,397 @@ _**Agent (auto-smart)**_
 ```bash
 git show f15f4336:content/english/notes/issues.md | tail -5; echo "---HEAD---"; git show 6e8ec61c:content/english/notes/issues.md | tail -5
 ```
+
+```
+tags: ["Notes", "Meta", "Linking"]
+featured: false
+draft: false
+outputs: "['HTML', 'ISSUES']"
+---
+---HEAD---
+tags: ["Notes", "Meta", "Linking"]
+featured: false
+draft: false
+outputs: "['HTML', 'ISSUES']"
+---
+
+```
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The Hugo version mismatch is likely the culprit—the CI environment is pinned to 0.163.3 which probably enforces stricter YAML parsing than my local version, so I need to convert the list to proper YAML syntax. I should also verify that the ISSUES output format is properly defined in hugo.toml.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "context": 4,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/hugo.toml",
+  "pattern": "ISSUES|issues"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/hugo.toml",
+  "pattern": "ISSUES|issues",
+  "topFiles": [
+    {
+      "matchCount": 9,
+      "uri": "hugo.toml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I need to adjust the YAML formatting to use a proper list structure.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/issues.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm noticing a potential conflict here — the ISSUES output format has a base name of "index" with plain text media type, which would generate `/notes/issues/index.txt`, but the HTML layout also produces an `index.html` file. They'd have different extensions so there shouldn't actually be a collision, though I'm double-checking whether the ISSUES format is even properly configured.
+
+Let me build this to see if it works as expected.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: pnpm run build 2&gt;&amp;1 | tail -30</summary>
+```bash
+pnpm run build 2>&1 | tail -30
+```
+
+```
+Command 'pnpm' not found, did you mean:
+  command 'npm' from deb npm (9.2.0~ds1-2)
+Try: apt install <deb name>
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: source ~/.nvm/nvm.sh 2&gt;/dev/null; corepack enable 2&gt;/dev/null; which pnpm node; node -v</summary>
+```bash
+source ~/.nvm/nvm.sh 2>/dev/null; corepack enable 2>/dev/null; which pnpm node; node -v
+```
+
+```
+Internal Error: EACCES: permission denied, symlink '../lib/node_modules/corepack/dist/pnpm.js' -> '/home/jorap/.nvm/versions/node/v22.23.0/bin/pnpm'
+    at async Object.symlink (node:internal/fs/promises:1001:10)
+    at async EnableCommand.generatePosixLink (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23218:5)
+    at async Promise.all (index 0)
+    at async EnableCommand.execute (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23199:5)
+    at async EnableCommand.validateAndExecute (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:20278:22)
+    at async _Cli.run (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:21215:18)
+    at async Object.runMain (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23704:19)
+/home/jorap/.nvm/versions/node/v22.23.0/bin/node
+v22.23.0
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm wondering if I can skip pnpm and just run the Node script directly since that's what the build command does anyway. Let me check the package.json to confirm, or better yet, I could test the Hugo binary from the cache directory to see if the frontmatter parses correctly.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls .cache/hugo* 2&gt;/dev/null; ls node_modules/.bin/ 2&gt;/dev/null | head -20</summary>
+```bash
+ls .cache/hugo* 2>/dev/null; ls node_modules/.bin/ 2>/dev/null | head -20
+```
+
+```
+0.163.2
+0.163.3
+conc
+concurrently
+cssesc
+detect-libc
+jiti
+mini-svg-data-uri
+prettier
+tailwindcss
+tailwindcss-shim.mjs
+tree-kill
+ulid
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls .cache/hugo/0.163.3</summary>
+```bash
+ls .cache/hugo/0.163.3
+```
+
+```
+hugo
+LICENSE
+README.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ./.cache/hugo/0.163.3/hugo --gc --minify -d /tmp/hugo-verify 2&gt;&amp;1 | tail -25</summary>
+```bash
+./.cache/hugo/0.163.3/hugo --gc --minify -d /tmp/hugo-verify 2>&1 | tail -25
+```
+
+```
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+Total in 3470 ms
+ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md" failed: "/home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html:2:18": execute of template failed: template: notes/single.html:2:18: executing "main" at <partial "notes/toc.html" .>: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html:13:12": execute of template failed: template: _partials/notes/toc.html:13:12: executing "_partials/notes/toc.html" at <partial "notes/assembled-content.html" $page>: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html:18:20": execute of template failed: template: _partials/notes/assembled-content.html:18:20: executing "_partials/notes/assembled-content.html" at <partial "notes/format-key-concept.html" $page>: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/format-key-concept.html:55:4": execute of template failed: template: _partials/notes/format-key-concept.html:55:4: executing "_partials/notes/format-key-concept.html" at <return>: wrong number of args for return: want 0 got 1
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The frontmatter issue is resolved, but now there's a template error with `return` — I'm trying to figure out if this is from skipping the deployBuild step that generates theme CSS and data files, or if it's an actual template syntax problem where `return` with an argument is being used outside a valid partial context.
+
+Let me check git status to see if there are uncommitted changes in the layouts directory that might be causing this.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/format-key-concept.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm running into a Hugo parsing issue where `return` statements inside `range` or `if` blocks aren't being recognized properly at parse time, causing the "wrong number of args for return" error when Hugo's parser doesn't detect the partial as having a return type.
+
+Let me check if this file has uncommitted changes or if it's a local work-in-progress that might build fine upstream.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git status --porcelain layouts themes scripts hugo.toml data | head -40</summary>
+```bash
+git status --porcelain layouts themes scripts hugo.toml data | head -40
+```
+
+```
+ M data/noteFileDates.json
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The layouts are being committed as-is, so the deploy will encounter this template error after fixing the frontmatter issue—unless the CI already failed during assembly before rendering. Either way, this template error is legitimate and will break the build. I'm trying to understand why the return statement is failing by looking at Hugo's implementation details around how it parses and processes partials.
+
+The return node is handled by Hugo's template fork, and the transformation happens when the parse tree is walked to convert return commands into return nodes. The walker handles various node types like ListNode, IfNode, RangeNode, and others, converting ActionNodes with return identifiers. But looking at line 55 with the parenthesized pipeline argument—that should work fine. Maybe this is related to Hugo 0.163's new template system for layouts and partials. Let me try a quick fix by assigning the result to a variable first, then returning that instead.
+
+Actually, I should check if this is even reproducible in CI or if the template was working in the last successful deploy. Let me look at when format-key-concept.html was last modified to understand the timeline.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git log --oneline -3 -- layouts/_partials/notes/format-key-concept.html; git log -1 --format=%H%n%ci</summary>
+```bash
+git log --oneline -3 -- layouts/_partials/notes/format-key-concept.html; git log -1 --format=%H%n%ci
+```
+
+```
+f15f4336 Update
+6e8ec61c2c26fef0140ca409972c5093ca36816e
+2026-08-01 06:42:14 +0800
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Both the frontmatter and render errors are new from the recent commit, and I need to fix them in sequence. For the return issue, Hugo requires `return` statements to be inside partials that are actually called, which is the case here — but the error about wrong argument count suggests Hugo's parse-tree transformer didn't recognize it as a return statement, so it's being treated as a regular template function instead.
+
+Looking at how Hugo's transformation pipeline walks the parse tree, it recursively processes different node types like lists, actions, conditionals, and pipes, applying transformations to detect special constructs. The transformer should be catching the return statement during this traversal, but something's preventing that conversion from happening. Checking if the identifier is "return" and extracting the return node, then trimming off the "return" keyword from the arguments. The key insight is that only the first return statement gets collected since subsequent ones are skipped, which explains why Hugo partials with multiple returns fail with "wrong number of args" errors. This aligns with Hugo's documented limitation that a template can only have one return statement. pattern confirms it — the second return never gets executed because Hugo only allows one return per template. The fix is to restructure the logic so there's a single return statement at the end, computing the final value in a variable and mutating it as needed within conditional blocks. I'll rewrite the partial to build up the result in `$kc` and return it once.
+
+Rewriting the partial... Finishing the template logic and checking if there are other partials with multiple return statements in that commit.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Frontmatter fix worked; now a second, deeper failure surfaced. Let me check whether other partials share the same problem.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: grep -rl &#39;return &#39; layouts themes/jorap/layouts 2&gt;/dev/null | while read f; do n=$(grep -c &#39;{{-* *return &#39; &#34;$f&#34;); [ &#34;$n&#34; -gt 1 ] &amp;&amp; echo &#34;$n $f&#34;; done</summary>
+```bash
+grep -rl 'return ' layouts themes/jorap/layouts 2>/dev/null | while read f; do n=$(grep -c '{{-* *return ' "$f"); [ "$n" -gt 1 ] && echo "$n $f"; done
+```
+
+```
+2 layouts/_partials/notes/format-key-concept.html
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I need to refactor this to return just one value instead of multiple returns.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/format-key-concept.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ./.cache/hugo/0.163.3/hugo --gc --minify -d /tmp/hugo-verify 2&gt;&amp;1 | tail -25</summary>
+```bash
+./.cache/hugo/0.163.3/hugo --gc --minify -d /tmp/hugo-verify 2>&1 | tail -25
+```
+
+```
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 2474 
+ Paginator pages  │   34 
+ Non-page files   │    0 
+ Static files     │  331 
+ Processed images │  577 
+ Aliases          │  977 
+ Cleaned          │    9 
+
+Total in 38105 ms
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Now I need to verify the build succeeded and check that the level ladder displays correctly on notes with levels, looking for "Level 1:" in the rendered HTML output.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: grep -o &#39;Level [1-5]:&#39; /tmp/hugo-verify/notes/abide-in-me/index.html | sort -u; echo &#34;--- issues page ---&#34;; ls /tmp/hugo-verify/notes/issues/</summary>
+```bash
+grep -o 'Level [1-5]:' /tmp/hugo-verify/notes/abide-in-me/index.html | sort -u; echo "--- issues page ---"; ls /tmp/hugo-verify/notes/issues/
+```
+
+```
+Level 1:
+Level 2:
+Level 3:
+Level 4:
+Level 5:
+--- issues page ---
+index.html
+index.txt
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I should verify that notes without level assignments still properly render the key_concept field through the early-return path, checking for cases where a note lacks level_1.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: for f in content/english/notes/*.md; do grep -q &#39;^level_1:&#39; &#34;$f&#34; || { echo &#34;$f&#34;; }; done | head -5</summary>
+```bash
+for f in content/english/notes/*.md; do grep -q '^level_1:' "$f" || { echo "$f"; }; done | head -5
+```
+
+```
+content/english/notes/_index.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+All notes have levels built in, so the no-levels case is just a pass-through. The /tmp/hugo-verify directory doesn't need cleanup since it's temporary anyway. Now I should report the results, though running the linter would require pnpm which isn't available—the local build was the real validation anyway. I need to close out the session properly.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Two things were broken, and the second one was hiding behind the first.
+
+**1. The error Cloudflare reported** — `content/english/notes/issues.md` had its `outputs` field quoted as a string:
+
+```yaml
+outputs: "['HTML', 'ISSUES']"
+```
+
+Hugo read that as one literal output-format name (`['html',`) instead of a two-item list, so it failed at page assembly before rendering anything. It's now a real YAML list: `outputs: ["HTML", "ISSUES"]`. The page builds both `index.html` and `index.txt` again.
+
+**2. A template error the build never reached** — once assembly succeeded, every note failed to render. The new `layouts/_partials/notes/format-key-concept.html` (added in the previous commit, `f15f4336`) had two `return` statements: an early one for notes without level fields and a final one at the bottom. Hugo only rewrites the first `return` it finds in a partial; the second falls through to the built-in `return` function, which takes no arguments, giving `wrong number of args for return: want 0 got 1`. I restructured the partial to build its result into `$kc` and return once at the end, and left a one-line comment naming the constraint so nobody re-adds an early return. It was the only partial in the repo with more than one `return`.
+
+Verified with the pinned Hugo 0.163.3 from `.cache` (same version CI uses): full build succeeds, 2474 pages, and the Level 1–5 ladder still renders correctly on notes like `abide-in-me`.
+
+Nothing is committed — both fixes are sitting in your working tree, ready when you want to push.
+
+## Session close
+- Fixed: `issues.md` `outputs` is a real YAML list, and `format-key-concept.html` now uses Hugo's one-return-per-partial limit.
+- Encode: none.
+- Open: clean — full local build passes.

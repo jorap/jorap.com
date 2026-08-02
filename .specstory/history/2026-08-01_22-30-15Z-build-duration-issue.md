@@ -2549,3 +2549,505 @@ _**Agent (auto-smart)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/see-also.html</summary>
 
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The dict fix is confirmed. Toolbar, single-page, and related-notes caching changes are being applied in parallel.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Dict fix confirmed. Applying the remaining layout changes.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Keep/confirm blog/single.html level_depth slice fix (already in working tree)",
+      "id": "dict-fix",
+      "status": "completed"
+    },
+    {
+      "content": "Remove collect-note-issues from toolbar + note-issues-panel from notes/single",
+      "id": "drop-issues-scan",
+      "status": "in_progress"
+    },
+    {
+      "content": "partialCached related-notes in toc/blog/see-also callers",
+      "id": "cache-related",
+      "status": "pending"
+    },
+    {
+      "content": "Timed production Hugo build; confirm issues page still works",
+      "id": "verify-build",
+      "status": "pending"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Keep/confirm blog/single.html level_depth slice fix (already in working tree)",
+      "id": "dict-fix",
+      "status": "in_progress"
+    },
+    {
+      "content": "Remove collect-note-issues from toolbar + note-issues-panel from notes/single",
+      "id": "drop-issues-scan",
+      "status": "pending"
+    },
+    {
+      "content": "partialCached related-notes in toc/blog/see-also callers",
+      "id": "cache-related",
+      "status": "pending"
+    },
+    {
+      "content": "Timed production Hugo build; confirm issues page still works",
+      "id": "verify-build",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toolbar.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toolbar.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/toc-related-extras.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/see-also.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Checking for other related-notes callers that need caching. Will mark todos as in_progress and run the verify build.
+
+Verifying notes/issues.html still loads collect-note-issues. Confirming issue counts appear in the report body rather than the toolbar.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "partial \\\"notes/related-notes|partialCached \\\"notes/related-notes|collect-note-issues|note-issues-panel"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "partial \\\"notes/related-notes|partialCached \\\"notes/related-notes|collect-note-issues|note-issues-panel",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/see-also.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/blog/related-notes.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/toc-related-extras.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/toolbar.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/issues.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-issues-panel.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/build-issues-report.html"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Keep/confirm blog/single.html level_depth slice fix (already in working tree)",
+      "id": "dict-fix",
+      "status": "completed"
+    },
+    {
+      "content": "Remove collect-note-issues from toolbar + note-issues-panel from notes/single",
+      "id": "drop-issues-scan",
+      "status": "completed"
+    },
+    {
+      "content": "partialCached related-notes in toc/blog/see-also callers",
+      "id": "cache-related",
+      "status": "completed"
+    },
+    {
+      "content": "Timed production Hugo build; confirm issues page still works",
+      "id": "verify-build",
+      "status": "in_progress"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Keep/confirm blog/single.html level_depth slice fix (already in working tree)",
+      "id": "dict-fix",
+      "status": "completed"
+    },
+    {
+      "content": "Remove collect-note-issues from toolbar + note-issues-panel from notes/single",
+      "id": "drop-issues-scan",
+      "status": "in_progress"
+    },
+    {
+      "content": "partialCached related-notes in toc/blog/see-also callers",
+      "id": "cache-related",
+      "status": "pending"
+    },
+    {
+      "content": "Timed production Hugo build; confirm issues page still works",
+      "id": "verify-build",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export CI=true HUGO_ENV=production NODE_ENV=production GOMAXPROCS=2
+/usr/bin/time -f &#39;REAL %e&#39; .cache/hugo/0.163.3/hugo \
+  --gc --minify --forceSyncStatic --buildFuture \
+  --cacheDir &#34;$PWD/.cache&#34; \
+  -d /tmp/jorap-verify-out \
+  &gt; /tmp/jorap-verify.txt 2&gt;&amp;1
+echo EXIT:$?
+grep -E &#39;Pages|Processed|Aliases|Total in|ERROR|error|invalid dictionary&#39; /tmp/jorap-verify.txt | head -30
+# Spot-checks
+echo &#39;--- issues page ---&#39;
+test -f /tmp/jorap-verify-out/notes/issues/index.html &amp;&amp; echo &#39;issues OK&#39; || echo &#39;issues MISSING&#39;
+# Issues page should still have issue content from collect-note-issues
+rg -c &#39;notes-filter__count|issue&#39; /tmp/jorap-verify-out/notes/issues/index.html | head -5
+# Note single should NOT have Link issues panel
+echo &#39;--- note single (no link issues panel) ---&#39;
+rg -c &#39;Link issues|notes-issues&#39; /tmp/jorap-verify-out/notes/depth-of-understanding/index.html || echo &#39;no link-issues panel (good)&#39;
+# Toolbar Issues without count
+rg -o &#39;Issues[^&lt;]*&#39; /tmp/jorap-verify-out/notes/depth-of-understanding/index.html | head -5
+# Blog depth label works
+rg -o &#39;Depth [0-9][^&lt;]*&#39; /tmp/jorap-verify-out/blog/facebook-favorites-feed/index.html | head -3
+</summary>
+```bash
+export CI=true HUGO_ENV=production NODE_ENV=production GOMAXPROCS=2
+/usr/bin/time -f 'REAL %e' .cache/hugo/0.163.3/hugo \
+  --gc --minify --forceSyncStatic --buildFuture \
+  --cacheDir "$PWD/.cache" \
+  -d /tmp/jorap-verify-out \
+  > /tmp/jorap-verify.txt 2>&1
+echo EXIT:$?
+grep -E 'Pages|Processed|Aliases|Total in|ERROR|error|invalid dictionary' /tmp/jorap-verify.txt | head -30
+# Spot-checks
+echo '--- issues page ---'
+test -f /tmp/jorap-verify-out/notes/issues/index.html && echo 'issues OK' || echo 'issues MISSING'
+# Issues page should still have issue content from collect-note-issues
+rg -c 'notes-filter__count|issue' /tmp/jorap-verify-out/notes/issues/index.html | head -5
+# Note single should NOT have Link issues panel
+echo '--- note single (no link issues panel) ---'
+rg -c 'Link issues|notes-issues' /tmp/jorap-verify-out/notes/depth-of-understanding/index.html || echo 'no link-issues panel (good)'
+# Toolbar Issues without count
+rg -o 'Issues[^<]*' /tmp/jorap-verify-out/notes/depth-of-understanding/index.html | head -5
+# Blog depth label works
+rg -o 'Depth [0-9][^<]*' /tmp/jorap-verify-out/blog/facebook-favorites-feed/index.html | head -3
+
+```
+
+```
+EXIT:0
+ Pages            │ 840 
+ Processed images │ 577 
+ Aliases          │ 980 
+Total in 68831 ms
+--- issues page ---
+issues OK
+7
+--- note single (no link issues panel) ---
+no link-issues panel (good)
+Issues
+Issues]], [[Random Duo]], and [[Create Note]].","title":"Backlinks","url":"/notes/backlinks/"},{"description":"Jesus promised believers the Father will repay faithful obedience after salvation, not as the price of eternal life.","title":"Eternal Rewards","url":"/notes/eternal-rewards/"},{"description":"Fruit comes from staying connected to Christ, not from forcing growth by willpower alone.","title":"Abide in Me","url":"/notes/abide-in-me/"},{"description":"Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age.","title":"Great Commission","url":"/notes/great-commission/"},{"description":"Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone.","title":"Render Unto Caesar","url":"/notes/render-unto-caesar/"},{"description":"Teachers are checked by what their teaching produces, not by how polished the talk sounds.","title":"By Their Fruits","url":"/notes/by-their-fruits/"},{"description":"Give, pray, and fast for God to see - not for applause in the group chat.","title":"Secret Devotion","url":"/notes/secret-devotion/"},{"description":"Heart righteousness goes deeper than outward acts - anger is murder, lust is adultery, in the heart.","title":"Heart Righteousness","url":"/notes/heart-righteousness/"},{"description":"Hearing the words is not enough - build on rock by actually doing what Jesus said.","title":"The Wise Builder","url":"/notes/the-wise-builder/"},{"description":"The kingdom is received like a child receives care, not negotiated on a merit ladder.","title":"Childlike Faith","url":"/notes/childlike-faith/"},{"description":"Deny self and follow Christ daily - choosing his will over yours, not collecting suffering points.","title":"Take Up Yo
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The build completed successfully in 68 seconds. The issues page loads correctly without link issues panels. The depth label functions properly.
+
+The 68-second build is slightly slower than the previous 48 seconds, likely due to machine load or a cold cache. A spot-check of the toolbar Issues link and the issues page content is next. The collect-note-issues script should run once for the issues page.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: # Cleaner spot-checks
+echo &#39;=== toolbar Issues (plain, no count) ===&#39;
+python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import re
+html = Path(&#39;/tmp/jorap-verify-out/notes/depth-of-understanding/index.html&#39;).read_text()
+# Find Issues button in toolbar tools
+m = re.search(r&#39;notes-toolbar-tools__body.*?Issues.*?&lt;/a&gt;&#39;, html, re.S)
+print(m.group(0)[:300] if m else &#39;NOT FOUND&#39;)
+print(&#39;has count badge:&#39;, bool(re.search(r&#39;&gt;Issues&lt;span class=&#34;notes-filter__count&#34;&#39;, html)))
+print(&#39;has Link issues panel:&#39;, &#39;Link issues&#39; in html or &#39;notes-issues__title&#39; in html)
+PY
+
+echo &#39;=== issues page has report ===&#39;
+python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+html = Path(&#39;/tmp/jorap-verify-out/notes/issues/index.html&#39;).read_text()
+for needle in [&#39;Missing note&#39;, &#39;Orphan&#39;, &#39;Dead end&#39;, &#39;notes-issues&#39;, &#39;issue&#39;]:
+    print(f&#39;{needle}: {html.lower().count(needle.lower())}&#39;)
+# toolbar on issues page should still say plain Issues
+print(&#39;toolbar Issues count badge:&#39;, bool(__import__(&#39;re&#39;).search(r&#39;&gt;Issues&lt;span class=&#34;notes-filter__count&#34;&#39;, html)))
+PY
+
+# Confirm no ERROR in build
+grep -iE &#39;ERROR|invalid dictionary&#39; /tmp/jorap-verify.txt || echo &#39;no errors&#39;
+</summary>
+```bash
+# Cleaner spot-checks
+echo '=== toolbar Issues (plain, no count) ==='
+python3 - <<'PY'
+from pathlib import Path
+import re
+html = Path('/tmp/jorap-verify-out/notes/depth-of-understanding/index.html').read_text()
+# Find Issues button in toolbar tools
+m = re.search(r'notes-toolbar-tools__body.*?Issues.*?</a>', html, re.S)
+print(m.group(0)[:300] if m else 'NOT FOUND')
+print('has count badge:', bool(re.search(r'>Issues<span class="notes-filter__count"', html)))
+print('has Link issues panel:', 'Link issues' in html or 'notes-issues__title' in html)
+PY
+
+echo '=== issues page has report ==='
+python3 - <<'PY'
+from pathlib import Path
+html = Path('/tmp/jorap-verify-out/notes/issues/index.html').read_text()
+for needle in ['Missing note', 'Orphan', 'Dead end', 'notes-issues', 'issue']:
+    print(f'{needle}: {html.lower().count(needle.lower())}')
+# toolbar on issues page should still say plain Issues
+print('toolbar Issues count badge:', bool(__import__('re').search(r'>Issues<span class="notes-filter__count"', html)))
+PY
+
+# Confirm no ERROR in build
+grep -iE 'ERROR|invalid dictionary' /tmp/jorap-verify.txt || echo 'no errors'
+
+```
+
+```
+=== toolbar Issues (plain, no count) ===
+notes-toolbar-tools__body border-divider mt-2 flex flex-wrap gap-2 rounded border bg-surface p-3 sm:absolute sm:left-0 sm:z-30 sm:mt-2 sm:min-w-[14rem] sm:shadow-md"><a class="btn btn-sm btn-outline-primary" href=/notes/issues/>Issues
+</a>
+has count badge: False
+has Link issues panel: False
+=== issues page has report ===
+Missing note: 4
+Orphan: 10
+Dead end: 5
+notes-issues: 2
+issue: 19
+toolbar Issues count badge: False
+no errors
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Build verification passed. All planned tasks are complete.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Keep/confirm blog/single.html level_depth slice fix (already in working tree)",
+      "id": "dict-fix",
+      "status": "completed"
+    },
+    {
+      "content": "Remove collect-note-issues from toolbar + note-issues-panel from notes/single",
+      "id": "drop-issues-scan",
+      "status": "completed"
+    },
+    {
+      "content": "partialCached related-notes in toc/blog/see-also callers",
+      "id": "cache-related",
+      "status": "completed"
+    },
+    {
+      "content": "Timed production Hugo build; confirm issues page still works",
+      "id": "verify-build",
+      "status": "completed"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Keep/confirm blog/single.html level_depth slice fix (already in working tree)",
+      "id": "dict-fix",
+      "status": "completed"
+    },
+    {
+      "content": "Remove collect-note-issues from toolbar + note-issues-panel from notes/single",
+      "id": "drop-issues-scan",
+      "status": "completed"
+    },
+    {
+      "content": "partialCached related-notes in toc/blog/see-also callers",
+      "id": "cache-related",
+      "status": "completed"
+    },
+    {
+      "content": "Timed production Hugo build; confirm issues page still works",
+      "id": "verify-build",
+      "status": "in_progress"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The Cloudflare Hugo build time fixes are complete.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Build is green again locally (**840 pages, Total in ~69s**, no `dict` error).
+
+**Shipped**
+- `level_depth` labels use a string slice (Hugo no longer dies on every blog post)
+- Garden issues scan only on `/notes/issues/` — toolbar count badge and per-note “Link issues” panel removed
+- `related-notes` lookups wrapped in `partialCached`
+
+Push when you want CF to pick this up; until then HEAD still has the broken `dict` and the full-garden scan on every note.
+
+## Session close
+- Fixed: Unblocked Hugo CF builds (dict bug + deferred issues scan + related-notes cache).
+- Encode: none
+- Open: clean

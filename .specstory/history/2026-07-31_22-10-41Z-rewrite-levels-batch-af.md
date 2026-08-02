@@ -211,3 +211,787 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Grep output was truncated. I need to read all 40 files fully to capture the Level 1 claims, the five Level bullets, and the text following Level 5.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/not-my-will.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/opened-scripture.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/open-not-maintained.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-the-error.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading through the remaining files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/periodic-knowledge-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/permission-scales.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/platform-reach-is-borrowed.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/portable-software.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the remaining files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/practice-small-experiments.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-before-you-choose.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-when-drained.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/preparedness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/present-a-living-sacrifice.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pressure-reveals-weakness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/priorities-before-the-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/process-mapping.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the remaining files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/process-over-outcomes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/psychological-safety.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/purpose-and-vision.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/quarterly-planning.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/random-duo.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reading-the-garden.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/read-in-synagogue.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/read-later-queue.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconciliation-before-worship.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 40 files are loaded. I am now rewriting the Level 1–5 bullets for each file according to the depth ladder.
+
+The ladder runs from definition to generative creation. Levels 1 through 4 add depth through explanation, application, systems, and implications. Level 5 demands building and extending the concept. I will preserve the claim bullet and all bullets after Level 5. Every Level N prefix must be exact, and frontmatter must contain no contractions.
+
+I noticed the existing levels often rely on analogies for Level 1, repeat across levels, or blur the system boundaries. I am now carefully crafting each Level 1–5 bullet to match the specific idea in the line 1 claim. I also need to verify whether bible blocks appear before the claim, since that affects how I anchor the definitions.
+
+The first claim bullet sits after bible blocks in faith notes. I am now mapping the exact line 1 claim for each file to anchor the new levels.
+
+I am now checking whether the bible block and gloss in faith notes count as part of the line 1 claim. If they do not, the claim itself sits before Level 1, which changes how I anchor the five levels.
+
+The gloss bullet before Level 1 is the line 1 claim to preserve. Faith notes follow a bible block, gloss, then levels structure. okf-export has no bible block, so its line 1 claim is the first bullet.
+
+I am now batching StrReplace edits across all 40 files. I noted that some notes place a second bible block after Level 5, which must remain untouched. I have started drafting the rewrites, beginning with not-my-will.md.
+
+The not-my-will.md rewrites are now complete. Level 1 defines the concept as asking God to remove the cup, then yielding to the Father’s will. Level 2 compares it to telling a parent you are scared and still doing what is right. Level 3 applies it to praying the honest ask before releasing an outcome you cannot change. Level 4 warns that surrender without honesty is performance. Level 5 links the idea to [[Glorify Your Name]] and [[Free Grace]].
+
+The okf-export.md rewrites are now complete. Level 1 defines the export as a flat markdown bundle with no Hugo build required. Level 2 compares it to photocopying a notebook for a friend using a different app. Level 3 explains regenerating the export after garden edits when agents or scripts need current note text. Level 4 warns that stale exports mislead automation and must be refreshed on production builds.
+
+okf-export Level 5 now cites [[Building a Personal API]] and downstream tools that assume the handoff layer; edits must happen in Hugo, not the flat copy.
+
+opened-scripture.md Level 1 defines opened scripture as walking someone through the Bible until the text makes sense, exposition rather than verse-dropping. Level 2 compares it to a teacher opening a story line by line, meaning tied to the listener instead of proof-texting without context.
+
+opened-scripture.md Level 3 applies the concept to Bible study: read the passage, then explain what Moses and the Prophets meant before jumping to application. Level 4 warns that dropping references without explanation copies an index; opened scripture makes the Book legible so the heart can burn. Level 5 links the idea to [[Layered Reading]] and [[Discipleship]], where opened scripture explains the cited move.
+
+open-not-maintained.md Level 1 defines the concept as a license granting read and fork rights while abandoning all repair responsibilities.
+
+open-not-maintained.md Level 2 compares unmaintained software to a public library with no librarian. Level 3 warns that frozen plugins should be swapped before they own a critical path. Level 4 uses a gallery slider example to show that an open license does not prevent abandonment. Level 5 links the idea to [[Inspectable Stack]] and [[Community Depth]].
+
+open-source.md Level 1 defines open source as a license grant, not a lifestyle badge.
+
+open-source.md Level 2 compares the license to a deed that lets you open the toolbox without guaranteeing the tools are sharp, current, or free of labor. Level 3 warns that legal permission alone does not mean you should trust maintainers or community without judging them on their own merits. Level 4 rejects nulled software and abandoned stacks, noting that license rights are not quality guarantees. Level 5 clarifies that free downloads do not mean free labor, hosting, or security; evenings and invoices still appear when you ship.
+
+outcomes-over-pitch-decks.md Level 1 defines the concept as trusting delivered results over slide polish and profile aura. Level 2 compares choosing a teammate by who scores, not by the fanciest uniform. Level 3 warns that asking for three past outcomes with names attached before hiring prevents expensive theater. Level 4 notes that downstream stress, turnover, and delivery health matter more than charisma.
+
+outcomes-over-pitch-decks.md Level 5 now cites [[People-Centered Design]] and [[Own the Error]], testing the same bar that [[Staged Rollout]] beats a demo that never shipped.
+
+own-the-error.md Level 1 defines owning the error as naming who owns the miss, the outcome, and the repair. Level 2 compares it to raising your hand when you broke the vase. Level 3 warns that blame threads block learning before the meeting ends.
+
+own-the-error.md Level 4 now requires a named owner on near-miss reports; shame and scattered blame hide the data teams need. Level 5 cites [[Blameless After-Action Review]] and [[Complete the Cycle]], and warns that [[Forgiveness at Work]] keeps repair from becoming a permanent loop.
+
+own-your-part.md Level 1 defines owning your part as changing what you can touch in your lane instead of waiting for headquarters to rewrite process.
+
+own-your-part.md Level 2 compares fixing your corner to sweeping your own room before waiting for someone else to clean the whole house. Level 3 demands listing three steps in your control before escalating; if you never tried your lane, you are renting the excuse. Level 4 warns that stale processes survive when everyone waits upstream, while your corner moves when you act. Level 5 cites [[Continuous Improvement]] and [[People-Centered Design]], both starting local with proactive fixes before permission arrives.
+
+para-method.md Level 1 claims to sort by who owns it and when it ends, not by topic alphabet soup.
+
+para-method.md Level 2 compares PARA to sorting school homework and hobbies into separate piles, prioritizing action and responsibility over alphabetical topics. Level 3 asks who acts on a note and when it closes; if neither applies, the item becomes reference or archive. Level 4 assigns Projects deadlines, Areas ongoing responsibility, Resources to wait unclaimed, and Archives to finished work. Level 5 cites [[GTD vs PARA]] to split tasks from knowledge, and warns that [[Metadata Strategy]] must stay light so taxonomy does not become a second job.
+
+pareto-principle.md Level 1 defines the Pareto principle as shorthand for roughly eighty percent of results from twenty percent of effort. Level 2 compares outcomes to apples clustering on one branch rather than spreading evenly across every twig. Level 3 asks the reader to list their top three outputs from last month and identify which inputs produced them, then protect that slice first. Level 4 warns that the ratio is a heuristic, not a law, and cutting the long tail can kill compounding habits that matter later.
+
+pareto-principle.md Level 5 cites [[Low Hanging Fruit]] and [[Minimum Effective Dose]] to apply the same skew before spreading hero energy evenly.
+
+patience.md Level 1 defines patience as Spirit fruit: endure delay without turning bitter, because the wait stays but resentment does not calcify. Level 2 compares the Spirit to rain on a seed that takes weeks to sprout, noting that the Spirit changes what waiting does to you, not the calendar.
+
+patience.md Level 3 suggests buying Spirit room instead of matching horn for horn when cut off in traffic. Level 4 places patience beside gentleness and self-control in Galatians, calling it endurance under providence from the vine rather than performed virtue. Level 5 cites [[Abide in Me]] as the engine and [[Sanctification]] as the slow becoming, with [[Fruits of the Spirit]] ripening patience over years.
+
+peacemakers.md Level 1 claims peacemaking is work: reconciliation, truth spoken in love, and de-escalation when others want a fight.
+
+peacemakers.md Level 2 compares peacemaking to fixing a broken fence with your neighbor instead of yelling from your yards. Level 3 warns that before picking a side in a feud, ask what repair would require and do that work before the next meeting. Level 4 cites Matthew 5:9, noting that avoiding conflict to keep comfort is not peacemaking.
+
+peacemakers.md Level 5 ties peacemaking to family resemblance, acting like the Father who reconciled you through [[Free Grace]] first.
+
+peace.md Level 1 defines Christ's peace as inner calm from trusting God's reign, not denial when circumstances are hard. Level 2 compares it to sleeping through a storm because someone you trust steers the boat; shalom holds truth and calm together. Level 3 warns that when anxiety spikes at 2am, pray first then act on what you can change instead of thumb-refreshing news until numb.
+
+peace.md Level 4 distinguishes Galatians' peace from stuffed emotion; trusting sovereignty is the real thing. Level 5 cites [[Fruits of the Spirit]] clustering peace with [[Patience]] and [[Gentleness]], and warns that [[Free Grace]] frees you from performance peace that collapses under trouble.
+
+people-centered-design.md Level 1 defines people-centered design as fitting the process to real human needs before optimizing charts or slides.
+
+people-centered-design.md Level 2 compares a design to a grass path where the sidewalk missed the actual walk; ignoring humans invites workarounds by Friday. Level 3 demands piloting with the people who must live in the rule, because a bypass invented in week one means the design failed. Level 4 warns that official and lived processes diverge into [[Normalization of Deviance]]; you cannot design for people you did not hear. Level 5 cites [[Safety by Design]] and [[Staged Rollout]], both assuming the same test, and insists that [[Listen Before Fixing]] and [[Psychological Safety]] come first.
+
+periodic-knowledge-review.md Level 1 claims crisis review is always too late. Level 2 compares scheduled review to checking your backpack every Friday instead of the night before a big test. Level 3 demands blocking a recurring slot to walk the garden, pruning stale links and refreshing what you actually use before something breaks. Level 4 warns that orphaned and drifting items compound when review waits for embarrassment; inbox, projects, and evergreens need the clock.
+
+periodic-knowledge-review.md Level 5 cites [[Maintenance Window]] and [[Active Knowledge Curation]] to share the rhythm, with [[Spaced Repetition]] handling cards and periodic review handling the graph.
+
+permission-scales.md Level 1 claims open licenses travel globally; talent competes on bandwidth and nerve, not who holds the product key. Level 2 compares a public recipe anyone may cook, noting that the ingredients list does not change because your kitchen is outside the capital.
+
+permission-scales.md Level 3 compares a student in UPLB learning from the same WordPress zip as one in California, including Stack Overflow at three in the morning Manila time. Level 4 critiques Friedman’s flattener as ordinary, not moral purity. Level 5 cites [[Freedom Over Free]], [[Teachable Stack]], and [[Learn Hireable Stacks]] to ground global tools in local job boards.
+
+pkm.md Level 1 claims PKM is three moves: save, organize, reuse. It warns against app-hopping for the perfect stack.
+
+pkm.md Level 2 compares PKM to catching, labeling, and cooking food instead of hoarding groceries until they spoil. Level 3 limits the stack to one inbox, one organize pass, and one express habit, swapping tools only when a step fails rather than when a blog posts a new app. Level 4 warns that output beats tuning the system alone; perfectionism about the stack is procrastination disguised as research.
+
+pkm.md Level 5 cites [[Building a Second Brain]] and the [[PARA Method]] to anchor the garden as the place where reuse happens after capture.
+
+plain-commitments-at-work.md Level 1 claims plain commitments at work mean yes or no without stacked qualifiers; let your yes be yes and your no be no. Level 2 compares promising to finish by Friday without extra promises to sound brave, warning that swagger on a weak promise destroys trust.
+
+plain-commitments-at-work.md Level 3 warns that if you need hype to sound credible, the problem is overload, not vocabulary. Level 4 demands one deadline, one owner, and one plain answer in Slack; extra spin on a miss lands harder than an honest no. Level 5 cites [[Let Your Yes Be Yes]] and [[Integrity]], noting that [[Drafting in Public]] outruns private honesty when commitments become performative.
+
+platform-reach-is-borrowed.md Level 1 claims that on Facebook, X, YouTube, or any social app, you are a tenant.
+
+platform-reach-is-borrowed.md Level 2 compares platform reach to a renter whose landlord can change the rules overnight; you steward the megaphone, not the vault. Level 3 recommends posting where you rent for discovery while keeping canonical work on domains and files you control. Level 4 warns that reach throttles, shifting rules, and account restrictions can vanish an audience built on borrowed land.
+
+platform-reach-is-borrowed.md Level 5 cites [[Digital Minimalism]] and OKF export to assume you can leave, while [[Digital Garden]] and [[Future-Proofing Knowledge]] hold what social platforms cannot take. The original Level 5 used a markdown link to OKF export, so the rewrite keeps that format.
+
+portable-software.md Level 1 claims portable software wins when installers are forbidden and the entire stack must move in one folder.
+
+portable-software.md Level 2 compares portable software to packing the entire stack between desks, USB sticks, and reimaged corporate laptops. Level 3 cites locked Windows images, where portable XAMPP lets you practice on lunch breaks without an IT ticket. Level 4 warns that owning the folder comes before the operating system; when Linux and Mac joined the desk, portable habits carried over to [[Cross-Platform Software]]. Level 5 cites [[Cross-Platform Software]] as the natural evolution when OS count rose, and [[Freedom Over Free]] to explain why no installer beats no license fee.
+
+practice-small-experiments.md Level 1 defines practice small experiments as daily reps plus tests small enough to fail cheap, one tweak at a time, not one heroic rollout. Level 2 compares testing one new play before rebuilding the whole game plan; bold all-at-once changes usually slide back within months. Level 3 recommends running one new inbound play for two weeks, keeping it when turnovers drop and dropping it when they do not. Level 4 warns that changing everything at once makes snap-back predictable; small trials teach what actually sticks.
+
+practice-small-experiments.md Level 5 cites [[Deliberate Practice]] and [[Minimum Effective Dose]] to show that reps and cheap trials beat one big-bang rollout; [[Failure as Feedback]] reads the miss without drama.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Rewriting Level 1–5 bullets across all 40 files, keeping line 1 claims and post-Level 5 content unchanged.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/not-my-will.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/opened-scripture.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/open-not-maintained.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-the-error.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Files 1–10 are complete. Continuing with files 11–20.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/periodic-knowledge-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/permission-scales.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/platform-reach-is-borrowed.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/portable-software.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Proceeding with files 21 through 30.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/practice-small-experiments.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-before-you-choose.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-when-drained.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/preparedness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/present-a-living-sacrifice.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pressure-reveals-weakness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/priorities-before-the-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/process-mapping.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing with files 31 through 40.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/process-over-outcomes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/psychological-safety.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/purpose-and-vision.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/quarterly-planning.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/random-duo.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reading-the-garden.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/read-in-synagogue.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/read-later-queue.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconciliation-before-worship.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 40 files were updated.
+
+Running a grep check to confirm all 40 files contain properly formatted Level 1–5 bullets.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Verifying all 40 files were updated correctly:
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: wc -l /tmp/level-batch-af &amp;&amp; while IFS= read -r f; do grep -c &#34;Level [1-5]:&#34; &#34;$f&#34; || echo &#34;MISSING: $f&#34;; done &lt; /tmp/level-batch-af | sort | uniq -c</summary>
+```bash
+wc -l /tmp/level-batch-af && while IFS= read -r f; do grep -c "Level [1-5]:" "$f" || echo "MISSING: $f"; done < /tmp/level-batch-af | sort | uniq -c
+```
+
+```
+40 /tmp/level-batch-af
+     40 5
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 40 files contain exactly five Level bullets.
+
+No files were skipped.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+**Batch AF complete**
+
+**Updated:** 40 / 40 files  
+**Skipped:** 0
+
+Each note now has Level 1–5 bullets on the depth ladder (Definition → Explanation → Application → Systems → Generative), with the same atomic claim at each rung. Line 1 claim bullets and everything after Level 5 (including `{{< bible >}}` blocks and hub lines) were left unchanged.
+
+**Sample pattern** (`open-source.md`):
+- **Level 1:** definitional — license grant without product key  
+- **Level 2:** analogy — deed to open the toolbox  
+- **Level 3:** application — judge maintainers and move paths on merit  
+- **Level 4:** systems — limits vs [[Say No to Nulled]], [[Open Not Maintained]]  
+- **Level 5:** generative — ship knowing labor and hosting still cost
+
+## Session close
+- Fixed: Rewrote Level 1–5 `key_concept` bullets in 40 batch AF garden notes
+- Encode: none
+- Open: clean

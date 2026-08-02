@@ -473,5 +473,424 @@ Levels 4 and 5 for first-principles-thinking are now drafted. Level 4 warns that
 
 Drafting has moved to flashcards. Level 1 defines flashcards as cues on the front and immediate moves on the back, learning less, retaining longer, and applying when life shows up.
 
-Levels 2 through 5 for flashcards are now drafted. Level 2 compares spare keys clipped where they will be found, training the move when the cue appears rather than recognition alone. Level 3 keeps cards only if they help a recurring problem, dropping ones that feel smart during review but never fire in life. Level 4 warns that recall under pressure differs from recognition during review, so cards must train application rather
+Levels 2 through 5 for flashcards are now drafted. Level 2 compares spare keys clipped where they will be found, training the move when the cue appears rather than recognition alone. Level 3 keeps cards only if they help a recurring problem, dropping ones that feel smart during review but never fire in life. Level 4 warns that recall under pressure differs from recognition during review, so cards must train application rather than definitions dressed as advice. Level 5 points to the /notes/review/ export path and suggests exporting to Anki for SRS on the phone.
+
+Drafting the follow-christ-then-lead bullets. Level 1 sets the rule: obey Christ before setting the room’s pace, and deny shortcuts when the boss and Christ pull opposite ways. Level 2 compares this to reading compass north before giving marching orders. Level 3 asks which seat the move serves — Christ or the org chart — before leading the room on a compromise. Level 4 warns that visible leadership without private obedience is sand, stressing upward allegiance before outward care.
+
+Level 5 for follow-christ-then-lead is drafted. It names [[Take Up Your Cross]] before setting room pace, contrasts [[Discipleship]] with [[Leadership]], and asks whether the plan ultimately serves God.
+
+Drafting has moved to follow-their-lead. Level 1 defines following their lead as starting where they are, connecting before correcting, and avoiding fixes for problems they never named. Level 2 compares this to running their recipe once before rewriting it, proving understanding before redirecting.
+
+Levels 3 through 5 for follow-their-lead are now drafted. Level 3 says to listen and run their version once before offering a fix. Level 4 warns that critique before understanding destroys trust even when the fix is right. Level 5 pairs with Listen Before Fixing, noting that timing kills trust.
+
+Drafting has moved to follow-the-rhythm. Level 1 defines hero weeks as collapsing when the rhythm was never real, calling cadence the boring repeat that still works on Tuesday.
+
+Levels 2 through 5 for follow-the-rhythm are now drafted. Level 2 compares the rhythm to nightly tooth-brushing, where the review happens on schedule regardless of inspiration. Level 3 caps today’s commitments to the beat, warning that crusade mode feels holy until burnout when capacity was never honest. Level 4 links the repeat to Process Over Outcomes and Habit Formation, wiring the beat until panic is not the only fuel.
+
+Reconsidering follow-the-rhythm Level 5. The draft now treats Level 3 as application: schedule the small repeat on a flat day, not only on hero weeks. Level 4 becomes systems and tradeoffs. Level 5 is generative, extending and creating rather than merely repeating.
+
+Level 5 for follow-the-rhythm is finalized. It pairs with [[Cap Today's Commitments]] to keep the rhythm honest about capacity, and with [[Change Takes Repetition]] to show that one great week does not rewrite the default.
+
+Drafting has moved to forgiveness-at-work. Level 1 defines forgiving a coworker as releasing their debt without pretending the hurt did not matter. Level 2 compares this to zeroing a ledger without erasing the receipt, keeping the honest record that it hurt.
+
+Levels 3 through 5 for forgiveness-at-work are now drafted. Level 3 closes the ledger today and stops replaying the hurt before it poisons the next project. Level 4 warns that keeping a ledger poisons work, since the debt will never be fully paid in full at the office. Level 5 frames the same math as the Sunk Cost Fallacy, treating old hurt as an asset owed at work.
+
+Drafting has moved to forgiveness.md. Level 1 defines forgiving others as a daily rhythm rather than a one-time sermon nod.
+
+Levels 2 through 4 for forgiveness.md are now drafted. Level 2 compares forgiveness to rinsing a dish before reuse, making it a daily rhythm rather than a one-time nod. Level 3 asks to forgive one person today before asking God to forgive you tonight, stopping the count of how many times you were wronged. Level 4 warns that refusing to forgive exposes a heart out of step with the grace already received.
+
+Level 5 for forgiveness.md is finalized. It cites the seventy-times-seven count and the unforgiving-servant parable to make the Free Grace math plain.
+
+Drafting has moved to freedom-over-free.md. Level 1 distinguishes free from freedom: free is no license fee, while freedom means owning the files, source, and export path. Level 2 compares free to a counter sample and freedom to owning the recipe and pantry key.
+
+Levels 3 through 5 for freedom-over-free are now drafted. Level 3 keeps markdown in git for clients so they retain the files when the dashboard disappears. Level 4 warns that open tools skip the license but not the skill curve; WordPress took months before trusting a live site. Level 5 applies future-proofing to notes, testing the export before the app locks the user in.
+
+Drafting has moved to free-grace.md. Level 1 defines free grace as eternal life by hearing Christ's word and believing, treating salvation as a gift rather than wages for performance.
+
+Levels 2 through 5 for free-grace are now drafted. Level 2 compares belief to a ticket already bought, crossing from death to life now rather than after enough performance. Level 3 rests on the promise today when the week was ugly, treating assurance as a gift rather than a scorecard. Level 4 warns that good works follow grace, not purchase the ticket or replace assurance with performance anxiety. Level 5 places Sanctification and Discipleship after Justification, resting assurance on the promise rather than anxiety about earning care. Drafting has moved to free-tier-hosting-stack.md.
+
+Levels 1 through 4 for free-tier-hosting-stack are now drafted. Level 1 names the Cloudflare free tier limits: five hundred monthly builds, one concurrent build, twenty thousand files, and a twenty-minute timeout. Level 2 compares the tier to a shared metered hose, where build count and queue time drain the budget first. Level 3 suggests batching commits, pinning HUGO_VERSION, and counting builds before adding another daily client. Level 4 warns that fat repositories and frequent pushes burn the budget faster than bandwidth, since one account hosting many clients drains resources quickly.
+
+Level 5 for free-tier-hosting-stack is now drafted. It notes that static bandwidth is unmetered, while build count, queue time, and fat repositories are the real traps. It also points out that [[Selling Static Sites]] and [[Digital Garden]] share the same pipeline when clients push often.
+
+Drafting has moved to fruits-of-the-spirit.md. Level 1 defines the fruits as a Spirit-grown cluster from love through self-control, not nine separate badges for heaven. Level 2 compares them to a fruit basket from one tree, where the list grows together on one branch rather than as nine separate chores on a merit board.
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Rewriting Level 1–5 bullets across all 40 files, starting the batch updates.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithful-steward.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/father-forgive-them.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/finish-strong.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/first-principles-thinking.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-christ-then-lead.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-their-lead.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-the-rhythm.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Proceeding to the next batch of files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/freedom-over-free.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-tier-hosting-stack.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/future-proofing-knowledge.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gate-what-you-consume.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-things-done.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing with the remaining 20 files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/git-based-cms.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/give-useful-feedback.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/glorify-your-name.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/god-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/golden-rule-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/goodness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/graph.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/graph-view-analytics.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the last ten files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/great-commission.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/growth-mindset.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gtd-vs-para.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/guard-your-heart.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/habit-formation.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/habit-stacking.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/heart-righteousness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/heed-every-near-miss.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/hierarchy-of-controls.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/honest-self-awareness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 40 files will be updated.
+
+Verifying the batch list against the 40 files. All files are accounted for and none appear skipped.
+
+Running grep to verify all Level 1–5 bullets follow the required pattern and contain no contractions. Confirming the claim bullet in `heed-every-near-miss` is not mistaken for a level. Preparing a shell check across all 40 files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Verifying all 40 files have updated Level bullets.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: wc -l /tmp/level-batch-ac &amp;&amp; while IFS= read -r f; do c=$(grep -c &#39;Level [1-5]:&#39; &#34;$f&#34; 2&gt;/dev/null || echo 0); if [ &#34;$c&#34; != 5 ]; then echo &#34;BAD $f count=$c&#34;; fi; done &lt; /tmp/level-batch-ac</summary>
+```bash
+wc -l /tmp/level-batch-ac && while IFS= read -r f; do c=$(grep -c 'Level [1-5]:' "$f" 2>/dev/null || echo 0); if [ "$c" != 5 ]; then echo "BAD $f count=$c"; fi; done < /tmp/level-batch-ac
+```
+
+```
+40 /tmp/level-batch-ac
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 40 files contain exactly five Level bullets. No files were skipped.
+
+The edits are complete. A session close block will be returned because repository files were modified.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+**40 updated, 0 skipped.**
+
+All files in `/tmp/level-batch-ac` got Level 1–5 rewrites in `key_concept` only:
+
+| Level | Role |
+|-------|------|
+| **1** | Definitional — name the concept (no analogy-only opens) |
+| **2** | Explanation — meaning, purpose, relationships; analogy OK |
+| **3** | Application — real situation or decision |
+| **4** | Systems — tradeoffs, limits, context; wikilinks OK |
+| **5** | Generative — build, extend, create; wikilinks OK |
+
+**Preserved:** line 1 claim bullets, all bullets after Level 5 (including `{{< bible >}}` blocks, hub lines, blank lines).
+
+**Fixed patterns:** analogy-only Level 1 opens (e.g. gentleness, guard-your-heart, gate-what-you-consume), levels out of ladder order (application vs systems swapped), and repeated depth across levels.
+
+**Range:** `faithfulness.md` through `honest-self-awareness.md` (40 notes).
+
+## Session close
+- Fixed: Level 1–5 bullets rewritten in 40 batch 3 garden notes per the depth ladder.
+- Encode: none
+- Open: clean

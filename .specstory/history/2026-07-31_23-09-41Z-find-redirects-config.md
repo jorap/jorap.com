@@ -630,4 +630,280 @@ There is **no** root-level `_redirects` in the repo today (only `static/_redirec
 
 **Scripts that generate/post-process `_redirects`:** None found. Grep across `/home/jorap/Documents/GitHub/jorap.com/scripts/` returned zero matches for `_redirects`. `deployBuild.mjs` and `cspHashes.mjs` do not touch it.
 
-**Docs reference:** `docs/README.md` line 23 documents
+**Docs reference:** `docs/README.md` line 23 documents apex → www via `static/_redirects`.
+
+---
+
+## 2. `static/_headers` (canonical source)
+
+**Path:** `/home/jorap/Documents/GitHub/jorap.com/static/_headers`
+
+**How it reaches Cloudflare Pages:** Same Hugo static copy → `public/_headers`. Then `scripts/cspHashes.mjs` rewrites `public/_headers` to inject SHA-256 hashes into the `/*` block's `Content-Security-Policy` `script-src` directive.
+
+**Full contents (101 lines):**
+
+```
+     1|# Security headers for Cloudflare Pages / Netlify
+     2|# Hugo copies this file from `static/_headers` to `public/_headers` at build time.
+     3|# After Hugo finishes, `scripts/cspHashes.mjs` rewrites this file in `public/` to
+     4|# inject SHA-256 hashes for every inline <script> Hugo emitted (theme switcher,
+     5|# GTM bootstrap, search-index config, PWA registration, stylesheet media swap…).
+     6|# Don't add `'unsafe-inline'` back to `script-src`: it would silently disable the
+     7|# hash enforcement on CSP2 browsers.
+     8|#
+     9|# References:
+    10|#  - https://developers.cloudflare.com/pages/configuration/headers/
+    11|#  - https://docs.netlify.com/manage/routing/headers/
+    12|#  - https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+    13|#
+    14|# CSP notes:
+    15|#  - HARD LIMIT: Cloudflare Pages silently drops any single header value over
+    16|#    ~2,000 chars. Keep this CSP under that ceiling or the header will not be
+    17|#    sent at all (analyzers will report "Content-Security-Policy: missing").
+    18|#    The previous version was 2,505 chars and was dropped - fixed by collapsing
+    19|#    `script-src-elem` into `script-src` (browsers fall back to `script-src` when
+    20|#    `script-src-elem` is absent) and dropping origins covered by wildcards.
+    21|#  - script-src: NO 'unsafe-inline'. All inline <script> blocks are hashed at
+    22|#    build time (see scripts/cspHashes.mjs). Inline event-handler attributes
+    23|#    (onclick, onload, onerror) have been refactored to addEventListener-style
+    24|#    bindings, so `script-src-attr` inherits from `script-src` and stays strict.
+    25|#    `script-src-elem` is intentionally omitted; it inherits from `script-src`
+    26|#    in modern browsers and removing it keeps us under the Cloudflare Pages
+    27|#    2 KB header-value cap.
+    28|#  - style-src: KEEPS 'unsafe-inline'. The theme uses inline `style=` attrs on
+    29|#    SVGs and a handful of components; CSS injection has a much smaller attack
+    30|#    surface than script injection, so this trade-off is acceptable.
+    31|#  - Allowlists are authoritative for the embeds and analytics this site actually
+    32|#    uses (GTM, GA, Disqus, YouTube, Spotify, Gravatar, Google Maps,
+    33|#    Cloudflare Web Analytics RUM beacon at static.cloudflareinsights.com,
+    34|#    and the Workbox SW runtime at storage.googleapis.com used by the
+    35|#    `pwa` Hugo module's service-worker.js). Add an origin here when you
+    36|#    onboard a new third party.
+    37|#
+    38|# Headers we don't set here (and why):
+    39|#  - Server: Cloudflare emits `server: cloudflare` from its own edge; static
+    40|#    `_headers` cannot override it. Use a Cloudflare Transform Rule (Response
+    41|#    Header Modification) if you want to redact or replace this value.
+    42|#  - Content-Length: Cloudflare compresses HTML responses with Brotli on the
+    43|#    fly and serves them with chunked transfer-encoding, which by spec omits
+    44|#    Content-Length. This is normal and not configurable from a static site.
+    45|#  - Cross-Origin-Embedder-Policy: omitted because the browser default is
+    46|#    `unsafe-none` already. Setting it explicitly to `unsafe-none` only made
+    47|#    header analyzers (correctly) flag it as "protection disabled". We can't
+    48|#    upgrade to `require-corp` without losing third-party embeds (YouTube,
+    49|#    Disqus, Spotify), which don't send Cross-Origin-Resource-Policy headers.
+    50|
+    51|/*
+    52|  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+    53|  X-Content-Type-Options: nosniff
+    54|  X-Frame-Options: SAMEORIGIN
+    55|  X-Permitted-Cross-Domain-Policies: none
+    56|  Referrer-Policy: strict-origin-when-cross-origin
+    57|  Cross-Origin-Opener-Policy: same-origin-allow-popups
+    58|  Cross-Origin-Resource-Policy: same-site
+    59|  Permissions-Policy: accelerometer=(), autoplay=(self "https://www.youtube.com" "https://www.youtube-nocookie.com" "https://open.spotify.com"), camera=(), display-capture=(), encrypted-media=(self "https://www.youtube.com" "https://www.youtube-nocookie.com" "https://open.spotify.com"), fullscreen=(self "https://www.youtube.com" "https://www.youtube-nocookie.com" "https://open.spotify.com"), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(self "https://www.youtube.com" "https://www.youtube-nocookie.com"), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(self), usb=(), web-share=(self), xr-spatial-tracking=(), interest-cohort=(), browsing-topics=()
+    60|  Access-Control-Allow-Origin: https://www.jorap.com
+    61|  Content-Security-Policy: default-src 'self'; base-uri 'self'; form-action 'self' https://formspree.io https://airform.io; frame-ancestors 'self'; img-src 'self' data: blob: https:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; style-src-attr 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline'; script-src 'self' https://*.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://maps.googleapis.com https://maps.gstatic.com https://disqus.com https://*.disqus.com https://*.disquscdn.com https://www.youtube.com https://www.youtube-nocookie.com https://cdn.jsdelivr.net https://static.cloudflareinsights.com https://storage.googleapis.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://maps.googleapis.com https://disqus.com https://*.disqus.com https://*.disquscdn.com https://cloudflareinsights.com; frame-src 'self' https://disqus.com https://*.disqus.com https://www.youtube.com https://www.youtube-nocookie.com https://open.spotify.com https://www.google.com; child-src 'self' https://disqus.com https://*.disqus.com https://www.youtube.com https://www.youtube-nocookie.com https://open.spotify.com; media-src 'self' https://*.youtube.com https://*.googlevideo.com; object-src 'none'; manifest-src 'self'; worker-src 'self' blob:; upgrade-insecure-requests
+    62|
+    63|# OKF graph viewer: self-contained tool with a small inline bootstrap and
+    64|# graph.json fetched at runtime. Inline scripts change when the bundle
+    65|# regenerates, so allow 'unsafe-inline' here (same pattern as /admin).
+    66|/exports/okf/*
+    67|  Content-Security-Policy: default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data: blob: https:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; connect-src 'self'; object-src 'none'; upgrade-insecure-requests
+    68|
+    69|/exports/okf/*.md
+    70|  Content-Type: text/plain; charset=utf-8
+    71|
+    72|# Sveltia CMS at /admin needs to load its bundle from unpkg.com and talk to
+    73|# GitHub for auth + content. The CMS injects inline <script>s at runtime so
+    74|# the static-build-time CSP hash pass cannot cover them - keep
+    75|# `'unsafe-inline'` here. The /admin route is noindex + behind GitHub OAuth.
+    76|#
+    77|# Cloudflare Pages merges matching _headers blocks, so /admin also inherits the
+    78|# site-wide CSP from `/*` and the browser enforces both. That blocks unpkg and
+    79|# leaves the CMS blank. functions/admin/_middleware.js replaces CSP on /admin/*
+    80|# with this policy only - keep the two strings in sync.
+    81|/admin/*
+    82|  Referrer-Policy: strict-origin-when-cross-origin
+    83|  Content-Security-Policy: default-src 'self'; base-uri 'self'; form-action 'self' https://github.com; frame-ancestors 'self'; img-src 'self' data: blob: https://*.githubusercontent.com https://avatars.githubusercontent.com https://raw.githubusercontent.com https://www.gravatar.com https:; font-src 'self' data: https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; style-src-attr 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://unpkg.com https://static.cloudflareinsights.com; script-src-elem 'self' 'unsafe-inline' https://unpkg.com https://static.cloudflareinsights.com; connect-src 'self' https://api.github.com https://github.com https://raw.githubusercontent.com https://*.githubusercontent.com https://unpkg.com https://cloudflareinsights.com; frame-src 'self' https://github.com https://www.youtube-nocookie.com https://www.youtube.com https://open.spotify.com https://player.vimeo.com; worker-src 'self' blob:; object-src 'none'; manifest-src 'self'; upgrade-insecure-requests
+    84|  X-Robots-Tag: noindex, nofollow
+    85|
+    86|# Long-lived caching for fingerprinted Hugo asset pipeline output.
+    87|# Hugo emits `<basename>.<sha>.{css,js}` for fingerprinted resources, so a 1-year
+    88|# immutable cache is safe and improves repeat-visit performance.
+    89|/css/*
+    90|  Cache-Control: public, max-age=31536000, immutable
+    91|
+    92|/js/*
+    93|  Cache-Control: public, max-age=31536000, immutable
+    94|
+    95|/fonts/*
+    96|  Cache-Control: public, max-age=31536000, immutable
+    97|  Access-Control-Allow-Origin: *
+    98|
+    99|/images/*
+   100|  Cache-Control: public, max-age=31536000, immutable
+   101|
+```
+
+**Script that generates/post-processes `_headers`:** `/home/jorap/Documents/GitHub/jorap.com/scripts/cspHashes.mjs` (230 lines). Key behavior:
+
+- Reads `public/_headers` (expects Hugo to have copied from `static/_headers`)
+- Walks all HTML under `public/`, hashes inline `<script>` bodies
+- Rewrites only the `/*` path block's `Content-Security-Policy` `script-src` (leaves `/admin/*` and `/exports/okf/*` untouched)
+- Also rewrites inline `onerror=` attributes to `data-fallback-src=` in HTML files
+- Invoked as the **last step** of `deployBuild.mjs` (line 39)
+
+Related (not a generator): `/home/jorap/Documents/GitHub/jorap.com/functions/admin/_middleware.js` replaces CSP on `/admin/*` at runtime because Cloudflare merges `_headers` blocks.
+
+---
+
+## 3. `package.json` scripts section
+
+**Path:** `/home/jorap/Documents/GitHub/jorap.com/package.json`
+
+```json
+  "scripts": {
+    "dev": "concurrently \"node scripts/themeGenerator.js --watch\" \"node scripts/noteFileDates.js --watch\" \"hugo server --buildDrafts --buildFuture -e development --baseURL=http://localhost:1313/\"",
+    "build": "node scripts/deployBuild.mjs",
+    "deploy": "pnpm run build",
+    "serve": "node scripts/servePublic.mjs",
+    "preview:prod": "node scripts/previewProd.mjs",
+    "local": "node scripts/previewProd.mjs",
+    "hugo:prod-server": "hugo server --buildDrafts --buildFuture --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify --baseURL=http://localhost:1313/ --appendPort=false",
+    "preview": "node scripts/themeGenerator.js && node scripts/noteFileDates.js && pnpm run hugo:prod-server",
+    "watch": "concurrently \"node scripts/themeGenerator.js --watch\" \"node scripts/noteFileDates.js --watch\" \"pnpm run hugo:prod-server\"",
+    "update-modules": "node ./scripts/clearModules.js && hugo mod clean --all && hugo mod get -u ./... && hugo mod tidy",
+    "format": "prettier -w .",
+    "export:anki": "node scripts/runPython.mjs scripts/export-anki-deck.py",
+    "export:okf": "node scripts/runPython.mjs scripts/export-okf-bundle.py",
+    "export:okf-blog": "node scripts/runPython.mjs scripts/export-okf-blog-bundle.py",
+    "import:obsidian": "node scripts/runPython.mjs scripts/import-from-obsidian.py",
+    "lint:notes": "node scripts/lintNotes.mjs",
+    "lint:frontmatter": "node scripts/runPython.mjs scripts/lint-notes-frontmatter.py",
+    "lint:cards": "node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py",
+    "audit:cards": "node scripts/runPython.mjs scripts/audit-flashcard-north-star.py",
+    "garden:health": "node scripts/runPython.mjs scripts/garden-health.py",
+    "lint:garden": "node scripts/runPython.mjs scripts/lint-notes-frontmatter.py && node scripts/runPython.mjs scripts/normalize-notes-format.py --verify && node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py && node scripts/runPython.mjs scripts/audit-flashcard-north-star.py && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py && node scripts/runPython.mjs scripts/voice-lint.py garden --check && node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only",
+    "lint:voice": "node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check",
+    "lint:blog": "node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify && node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only",
+    "lint:slop": "node scripts/runPython.mjs scripts/voice-lint.py slop --check",
+    "slop:scan": "node scripts/runPython.mjs scripts/voice-lint.py slop --summary",
+    "slop:score": "node scripts/runPython.mjs scripts/voice-lint.py score",
+    "lint:garden-voice": "node scripts/runPython.mjs scripts/voice-lint.py garden --check",
+    "garden-voice:scan": "node scripts/runPython.mjs scripts/voice-lint.py garden --summary",
+    "voice:scan": "node scripts/runPython.mjs scripts/voice-lint.py site --summary --review",
+    "lint:utility-links": "node scripts/runPython.mjs scripts/lint-utility-wikilinks.py",
+    "lint:randomizer": "node scripts/runPython.mjs scripts/lint-randomizer.py",
+    "lint:filenames": "node scripts/lint-filenames.mjs",
+    "test:filenames": "node scripts/lint-filenames.mjs --self-check",
+    "lint:agent-config": "node scripts/lint-agent-config.mjs",
+    "test:agent-config": "node scripts/lint-agent-config.mjs --self-check",
+    "test:writing-samples": "node scripts/ai-writing-samples-check.mjs",
+    "test:search": "node scripts/test-search.mjs",
+    "setup:hooks": "node scripts/setupGitHooks.mjs",
+    "postinstall": "node scripts/fix-tailwind-bin.js"
+  },
+```
+
+Build chain for Pages: `deploy` → `build` → `deployBuild.mjs` → Hugo (copies `_redirects` + `_headers`) → `cspHashes.mjs`.
+
+---
+
+## 4. `wrangler.toml`
+
+**Path:** `/home/jorap/Documents/GitHub/jorap.com/wrangler.toml`
+
+```toml
+# Cloudflare Pages - output dir for the V2 build system.
+# Dashboard build command: pnpm run deploy
+#   (CF runs pnpm install automatically; avoid npm run build - extra hop.)
+#
+# BUILD env vars (NODE_VERSION, GO_VERSION) must be set in the Pages dashboard:
+#   Settings → Build → Variables - [vars] here are RUNTIME Function vars, not build vars.
+#   Hugo version is handled in-repo by scripts/ensureHugo.mjs (reads deploy-versions.json).
+# One-time build cache: Dashboard → Settings → Build → Build cache → Enable.
+#   Hugo writes to .cache via --cacheDir in deployBuild.mjs; CF restores it next build.
+#
+# CMS OAuth (Static Site CMS at /admin; engine: Sveltia):
+#   GITHUB_CLIENT_ID     - set below in [vars] (public; safe in git)
+#   GITHUB_CLIENT_SECRET - encrypted secret; set once via Dashboard or:
+#     pnpm exec wrangler pages secret put GITHUB_CLIENT_SECRET --project-name jorap-com
+#   Local functions dev: copy .dev.vars.example → .dev.vars and fill both values.
+name = "jorap-com"
+pages_build_output_dir = "./public"
+compatibility_date = "2026-06-15"
+
+[vars]
+# Replace with your GitHub OAuth app Client ID (Developer settings → OAuth Apps).
+GITHUB_CLIENT_ID = "Ov23lii9SylB2lCgut63"
+
+# GITHUB_CLIENT_SECRET - dashboard secret only (Pages wrangler.toml has no [secrets] block).
+```
+
+No `_redirects` or `_headers` config here — those live in the static output dir.
+
+---
+
+## 5. `scripts/deployBuild.mjs`
+
+**Path:** `/home/jorap/Documents/GitHub/jorap.com/scripts/deployBuild.mjs`
+
+```javascript
+#!/usr/bin/env node
+/**
+ * Canonical production build for local CI and all deployment targets.
+ * Runs theme generation, note dates, Hugo, and CSP hashing - never bare `hugo`.
+ */
+import { createRequire } from "node:module";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+import { ensureHugo } from "./ensureHugo.mjs";
+import { projectRoot, run, runNodeScript, runPython } from "./spawnUtil.mjs";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const require = createRequire(import.meta.url);
+
+process.env.HUGO_ENV ||= "production";
+process.env.NODE_ENV ||= "production";
+
+require("./fix-tailwind-bin.js");
+
+const hugoBin = ensureHugo();
+
+runNodeScript(join(__dirname, "themeGenerator.js"));
+runNodeScript(join(__dirname, "noteFileDates.js"));
+runPython(join(__dirname, "export-okf-bundle.py"), [], { cwd: projectRoot });
+runPython(join(__dirname, "export-okf-blog-bundle.py"), [], { cwd: projectRoot });
+const hugoCacheDir = join(projectRoot, ".cache");
+run(
+  hugoBin,
+  [
+    "--gc",
+    "--minify",
+    "--forceSyncStatic",
+    "--buildFuture",
+    "--cacheDir",
+    hugoCacheDir,
+  ],
+  { cwd: projectRoot },
+);
+runNodeScript(join(__dirname, "cspHashes.mjs"));
+```
+
+---
+
+## Build pipeline diagram
+
+```
+static/_redirects  ──Hugo (--forceSyncStatic)──►  public/_redirects  ──► Cloudflare Pages
+static/_headers    ──Hugo──────────────────────►  public/_headers
+                                                      │
+                                                      ▼
+                                            cspHashes.mjs (hash inject)
+                                                      │
+                                                      ▼
+                                            public/_headers (final)
+```
+
+**Not involved in `_redirects`:** Hugo aliases (those become redirect HTML pages, separate from `_redirects`), layouts, or any script.

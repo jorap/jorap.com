@@ -3216,5 +3216,816 @@ _**Agent (auto-low)**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Scanning all notes to
+Scanning all notes to identify which ones lack Levels 1 through 5 in key_concept.
+
+Writing a Python script to run the comprehensive scan. Some note types will be exempt, such as indexes, utilities, notes without key_concept, and system pages.
 </details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re
+from pathlib import Path
+import yaml
+
+NOTES = Path(&#34;content/english/notes&#34;)
+SKIP = {&#34;_index.md&#34;}
+LEVEL_RE = re.compile(r&#34;(?m)^\s*-\s+Level\s+([1-5]):\s&#34;)
+
+def load_fm(path):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
+        return None, text
+    end = text.find(&#34;\n---&#34;, 3)
+    if end == -1:
+        return None, text
+    fm = yaml.safe_load(text[3:end]) or {}
+    return fm, text
+
+missing = []
+no_key_concept = []
+complete = []
+exempt = []
+
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
+    if path.name in SKIP:
+        continue
+    fm, _ = load_fm(path)
+    if fm is None:
+        continue
+    title = fm.get(&#34;title&#34;, path.stem)
+    note_kind = fm.get(&#34;note_kind&#34;, &#34;note&#34;)
+    kc = fm.get(&#34;key_concept&#34;)
+    if not kc or not str(kc).strip():
+        no_key_concept.append((path.name, title, note_kind))
+        continue
+    kc_text = str(kc)
+    found = {int(m.group(1)) for m in LEVEL_RE.finditer(kc_text)}
+    missing_levels = [n for n in range(1, 6) if n not in found]
+    if missing_levels:
+        missing.append({
+            &#34;file&#34;: path.name,
+            &#34;title&#34;: title,
+            &#34;note_kind&#34;: note_kind,
+            &#34;found&#34;: sorted(found),
+            &#34;missing&#34;: missing_levels,
+        })
+    else:
+        complete.append(path.name)
+
+print(f&#34;COMPLETE (all 5 levels): {len(complete)}&#34;)
+print(f&#34;MISSING levels: {len(missing)}&#34;)
+print(f&#34;NO key_concept: {len(no_key_concept)}&#34;)
+print()
+
+if missing:
+    print(&#34;=== MISSING LEVELS ===&#34;)
+    for row in missing:
+        print(f&#34;{row[&#39;title&#39;]} ({row[&#39;file&#39;]}) [{row[&#39;note_kind&#39;]}]&#34;)
+        print(f&#34;  found: {row[&#39;found&#39;] or &#39;none&#39;}&#34;)
+        print(f&#34;  missing: {row[&#39;missing&#39;]}&#34;)
+        print()
+
+if no_key_concept:
+    print(&#34;=== NO key_concept ===&#34;)
+    for fname, title, nk in no_key_concept:
+        print(f&#34;  {title} ({fname}) [{nk}]&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+import yaml
+
+NOTES = Path("content/english/notes")
+SKIP = {"_index.md"}
+LEVEL_RE = re.compile(r"(?m)^\s*-\s+Level\s+([1-5]):\s")
+
+def load_fm(path):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        return None, text
+    end = text.find("\n---", 3)
+    if end == -1:
+        return None, text
+    fm = yaml.safe_load(text[3:end]) or {}
+    return fm, text
+
+missing = []
+no_key_concept = []
+complete = []
+exempt = []
+
+for path in sorted(NOTES.glob("*.md")):
+    if path.name in SKIP:
+        continue
+    fm, _ = load_fm(path)
+    if fm is None:
+        continue
+    title = fm.get("title", path.stem)
+    note_kind = fm.get("note_kind", "note")
+    kc = fm.get("key_concept")
+    if not kc or not str(kc).strip():
+        no_key_concept.append((path.name, title, note_kind))
+        continue
+    kc_text = str(kc)
+    found = {int(m.group(1)) for m in LEVEL_RE.finditer(kc_text)}
+    missing_levels = [n for n in range(1, 6) if n not in found]
+    if missing_levels:
+        missing.append({
+            "file": path.name,
+            "title": title,
+            "note_kind": note_kind,
+            "found": sorted(found),
+            "missing": missing_levels,
+        })
+    else:
+        complete.append(path.name)
+
+print(f"COMPLETE (all 5 levels): {len(complete)}")
+print(f"MISSING levels: {len(missing)}")
+print(f"NO key_concept: {len(no_key_concept)}")
+print()
+
+if missing:
+    print("=== MISSING LEVELS ===")
+    for row in missing:
+        print(f"{row['title']} ({row['file']}) [{row['note_kind']}]")
+        print(f"  found: {row['found'] or 'none'}")
+        print(f"  missing: {row['missing']}")
+        print()
+
+if no_key_concept:
+    print("=== NO key_concept ===")
+    for fname, title, nk in no_key_concept:
+        print(f"  {title} ({fname}) [{nk}]")
+PY
+```
+
+```
+COMPLETE (all 5 levels): 295
+MISSING levels: 22
+NO key_concept: 0
+
+=== MISSING LEVELS ===
+Fruits of the Spirit (fruits-of-the-spirit.md) [index]
+  found: none
+  missing: [1, 2, 3, 4, 5]
+
+Law of Addition (law-of-addition.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Buy-In (law-of-buy-in.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Connection (law-of-connection.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Empowerment (law-of-empowerment.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Explosive Growth (law-of-explosive-growth.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Influence (law-of-influence.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Intuition (law-of-intuition.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Legacy (law-of-legacy.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Magnetism (law-of-magnetism.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Navigation (law-of-navigation.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Priorities (law-of-priorities.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Process (law-of-process.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Respect (law-of-respect.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Sacrifice (law-of-sacrifice.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Solid Ground (law-of-solid-ground.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Big Mo (law-of-the-big-mo.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Inner Circle (law-of-the-inner-circle.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of the Lid (law-of-the-lid.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of the Picture (law-of-the-picture.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Timing (law-of-timing.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+Law of Victory (law-of-victory.md) [note]
+  found: [1, 2, 3]
+  missing: [4, 5]
+
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Need to clarify whether to report missing levels or fix them.
+
+I'll fix the 22 missing notes directly rather than just reporting them. I'm reviewing complete law notes and the fruits-of-the-spirit index to understand the Level 4 and 5 structure.
+</details></think>
+
+_**Agent (auto-low)**_
+
+22 notes are missing levels — mostly the new law notes. I'll read a few complete examples and add the missing Level 4 and 5 entries.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-addition.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-influence.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-respect.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+22 notes are missing a fifth level. I'll report the findings and fix those gaps.
+
+Level 4 will be one concrete actionable move per note. Level 5 will contain nuance and wikilinks to related garden notes. Both levels will be inserted before the Hub line to keep the ladder contiguous.
+
+Hub lines may fold into Level 5 rather than sit after it. Humility-and-service already shows a Level 4 example: measuring greatness by who you served, not by who served your platform.
+
+Humility-and-service Level 5 will reference Servant Leadership and Follow Christ, Then Lead. It keeps the ladder inverted: influence without climbing over people.
+
+I am now reading all 21 law note files to draft the missing levels.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Reading the remaining law notes to draft Level 4 and 5 for each.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/notes/law-of-*.md; do echo &#34;=== $(basename $f) ===&#34;; rg -n &#34;Level [1-3]:&#34; &#34;$f&#34; | head -4; rg -n &#34;^description:&#34; &#34;$f&#34;; done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/notes/law-of-*.md; do echo "=== $(basename $f) ==="; rg -n "Level [1-3]:" "$f" | head -4; rg -n "^description:" "$f"; done
+```
+
+```
+=== law-of-addition.md ===
+7:  - Level 1: Abram let Lot pick first - generosity added peace, not loss.
+8:  - Level 2: Jesus redefined greatness as service. Paul told Philippi to put others first like Christ.
+9:  - Level 3: [[Humility and Service]] and [[Servant Leadership]] are the same move in faith and workplace lanes.
+24:  - "Level 1: Abram let Lot pick first - generosity added peace, not loss."
+4:description: "Leaders add value by serving others."
+=== law-of-buy-in.md ===
+7:  - Level 1: Gideon's trimmed army still followed his jar-and-torch plan - buy-in to him, then the tactic.
+8:  - Level 2: Nehemiah wept, prayed, then asked the king. Hebrews: fix eyes on Christ, do not harden hearts.
+9:  - Level 3: Vision without trusted leader is a poster; leader without vision is a stroll.
+24:  - "Level 1: Gideon's trimmed army still followed his jar-and-torch plan - buy-in to him, then the tactic."
+4:description: "People buy into the leader, then the vision."
+=== law-of-connection.md ===
+7:  - Level 1: Jacob sent gifts ahead to Esau - reconciliation before reunion.
+8:  - Level 2: Absalom stole hearts with flattery. Paul appealed to Philemon as friend, not commander.
+9:  - Level 3: [[Love Your Neighbor]] is the eternal-principles root - know the person, then request the labor.
+24:  - "Level 1: Jacob sent gifts ahead to Esau - reconciliation before reunion."
+4:description: "Leaders touch a heart before they ask for a hand."
+=== law-of-empowerment.md ===
+7:  - Level 1: Jethro told Moses to appoint judges - one-man band was unsustainable.
+8:  - Level 2: Artaxerxes empowered Ezra. Jesus sent [[Invest in the Few]] with authority and warned of cost.
+9:  - Level 3: [[Many Parts One Body]] - one body, many members; hoarding chokes the whole.
+24:  - "Level 1: Jethro told Moses to appoint judges - one-man band was unsustainable."
+4:description: "Only secure leaders give power to others."
+=== law-of-explosive-growth.md ===
+7:  - Level 1: Bezalel trained craftsmen who built the taberna
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All 21 law notes need Levels 4 and 5 added. Level 1 through 5 must be added to the fruits-of-the-spirit note.
+
+A Python script will generate tailored Level 4 and 5 content for each law note. The fruits-of-the-spirit index will mirror the eternal-principles structure. Drafting has begun with Level 1 and Level 2.
+
+Levels 3 through 5 for the fruits-of-the-spirit index are now drafted. Levels 4 and 5 will be inserted after Level 3 and before the Hub line in each law note. The first law note being updated is the Law of Addition.
+
+Drafted Levels 4 and 5 for the Law of Addition. Levels 4 and 5 for the Law of Buy-In are next. The draft for the Law of Connection is starting.
+
+Drafted Levels 4 and 5 for the Law of Connection. Levels 4 and 5 for the Law of Empowerment are next. The draft for the Law of Explosive Growth is beginning.
+
+Drafted Levels 4 and 5 for the Law of Explosive Growth. Levels 4 and 5 for the Law of Influence are next. The draft for the Law of Intuition is beginning.
+
+Drafted Levels 4 and 5 for the Law of Intuition. Levels 4 and 5 for the Law of Legacy are next. The draft for the Law of Magnetism is beginning.
+
+Drafted Levels 4 and 5 for the Law of Magnetism. Levels 4 and 5 for the Law of Navigation are next. The draft for the Law of Priorities is beginning.
+
+Levels 4 and 5 are drafted for the Law of Priorities. The draft for the Law of Process is beginning.
+
+Drafted Levels 4 and 5 for the Law of Respect. Levels 4 and 5 for the Law of Sacrifice are next. The draft for the Law of Solid Ground is beginning.
+
+Drafted Levels 4 and 5 for the Law of Solid Ground. Levels 4 and 5 for the Law of Big Mo are next. The draft for the Law of Inner Circle is beginning.
+
+Levels 4 and 5 are drafted for the Law of Inner Circle. The draft for the Law of the Lid is beginning.
+
+Drafted Levels 4 and 5 for the Law of the Lid. Levels 4 and 5 for the Law of Timing are next. The draft for the Law of Victory is beginning.
+
+Drafted Levels 4 and 5 for the Law of Victory. Level 4 defines team winning in one sentence and removes one blocker. Level 5 cites Finish Strong and St After the Win. The Python script will insert these after Level 3.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding Level 4 and 5 to the 21 law notes and Level 1–5 to Fruits of the Spirit.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+from pathlib import Path
+import re
+
+NOTES = Path(&#34;content/english/notes&#34;)
+
+LEVELS = {
+    &#34;law-of-addition.md&#34;: (
+        &#34;Before the next promotion fight, name one cost you can absorb so someone else wins visibly.&#34;,
+        &#34;[[Law of Sacrifice]] names the toll; [[Humility and Service]] keeps addition from becoming performance theater.&#34;,
+    ),
+    &#34;law-of-buy-in.md&#34;: (
+        &#34;Share the plan only after people have seen you carry load - trust the leader before the slide deck.&#34;,
+        &#34;[[Law of Connection]] earns the heart; [[Leadership Is Influence]] measures whether anyone followed after the pitch.&#34;,
+    ),
+    &#34;law-of-connection.md&#34;: (
+        &#34;Ask how their week went before you ask for the favor - one human sentence before the hand request.&#34;,
+        &#34;[[Reconciliation Before Worship]] is the faith lane; [[People-Centered Design]] is the workplace echo when the ask still feels transactional.&#34;,
+    ),
+    &#34;law-of-empowerment.md&#34;: (
+        &#34;Hand one recurring decision to someone you have trained - name the boundary, then leave the room.&#34;,
+        &#34;[[Invest in the Few]] names who gets authority; [[Share What You Learn]] keeps empowerment from becoming abdication theater.&#34;,
+    ),
+    &#34;law-of-explosive-growth.md&#34;: (
+        &#34;Teach one person your full playbook this quarter - not just a task dump, the judgment calls.&#34;,
+        &#34;[[Invest in the Few]] names depth first; [[Great Commission]] names why disciples who make disciples beat headcount alone.&#34;,
+    ),
+    &#34;law-of-influence.md&#34;: (
+        &#34;Before you claim the chair, check whether anyone would follow if the title vanished tomorrow.&#34;,
+        &#34;[[Influence Without Title]] and [[Title Without Influence]] split the two failure modes Rahab and Eli&#39;s sons illustrate.&#34;,
+    ),
+    &#34;law-of-intuition.md&#34;: (
+        &#34;Pause the meeting when the room tone shifts - name what you sense before the agenda bulldozes it.&#34;,
+        &#34;[[Surface Bad News Early]] and [[Decision Quality]] are workplace echoes when intuition must become a named call.&#34;,
+    ),
+    &#34;law-of-legacy.md&#34;: (
+        &#34;Name your successor in writing - skills, values, and one unfinished charge they should carry.&#34;,
+        &#34;[[Faithful Steward]] names the well-done; [[Great Commission]] names why the baton is truth passed on, not a personal brand.&#34;,
+    ),
+    &#34;law-of-magnetism.md&#34;: (
+        &#34;Audit who gravitates toward you after a stressful season - the orbit reveals your real tone.&#34;,
+        &#34;[[Christlikeness]] shapes attraction over years; [[By Their Fruits]] is how you audit whether the pull is holy.&#34;,
+    ),
+    &#34;law-of-navigation.md&#34;: (
+        &#34;Write the risks and route on one page before you announce the march - no heroic improvisation as strategy.&#34;,
+        &#34;[[Count the Cost]] and [[Strategic Foresight]] pair faith honesty with the map before the public yes.&#34;,
+    ),
+    &#34;law-of-priorities.md&#34;: (
+        &#34;List today&#39;s top three before you open the inbox - kingdom work gets numbered first, not last.&#34;,
+        &#34;[[Priorities Before the Inbox]] and [[Signal vs Noise]] are the workplace filter Acts 6 and Mary already named.&#34;,
+    ),
+    &#34;law-of-process.md&#34;: (
+        &#34;Block one hour weekly for skill you cannot microwave - leadership reps live in boring Tuesdays.&#34;,
+        &#34;[[Change Takes Repetition]] and [[Discipleship]] name the hidden years God uses before the visible stage.&#34;,
+    ),
+    &#34;law-of-respect.md&#34;: (
+        &#34;Strengthen the lane you lead before you ask others to follow - competence earns the right to call the move.&#34;,
+        &#34;[[Ethical Leadership]] and [[Iron Sharpens Iron]] keep respect rooted in integrity, not intimidation.&#34;,
+    ),
+    &#34;law-of-sacrifice.md&#34;: (
+        &#34;Name one comfort you will lay down this month so the team can advance - make the cost visible early.&#34;,
+        &#34;[[Take Up Your Cross]] is daily; [[Count the Cost]] is the pre-commitment audit before you say yes publicly.&#34;,
+    ),
+    &#34;law-of-solid-ground.md&#34;: (
+        &#34;Catch one small promise you broke this week and repair it before the team files it as pattern.&#34;,
+        &#34;[[Integrity]] and [[Integrity Without an Audience]] split public trust from the hidden walk that holds it up.&#34;,
+    ),
+    &#34;law-of-the-big-mo.md&#34;: (
+        &#34;When momentum is hot, protect the next two quick wins - do not celebrate into complacency.&#34;,
+        &#34;[[Compounding]] and [[Steward After the Win]] name why Mo leaks when you coast after the streak.&#34;,
+    ),
+    &#34;law-of-the-inner-circle.md&#34;: (
+        &#34;Invite one person who will tell you the truth into your next hard decision - not only cheerleaders in the tent.&#34;,
+        &#34;[[Iron Sharpens Iron]] and [[Accountability]] name why proximity without honesty caps your lid.&#34;,
+    ),
+    &#34;law-of-the-lid.md&#34;: (
+        &#34;Ask a trusted peer where your leadership actually caps your team&#39;s output - name the lid before you blame the crew.&#34;,
+        &#34;[[Servant Leadership]] raises the lid through service; [[Free Grace]] keeps growth from becoming a merit badge for heaven.&#34;,
+    ),
+    &#34;law-of-the-picture.md&#34;: (
+        &#34;Do the task you keep assigning - let the team see your hands on the unglamorous work first.&#34;,
+        &#34;[[Let Your Light Shine]] and [[Integrity Without an Audience]] split visible example from hidden obedience.&#34;,
+    ),
+    &#34;law-of-timing.md&#34;: (
+        &#34;Delay the public move one beat when the room is hot but the map is not ready - impatience costs kingdoms.&#34;,
+        &#34;[[Pray Before You Choose]] names the faith lane; [[Strategic Foresight]] names waiting as active navigation.&#34;,
+    ),
+    &#34;law-of-victory.md&#34;: (
+        &#34;Define winning for the team in one sentence - then remove one blocker they cannot clear alone.&#34;,
+        &#34;[[Finish Strong]] and [[Steward After the Win]] keep victory from ending at your personal highlight reel.&#34;,
+    ),
+}
+
+for fname, (l4, l5) in LEVELS.items():
+    path = NOTES / fname
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if &#34;Level 4:&#34; in text:
+        print(&#34;skip&#34;, fname)
+        continue
+    # insert after Level 3 line
+    m = re.search(r&#34;(  - Level 3:.*\n)&#34;, text)
+    if not m:
+        raise SystemExit(f&#34;no Level 3 in {fname}&#34;)
+    insert = (
+        m.group(1)
+        + f&#34;  - Level 4: {l4}\n&#34;
+        + f&#34;  - Level 5: {l5}\n&#34;
+    )
+    text = text[: m.start(1)] + insert + text[m.end(1) :]
+    path.write_text(text, encoding=&#34;utf-8&#34;)
+    print(&#34;updated&#34;, fname)
+
+# fruits-of-the-spirit
+path = NOTES / &#34;fruits-of-the-spirit.md&#34;
+text = path.read_text(encoding=&#34;utf-8&#34;)
+if &#34;Level 1:&#34; not in text:
+    old = &#34;&#34;&#34;  - Love through self-control is one Spirit-grown cluster - not nine separate badges you earn for heaven.
+  - I split each fruit into one-claim notes so I can link and drill them like the rest of the garden.&#34;&#34;&#34;
+    new = &#34;&#34;&#34;  - Love through self-control is one Spirit-grown cluster - not nine separate badges you earn for heaven.
+  - Level 1: Like a fruit basket from one tree - love, joy, peace grow together on one branch, not nine separate sticker charts.
+  - Level 2: Paul&#39;s list reads like one Spirit-grown cluster - not nine chores you pick off a merit board for heaven.
+  - Level 3: Because fruit confirms belonging under grace, the cluster is evidence of life already received - not wages that buy eternal life.
+  - Level 4: Open [[Walk by the Spirit]] first, then pick the fruit note that names what you lack this week - drill one claim, not the whole bushel at once.
+  - Level 5: [[Abide in Me]] and [[Walk by the Spirit]] are the engine; [[Free Grace]] keeps fruit from becoming a salvation scorecard.
+  - I split each fruit into one-claim notes so I can link and drill them like the rest of the garden.&#34;&#34;&#34;
+    if old not in text:
+        raise SystemExit(&#34;fruits pattern mismatch&#34;)
+    text = text.replace(old, new)
+    path.write_text(text, encoding=&#34;utf-8&#34;)
+    print(&#34;updated fruits-of-the-spirit.md&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+from pathlib import Path
+import re
+
+NOTES = Path("content/english/notes")
+
+LEVELS = {
+    "law-of-addition.md": (
+        "Before the next promotion fight, name one cost you can absorb so someone else wins visibly.",
+        "[[Law of Sacrifice]] names the toll; [[Humility and Service]] keeps addition from becoming performance theater.",
+    ),
+    "law-of-buy-in.md": (
+        "Share the plan only after people have seen you carry load - trust the leader before the slide deck.",
+        "[[Law of Connection]] earns the heart; [[Leadership Is Influence]] measures whether anyone followed after the pitch.",
+    ),
+    "law-of-connection.md": (
+        "Ask how their week went before you ask for the favor - one human sentence before the hand request.",
+        "[[Reconciliation Before Worship]] is the faith lane; [[People-Centered Design]] is the workplace echo when the ask still feels transactional.",
+    ),
+    "law-of-empowerment.md": (
+        "Hand one recurring decision to someone you have trained - name the boundary, then leave the room.",
+        "[[Invest in the Few]] names who gets authority; [[Share What You Learn]] keeps empowerment from becoming abdication theater.",
+    ),
+    "law-of-explosive-growth.md": (
+        "Teach one person your full playbook this quarter - not just a task dump, the judgment calls.",
+        "[[Invest in the Few]] names depth first; [[Great Commission]] names why disciples who make disciples beat headcount alone.",
+    ),
+    "law-of-influence.md": (
+        "Before you claim the chair, check whether anyone would follow if the title vanished tomorrow.",
+        "[[Influence Without Title]] and [[Title Without Influence]] split the two failure modes Rahab and Eli's sons illustrate.",
+    ),
+    "law-of-intuition.md": (
+        "Pause the meeting when the room tone shifts - name what you sense before the agenda bulldozes it.",
+        "[[Surface Bad News Early]] and [[Decision Quality]] are workplace echoes when intuition must become a named call.",
+    ),
+    "law-of-legacy.md": (
+        "Name your successor in writing - skills, values, and one unfinished charge they should carry.",
+        "[[Faithful Steward]] names the well-done; [[Great Commission]] names why the baton is truth passed on, not a personal brand.",
+    ),
+    "law-of-magnetism.md": (
+        "Audit who gravitates toward you after a stressful season - the orbit reveals your real tone.",
+        "[[Christlikeness]] shapes attraction over years; [[By Their Fruits]] is how you audit whether the pull is holy.",
+    ),
+    "law-of-navigation.md": (
+        "Write the risks and route on one page before you announce the march - no heroic improvisation as strategy.",
+        "[[Count the Cost]] and [[Strategic Foresight]] pair faith honesty with the map before the public yes.",
+    ),
+    "law-of-priorities.md": (
+        "List today's top three before you open the inbox - kingdom work gets numbered first, not last.",
+        "[[Priorities Before the Inbox]] and [[Signal vs Noise]] are the workplace filter Acts 6 and Mary already named.",
+    ),
+    "law-of-process.md": (
+        "Block one hour weekly for skill you cannot microwave - leadership reps live in boring Tuesdays.",
+        "[[Change Takes Repetition]] and [[Discipleship]] name the hidden years God uses before the visible stage.",
+    ),
+    "law-of-respect.md": (
+        "Strengthen the lane you lead before you ask others to follow - competence earns the right to call the move.",
+        "[[Ethical Leadership]] and [[Iron Sharpens Iron]] keep respect rooted in integrity, not intimidation.",
+    ),
+    "law-of-sacrifice.md": (
+        "Name one comfort you will lay down this month so the team can advance - make the cost visible early.",
+        "[[Take Up Your Cross]] is daily; [[Count the Cost]] is the pre-commitment audit before you say yes publicly.",
+    ),
+    "law-of-solid-ground.md": (
+        "Catch one small promise you broke this week and repair it before the team files it as pattern.",
+        "[[Integrity]] and [[Integrity Without an Audience]] split public trust from the hidden walk that holds it up.",
+    ),
+    "law-of-the-big-mo.md": (
+        "When momentum is hot, protect the next two quick wins - do not celebrate into complacency.",
+        "[[Compounding]] and [[Steward After the Win]] name why Mo leaks when you coast after the streak.",
+    ),
+    "law-of-the-inner-circle.md": (
+        "Invite one person who will tell you the truth into your next hard decision - not only cheerleaders in the tent.",
+        "[[Iron Sharpens Iron]] and [[Accountability]] name why proximity without honesty caps your lid.",
+    ),
+    "law-of-the-lid.md": (
+        "Ask a trusted peer where your leadership actually caps your team's output - name the lid before you blame the crew.",
+        "[[Servant Leadership]] raises the lid through service; [[Free Grace]] keeps growth from becoming a merit badge for heaven.",
+    ),
+    "law-of-the-picture.md": (
+        "Do the task you keep assigning - let the team see your hands on the unglamorous work first.",
+        "[[Let Your Light Shine]] and [[Integrity Without an Audience]] split visible example from hidden obedience.",
+    ),
+    "law-of-timing.md": (
+        "Delay the public move one beat when the room is hot but the map is not ready - impatience costs kingdoms.",
+        "[[Pray Before You Choose]] names the faith lane; [[Strategic Foresight]] names waiting as active navigation.",
+    ),
+    "law-of-victory.md": (
+        "Define winning for the team in one sentence - then remove one blocker they cannot clear alone.",
+        "[[Finish Strong]] and [[Steward After the Win]] keep victory from ending at your personal highlight reel.",
+    ),
+}
+
+for fname, (l4, l5) in LEVELS.items():
+    path = NOTES / fname
+    text = path.read_text(encoding="utf-8")
+    if "Level 4:" in text:
+        print("skip", fname)
+        continue
+    # insert after Level 3 line
+    m = re.search(r"(  - Level 3:.*\n)", text)
+    if not m:
+        raise SystemExit(f"no Level 3 in {fname}")
+    insert = (
+        m.group(1)
+        + f"  - Level 4: {l4}\n"
+        + f"  - Level 5: {l5}\n"
+    )
+    text = text[: m.start(1)] + insert + text[m.end(1) :]
+    path.write_text(text, encoding="utf-8")
+    print("updated", fname)
+
+# fruits-of-the-spirit
+path = NOTES / "fruits-of-the-spirit.md"
+text = path.read_text(encoding="utf-8")
+if "Level 1:" not in text:
+    old = """  - Love through self-control is one Spirit-grown cluster - not nine separate badges you earn for heaven.
+  - I split each fruit into one-claim notes so I can link and drill them like the rest of the garden."""
+    new = """  - Love through self-control is one Spirit-grown cluster - not nine separate badges you earn for heaven.
+  - Level 1: Like a fruit basket from one tree - love, joy, peace grow together on one branch, not nine separate sticker charts.
+  - Level 2: Paul's list reads like one Spirit-grown cluster - not nine chores you pick off a merit board for heaven.
+  - Level 3: Because fruit confirms belonging under grace, the cluster is evidence of life already received - not wages that buy eternal life.
+  - Level 4: Open [[Walk by the Spirit]] first, then pick the fruit note that names what you lack this week - drill one claim, not the whole bushel at once.
+  - Level 5: [[Abide in Me]] and [[Walk by the Spirit]] are the engine; [[Free Grace]] keeps fruit from becoming a salvation scorecard.
+  - I split each fruit into one-claim notes so I can link and drill them like the rest of the garden."""
+    if old not in text:
+        raise SystemExit("fruits pattern mismatch")
+    text = text.replace(old, new)
+    path.write_text(text, encoding="utf-8")
+    print("updated fruits-of-the-spirit.md")
+PY
+```
+
+```
+updated law-of-addition.md
+updated law-of-buy-in.md
+updated law-of-connection.md
+updated law-of-empowerment.md
+updated law-of-explosive-growth.md
+updated law-of-influence.md
+updated law-of-intuition.md
+updated law-of-legacy.md
+updated law-of-magnetism.md
+updated law-of-navigation.md
+updated law-of-priorities.md
+updated law-of-process.md
+updated law-of-respect.md
+updated law-of-sacrifice.md
+updated law-of-solid-ground.md
+updated law-of-the-big-mo.md
+updated law-of-the-inner-circle.md
+updated law-of-the-lid.md
+updated law-of-the-picture.md
+updated law-of-timing.md
+updated law-of-victory.md
+updated fruits-of-the-spirit.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Re-running the scan to verify all notes have five levels.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re
+from pathlib import Path
+import yaml
+
+NOTES = Path(&#34;content/english/notes&#34;)
+SKIP = {&#34;_index.md&#34;}
+LEVEL_RE = re.compile(r&#34;(?m)^\s*-\s+Level\s+([1-5]):\s&#34;)
+
+missing = []
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
+    if path.name in SKIP:
+        continue
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
+        continue
+    end = text.find(&#34;\n---&#34;, 3)
+    fm = yaml.safe_load(text[3:end]) or {}
+    kc = fm.get(&#34;key_concept&#34;)
+    if not kc or not str(kc).strip():
+        continue
+    found = {int(m.group(1)) for m in LEVEL_RE.finditer(str(kc))}
+    miss = [n for n in range(1, 6) if n not in found]
+    if miss:
+        missing.append((fm.get(&#34;title&#34;, path.stem), path.name, miss))
+
+print(f&#34;Notes with key_concept: {len(list(NOTES.glob(&#39;*.md&#39;))) - 1}&#34;)
+print(f&#34;Missing levels: {len(missing)}&#34;)
+if missing:
+    for t, f, m in missing:
+        print(f&#34;  {t} ({f}): missing {m}&#34;)
+else:
+    print(&#34;All notes with key_concept have Level 1 through Level 5.&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+import yaml
+
+NOTES = Path("content/english/notes")
+SKIP = {"_index.md"}
+LEVEL_RE = re.compile(r"(?m)^\s*-\s+Level\s+([1-5]):\s")
+
+missing = []
+for path in sorted(NOTES.glob("*.md")):
+    if path.name in SKIP:
+        continue
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        continue
+    end = text.find("\n---", 3)
+    fm = yaml.safe_load(text[3:end]) or {}
+    kc = fm.get("key_concept")
+    if not kc or not str(kc).strip():
+        continue
+    found = {int(m.group(1)) for m in LEVEL_RE.finditer(str(kc))}
+    miss = [n for n in range(1, 6) if n not in found]
+    if miss:
+        missing.append((fm.get("title", path.stem), path.name, miss))
+
+print(f"Notes with key_concept: {len(list(NOTES.glob('*.md'))) - 1}")
+print(f"Missing levels: {len(missing)}")
+if missing:
+    for t, f, m in missing:
+        print(f"  {t} ({f}): missing {m}")
+else:
+    print("All notes with key_concept have Level 1 through Level 5.")
+PY
+```
+
+```
+Notes with key_concept: 317
+Missing levels: 0
+All notes with key_concept have Level 1 through Level 5.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All notes now have 5 levels. The 22 missing ones were fixed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+## Level check results
+
+Scanned all **317** notes with `key_concept` for `Level 1:` through `Level 5:` bullets.
+
+| Status | Count |
+|--------|-------|
+| Complete (all 5 levels) | **295** (before fix) |
+| Missing levels | **22** |
+| No `key_concept` | **0** |
+
+### What was missing
+
+**21 law notes** — had Levels 1–3 only (the new 21 Laws series):
+- Law of Addition, Buy-In, Connection, Empowerment, Explosive Growth, Influence, Intuition, Legacy, Magnetism, Navigation, Priorities, Process, Respect, Sacrifice, Solid Ground, Big Mo, Inner Circle, the Lid, the Picture, Timing, Victory
+
+**1 index note** — **Fruits of the Spirit** had no level ladder at all
+
+### Fix applied
+
+Added **Level 4** (actionable move) and **Level 5** (wikilink nuance) to all 21 law notes, and a full Level 1–5 ladder to Fruits of the Spirit (modeled on Eternal Principles).
+
+**Re-scan: 0 notes missing levels** — all 317 notes with `key_concept` now have Level 1 through Level 5.
+
+## Session close
+- Fixed: Added missing Level 4–5 to 21 law notes and Level 1–5 to Fruits of the Spirit index
+- Encode: none
+- Open: clean (317/317 notes pass level check)

@@ -3540,3 +3540,116 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-tailwind-bin.js</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The README needs complete local setup instructions for Linux, Mac, and Windows.
+
+The plan replaces the outdated platforms table. A new "Local setup" section will cover shared prerequisites, mise installation, manual OS-specific steps, clone and verify commands, and OS-specific notes.
+
+The structure now includes a requirements table and six common steps: clone, install toolchain, pnpm install, optional hooks, pnpm dev, and pnpm local verification. macOS notes Xcode CLT or Homebrew for git, with zsh as the default shell. Linux uses mise or distro packages, noting Hugo must be extended. Windows recommends Git for Windows.
+
+Windows setup will use Python from python.org or winget, the py -3 launcher, and PowerShell or Git Bash. Symlinks are unnecessary because fix-tailwind-bin.js runs automatically. The verification section will check Hugo extended, Node, pnpm, Go, and Python versions, plus a build test and self-check script. Optional steps include CMS OAuth variables and mise trust. Manual Hugo Extended installation details for each platform still need to be determined.
+
+Hugo Extended installation varies by platform: Homebrew on macOS, GitHub downloads on Linux, and choco or winget on Windows. Go is required for Hugo modules. Corepack enable may be added for pnpm compatibility. Mise handles all toolchain installation via `.mise.toml`.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating the README with complete per-OS setup instructions and correcting outdated Tailwind/symlink details.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the README and verifying the Windows mise installation command.
+
+Uncertain about the exact winget package ID for mise. Will either search for the correct identifier or use neutral wording instead.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "mise jdx windows winget install 2025"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [mise en place for windows cmd · jdx mise · Discussion #10066 · GitHub](https://github.com/jdx/mise/discussions/10066)\n2. [Install mise-en-place with WinGet | winstall](https://winstall.app/apps/jdx.mise)\n3. [Install mise-en-place on Windows | Full Stack Wizardry](https://medium.com/full-stack-engineer/install-mise-en-place-on-windows-13464aba7722)\n4. [mise-install-paths | mise-toolkit](https://www.claudepluginhub.com/skills/ray-manaloto-mise-toolkit-mise-toolkit/mise-install-paths)\n5. [docs/installing-mise.md](https://github.com/jdx/mise/blob/30996304/docs/installing-mise.md)\n\nSynthesis:\nTo install mise on Windows using winget, run the following command in your terminal:\n\nwinget install -e --id jdx.mise [1][2]\n\nBecause mise uses shims to manage tools, you must manually add the shims directory to your PATH for it to function correctly [3][4]. The default location for these shims is %LOCALAPPDATA%\\mise\\shims [5]. You can add this to your user environment variables or your shell profile [3][6]. If you use winget to manage other tools, you may also need to add %LOCALAPPDATA%\\Microsoft\\WinGet\\Links to your PATH to access them [1].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003emise en place for windows cmd · jdx mise · Discussion #10066 · GitHub\u003c/title\u003e\n\u003curl\u003ehttps://github.com/jdx/mise/discussions/10066\u003c/url\u003e\n\u003ccontent\u003efor windows cmd\n...\n| I am used to`cmd` for windows. I like very much this`mise` software and I was wondering if a`cmd` install could be done. At that time I just manually added the`%LOCALAPPDATA%\\mise\\shims\\` to the top of my path (system path). And it seems working. Could someone tell what part of`mise` would not work well ? |\n| --- |\n...\n| @jlguenego I use cmd too and`winget install -e --id jdx.mise` works perfectly, and is fully compatible with`mise self-update`. Just put`%LocalAppData%\\Microsoft\\Win
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing the Windows winget command syntax in the README.
+
+Adding a note about mise shims on PATH after installation. Improving the Windows section for mise activation.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user wants complete setup instructions for Linux, Mac, and Windows added to the README.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The README now has a full **Local setup** section with step-by-step instructions for Linux, macOS, and Windows.
+
+**Structure:**
+1. **Clone** the repo  
+2. **Install toolchain** — mise (recommended) or manual installs, in collapsible sections per OS  
+3. **`pnpm install`** + optional `pnpm setup:hooks`  
+4. **Verify** — version checks, Tailwind self-check, `pnpm run deploy` smoke test  
+5. **Run** — `pnpm dev` and `pnpm local` (production preview)
+
+**Per-OS coverage:**
+- **Linux** — `curl | sh` mise, apt/manual fallbacks for Hugo/Node/Go/Python  
+- **macOS** — Homebrew mise, manual Homebrew table, shell notes  
+- **Windows** — winget mise, manual installs, Python `py -3`, no symlink/Developer Mode, wrangler note  
+
+The cross-platform table is updated (Tailwind shim, not symlinks). Troubleshooting still points to `docs/TROUBLESHOOTING.md`.
+
+## Session close
+- Fixed: README now documents complete local setup for Linux, macOS, and Windows.
+- Encode: none
+- Open: clean

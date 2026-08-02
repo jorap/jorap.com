@@ -70,3 +70,970 @@ _**Agent (auto-smart)**_
 <think><details><summary>Thought Process</summary>
 I'm going through my assigned range of basenames from g through l and identifying which ones have issues. Most of these failures are because the content doesn't align with the stated principle, though a few have character count problems or overlapping sections that need to be resolved.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+Now let me read the linter to understand the exact validation rules.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "context": 5,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "shareable_thought"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "shareable_thought",
+  "topFiles": [
+    {
+      "matchCount": 62,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "def shareable_line_from_principle|def shareable_lines_overlap|def gets_point_across|def _norm|META_NOTE_LANG|DANGLING_THAT_START|CLAUSE_SO_START"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "def shareable_line_from_principle|def shareable_lines_overlap|def gets_point_across|def _norm|META_NOTE_LANG|DANGLING_THAT_START|CLAUSE_SO_START",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 9,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 15
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm looking at the relevant functions in notes_content.py.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+So a line qualifies "from principle" when its normalized version either contains or is contained within one of the pool clauses. The overlap detection is more specific though—it only checks if one normalized form is a prefix or suffix of another, not just any substring match. I'm about to write a test script that validates candidate lines against these linter rules to see how they perform. I'll write a quick Python script that imports the notes content and outputs both the principle pool and any lint errors for a given note, which will make it much easier to craft the fixes.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Now let me build a small helper to inspect the principle pool per note, which will make crafting lines fast.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/runPython.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /tmp/st_pool.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/st_pool.py gate-what-you-consume.md gentleness.md give-useful-feedback.md guard-your-heart.md know-your-lane.md 2&gt;&amp;1</summary>
+```bash
+python3 /tmp/st_pool.py gate-what-you-consume.md gentleness.md give-useful-feedback.md guard-your-heart.md know-your-lane.md 2>&1
+```
+
+```
+==============================================================================
+gate-what-you-consume.md
+--- description: What you read and watch becomes raw material for judgment - gate intake before output rots.
+--- key_concept:
+- Feeds are not neutral - gate what you consume before it becomes the mood you bring to work and home.
+- [[Information Diet]] is the longer lane; [[Attention Economy]] fights for the scroll - gates are defense, not guilt theater.
+- [[Signal vs Noise]] helps pick what earns past the gate once the junk is out.
+
+--- level_1: Gate what you consume means filtering feeds before they become the mood you bring to work and home - intake is not neutral.
+--- level_2: Like checking expiry before you cook - default filters of unsub, mute, block, close tab beat willpower after rage bait won.
+--- level_3: Before scroll, ask what mood this input will leave in your body - gate at the door, not after the damage.
+--- level_4: [[Guard Your Heart]] is the faith name - Proverbs intake valve before worship and anger downstream.
+--- level_5: Build a set of default gates for feeds, notifications, and late-night viewing, then extend the filter when a new source starts shaping your mood.
+--- POOL:
+    [ 90] what you read and watch becomes raw material for judgment - gate intake before output rots
+    [ 57] what you read and watch becomes raw material for judgment
+    [ 30] gate intake before output rots
+    [296] - feeds are not neutral - gate what you consume before it becomes the mood you bring to work and home. - information diet is the longer lane; attention economy fights for the scroll - gates are defense, not guilt theater. - signal vs noise helps pick what earns past the gate once the junk is out
+    [ 23] - feeds are not neutral
+    [ 75] gate what you consume before it becomes the mood you bring to work and home
+    [ 37] - information diet is the longer lane
+    [ 39] attention economy fights for the scroll
+    [ 36] gates are defense, not guilt theater
+  
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm working through the replacements for the gate-what-you-consume section, making sure each line stays under 130 characters, reads as a complete sentence, pulls from the principle pool, doesn't overlap with other lines, and approaches the topic from a fresh angle. Let me draft these out and then run them through a verification check.
+
+For the second line, I'm settling on "Default filters of unsub, mute, block, close tab beat willpower after rage bait won." — it's 84 characters, contains the exact pool phrase, starts with an allowed word, has enough words, and doesn't conflict with the existing first line about feeds not being neutral.
+
+Now moving to the gentleness section and checking what needs revision there. de patience and self-control in the Spirit cluster, not absence of power." is about 93 characters, which works. It doesn't overlap with the other quotes in problematic ways—[0] ends differently, and [2] and [3] don't share prefix or suffix issues. For [3], "Strength without grasping for status" seems complete enough as is. Now I'm looking at the give-useful-feedback.md section and considering whether to replace the current quote with something from the pool that's more actionable—specifically combining "before you critique, name one move they can try tomorrow" with "concrete beats theatrical demolition" to create a more concrete, principle-grounded version.
+
+I'm weighing whether to use the move-focused angle or explore a level_4 payoff angle instead. The move angle works well at 95 characters and fits the progression [0] definition, [1] deposit-one-truth, [2] timed/concrete/kind, [3] the move. There's some overlap between [2] and [3] on the concrete aspect, but they're distinct enough. Alternatively, I could use something like "Iron sharpens iron needs useful delivery or friction becomes cruelty" to highlight the boundary and failure mode, though that references note titles in a way that doesn't quite match the pointer format I'm using elsewhere.
+
+I'm settling on the level_3 move line for [3]: "Before you critique, name one move they can try tomorrow - concrete beats theatrical demolition." This keeps the intent clear and actionable.
+
+For guard-your-heart.md, I'm testing a new [2] that combines the active filtering concept with the downstream consequence: "Guarding is active filtering, not legalism theater, because poison at the source ruins the village downstream." It's 110 characters and pulls from the pool while avoiding overlap with the existing [1] and [3] lines about what enters through senses and the intake valve metaphor.
+
+Now I'm working through know-your-lane.md [2] and [3]. The current [2] isn't principle-based, so I'm replacing it with "Know your slice and hand off what is not yours" — it's exact from the pool, 47 characters, and meets the word count. But I need to make sure it doesn't duplicate [1], which is about staying in your lane.
+
+For [3], I'm looking for a different angle that captures the payoff or systems thinking. The pool has "lane clarity is humility in practice, and hero coverage hides missing owners," which works well at 77 characters and brings in the humility and accountability angle that [2] doesn't cover.
+
+I've got the four angles mapped out now: definition, analogy with the relay, the concrete move, and the boundary/systems piece. The relay quote checks out at 42 characters and fits the pool. Next I'm checking the law-of-* files to see if there's anything else I should pull from.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/st_pool.py law-of-addition.md law-of-buy-in.md law-of-empowerment.md law-of-explosive-growth.md 2&gt;&amp;1</summary>
+```bash
+python3 /tmp/st_pool.py law-of-addition.md law-of-buy-in.md law-of-empowerment.md law-of-explosive-growth.md 2>&1
+```
+
+```
+==============================================================================
+law-of-addition.md
+--- description: Leaders add value by serving others.
+--- key_concept:
+- Leaders add value by serving - the lot you give away may become the blessing lane.
+- Hub: [[21 Laws of Leadership in the Bible]] - lesson 5 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+
+{{< bible ref="Genesis 13:1-12" >}}
+- **Abram Took the High Road** - Let Lot choose the well-watered plain - Abram trusted God with the leftovers.
+{{< bible ref="Mark 10:35-45" >}}
+- **Jesus Gave a New Definition of Leadership** - Greatest serves - Son of Man came to give His life, not grab thrones.
+{{< bible ref="Philippians 2:1-11" >}}
+- **Paul Encouraged Putting Others First** - Christ's mind in you - empty yourself like He did.
+
+--- level_1: The law of addition is that leaders add value by serving others.
+--- level_2: Abram let Lot pick first - generosity added peace, not loss; Jesus redefined greatness as service, Paul told Philippi to put others first like Christ.
+--- level_3: Before the next promotion fight, name one cost you can absorb so someone else wins visibly - serve before you grab credit.
+--- level_4: Addition without real cost becomes performance theater - serving only when the camera is on does not add value.
+--- level_5: Wire addition into the leadership stack - [[Law of Sacrifice]] names the toll; [[Servant Leadership]] is the workplace frame for serving before credit.
+--- POOL:
+    [ 35] leaders add value by serving others
+    [618] - leaders add value by serving - the lot you give away may become the blessing lane. - hub: 21 laws of leadership in the bible - lesson 5 of twenty-one bible laws; horizontal frame in leadership. {{< bible ref="genesis 13:1-12" >}} - abram took the high road - let lot choose the well-watered plain - abram trusted god with the leftovers. {{< bible ref="mark 10:35-45" >}} - jesus gave a new definition of leadership - greatest serves - son of man came to
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm noticing the current structure uses description, key concept, and two levels of detail, but the deeper levels are just piling on biblical examples without much variety. I should shift to pulling from the move and boundary/tradeoff angles instead—those give better dimensional coverage for the four-angle framework I'm aiming for: definition, move, boundary, and payoff.
+
+For the law-of-addition specifically, I'm considering replacing the example dump with a move-oriented line that prompts action: something like naming one cost you can absorb before the next promotion fight so someone else wins visibly. That's concrete and actionable, which adds a different dimension than restating the definition again.
+
+For law-of-buy-in, I'm weighing whether to use a move-based approach—showing the plan only after people have seen you carry load—or a more poetic boundary line about needing both guide and map. The move feels more distinct from the definition and claim lines already there, so I'll go with that.
+
+Now I'm noticing law-of-empowerment has a real overlap issue where one line is essentially the other line with a prefix added, so I need to either cut the redundancy or rewrite one of them entirely. I'm swapping out the first example with a level 3 move about delegating a recurring decision to someone trained, which is 97 characters. Then for the law-of-explosive-growth principle, I need to replace the third example with a level 3 move about teaching someone your full playbook and the judgment calls they'll need, but I'm running into a length constraint since the full version exceeds 130 characters.
+
+I found a working alternative that pulls from the pool: "Teach one person your full playbook this quarter, not just a task dump" at 71 characters, which passes validation. I could also use a level 4 move about how headcount alone stalls without leaders who spawn leaders, but that overlaps with the first example about addition versus multiplication.
+
+The cleanest approach is to use "Teach one person your full playbook this quarter, not just a task dump" — it's concise, passes the pool check, and avoids redundancy with the other examples.
+
+Now I'm moving through the remaining law-of files to check them.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/st_pool.py law-of-influence.md law-of-intuition.md law-of-navigation.md law-of-process.md 2&gt;&amp;1</summary>
+```bash
+python3 /tmp/st_pool.py law-of-influence.md law-of-intuition.md law-of-navigation.md law-of-process.md 2>&1
+```
+
+```
+==============================================================================
+law-of-influence.md
+--- description: The true measure of leadership is influence - nothing more, nothing less.
+--- key_concept:
+- Leadership is influence - title optional, movement required.
+- Hub: [[21 Laws of Leadership in the Bible]] - lesson 2 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+
+{{< bible ref="Joshua 2:1-24" >}}
+- **Rahab's Influence** - A prostitute in Jericho hid spies and turned her house - belief moved a city wall's worth of risk.
+{{< bible ref="1 Samuel 2:12-26" >}}
+- **Eli, His Sons, and Samuel** - Corrupt priests lost moral sway; the boy Samuel grew in favor - influence followed integrity.
+{{< bible ref="Acts 27:1-44" >}}
+- **Paul: The Influential Prisoner** - Chained apostle calmed a storm-tossed crew - no rank, full followership.
+
+--- level_1: The law of influence is that leadership is influence - title optional, movement required.
+--- level_2: Rahab hid spies because she believed - no crown, real sway; Eli's sons corrupted worship while Samuel rose without a badge.
+--- level_3: Before you claim the chair, check whether anyone would follow if the title vanished tomorrow.
+--- level_4: Badge without followers is a solo walk - title optional, movement required; influence is what people grant, not what the org chart prints.
+--- level_5: Extend the split into practice - [[Influence Without Title]] leads without a badge; [[Title Without Influence]] warns when the org chart moves nobody.
+--- POOL:
+    [ 72] the true measure of leadership is influence - nothing more, nothing less
+    [ 43] the true measure of leadership is influence
+    [ 26] nothing more, nothing less
+    [629] - leadership is influence - title optional, movement required. - hub: 21 laws of leadership in the bible - lesson 2 of twenty-one bible laws; horizontal frame in leadership. {{< bible ref="joshua 2:1-24" >}} - rahab's influence - a prostitute in jericho hid spies and turned her hous
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The intuition file got cut off, so I need to retrieve the rest of it. I'm working through a pattern for fixing the law-of-* files where overlapping content in the first section gets replaced with a level_3 line, and I need to be strategic about using level_4 for the third section if level_3 is already used elsewhere. Starting with law-of-influence, I'm replacing the overlapping first section with a cleaner level_3 statement about checking for existing claims before taking action.
+
+For law-of-navigation, the first section overlaps with both the second and third, so I'm replacing it with a level_3 line about mapping risks and routes before announcing plans. The third section needs work too—there's repetitive wording around "improvisation as strategy" that appears in both, so I'm considering pulling a shorter example from the pool instead, something about Joshua's ambush plan and Nehemiah's paired approach to rebuilding and defense.
+
+Now I'm checking whether that trimmed example actually exists as a prefix in the full pool clause. The pool has the complete biblical examples, and the shorter version I'm considering is indeed a prefix of it, so it preserves the angle while fitting the length constraint. This minimal-change approach—just trimming the biblical example line rather than rewriting the whole section—feels like the right way to handle length failures across the board. Checking the explosive-growth law with its trimmed version at 86 characters—it's a prefix match and passes. The intuition law also checks out at 78 characters, and there's an overlap between levels that needs consolidating into a level-3 entry.
+
+For navigation, I'm trimming the example down to 75 characters and confirming it passes as a prefix. The process law is still being evaluated—I need to see how Joseph's journey through slavery and Moses's forty years of preparation fit into the pattern before the thought cuts off.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/st_pool.py law-of-intuition.md 2&gt;&amp;1 | sed -n &#39;/CURRENT/,$p&#39;; python3 /tmp/st_pool.py law-of-respect.md law-of-sacrifice.md law-of-solid-ground.md law-of-the-big-mo.md law-of-victory.md learn-hireable-stacks.md literature-notes.md 2&gt;&amp;1</summary>
+```bash
+python3 /tmp/st_pool.py law-of-intuition.md 2>&1 | sed -n '/CURRENT/,$p'; python3 /tmp/st_pool.py law-of-respect.md law-of-sacrifice.md law-of-solid-ground.md law-of-the-big-mo.md law-of-victory.md learn-hireable-stacks.md literature-notes.md 2>&1
+```
+
+```
+--- CURRENT shareable_thought:
+    [0] (51) ok
+        Leaders evaluate everything with a leadership bias.
+    [1] (91) OVERLAPS[2]
+        Leaders read situations with a leadership lens - who moves, what breaks, what window opens.
+    [2] (120) ok
+        The law of intuition is that leaders read situations with a leadership lens - who moves, what breaks, what window opens.
+    [3] (140) LEN140
+        Abigail stopped David's rash revenge - she read the room before blood spilled; Barnabas vouched for fresh-convert Paul when others flinched.
+==============================================================================
+law-of-respect.md
+--- description: People naturally follow leaders stronger than themselves.
+--- key_concept:
+- People follow strength they respect - weakness invites drift or contempt.
+- Weakness invites drift or contempt.
+- Hub: [[21 Laws of Leadership in the Bible]] - lesson 7 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+
+{{< bible ref="Judges 4:1-16" >}}
+- **A Leader's Respect** - Deborah's command moved Barak - respect for her strength in a coward's war.
+{{< bible ref="1 Samuel 20:1-31" >}}
+- **The Prince's Loyalty** - Jonathan covenant with David - prince bowed to the anointed shepherd.
+{{< bible ref="Daniel 5:1-30" >}}
+- **The Writing on the Wall** - Daniel read what terrified the king's sages - respect followed proven wisdom.
+
+--- level_1: The law of respect is that people follow strength they respect.
+--- level_2: Deborah called Barak and he would not go without her; Jonathan pledged loyalty to David; Daniel stood before Belshazzar when the wise men failed.
+--- level_3: Strengthen the lane you lead before you ask others to follow - competence earns the right to call the move.
+--- level_4: Respect is earned competence plus courage, not bullying - strength without integrity invites fear, not followership.
+--- level_5: Extend respect through [[Ethical Leadership]] and [[Iron Sharpens Iron]] - build integrity others will follow, 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I need to pull in the shareable thoughts for law-of-sacrifice, law-of-solid-ground, and law-of-the-big-mo. For law-of-respect, I'm refining the level_3 statement to emphasize how competence builds the credibility to lead, and trimming the level_2 to focus on the core examples of loyalty and commitment.
+
+For law-of-victory, I'm trimming the level_3 to highlight how momentum cascades through decisive action. With learn-hireable-stacks, I'm replacing the WordPress reference—which is too personal—with a principle-based move about market depth versus architectural elegance, making sure the progression from definition through personal claim to actionable move stays clean and doesn't create overlap.
+
+For literature-notes, the pool already has the exact phrasing I need, so I'm just converting it to imperative form—"Grow atomic notes from literature notes when one claim earns its own page"—which matches the character count and keeps the meaning intact.
+
+Now I need to work through the last three.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/st_pool.py law-of-sacrifice.md law-of-solid-ground.md law-of-the-big-mo.md 2&gt;&amp;1 | grep -A 60 -E &#34;^(law-of-solid-ground|law-of-the-big-mo)\.md$|CURRENT&#34;</summary>
+```bash
+python3 /tmp/st_pool.py law-of-sacrifice.md law-of-solid-ground.md law-of-the-big-mo.md 2>&1 | grep -A 60 -E "^(law-of-solid-ground|law-of-the-big-mo)\.md$|CURRENT"
+```
+
+```
+--- CURRENT shareable_thought:
+    [0] (31) ok
+        A leader must give up to go up.
+    [1] (68) OVERLAPS[2]
+        Leaders give up to go up - sacrifice is the toll on the higher road.
+    [2] (97) ok
+        The law of sacrifice is that leaders give up to go up - sacrifice is the toll on the higher road.
+    [3] (143) LEN143
+        Nazirite vow set apart hair, wine, and comfort; Paul waived rights so gospel would spread; elder qualifications name the personal cost upfront.
+==============================================================================
+law-of-solid-ground.md
+--- description: Trust is the foundation of leadership.
+--- key_concept:
+- Trust is the foundation - character cracks sink leadership faster than bad strategy.
+- Character cracks sink leadership faster than bad strategy.
+- Hub: [[21 Laws of Leadership in the Bible]] - lesson 6 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+
+{{< bible ref="Proverbs 16:8-18" >}}
+- **The Wisdom of King Solomon** - Better little with righteousness than great gain with injustice - pride precedes ruin.
+{{< bible ref="Matthew 23:1-28" >}}
+- **Character Develops from the Inside Out** - Whitewashed tombs - clean outside, dead inside.
+{{< bible ref="1 Peter 5:1-11" >}}
+- **Peter Gives Instruction** - Elders shepherd willingly, not for money - humble example, not lordship.
+
+--- level_1: The law of solid ground is that trust is the foundation of leadership.
+--- level_2: Solomon warned pride goes before a fall; Jesus exposed whitewashed tombs; Peter told elders to shepherd willingly, not for shameful gain.
+--- level_3: Catch one small promise you broke this week and repair it before the team files it as pattern.
+--- level_4: Public trust and hidden walk must both match - character cracks sink leadership faster than a bad slide deck.
+--- level_5: [[Integrity]] and [[Integrity Without an Audience]] extend the audit - build the hidden walk that holds public trust up.
+--- POOL:
+    [ 37] trust is the foundatio
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm preparing a set of text replacements across multiple markdown files, starting with a dry-run to verify the changes before applying them to the actual documents. Continuing through the leadership laws - Gideon's buy-in came through the jar-and-torch tactic itself, Bezalel and Jesus both multiplied impact by training others with real authority, and influence without the title is the true test. I'm noting how intuition catches what logic misses - Abigail reading David's rage before it became irreversible - and how navigation requires a written plan before the march, not improvisation dressed as strategy.
+
+The process law lands on boring repetition: leadership skills live in weekly reps, not hero sprints, the way Joseph and Moses spent years in obscurity before their moment. Respect flows from competence in your own lane first - Deborah and Jonathan both understood that. And sacrifice means naming one concrete comfort you're laying down this month so the team moves forward.
+
+Now I'm working through the remaining laws: solid ground means catching and repairing one broken promise before it becomes a pattern the team notices. Momentum is fragile - when it's hot, I need to protect the next two quick wins without sliding into complacency. I'll go with the shorter 90-character version to keep it clean and avoid the mixed metaphor. Now I'm moving through the remaining entries—checking law-of-victory.md with its example about Samson, Jonathan, and the four friends, then learn-hireable-stacks.md about counting local job listings for frameworks, and continuing through the rest of the list.
+
+I need to verify that my new shareable_thought lines will pass the linting checks—both the voice lint and the format normalizer. Since I'm pulling text from existing frontmatter, the formatting should align, but I want to write a verification script that tests the proposed replacements in memory and reports whether they'd pass lint before I commit them.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Now let me look at the exact YAML formatting used for these fields.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 5,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-process.md",
+  "pattern": "^shareable_thought:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-process.md",
+  "pattern": "^shareable_thought:",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/law-of-process.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 5,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/know-your-lane.md",
+  "pattern": "^shareable_thought:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/know-your-lane.md",
+  "pattern": "^shareable_thought:",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/know-your-lane.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I need to read the files before making edits, so let me batch read them to ensure I follow the tool requirements.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Now I'll read the files I need to edit.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gate-what-you-consume.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/give-useful-feedback.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/guard-your-heart.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/know-your-lane.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+Now applying the first batch of fixes.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gate-what-you-consume.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/give-useful-feedback.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/guard-your-heart.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/know-your-lane.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-addition.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-buy-in.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-empowerment.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-explosive-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-influence.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-addition.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-buy-in.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-empowerment.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-explosive-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-influence.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-intuition.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-navigation.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-process.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-respect.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-sacrifice.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-intuition.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-navigation.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-process.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-respect.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-sacrifice.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-solid-ground.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-big-mo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-victory.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/learn-hireable-stacks.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/literature-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-solid-ground.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-big-mo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-victory.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/learn-hireable-stacks.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/literature-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+All 20 edits are in. Now verifying with the full garden lint.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: corepack pnpm lint:garden 2&gt;&amp;1 | tail -n 60</summary>
+```bash
+corepack pnpm lint:garden 2>&1 | tail -n 60
+```
+
+```
+$ node scripts/runPython.mjs scripts/lint-notes-frontmatter.py && node scripts/runPython.mjs scripts/normalize-notes-format.py --verify && node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py && node scripts/runPython.mjs scripts/audit-flashcard-north-star.py && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py && node scripts/runPython.mjs scripts/voice-lint.py garden --check && node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+Note frontmatter lint OK
+FAIL unsorted rel depth-of-understanding.md
+FAIL unsorted rel getting-started.md
+FAIL unsorted rel iron-sharpens-iron.md
+FAIL duplicate rel law-of-addition.md: [[Discipleship vs Leadership]]
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The frontmatter lint is now clean—all 60 shareable_thought failures are resolved. The whole-repo lint passed, which means other agents fixed their ranges concurrently. Now I'm hitting failures from the normalize-notes-format verification step, but these are relationship sort and duplicate issues rather than shareable_thought problems. These weren't visible before because the first script failure short-circuited the pipeline, so they were masked by the earlier errors.
+
+I'm seeing a duplicate relationship in law-of-addition.md that falls within my range, but I need to verify whether I actually introduced it or if it was pre-existing. Since I only modified shareable_thought fields, I should check the git diff to confirm.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+The frontmatter lint now passes. Let me confirm the newly-surfaced failures aren't mine.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git diff --stat &amp;&amp; echo &#34;--- law-of-addition diff ---&#34; &amp;&amp; git diff content/english/notes/law-of-addition.md</summary>
+```bash
+git diff --stat && echo "--- law-of-addition diff ---" && git diff content/english/notes/law-of-addition.md
+```
+
+```
+ .../2026-07-31_22-29-08Z-notes-review-and-key.md   | 908 +++++++++++++++++++++
+ .specstory/statistics.json                         |  26 +-
+ .../notes/21-laws-of-leadership-in-the-bible.md    |   6 +-
+ content/english/notes/evergreen-notes.md           |   2 +-
+ content/english/notes/faithfulness.md              |   4 +-
+ content/english/notes/follow-the-rhythm.md         |   4 +-
+ content/english/notes/freedom-over-free.md         |   2 +-
+ content/english/notes/gate-what-you-consume.md     |   2 +-
+ content/english/notes/gentleness.md                |   2 +-
+ content/english/notes/give-useful-feedback.md      |   2 +-
+ content/english/notes/guard-your-heart.md          |   2 +-
+ content/english/notes/issues.md                    |   2 +-
+ content/english/notes/know-your-lane.md            |   4 +-
+ content/english/notes/law-of-addition.md           |   2 +-
+ content/english/notes/law-of-buy-in.md             |   2 +-
+ content/english/notes/law-of-empowerment.md        |   2 +-
+ content/english/notes/law-of-explosive-growth.md   |   2 +-
+ content/english/notes/law-of-influence.md          |   2 +-
+ content/english/notes/law-of-intuition.md          |   4 +-
+ content/english/notes/law-of-navigation.md         |   4 +-
+ content/english/notes/law-of-process.md            |   4 +-
+ content/english/notes/law-of-respect.md            |   4 +-
+ content/english/notes/law-of-sacrifice.md          |   4 +-
+ content/english/notes/law-of-solid-ground.md       |   4 +-
+ content/english/notes/law-of-the-big-mo.md         |   2 +-
+ content/english/notes/law-of-victory.md            |   2 +-
+ content/english/notes/learn-hireable-stacks.md     |   2 +-
+ content/english/notes/literature-notes.md          |   2 +-
+ content/english/notes/many-parts-one-body.md       |   4 +-
+ content/english/notes/not-my-will.md               |   2 +-
+ content/english/notes/open-not-maintained.md       |   4 +-
+ content/english/notes/open-source.md               |   4 +-
+ content/english/notes/permis
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+My changes only affect shareable_thought, and that duplicate relationship was already there before my edits. I'm going to verify the frontmatter linter passes on its own and check my modified lines through the inspection script to confirm everything's in order.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node scripts/runPython.mjs scripts/lint-notes-frontmatter.py; echo &#34;---- per-file check ----&#34;; python3 /tmp/st_pool.py gate-what-you-consume.md gentleness.md give-useful-feedback.md guard-your-heart.md know-your-lane.md law-of-addition.md law-of-buy-in.md law-of-empowerment.md law-of-explosive-growth.md law-of-influence.md law-of-intuition.md law-of-navigation.md law-of-process.md law-of-respect.md law-of-sacrifice.md law-of-solid-ground.md law-of-the-big-mo.md law-of-victory.md learn-hireable-stacks.md literature-notes.md 2&gt;&amp;1 | grep -E &#34;^\s+\[[0-3]\] \(&#34; | grep -v &#34;ok$&#34; | sed &#39;s/^/FLAG: /&#39;; echo &#34;(no FLAG lines above = clean)&#34;</summary>
+```bash
+node scripts/runPython.mjs scripts/lint-notes-frontmatter.py; echo "---- per-file check ----"; python3 /tmp/st_pool.py gate-what-you-consume.md gentleness.md give-useful-feedback.md guard-your-heart.md know-your-lane.md law-of-addition.md law-of-buy-in.md law-of-empowerment.md law-of-explosive-growth.md law-of-influence.md law-of-intuition.md law-of-navigation.md law-of-process.md law-of-respect.md law-of-sacrifice.md law-of-solid-ground.md law-of-the-big-mo.md law-of-victory.md learn-hireable-stacks.md literature-notes.md 2>&1 | grep -E "^\s+\[[0-3]\] \(" | grep -v "ok$" | sed 's/^/FLAG: /'; echo "(no FLAG lines above = clean)"
+```
+
+```
+Note frontmatter lint OK
+---- per-file check ----
+(no FLAG lines above = clean)
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Now I need to run the voice and slop linters directly on my files since they're normally blocked by the normalize step, just to verify I haven't introduced any voice issues.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+All clean. Let me also run the voice and slop linters directly, since the normalize step blocks them in the chained run.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node scripts/runPython.mjs scripts/voice-lint.py garden --check; echo &#34;=== slop ===&#34;; node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only</summary>
+```bash
+node scripts/runPython.mjs scripts/voice-lint.py garden --check; echo "=== slop ==="; node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+```
+
+```
+Garden voice lint:
+  content/english/notes/law-of-process.md: key_concept: contraction (Couldn't)
+=== slop ===
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rm -f /tmp/st_pool.py</summary>
+```bash
+rm -f /tmp/st_pool.py
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The law-of-process warning was already there in the key_concept section, so that's outside what I needed to fix. I've completed everything in my range for shareable_thought with no remaining failures, though there's a pre-existing duplicate rel issue in law-of-addition.md that's out of scope. I've modified 20 files total and I'm ready to write up the summary.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Done. Here's what happened.
+
+**All shareable_thought lint failures in the g–l range are fixed** — 20 files changed, and `lint-notes-frontmatter.py` now reports "Note frontmatter lint OK" for the entire garden (the other agents cleared their ranges concurrently).
+
+Every replacement line was lifted verbatim from that note's own `description`, `key_concept`, or `level_1`–`level_5`, so the linter's "from principle" check accepts it. Three failure types, three fixes:
+
+- **Not from principle** (`gate-what-you-consume`, `gentleness`, `give-useful-feedback`, `guard-your-heart`, `know-your-lane`, `learn-hireable-stacks`, `literature-notes`): swapped the improvised line for the matching clause already in the note. For example `literature-notes` went from "Atomic notes grow from literature notes…" to the `level_5` wording "Grow atomic notes from literature notes when one claim earns its own page."
+- **Over 130 chars** (nine `law-of-*` notes): these were all `level_2` scripture-example dumps listing three figures. Trimmed each to the first two, which keeps the biblical-example angle and stays a clean prefix of the source clause.
+- **Line [1] overlapping line [2]** (eight `law-of-*` notes): line [1] was a suffix of line [2]'s restatement of the same claim. Replaced [1] with the note's `level_3` action line, which also gives the set a real fourth angle — definition, move, claim, examples — instead of three restatements plus examples.
+
+**Remaining failures in my range** — none for `shareable_thought`. Two pre-existing issues in range are outside the scope you gave me and I left them alone: `law-of-addition.md` has a duplicate `[[Discipleship vs Leadership]]` relationship entry, and `law-of-process.md` has a contraction ("Couldn't") in a scripture section heading inside `key_concept`. Both were previously hidden behind the frontmatter linter's early exit.
+
+`pnpm lint:garden` still exits non-zero overall, but only at the later `normalize-notes-format --verify` stage, on unsorted relationships in `depth-of-understanding.md`, `getting-started.md`, and `iron-sharpens-iron.md` (outside my range) plus the `law-of-addition` duplicate above. Nothing committed.
+
+## Session close
+- Fixed: rewrote failing `shareable_thought` lines in 20 g–l notes; frontmatter lint now clean garden-wide.
+- Encode: none
+- Open: pre-existing relationship-sort and duplicate-rel failures block `lint:garden` at the normalize step; `law-of-process` key_concept contraction.

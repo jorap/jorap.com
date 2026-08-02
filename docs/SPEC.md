@@ -437,7 +437,7 @@ Notes tool UI (graph, filters, flashcards) uses the same tokens as blog cards-no
 
 ### 9.3 Git hooks
 
-`scripts/setup-git-hooks.sh` installs `prepare-commit-msg` to append `[skip ci]` when commits touch only non-deploy paths (`.specstory/`, `docs/`, `.cursor/`, etc.).
+`pnpm setup:hooks` (`scripts/setupGitHooks.mjs`) installs `prepare-commit-msg` to append `[skip ci]` when commits touch only non-deploy paths (`.specstory/`, `docs/`, `.cursor/`, etc.).
 
 ---
 

@@ -217,50 +217,17 @@ notAlternative = true
 # partials/components/icon.html). The referenced plugin/font-awesome/v6
 # CSS files never shipped with the site, so the prior <i class="fa-…">
 # tags were rendering as empty boxes anyway.
-[[params.plugins.css]]
-link = "plugins/swiper/swiper-bundle.css"
-lazy = false
-[[params.plugins.css]]
-link = "plugins/glightbox/glightbox.css"
-lazy = false
+# Swiper / GLightbox CSS load on demand via conditional-plugins.html.
 
-# JS Plugins
+# JS Plugins (site-wide only). Shortcode/partial-only scripts load from
+# layouts/_partials/essentials/conditional-plugins.html or the partial
+# that renders the UI (back-to-top, social-share).
 [[params.plugins.js]]
 link = "js/touch-controls.js"
 lazy = false
-[[params.plugins.js]]
-link = "plugins/swiper/swiper-bundle.js"
-lazy = false
-[[params.plugins.js]]
-link = "plugins/cookie.js"
-lazy = true
-[[params.plugins.js]]
-link = "plugins/glightbox/glightbox.js"
-lazy = true
-[[params.plugins.js]]
-link = "js/gallery-slider.js"
-lazy = true
-[[params.plugins.js]]
-link = "js/accordion.js"
-lazy = true
-[[params.plugins.js]]
-link = "js/tab.js"
-lazy = true
-[[params.plugins.js]]
-link = "js/modal.js"
-lazy = true
-[[params.plugins.js]]
-link = "plugins/youtube-lite.js"
-lazy = true
 [[params.plugins.js]]
 link = "js/toc.js"
 lazy = false
 [[params.plugins.js]]
 link = "js/scroll-progress.js"
 lazy = false
-[[params.plugins.js]]
-link = "js/back-to-top.js"
-lazy = true
-[[params.plugins.js]]
-link = "js/share.js"
-lazy = true

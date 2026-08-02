@@ -82,3 +82,622 @@ _**Agent (auto-smart)**_
 
 I need to examine around 25 items, but I think I might just focus on parsing the frontmatter. I'll read through everything in parallel, which could work well, given that I can probably stick to the 25 call limit without overloading the system. It's all about finding that balance between efficiency and thoroughness! I’m curious to see how this list will turn out and what insights I'll gain from it.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maintenance-window.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/opened-scripture.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mental-models.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-the-error.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/metadata-strategy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maps-of-content.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/open-not-maintained.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/measure-then-iterate.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/normalization-of-deviance.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/not-my-will.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-viable-product.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/many-parts-one-body.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/notice-the-good.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/network-analysis.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mind-mapping.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mobile-capture-workflows.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/name-the-feeling.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/moved-with-compassion.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-effective-dose.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Considering L5 and L4 solutions**
+
+I can craft a new L5 that incorporates old links while performing the generative job, like saying, "Build X by using [[A]]". This approach keeps the original content. Similarly, L4 can maintain its content but needs to reframe the system. I’ll need to apply patches to each file, and I can only bundle one file per call. There won't be parallel calls either, so it looks like I have to call ApplyPatch 25 times sequentially. Let's proceed!
+</details></think>
+
+_**Agent (auto-smart)**_
+
+The common mismatch is structural: most Definition, Explanation, and Application fields are sound, while many level_5 fields only name related notes instead of creating or extending something. I’m correcting those and the smaller level_3/level_4 job overlaps without touching other fields.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maintenance-window.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/opened-scripture.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mental-models.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-the-error.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/metadata-strategy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maps-of-content.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/open-not-maintained.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/measure-then-iterate.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/normalization-of-deviance.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/not-my-will.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-viable-product.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/many-parts-one-body.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/notice-the-good.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/network-analysis.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mind-mapping.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mobile-capture-workflows.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/name-the-feeling.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/moved-with-compassion.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-effective-dose.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Checking for modifications**
+
+I need to run `git diff --check` and `git diff --stat` on the target to identify any changes. Also, running `pnpm lint:garden` might catch a whole bunch of modifications, possibly thousands. It seems like focusing on diff checks at a specific regex level would be helpful. Let’s see how I can execute these commands and check for the overall differences effectively! I want to make sure I cover everything relevant.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git diff --check -- &#39;content/english/notes/[mno]*.md&#39; &amp;&amp; git diff --stat -- &#39;content/english/notes/[mno]*.md&#39;</summary>
+```bash
+git diff --check -- 'content/english/notes/[mno]*.md' && git diff --stat -- 'content/english/notes/[mno]*.md'
+```
+
+```
+ content/english/notes/maintenance-window.md        | 2 +-
+ content/english/notes/many-parts-one-body.md       | 2 +-
+ content/english/notes/maps-of-content.md           | 2 +-
+ content/english/notes/measure-then-iterate.md      | 2 +-
+ content/english/notes/mental-models.md             | 2 +-
+ content/english/notes/mercy.md                     | 2 +-
+ content/english/notes/metadata-strategy.md         | 2 +-
+ content/english/notes/mind-mapping.md              | 4 ++--
+ content/english/notes/minimum-effective-dose.md    | 4 ++--
+ content/english/notes/minimum-viable-product.md    | 4 ++--
+ content/english/notes/mobile-capture-workflows.md  | 2 +-
+ content/english/notes/moved-with-compassion.md     | 4 ++--
+ content/english/notes/name-the-feeling.md          | 2 +-
+ content/english/notes/network-analysis.md          | 2 +-
+ content/english/notes/normalization-of-deviance.md | 2 +-
+ content/english/notes/not-my-will.md               | 2 +-
+ content/english/notes/note-relationships.md        | 4 ++--
+ content/english/notes/notice-the-good.md           | 4 ++--
+ content/english/notes/okf-export.md                | 2 +-
+ content/english/notes/open-not-maintained.md       | 4 ++--
+ content/english/notes/open-source.md               | 6 +++---
+ content/english/notes/opened-scripture.md          | 2 +-
+ content/english/notes/outcomes-over-pitch-decks.md | 2 +-
+ content/english/notes/own-the-error.md             | 2 +-
+ content/english/notes/own-your-part.md             | 2 +-
+ 25 files changed, 34 insertions(+), 34 deletions(-)
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "[mno]*.md",
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^level_[1-5]:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^level_[1-5]:",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/minimum-effective-dose.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/moved-with-compassion.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/name-the-feeling.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/okf-export.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/note-relationships.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/mobile-capture-workflows.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/mind-mapping.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/network-analysis.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/open-source.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/notice-the-good.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/many-parts-one-body.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/mercy.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/minimum-viable-product.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/not-my-will.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/outcomes-over-pitch-decks.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/normalization-of-deviance.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/measure-then-iterate.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/open-not-maintained.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/maps-of-content.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/metadata-strategy.md"
+    }
+  ],
+  "totalFiles": 25,
+  "totalMatches": 125
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Evaluating linting options**
+
+I’m considering whether I should run the lint voice command on these. The command supports pnpm slop score, but maybe I should try pnpm lint:garden instead and verify the risk, since it might be extensive. I’ll also need to manually check for banned words and contractions in phrases like "cannot." It seems like running pnpm lint:voice could be more comprehensive, despite existing modifications possibly causing failures. I should go ahead and do it.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: pnpm lint:voice</summary>
+```bash
+pnpm lint:voice
+```
+
+```
+Command 'pnpm' not found, did you mean:
+  command 'npm' from deb npm (9.2.0~ds1-2)
+Try: apt install <deb name>
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git status --short -- &#39;content/english/notes/[mno]*.md&#39;</summary>
+```bash
+git status --short -- 'content/english/notes/[mno]*.md'
+```
+
+```
+ M content/english/notes/maintenance-window.md
+ M content/english/notes/many-parts-one-body.md
+ M content/english/notes/maps-of-content.md
+ M content/english/notes/measure-then-iterate.md
+ M content/english/notes/mental-models.md
+ M content/english/notes/mercy.md
+ M content/english/notes/metadata-strategy.md
+ M content/english/notes/mind-mapping.md
+ M content/english/notes/minimum-effective-dose.md
+ M content/english/notes/minimum-viable-product.md
+ M content/english/notes/mobile-capture-workflows.md
+ M content/english/notes/moved-with-compassion.md
+ M content/english/notes/name-the-feeling.md
+ M content/english/notes/network-analysis.md
+ M content/english/notes/normalization-of-deviance.md
+ M content/english/notes/not-my-will.md
+ M content/english/notes/note-relationships.md
+ M content/english/notes/notice-the-good.md
+ M content/english/notes/okf-export.md
+ M content/english/notes/open-not-maintained.md
+ M content/english/notes/open-source.md
+ M content/english/notes/opened-scripture.md
+ M content/english/notes/outcomes-over-pitch-decks.md
+ M content/english/notes/own-the-error.md
+ M content/english/notes/own-your-part.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+Updated all 25 `m`, `n`, and `o` notes. Changes were limited to `level_1`–`level_5`; most fixes made `level_5` genuinely generative, with several Systems/Application corrections.
+
+Uncertain cases: faith-note generative levels required interpretive judgment, especially `not-my-will.md`, `mercy.md`, and `moved-with-compassion.md`.
+
+`git diff --check` passed. Voice lint could not run because `pnpm` is unavailable. No commit created.
+
+## Session close
+- Fixed: Aligned 25 note ladders to their canonical jobs.
+- Encode: none
+- Open: Voice lint remains unrun because pnpm is unavailable.

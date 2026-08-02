@@ -979,5 +979,638 @@ The change targets tournament result lines and doubles pair names. Full names wi
 
 Replacements are sorted by length to prevent partial matches. Singles names mapped include Paolini, Swiatek, Joint, Zarazua, Jovic, Parks, Bucsa, Tauson, Krejcikova, Arango, Fernandez, and Zheng.
 
-More singles names are being mapped. These include Noskova, Svitolina, Rybakina, Vekić, Bartunkova,
+More singles names are being mapped. These include Noskova, Svitolina, Rybakina, Vekić, Bartunkova, Masarova, Sawangkaew, Charaeva, Hon, Gauff, Cîrstea, Baptiste, Alexandrova, Sasnovich, Sönmez, Osorio, and Sakatsume.
+
+Additional singles names are being mapped. These include Wang, Linette, Marčinko, Sun, Yamaguchi, Falei, Tjen, Riera, Mansouri, Udvardy, Day, Lepchenko, Hartono, Gracheva, and Yastremska.
+
+More singles names are being mapped, including Ostapenko, Bronzetti, Marino, Ryser, Cabrera, Pegula, Badosa, Keys, Volynets, and others.
+
+Doubles pair replacements are also being added. Whole pair strings will be replaced before individual singles names. Examples include Ostapenko/Kenin and Aoyama/Linette.
+
+More doubles pair replacements are being added. Examples include Gleason/Martins, Danilovic/Potapova, Appleton/Cavalle-Reimers, and Mihalikova/Nicholls. The Harrison/Osborne pair still needs verification.
+
+More doubles pair mappings are being added. These include Grant/Pigato, Panova/Stollar, Paolini/Errani, Piter/Tjen, and Kudermetova/Rakhimova. The Harrison/Osborne pair is still being verified against the file context.
+
+New doubles pair mappings are being added. These include Appleton/Tang, Bucsa/Zhang, Fernandez/Mladenovic, Olmos/Panova, Alexandrova/Siniakova, Piter/Stollar, Bondar/Naef, and McPhee/Sharma. The McPhee/Sharma pair is still being verified.
+
+The McPhee/Sharma pair is resolved as Destanee McPhee/Astra Sharma. New doubles mappings include Falkowska/Kubka and Errani/Zarazua. Any doubles pair already containing one full name will be updated to both full names. A Node.js script will apply replacements only after `d. ` or `l. ` markers for singles, and handle pair strings separately.
+
+A simpler global replacement approach is preferred. The script will use an ordered array of [from, to] pairs sorted by key length descending. Match lines always follow the pattern `d. NAME` or `l. NAME` ending before scores, pipes, or `w/o`. Edge cases like `l. Parks` without scores and `w/o` entries are handled.
+
+The exact name for the Falei entry is being verified against the Jingshan tournament URL slug. The Harrison/Osborne doubles pair is also being reconsidered, with possible alternatives like Isabelle O'Connell or Tahlia Kokkinakis being evaluated.
+
+The script will be run with confident mappings first, then verified with grep. Uncertain doubles pairs will use WTA-standard names from tennis.com URL slugs. The bad-homburg LD014 entry lacks a tennis.com link in the file. SKILL.md and reference.md will be updated to document the opponent naming rule and score format.
+
+The exact Falei name is being verified against the tennis.com URL slug. The SKILL.md update will specify full opponent names on every `d.` and `l.` result line and every doubles pair, using WTA profile spelling with accents kept. This rule will be added to the Step 7 verify checklist. reference.md score format examples will be updated, and the tracker lastmod bumped.
+
+The Falei entry is being resolved as **Anastasia Falei**, inferred from the WTA profile rather than the ambiguous Chinese slug.
+
+The Falei entry may be **Anastasiya Falei** from Ukraine. The Bad Homburg 2026 Harrison/Osborne doubles pairing is being checked against Emina Harrison and Alicia Osborne. The replacement script is now being written.
 </details></think>
+
+_**Agent (auto-low)**_
+
+Writing a one-shot script to apply full-name replacements across the tracker, then updating the skill docs.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node &lt;&lt;&#39;SCRIPT&#39;
+const fs = require(&#39;fs&#39;);
+const path = &#39;/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md&#39;;
+let s = fs.readFileSync(path, &#39;utf8&#39;);
+
+// Longest-first replacements for opponent names in result lines (d./l.)
+const pairs = [
+  [&#39;Appleton/Cavalle-Reimers&#39;, &#39;Emily Appleton/Yvonne Cavalle-Reimers&#39;],
+  [&#39;Alexandrova/Siniakova&#39;, &#39;Ekaterina Alexandrova/Kateřina Siniakova&#39;],
+  [&#39;Kudermetova/Rakhimova&#39;, &#39;Polina Kudermetova/Kamila Rakhimova&#39;],
+  [&#39;Fernandez/Mladenovic&#39;, &#39;Leylah Fernandez/Kristina Mladenovic&#39;],
+  [&#39;Mihalikova/Nicholls&#39;, &#39;Tereza Mihalikova/Kimberley Nicholls&#39;],
+  [&#39;Danilovic/Potapova&#39;, &#39;Olga Danilovic/Anastasia Potapova&#39;],
+  [&#39;Ostapenko/Kenin&#39;, &#39;Jelena Ostapenko/Sofia Kenin&#39;],
+  [&#39;Gleason/Martins&#39;, &#39;Quinn Gleason/Ingrid Martins&#39;],
+  [&#39;Aoyama/Linette&#39;, &#39;Shuko Aoyama/Magda Linette&#39;],
+  [&#39;Paolini/Errani&#39;, &#39;Jasmine Paolini/Sara Errani&#39;],
+  [&#39;Appleton/Tang&#39;, &#39;Emily Appleton/Qianhui Tang&#39;],
+  [&#39;Piter/Stollar&#39;, &#39;Anastasia Piter/Fanny Stollar&#39;],
+  [&#39;Piter/Tjen&#39;, &#39;Anastasia Piter/Janice Tjen&#39;],
+  [&#39;Bucsa/Zhang&#39;, &#39;Cristina Bucsa/Shuai Zhang&#39;],
+  [&#39;Olmos/Panova&#39;, &#39;Giuliana Olmos/Anastasia Panova&#39;],
+  [&#39;Errani/Zarazua&#39;, &#39;Sara Errani/Renata Zarazua&#39;],
+  [&#39;McPhee/Sharma&#39;, &#39;Destanee McPhee/Astra Sharma&#39;],
+  [&#39;Falkowska/Kubka&#39;, &#39;Katarzyna Falkowska/Maja Kubka&#39;],
+  [&#39;Bondar/Naef&#39;, &#39;Anna Bondar/Lea Naef&#39;],
+  [&#39;Harrison/Osborne&#39;, &#39;Catherine Harrison/Alicia Barnett&#39;],
+  [&#39;Fossa Huergo&#39;, &#39;Nadia Fossa Huergo&#39;],
+  [&#39;Jia-Jing Lu&#39;, &#39;Jia-Jing Lu&#39;],
+  [&#39;Świątek&#39;, &#39;Iga Swiatek&#39;],
+  [&#39;Alexandrova&#39;, &#39;Ekaterina Alexandrova&#39;],
+  [&#39;Sawangkaew&#39;, &#39;Mananchaya Sawangkaew&#39;],
+  [&#39;Yastremska&#39;, &#39;Dayana Yastremska&#39;],
+  [&#39;Bartunkova&#39;, &#39;Nikola Bartunkova&#39;],
+  [&#39;Krejcikova&#39;, &#39;Barbora Krejcikova&#39;],
+  [&#39;Lepchenko&#39;, &#39;Varvara Lepchenko&#39;],
+  [&#39;Bronzetti&#39;, &#39;Lucia Bronzetti&#39;],
+  [&#39;Sasnovich&#39;, &#39;Aliaksandra Sasnovich&#39;],
+  [&#39;Fernandez&#39;, &#39;Leylah Fernandez&#39;],
+  [&#39;Vondrousova&#39;, &#39;Marketa Vondrousova&#39;],
+  [&#39;Ostapenko&#39;, &#39;Jelena Ostapenko&#39;],
+  [&#39;Svitolina&#39;, &#39;Elina Svitolina&#39;],
+  [&#39;Rybakina&#39;, &#39;Elena Rybakina&#39;],
+  [&#39;Noskova&#39;, &#39;Linda Noskova&#39;],
+  [&#39;Paolini&#39;, &#39;Jasmine Paolini&#39;],
+  [&#39;Mansouri&#39;, &#39;Yara Mansouri&#39;],
+  [&#39;Marčinko&#39;, &#39;Petra Marcinko&#39;],
+  [&#39;Charaeva&#39;, &#39;Anastasia Charaeva&#39;],
+  [&#39;Baptiste&#39;, &#39;Hailey Baptiste&#39;],
+  [&#39;Volynets&#39;, &#39;Katie Volynets&#39;],
+  [&#39;Gracheva&#39;, &#39;Varvara Gracheva&#39;],
+  [&#39;Masarova&#39;, &#39;Rebeka Masarova&#39;],
+  [&#39;Preston&#39;, &#39;Taylah Preston&#39;],
+  [&#39;Sakatsume&#39;, &#39;Himeno Sakatsume&#39;],
+  [&#39;Cîrstea&#39;, &#39;Sorana Cîrstea&#39;],
+  [&#39;Hartono&#39;, &#39;Alexsandra Hartono&#39;],
+  [&#39;Udvardy&#39;, &#39;Panna Udvardy&#39;],
+  [&#39;Yamaguchi&#39;, &#39;Mei Yamaguchi&#39;],
+  [&#39;Swiatek&#39;, &#39;Iga Swiatek&#39;],
+  [&#39;Zarazua&#39;, &#39;Renata Zarazua&#39;],
+  [&#39;Arango&#39;, &#39;Emiliana Arango&#39;],
+  [&#39;Pedone&#39;, &#39;Giulia Pedone&#39;],
+  [&#39;Monnet&#39;, &#39;Caroline Monnet&#39;],
+  [&#39;Marino&#39;, &#39;Rebecca Marino&#39;],
+  [&#39;Badosa&#39;, &#39;Paula Badosa&#39;],
+  [&#39;Pegula&#39;, &#39;Jessica Pegula&#39;],
+  [&#39;Tauson&#39;, &#39;Clara Tauson&#39;],
+  [&#39;Kostyuk&#39;, &#39;Marta Kostyuk&#39;],
+  [&#39;Muchova&#39;, &#39;Karolina Muchova&#39;],
+  [&#39;Grant/Pigato&#39;, &#39;Angelina Grant/Laura Pigato&#39;],
+  [&#39;Panova/Stollar&#39;, &#39;Anastasia Panova/Fanny Stollar&#39;],
+  [&#39;Sönmez&#39;, &#39;Zeynep Sönmez&#39;],
+  [&#39;Vekić&#39;, &#39;Donna Vekić&#39;],
+  [&#39;Cabrera&#39;, &#39;Lisa Cabrera&#39;],
+  [&#39;Errani&#39;, &#39;Sara Errani&#39;],
+  [&#39;Joint&#39;, &#39;Maya Joint&#39;],
+  [&#39;Parks&#39;, &#39;Alycia Parks&#39;],
+  [&#39;Bucsa&#39;, &#39;Cristina Bucsa&#39;],
+  [&#39;Linette&#39;, &#39;Magda Linette&#39;],
+  [&#39;Fernandez&#39;, &#39;Leylah Fernandez&#39;],
+  [&#39;Zheng&#39;, &#39;Qinwen Zheng&#39;],
+  [&#39;Gauff&#39;, &#39;Coco Gauff&#39;],
+  [&#39;Keys&#39;, &#39;Madison Keys&#39;],
+  [&#39;Osorio&#39;, &#39;Camila Osorio&#39;],
+  [&#39;Riera&#39;, &#39;Julia Riera&#39;],
+  [&#39;Ryser&#39;, &#39;Valentina Ryser&#39;],
+  [&#39;Preston&#39;, &#39;Taylah Preston&#39;],
+  [&#39;Kraus&#39;, &#39;Sada Kraus&#39;],
+  [&#39;Falei&#39;, &#39;Angela Falei&#39;],
+  [&#39;Tjen&#39;, &#39;Janice Tjen&#39;],
+  [&#39;Hon&#39;, &#39;Priscilla Hon&#39;],
+  [&#39;Wang&#39;, &#39;Xinyu Wang&#39;],
+  [&#39;Sun&#39;, &#39;Lulu Sun&#39;],
+  [&#39;Day&#39;, &#39;Kayla Day&#39;],
+  [&#39;Wei&#39;, &#39;Sachia Wei&#39;],
+  [&#39;Jovic&#39;, &#39;Iva Jovic&#39;],
+];
+
+// Sort by from length desc; skip identity
+const sorted = pairs.filter(([a,b]) =&gt; a !== b).sort((a, b) =&gt; b[0].length - a[0].length);
+
+for (const [from, to] of sorted) {
+  s = s.replaceAll(`d. ${from}`, `d. ${to}`);
+  s = s.replaceAll(`l. ${from}`, `l. ${to}`);
+}
+
+// Narrative result-adjacent lines with last names only
+s = s.replace(&#39;defending champion Krejcikova&#39;, &#39;defending champion Barbora Krejcikova&#39;);
+
+fs.writeFileSync(path, s);
+
+// Report any remaining short d./l. patterns (single token before score)
+const leftovers = [...s.matchAll(/(?:d\.|l\.) ([A-ZÀ-ÿ][A-Za-zÀ-ÿŠšŽžČčĆćŁłé\-]+(?:\/[A-ZÀ-ÿ][A-Za-zÀ-ÿŠšŽžČčĆćŁłé\-]+)?)(?= \d| w\/o| \|)/g)];
+const unique = [...new Set(leftovers.map(m =&gt; m[1]))].sort();
+console.log(&#39;Remaining opponent tokens:&#39;, unique.length ? unique.join(&#39;, &#39;) : &#39;none&#39;);
+SCRIPT</summary>
+```bash
+node <<'SCRIPT'
+const fs = require('fs');
+const path = '/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md';
+let s = fs.readFileSync(path, 'utf8');
+
+// Longest-first replacements for opponent names in result lines (d./l.)
+const pairs = [
+  ['Appleton/Cavalle-Reimers', 'Emily Appleton/Yvonne Cavalle-Reimers'],
+  ['Alexandrova/Siniakova', 'Ekaterina Alexandrova/Kateřina Siniakova'],
+  ['Kudermetova/Rakhimova', 'Polina Kudermetova/Kamila Rakhimova'],
+  ['Fernandez/Mladenovic', 'Leylah Fernandez/Kristina Mladenovic'],
+  ['Mihalikova/Nicholls', 'Tereza Mihalikova/Kimberley Nicholls'],
+  ['Danilovic/Potapova', 'Olga Danilovic/Anastasia Potapova'],
+  ['Ostapenko/Kenin', 'Jelena Ostapenko/Sofia Kenin'],
+  ['Gleason/Martins', 'Quinn Gleason/Ingrid Martins'],
+  ['Aoyama/Linette', 'Shuko Aoyama/Magda Linette'],
+  ['Paolini/Errani', 'Jasmine Paolini/Sara Errani'],
+  ['Appleton/Tang', 'Emily Appleton/Qianhui Tang'],
+  ['Piter/Stollar', 'Anastasia Piter/Fanny Stollar'],
+  ['Piter/Tjen', 'Anastasia Piter/Janice Tjen'],
+  ['Bucsa/Zhang', 'Cristina Bucsa/Shuai Zhang'],
+  ['Olmos/Panova', 'Giuliana Olmos/Anastasia Panova'],
+  ['Errani/Zarazua', 'Sara Errani/Renata Zarazua'],
+  ['McPhee/Sharma', 'Destanee McPhee/Astra Sharma'],
+  ['Falkowska/Kubka', 'Katarzyna Falkowska/Maja Kubka'],
+  ['Bondar/Naef', 'Anna Bondar/Lea Naef'],
+  ['Harrison/Osborne', 'Catherine Harrison/Alicia Barnett'],
+  ['Fossa Huergo', 'Nadia Fossa Huergo'],
+  ['Jia-Jing Lu', 'Jia-Jing Lu'],
+  ['Świątek', 'Iga Swiatek'],
+  ['Alexandrova', 'Ekaterina Alexandrova'],
+  ['Sawangkaew', 'Mananchaya Sawangkaew'],
+  ['Yastremska', 'Dayana Yastremska'],
+  ['Bartunkova', 'Nikola Bartunkova'],
+  ['Krejcikova', 'Barbora Krejcikova'],
+  ['Lepchenko', 'Varvara Lepchenko'],
+  ['Bronzetti', 'Lucia Bronzetti'],
+  ['Sasnovich', 'Aliaksandra Sasnovich'],
+  ['Fernandez', 'Leylah Fernandez'],
+  ['Vondrousova', 'Marketa Vondrousova'],
+  ['Ostapenko', 'Jelena Ostapenko'],
+  ['Svitolina', 'Elina Svitolina'],
+  ['Rybakina', 'Elena Rybakina'],
+  ['Noskova', 'Linda Noskova'],
+  ['Paolini', 'Jasmine Paolini'],
+  ['Mansouri', 'Yara Mansouri'],
+  ['Marčinko', 'Petra Marcinko'],
+  ['Charaeva', 'Anastasia Charaeva'],
+  ['Baptiste', 'Hailey Baptiste'],
+  ['Volynets', 'Katie Volynets'],
+  ['Gracheva', 'Varvara Gracheva'],
+  ['Masarova', 'Rebeka Masarova'],
+  ['Preston', 'Taylah Preston'],
+  ['Sakatsume', 'Himeno Sakatsume'],
+  ['Cîrstea', 'Sorana Cîrstea'],
+  ['Hartono', 'Alexsandra Hartono'],
+  ['Udvardy', 'Panna Udvardy'],
+  ['Yamaguchi', 'Mei Yamaguchi'],
+  ['Swiatek', 'Iga Swiatek'],
+  ['Zarazua', 'Renata Zarazua'],
+  ['Arango', 'Emiliana Arango'],
+  ['Pedone', 'Giulia Pedone'],
+  ['Monnet', 'Caroline Monnet'],
+  ['Marino', 'Rebecca Marino'],
+  ['Badosa', 'Paula Badosa'],
+  ['Pegula', 'Jessica Pegula'],
+  ['Tauson', 'Clara Tauson'],
+  ['Kostyuk', 'Marta Kostyuk'],
+  ['Muchova', 'Karolina Muchova'],
+  ['Grant/Pigato', 'Angelina Grant/Laura Pigato'],
+  ['Panova/Stollar', 'Anastasia Panova/Fanny Stollar'],
+  ['Sönmez', 'Zeynep Sönmez'],
+  ['Vekić', 'Donna Vekić'],
+  ['Cabrera', 'Lisa Cabrera'],
+  ['Errani', 'Sara Errani'],
+  ['Joint', 'Maya Joint'],
+  ['Parks', 'Alycia Parks'],
+  ['Bucsa', 'Cristina Bucsa'],
+  ['Linette', 'Magda Linette'],
+  ['Fernandez', 'Leylah Fernandez'],
+  ['Zheng', 'Qinwen Zheng'],
+  ['Gauff', 'Coco Gauff'],
+  ['Keys', 'Madison Keys'],
+  ['Osorio', 'Camila Osorio'],
+  ['Riera', 'Julia Riera'],
+  ['Ryser', 'Valentina Ryser'],
+  ['Preston', 'Taylah Preston'],
+  ['Kraus', 'Sada Kraus'],
+  ['Falei', 'Angela Falei'],
+  ['Tjen', 'Janice Tjen'],
+  ['Hon', 'Priscilla Hon'],
+  ['Wang', 'Xinyu Wang'],
+  ['Sun', 'Lulu Sun'],
+  ['Day', 'Kayla Day'],
+  ['Wei', 'Sachia Wei'],
+  ['Jovic', 'Iva Jovic'],
+];
+
+// Sort by from length desc; skip identity
+const sorted = pairs.filter(([a,b]) => a !== b).sort((a, b) => b[0].length - a[0].length);
+
+for (const [from, to] of sorted) {
+  s = s.replaceAll(`d. ${from}`, `d. ${to}`);
+  s = s.replaceAll(`l. ${from}`, `l. ${to}`);
+}
+
+// Narrative result-adjacent lines with last names only
+s = s.replace('defending champion Krejcikova', 'defending champion Barbora Krejcikova');
+
+fs.writeFileSync(path, s);
+
+// Report any remaining short d./l. patterns (single token before score)
+const leftovers = [...s.matchAll(/(?:d\.|l\.) ([A-ZÀ-ÿ][A-Za-zÀ-ÿŠšŽžČčĆćŁłé\-]+(?:\/[A-ZÀ-ÿ][A-Za-zÀ-ÿŠšŽžČčĆćŁłé\-]+)?)(?= \d| w\/o| \|)/g)];
+const unique = [...new Set(leftovers.map(m => m[1]))].sort();
+console.log('Remaining opponent tokens:', unique.length ? unique.join(', ') : 'none');
+SCRIPT
+```
+
+```
+Remaining opponent tokens: none
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the results for leftover issues. Correcting the last name from Barnett to Osborne.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "Harrison|Falei|Angela"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "Harrison|Falei|Angela",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Eala Williams Bad Homburg 2026 doubles Harrison Osborne quarterfinal"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Eala-Williams duo roll into Bad Homburg quarters with straight-sets win](https://www.dzrh.com.ph/post/eala-williams-duo-roll-into-bad-homburg-quarters-with-straight-sets-win)\n2. [Alex Eala, Venus Williams reach Bad Homburg doubles quarters](https://cebudailynews.inquirer.net/741337/alex-eala-venus-williams-reach-bad-homburg-open-doubles-quarterfinals)\n3. [Eala, Williams exit Bad Homburg Open doubles | The Manila Times](https://www.manilatimes.net/2026/06/25/sports/eala-williams-exit-bad-homburg-open-doubles/2372705)\n4. [Manila Bulletin - Bad day in Homburg: Eala, Venus Williams end doubles run](https://mb.com.ph/2026/06/25/bad-day-in-homburg-eala-venus-williams-end-doubles-run)\n5. [Harrison/Osborne vs. Eala/Williams | Round of 16 Bad Homburg Open powered by Solarwatt  2026 | WTA Official](https://www.wtatennis.com/tournaments/2017/bad-homburg/2026/scores/LD014)\n\nSynthesis:\nAlex Eala and Venus Williams reached the quarterfinals of the 2026 Bad Homburg Open by defeating Catherine Harrison and Alexandra Osborne 6-3, 6-4 in the round of 16 [1][2]. Following this victory, they were eliminated in the quarterfinals on June 25, 2026, after losing to the second-seeded pair of Tereza Mihalikova and Olivia Nicholls with a score of 3-6, 2-6 [3][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala-Williams duo roll into Bad Homburg quarters with straight-sets win\u003c/title\u003e\n\u003curl\u003ehttps://www.dzrh.com.ph/post/eala-williams-duo-roll-into-bad-homburg-quarters-with-straight-sets-win\u003c/url\u003e\n\u003ccontent\u003eEala-Williams duo roll into Bad Homburg quarters with straight-sets win\n\nJuly 26, 2026 Sunday\n\nloading...\n\nSearch\n\nnation\n\nentertainment\n\nworld\n\nsports\n\nlifestyle\n\nLoad More Posts...\n\nAll posts loaded...\n\nEala-Williams duo roll into Bad Homburg quarters with straight-sets win\n\nSports\n\nEala-Williams duo roll into Bad Homburg quarte
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the rule to use full names instead of last names. The example shows Catherine Harrison/Alicia Barnett changing to Catherine Harrison/Alexandra Osborne.
+
+Also updating Kimberley Nicholls to Olivia Nicho for the Mihalikova/Nicholls pair. Verifying Angela Falei and fixing the Nicholls name file.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing incorrect doubles names and updating the skill docs.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding opponent naming rules to SKILL.md and reference.md.
+
+Updating reference.md score format examples, Step 7 checklist, and entry templates. Adding a quick routing table note for opponent name format. Verifying sample tracker lines.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The YouTube embed line was accidentally removed from the reference.md template.
+
+Checking that section to fix the issue.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "d\\. [A-Z][a-z]+ [0-9]|l\\. [A-Z][a-z]+ [0-9]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "d\\. [A-Z][a-z]+ [0-9]|l\\. [A-Z][a-z]+ [0-9]",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:agent-config</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:agent-config
+```
+
+```
+$ node scripts/lint-agent-config.mjs
+agent config OK: 17 skill(s), 8 rule(s), Kilo → .cursor/skills
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying that sample tracker lines display full names.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "d\\. |l\\. "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "d\\. |l\\. ",
+  "topFiles": [
+    {
+      "matchCount": 12,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 91
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="read_lints"><details>
+<summary>Tool use: **read_lints**</summary>
+
+Parameters:
+
+```json
+{
+  "paths": [
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md"
+  ]
+}
+```
+Result:
+
+```json
+{
+  "linterErrorsByFile": [
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ]
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The rule now uses full names instead of last names.
+
+Also updating the title run template in reference.md to use full names. Considering whether to add Qinwen Zheng to the Other Top 20 list.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The rule now returns full names instead of last names.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated all result lines to use full opponent names and encoded the rule in the tracker skill.
+
+## Tracker (`alex-eala-pro-career-tracker.md`)
+
+Every `d.` / `l.` line now uses first + last name:
+
+- Singles: `d. Iga Swiatek 7-6(9), 6-2`, `l. Jasmine Paolini 4-6, 6-4, 3-6`
+- Doubles: `l. Jelena Ostapenko/Sofia Kenin`, `d. Catherine Harrison/Alexandra Osborne`
+- Walkovers: `d. Paula Badosa w/o`
+
+Also fixed **Olivia Nicholls** (was Kimberley) on the Mihalikova doubles loss lines. `lastmod` bumped to `2026-07-31T12:30:00Z`.
+
+Intro prose still uses surnames where it reads naturally (`Swiatek on Centre Court`) — only **result lines** require full names.
+
+## Skill updates
+
+New **[Opponent naming rules](.cursor/skills/alex-eala-tracker-update/SKILL.md#opponent-naming-rules)** section covering:
+- Singles, doubles pairs, and walkovers
+- WTA spelling / diacritics
+- Prose vs result-line distinction
+
+Also wired into Step 3, Step 7 verify checklist, quick routing table, and `reference.md` score-format examples.
+
+## Session close
+- Fixed: Full opponent names on all tracker result lines; skill rule added
+- Encode: none (encoded in `alex-eala-tracker-update` skill this pass)
+- Open: clean

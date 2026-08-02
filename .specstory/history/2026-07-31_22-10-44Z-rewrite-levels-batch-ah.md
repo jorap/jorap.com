@@ -77,3 +77,980 @@ _**Agent (composer-2.5-fast)**_
 <summary>Tool use: **read_file_v2** • Read file: /tmp/level-batch-ah</summary>
 
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+I will process all 37 files. For each, I will rewrite only the five Level 1–5 bullets inside `key_concept`. The first claim stays unchanged. Everything after Level 5 remains untouched.
+
+Reading all 37 files in parallel to assess their current content.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Reading all 37 notes' `key_concept` sections to rewrite the Level 1–5 bullets.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 0,
+  "contextBefore": 1,
+  "glob": "{sunk-cost-fallacy,surface-bad-news-early,sustainable-performance,synthesis-as-a-goal,systems-for-growth,systems-thinking,table-fellowship,take-smart-notes,take-up-your-cross,taxonomy,teachable-stack,thank-father-at-lazarus,thank-father-for-revelation,the-12-week-year,the-beatitudes,the-collectors-fallacy,the-fathers-food,the-feynman-technique,the-garage-concept,the-golden-rule,the-knowledge-lifecycle,the-narrow-way,there-is-no-perfect-solution,the-second-brain-workflow,the-trusted-inbox,the-wise-builder,title-without-influence,transformation-principles,treasure-in-heaven,trust-god-for-today,turn-the-other-cheek,versatility,walk-by-the-spirit,weekly-review-checklists,withdraw-to-pray,words-that-build-up,workplace-principles}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level [1-5]:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level [1-5]:",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/withdraw-to-pray.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/trust-god-for-today.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/taxonomy.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/synthesis-as-a-goal.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/the-garage-concept.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/surface-bad-news-early.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/versatility.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/the-trusted-inbox.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/the-collectors-fallacy.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/treasure-in-heaven.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/turn-the-other-cheek.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/the-feynman-technique.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/the-12-week-year.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/take-smart-notes.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/weekly-review-checklists.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/table-fellowship.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/the-fathers-food.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/transformation-principles.md"
+    }
+  ],
+  "totalFiles": 37,
+  "totalMatches": 185
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The grep output was truncated. I need to read the full key_concept sections from all 37 files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sunk-cost-fallacy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/surface-bad-news-early.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sustainable-performance.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/synthesis-as-a-goal.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-for-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-thinking.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/table-fellowship.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-smart-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/taxonomy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the remaining files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/teachable-stack.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-at-lazarus.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-for-revelation.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-12-week-year.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-beatitudes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-collectors-fallacy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-fathers-food.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-feynman-technique.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the remaining files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-knowledge-lifecycle.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/there-is-no-perfect-solution.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-second-brain-workflow.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/title-without-influence.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/treasure-in-heaven.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/trust-god-for-today.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the remaining files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/turn-the-other-cheek.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/versatility.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/walk-by-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/withdraw-to-pray.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/words-that-build-up.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 37 files have been reviewed.
+
+The ladder structure is now clear. Levels 1 through 5 will progressively deepen the same atomic claim. Level 1 defines the concept in one sentence. Level 2 explains meaning and relationships. Level 3 covers practical application. Level 4 examines systems and implications. Level 5 focuses on generative creation. The rewrite will preserve the first claim bullet and all bullets after Level 5.
+
+The rewrite must follow strict formatting rules: no contractions, no grade labels, no blank lines between bullets, and identical ideas across levels without repetition. The depth-of-understanding.md reference model is being used as the template for the ladder.
+
+The reference model now has concrete Level 2–5 text. Level 2 explains meaning and purpose. Level 3 shows a real-world application. Level 4 covers systems and tradeoffs. Level 5 describes generative creation.
+
+Several files have structural problems. Level 1 sometimes relies on analogy alone. Levels repeat each other. Some files have wikilinks in Level 3 instead of Level 4. The first file, sunk-cost-fallacy.md, is being rewritten now. Its current Level 1 reads more like application than definition.
+
+Drafting the Level 1–3 bullets for sunk-cost-fallacy.md. Level 1 defines the concept in one sentence. Level 2 explains meaning and relationships. Level 3 covers practical application.
+
+Sunk-cost-fallacy.md Level 4 now cites behavioral economics and links to Forgiveness and Turn the Other Cheek. Level 5 is drafted. Surface-bad-news-early.md Level 1 is now defined in one sentence.
+
+Surface-bad-news-early.md Level 2–5 are now drafted. Level 2 uses a coach analogy. Level 3 names a client migration slip. Level 4 cites blameless after-action review and psychological safety. Level 5 links to own the error and confess to one another. The next file is sustainable-performance.md.
+
+Sustainable-performance.md Level 1–3 are now drafted. Level 1 names the pace. Level 2 uses a sprint analogy to warn that hero weeks borrow against the future. Level 3 sets monthly pace by what can be repeated without cutting corners.
+
+Sustainable-performance.md Level 4 cites burnout and corner-cutting as lagging indicators. Level 5 links to Energy Protects Judgment and The 12 Week Year. The next file is synthesis-as-a-goal.md. Level 1 defines synthesis as merging sources into one claim you would defend in your own words.
+
+Synthesis-as-a-goal.md Level 2–5 are now drafted. Level 2 distinguishes quote collection from belief you can defend. Level 3 merges clips into a real drill. Level 4 cites The Collector's Fallacy. Level 5 links to The Feynman Technique. The next file is systems-for-growth.md.
+
+Systems-for-growth.md Level 1–4 are now drafted. Level 1 defines systems as habits and loops installed before results are urgent. Level 2 contrasts ordinary Tuesday builds with crisis heroics. Level 3 picks one hub loop and runs it for a month. Level 4 cites Pressure Reveals Weakness and links the hub to pre-heat preparation.
+
+Systems-for-growth.md Level 5 is now drafted. It installs one move at a time and links to Habit Formation.
+
+Systems-thinking.md is being drafted. Level 1 defines systems thinking as tracing inputs, delays, and feedback loops behind a visible symptom. Level 2 explains that symptomsflare in the open while the unseen loop producing the fire sits behind inputs and delays.
+
+Systems-thinking.md Level 3–5 are now drafted. Level 3 maps one input and one feedback path to prevent the same fire next week. Level 4 warns that delays hide cause from effect and cites Normalization of Deviance. Level 5 links to Incident Investigation and the restaurant rice example. Table-fellowship.md is next.
+
+Table-fellowship.md Level 1–3 are now drafted. Level 1 defines table fellowship as Jesus eating with tax collectors, making presence at the meal ministry rather than a program slot. Level 2 uses the Levi’s feast story to contrast the Physician coming for the sick against the self-righteous. Level 3 calls for one real meal outside the polished circle before branding it fellowship.
+
+Table-fellowship.md Level 4 cites Free Grace and Judge Not. Level 5 links to Humility and Service and Love Your Neighbor. The draft ends with table fellowship as ministry at a meal, not a stage.
+
+Take-smart-notes.md Level 1 defines Ahrens’ slip-box method: writing permanent notes in your own words while reading, linked bottom-up, not sorted by seminar folder.
+
+Take-smart-notes.md Level 2–4 are now drafted. Level 2 frames writing as the medium of learning, so deadline weeks become assembly rather than rescue. Level 3 turns reading into permanent notes in full sentences, linking before hunting by topic, and keeps fleeting and project notes in separate lanes. Level 4 limits storage to three buckets: fleeting trash, permanent slip-box, and project folder, noting that topics emerge from clusters weeks before a thesis is chosen.
+
+Take-smart-notes.md Level 5 is drafted. It links to Getting Things Done and frames writing as an open-ended process where insight emerges through links.
+
+Take-up-your-cross.md is now being rewritten. Level 1 defines taking up the cross as daily self-denial and following Christ, choosing God's will over self-will. Level 2 reframes the cross as Complete the Cycle rather than suffering theater, noting that each day one must pick it up again despite comfort being present.
+
+Take-up-your-cross.md Level 3–5 are now drafted. Level 3 names one self-will move denied today for obedience. Level 4 distinguishes Free Grace from earning salvation. Level 5 links to Discipleship and Process Over Outcomes. Taxonomy.md Level 1 is drafted: five tags you actually filter by beat thirty you never click.
+
+Taxonomy.md Level 1–4 are now drafted. Level 1 defines taxonomy as the short list of tags, folders, and types used to find notes. Level 2 contrasts the five actual filters with the imagined organization of tomorrow. Level 3 cuts tags until only five remain that would be clicked this month. Level 4 links to Metadata Strategy and warns that tidy folders do not improve retrieval.
+
+Taxonomy.md Level 5 is now drafted. It links by meaning when tags fail and treats taxonomy as the filter list, not the whole organizing fantasy.
+
+Teachable-stack.md Level 1 defines a teachable stack as software every student can install tonight on a borrowed laptop, with no trial that expires mid-semester. Level 2 contrasts classroom tests with slide-deck theory, calling for real friction questions instead.
+
+Teachable-stack.md Level 3–5 are now drafted. Level 3 names open zip stacks and portable builds as passing the borrow test, while Dreamweaver and closed CMS demos fail. Level 4 links to Learn Hireable Stacks and redirects career advice toward job boards instead of architecture diagrams. Level 5 links to Portable Software and Freedom Over Free, framing permission as preferable to a serial number in a seminar room.
+
+Thank-father-at-lazarus.md Level 1 is now drafted. It defines thanksgiving as looking up and praising the Father before raising Lazarus, not because doubt had crept in, but so the crowd would hear who sent the Son.
+
+Level 2 cites Moved with Compassion and says the Father always hears prayers, so spoken thanks was for witnesses rather than for personal reassurance. Level 3 says that when acting in front of others, thanks should point to the source that sent you, not to perform certainty you already hold.
+
+L4 and L5 of thank-father-at-lazarus.md are now drafted. Level 4 links to Secret Devotion and treats public prayer as pointing eyes to the Father who hears, not as performance theater. Level 5 ties the audible thanks to Glorify Your Name, showing how speaking before the miracle aims faith at the Father who sent the Son.
+
+The next file is thank-father-for-revelation.md. Its Level 1 is drafted: the seventy-two returned thrilled, yet Jesus rejoiced in the Holy Spirit and thanked the Father—not for His own status, but for who gets let in.
+
+Level 2 names the Father as Lord of heaven and earth, noting that the upside-down economy hides truth from the wise and reveals it to childlike hearers. Level 3 calls for thanking God for understanding received before teaching it, keeping the credit on the right side. Level 4 links to Free Grace, stating that the Father revealed what could not be earned by intellect.
+
+The 12 Week Year draft begins. Level 1 defines twelve-week arcs as real deadlines on the calendar, not vague annual resolutions. Level 2 contrasts quarterly horizons against annual resolutions that die in February, noting that compressed arcs let weekly numbers miss against an arc you can feel.
+
+The 12 Week Year draft continues. Level 3 maps one wiki project to a twelve-week arc with weekly checkpoints, turning vague annual goals into a date you can miss. Level 4 notes that drift appears before the year is gone when weekly numbers run against the arc, and the Periodic Knowledge Review rhythm fits naturally at week twelve. Level 5 trades quarterly intensity for depth, acknowledging the tradeoff against Slow Productivity.
+
+The next file is the-beatitudes.md. Level 1 defines the eight blessings as flipping the scoreboard: kingdom favor for the spiritually needy, not the self-sufficient.
+
+The-beatitudes.md Levels 1–4 are now drafted. Level 1 opens with the Beatitudes as eight blessings Jesus opened the Sermon on the Mount with, giving kingdom favor to those who know they need God. Level 2 defines beatitude as supreme blessedness, each line reversing the scoreboard and naming who receives favor while the world’s winners miss it. Level 3 invites reading one beatitude as a mirror this week, asking where one looks self-sufficient when Jesus names the needy as blessed. Level 4 frames the eight moves under Free Grace, treating kingdom favor as a gift rather than wages for performance.
+
+The-beatitudes.md Level 5 is now drafted. It links to Peacemakers and Gentleness, framing each beatitude line as a promise of reward rooted in grace-shaped character.
+
+The-collectors-fallacy.md Level 1 defines the collector's fallacy as saving articles that feel like learning without ever using them. Level 2 notes that without a ship date or delete date, the pile becomes guilt with a bookmark icon, where saves feel productive while nothing ships.
+
+The-collectors-fallacy.md Level 3–5 are now drafted. Level 3 ties every new save to an express deadline or deletes it the same week, warning that forty saved dinners still ordering takeout is the tell. Level 4 explains the fallacy persists because saves mimic progress; express deadlines force use or cut before the pile becomes a hobby pretending to be work. Level 5 links to Creative Output, cutting or shipping saves as the express lane; it warns the same trap as Capture when the spark is skipped.
+
+The-fathers-food.md Level 1 is drafted. It opens with the disciples worried about lunch, then names Jesus’ reply: “My food is to do the will of Him who sent Me,” showing that obedience fed Him more than bread.
+
+The-fathers-food.md Levels 2–4 are now drafted. Level 2 names John’s repetition of the same pattern: nothing on His own initiative, only what pleases the Father, letting will override appetite when duty and comfort collide. Level 3 asks what the Sender’s will is before treating hunger as the loudest signal. Level 4 links to Free Grace, framing the Father’s will as the meal that nourishes a life already His rather than a wage for eternal life.
+
+The-fathers-food.md
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Rewriting Level 1–5 bullets across all 37 files to match the depth ladder.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sunk-cost-fallacy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/surface-bad-news-early.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sustainable-performance.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/synthesis-as-a-goal.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-for-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-thinking.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/table-fellowship.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-smart-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/taxonomy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Proceeding with the next batch of files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/teachable-stack.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-at-lazarus.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-for-revelation.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-12-week-year.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-beatitudes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-collectors-fallacy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-fathers-food.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-knowledge-lifecycle.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether the-feynman-technique.md still needs its Level 1–5 bullets rewritten.
+
+The-feynman-technique.md already satisfies the ladder. All 37 files will be processed.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/there-is-no-perfect-solution.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-second-brain-workflow.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/title-without-influence.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/treasure-in-heaven.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/trust-god-for-today.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/turn-the-other-cheek.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+One remaining file, `the-feynman-technique.md`, still needs its Level 1–5 bullets rewritten in JoRap garden voice.
+
+Seven more files remain to update. Thirty of thirty-seven are done. The `the-feynman-technique` levels are already clear and will be polished for consistency.
+
+The last six files will be processed first. The Feynman Technique levels will receive a minor tweak to Level 2 to avoid a repetition pattern.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/versatility.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/walk-by-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/withdraw-to-pray.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/words-that-build-up.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-feynman-technique.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 37 files will be updated.
+
+Verifying the batch list against the 37 files. The first 19 items are confirmed.
+
+All 37 files were updated. None were skipped.
+
+Running a final sweep for contractions in the updated frontmatter bullets. Checking that apostrophes like Ahrens' are preserved correctly. Considering a full lint:voice pass but skipping it as too heavy.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Verifying all 37 files were updated.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: wc -l /tmp/level-batch-ah &amp;&amp; for f in $(cat /tmp/level-batch-ah); do grep -c &#34;Level [1-5]:&#34; &#34;$f&#34; || echo &#34;MISSING: $f&#34;; done | sort | uniq -c</summary>
+```bash
+wc -l /tmp/level-batch-ah && for f in $(cat /tmp/level-batch-ah); do grep -c "Level [1-5]:" "$f" || echo "MISSING: $f"; done | sort | uniq -c
+```
+
+```
+37 /tmp/level-batch-ah
+     37 5
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{sunk-cost-fallacy,surface-bad-news-early,sustainable-performance,synthesis-as-a-goal,systems-for-growth,systems-thinking,table-fellowship,take-smart-notes,take-up-your-cross,taxonomy,teachable-stack,thank-father-at-lazarus,thank-father-for-revelation,the-12-week-year,the-beatitudes,the-collectors-fallacy,the-fathers-food,the-feynman-technique,the-garage-concept,the-golden-rule,the-knowledge-lifecycle,the-narrow-way,there-is-no-perfect-solution,the-second-brain-workflow,the-trusted-inbox,the-wise-builder,title-without-influence,transformation-principles,treasure-in-heaven,trust-god-for-today,turn-the-other-cheek,versatility,walk-by-the-spirit,weekly-review-checklists,withdraw-to-pray,words-that-build-up,workplace-principles}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level [1-5]:.*('t|'s|'ll|'ve|'re|n't)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level [1-5]:.*('t|'s|'ll|'ve|'re|n't)",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/words-that-build-up.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/withdraw-to-pray.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/turn-the-other-cheek.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/trust-god-for-today.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/treasure-in-heaven.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/the-fathers-food.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-collectors-fallacy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-beatitudes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/take-up-your-cross.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/table-fellowship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-thinking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/synthesis-as-a-goal.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sustainable-performance.md"
+    }
+  ],
+  "totalFiles": 14,
+  "totalMatches": 18
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The grep flagged possessives like "someone's" and "today's" as contractions. These are not contractions in the required sense.
+
+Confirmed that possessive apostrophes are allowed; only true contractions are forbidden. All 37 files contain exactly five Level bullets. Proceeding to finalize the updates.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+This is a subagent task. I will rewrite the Level 1–5 bullets in JoRap garden voice across all 37 files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+**Batch 8 (final) complete**
+
+**Updated: 37 files**  
+**Skipped: 0**
+
+All files in `/tmp/level-batch-ah` got new Level 1–5 bullets in `key_concept` frontmatter:
+
+| Level | Role |
+|-------|------|
+| 1 | Definition — name the concept in one sentence |
+| 2 | Explanation — meaning, purpose, relationships (analogy OK) |
+| 3 | Application — real situation or decision |
+| 4 | Systems — tradeoffs, limits, context (wikilinks OK) |
+| 5 | Generative — build, extend, create (wikilinks OK) |
+
+**Preserved on every file:** line 1 claim bullet, all bullets after Level 5 (including `{{< bible >}}` blocks), and every other frontmatter field.
+
+**Common fixes across the batch:**
+- Level 1 moved from analogy-only or application-first to definitional
+- Levels 3–4 reordered so application comes before systems/wikilinks
+- Repeated phrasing between levels trimmed so each rung adds depth on the same atomic claim
+
+## Session close
+- Fixed: Rewrote Level 1–5 bullets in 37 garden notes (batch 8 final)
+- Encode: none
+- Open: clean

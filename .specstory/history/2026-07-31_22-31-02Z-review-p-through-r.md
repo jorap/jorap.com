@@ -245,3 +245,909 @@ _**Agent (auto-smart)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/present-a-living-sacrifice.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/process-mapping.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/periodic-knowledge-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/random-duo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/portable-software.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/read-in-synagogue.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/permission-scales.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/purpose-and-vision.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/read-later-queue.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/resilience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reliability.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconciliation-before-worship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pressure-reveals-weakness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Considering necessary changes**
+
+I need to decide on the changes based on the user's feedback. It seems that reviewing everything and editing the files directly is likely the only flawed approach. The main recurring issue is that level 5 lacks generative action. Most of level 4 looks fine, while level 2 analogies are acceptable. I should revise many level 5 items. There are quite a few things to update, particularly focusing on clarifying non-generative link summaries.
+**Planning mechanical edits**
+
+I could use a Python script via shell for bulk editing, which is allowed for "efficient bulk mechanical changes.” However, file operations aren't usually permitted. Maybe I should create a temporary script? That would involve file operations. I could run a Python command to make specific replacements while preserving user edits. I need to outline around 30 changes, focusing on rewriting assumptions and links for various platforms to ensure everything remains generative.
+**Evaluating generative links**
+
+For Peacemakers, the level 5 explanation isn't generative, so I need to create a repair practice. I should select links that are historically relevant but shouldn’t create something new—maybe a decision ritual instead. Repentance can create, which is fine. Process outcomes links shouldn't lead to creation; instead, I might design a routine. It seems like I should focus on building a prioritization filter, morning design, and establishing an experiment loop for the varying levels.**Evaluating missing links**
+
+I'm noticing that there are some portable links missing, and I should consider adding them. I see that the synagogue links are present, which is good, but I'm wondering about the permission links—they're also absent and might need to be added. The purpose links are all there, which is a plus! It seems like the idea of "Drafting outruns private honesty" is a bit odd. I could think about adding a bullet point to clarify things.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+The main pattern is clear: most lower levels already fit their jobs, while many `level_5` fields stop at naming related notes instead of asking the reader to build or extend something. I’m correcting those fields and a few `level_4` fields that only explain rather than examine limits or tradeoffs.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/platform-reach-is-borrowed.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Evaluating shell command usage**
+
+I’m exploring using shell commands with inline Python. I need to check the parent directory with `ls` before running the command to ensure it edits existing files without creating new directories or files. I want to be careful with quoting when using HEREDOC in Python since it requires precision to avoid errors. This way, I’ll ensure that everything runs smoothly and as expected.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+root = Path(&#39;content/english/notes&#39;)
+changes = {
+&#39;platform-reach-is-borrowed.md&#39;: {
+&#39;level_5: &#34;[[Digital Minimalism]] and [OKF Export](/notes/okf-export/) assume you can leave - [[Digital Garden]] and [[Future-Proofing Knowledge]] hold what social cannot take.&#34;&#39;: &#39;level_5: &#34;Build an exit path: publish canonical work in a [[Digital Garden]], keep an [OKF Export](/notes/okf-export/), and use borrowed reach only to point home.&#34;&#39;,
+},
+&#39;pkm.md&#39;: {
+&#39;level_5: &#34;[[Building a Second Brain]] names CODE; [[PARA Method]] holds organize - this garden is where reuse happens after capture.&#34;&#39;: &#39;level_5: &#34;Build one complete PKM loop: capture with CODE, organize with [[PARA Method]], then turn one saved idea into work someone can use.&#34;&#39;,
+},
+&#39;pray-when-drained.md&#39;: {
+&#39;level_5: &#34;Mark 6:46 repeats the move after that long day - [[Jesus\&#39; Rhythms]] shows service finished, then prayer; [[Do not Worry]] trusts provision after the tank empties.&#34;&#39;: &#39;level_5: &#34;Build a post-service rhythm from Mark 6:46 and [[Jesus\&#39; Rhythms]]: dismiss the crowd, find solitude, pray, then rest without borrowing tomorrow\&#39;s trouble.&#34;&#39;,
+},
+&#39;para-method.md&#39;: {
+&#39;level_4: &#34;Projects carry deadlines; Areas carry ongoing responsibility; Resources wait unclaimed; Archives hold finished work.&#34;&#39;: &#39;level_4: &#34;PARA stays useful only while buckets follow action and responsibility - too many Resources recreate topic soup, and stale Projects should become Archives.&#34;&#39;,
+&#39;level_5: &#34;[[GTD vs PARA]] splits tasks from knowledge - [[Metadata Strategy]] stays light so taxonomy does not become a second job.&#34;&#39;: &#39;level_5: &#34;Build a four-bucket filing rule that keeps tasks in [[Getting Things Done]], knowledge in PARA, and [[Metadata Strategy]] light enough to maintain.&#34;&#39;,
+},
+&#39;psychological-safety.md&#39;: {
+&#39;level_5: &#34;Join their framing before you redirect blame - [[Listen Before Fixing]] and [[Heed Every Near-Miss]] need gratitude, not punishment, for reports.&#34;&#39;: &#39;level_5: &#34;Design a reporting habit around [[Listen Before Fixing]] and [[Heed Every Near-Miss]]: thank the report, hear the story, then fix the system without punishing honesty.&#34;&#39;,
+},
+&#39;quarterly-planning.md&#39;: {
+&#39;level_5: &#34;[[Purpose and Vision]] names the outcome; [[Periodic Knowledge Review]] shares the ninety-day rhythm - the block is guardrail, not slide deck ritual.&#34;&#39;: &#39;level_5: &#34;Build a thirteen-week cycle: name three outcomes with [[Purpose and Vision]], review progress weekly, and close with a [[Periodic Knowledge Review]].&#34;&#39;,
+},
+&#39;reading-the-garden.md&#39;: {
+&#39;level_5: &#34;Wiki holds prose you can defend; spine notes opt into cards - [[Spaced Repetition]] handles timed drill; [[Periodic Knowledge Review]] calendars the graph.&#34;&#39;: &#39;level_5: &#34;Build a reading route that moves from one defensible wiki claim to timed [[Spaced Repetition]] drills, then use [[Periodic Knowledge Review]] to repair the graph.&#34;&#39;,
+},
+&#39;peacemakers.md&#39;: {
+&#39;level_5: &#34;The blessing ties peacemaking to family resemblance - acting like the Father who reconciled you through [[Free Grace]] first.&#34;&#39;: &#39;level_5: &#34;Create a repair practice that mirrors the Father\&#39;s [[Free Grace]]: name the wrong, speak truth without heat, and make one concrete move toward reconciliation.&#34;&#39;,
+},
+&#39;pray-before-you-choose.md&#39;: {
+&#39;level_5: &#34;Choosing [[Invest in the Few]] was not a spreadsheet decision - [[Discern His Will Daily]] names testing after renewal; this names night-before-the-fork posture.&#34;&#39;: &#39;level_5: &#34;Build a major-choice rule: pray before the shortlist, test the choice with [[Discern His Will Daily]], then name whom you will [[Invest in the Few]].&#34;&#39;,
+},
+&#39;process-over-outcomes.md&#39;: {
+&#39;level_5: &#34;[[Compounding]] only stacks when the process holds - [[Change Takes Repetition]] and [[Notice the Good]] reinforce the loop, not only this week\&#39;s score.&#34;&#39;: &#39;level_5: &#34;Design a loop that survives a bad week, then use [[Change Takes Repetition]] and [[Notice the Good]] to strengthen the behavior until [[Compounding]] can work.&#34;&#39;,
+},
+&#39;reconcile-before-the-review.md&#39;: {
+&#39;level_5: &#34;Same order as [[Reconciliation Before Worship]], minus the religious frame - the person who knows there is a breach moves first with an owned apology.&#34;&#39;: &#39;level_5: &#34;Build a pre-review breach check from [[Reconciliation Before Worship]]: the person who knows there is a rift owns it, repairs it, then opens the scorecard.&#34;&#39;,
+},
+&#39;pareto-principle.md&#39;: {
+&#39;level_5: &#34;[[Low Hanging Fruit]] and [[Minimum Effective Dose]] apply the same skew - a lens before you spread hero energy evenly.&#34;&#39;: &#39;level_5: &#34;Create an 80/20 filter with [[Low Hanging Fruit]] and [[Minimum Effective Dose]]: protect the few inputs that drive results without cutting slow gains that compound.&#34;&#39;,
+},
+&#39;priorities-before-the-inbox.md&#39;: {
+&#39;level_5: &#34;[[Deep Work]] and [[Seek the Kingdom First]] name the same guardrail - [[Signal vs Noise]] filters what earns attention after the block.&#34;&#39;: &#39;level_5: &#34;Build a morning guardrail: choose the priority from [[Purpose and Vision]], protect one [[Deep Work]] block, then use [[Signal vs Noise]] on the inbox.&#34;&#39;,
+},
+&#39;practice-small-experiments.md&#39;: {
+&#39;level_5: &#34;[[Deliberate Practice]] reps plus [[Minimum Effective Dose]] trials beat one big-bang rollout - [[Failure as Feedback]] reads the miss without drama.&#34;&#39;: &#39;level_5: &#34;Design one cheap experiment with a [[Minimum Effective Dose]], repeat it through [[Deliberate Practice]], and use [[Failure as Feedback]] to keep, change, or drop it.&#34;&#39;,
+},
+&#39;preparedness.md&#39;: {
+&#39;level_5: &#34;[[Build a Reliable Default]] and [[Change Window]] assume rehearsed undo paths - the handbook minimum is not the same as a practiced team.&#34;&#39;: &#39;level_5: &#34;Write one [[Build a Reliable Default]] runbook, rehearse it inside a [[Change Window]], and revise the step that fails before the real alarm.&#34;&#39;,
+},
+&#39;present-a-living-sacrifice.md&#39;: {
+&#39;level_2: &#34;Following Jesus means letting Him lead each day - not staging misery for applause or stacking volunteer hours to feel acceptable.&#34;&#39;: &#39;level_2: &#34;A living sacrifice is worship carried through the body and ordinary choices - mercy comes first, so the offering is thanks rather than payment.&#34;&#39;,
+&#39;level_5: &#34;[[Mercy]] received first, then [[Grateful Obedience]] on ordinary Tuesdays - [[Renewed Mind]] pairs with sacrifice so offering does not become theater.&#34;&#39;: &#39;level_5: &#34;Build an ordinary-Tuesday rule from [[Mercy]], [[Grateful Obedience]], and [[Renewed Mind]]: offer one concrete choice without turning the act into proof of worth.&#34;&#39;,
+},
+&#39;process-mapping.md&#39;: {
+&#39;level_5: &#34;[[Shadow the Work]] is the move; [[People-Centered Design]] is the principle - mapping without watching fits nobody inside the process.&#34;&#39;: &#39;level_5: &#34;Build a living map: [[Shadow the Work]], draw the real handoffs, test it with the people inside the process, and update it when reality changes.&#34;&#39;,
+},
+&#39;pray-for-his-own.md&#39;: {
+&#39;level_5: &#34;The longest prayer the Gospels record - glory, the hour, and the people the Father gave Him; [[Free Grace]] puts me in the those who will believe branch.&#34;&#39;: &#39;level_5: &#34;Build an intercession pattern from John 17: pray for God\&#39;s glory, the keeping and unity of present disciples, and future believers reached through their word.&#34;&#39;,
+},
+&#39;peace.md&#39;: {
+&#39;level_5: &#34;[[Fruits of the Spirit]] clusters peace with [[Patience]] and [[Gentleness]] - [[Free Grace]] frees you from performance peace that collapses under trouble.&#34;&#39;: &#39;level_5: &#34;Build a response rhythm from [[Peace]], [[Patience]], and [[Gentleness]]: trust God, name the truth, and pursue repair without performing calm to earn standing.&#34;&#39;,
+},
+&#39;periodic-knowledge-review.md&#39;: {
+&#39;level_5: &#34;[[Maintenance Window]] and [[Active Knowledge Curation]] share the rhythm - [[Spaced Repetition]] handles cards; periodic review handles the graph.&#34;&#39;: &#39;level_5: &#34;Create a review calendar: use [[Spaced Repetition]] for cards, a weekly [[Maintenance Window]] for active notes, and quarterly [[Active Knowledge Curation]] for the graph.&#34;&#39;,
+},
+&#39;people-centered-design.md&#39;: {
+&#39;level_5: &#34;[[Safety by Design]] and [[Staged Rollout]] assume the same test - [[Listen Before Fixing]] and [[Psychological Safety]] come first.&#34;&#39;: &#39;level_5: &#34;Build a people-centered pilot: [[Listen Before Fixing]], make speaking up safe with [[Psychological Safety]], then use [[Staged Rollout]] to learn before scaling.&#34;&#39;,
+},
+&#39;portable-software.md&#39;: {
+&#39;level_5: &#34;[[Cross-Platform Software]] picked up when OS count rose; [[Freedom Over Free]] names why no installer beats no license fee.&#34;&#39;: &#39;level_5: &#34;Package a toolchain that runs from one owned folder, then extend it with [[Cross-Platform Software]] checks so the same work survives the next machine.&#34;&#39;,
+},
+&#39;read-in-synagogue.md&#39;: {
+&#39;level_5: &#34;[[Love God]] names heart, soul, mind, strength - this is the gathered lane alongside private [[Abide in Me]] reading under [[Free Grace]].&#34;&#39;: &#39;level_5: &#34;Build a weekly Scripture rhythm with both lanes: private [[Abide in Me]] reading and public reading with God\&#39;s people, neither used to earn what [[Free Grace]] gives.&#34;&#39;,
+},
+&#39;permission-scales.md&#39;: {
+&#39;level_4: &#34;Friedman flattener four named what classrooms already felt - not moral purity, a flattener an ordinary developer could ride.&#34;&#39;: &#39;level_4: &#34;Open permission removes the product-key gate, not weak bandwidth, old hardware, English barriers, or a thin local job market.&#34;&#39;,
+&#39;level_5: &#34;[[Freedom Over Free]] is the personal split; [[Teachable Stack]] is classroom proof; [[Learn Hireable Stacks]] sits local job boards on global tools.&#34;&#39;: &#39;level_5: &#34;Publish a [[Teachable Stack]] that anyone can download, then pair the global tools with [[Learn Hireable Stacks]] so local job demand shapes what students practice.&#34;&#39;,
+},
+&#39;purpose-and-vision.md&#39;: {
+&#39;level_5: &#34;[[Quarterly Planning]] keeps vision on rhythm; [[Priorities Before the Inbox]] protects it from the siren - [[Seek the Kingdom First]] orders the faith lane.&#34;&#39;: &#39;level_5: &#34;Build a planning stack: name the outcome, review it through [[Quarterly Planning]], and protect it each morning with [[Priorities Before the Inbox]].&#34;&#39;,
+},
+&#39;prayer-jesus-taught.md&#39;: {
+&#39;level_5: &#34;[[Jesus\&#39; Prayers]] indexes verbatim speeches; this hub maps the teaching thread - [[Eternal Principles]] holds the one-claim spine notes.&#34;&#39;: &#39;level_5: &#34;Build a prayer teaching map that separates what Jesus taught from [[Jesus\&#39; Prayers]], then extend each instruction into one claim under [[Eternal Principles]].&#34;&#39;,
+},
+&#39;plain-commitments-at-work.md&#39;: {
+&#39;level_4: &#34;One deadline, one owner, one plain answer in Slack - extra spin on a miss lands harder than an honest no.&#34;&#39;: &#39;level_4: &#34;Plain answers build trust only when capacity and scope are honest - a crisp yes still fails when the deadline or owner is fiction.&#34;&#39;,
+&#39;level_5: &#34;[[Let Your Yes Be Yes]] and [[Integrity]] apply the same rule - [[Drafting in Public]] outruns private honesty when commitments get performative.&#34;&#39;: &#39;level_5: &#34;Create a commitment template from [[Let Your Yes Be Yes]] and [[Integrity]]: one owner, one deadline, one scope, and one early no when capacity is gone.&#34;&#39;,
+},
+&#39;patience.md&#39;: {
+&#39;level_5: &#34;[[Abide in Me]] is the engine; [[Sanctification]] is the slow becoming - [[Fruits of the Spirit]] ripens patience over years.&#34;&#39;: &#39;level_5: &#34;Build a delay practice around [[Abide in Me]]: pause, name the urge, choose the gentle response, and let [[Sanctification]] deepen the habit over years.&#34;&#39;,
+},
+&#39;reconciliation-before-worship.md&#39;: {
+&#39;level_5: &#34;[[Peacemakers]] names the active move; [[Note Relationships]] mirrors it in the garden - broken links between people need face-to-face repair before ceremony.&#34;&#39;: &#39;level_5: &#34;Create a repair-before-ceremony checklist: name the breach, go first like [[Peacemakers]], listen, make amends, then return to worship.&#34;&#39;,
+},
+}
+changed = []
+for name, replacements in changes.items():
+    path = root / name
+    text = path.read_text()
+    original = text
+    for old, new in replacements.items():
+        count = text.count(old)
+        if count != 1:
+            raise SystemExit(f&#39;{name}: expected one match, found {count}: {old}&#39;)
+        text = text.replace(old, new)
+    path.write_text(text)
+    changed.append(name)
+print(f&#39;Updated {len(changed)} files&#39;)
+for name in changed:
+    print(name)
+PY</summary>
+```bash
+python3 - <<'PY'
+from pathlib import Path
+root = Path('content/english/notes')
+changes = {
+'platform-reach-is-borrowed.md': {
+'level_5: "[[Digital Minimalism]] and [OKF Export](/notes/okf-export/) assume you can leave - [[Digital Garden]] and [[Future-Proofing Knowledge]] hold what social cannot take."': 'level_5: "Build an exit path: publish canonical work in a [[Digital Garden]], keep an [OKF Export](/notes/okf-export/), and use borrowed reach only to point home."',
+},
+'pkm.md': {
+'level_5: "[[Building a Second Brain]] names CODE; [[PARA Method]] holds organize - this garden is where reuse happens after capture."': 'level_5: "Build one complete PKM loop: capture with CODE, organize with [[PARA Method]], then turn one saved idea into work someone can use."',
+},
+'pray-when-drained.md': {
+'level_5: "Mark 6:46 repeats the move after that long day - [[Jesus\' Rhythms]] shows service finished, then prayer; [[Do not Worry]] trusts provision after the tank empties."': 'level_5: "Build a post-service rhythm from Mark 6:46 and [[Jesus\' Rhythms]]: dismiss the crowd, find solitude, pray, then rest without borrowing tomorrow\'s trouble."',
+},
+'para-method.md': {
+'level_4: "Projects carry deadlines; Areas carry ongoing responsibility; Resources wait unclaimed; Archives hold finished work."': 'level_4: "PARA stays useful only while buckets follow action and responsibility - too many Resources recreate topic soup, and stale Projects should become Archives."',
+'level_5: "[[GTD vs PARA]] splits tasks from knowledge - [[Metadata Strategy]] stays light so taxonomy does not become a second job."': 'level_5: "Build a four-bucket filing rule that keeps tasks in [[Getting Things Done]], knowledge in PARA, and [[Metadata Strategy]] light enough to maintain."',
+},
+'psychological-safety.md': {
+'level_5: "Join their framing before you redirect blame - [[Listen Before Fixing]] and [[Heed Every Near-Miss]] need gratitude, not punishment, for reports."': 'level_5: "Design a reporting habit around [[Listen Before Fixing]] and [[Heed Every Near-Miss]]: thank the report, hear the story, then fix the system without punishing honesty."',
+},
+'quarterly-planning.md': {
+'level_5: "[[Purpose and Vision]] names the outcome; [[Periodic Knowledge Review]] shares the ninety-day rhythm - the block is guardrail, not slide deck ritual."': 'level_5: "Build a thirteen-week cycle: name three outcomes with [[Purpose and Vision]], review progress weekly, and close with a [[Periodic Knowledge Review]]."',
+},
+'reading-the-garden.md': {
+'level_5: "Wiki holds prose you can defend; spine notes opt into cards - [[Spaced Repetition]] handles timed drill; [[Periodic Knowledge Review]] calendars the graph."': 'level_5: "Build a reading route that moves from one defensible wiki claim to timed [[Spaced Repetition]] drills, then use [[Periodic Knowledge Review]] to repair the graph."',
+},
+'peacemakers.md': {
+'level_5: "The blessing ties peacemaking to family resemblance - acting like the Father who reconciled you through [[Free Grace]] first."': 'level_5: "Create a repair practice that mirrors the Father\'s [[Free Grace]]: name the wrong, speak truth without heat, and make one concrete move toward reconciliation."',
+},
+'pray-before-you-choose.md': {
+'level_5: "Choosing [[Invest in the Few]] was not a spreadsheet decision - [[Discern His Will Daily]] names testing after renewal; this names night-before-the-fork posture."': 'level_5: "Build a major-choice rule: pray before the shortlist, test the choice with [[Discern His Will Daily]], then name whom you will [[Invest in the Few]]."',
+},
+'process-over-outcomes.md': {
+'level_5: "[[Compounding]] only stacks when the process holds - [[Change Takes Repetition]] and [[Notice the Good]] reinforce the loop, not only this week\'s score."': 'level_5: "Design a loop that survives a bad week, then use [[Change Takes Repetition]] and [[Notice the Good]] to strengthen the behavior until [[Compounding]] can work."',
+},
+'reconcile-before-the-review.md': {
+'level_5: "Same order as [[Reconciliation Before Worship]], minus the religious frame - the person who knows there is a breach moves first with an owned apology."': 'level_5: "Build a pre-review breach check from [[Reconciliation Before Worship]]: the person who knows there is a rift owns it, repairs it, then opens the scorecard."',
+},
+'pareto-principle.md': {
+'level_5: "[[Low Hanging Fruit]] and [[Minimum Effective Dose]] apply the same skew - a lens before you spread hero energy evenly."': 'level_5: "Create an 80/20 filter with [[Low Hanging Fruit]] and [[Minimum Effective Dose]]: protect the few inputs that drive results without cutting slow gains that compound."',
+},
+'priorities-before-the-inbox.md': {
+'level_5: "[[Deep Work]] and [[Seek the Kingdom First]] name the same guardrail - [[Signal vs Noise]] filters what earns attention after the block."': 'level_5: "Build a morning guardrail: choose the priority from [[Purpose and Vision]], protect one [[Deep Work]] block, then use [[Signal vs Noise]] on the inbox."',
+},
+'practice-small-experiments.md': {
+'level_5: "[[Deliberate Practice]] reps plus [[Minimum Effective Dose]] trials beat one big-bang rollout - [[Failure as Feedback]] reads the miss without drama."': 'level_5: "Design one cheap experiment with a [[Minimum Effective Dose]], repeat it through [[Deliberate Practice]], and use [[Failure as Feedback]] to keep, change, or drop it."',
+},
+'preparedness.md': {
+'level_5: "[[Build a Reliable Default]] and [[Change Window]] assume rehearsed undo paths - the handbook minimum is not the same as a practiced team."': 'level_5: "Write one [[Build a Reliable Default]] runbook, rehearse it inside a [[Change Window]], and revise the step that fails before the real alarm."',
+},
+'present-a-living-sacrifice.md': {
+'level_2: "Following Jesus means letting Him lead each day - not staging misery for applause or stacking volunteer hours to feel acceptable."': 'level_2: "A living sacrifice is worship carried through the body and ordinary choices - mercy comes first, so the offering is thanks rather than payment."',
+'level_5: "[[Mercy]] received first, then [[Grateful Obedience]] on ordinary Tuesdays - [[Renewed Mind]] pairs with sacrifice so offering does not become theater."': 'level_5: "Build an ordinary-Tuesday rule from [[Mercy]], [[Grateful Obedience]], and [[Renewed Mind]]: offer one concrete choice without turning the act into proof of worth."',
+},
+'process-mapping.md': {
+'level_5: "[[Shadow the Work]] is the move; [[People-Centered Design]] is the principle - mapping without watching fits nobody inside the process."': 'level_5: "Build a living map: [[Shadow the Work]], draw the real handoffs, test it with the people inside the process, and update it when reality changes."',
+},
+'pray-for-his-own.md': {
+'level_5: "The longest prayer the Gospels record - glory, the hour, and the people the Father gave Him; [[Free Grace]] puts me in the those who will believe branch."': 'level_5: "Build an intercession pattern from John 17: pray for God\'s glory, the keeping and unity of present disciples, and future believers reached through their word."',
+},
+'peace.md': {
+'level_5: "[[Fruits of the Spirit]] clusters peace with [[Patience]] and [[Gentleness]] - [[Free Grace]] frees you from performance peace that collapses under trouble."': 'level_5: "Build a response rhythm from [[Peace]], [[Patience]], and [[Gentleness]]: trust God, name the truth, and pursue repair without performing calm to earn standing."',
+},
+'periodic-knowledge-review.md': {
+'level_5: "[[Maintenance Window]] and [[Active Knowledge Curation]] share the rhythm - [[Spaced Repetition]] handles cards; periodic review handles the graph."': 'level_5: "Create a review calendar: use [[Spaced Repetition]] for cards, a weekly [[Maintenance Window]] for active notes, and quarterly [[Active Knowledge Curation]] for the graph."',
+},
+'people-centered-design.md': {
+'level_5: "[[Safety by Design]] and [[Staged Rollout]] assume the same test - [[Listen Before Fixing]] and [[Psychological Safety]] come first."': 'level_5: "Build a people-centered pilot: [[Listen Before Fixing]], make speaking up safe with [[Psychological Safety]], then use [[Staged Rollout]] to learn before scaling."',
+},
+'portable-software.md': {
+'level_5: "[[Cross-Platform Software]] picked up when OS count rose; [[Freedom Over Free]] names why no installer beats no license fee."': 'level_5: "Package a toolchain that runs from one owned folder, then extend it with [[Cross-Platform Software]] checks so the same work survives the next machine."',
+},
+'read-in-synagogue.md': {
+'level_5: "[[Love God]] names heart, soul, mind, strength - this is the gathered lane alongside private [[Abide in Me]] reading under [[Free Grace]]."': 'level_5: "Build a weekly Scripture rhythm with both lanes: private [[Abide in Me]] reading and public reading with God\'s people, neither used to earn what [[Free Grace]] gives."',
+},
+'permission-scales.md': {
+'level_4: "Friedman flattener four named what classrooms already felt - not moral purity, a flattener an ordinary developer could ride."': 'level_4: "Open permission removes the product-key gate, not weak bandwidth, old hardware, English barriers, or a thin local job market."',
+'level_5: "[[Freedom Over Free]] is the personal split; [[Teachable Stack]] is classroom proof; [[Learn Hireable Stacks]] sits local job boards on global tools."': 'level_5: "Publish a [[Teachable Stack]] that anyone can download, then pair the global tools with [[Learn Hireable Stacks]] so local job demand shapes what students practice."',
+},
+'purpose-and-vision.md': {
+'level_5: "[[Quarterly Planning]] keeps vision on rhythm; [[Priorities Before the Inbox]] protects it from the siren - [[Seek the Kingdom First]] orders the faith lane."': 'level_5: "Build a planning stack: name the outcome, review it through [[Quarterly Planning]], and protect it each morning with [[Priorities Before the Inbox]]."',
+},
+'prayer-jesus-taught.md': {
+'level_5: "[[Jesus\' Prayers]] indexes verbatim speeches; this hub maps the teaching thread - [[Eternal Principles]] holds the one-claim spine notes."': 'level_5: "Build a prayer teaching map that separates what Jesus taught from [[Jesus\' Prayers]], then extend each instruction into one claim under [[Eternal Principles]]."',
+},
+'plain-commitments-at-work.md': {
+'level_4: "One deadline, one owner, one plain answer in Slack - extra spin on a miss lands harder than an honest no."': 'level_4: "Plain answers build trust only when capacity and scope are honest - a crisp yes still fails when the deadline or owner is fiction."',
+'level_5: "[[Let Your Yes Be Yes]] and [[Integrity]] apply the same rule - [[Drafting in Public]] outruns private honesty when commitments get performative."': 'level_5: "Create a commitment template from [[Let Your Yes Be Yes]] and [[Integrity]]: one owner, one deadline, one scope, and one early no when capacity is gone."',
+},
+'patience.md': {
+'level_5: "[[Abide in Me]] is the engine; [[Sanctification]] is the slow becoming - [[Fruits of the Spirit]] ripens patience over years."': 'level_5: "Build a delay practice around [[Abide in Me]]: pause, name the urge, choose the gentle response, and let [[Sanctification]] deepen the habit over years."',
+},
+'reconciliation-before-worship.md': {
+'level_5: "[[Peacemakers]] names the active move; [[Note Relationships]] mirrors it in the garden - broken links between people need face-to-face repair before ceremony."': 'level_5: "Create a repair-before-ceremony checklist: name the breach, go first like [[Peacemakers]], listen, make amends, then return to worship."',
+},
+}
+changed = []
+for name, replacements in changes.items():
+    path = root / name
+    text = path.read_text()
+    original = text
+    for old, new in replacements.items():
+        count = text.count(old)
+        if count != 1:
+            raise SystemExit(f'{name}: expected one match, found {count}: {old}')
+        text = text.replace(old, new)
+    path.write_text(text)
+    changed.append(name)
+print(f'Updated {len(changed)} files')
+for name in changed:
+    print(name)
+PY
+```
+
+```
+Updated 29 files
+platform-reach-is-borrowed.md
+pkm.md
+pray-when-drained.md
+para-method.md
+psychological-safety.md
+quarterly-planning.md
+reading-the-garden.md
+peacemakers.md
+pray-before-you-choose.md
+process-over-outcomes.md
+reconcile-before-the-review.md
+pareto-principle.md
+priorities-before-the-inbox.md
+practice-small-experiments.md
+preparedness.md
+present-a-living-sacrifice.md
+process-mapping.md
+pray-for-his-own.md
+peace.md
+periodic-knowledge-review.md
+people-centered-design.md
+portable-software.md
+read-in-synagogue.md
+permission-scales.md
+purpose-and-vision.md
+prayer-jesus-taught.md
+plain-commitments-at-work.md
+patience.md
+reconciliation-before-worship.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Verifying fields and running lints**
+
+I need to verify specific fields. It seems like I might have to run lints in a garden-specific way, but it's tricky with commands. I'll consider using `git diff` for a scoped review and check the status.
+
+I can use the shell's `git diff` and potentially run lints parallel to that. I'll run `pnpm lint:garden` to catch unrelated failures, while also inspecting changes in packages. I want to ensure everything is checked properly!
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git diff --check -- &#39;content/english/notes/[pqr]*.md&#39; &amp;&amp; git diff --stat -- &#39;content/english/notes/[pqr]*.md&#39; &amp;&amp; git diff -- &#39;content/english/notes/[pqr]*.md&#39;</summary>
+```bash
+git diff --check -- 'content/english/notes/[pqr]*.md' && git diff --stat -- 'content/english/notes/[pqr]*.md' && git diff -- 'content/english/notes/[pqr]*.md'
+```
+
+```
+ content/english/notes/para-method.md                   | 4 ++--
+ content/english/notes/pareto-principle.md              | 2 +-
+ content/english/notes/patience.md                      | 2 +-
+ content/english/notes/peace.md                         | 2 +-
+ content/english/notes/peacemakers.md                   | 2 +-
+ content/english/notes/people-centered-design.md        | 2 +-
+ content/english/notes/periodic-knowledge-review.md     | 2 +-
+ content/english/notes/permission-scales.md             | 4 ++--
+ content/english/notes/pkm.md                           | 2 +-
+ content/english/notes/plain-commitments-at-work.md     | 4 ++--
+ content/english/notes/platform-reach-is-borrowed.md    | 2 +-
+ content/english/notes/portable-software.md             | 2 +-
+ content/english/notes/practice-small-experiments.md    | 2 +-
+ content/english/notes/pray-before-you-choose.md        | 2 +-
+ content/english/notes/pray-for-his-own.md              | 2 +-
+ content/english/notes/pray-when-drained.md             | 2 +-
+ content/english/notes/prayer-jesus-taught.md           | 2 +-
+ content/english/notes/preparedness.md                  | 2 +-
+ content/english/notes/present-a-living-sacrifice.md    | 4 ++--
+ content/english/notes/priorities-before-the-inbox.md   | 2 +-
+ content/english/notes/process-mapping.md               | 2 +-
+ content/english/notes/process-over-outcomes.md         | 2 +-
+ content/english/notes/psychological-safety.md          | 2 +-
+ content/english/notes/purpose-and-vision.md            | 2 +-
+ content/english/notes/quarterly-planning.md            | 2 +-
+ content/english/notes/read-in-synagogue.md             | 2 +-
+ content/english/notes/reading-the-garden.md            | 2 +-
+ content/english/notes/reconcile-before-the-review.md   | 2 +-
+ content/english/notes/reconciliation-before-worship.md | 2 +-
+ 29 files changed, 33 insertions(+), 33 deletions(-)
+diff --git a/content/english/notes/para-method.md b/content/english/notes/para-method.md
+index 169faaa3..d4fdb00
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="read_lints"><details>
+<summary>Tool use: **read_lints**</summary>
+
+Parameters:
+
+```json
+{
+  "paths": [
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes"
+  ]
+}
+```
+Result:
+
+```json
+{
+  "linterErrorsByFile": [
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes"
+    }
+  ]
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Inspecting output file**
+
+I need to inspect the output from ReadFile because the command output is too large. It seems to include all pre-existing modifications to pqr, which could be pretty massive, considering there are over 29 prior user edits. I really want to ensure I'm only focusing on my edits. I might end up using git diff to filter for relevant lines with shell commands. I can read the 417 lines since that’s manageable!
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/837b0780-955f-4677-aa9d-5f134155a6b5.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Refining the runbook grammar**
+
+I'm noticing the phrasing "Build one [[Build a Reliable Default]] runbook" seems awkward. Changing it to "Build an ordinary-Tuesday rule from Mercy..." feels better. There's also an unnecessary self-link to [[Peace]] in level 5 that I can remove. I think using [[Fruits of Spirit]] maintains some relevance. I'll need to run a lint check for voice and sloppiness. Since the entire repository is modified, it might not pass, but I'm considering running specific commands as well.
+**Analyzing uncertain cases in reporting**
+
+I'm thinking about how to report uncertain cases, considering whether to use index or meta pages rather than making an atomic claim. There are nuances in faith to consider. For instance, the L5 instruction derived from prayer might have questionable doctrinal wording, but it’s unrelated to the task. If the user asks to report uncertain cases, could I note that none exist? But we’ve intentionally left some unchanged. It’s like the meta/index notes convey page features. There’s also the Risk level 5 with generative aspects, and I need to patch using ApplyPatch.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/preparedness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: pnpm lint:voice</summary>
+```bash
+pnpm lint:voice
+```
+
+```
+Command 'pnpm' not found, did you mean:
+  command 'npm' from deb npm (9.2.0~ds1-2)
+Try: apt install <deb name>
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: pnpm lint:slop --notes-only</summary>
+```bash
+pnpm lint:slop --notes-only
+```
+
+```
+Command 'pnpm' not found, did you mean:
+  command 'npm' from deb npm (9.2.0~ds1-2)
+Try: apt install <deb name>
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git diff --check -- &#39;content/english/notes/[pqr]*.md&#39;</summary>
+```bash
+git diff --check -- 'content/english/notes/[pqr]*.md'
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="read_lints"><details>
+<summary>Tool use: **read_lints**</summary>
+
+Parameters:
+
+```json
+{
+  "paths": [
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/periodic-knowledge-review.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/permission-scales.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/platform-reach-is-borrowed.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/portable-software.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/practice-small-experiments.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-before-you-choose.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-when-drained.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/preparedness.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/present-a-living-sacrifice.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/priorities-before-the-inbox.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/process-mapping.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/process-over-outcomes.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/psychological-safety.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/purpose-and-vision.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/quarterly-planning.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/read-in-synagogue.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/reading-the-garden.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconciliation-before-worship.md"
+  ]
+}
+```
+Result:
+
+```json
+{
+  "linterErrorsByFile": [
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/periodic-knowledge-review.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/permission-scales.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/platform-reach-is-borrowed.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/portable-software.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/practice-small-experiments.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-before-you-choose.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documen
+… (output truncated)
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Exploring package management**
+
+I'm considering using Corepack with pnpm, maybe checking if Corepack is installed. First, I'll see if pnpm is in the node_modules. I should run the Corepack pnpm lint commands, but I also need to inspect the git diff count to make sure only 29 changes were made. It could work to run node scripts from the package.json, but I might need to read it first. I could quickly check the Corepack pnpm version before executing the commands.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+The edits are structurally clean and the IDE reports no diagnostics. The repository’s requested prose checks could not start because `pnpm` is not on this shell’s PATH; I’m checking whether the bundled Corepack route is available before treating that as the only verification gap.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: corepack pnpm lint:voice &amp;&amp; corepack pnpm lint:slop --notes-only</summary>
+```bash
+corepack pnpm lint:voice && corepack pnpm lint:slop --notes-only
+```
+
+```
+node:fs:1370
+  const result = binding.mkdir(
+                         ^
+
+Error: EACCES: permission denied, mkdir '/home/jorap/.cache/node/corepack/v1'
+    at mkdirSync (node:fs:1370:26)
+    at getTemporaryFolder (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:21953:27)
+    at download (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:22288:21)
+    at installVersion (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:22386:61)
+    at async Engine.ensurePackageManager (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:22899:32)
+    at async Engine.executePackageManagerRequest (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23010:25)
+    at async Object.runMain (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23710:7) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/home/jorap/.cache/node/corepack/v1'
+}
+
+Node.js v22.23.0
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git diff --name-only -- &#39;content/english/notes/[pqr]*.md&#39;</summary>
+```bash
+git diff --name-only -- 'content/english/notes/[pqr]*.md'
+```
+
+```
+content/english/notes/para-method.md
+content/english/notes/pareto-principle.md
+content/english/notes/patience.md
+content/english/notes/peace.md
+content/english/notes/peacemakers.md
+content/english/notes/people-centered-design.md
+content/english/notes/periodic-knowledge-review.md
+content/english/notes/permission-scales.md
+content/english/notes/pkm.md
+content/english/notes/plain-commitments-at-work.md
+content/english/notes/platform-reach-is-borrowed.md
+content/english/notes/portable-software.md
+content/english/notes/practice-small-experiments.md
+content/english/notes/pray-before-you-choose.md
+content/english/notes/pray-for-his-own.md
+content/english/notes/pray-when-drained.md
+content/english/notes/prayer-jesus-taught.md
+content/english/notes/preparedness.md
+content/english/notes/present-a-living-sacrifice.md
+content/english/notes/priorities-before-the-inbox.md
+content/english/notes/process-mapping.md
+content/english/notes/process-over-outcomes.md
+content/english/notes/psychological-safety.md
+content/english/notes/purpose-and-vision.md
+content/english/notes/quarterly-planning.md
+content/english/notes/read-in-synagogue.md
+content/english/notes/reading-the-garden.md
+content/english/notes/reconcile-before-the-review.md
+content/english/notes/reconciliation-before-worship.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: corepack pnpm lint:voice &amp;&amp; corepack pnpm lint:slop --notes-only</summary>
+```bash
+corepack pnpm lint:voice && corepack pnpm lint:slop --notes-only
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check
+Voice dash lint OK
+Voice lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Finalizing updates and checks**
+
+I need to ensure that the final UpdateCurrentStep is running in parallel with another mandatory tool. This is the last step before completing everything. I think it would be wise to incorporate checks like `git diff --check` and `status scoped` to make sure everything is in order. I'll use Update with Shell in parallel, so I can finalize everything efficiently. It’s important to keep all steps well-coordinated!
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git diff --check -- &#39;content/english/notes/[pqr]*.md&#39; &amp;&amp; git diff --stat -- &#39;content/english/notes/[pqr]*.md&#39;</summary>
+```bash
+git diff --check -- 'content/english/notes/[pqr]*.md' && git diff --stat -- 'content/english/notes/[pqr]*.md'
+```
+
+```
+ content/english/notes/para-method.md                   | 4 ++--
+ content/english/notes/pareto-principle.md              | 2 +-
+ content/english/notes/patience.md                      | 2 +-
+ content/english/notes/peace.md                         | 2 +-
+ content/english/notes/peacemakers.md                   | 2 +-
+ content/english/notes/people-centered-design.md        | 2 +-
+ content/english/notes/periodic-knowledge-review.md     | 2 +-
+ content/english/notes/permission-scales.md             | 4 ++--
+ content/english/notes/pkm.md                           | 2 +-
+ content/english/notes/plain-commitments-at-work.md     | 4 ++--
+ content/english/notes/platform-reach-is-borrowed.md    | 2 +-
+ content/english/notes/portable-software.md             | 2 +-
+ content/english/notes/practice-small-experiments.md    | 2 +-
+ content/english/notes/pray-before-you-choose.md        | 2 +-
+ content/english/notes/pray-for-his-own.md              | 2 +-
+ content/english/notes/pray-when-drained.md             | 2 +-
+ content/english/notes/prayer-jesus-taught.md           | 2 +-
+ content/english/notes/preparedness.md                  | 2 +-
+ content/english/notes/present-a-living-sacrifice.md    | 4 ++--
+ content/english/notes/priorities-before-the-inbox.md   | 2 +-
+ content/english/notes/process-mapping.md               | 2 +-
+ content/english/notes/process-over-outcomes.md         | 2 +-
+ content/english/notes/psychological-safety.md          | 2 +-
+ content/english/notes/purpose-and-vision.md            | 2 +-
+ content/english/notes/quarterly-planning.md            | 2 +-
+ content/english/notes/read-in-synagogue.md             | 2 +-
+ content/english/notes/reading-the-garden.md            | 2 +-
+ content/english/notes/reconcile-before-the-review.md   | 2 +-
+ content/english/notes/reconciliation-before-worship.md | 2 +-
+ 29 files changed, 33 insertions(+), 33 deletions(-)
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Reviewing file changes**
+
+I'm noting that I need to list 29 requested files concisely, possibly using a comma-separated format. I should highlight any uncertain cases too. The session close requires careful attention, so I'll avoid committing changes just yet. I have 41 files reviewed with 29 changed and some uncertain cases left unchanged, like random-duo and pressure-reveals-weakness. I should clarify if those uncertain ones should be addressed and ensure there's no claim of unrelated fields. I'll provide verification on that too.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Reviewed 41 notes; changed 29:
+
+`para-method`, `pareto-principle`, `patience`, `peace`, `peacemakers`, `people-centered-design`, `periodic-knowledge-review`, `permission-scales`, `pkm`, `plain-commitments-at-work`, `platform-reach-is-borrowed`, `portable-software`, `practice-small-experiments`, `pray-before-you-choose`, `pray-for-his-own`, `pray-when-drained`, `prayer-jesus-taught`, `preparedness`, `present-a-living-sacrifice`, `priorities-before-the-inbox`, `process-mapping`, `process-over-outcomes`, `psychological-safety`, `purpose-and-vision`, `quarterly-planning`, `read-in-synagogue`, `reading-the-garden`, `reconcile-before-the-review`, `reconciliation-before-worship`.
+
+Most fixes made `level_5` genuinely generative; four explanation/system mismatches were also corrected.
+
+Checks passed: voice lint, slop lint, IDE diagnostics, and `git diff --check`. No commit made.
+
+Uncertain: `random-duo`, `review`, and `pressure-reveals-weakness` are meta/index pages rather than atomic notes. Their ladders remain coherent, so I left them unchanged.
+
+## Session close
+- Fixed: Aligned p–r understanding ladders with their canonical jobs.
+- Encode: none
+- Open: Three coherent meta/index exceptions noted.

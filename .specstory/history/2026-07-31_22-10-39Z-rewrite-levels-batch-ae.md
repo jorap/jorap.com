@@ -140,4 +140,830 @@ _**Agent (composer-2.5-fast)**_
 ```bash
 for f in $(cat /tmp/level-batch-ae); do echo "=== $f ==="; grep -A0 "Level [1-5]:" "$f" 2>/dev/null || echo "MISSING"; done
 ```
+
+```
+=== /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-lid.md ===
+  - Level 1: Like a jar lid - a small lid cannot hold a gallon; low leadership caps what you can deliver.
+  - Level 2: Aaron folded without Moses - David out-led Saul - Rehoboam's harsh answer split the kingdom.
+  - Level 3: Under [[Free Grace]], raising your lid is discipleship growth, not earning heaven - but the ceiling still limits real-world fruit.
+  - Level 4: Ask a trusted peer where your leadership actually caps your team's output - name the lid before you blame the crew.
+  - Level 5: [[Servant Leadership]] raises the lid through service; [[Free Grace]] keeps growth from becoming a merit badge for heaven.
+--
+  - "Level 1: Like a jar lid - a small lid cannot hold a gallon; low leadership caps what you can deliver."
+  - "Level 2: Aaron folded without Moses - David out-led Saul - Rehoboam's harsh answer split the kingdom."
+=== /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-picture.md ===
+  - Level 1: Josiah tore down idols he read about - picture of reform matched proclamation.
+  - Level 2: Jesus washed feet. Paul said imitate me as I imitate Christ.
+  - Level 3: [[Let Your Light Shine]] - visible walk, not hidden-only piety.
+  - Level 4: Do the task you keep assigning - let the team see your hands on the unglamorous work first.
+  - Level 5: [[Let Your Light Shine]] and [[Integrity Without an Audience]] split visible example from hidden obedience.
+--
+  - "Level 1: Josiah tore down idols he read about - picture of reform matched proclamation."
+  - "Level 2: Jesus washed feet. Paul said imitate me as I imitate Christ."
+=== /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-timing.md ===
+  - Level 1: Saul offered sacrifice early and lost the kingdom - impatience misread the hour.
+  - Level 2: Esther waited for the king's scepter. Jesus avoided Judea until His hour came.
+  - Level 3: Wait is active navigation, not passive drift.
+  - Level
+… (output truncated)
+```
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The previous output was truncated. I need the full contents of all 40 files before editing.
+
+I'm reading the key_concept sections in batches. The ladder runs from Level 1 definition to Level 5 generative creation. I'll preserve the first claim bullet and rewrite only the five Level N bullets.
+
+I'm checking the canonical ladder example in depth-of-understanding.md. I noted the exact formatting rules: prefix `Level N:`, no contractions, no grade labels, no blank lines between bullets, and each level must explain the same idea at deeper depth without repeating itself.
+
+I've mapped the canonical ladder example: Level 1 defines open source in one sentence, Level 2 explains its purpose, Level 3 gives a practical application, Level 4 explores tradeoffs and limits, and Level 5 describes generative creation. Most current files misalign with this pattern. Level 1 bullets rely on analogies rather than definitions, and Levels 2 through 5 often repeat each other.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Reading each note's line 1 claim and full key_concept section.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import re, pathlib
+files = pathlib.Path(&#39;/tmp/level-batch-ae&#39;).read_text().strip().split(&#39;\n&#39;)
+for f in files:
+    p = pathlib.Path(f)
+    text = p.read_text()
+    m = re.search(r&#39;key_concept:\s*\|\s*\n((?:  - .*\n)+)&#39;, text)
+    if not m:
+        print(f&#34;NO KEY_CONCEPT: {p.name}&#34;)
+        continue
+    lines = m.group(1).strip().split(&#39;\n&#39;)
+    print(f&#34;\n=== {p.name} ===&#34;)
+    for line in lines[:12]:
+        print(line)
+PY</summary>
+```bash
+python3 << 'PY'
+import re, pathlib
+files = pathlib.Path('/tmp/level-batch-ae').read_text().strip().split('\n')
+for f in files:
+    p = pathlib.Path(f)
+    text = p.read_text()
+    m = re.search(r'key_concept:\s*\|\s*\n((?:  - .*\n)+)', text)
+    if not m:
+        print(f"NO KEY_CONCEPT: {p.name}")
+        continue
+    lines = m.group(1).strip().split('\n')
+    print(f"\n=== {p.name} ===")
+    for line in lines[:12]:
+        print(line)
+PY
+```
+
+```
+
+=== law-of-the-lid.md ===
+- Your leadership lid caps how much good you can carry - raise the lid or the load stalls.
+  - Level 1: Like a jar lid - a small lid cannot hold a gallon; low leadership caps what you can deliver.
+  - Level 2: Aaron folded without Moses - David out-led Saul - Rehoboam's harsh answer split the kingdom.
+  - Level 3: Under [[Free Grace]], raising your lid is discipleship growth, not earning heaven - but the ceiling still limits real-world fruit.
+  - Level 4: Ask a trusted peer where your leadership actually caps your team's output - name the lid before you blame the crew.
+  - Level 5: [[Servant Leadership]] raises the lid through service; [[Free Grace]] keeps growth from becoming a merit badge for heaven.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 1 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+
+=== law-of-the-picture.md ===
+- People copy what they see - your example is the louder sermon.
+  - Level 1: Josiah tore down idols he read about - picture of reform matched proclamation.
+  - Level 2: Jesus washed feet. Paul said imitate me as I imitate Christ.
+  - Level 3: [[Let Your Light Shine]] - visible walk, not hidden-only piety.
+  - Level 4: Do the task you keep assigning - let the team see your hands on the unglamorous work first.
+  - Level 5: [[Let Your Light Shine]] and [[Integrity Without an Audience]] split visible example from hidden obedience.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 13 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+
+=== law-of-timing.md ===
+- Right move, wrong clock, fails - timing is half of leadership.
+  - Level 1: Saul offered sacrifice early and lost the kingdom - impatience misread the hour.
+  - Level 2: Esther waited for the king's scepter. Jesus avoided Judea until His hour came.
+  - Level 3: Wait is active navigation, not passive drift.
+  - Level 4: Delay the public move one beat when the room is hot but the map is not ready - impatience costs kingdoms
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Some files lack key_concept frontmatter and were skipped.
+
+The output was truncated. I am now reading the missing middle files directly, including several that may use a different YAML block scalar format.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Checking files that failed parsing and fetching the missing middle section.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-light-shine.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-yes-be-yes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/moved-with-compassion.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import re, pathlib
+files = [
+&#39;linking-by-meaning.md&#39;,&#39;listen-before-fixing.md&#39;,&#39;literature-notes.md&#39;,&#39;local-first-software.md&#39;,
+&#39;loss-of-reward.md&#39;,&#39;love-god.md&#39;,&#39;love.md&#39;,&#39;love-your-enemies.md&#39;,&#39;love-your-neighbor.md&#39;,
+&#39;low-hanging-fruit.md&#39;,&#39;maintenance-window.md&#39;,&#39;many-parts-one-body.md&#39;,&#39;maps-of-content.md&#39;,
+&#39;measure-then-iterate.md&#39;,&#39;mental-models.md&#39;,&#39;mercy.md&#39;,&#39;metadata-strategy.md&#39;,
+&#39;let-your-light-shine.md&#39;,&#39;let-your-yes-be-yes.md&#39;,&#39;moved-with-compassion.md&#39;]
+base = pathlib.Path(&#39;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#39;)
+for name in files:
+    p = base / name
+    text = p.read_text()
+    # try block scalar
+    m = re.search(r&#39;key_concept:\s*\|\s*\n((?:  - .*\n)+)&#39;, text)
+    if not m:
+        m = re.search(r&#39;key_concept:\s*\|\s*\n((?:  - .*\n)+?)(?=\nexamples:)&#39;, text, re.DOTALL)
+    if not m:
+        # inline or quoted
+        m2 = re.search(r&#39;key_concept:\s*\n((?:  - .*\n)+)&#39;, text)
+        if m2:
+            lines = m2.group(1).strip().split(&#39;\n&#39;)
+        else:
+            print(f&#34;NO KEY_CONCEPT: {name}&#34;)
+            continue
+    else:
+        lines = m.group(1).strip().split(&#39;\n&#39;)
+    print(f&#34;\n=== {name} ===&#34;)
+    for line in lines[:12]:
+        print(line)
+PY</summary>
+```bash
+python3 << 'PY'
+import re, pathlib
+files = [
+'linking-by-meaning.md','listen-before-fixing.md','literature-notes.md','local-first-software.md',
+'loss-of-reward.md','love-god.md','love.md','love-your-enemies.md','love-your-neighbor.md',
+'low-hanging-fruit.md','maintenance-window.md','many-parts-one-body.md','maps-of-content.md',
+'measure-then-iterate.md','mental-models.md','mercy.md','metadata-strategy.md',
+'let-your-light-shine.md','let-your-yes-be-yes.md','moved-with-compassion.md']
+base = pathlib.Path('/home/jorap/Documents/GitHub/jorap.com/content/english/notes')
+for name in files:
+    p = base / name
+    text = p.read_text()
+    # try block scalar
+    m = re.search(r'key_concept:\s*\|\s*\n((?:  - .*\n)+)', text)
+    if not m:
+        m = re.search(r'key_concept:\s*\|\s*\n((?:  - .*\n)+?)(?=\nexamples:)', text, re.DOTALL)
+    if not m:
+        # inline or quoted
+        m2 = re.search(r'key_concept:\s*\n((?:  - .*\n)+)', text)
+        if m2:
+            lines = m2.group(1).strip().split('\n')
+        else:
+            print(f"NO KEY_CONCEPT: {name}")
+            continue
+    else:
+        lines = m.group(1).strip().split('\n')
+    print(f"\n=== {name} ===")
+    for line in lines[:12]:
+        print(line)
+PY
+```
+
+```
+
+=== linking-by-meaning.md ===
+- Folders sort files; links connect ideas.
+  - Level 1: Folders put papers in separate drawers - links hook one idea to another like a string between two pictures so you can follow the trail.
+  - Level 2: Folders group files by where they sit - links connect notes by what one idea means to another so you can walk the chain.
+  - Level 3: Linking by meaning beats filing by folder because ideas cross topics - links carry the relationship, not the drawer label.
+  - Level 4: Link two notes when one extends or pushes back on the other - that is enough for the graph to stay walkable months later.
+  - Level 5: [[Atomic Notes]] plus [[Linking by Meaning]] beat alphabet soup inside [[PARA Method]] buckets - two typed links per note often outlast whatever folder path you forgot.
+  - I link notes so ideas meet in the graph without me memorizing every folder path.
+  - Two typed links are enough for the garden to stay walkable six months later when the folder path is gone.
+  - One link to what extends the thought, one to what pushes back.
+
+=== listen-before-fixing.md ===
+- I repeat what I heard before I prescribe.
+  - Level 1: Say back what you heard before you tell someone what to do - like repeating the story your friend just told before you give advice.
+  - Level 2: Repeat their words in your own voice before you offer advice - that proves you listened, not just waited to talk.
+  - Level 3: Listen-before-fixing means prescribing only after the other person feels heard - otherwise advice lands like correction.
+  - Level 4: Mirror what they said, pause, then respond - one sentence of playback buys trust for whatever you say next.
+  - Level 5: [[Follow Their Lead]] and [[Gentleness]] depend on this order - [[Safety Comes First]] is the exception when delay would let harm continue.
+  - Repeating what I heard keeps advice from landing like a correction.
+
+=== literature-notes.md ===
+- A highlight dump is not thinking - the author's idea has to pass thr
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Several faith notes failed parsing. The likely cause is bible shortcodes appearing before the first claim line. I will inspect those files next.
+
+let-your-light-shine, let-your-yes-be-yes, and moved-with-compassion all place bible blocks before the claim. I will read the remaining files now.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-enemies.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-neighbor.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/many-parts-one-body.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 40 files are now mapped out.
+
+The ladder pattern is now clear. Level 1 defines the concept. Level 2 explains meaning and purpose. Level 3 covers application. Level 4 addresses systems and tradeoffs. Level 5 is generative. Each level deepens the same atomic claim. Frontmatter will use no contractions.
+
+Drafting has begun. The first file, law-of-the-lid.md, is being rewritten with Level 1 defining the lid ceiling, Level 2 using the jar-lid analogy, and Level 3 applying the concept to missed targets.
+
+law-of-the-lid.md now has Levels 4 and 5. Level 4 cites biblical failures like Aaron and Rehoboam. Level 5 links servant leadership to Free Grace growth. law-of-the-picture.md is drafted with Level 1 defining the law as people copying what they see.
+
+law-of-the-picture.md is now fully drafted through Level 5. Level 2 uses Josiah, Jesus, and Paul as visible examples. Level 3 applies to unglamorous tasks. Level 4 contrasts visible performance with hidden piety. Level 5 links to Let Your Light Shine and Integrity Without an Audience.
+
+Drafting has moved to law-of-timing.md. Level 1 states that right moves fail when the clock is wrong.
+
+law-of-timing.md is now fully drafted through Level 5. Level 2 cites Saul, Esther, and Jesus as examples of timing. Level 3 delays public moves until the map is ready. Level 4 frames waiting as active navigation rather than passive drift. Level 5 links to Pray Before You Choose and Strategic Foresight. Drafting has moved to law-of-victory.md.
+
+Drafting for law-of-victory.md is underway. Level 1 frames the law as leaders accepting responsibility for finding a winning path for the team. Level 2 cites Samson, Jonathan, and the four friends as flawed people who still cleared the path. Level 3 asks the reader to define winning in one sentence and remove one blocker the team cannot clear alone. Level 4 states that victory is not comfort, but clearing the path even when the cost lands on the leader first.
+
+Drafting for law-of-victory.md is now complete through Level 5, linking to Finish Strong and Steward After the Win. The next file, layered-reading.md, is being rewritten. Level 1 defines layered reading as returning to the same source at increasing depth. Level 2 compares it to peeling an onion, extracting structure and evidence on each pass. Level 3 instructs the reader to run skim, mark, and summarize passes before claiming they know the material.
+
+layered-reading.md is now fully drafted through Level 5. Level 4 notes that one pass cannot hold structure, evidence, and vocabulary at once. Level 5 links to The Feynman Technique and Active Reading.
+
+Drafting has moved to leadership-is-influence.md. Level 1 defines leadership as influence rather than a title. Level 2 uses the parade-without-marchers analogy to show that leadership requires followers.
+
+leadership-is-influence.md is now fully drafted through Level 5. Level 3 checks whether anyone is actually moving with the goal. Level 4 distinguishes borrowed title authority from earned influence. Level 5 links to Influence Without Title and Title Without Influence.
+
+Drafting has moved to leadership.md. Level 1 defines leadership as keeping people who depend on you feeling noticed when pressure spikes, not merely keeping deliverables on track.
+
+leadership.md is now fully drafted through Level 5. Level 2 uses the captain-and-storm analogy. Level 3 asks the reader to name one team member and confirm they still feel seen before chasing the next milestone. Level 4 explains that unseen people stop giving their best when trust erodes under load. Level 5 links to Servant Leadership and Duty of Care.
+
+Drafting has moved to lean-startup.md. Level 1 states that the smallest test must come before scaling.
+
+lean-startup.md is now fully drafted through Level 4. Level 2 uses the soup-tasting analogy. Level 3 asks shipping a rough prototype this week before scheduling the full roadmap. Level 4 warns that big builds before demand burn cash and morale, while small tests produce cheap learning loops.
+
+lean-startup.md is now fully drafted through Level 5. Level 5 links to Practice Small Experiments and Ship It.
+
+Drafting has moved to learn-hireable-stacks.md. Level 1 defines a hireable stack as the toolset local employers actually list in job posts, not a niche option that wins diagram contests. Level 2 uses the band instrument analogy, noting that market depth beats classroom elegance when rent is due.
+
+learn-hireable-stacks.md is now fully drafted through Level 5. Level 3 asks the reader to count local job listings before committing six months to a framework. Level 4 links Open Source and Community Depth to real income lanes, rejecting diagram charm as a paycheck. Level 5 links Teachable Stack to Selling Static Sites and client WordPress work.
+
+Drafting has moved to learning-organizations.md. Level 1 states that the "what broke" line stays until the issue is fixed or accepted.
+
+learning-organizations.md is now drafted through Level 4. Level 2 uses the sticky-note-on-the-fridge analogy to keep the failure visible until the leak is repaired. Level 3 instructs the reader to post the incident on the team board and leave it there until the process changes or leadership signs off. Level 4 warns that burying the miss guarantees the same error repeats because nobody decided to fix or accept it.
+
+learning-organizations.md is now fully drafted through Level 5. Level 5 links Incident Investigation to Continuous Improvement, closing the line without blame.
+
+let-your-light-shine.md is now drafted through Level 2. Level 1 frames good works as visible so people praise God, not the author. Level 2 compares the hill to a lighthouse meant to point to the Father, not a billboard with the author’s face.
+
+let-your-light-shine.md is now fully drafted through Level 5. Level 3 asks whether observers will glorify the Father or applaud the author. Level 4 warns that if the audience praises the author instead, the light pointed the wrong way. Level 5 links to God Centered Design and Secret Devotion. Drafting has moved to let-your-yes-be-yes.md. Level 1 states that yes means yes, and padded oaths prove the word was not trustworthy on its own.
+
+let-your-yes-be-yes.md is now drafted through Level 4. Level 1 says yes means yes without stacked oaths. Level 2 warns that extra swearing and hype mean people never trusted the ordinary word. Level 3 says plain yes or no at work and home; if spin is needed, fix follow-through, not vocabulary. Level 4 cites Jesus as the example of plain speech, because padded promises reveal the ordinary word was never enough.
+
+let-your-yes-be-yes.md is now fully drafted through Level 5. Level 5 links Integrity to Heart Righteousness, rejecting padded oaths as prose-stuffed Atomic Notes instead of one plain claim.
+
+Drafting has moved to life-before-achievement.md. Level 1 states that a win counts only when the path does not break safety rules or leave permanent harm. Level 2 compares the finish line to a race where the method must respect safety before the trophy.
+
+life-before-achievement.md is now fully drafted through Level 5. Level 3 asks whether the route protects people before chasing the metric. Level 4 warns that a win costing health or trust is borrowed time. Level 5 links Safety by Design and Duty of Care upstream of any target.
+
+Drafting has moved to linking-by-meaning.md. Level 1 defines linking by meaning as connecting ideas because one idea relates to another, not because they share a folder.
+
+linking-by-meaning.md is now fully drafted through Level 5. Level 2 compares folders to drawers and links to strings between pictures. Level 3 says link notes only when one extends or pushes back on the other. Level 4 says links carry the relationship across topics, not the drawer label. Level 5 links Atomic Notes and Linking by Meaning to beat alphabet soup inside PARA Method buckets.
+
+Drafting has moved to listen-before-fixing.md.
+
+listen-before-fixing.md is now drafted through Level 4. Level 1 says repeat what you heard before prescribing. Level 2 compares replaying the story to waiting to talk. Level 3 asks mirroring in one sentence, pausing, then responding. Level 4 warns that prescribing before the other feels heard lands like correction.
+
+listen-before-fixing.md is now fully drafted through Level 5. Level 5 links Follow Their Lead and Gentleness to the replay order, with Safety Coming First as the exception when delay lets harm continue.
+
+literature-notes.md is now drafted through Level 2. Level 1 says literature notes must be your own words, not a highlight dump. Level 2 compares telling the story in your voice to reading every yellow mark back to a friend.
+
+literature-notes.md is now fully drafted through Level 5. Level 3 warns that if a page reads like a highlight reel, the book was captured rather than thought through. Level 4 places literature notes between reading and evergreen writing, translating the author into one’s own vocabulary before ideas are linked. Level 5 links Atomic Notes to Layered Reading, feeding the stack without a highlight dump.
+
+Drafting has moved to local-first-software.md. Level 1 states that truth lives on the device first; cloud sync is backup, not the vault.
+
+local-first-software.md is now drafted through Level 4. Level 2 compares the master copy to a diary kept in one’s room and photocopied for safety. Level 3 picks tools that work offline with full features, treating sync as insurance. Level 4 warns that cloud-only stacks fail when the tenant changes the rules.
+
+local-first-software.md is now fully drafted through Level 5. Level 5 links Building a Personal API and Digital Minimalism to the assumption that reading and writing work without begging a server.
+
+Drafting has moved to loss-of-reward.md. Level 1 says a saved believer can forfeit repayment for faithful living while eternal life stays secure on Christ. Level 2 compares faithful use to watering a plant instead of hiding the seed in a drawer, warning that burying talent risks losing even what was given.
+
+loss-of-reward.md is now fully drafted through Level 5. Level 3 warns that wasted seasons may lose reward at the Judgment Seat without reopening justification. Level 4 says worthless works burn at the judgment seat; eternal life stays on faith alone, yet wood hay and stubble do not earn repayment. Level 5 distinguishes Free Grace for eternal life from Eternal Rewards for lasting works, using Standing versus Fellowship to keep shame from collapsing standing.
+
+Drafting has moved to love-god.md. Level 1 says whole-person devotion beats a Sunday-only corner.
+
+love-god.md is now drafted through Level 4. Level 1 states that whole-person devotion means devoting heart, soul, mind, and strength to God, not a Sunday-only corner. Level 2 compares this to loving your family all week, not only at dinner. Level 3 audits where time and attention actually go, warning that if God gets one hour while everything else gets the week, devotion is partitioned. Level 4 frames this as the first call on a life already saved by faith, with love flowing from grace received rather than payment for eternal
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Rewriting Level 1–5 bullets across all 40 files to match the depth ladder.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-lid.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-picture.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-timing.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-victory.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/layered-reading.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/leadership-is-influence.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/lean-startup.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/learn-hireable-stacks.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/learning-organizations.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Ten files processed. Thirty remain. Continuing with the next batch.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-light-shine.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-yes-be-yes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/life-before-achievement.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/linking-by-meaning.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/listen-before-fixing.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/literature-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/local-first-software.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Twenty files are done. Twenty remain.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-enemies.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-neighbor.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/low-hanging-fruit.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maintenance-window.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/many-parts-one-body.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maps-of-content.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/measure-then-iterate.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mental-models.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/metadata-strategy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Thirty of forty files are done. Ten remain: mind-mapping, minimum-effective-dose, minimum-viable-product, mobile-capture-workflows, moved-with-compassion, name-the-feeling, network-analysis, normalization-of-deviance, note-relationships, and notice-the-good.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mind-mapping.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-effective-dose.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-viable-product.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mobile-capture-workflows.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/moved-with-compassion.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/name-the-feeling.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/network-analysis.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/normalization-of-deviance.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/notice-the-good.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 40 files will be updated.
+
+Verifying counts and structure across all 40 files. Correcting a duplicate Level 5 bullet in life-before-achievement.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Verifying all 40 files were updated correctly.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import re, pathlib
+files = pathlib.Path(&#39;/tmp/level-batch-ae&#39;).read_text().strip().split(&#39;\n&#39;)
+issues = []
+updated = 0
+for f in files:
+    p = pathlib.Path(f)
+    text = p.read_text()
+    levels = re.findall(r&#39;^  - Level [1-5]:.*$&#39;, text, re.M)
+    if len(levels) != 5:
+        issues.append(f&#34;{p.name}: expected 5 levels, found {len(levels)}&#34;)
+        continue
+    updated += 1
+    # check prefix
+    for i, line in enumerate(levels, 1):
+        if not line.startswith(f&#39;  - Level {i}: &#39;):
+            issues.append(f&#34;{p.name}: bad prefix on level {i}&#34;)
+    # contractions in levels
+    for line in levels:
+        if re.search(r&#34;\b(don&#39;t|can&#39;t|won&#39;t|it&#39;s|you&#39;re|didn&#39;t|isn&#39;t|aren&#39;t|wasn&#39;t|weren&#39;t|haven&#39;t|hasn&#39;t|wouldn&#39;t|shouldn&#39;t|couldn&#39;t)\b&#34;, line, re.I):
+            issues.append(f&#34;{p.name}: contraction in {line[:60]}...&#34;)
+    # grade labels
+    for line in levels:
+        if re.search(r&#39;\b(beginner|intermediate|advanced|Level [1-5] reader)\b&#39;, line, re.I):
+            issues.append(f&#34;{p.name}: grade label in levels&#34;)
+
+print(f&#34;Updated: {updated}/40&#34;)
+if issues:
+    print(&#34;Issues:&#34;)
+    for i in issues: print(&#34; &#34;, i)
+else:
+    print(&#34;All checks passed&#34;)
+PY</summary>
+```bash
+python3 << 'PY'
+import re, pathlib
+files = pathlib.Path('/tmp/level-batch-ae').read_text().strip().split('\n')
+issues = []
+updated = 0
+for f in files:
+    p = pathlib.Path(f)
+    text = p.read_text()
+    levels = re.findall(r'^  - Level [1-5]:.*$', text, re.M)
+    if len(levels) != 5:
+        issues.append(f"{p.name}: expected 5 levels, found {len(levels)}")
+        continue
+    updated += 1
+    # check prefix
+    for i, line in enumerate(levels, 1):
+        if not line.startswith(f'  - Level {i}: '):
+            issues.append(f"{p.name}: bad prefix on level {i}")
+    # contractions in levels
+    for line in levels:
+        if re.search(r"\b(don't|can't|won't|it's|you're|didn't|isn't|aren't|wasn't|weren't|haven't|hasn't|wouldn't|shouldn't|couldn't)\b", line, re.I):
+            issues.append(f"{p.name}: contraction in {line[:60]}...")
+    # grade labels
+    for line in levels:
+        if re.search(r'\b(beginner|intermediate|advanced|Level [1-5] reader)\b', line, re.I):
+            issues.append(f"{p.name}: grade label in levels")
+
+print(f"Updated: {updated}/40")
+if issues:
+    print("Issues:")
+    for i in issues: print(" ", i)
+else:
+    print("All checks passed")
+PY
+```
+
+```
+Updated: 40/40
+All checks passed
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 40 files were updated successfully. No files were skipped.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+I will return the count of updated files and any skipped reasons.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+**Updated: 40**  
+**Skipped: 0**
+
+All files in `/tmp/level-batch-ae` got new Level 1–5 bullets in `key_concept` frontmatter:
+
+| Level | Role |
+|-------|------|
+| 1 | Definition — name the concept in one sentence |
+| 2 | Explanation — meaning, purpose, relationships (analogy OK) |
+| 3 | Application — real situation or decision |
+| 4 | Systems — tradeoffs, limits, larger context |
+| 5 | Generative — build, extend, create from the concept |
+
+Line 1 claim bullets and everything after Level 5 (hub lines, `{{< bible >}}` blocks, wikilink stacks) were untouched. Faith notes with scripture blocks before the levels (`let-your-light-shine`, `let-your-yes-be-yes`, `moved-with-compassion`, `loss-of-reward`, `love-god`, `love`, `love-your-enemies`, `love-your-neighbor`, `many-parts-one-body`, `mercy`) kept their bible shortcodes and gloss bullets unchanged.
+
+## Session close
+- Fixed: Rewrote Level 1–5 bullets in 40 batch-5 garden notes to match the depth-of-understanding ladder.
+- Encode: none
+- Open: clean

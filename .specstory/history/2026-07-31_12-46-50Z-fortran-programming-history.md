@@ -322,4 +322,121 @@ _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 I am ready to expand the blog post substantially.
+
+The expansion will deepen the opening with UPLB context and the side-door strategy. The OR section will gain richer course texture, including Fortran and the contrast between hand simplex and computer methods. The work section will cover XOOPS, the teacher path, the ASP-to-PHP transition, the Drupal-to-WordPress shift, WordCamp, and Hugo. Parenting will include the randomizer, the Kumon trial, and postcards. Failure modes will explore faith, sleep, and people. The closing will be strengthened. Fortran may be added to the facts ledger.
+
+The full expanded post will run roughly 1800 to 2200 words, nearly double the original length. The six-section structure remains intact. I will write the entire file in one pass.
 </details></think>
+
+_**Agent (auto-low)**_
+
+Expanding each section with ledger-backed specifics and running a voice pass.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__optimized-mindset-applied-math-or.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The facts ledger needs updating with a Fortran row and possibly a teaching/XOOPS path. The post references facts already recorded elsewhere.
+
+Running slop score and lint checks. The skill forbids em dashes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__optimized-mindset-applied-math-or.md 2&gt;&amp;1; pnpm lint:voice -- content/english/blog/__optimized-mindset-applied-math-or.md 2&gt;&amp;1 | head -40</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__optimized-mindset-applied-math-or.md 2>&1; pnpm lint:voice -- content/english/blog/__optimized-mindset-applied-math-or.md 2>&1 | head -40
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/__optimized-mindset-applied-math-or.md
+__optimized-mindset-applied-math-or.md   words=1881 total= 13 per100w=  0.69
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check -- content/english/blog/__optimized-mindset-applied-math-or.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The slop score is 0.69 per 100 words.
+
+Voice lint passed. Adding Fortran and teaching rows to the facts ledger.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding the Fortran fact to the ledger per author-context rules.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The blog post has been fully expanded.
+
+The post grew from roughly 900 to 1,881 words. New sections cover:
+- The intro now includes quota waitlist anxiety and high school math.
+- The OR section adds a feasible region corner insight, simplex-by-hand examples, network flows, and a Fortran lab midnight memory.
+- The work section expands into teaching, XOOPS, ASP-to-PHP migration, Linux evangelism, a Drupal comparison, WordCamp, and Hugo deployment details.
+- Parenting stories include the Davis name, a Kumon trial, randomizer slugs, postcards, and kids' phones.
+- Failure modes now include a faith testimony, Pia/DNPAP, analysis procrastination, and a note on perfect solutions.
+- The closing ties back to the Fortran midnight and a transferable shape.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Expanded the draft from ~900 words to ~1,880. Each section now has more scene and ledger-backed detail:
+
+**Opening** — quota waitlist pressure, high school math comfort, enrolling without pretending to love inventory models.
+
+**OR coursework** — feasible-region corner insight, simplex by hand then Fortran, network/transportation problem texture, midnight lab debugging.
+
+**Career path** — teaching math and CS, XOOPS as the bridge job, ASP → PHP/XAMPP, Linux evangelist years, Drupal-vs-WordPress with WordCamp Asia, Hugo deploy friction (`HUGO_VERSION`, case-sensitive folders).
+
+**Parenting** — Davis by name, your Kumon math trial (“do it faster”), randomizer quiz slugs, postcards to lola, dedicated kids phone / Messenger lesson.
+
+**Failure modes** — faith testimony doesn’t fit a spreadsheet, Pia’s COVID vocal recording, analysis-as-procrastination, link to [[there-is-no-perfect-solution]] thinking.
+
+**Closing** — advice for anyone already in a “compromise” major: mine it for transferable shape.
+
+Voice checks: `pnpm slop:score` at **0.69 per100w**, `pnpm lint:voice` clean.
+
+Updated the facts ledger and `author-context.md` with Fortran and the teaching-before-web path.
+
+Still `draft: true` with `image: /images/note.jpg` — swap the hero image before publish. Want another pass on any section, or is this close to ready?
+
+## Session close
+- Fixed: Expanded Applied Math/OR blog draft to ~1,880 words with ledger-backed scenes across all sections.
+- Encode: none
+- Open: hero image still template; draft not published

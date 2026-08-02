@@ -68,5 +68,527 @@ FA
 _**Agent (auto-smart)**_
 
 <think><details><summary>Thought Process</summary>
-I'm filtering documents in the m-p range by basename, checking which ones have principles [1], [2], or [3] marked as not from principle 
+I'm filtering documents in the m-p range by basename, checking which ones have principles [1], [2], or [3] marked as not from principle or needing review.
+
+That gives me 7 files total. Now I need to examine the linter script to understand exactly how it determines whether something is "not from principle" and identifies overlaps.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+Now let me look at the linter to understand the exact rule for "not from principle".
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "context": 30,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "shareable_thought"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "shareable_thought",
+  "topFiles": [
+    {
+      "matchCount": 162,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Looking for those three functions now.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "files_with_matches",
+  "pattern": "def shareable_line_from_principle|def shareable_lines_overlap|def gets_point_across"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "pattern": "def shareable_line_from_principle|def shareable_lines_overlap|def gets_point_across",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_05-57-22Z-writing-quality-model.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_05-58-29Z-jorap-voice-refinement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_03-10-34Z-key-concept-review-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_23-18-53Z-redundant-notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-22_12-10-07Z-notes-in-biblical-devotions.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-19_12-29-48Z-blog-understanding-difficulty-ranking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-26_15-21-25Z-garden-voice-batch-4.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-22_12-39-49Z-jesus-teachings-on-prayer.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-20_11-43-35Z-garden-voice-notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_06-41-32Z-shareable-thoughts-analysis.md"
+    }
+  ],
+  "totalFiles": 11,
+  "totalMatches": 11
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 60,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "def shareable_line_from_principle|def shareable_lines_overlap|def gets_point_across"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "def shareable_line_from_principle|def shareable_lines_overlap|def gets_point_across",
+  "topFiles": [
+    {
+      "matchCount": 148,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I need to look at the helper functions and regex patterns used for processing shareable lines.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm working through the validation logic for shareable lines — each one needs to be a substring of something in the pool, which includes the flattened text from the description, the entire key_concept as a single string, individual blocks, and split clauses.
+
+The key insight is that when key_concept gets flattened, the bullet markers like "- " stay in the middle of the string, so a normalized line like "claim one" will match as a substring within the flattened pool entry. The safest approach is to pull candidate lines directly from existing text in the files and then validate them against the pool rather than constructing them from scratch.
+
+I'm scanning through the files in my range—there are seven of them from many-parts-one-body through pray-for-his-own, and I need to read through each one to find the problematic lines.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Now let me read the seven files in my range (m–p).
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/many-parts-one-body.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/not-my-will.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/open-not-maintained.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/permission-scales.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I need a quick way to test individual candidate lines, so I'm thinking of writing a small Python script that uses the repo's existing linting infrastructure to check a single file. Let me look at whether the lint script accepts a file path argument or if I need to work around it by checking what's available in the runPython setup.
+
+Since I'm limited to workspace writes, I can create a temporary helper script there and clean it up after testing. Now I'm going to plan out the four lines for each file, starting with many-parts-one-body.md where I need to identify which failures aren't actually from the principle and find matching pool sources to replace them. I'm checking whether the substring matching works for extracting clauses from the pool — the level_2 example passes since "envy at another part is as silly as the foot wishing it were a hand" appears in the flattened text. Now I need to find two more substrings for positions [1] and [3] with different angles, keeping them under 130 characters and ensuring they're complete thoughts pulled directly from the existing pool clauses. I'm checking whether the line is already in the pool and confirming it matches the wikilink-stripped version. The pattern aligns with existing notes, so that's consistent. Now I need to verify the payoff angle actually completes the thought — it should hit all the key points without fragmenting. I'm checking why the first shareable line from not-my-will.md is failing validation even though it matches the description exactly. The text appears identical in both the YAML and the pool, so I need to dig into what normalize_shareable_line is actually doing to understand the mismatch.
+
+Wait, I'm confusing the indices — the lint output uses 0-based indexing, so FAIL [1] refers to the second item in the list, not the first. Let me recount: shareable_thought[1] is "Soul overwhelmed, sweat like blood - He asked if the cup could pass, then surrendered." That's the one failing the principle check. Now I need to go back through the other files and remap all the failures using the correct 0-based indices.
+
+For not-my-will.md, I need to replace [1] with something that captures the move or application rather than just the definition or factual pattern. The level_3 content about praying the honest ask first, then releasing what you can't control — that's exactly 107 characters and fits what I'm looking for.
+
+I'm checking whether this overlaps with [0], which is the definitional Gethsemane moment. It doesn't. The alternative from key_concept about how Jesus brought the dread out loud before handing over the outcome is also strong at 114 characters, but [0] already covers that definitional angle. Sticking with the level_3 application keeps the four-part spread intact: definition, application, pattern, boundary.
+
+The lint issue about the vivid "sweat like blood" detail — the task is just to fix lint, so that's fine to leave as is.
+
+Now moving to open-not-maintained.md to work on [2] and [3]. librarian—you can browse but nobody restocks the shelves. Before putting a frozen plugin on a critical path, I need a swap or fork plan if the last commit was years ago. An open license preserves fork rights, but thin community depth shifts patching and security costs onto me—inspection alone doesn't make the stack safe. I should create a fork-or-swap plan using the Inspectable Stack to test migration paths and Community Depth to identify who'll handle the next patch when it becomes my responsibility.
+
+Now I'm checking whether the new definition of "open not maintained" overlaps with earlier points and deciding whether to frame it as a definition or a move, weighing character counts and clause boundaries. "Inspection alone does not make the stack safe" works well as a cleaner option with the same negation structure but a different angle from the license point. I'm checking whether these four statements cover distinct perspectives—definition, boundary conditions, and practical limitations around open source and security. fork, and ship code without a product key. I'm layering in deeper explanations—from the basic license mechanics up through the practical realities of maintenance, security costs, and the need to actually read what rights you're getting before committing to a project. The key insight for [2] is that adoption requires checking the license explicitly confirms the freedoms your use case demands. I'll verify the character count with a tool and check it against the linter. Looking at the boundary clause from level_4 — "License rights do not guarantee quality, maintenance, easy exits, or zero cost" — it's 78 characters and passes the validation checks since it doesn't trigger the bare noun list or incomplete negation patterns. So I've got four solid angles now: the definition, what it's not (reframing the badge misconception), the action (read the license), and the boundary (rights don't equal quality).
+
+Now I'm working through the permission-scales section, checking each candidate against the source text to ensure they're exact substrings. The second angle needs adjustment — removing the duplicate "on" to match level_1 exactly. The third angle about the student in UPLB learning on the same WordPress zip is close but appears to be cut off in the source, so I need to verify where that clause actually ends.
+
+Looking at the angles themselves, I'm noticing that the definition in angle [0] and the concrete scene in angle [3] overlap significantly in content — both are about the same WordPress zip being accessible globally. I'm checking whether they're truly distinct angles or if they're too similar to both include.
+
+I'm reconsidering angle [3] and thinking it might work better as something about removing barriers like product keys, bandwidth constraints, and hardware limitations — that would create genuine tension with angle [2] about talent competing on nerve rather than gatekeeping, while still being distinct from the global permission angle. I'm settling on [2] for the talent-competes payoff and [3] for the level-4 boundary, giving me four angles across definition, image, payoff, and boundary. Now checking the plain-commitments-at-work file against [2] and [3], starting with the "say yes or no clearly" entry—the description includes "definitely maybe" as an example, and I need to verify whether the normalized version of [0] appears as a substring in the normalized description.
+
+The substring check is lenient: it splits on " - " to isolate clauses, then looks for any clause that's at least 10 characters long and either starts with, ends with, or contains the pool clause. Since "say yes or no clearly" is 21 characters and the description starts with it, the check passes.
+
+Looking at the test cases now: [1] passes because it contains a qualifying clause, [2] and [3] fail the check. I'm noticing a discrepancy in [3] where "swagger" should be "hype" to match the level_3 version, so I need to update that.
+
+For [2], I'm trying a different angle that emphasizes how false confidence on a weak promise erodes trust. The revised version extracts cleanly to "Swagger on a weak promise destroys trust" — 41 characters, which passes the length requirement.
+
+Now I'm checking all four angles: definition, shape, consequence, and diagnosis. They don't overlap, and I'm verifying that [2] reads as a complete, shareable line rather than a fragment.
+
+I'm also considering an alternative for the fourth angle about credibility and overload, which might work better than the diagnosis angle. Between the two options for [2] and [3], I'm settling on the consequence angle about broken trust and the diagnosis angle about overload versus vocabulary as my two replacements.
+
+Now moving to the prayer file, I'm looking at the longest recorded prayer in the Gospels and how it covers glory, the hour, and the people the Father gave Him. I'm building out the key bullets around Jesus's prayer for His own — emphasizing unity under the Father's name rather than personal control, extending that same prayer to all future believers, and recognizing that under grace I'm part of that "those who will believe" branch, kept by the Father's name. I'm testing whether the application angle works better for [1] — using the relatable scenario from level_3 about church drama and the specific passage reference, which comes in at 118 characters and fits the pattern of content and assurance already established in the other levels. I could use a simpler phrasing instead to avoid the scripture reference lint entirely — something like "Jesus asked the Father to keep and unify people like us" works at 56 characters for the level_3 application. I'm checking for overlaps between examples and verifying the pointer prefix format, then running the "looks like example" validation to make sure no example header matches the start of the main line. Checking the example headers and character counts across all the categories — they're all validating correctly. The vocabulary I'm using like "swagger," "hype," and "abandonware" already exists in the notes, so the voice lint should pass. I'm also using em dashes consistently, and now I need to verify the character counts and pool membership. Checking character counts on the remaining candidates to stay under 130 characters. The open-source one is tight at 127, and I'm verifying the permission-scales entry as well. Now I'm checking whether the normalization process handles apostrophe issues—it doesn't. For the open-source entry, I'm verifying the bare noun list structure and whether it contains the necessary punctuation patterns. I'm also cross-referencing the PUNCH_VERB list to see if "read" appears there, and while it doesn't, "needs" does match, so the bare noun list returns False. I need to check the length constraints on all parts as well.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+I have the lint rules understood. Now let me apply fixes to the seven files in my m–p range.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/many-parts-one-body.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/not-my-will.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/open-not-maintained.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/permission-scales.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+Now let me verify with the frontmatter linter.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | grep -Ei &#39;many-parts|not-my-will|open-not-maintained|open-source|permission-scales|plain-commitments|pray-for-his-own&#39; ; echo &#34;---exit above filtered---&#34;</summary>
+```bash
+node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2>&1 | grep -Ei 'many-parts|not-my-will|open-not-maintained|open-source|permission-scales|plain-commitments|pray-for-his-own' ; echo "---exit above filtered---"
+```
+
+```
+---exit above filtered---
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The frontmatter lint passed for all seven files, so now I need to run the full garden lint suite to make sure I didn't break anything else with my changes. Since the full chain stops at the first frontmatter failure and other files still have issues there, I'll need to run the normalize verify, voice, and slop checks individually on just my files to confirm they're clean.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Frontmatter lint is clean for all seven. Since the full chain stops at the first failing step, let me run the remaining checks directly.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node scripts/runPython.mjs scripts/normalize-notes-format.py --verify 2&gt;&amp;1 | grep -Ei &#39;many-parts|not-my-will|open-not-maintained|open-source|permission-scales|plain-commitments|pray-for-his-own&#39; ; echo &#34;--- normalize done ---&#34; ; node scripts/runPython.mjs scripts/voice-lint.py garden --check 2&gt;&amp;1 | grep -Ei &#39;many-parts|not-my-will|open-not-maintained|open-source|permission-scales|plain-commitments|pray-for-his-own&#39; ; echo &#34;--- voice done ---&#34; ; node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only 2&gt;&amp;1 | grep -Ei &#39;many-parts|not-my-will|open-not-maintained|open-source|permission-scales|plain-commitments|pray-for-his-own&#39; ; echo &#34;--- slop done ---&#34;</summary>
+```bash
+node scripts/runPython.mjs scripts/normalize-notes-format.py --verify 2>&1 | grep -Ei 'many-parts|not-my-will|open-not-maintained|open-source|permission-scales|plain-commitments|pray-for-his-own' ; echo "--- normalize done ---" ; node scripts/runPython.mjs scripts/voice-lint.py garden --check 2>&1 | grep -Ei 'many-parts|not-my-will|open-not-maintained|open-source|permission-scales|plain-commitments|pray-for-his-own' ; echo "--- voice done ---" ; node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only 2>&1 | grep -Ei 'many-parts|not-my-will|open-not-maintained|open-source|permission-scales|plain-commitments|pray-for-his-own' ; echo "--- slop done ---"
+```
+
+```
+--- normalize done ---
+--- voice done ---
+--- slop done ---
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Let me run a complete frontmatter lint check to verify all remaining failures are resolved and confirm there are no leftover m-p files.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | tail -n 60 ; echo &#34;=== git status ===&#34; ; git status --porcelain content/english/notes | grep -Ei &#39;many-parts|not-my-will|open-not-maintained|open-source|permission-scales|plain-commitments|pray-for-his-own&#39;</summary>
+```bash
+node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2>&1 | tail -n 60 ; echo "=== git status ===" ; git status --porcelain content/english/notes | grep -Ei 'many-parts|not-my-will|open-not-maintained|open-source|permission-scales|plain-commitments|pray-for-his-own'
+```
+
+```
+FAIL shareable_thought[3] 140 chars (max 130): law-of-intuition.md
+FAIL shareable_thought[1] overlaps [2]: law-of-intuition.md
+FAIL shareable_thought[3] 133 chars (max 130): law-of-navigation.md
+FAIL shareable_thought[1] overlaps [2]: law-of-navigation.md
+FAIL shareable_thought[3] 149 chars (max 130): law-of-process.md
+FAIL shareable_thought[1] overlaps [2]: law-of-process.md
+FAIL shareable_thought[3] 145 chars (max 130): law-of-respect.md
+FAIL shareable_thought[1] overlaps [2]: law-of-respect.md
+FAIL shareable_thought[3] 143 chars (max 130): law-of-sacrifice.md
+FAIL shareable_thought[1] overlaps [2]: law-of-sacrifice.md
+FAIL shareable_thought[3] 137 chars (max 130): law-of-solid-ground.md
+FAIL shareable_thought[1] overlaps [2]: law-of-solid-ground.md
+FAIL shareable_thought[1] overlaps [2]: law-of-the-big-mo.md
+FAIL shareable_thought[3] 145 chars (max 130): law-of-victory.md
+FAIL shareable_thought[2] not from principle: learn-hireable-stacks.md
+FAIL shareable_thought[3] not from principle: literature-notes.md
+
+16 note(s) failed frontmatter lint
+=== git status ===
+ M content/english/notes/many-parts-one-body.md
+ M content/english/notes/not-my-will.md
+ M content/english/notes/open-not-maintained.md
+ M content/english/notes/open-source.md
+ M content/english/notes/permission-scales.md
+ M content/english/notes/plain-commitments-at-work.md
+ M content/english/notes/pray-for-his-own.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The count dropped significantly from 60 to 16 failures, which means other parallel agents are also fixing their ranges concurrently. The remaining failures are all entries starting with "l" — law-*, learn-hireable-stacks, and literature-notes — so my m-p range is completely clean. I'm verifying that nothing in the m-p section appears in the full output, and the tail confirms only 16 lines remain starting from law-of-intuition.
+
+I've confirmed the m-p range is absent from the full output with grep, and now I'm checking that the git diff only modified the shareable_thought file.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git diff --stat content/english/notes/many-parts-one-body.md content/english/notes/not-my-will.md content/english/notes/open-not-maintained.md content/english/notes/open-source.md content/english/notes/permission-scales.md content/english/notes/plain-commitments-at-work.md content/english/notes/pray-for-his-own.md &amp;&amp; git diff -U0 content/english/notes/many-parts-one-body.md content/english/notes/not-my-will.md content/english/notes/open-not-maintained.md content/english/notes/open-source.md content/english/notes/permission-scales.md content/english/notes/plain-commitments-at-work.md content/english/notes/pray-for-his-own.md</summary>
+```bash
+git diff --stat content/english/notes/many-parts-one-body.md content/english/notes/not-my-will.md content/english/notes/open-not-maintained.md content/english/notes/open-source.md content/english/notes/permission-scales.md content/english/notes/plain-commitments-at-work.md content/english/notes/pray-for-his-own.md && git diff -U0 content/english/notes/many-parts-one-body.md content/english/notes/not-my-will.md content/english/notes/open-not-maintained.md content/english/notes/open-source.md content/english/notes/permission-scales.md content/english/notes/plain-commitments-at-work.md content/english/notes/pray-for-his-own.md
+```
+
+```
+ content/english/notes/many-parts-one-body.md       | 4 ++--
+ content/english/notes/not-my-will.md               | 2 +-
+ content/english/notes/open-not-maintained.md       | 4 ++--
+ content/english/notes/open-source.md               | 4 ++--
+ content/english/notes/permission-scales.md         | 4 ++--
+ content/english/notes/plain-commitments-at-work.md | 4 ++--
+ content/english/notes/pray-for-his-own.md          | 2 +-
+ 7 files changed, 12 insertions(+), 12 deletions(-)
+diff --git a/content/english/notes/many-parts-one-body.md b/content/english/notes/many-parts-one-body.md
+index 65e4fdb1..553fe65a 100644
+--- a/content/english/notes/many-parts-one-body.md
++++ b/content/english/notes/many-parts-one-body.md
+@@ -20 +20 @@ shareable_thought:
+-  - "The win needs every position, not five point guards."
++  - "Say no to ministry slots that are not your part so the actual teachers can teach."
+@@ -22 +22 @@ shareable_thought:
+-  - "Clarity on your slice beats pretending you cover every position."
++  - "Under Free Grace, every believer belongs - Faithful Steward work, not a popularity contest for standing."
+diff --git a/content/english/notes/not-my-will.md b/content/english/notes/not-my-will.md
+index a9c58a1e..3294d589 100644
+--- a/content/english/notes/not-my-will.md
++++ b/content/english/notes/not-my-will.md
+@@ -22 +22 @@ shareable_thought:
+-  - "Soul overwhelmed, sweat like blood - He asked if the cup could pass, then surrendered."
++  - "When the diagnosis will not change, pray the honest ask first, then release the outcome you cannot control."
+diff --git a/content/english/notes/open-not-maintained.md b/content/english/notes/open-not-maintained.md
+index 31bffd1c..00d2be94 100644
+--- a/content/english/notes/open-not-maintained.md
++++ b/content/english/notes/open-not-maintained.md
+@@ -19,2 +19,2 @@ shareable_thought:
+-  - "License says you may read and fork."
+-  - "It does not say anyone still ships security patches or answers issues."
++  - "Before a frozen plugin owns a criti
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The changes are minimal—just 12 line edits to the shareable_thought sections without any commits. Now I'll wrap this up with the session close summary as specified.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+All seven notes in the m–p range now pass. The root problem in every case was the same: the shareable line paraphrased the note instead of reusing wording the linter can trace back to `description`, `key_concept`, or `level_1`–`level_5`. I redrew each failing line from those fields verbatim (or as a contiguous clause of them) while keeping four distinct angles per note.
+
+**Files changed (11 lines total, all inside `shareable_thought`):**
+
+| File | Failing lines fixed |
+|---|---|
+| `many-parts-one-body.md` | `[1]`, `[3]` |
+| `not-my-will.md` | `[1]` |
+| `open-not-maintained.md` | `[2]`, `[3]` |
+| `open-source.md` | `[2]`, `[3]` |
+| `permission-scales.md` | `[2]`, `[3]` |
+| `plain-commitments-at-work.md` | `[2]`, `[3]` |
+| `pray-for-his-own.md` | `[1]` |
+
+Some fixes were near-misses worth noting: `permission-scales` said "not **on** who holds the product key" where `level_1` says "not who holds the product key", and `plain-commitments-at-work` used "swagger" where `level_3` says "hype". One extra word was the whole failure.
+
+Angles stayed spread across definition, move, boundary, and payoff. For example, `open-not-maintained` now runs claim → repair-bench image → the swap-plan move → "Inspection alone does not make the stack safe."
+
+**Verification:** `lint-notes-frontmatter.py`, `normalize-notes-format.py --verify`, `voice-lint.py garden --check`, and `voice-lint.py slop --check --notes-only` all report zero hits for the seven files. I ran the steps individually because the `pnpm lint:garden` chain short-circuits on the first failing script, which would have hidden the later checks.
+
+**Remaining failures in my range: none.** The 16 repo-wide failures left are all `l*` files — `law-of-intuition`, `law-of-navigation`, `law-of-process`, `law-of-respect`, `law-of-sacrifice`, `law-of-solid-ground`, `law-of-the-big-mo`, `law-of-victory`, `learn-hireable-stacks`, and `literature-notes` — outside m–p. Nothing committed or staged.
+
+## Session close
+- Fixed: 11 `shareable_thought` lint failures across seven m–p notes, redrawn from principle fields.
+- Encode: none
+- Open: 16 frontmatter failures remain in the `l*` files, outside this range.

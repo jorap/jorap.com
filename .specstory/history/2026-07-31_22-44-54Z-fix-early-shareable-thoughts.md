@@ -64,3 +64,1067 @@ FA
 … (output truncated)
 ```
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm looking at files where the basename starts with a digit or letters a through f, and checking which ones are failing validation. Several documents like the leadership guide, evergreen notes, and faithfulness entries are showing issues where certain principles aren't being properly sourced or referenced.
+
+The remaining files all start with letters outside my range, so I've narrowed it down to five problematic files. Now I need to examine the linter rules to understand exactly what "from principle" means and why these are failing.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Five files in my range (digit or a–f). Let me read the linter rules and the affected files.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "context": 30,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "shareable_thought"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "shareable_thought",
+  "topFiles": [
+    {
+      "matchCount": 162,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Looking at the helper functions that determine if a line is shareable, whether lines overlap, and if a principle gets its point across.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Now let me look at the helper functions that define "from principle" and "overlaps".
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "files_with_matches",
+  "pattern": "def (shareable_line_from_principle|shareable_lines_overlap|gets_point_across|_norm|normalize)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "pattern": "def (shareable_line_from_principle|shareable_lines_overlap|gets_point_across|_norm|normalize)",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-20_11-43-35Z-garden-voice-notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-19_12-29-48Z-blog-understanding-difficulty-ranking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/blog_frontmatter.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_05-58-29Z-jorap-voice-refinement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-26_15-21-25Z-garden-voice-batch-4.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-25_12-09-50Z-reading-notes-for-learning.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_06-41-32Z-shareable-thoughts-analysis.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/normalize-blog-frontmatter.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_11-55-29Z-key-concepts-from-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-22_12-10-07Z-notes-in-biblical-devotions.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-06_00-46-11Z-leadership-notes-connection.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_03-10-34Z-key-concept-review-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-22_12-39-49Z-jesus-teachings-on-prayer.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_23-18-53Z-redundant-notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_08-24-40Z-dead-internal-links-check.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_00-08-55Z-difficult-words-list.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/normalize-notes-format.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_05-57-22Z-writing-quality-model.md"
+    }
+  ],
+  "totalFiles": 22,
+  "totalMatches": 22
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 60,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "def (shareable_line_from_principle|shareable_lines_overlap|gets_point_across|is_complete_shareable_line)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "def (shareable_line_from_principle|shareable_lines_overlap|gets_point_across|is_complete_shareable_line)",
+  "topFiles": [
+    {
+      "matchCount": 204,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm looking at the `normalize_shareable_line` function and the `CLAUSE_SPLIT_RE` regex pattern to understand how they work together.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 22,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "^(CLAUSE_SPLIT_RE|WIKILINK_PLAIN|POINTER_PREFIX|PUNCH_VERB|DANGLING_DEMONSTRATIVE|META_NOTE_LANG|DANGLING_THAT_START|CLAUSE_SO_START)\\s*=|def normalize_shareable_line"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "^(CLAUSE_SPLIT_RE|WIKILINK_PLAIN|POINTER_PREFIX|PUNCH_VERB|DANGLING_DEMONSTRATIVE|META_NOTE_LANG|DANGLING_THAT_START|CLAUSE_SO_START)\\s*=|def normalize_shareable_line",
+  "topFiles": [
+    {
+      "matchCount": 68,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'll create a helper script to test candidate lines against the lint functions, which should speed up iteration. Then I'm reading through the five markdown files in my range to understand what I'm working with.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Now let me read the remaining four files in my range.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/21-laws-of-leadership-in-the-bible.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-the-rhythm.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/freedom-over-free.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm thinking about setting up a test harness to iterate on candidate lines without running the full lint process, but I'm realizing that writing to /tmp might be restricted in this environment, so I'd need to work within the workspace directory instead.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Let me set up a quick checker so I can iterate on candidate lines.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;import yaml; print(&#39;ok&#39;)&#34; &amp;&amp; echo &#34;---&#34; &amp;&amp; cat scripts/runPython.mjs | head -30</summary>
+```bash
+python3 -c "import yaml; print('ok')" && echo "---" && cat scripts/runPython.mjs | head -30
+```
+
+```
+ok
+---
+#!/usr/bin/env node
+/**
+ * Cross-platform python3 wrapper for package.json scripts (Windows: python / py -3).
+ *
+ * Usage: node scripts/runPython.mjs scripts/foo.py [-- args]
+ */
+import { existsSync } from "node:fs";
+import { resolve } from "node:path";
+import { projectRoot, resolvePython, runPython } from "./spawnUtil.mjs";
+
+const argv = process.argv.slice(2);
+if (argv[0] === "--resolve") {
+  const { bin, prefix } = resolvePython();
+  console.log(prefix.length ? `${bin} ${prefix.join(" ")}` : bin);
+  process.exit(0);
+}
+
+if (!argv.length) {
+  console.error("Usage: node scripts/runPython.mjs <script.py> [args...]");
+  process.exit(1);
+}
+
+const scriptArg = argv[0];
+const args = argv.slice(1);
+const scriptPath =
+  scriptArg.startsWith("/") || /^[A-Za-z]:/.test(scriptArg)
+    ? resolve(scriptArg)
+    : resolve(projectRoot, scriptArg);
+
+if (!existsSync(scriptPath)) {
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'll use python3 with sys.path to check the imports directly, avoiding the need to create temporary files in the repo. Writing a script to /tmp would be cleaner than cluttering the workspace.
+
+I'm building an inline Python checker that reads each file, parses the frontmatter with YAML, and validates each shareable_thought line against the principle pool to report which ones get the point across and how they map to principles.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#39;
+import sys, yaml
+sys.path.insert(0, &#34;scripts&#34;)
+from pathlib import Path
+from notes_content import (split_frontmatter, gets_point_across, shareable_line_from_principle,
+                           shareable_lines_overlap, principle_line_pool)
+for f in sys.argv[1:]:
+    p = Path(&#34;content/english/notes&#34;)/f
+    raw, _ = split_frontmatter(p.read_text(encoding=&#34;utf-8&#34;))
+    fm = yaml.safe_load(raw)
+    print(&#34;=&#34;*20, f)
+    print(&#34;-- POOL --&#34;)
+    for c in principle_line_pool(fm):
+        print(&#34;   |&#34;, c)
+    print(&#34;-- LINES --&#34;)
+    L = fm[&#34;shareable_thought&#34;]
+    for i, l in enumerate(L):
+        print(f&#34;  [{i}] len={len(l)} point={gets_point_across(l)} fromP={shareable_line_from_principle(l,fm)}&#34;)
+    for i in range(len(L)):
+        for j in range(i+1, len(L)):
+            if shareable_lines_overlap(L[i], L[j]): print(f&#34;  OVERLAP {i}-{j}&#34;)
+&#39; evergreen-notes.md faithfulness.md 2&gt;&amp;1</summary>
+```bash
+python3 -c '
+import sys, yaml
+sys.path.insert(0, "scripts")
+from pathlib import Path
+from notes_content import (split_frontmatter, gets_point_across, shareable_line_from_principle,
+                           shareable_lines_overlap, principle_line_pool)
+for f in sys.argv[1:]:
+    p = Path("content/english/notes")/f
+    raw, _ = split_frontmatter(p.read_text(encoding="utf-8"))
+    fm = yaml.safe_load(raw)
+    print("="*20, f)
+    print("-- POOL --")
+    for c in principle_line_pool(fm):
+        print("   |", c)
+    print("-- LINES --")
+    L = fm["shareable_thought"]
+    for i, l in enumerate(L):
+        print(f"  [{i}] len={len(l)} point={gets_point_across(l)} fromP={shareable_line_from_principle(l,fm)}")
+    for i in range(len(L)):
+        for j in range(i+1, len(L)):
+            if shareable_lines_overlap(L[i], L[j]): print(f"  OVERLAP {i}-{j}")
+' evergreen-notes.md faithfulness.md 2>&1
+```
+
+```
+==================== evergreen-notes.md
+-- POOL --
+   | phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes
+   | - phrase ideas worth standing behind in two years, then revise when reality shifts. - complete sentences you would still sign - not trend-chasing rewrites every quarter. - promote from fleeting during periodic knowledge review when a spark keeps returning
+   | - phrase ideas worth standing behind in two years, then revise when reality shifts
+   | - complete sentences you would still sign
+   | not trend-chasing rewrites every quarter
+   | - promote from fleeting during periodic knowledge review when a spark keeps returning
+   | phrase ideas worth standing behind in two years, then revise when reality shifts. - complete sentences you would still sign - not trend-chasing rewrites every quarter. - promote from fleeting during periodic knowledge review when a spark keeps returning
+   | phrase ideas worth standing behind in two years, then revise when reality shifts
+   | evergreen notes are permanent claims phrased worth standing behind in two years - revised when reality shifts, not when a trend spikes
+   | evergreen notes are permanent claims phrased worth standing behind in two years
+   | revised when reality shifts, not when a trend spikes
+   | write something you would still say two years from now - like tools you maintain, phrase claims worth defending, change when life proves you wrong
+   | write something you would still say two years from now
+   | like tools you maintain, phrase claims worth defending, change when life proves you wrong
+   | before you publish, ask whether you would defend this claim in two years; if not, keep it fleeting until it earns permanence
+   | before you publish, ask whether you would defend this claim in two years
+   | if not, keep it fleeting until it earns permanence
+   | evergreen does not mean frozen - revision keeps a claim honest, while trend-driven rewrites make the no
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm looking at the evergreen notes file and identifying which principle needs a replacement line—only one of the existing angles doesn't align with the core concept. I'm reviewing the current definitions around phrasing ideas worth committing to long-term and revising based on reality rather than trends, then working through what the boundary principle should actually capture.
+
+I'm testing a candidate line that distinguishes between honest revision and trend-driven instability, checking its length and whether it overlaps with the other principles already in place. I'm testing whether the alternative phrasing about defending a claim over time works as a distinct angle, though it's getting close to the boundary concept already covered. The revision-allowed nuance might be cleaner than another move-type suggestion.
+
+Now looking at faithfulness.md where the first two angles aren't landing — the move angle needs something about steady, entrusted work rather than earning through intensity, and I'm pulling from the pool to find a better fit. Checking the second option against the third for overlap — they both reference "entry fee" but neither is a prefix or suffix of the other, so they're distinct enough. Now moving through the angles to categorize each option.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Good. Now the pools for the other three files.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#39;
+import sys, yaml
+sys.path.insert(0, &#34;scripts&#34;)
+from pathlib import Path
+from notes_content import (split_frontmatter, gets_point_across, shareable_line_from_principle,
+                           shareable_lines_overlap, principle_line_pool)
+for f in sys.argv[1:]:
+    p = Path(&#34;content/english/notes&#34;)/f
+    raw, _ = split_frontmatter(p.read_text(encoding=&#34;utf-8&#34;))
+    fm = yaml.safe_load(raw)
+    print(&#34;=&#34;*20, f)
+    print(&#34;-- POOL --&#34;)
+    for c in principle_line_pool(fm):
+        print(f&#34;  ({len(c)}) |&#34;, c)
+    print(&#34;-- LINES --&#34;)
+    L = fm[&#34;shareable_thought&#34;]
+    for i, l in enumerate(L):
+        print(f&#34;  [{i}] len={len(l)} point={gets_point_across(l)} fromP={shareable_line_from_principle(l,fm)}&#34;)
+    for i in range(len(L)):
+        for j in range(i+1, len(L)):
+            if shareable_lines_overlap(L[i], L[j]): print(f&#34;  OVERLAP {i}-{j}&#34;)
+&#39; follow-the-rhythm.md freedom-over-free.md 21-laws-of-leadership-in-the-bible.md 2&gt;&amp;1</summary>
+```bash
+python3 -c '
+import sys, yaml
+sys.path.insert(0, "scripts")
+from pathlib import Path
+from notes_content import (split_frontmatter, gets_point_across, shareable_line_from_principle,
+                           shareable_lines_overlap, principle_line_pool)
+for f in sys.argv[1:]:
+    p = Path("content/english/notes")/f
+    raw, _ = split_frontmatter(p.read_text(encoding="utf-8"))
+    fm = yaml.safe_load(raw)
+    print("="*20, f)
+    print("-- POOL --")
+    for c in principle_line_pool(fm):
+        print(f"  ({len(c)}) |", c)
+    print("-- LINES --")
+    L = fm["shareable_thought"]
+    for i, l in enumerate(L):
+        print(f"  [{i}] len={len(l)} point={gets_point_across(l)} fromP={shareable_line_from_principle(l,fm)}")
+    for i in range(len(L)):
+        for j in range(i+1, len(L)):
+            if shareable_lines_overlap(L[i], L[j]): print(f"  OVERLAP {i}-{j}")
+' follow-the-rhythm.md freedom-over-free.md 21-laws-of-leadership-in-the-bible.md 2>&1
+```
+
+```
+==================== follow-the-rhythm.md
+-- POOL --
+  (99) | reliable cadence beats sporadic heroics - the same small moves on schedule outperform panic sprints
+  (39) | reliable cadence beats sporadic heroics
+  (57) | the same small moves on schedule outperform panic sprints
+  (259) | - hero weeks collapse when the rhythm was never real - cadence is the boring repeat that still works on tuesday. - cap today's commitments keeps the cadence honest about capacity. - change takes repetition names why one great week does not rewrite the default
+  (52) | - hero weeks collapse when the rhythm was never real
+  (56) | cadence is the boring repeat that still works on tuesday
+  (65) | - cap today's commitments keeps the cadence honest about capacity
+  (79) | - change takes repetition names why one great week does not rewrite the default
+  (257) | hero weeks collapse when the rhythm was never real - cadence is the boring repeat that still works on tuesday. - cap today's commitments keeps the cadence honest about capacity. - change takes repetition names why one great week does not rewrite the default
+  (50) | hero weeks collapse when the rhythm was never real
+  (123) | follow the rhythm means reliable cadence beats sporadic heroics - the same small moves on schedule outperform panic sprints
+  (63) | follow the rhythm means reliable cadence beats sporadic heroics
+  (102) | like brushing teeth every night - the win is showing up the same way, not one perfect marathon session
+  (31) | like brushing teeth every night
+  (68) | the win is showing up the same way, not one perfect marathon session
+  (100) | schedule the weekly review on friday whether you feel inspired - the beat runs on calendar, not mood
+  (62) | schedule the weekly review on friday whether you feel inspired
+  (35) | the beat runs on calendar, not mood
+  (104) | process over outcomes trusts the repeat; habit formation wires the beat until panic is not the only fuel
+  (39) | process over outcomes trusts the repeat
+ 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm working through the structure for a document on leadership principles from the Bible, aiming to keep each section under 130 characters and grounded in scriptural foundation. The first entry meets the length requirement, but I need to trim the second one which currently runs over at 141 characters—it's trying to explain how Scripture uses stories as teaching examples, similar to case studies in business books.
+
+For the third entry, I'm finding it overlaps too much with what I've already covered, so I'm considering a different angle that focuses on the theological distinction: these laws describe faithful influence within a framework of grace rather than as a path to salvation. I'm checking the four angles for overlap: scope and definition, how the hub works as an analogy, the doctrinal boundary about grace, and the practical move to apply one law weekly. The normalized versions show they're distinct enough—each captures a different dimension of the concept.
+
+Now I'm validating the second angle against length constraints and checking for meta-commentary that shouldn't be there. Then I'm moving to review another section about scheduling, where I need to replace a statement that doesn't align with the principle and rewrite it to emphasize that the rhythm follows a calendar beat regardless of motivation. ue, and add a restart rule." That's a substring of the pool entry at 101 characters, which fits the constraint. So I'm settling on this failure/limit angle for position [3], completing the angle set: the definition of cadence, its boring character, the move itself, and now the failure point where rhythm breaks.
+
+I'm checking the new failure angle "Hero weeks collapse when the rhythm was never real" against my criteria — it's punchy at 51 characters, has enough words, and the title fragment check confirms it's not a complete standalone statement. The overlap check with the existing cadence angle passes too, so there's no redundancy.
+
+Now I'm reconsidering the structure: definition, character, scheduled move, and failure mode gives me four distinct angles that work well together. Moving to the freedom-over-free section, I'm looking at a 130-character option about proprietary stacks renting permission versus open tools letting clients keep files. The pool option compresses this to 95 characters while preserving the application angle — handing a client markdown in git they own, with the ability to exit when the dashboard disappears. Angles [1] and [2] pass the lint checks even though they're a bit rough, so I'll leave them alone and focus only on fixing [3]. The new angle for evergreen notes should emphasize how revision keeps claims honest while trend-driven rewrites destabilize the note — and it doesn't overlap with the other angles. I'm checking the length constraints now to make sure it fits within the bounds. I should verify that the voice and slop linters don't introduce new failures, then test all the candidates before making any edits.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Now let me test all candidate replacement lines against the linter logic before editing.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#39;
+import sys, yaml
+sys.path.insert(0, &#34;scripts&#34;)
+from pathlib import Path
+from notes_content import (split_frontmatter, gets_point_across, shareable_line_from_principle,
+                           shareable_lines_overlap)
+
+CAND = {
+ &#34;21-laws-of-leadership-in-the-bible.md&#34;: [
+   &#34;Twenty-one leadership laws illustrated with Old and New Testament stories - one claim per lesson, three biblical cases each.&#34;,
+   &#34;Scripture illustrates leadership laws the way case studies illustrate business books.&#34;,
+   &#34;The laws describe faithful influence after Free Grace - they do not earn eternal life.&#34;,
+   &#34;Pick one law you need this week, read its three cases, and choose one faithful influence move to practice.&#34;,
+ ],
+ &#34;evergreen-notes.md&#34;: [
+   &#34;Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes.&#34;,
+   &#34;Complete sentences you would still sign - not trend-chasing rewrites every quarter.&#34;,
+   &#34;Promote from fleeting during Periodic Knowledge Review when a spark keeps returning.&#34;,
+   &#34;Evergreen does not mean frozen - revision keeps a claim honest, while trend-driven rewrites make the note unstable.&#34;,
+ ],
+ &#34;faithfulness.md&#34;: [
+   &#34;The Spirit grows steady follow-through with what God entrusted, not one heroic sprint mistaken for earned salvation.&#34;,
+   &#34;Do the small entrusted task today with the same care you would bring to a visible stage - quiet Tuesdays count.&#34;,
+   &#34;Grace already secured salvation - steady obedience responds to the gift; performance cannot replace the entry fee.&#34;,
+   &#34;Eternal Rewards names what steady faithfulness may receive; Free Grace keeps it from becoming the entry fee.&#34;,
+ ],
+ &#34;follow-the-rhythm.md&#34;: [
+   &#34;Reliable cadence beats sporadic heroics - the same small moves on schedule outperform panic sprints.&#34;,
+   &#34;Cadence is the boring repeat that still works on Tuesday.&#34;,
+   &#34;Schedule the weekly review on Friday whether you feel inspired - the beat runs on calendar, not mood.&#34;,
+   &#34;Hero weeks collapse when the rhythm was never real.&#34;,
+ ],
+ &#34;freedom-over-free.md&#34;: [
+   &#34;No license fee opens the gate; freedom to install, inspect, and move files is what you buy with the evenings.&#34;,
+   &#34;Free gets you past the gate.&#34;,
+   &#34;Freedom is what you buy with the evenings.&#34;,
+   &#34;Hand a client markdown in git they keep - open tools let you exit when the dashboard disappears.&#34;,
+ ],
+}
+ok = True
+for f, L in CAND.items():
+    raw, _ = split_frontmatter((Path(&#34;content/english/notes&#34;)/f).read_text(encoding=&#34;utf-8&#34;))
+    fm = yaml.safe_load(raw)
+    print(&#34;=&#34;*15, f)
+    for i, l in enumerate(L):
+        probs = []
+        if len(l) &gt; 130: probs.append(&#34;TOO LONG&#34;)
+        if &#34;[[&#34; in l: probs.append(&#34;WIKILINK&#34;)
+        if not gets_point_across(l): probs.append(&#34;FRAGMENT&#34;)
+        if not shareable_line_from_principle(l, fm): probs.append(&#34;NOT FROM PRINCIPLE&#34;)
+        for ex in fm.get(&#34;examples&#34;) or []:
+            if len(l) &gt; 25 and l.startswith(ex.strip().split(&#34; - &#34;)[0][:45]): probs.append(&#34;LOOKS LIKE EXAMPLE&#34;)
+        if probs: ok = False
+        print(f&#34;  [{i}] len={len(l):3d} {\&#34;OK\&#34; if not probs else \&#34; \&#34;.join(probs)}&#34;)
+    for i in range(4):
+        for j in range(i+1, 4):
+            if shareable_lines_overlap(L[i], L[j]):
+                ok = False; print(f&#34;  OVERLAP {i}-{j}&#34;)
+print(&#34;\nALL CLEAN&#34; if ok else &#34;\nPROBLEMS&#34;)
+&#39; 2&gt;&amp;1</summary>
+```bash
+python3 -c '
+import sys, yaml
+sys.path.insert(0, "scripts")
+from pathlib import Path
+from notes_content import (split_frontmatter, gets_point_across, shareable_line_from_principle,
+                           shareable_lines_overlap)
+
+CAND = {
+ "21-laws-of-leadership-in-the-bible.md": [
+   "Twenty-one leadership laws illustrated with Old and New Testament stories - one claim per lesson, three biblical cases each.",
+   "Scripture illustrates leadership laws the way case studies illustrate business books.",
+   "The laws describe faithful influence after Free Grace - they do not earn eternal life.",
+   "Pick one law you need this week, read its three cases, and choose one faithful influence move to practice.",
+ ],
+ "evergreen-notes.md": [
+   "Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes.",
+   "Complete sentences you would still sign - not trend-chasing rewrites every quarter.",
+   "Promote from fleeting during Periodic Knowledge Review when a spark keeps returning.",
+   "Evergreen does not mean frozen - revision keeps a claim honest, while trend-driven rewrites make the note unstable.",
+ ],
+ "faithfulness.md": [
+   "The Spirit grows steady follow-through with what God entrusted, not one heroic sprint mistaken for earned salvation.",
+   "Do the small entrusted task today with the same care you would bring to a visible stage - quiet Tuesdays count.",
+   "Grace already secured salvation - steady obedience responds to the gift; performance cannot replace the entry fee.",
+   "Eternal Rewards names what steady faithfulness may receive; Free Grace keeps it from becoming the entry fee.",
+ ],
+ "follow-the-rhythm.md": [
+   "Reliable cadence beats sporadic heroics - the same small moves on schedule outperform panic sprints.",
+   "Cadence is the boring repeat that still works on Tuesday.",
+   "Schedule the weekly review on Friday whether you feel inspired - the beat runs on calendar, not mood.",
+   "Hero weeks collapse when the rhythm was never real.",
+ ],
+ "freedom-over-free.md": [
+   "No license fee opens the gate; freedom to install, inspect, and move files is what you buy with the evenings.",
+   "Free gets you past the gate.",
+   "Freedom is what you buy with the evenings.",
+   "Hand a client markdown in git they keep - open tools let you exit when the dashboard disappears.",
+ ],
+}
+ok = True
+for f, L in CAND.items():
+    raw, _ = split_frontmatter((Path("content/english/notes")/f).read_text(encoding="utf-8"))
+    fm = yaml.safe_load(raw)
+    print("="*15, f)
+    for i, l in enumerate(L):
+        probs = []
+        if len(l) > 130: probs.append("TOO LONG")
+        if "[[" in l: probs.append("WIKILINK")
+        if not gets_point_across(l): probs.append("FRAGMENT")
+        if not shareable_line_from_principle(l, fm): probs.append("NOT FROM PRINCIPLE")
+        for ex in fm.get("examples") or []:
+            if len(l) > 25 and l.startswith(ex.strip().split(" - ")[0][:45]): probs.append("LOOKS LIKE EXAMPLE")
+        if probs: ok = False
+        print(f"  [{i}] len={len(l):3d} {\"OK\" if not probs else \" \".join(probs)}")
+    for i in range(4):
+        for j in range(i+1, 4):
+            if shareable_lines_overlap(L[i], L[j]):
+                ok = False; print(f"  OVERLAP {i}-{j}")
+print("\nALL CLEAN" if ok else "\nPROBLEMS")
+' 2>&1
+```
+
+```
+  File "<string>", line 54
+    print(f"  [{i}] len={len(l):3d} {\"OK\" if not probs else \" \".join(probs)}")
+                                      ^
+SyntaxError: unexpected character after line continuation character
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I need to adjust the f-string syntax to fix the quoting issue.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#39;
+import sys, yaml
+sys.path.insert(0, &#34;scripts&#34;)
+from pathlib import Path
+from notes_content import (split_frontmatter, gets_point_across, shareable_line_from_principle,
+                           shareable_lines_overlap)
+
+CAND = {
+ &#34;21-laws-of-leadership-in-the-bible.md&#34;: [
+   &#34;Twenty-one leadership laws illustrated with Old and New Testament stories - one claim per lesson, three biblical cases each.&#34;,
+   &#34;Scripture illustrates leadership laws the way case studies illustrate business books.&#34;,
+   &#34;The laws describe faithful influence after Free Grace - they do not earn eternal life.&#34;,
+   &#34;Pick one law you need this week, read its three cases, and choose one faithful influence move to practice.&#34;,
+ ],
+ &#34;evergreen-notes.md&#34;: [
+   &#34;Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes.&#34;,
+   &#34;Complete sentences you would still sign - not trend-chasing rewrites every quarter.&#34;,
+   &#34;Promote from fleeting during Periodic Knowledge Review when a spark keeps returning.&#34;,
+   &#34;Evergreen does not mean frozen - revision keeps a claim honest, while trend-driven rewrites make the note unstable.&#34;,
+ ],
+ &#34;faithfulness.md&#34;: [
+   &#34;The Spirit grows steady follow-through with what God entrusted, not one heroic sprint mistaken for earned salvation.&#34;,
+   &#34;Do the small entrusted task today with the same care you would bring to a visible stage - quiet Tuesdays count.&#34;,
+   &#34;Grace already secured salvation - steady obedience responds to the gift; performance cannot replace the entry fee.&#34;,
+   &#34;Eternal Rewards names what steady faithfulness may receive; Free Grace keeps it from becoming the entry fee.&#34;,
+ ],
+ &#34;follow-the-rhythm.md&#34;: [
+   &#34;Reliable cadence beats sporadic heroics - the same small moves on schedule outperform panic sprints.&#34;,
+   &#34;Cadence is the boring repeat that still works on Tuesday.&#34;,
+   &#34;Schedule the weekly review on Friday whether you feel inspired - the beat runs on calendar, not mood.&#34;,
+   &#34;Hero weeks collapse when the rhythm was never real.&#34;,
+ ],
+ &#34;freedom-over-free.md&#34;: [
+   &#34;No license fee opens the gate; freedom to install, inspect, and move files is what you buy with the evenings.&#34;,
+   &#34;Free gets you past the gate.&#34;,
+   &#34;Freedom is what you buy with the evenings.&#34;,
+   &#34;Hand a client markdown in git they keep - open tools let you exit when the dashboard disappears.&#34;,
+ ],
+}
+ok = True
+for f, L in CAND.items():
+    raw, _ = split_frontmatter((Path(&#34;content/english/notes&#34;)/f).read_text(encoding=&#34;utf-8&#34;))
+    fm = yaml.safe_load(raw)
+    print(&#34;=&#34;*15, f)
+    for i, l in enumerate(L):
+        probs = []
+        if len(l) &gt; 130: probs.append(&#34;TOO-LONG&#34;)
+        if &#34;[[&#34; in l: probs.append(&#34;WIKILINK&#34;)
+        if not gets_point_across(l): probs.append(&#34;FRAGMENT&#34;)
+        if not shareable_line_from_principle(l, fm): probs.append(&#34;NOT-FROM-PRINCIPLE&#34;)
+        for ex in fm.get(&#34;examples&#34;) or []:
+            if len(l) &gt; 25 and l.startswith(ex.strip().split(&#34; - &#34;)[0][:45]): probs.append(&#34;LOOKS-LIKE-EXAMPLE&#34;)
+        if probs: ok = False
+        print(&#34;  [%d] len=%3d %s&#34; % (i, len(l), &#34; &#34;.join(probs) if probs else &#34;OK&#34;))
+    for i in range(4):
+        for j in range(i+1, 4):
+            if shareable_lines_overlap(L[i], L[j]):
+                ok = False; print(&#34;  OVERLAP %d-%d&#34; % (i, j))
+print(&#34;\nALL CLEAN&#34; if ok else &#34;\nPROBLEMS&#34;)
+&#39; 2&gt;&amp;1</summary>
+```bash
+python3 -c '
+import sys, yaml
+sys.path.insert(0, "scripts")
+from pathlib import Path
+from notes_content import (split_frontmatter, gets_point_across, shareable_line_from_principle,
+                           shareable_lines_overlap)
+
+CAND = {
+ "21-laws-of-leadership-in-the-bible.md": [
+   "Twenty-one leadership laws illustrated with Old and New Testament stories - one claim per lesson, three biblical cases each.",
+   "Scripture illustrates leadership laws the way case studies illustrate business books.",
+   "The laws describe faithful influence after Free Grace - they do not earn eternal life.",
+   "Pick one law you need this week, read its three cases, and choose one faithful influence move to practice.",
+ ],
+ "evergreen-notes.md": [
+   "Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes.",
+   "Complete sentences you would still sign - not trend-chasing rewrites every quarter.",
+   "Promote from fleeting during Periodic Knowledge Review when a spark keeps returning.",
+   "Evergreen does not mean frozen - revision keeps a claim honest, while trend-driven rewrites make the note unstable.",
+ ],
+ "faithfulness.md": [
+   "The Spirit grows steady follow-through with what God entrusted, not one heroic sprint mistaken for earned salvation.",
+   "Do the small entrusted task today with the same care you would bring to a visible stage - quiet Tuesdays count.",
+   "Grace already secured salvation - steady obedience responds to the gift; performance cannot replace the entry fee.",
+   "Eternal Rewards names what steady faithfulness may receive; Free Grace keeps it from becoming the entry fee.",
+ ],
+ "follow-the-rhythm.md": [
+   "Reliable cadence beats sporadic heroics - the same small moves on schedule outperform panic sprints.",
+   "Cadence is the boring repeat that still works on Tuesday.",
+   "Schedule the weekly review on Friday whether you feel inspired - the beat runs on calendar, not mood.",
+   "Hero weeks collapse when the rhythm was never real.",
+ ],
+ "freedom-over-free.md": [
+   "No license fee opens the gate; freedom to install, inspect, and move files is what you buy with the evenings.",
+   "Free gets you past the gate.",
+   "Freedom is what you buy with the evenings.",
+   "Hand a client markdown in git they keep - open tools let you exit when the dashboard disappears.",
+ ],
+}
+ok = True
+for f, L in CAND.items():
+    raw, _ = split_frontmatter((Path("content/english/notes")/f).read_text(encoding="utf-8"))
+    fm = yaml.safe_load(raw)
+    print("="*15, f)
+    for i, l in enumerate(L):
+        probs = []
+        if len(l) > 130: probs.append("TOO-LONG")
+        if "[[" in l: probs.append("WIKILINK")
+        if not gets_point_across(l): probs.append("FRAGMENT")
+        if not shareable_line_from_principle(l, fm): probs.append("NOT-FROM-PRINCIPLE")
+        for ex in fm.get("examples") or []:
+            if len(l) > 25 and l.startswith(ex.strip().split(" - ")[0][:45]): probs.append("LOOKS-LIKE-EXAMPLE")
+        if probs: ok = False
+        print("  [%d] len=%3d %s" % (i, len(l), " ".join(probs) if probs else "OK"))
+    for i in range(4):
+        for j in range(i+1, 4):
+            if shareable_lines_overlap(L[i], L[j]):
+                ok = False; print("  OVERLAP %d-%d" % (i, j))
+print("\nALL CLEAN" if ok else "\nPROBLEMS")
+' 2>&1
+```
+
+```
+=============== 21-laws-of-leadership-in-the-bible.md
+  [0] len=124 OK
+  [1] len= 85 OK
+  [2] len= 86 OK
+  [3] len=106 OK
+=============== evergreen-notes.md
+  [0] len=104 OK
+  [1] len= 83 OK
+  [2] len= 84 OK
+  [3] len=115 OK
+=============== faithfulness.md
+  [0] len=116 OK
+  [1] len=111 OK
+  [2] len=114 OK
+  [3] len=108 OK
+=============== follow-the-rhythm.md
+  [0] len=100 OK
+  [1] len= 57 OK
+  [2] len=101 OK
+  [3] len= 51 OK
+=============== freedom-over-free.md
+  [0] len=109 OK
+  [1] len= 28 OK
+  [2] len= 42 OK
+  [3] len= 96 OK
+
+ALL CLEAN
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+All candidates passed validation, so I'm applying the edits now. I need to preserve the body content for the "index" file note_kind in the 21-laws entry while making the necessary changes.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+All candidates pass. Applying the edits now.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/21-laws-of-leadership-in-the-bible.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-the-rhythm.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/freedom-over-free.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+Now let me verify with the full garden lint.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: corepack pnpm lint:garden 2&gt;&amp;1 | tail -80</summary>
+```bash
+corepack pnpm lint:garden 2>&1 | tail -80
+```
+
+```
+$ node scripts/runPython.mjs scripts/lint-notes-frontmatter.py && node scripts/runPython.mjs scripts/normalize-notes-format.py --verify && node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py && node scripts/runPython.mjs scripts/audit-flashcard-north-star.py && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py && node scripts/runPython.mjs scripts/voice-lint.py garden --check && node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+FAIL shareable_thought[2] not from principle: gate-what-you-consume.md
+FAIL shareable_thought[1] not from principle: gentleness.md
+FAIL shareable_thought[3] not from principle: give-useful-feedback.md
+FAIL shareable_thought[2] not from principle: guard-your-heart.md
+FAIL shareable_thought[2] not from principle: know-your-lane.md
+FAIL shareable_thought[3] not from principle: know-your-lane.md
+FAIL shareable_thought[3] 150 chars (max 130): law-of-addition.md
+FAIL shareable_thought[3] 138 chars (max 130): law-of-buy-in.md
+FAIL shareable_thought[1] overlaps [2]: law-of-empowerment.md
+FAIL shareable_thought[3] 159 chars (max 130): law-of-explosive-growth.md
+FAIL shareable_thought[1] overlaps [2]: law-of-influence.md
+FAIL shareable_thought[3] 140 chars (max 130): law-of-intuition.md
+FAIL shareable_thought[1] overlaps [2]: law-of-intuition.md
+FAIL shareable_thought[3] 133 chars (max 130): law-of-navigation.md
+FAIL shareable_thought[1] overlaps [2]: law-of-navigation.md
+FAIL shareable_thought[3] 149 chars (max 130): law-of-process.md
+FAIL shareable_thought[1] overlaps [2]: law-of-process.md
+FAIL shareable_thought[3] 145 chars (max 130): law-of-respect.md
+FAIL shareable_thought[1] overlaps [2]: law-of-respect.md
+FAIL shareable_thought[3] 143 chars (max 130): law-of-sacrifice.md
+FAIL shareable_thought[1] overlaps [2]: law-of-sacrifice.md
+FAIL shareable_thought[3] 137 chars (max 130): law-of-solid-ground.md
+FAIL shareable_thought[1] overlaps [2]: law-of-solid-ground.md
+FAIL shareable_thought[1] overlaps [
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm noticing a discrepancy in the failure count — the output shows 27 failures now, but the earlier run reported 60, and I can see that several files that were failing before (like many-parts-one-body, not-my-will, and the open-* files) seem to have disappeared from the list. I'm wondering if the lint output itself is being truncated rather than those files actually being fixed.
+
+Actually, looking at the math: my changes fixed about 10 failures across my five files, so 60 minus 10 should be 50, not 27. That suggests other agents working on different file ranges in parallel have already fixed additional failures, which explains why the list now stops at literature-notes.md and files starting with m-z appear to be clean.
+
+My range (0-9 and a-f) is definitely clean for the five files I touched, but I should verify that the voice and slop linters would also pass on them since the lint chain stopped before running those checks. Let me run those linters specifically on my files to be thorough, and also verify the frontmatter and format normalization steps don't flag anything.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+All five of my files are clean. Let me confirm the remaining chain steps (format, voice, slop) also pass on them.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: for s in normalize-notes-format.py lint-flashcard-frontmatter.py audit-flashcard-north-star.py; do echo &#34;== $s&#34;; node scripts/runPython.mjs scripts/$s $( [ &#34;$s&#34; = &#34;normalize-notes-format.py&#34; ] &amp;&amp; echo --verify ) 2&gt;&amp;1 | rg -i &#39;21-laws|evergreen-notes|faithfulness|follow-the-rhythm|freedom-over-free&#39; || echo &#34;  (no hits)&#34;; done; echo &#34;== voice garden&#34;; node scripts/runPython.mjs scripts/voice-lint.py garden --check 2&gt;&amp;1 | rg -i &#39;21-laws|evergreen-notes|faithfulness|follow-the-rhythm|freedom-over-free&#39; || echo &#34;  (no hits)&#34;; echo &#34;== slop notes&#34;; node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only 2&gt;&amp;1 | rg -i &#39;21-laws|evergreen-notes|faithfulness|follow-the-rhythm|freedom-over-free&#39; || echo &#34;  (no hits)&#34;</summary>
+```bash
+for s in normalize-notes-format.py lint-flashcard-frontmatter.py audit-flashcard-north-star.py; do echo "== $s"; node scripts/runPython.mjs scripts/$s $( [ "$s" = "normalize-notes-format.py" ] && echo --verify ) 2>&1 | rg -i '21-laws|evergreen-notes|faithfulness|follow-the-rhythm|freedom-over-free' || echo "  (no hits)"; done; echo "== voice garden"; node scripts/runPython.mjs scripts/voice-lint.py garden --check 2>&1 | rg -i '21-laws|evergreen-notes|faithfulness|follow-the-rhythm|freedom-over-free' || echo "  (no hits)"; echo "== slop notes"; node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only 2>&1 | rg -i '21-laws|evergreen-notes|faithfulness|follow-the-rhythm|freedom-over-free' || echo "  (no hits)"
+```
+
+```
+== normalize-notes-format.py
+  (no hits)
+== lint-flashcard-frontmatter.py
+  (no hits)
+== audit-flashcard-north-star.py
+  (no hits)
+== voice garden
+  (no hits)
+== slop notes
+  (no hits)
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Checking that the linting passes cleanly and verifying the diff only modifies the shareable_thought file.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+No hits anywhere. Let me confirm the diff touches only `shareable_thought`.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git diff -- content/english/notes/21-laws-of-leadership-in-the-bible.md content/english/notes/evergreen-notes.md content/english/notes/faithfulness.md content/english/notes/follow-the-rhythm.md content/english/notes/freedom-over-free.md</summary>
+```bash
+git diff -- content/english/notes/21-laws-of-leadership-in-the-bible.md content/english/notes/evergreen-notes.md content/english/notes/faithfulness.md content/english/notes/follow-the-rhythm.md content/english/notes/freedom-over-free.md
+```
+
+```
+diff --git a/content/english/notes/21-laws-of-leadership-in-the-bible.md b/content/english/notes/21-laws-of-leadership-in-the-bible.md
+index 97296ca3..2e692068 100644
+--- a/content/english/notes/21-laws-of-leadership-in-the-bible.md
++++ b/content/english/notes/21-laws-of-leadership-in-the-bible.md
+@@ -15,9 +15,9 @@ level_4: "The framework helps compare leadership patterns, but Scripture governs
+ level_5: "Add or revise a law lesson by defending one leadership claim through three scriptural cases, then extend its workplace implications without turning the hub into CEO advice."
+ shareable_thought:
+   - "Twenty-one leadership laws illustrated with Old and New Testament stories - one claim per lesson, three biblical cases each."
+-  - "Scripture illustrates leadership laws the way case studies illustrate business books - one hub, twenty-one lessons, three Bible stories each."
+-  - "Twenty-one Laws of Leadership in the Bible is a faith hub that pairs Maxwell's leadership laws with three scriptural case studies each."
+-  - "Maxwell's law names frame each lesson; biblical cases from Aaron, Deborah, Nehemiah, and Paul illustrate influence - not modern CEO anecdotes."
++  - "Scripture illustrates leadership laws the way case studies illustrate business books."
++  - "The laws describe faithful influence after Free Grace - they do not earn eternal life."
++  - "Pick one law you need this week, read its three cases, and choose one faithful influence move to practice."
+ relationships:
+   - type: extends
+     wikilink: "[[Discipleship vs Leadership]]"
+diff --git a/content/english/notes/evergreen-notes.md b/content/english/notes/evergreen-notes.md
+index 129ed326..f7993ae6 100644
+--- a/content/english/notes/evergreen-notes.md
++++ b/content/english/notes/evergreen-notes.md
+@@ -18,7 +18,7 @@ shareable_thought:
+   - "Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes."
+   - "Complete sentences you would still sign - not trend-chasing r
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+All five files in my range (basename starting with a digit or a–f) now pass. Nothing was committed.
+
+## Files changed
+
+**`21-laws-of-leadership-in-the-bible.md`** — three lines were over 130 chars and one wasn't traceable to the note's own wording. Replaced items 1–3 so the four now hit distinct angles: scope (from `description`), the case-study analogy (from `key_concept`), the Free Grace boundary (from `key_concept`), and the practice move (from `level_3`). Longest is now 124 chars.
+
+**`evergreen-notes.md`** — item 3 ("Revision is part of evergreen work…") wasn't drawn from any principle field. Replaced with the "evergreen does not mean frozen" clause from `level_4`, which keeps the same intent and is now traceable.
+
+**`faithfulness.md`** — items 1 and 2 failed. Item 1 became the "quiet Tuesdays" application line from `level_3`; item 2 became the grace-before-obedience ordering from `level_4`. Both preserve the original meaning and keep the doctrinal ordering intact.
+
+**`follow-the-rhythm.md`** — items 2 and 3 failed. Item 2 now uses the full `level_3` scheduling line; item 3 uses the "hero weeks collapse" clause from `key_concept`, which carries the same failure-mode point as the "crusade mode" line it replaces.
+
+**`freedom-over-free.md`** — item 3 failed. Swapped in the client-handoff line from `level_3`, which makes the same permission-vs-price argument with wording the linter accepts.
+
+## Verification
+
+`corepack pnpm lint:garden` reports no failures for any of the five. I also ran the remaining steps in the chain that the frontmatter linter's early exit would otherwise mask (format verify, flashcard lint, north-star audit, `voice-lint garden`, `voice-lint slop --notes-only`) and none of them flag these files.
+
+Remaining failures across the repo all start with `g` or later, so none fall in my range. Note that the total dropped from 60 to 27 while I worked, which is more than my 10 — other ranges appear to be getting fixed concurrently, so that count will keep moving.
+
+## Session close
+- Fixed: 10 `shareable_thought` lines across 5 notes now pass garden lint, all wording pulled from each note's own principle fields.
+- Encode: none
+- Open: 27 garden lint failures remain repo-wide, all outside the digit/a–f range.

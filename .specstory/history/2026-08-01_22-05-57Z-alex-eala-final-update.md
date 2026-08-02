@@ -38,6 +38,497 @@ _**Agent (auto-smart)**_
 _**Agent (auto-smart)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2** • Read file: </summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Alexandra Eala beats Naomi Osaka Pegula final 2026"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Alex Eala stuns Naomi Osaka to get one step closer to greatness](https://lobandsmash.com/alex-eala-stuns-naomi-osaka-get-one-step-closer-greatness)\n2. [Eala draws Osaka in Washington semifinals after topping Svitolina](https://www.wtatennis.com/news/4551496/eala-draws-osaka-in-dc-semis-after-overcoming-svitolina-in-berlin-repeat)\n3. [Jessica Pegula, Naomi Osaka book DC Open semifinal berths](https://sports.inquirer.net/688387/jessica-pegula-naomi-osaka-book-dc-open-semifinal-berths)\n4. [Alex Eala sets up semifinal vs. Naomi Osaka in Mubadala DC Open - ESPN](https://www.espn.com.au/tennis/story/_/id/49501607/wta-tour-alex-eala-semifinal-naomi-osaka-mubadala-dc-open)\n\nSynthesis:\nYes, Alexandra Eala defeated Naomi Osaka in the semifinals of the 2026 Mubadala DC Open [1][2]. Following that victory, Eala advanced to the final, where she is scheduled to face Jessica Pegula [1][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala stuns Naomi Osaka to get one step closer to greatness\u003c/title\u003e\n\u003curl\u003ehttps://lobandsmash.com/alex-eala-stuns-naomi-osaka-get-one-step-closer-greatness\u003c/url\u003e\n\u003ccontent\u003eAlex Eala stuns Naomi Osaka to get one step closer to greatness\n...\nAlex Eala is rising, and not even former Grand Slam winners can stand in her way, it seems. In the semifinals of the 2026 Citi Open against Naomi Osaka, Eala showed mental toughness, elite shot-making, and a difficult-to-manage second serve that was a real issue for the Japanese player.\n...\n## Alex Eala defeats Naomi Osaka in the semifinals of the 2026 Citi Open\n...\nheld to take\n...\nFans didn't need to wait long to find out. In the first game of the set, Eala got another break against Osaka and then held, jumping out to a 2-0 lead while the Japanese player was struggling to have any idea what to do with Eala's second serve. Through the first three games of the second set
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Confirmed the tournament is Washington (WTA 500).
+
+Eala beat Osaka in straight sets, winning 6-2 in the second set. Now checking tracker details for both players and the match URLs.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Washington SF win confirmed. Next I'll pull the exact score and match links, then check how Osaka and Pegula are handled in the H2H sections.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Alexandra Eala Naomi Osaka 6-2 Washington DC Open 2026 score"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Filipina Star Alex Eala Stuns Naomi Osaka, Advances to First WTA 500 Hard-Court Final](https://gulfnews.com/sport/tennis/alex-eala-upsets-naomi-osaka-storms-into-dc-open-final-1.500628041)\n2. [Eala Stuns Osaka to Reach Washington Open Final | Sports](https://ph.headtopics.com/news/eala-stuns-osaka-to-reach-washington-open-final-86179354)\n3. [LIVE UPDATES: Alex Eala vs Naomi Osaka at the Mubadala DC Open semifinals | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/997038/live-updates-alex-eala-vs-naomi-osaka-at-the-mubadala-dc-open-semifinals/story/)\n4. [Naomi Osaka vs Alexandra Eala · Semifinal · ATP/WTA Washington D.C.](https://www.tennis.com/tournaments/mubadala-dc-open/matches/n-osaka-vs-a-eala-2026-08-01)\n5. [Naomi Osaka vs Alexandra Eala : Scores, Results Lineups, H2H \u0026 Odds](https://www.365scores.com/en-us/tennis/match/washington-open-599/alexandra-eala-naomi-osaka-20956-68734-599)\n\nSynthesis:\nAlexandra Eala defeated Naomi Osaka with a score of 6-4, 6-2 in the semifinals of the Mubadala DC Open on August 1, 2026 [1][2]. The victory advanced Eala to her first WTA 500 hard-court final [1][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eFilipina Star Alex Eala Stuns Naomi Osaka, Advances to First WTA 500 Hard-Court Final\u003c/title\u003e\n\u003curl\u003ehttps://gulfnews.com/sport/tennis/alex-eala-upsets-naomi-osaka-storms-into-dc-open-final-1.500628041\u003c/url\u003e\n\u003ccontent\u003eina Star Alex Eala Stuns Naomi Osaka, Advances to First WTA 500 Hard-Court Final\n...\n# Alex Eala upsets Naomi Osaka, storms into DC Open final\n...\nAlexandra Eala of the Philippines celebrates after winning a women's singles match against Naomi Osaka of Japan on day six of the Mubadala DC Open 2026 at William H.G. FitzGerald Tennis Center on August 01, 2026 in Washington, DC.AFP\n...\nAlex Eala produced another stunning upset by defeating former world No.
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "Osaka|Pegula|Matches to Watch|Grand Slam Champions|Other Top 20"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "Osaka|Pegula|Matches to Watch|Grand Slam Champions|Other Top 20",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Alex beat Osaka 6-4, 6-2. The final match is against Pegula.
+
+Checking WTA score URLs and match codes for the final. Osaka needs promotion to Grand Slam Champions.
+
+Pegula already has H2H stats. The Washington entry will show the final as pending with no links yet. The "At a glance" section will note Alex as the first Filipino in a WTA 500 final.
+
+The final is also the first hard-court WTA Tour final. I am fetching the WTA score URL and reviewing the Readula and Osaka sections plus an example Grand Slam Champion block.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Score is 6-4, 6-2. Fetching the WTA match URL and reading the H2H blocks I'll need to update.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+Parameters:
+
+```json
+{
+  "url": "https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS003"
+}
+```
+Result:
+
+```json
+{
+  "markdown": "Osaka vs. Eala | Semifinals Mubadala DC Open 2026 | WTA Official\n\nGo back to the home page\n\n-\n\nOsaka vs. Eala | Semifinals Mubadala DC Open 2026 | WTA Official\n[Skip to main content](#)\n[\n![WTAxMB-star_joint-logo_h_MB-version_p_3C_web (1)](https://photoresources.wtatennis.com/photo-resources/2025/12/16/1fed3d88-0b63-4e6c-92ec-98051c1e381c/WTAxMB-star_joint-logo_h_MB-version_p_3C_web-1-.png?height=16)\n](https://www.mercedes-benz.com/en/art-and-culture/zeitgeist/sports/tennis/wta/)\n[\n![WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white (1)](https://photoresources.wtatennis.com/photo-resources/2025/12/16/da304a4e-6ed8-4f3b-9796-b557c74baef5/WTAxMB-star_joint-logo_h_MB-version_p_3C_web_white-1-.png?height=16)\n](https://www.mercedes-benz.com/en/art-and-culture/zeitgeist/sports/tennis/)\n[\n![WTA Logo](https://photoresources.wtatennis.com/wta/document/2025/12/04/5da42b69-828e-4814-9ef9-daa4c8f68b2e/WTA_Logo_Core_Purple_RGB.svg)\nGo back to the home page\n](https://www.wtatennis.com)\n-\n[\n![WTA_Web_Quick-Links_Tiles-Scores_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/a446fa8d-49f3-41dd-9a5e-014c856e3492/WTA_Web_Quick-Links_Tiles-Scores_288x288.png?width=142\u0026height=142)\nScores\n](/scores)\n[\n![WTA_Web_Quick-Links_Tiles-Rankings_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/de183c42-affb-457b-b525-7632af6b3ff4/WTA_Web_Quick-Links_Tiles-Rankings_288x288.png?width=142\u0026height=142)\nRankings\n](/rankings)\n[\n![WTA_Web_Quick-Links_Tiles-Exclusive-Content_288x288](https://photoresources.wtatennis.com/photo-resources/2026/06/26/0964ad3d-37bb-440e-b790-147373d5546b/WTA_Web_Quick-Links_Tiles-Exclusive-Content_288x288.png?width=142\u0026height=142)\nExclusives\n](/collections/exclusive-content)\n[\n![Finals Quick Link Tile](https://photoresources.wtatennis.com/photo-resources/2026/07/01/31b16e6f-6330-402d-939e-6637056caeed/Finals-Quick-Link-Tile.png?width=142\u0026height=142)\nFinals\n]
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Eala Osaka Washington WTA scores LS highlights youtube 2026"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Naomi Osaka vs Alexandra Eala · Semifinal · ATP/WTA Washington D.C.](https://www.tennis.com/tournaments/mubadala-dc-open/matches/n-osaka-vs-a-eala-2026-08-01)\n2. [Naomi Osaka vs Alexandra Eala : Scores, Results Lineups, H2H \u0026 Odds](https://www.365scores.com/en-us/tennis/match/washington-open-599/alexandra-eala-naomi-osaka-20956-68734-599)\n3. [LIVE UPDATES: Alex Eala vs Naomi Osaka at the Mubadala DC Open semifinals | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/997038/live-updates-alex-eala-vs-naomi-osaka-at-the-mubadala-dc-open-semifinals/story/)\n4. [LIVE DC Open WTA Semifinals | Naomi Osaka and Alex Eala fight for chance to face Pegula in final](https://tennisuptodate.com/wta/live-dc-open-wta-semifinals-eala-vs-osaka-and-pegula-vs-shnaider-battle-for-a-spot-in-the-final)\n5. [Day 3 in Washington, DC with Osaka, Eala \u0026 more | WTA Match Highlights - YouTube](https://www.youtube.com/watch?v=cKIXEHn4WDI)\n\nSynthesis:\nThe semifinal match between Naomi Osaka and Alexandra Eala at the 2026 Mubadala DC Open was scheduled for Saturday, August 1, 2026 [1][2][3]. Because the match was scheduled for today, official final scores are not yet available [3][4]. You can find match highlights on the official WTA YouTube channel or the Tennis Channel website [1][5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eNaomi Osaka vs Alexandra Eala · Semifinal · ATP/WTA Washington D.C.\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/tournaments/mubadala-dc-open/matches/n-osaka-vs-a-eala-2026-08-01\u003c/url\u003e\n\u003ccontent\u003e[![Tennis.com](https://www.tennis.com/logos/tennis-com.svg)](https://www.tennis.com/)\n[Watch now](https://www.tennischannel.com)\nNaomi Osaka vs Alexandra Eala · Semifinal · ATP/WTA Washington D.C.\nSemifinal\n[ATP/WTA Washington D.C.](https://www.tennis.com/tournaments/mubadala-dc-open)·WTA 500·August 1, 2026\n# [![Naomi Os
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Confirmed Eala's 6-4, 6-2 win over Osaka. She advances to face Pegula in the final.
+
+Updating Washington Best Performances and At a glance with Eala's notable firsts. Promoting Osaka to Grand Slam Champions and removing her from the watch list. Searching for YouTube highlights. Checking Noskova's title placement.
+
+Rybakina's 2026 AO title outranks Osaka's 2021 AO title. Sorting Grand Slam Champions by total titles then most recent slam title.
+
+Krejcikova, Keys, Vondrousova, and Ostapenko each hold one title. Osaka ranks between Swiatek and Rybakina. The At a glance entry will note Eala as the first Filipina in a WTA 500 final and the first hard-court WTA Tour final above 125.
+
+Zheng and Fernandez are already in Other Top 20. I will update reference.md opponent lists for the promotion. YouTube highlights are next.
+
+I will not edit reference.md. The skill restricts changes to the tracker file only.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+WTA confirms 6-4, 6-2 on LS003. Searching for highlights, then updating the Washington block and promoting Osaka to Grand Slam Champions.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "\"Eala\" \"Osaka\" \"WTA Match Highlights\" OR \"Washington\" site:youtube.com 2026"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Day 3 in Washington, DC with Osaka, Eala \u0026 more | WTA Match Highlights - YouTube](https://www.youtube.com/watch?v=cKIXEHn4WDI)\n2. [Eala Beats Svitolina Again to set up Osaka Match at Washington 2026 | Tennis News - YouTube](https://www.youtube.com/watch?v=zyXYXUZLZok)\n\nSynthesis:\nThe match between Alexandra Eala and Naomi Osaka took place as a semifinal at the 2026 Mubadala Citi DC Open in Washington [1][2]. You can view the official match highlights on the WTA YouTube channel, which features coverage of their encounter [1][3]. These highlights capture the key points and momentum shifts from their semifinal clash at the tournament [3][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eDay 3 in Washington, DC with Osaka, Eala \u0026 more | WTA Match Highlights - YouTube\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=cKIXEHn4WDI\u003c/url\u003e\n\u003ccontent\u003eDay 3 in Washington, DC with Osaka, Eala \u0026 more | WTA Match Highlights - YouTube\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eEala Beats Svitolina Again to set up Osaka Match at Washington 2026 | Tennis News - YouTube\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=zyXYXUZLZok\u003c/url\u003e\n\u003ccontent\u003eEala Beats Svitolina Again to set up Osaka Match at Washington 2026 | Tennis News - YouTube\u003c/content\u003e\n\u003c/result\u003e",
+      "title": "Web search results"
+    }
+  ],
+  "rejected": false
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: sleep 2 &amp;&amp; curl -sL &#34;https://www.youtube.com/results?search_query=Eala+Osaka+Washington+2026+highlights&#34; | grep -oE &#39;watch\?v=[a-zA-Z0-9_-]{11}&#39; | head -20; echo &#39;---&#39;; curl -sL &#34;https://www.youtube.com/results?search_query=Eala+Osaka+WTA+Match+Highlights&#34; | grep -oE &#39;watch\?v=[a-zA-Z0-9_-]{11}&#39; | head -15</summary>
+```bash
+sleep 2 && curl -sL "https://www.youtube.com/results?search_query=Eala+Osaka+Washington+2026+highlights" | grep -oE 'watch\?v=[a-zA-Z0-9_-]{11}' | head -20; echo '---'; curl -sL "https://www.youtube.com/results?search_query=Eala+Osaka+WTA+Match+Highlights" | grep -oE 'watch\?v=[a-zA-Z0-9_-]{11}' | head -15
+```
+
+```
+---
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+YouTube search via curl failed in the sandbox.
+
+OEmbed and targeted web searches will replace the failed YouTube search. Content updates will proceed without verified video embeds, with a note to add them once WTA uploads highlights. The reference sort order is confirmed correct: Noskova's Wimbledon 2026 title outranks Keys' Australian Open 2025 title.
+
+The reference table misplaces Noskova. With one title, she belongs with the single-title holders rather than between Krejcikova and Keys. The current placement is incorrect.
+
+Osaka has four titles, so she belongs after Swiatek and before Rybakina. I will not re-sort the entire section unless I am auditing. The existing H2H already lists Linda Noskova.
+
+The skill requires re-sorting the entire Grand Slam Champions block after any opponent change. I will place Osaka after Swiatek and before Rybakina. The correct order is Swiatek, Osaka, Rybakina, Gauff, Krejcikova.
+
+Noskova's placement is actually correct. She ranks first among single-title holders, ahead of Keys and Vondrousova. The reference Existing H2H list already places her between Krejcikova and Keys. I will insert Osaka between Swiatek and Rybakina.
+
+No Washington tournament embeds are needed; all three players already appear in H2H sections. News reports confirm Osaka reached her first hard-court final and her second WTA Tour final above the 125 level. The milestone bullet will read: First Filipina to reach a WTA 500 final.
+
+The Washington entry will list two milestones: first Filipina to reach a WTA 500 final and first career hard-court WTA Tour final. The semifinal against Osaka will cite the match URL as LS001. The lastmod timestamp will be bumped to the current UTC date.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Alexandra Eala Naomi Osaka Match Highlights YouTube WTA August 2026"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Alex Eala stuns Naomi Osaka, reaches DC Open finals | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/997042/alex-eala-vs-naomi-osaka-dc-open-semifinal/story/?just_in=)\n2. [Filipina Star Alex Eala Stuns Naomi Osaka, Advances to First WTA 500 Hard-Court Final](https://gulfnews.com/sport/tennis/alex-eala-upsets-naomi-osaka-storms-into-dc-open-final-1.500628041)\n3. [Day 3 in Washington, DC with Osaka, Eala \u0026 more | WTA Match Highlights - YouTube](https://www.youtube.com/watch?v=cKIXEHn4WDI)\n4. [Naomi Osaka vs Alexandra Eala · Semifinal · ATP/WTA Washington D.C.](https://www.tennis.com/tournaments/mubadala-dc-open/matches/n-osaka-vs-a-eala-2026-08-01)\n5. [Eala Beats Svitolina Again to set up Osaka Match at Washington 2026 | Tennis News - YouTube](https://www.youtube.com/watch?v=zyXYXUZLZok)\n\nSynthesis:\nAlexandra Eala defeated Naomi Osaka 6-4, 6-2 in the semifinals of the Mubadala DC Open on August 1, 2026 [1][2]. You can find match highlights on the official WTA YouTube channel or through the Tennis Channel website [3][4]. The victory advanced Eala to her first WTA 500 final [1][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala stuns Naomi Osaka, reaches DC Open finals | GMA News Online\u003c/title\u003e\n\u003curl\u003ehttps://www.gmanetwork.com/news/sports/othersports/997042/alex-eala-vs-naomi-osaka-dc-open-semifinal/story/?just_in=\u003c/url\u003e\n\u003ccontent\u003eAlex Eala stuns Naomi Osaka, reaches DC Open finals | GMA News Online\n...\nPublished August 2, 2026 5:16am\n...\nAlexandra Eala returns a shot during a match against Naomi Osaka in the Mubadala DC Open on August 01, 2026. (Photo by Emilee Chinn / GETTY IMAGES NORTH AMERICA / Getty Images via AFP)\n...\nAlexandra \"Alex\" Eala stunned four-time Grand Slam champion Naomi Osaka, 6-4, 6-2, in the semifinals of the DC Open to advance to her first WTA 500 final.\n...\nThe victory 
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL &#34;https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=cKIXEHn4WDI&amp;format=json&#34;; echo; sleep 1; curl -sL &#34;https://www.tennis.com/tournaments/mubadala-dc-open/matches/n-osaka-vs-a-eala-2026-08-01&#34; | grep -iE &#39;final score|6-4|6-2|Winner|Finished|Semifinal&#39; | head -20</summary>
+```bash
+curl -sL "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=cKIXEHn4WDI&format=json"; echo; sleep 1; curl -sL "https://www.tennis.com/tournaments/mubadala-dc-open/matches/n-osaka-vs-a-eala-2026-08-01" | grep -iE 'final score|6-4|6-2|Winner|Finished|Semifinal' | head -20
+```
+
+```
+{"title":"Day 3 in Washington, DC with Osaka, Eala \u0026 more | WTA Match Highlights","author_name":"WTA","author_url":"https://www.youtube.com/@WTA","type":"video","height":113,"width":200,"version":"1.0","provider_name":"YouTube","provider_url":"https://www.youtube.com/","thumbnail_height":360,"thumbnail_width":480,"thumbnail_url":"https://i.ytimg.com/vi/cKIXEHn4WDI/hqdefault.jpg","html":"\u003ciframe width=\u0022200\u0022 height=\u0022113\u0022 src=\u0022https://www.youtube.com/embed/cKIXEHn4WDI?feature=oembed\u0022 frameborder=\u00220\u0022 allow=\u0022accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\u0022 referrerpolicy=\u0022strict-origin-when-cross-origin\u0022 allowfullscreen title=\u0022Day 3 in Washington, DC with Osaka, Eala \u0026amp; more | WTA Match Highlights\u0022\u003e\u003c/iframe\u003e"}
+<!DOCTYPE html><html lang="en" class="inter_c15e96cb-module__0bjUvq__variable newsreader_806280bb-module__dhyOLG__variable"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/><link rel="preload" as="image" imageSrcSet="/logos/tennis-com.svg 1x, /logos/tennis-com.svg 2x"/><link rel="stylesheet" href="/_next/static/chunks/3934c540bac24793.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/chunks/541ec654df146bc1.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/chunks/5c46c3edf9250125.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/chunks/a9546bde31fa1203.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/50c5980b813bc4d0.js"/><script src="/_next/static/chunks/55bc9d46cd885112.js" async=""></script><script src="/_next/static/chunks/034e6d49a67b61fb.js" async=""></script><script src="/_next/static/chunks/7d6514a90169e63d.js" async=""></script><script src="/_next/static/chunks/68a088aa49e6124a.js" async=""></script><script src="/
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+SF highlights are missing. I'll flag this gap.
+
+Reading the oembed output before making edits.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/f811c4cd-d4c8-4d43-a020-eb485e412960.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: date -u +%Y-%m-%dT%H:%M:%SZ</summary>
+```bash
+date -u +%Y-%m-%dT%H:%M:%SZ
+```
+
+```
+2026-08-01T22:07:47Z
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Highlights are unavailable. I'll proceed without the YouTube embed and flag it.
+
+Updating the lastmod timestamp. Adding the WTA 500 final to notable firsts. Reordering the Washington block to insert Osaka after Swiatek and removing her from the watch list. Confirming Osaka's career-high ranking.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Applying tracker updates: Washington final, Osaka H2H promotion, and At a glance.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The Osaka promotion requires updating reference.md. The top instruction limits edits to the tracker only.
+
+I'll skip reference.md to respect the edit-only scope. I'm verifying the tracker changes and searching YouTube for full game highlights.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "\"FULL GAME HIGHLIGHTS\" OR \"Match Highlights\" Eala Osaka One Sports OR \"Tennis Channel\" OR WTA"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [WTA Video Highlights | Best Women’s Tennis Moments - WTA Official](https://www.wtatennis.com/videos/highlights)\n2. [Day 3 in Washington, DC with Osaka, Eala \u0026 more | WTA Match Highlights - YouTube](https://www.youtube.com/watch?v=cKIXEHn4WDI)\n3. [Day 2 in Washington, DC with Eala, Potapova \u0026 more | WTA Match Highlights - YouTube](https://www.youtube.com/watch?v=wh9V6nCSKmI)\n4. [Third Round: Alexandra Eala vs. Iga Swiatek | Full Game Highlights | 2026 Wimbledon](https://www.youtube.com/watch?v=O4xqKcX-UDw)\n\nSynthesis:\nYou can find official highlights for WTA matches, including those featuring Alexandra Eala and Naomi Osaka, on the official WTA website [1] and the WTA's official YouTube channel [2][3][4][5]. For Wimbledon 2026 content specifically, check the tournament's official website and app for short clips [6], or the Tennis Channel platform for supplemental highlight packages [6]. The full highlights for the Eala versus Swiatek third-round match are available through ESPN's official coverage [5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eWTA Video Highlights | Best Women’s Tennis Moments - WTA Official\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/videos/highlights\u003c/url\u003e\n\u003ccontent\u003eWTA Video Highlights | Best Women’s Tennis Moments - WTA Official\n\nGo back to the home page\n\n-\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eDay 3 in Washington, DC with Osaka, Eala \u0026 more | WTA Match Highlights - YouTube\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=cKIXEHn4WDI\u003c/url\u003e\n\u003ccontent\u003eDay 3 in Washington, DC with Osaka, Eala \u0026 more | WTA Match Highlights - YouTube\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eDay 2 in Washington, DC with Eala, Potapova \u0026 more | WTA Match Highlights - YouTube
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Everything looks good. No YouTube highlights found for San Francisco yet. Flagged for the user.
+
+The final is being updated to reflect the Pegula rematch. A session close block is needed since files were edited.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+**Washington final is live.** Eala took Osaka **6-4, 6-2** in the SF and plays Pegula for the title.
+
+### Updates
+- **Washington (WTA 500):** SF win over Naomi Osaka; Finals pending vs Jessica Pegula; milestones for first Filipina WTA 500 final + first hard-court tour final
+- **At a glance:** added first Filipina in a WTA 500 final (Washington 2026)
+- **Grand Slam Champions:** new Naomi Osaka block (4 Slams, career high No. 1) — sorted after Swiatek
+- **Watch list:** Osaka removed
+- **`lastmod`:** bumped
+
+### Unverified gap
+- No official/broadcaster YouTube highlights for the Osaka SF yet (too fresh). Ping me when WTA/One Sports/Tennis Channel upload and I’ll embed under the Osaka H2H block.
+- Final vs Pegula not played — say the word after it and I’ll close the run + Pegula H2H line.
+
+## Session close
+- Fixed: Tracker updated for Eala’s Osaka SF win and Washington final vs Pegula.
+- Encode: none
+- Open: Osaka SF YouTube embed pending upload

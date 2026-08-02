@@ -485,3 +485,482 @@ package.json
 
 ```
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The flashcard pattern is clear.
+
+Drafting six flashcards per note now. Each front will be a present-tense first-person cue with a subtle open hint question. Each back will be a plain one-move decision. All constraints apply: no verse references, no title telegraphy, no multiple choice, no em dashes, Free Grace doctrine, and no other content altered.
+
+Drafting the first note, "Law of Solid Ground." Cards cover broken promises, temptation, wrong instinct, order forks, recovery, and boundaries. The first front is a present-tense cue about missing a promised deliverable.
+
+The first four cards for "Law of Solid Ground" are now drafted. They cover a missed deliverable, temptation to shade numbers, mistaking leadership for proof of salvation, hiding a rotting private walk, and a team that went quiet after a broken promise.
+
+The last two flashcards for "Law of Solid Ground" are now drafted. They cover repairing a broken promise before the next ask, and staying low when pride wants the credit speech.
+
+Drafting has moved to "Law of the Big Mo." The first two cards address coasting through March after three quick wins, and emptying the quiver to finish a streak. A third card about momentum feeling like God owes heaven is beginning.
+
+The remaining two flashcards for "Law of the Big Mo" are now drafted. They cover locking the next small win before the backlog swells, taking the unfinished swing now, and protecting momentum from boredom. Drafting has moved to "Law of the Inner Circle."
+
+Four flashcards for "Law of the Inner Circle" are now drafted. They cover inviting a truth-teller into a hard-decision call, keeping the friend who will confront, recognizing that counselors are fruit rather than favor, and adding one disagreeing counselor to break yes-men silence.
+
+Two more flashcards for "Law of the Inner Circle" are drafted. They cover scheduling the hard conversation with a truth-teller, and choosing truth over comfort when filling the tent with yes-men.
+
+Drafting has moved to "Law of the Lid." The first two cards are now drafted. One asks whether the lid itself is the bottleneck when the crew misses targets. The other addresses delegating one real decision today to break the habit of making every call.
+
+The remaining two flashcards for "Law of the Lid" are now drafted. One asks whether raising the leadership lid is actually climbing toward heaven, and the other warns that a low lid shatters unity. The final recovery move is to raise the lid itself rather than demanding more hours from the team.
+
+Drafting has moved to "Law of the Picture." Four flashcards are now drafted. One asks whether assigning the unglamorous task to others is the right move. Another warns that kids mirror the phone-at-dinner habit before the prayer habit. A third card treats strong example as wages for heaven. The fourth card says to match the walk before sharpening the speech.
+
+Drafting has moved to "Law of Timing." Two flashcards are now drafted. One warns that skipping the standard you preach when nobody is watching. The other says to show the right move once this week because the team copies shortcuts faster than values. The first two cards for "Law of Timing" are now drafted. One asks whether the room being hot means delaying announcement until the map is ready. The other warns that impatience pushing for a green light before it exists costs more.
+
+The final two flashcards for "Law of Timing" are now drafted. One warns that nailing timing this quarter starts to feel like earning eternal life, and the other says to move now because overcaution misses the hour. The remaining two cards warn against confirming the clock before announcing, and against forcing the door when fasting and praying.
+
+Drafting has moved to "Law of Victory." Four flashcards are now drafted. One asks whether the team is stuck and the door is closed. Another warns that comfort looks easier than taking the cost. A third card treats winning for the team as proof of salvation. The fourth card says to remove one blocker the team cannot clear before speaking.
+
+The final two flashcards for "Law of Victory" are now drafted. One asks whether a slipping deadline means rerouting a lane instead of polishing the pep talk. The other warns that a win costing more than intended tempts early quitting, and says to finish the path anyway. The full set of six cards per note is now complete. I am running the final audit checks: front longer than back, no verse references, no title telegraphy, no multiple choice, subtle hint questions, and Free Grace doctrine in every deck.
+
+Checking that no law names appear on the front of any card. The phrase "earning eternal life" is kept because it mirrors the skill’s own wrong-instinct pattern. "Mo" is avoided on the Big Mo front to prevent telegraphy. Fronts are being verified to be longer than backs. The new frontmatter will be inserted before `draft: false` in each note.
+
+I will insert the new frontmatter between `aliases` and `featured`, then place `review: true`, the `cards` array, and `draft: false` directly after `featured`. I will leave `noteFileDates.json` untouched and only modify the seven target note files. I am now writing all seven files.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Drafting six cue→apply cards per note, then inserting them before `draft: false`.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-solid-ground.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-big-mo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-inner-circle.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-lid.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-picture.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-timing.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-victory.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Running lint checks against the flashcard skill requirements.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Running flashcard lint, audit, and voice checks on the seven notes.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: pnpm lint:cards 2&gt;&amp;1; echo &#34;---EXIT:$?---&#34;; pnpm audit:cards 2&gt;&amp;1; echo &#34;---EXIT:$?---&#34;</summary>
+```bash
+pnpm lint:cards 2>&1; echo "---EXIT:$?---"; pnpm audit:cards 2>&1; echo "---EXIT:$?---"
+```
+
+```
+Command 'pnpm' not found, did you mean:
+  command 'npm' from deb npm (9.2.0~ds1-2)
+Try: apt install <deb name>
+---EXIT:127---
+Command 'pnpm' not found, did you mean:
+  command 'npm' from deb npm (9.2.0~ds1-2)
+Try: apt install <deb name>
+---EXIT:127---
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*voice*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "argparse|sys.argv|--files|paths"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "argparse|sys.argv|--files|paths",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/voice-lint.py"
+    },
+    {
+      "matchCount": 8,
+      "uri": "scripts/notes-voice-lint.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/notes-voice-sanitize.py"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 23
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*flashcard*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "argparse|sys.argv|--"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "argparse|sys.argv|--",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/lint-flashcard-frontmatter.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/sync-note-flashcards.py"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+pnpm is missing from PATH. Need to locate the correct way to run it.
+
+Considering corepack, npx, or the full binary path to invoke pnpm.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: which npm node corepack 2&gt;/dev/null; ls ~/.local/share/pnpm 2&gt;/dev/null | head -3; command -v pnpm || type pnpm; ls /home/jorap/.local/bin/pnpm 2&gt;/dev/null; ls /home/jorap/Documents/GitHub/jorap.com/node_modules/.bin 2&gt;/dev/null | head -5; head -5 package.json</summary>
+```bash
+which npm node corepack 2>/dev/null; ls ~/.local/share/pnpm 2>/dev/null | head -3; command -v pnpm || type pnpm; ls /home/jorap/.local/bin/pnpm 2>/dev/null; ls /home/jorap/Documents/GitHub/jorap.com/node_modules/.bin 2>/dev/null | head -5; head -5 package.json
+```
+
+```
+/home/jorap/.nvm/versions/node/v22.23.0/bin/npm
+/home/jorap/.nvm/versions/node/v22.23.0/bin/node
+/home/jorap/.nvm/versions/node/v22.23.0/bin/corepack
+store
+--: line 1: type: pnpm: not found
+conc
+concurrently
+cssesc
+detect-libc
+jiti
+{
+  "name": "jorap-com",
+  "description": "JoRap Notes - personal blog and portfolio (Hugo + Tailwind).",
+  "version": "2.2.0",
+  "license": "MIT",
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/audit-flashcard-north-star.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Deciding between npm run, corepack pnpm, or node scripts/runPython to execute the flashcard workflow.
+
+Will run the mjs script directly.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;/home/jorap/.nvm/versions/node/v22.23.0/bin:$PATH&#34;; corepack enable 2&gt;/dev/null; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; (command -v pnpm || npm exec -- pnpm -v) &amp;&amp; npm run lint:cards 2&gt;&amp;1; echo &#34;===LINT_EXIT:$?===&#34;; npm run audit:cards 2&gt;&amp;1; echo &#34;===AUDIT_EXIT:$?===&#34;; npm run lint:voice 2&gt;&amp;1; echo &#34;===VOICE_EXIT:$?===&#34;</summary>
+```bash
+export PATH="/home/jorap/.nvm/versions/node/v22.23.0/bin:$PATH"; corepack enable 2>/dev/null; cd /home/jorap/Documents/GitHub/jorap.com && (command -v pnpm || npm exec -- pnpm -v) && npm run lint:cards 2>&1; echo "===LINT_EXIT:$?==="; npm run audit:cards 2>&1; echo "===AUDIT_EXIT:$?==="; npm run lint:voice 2>&1; echo "===VOICE_EXIT:$?==="
+```
+
+```
+Internal Error: EACCES: permission denied, symlink '../lib/node_modules/corepack/dist/pnpm.js' -> '/home/jorap/.nvm/versions/node/v22.23.0/bin/pnpm'
+    at async Object.symlink (node:internal/fs/promises:1001:10)
+    at async EnableCommand.generatePosixLink (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23218:5)
+    at async Promise.all (index 0)
+    at async EnableCommand.execute (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23199:5)
+    at async EnableCommand.validateAndExecute (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:20278:22)
+    at async _Cli.run (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:21215:18)
+    at async Object.runMain (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23704:19)
+/home/jorap/.local/share/mise/installs/pnpm/latest/pnpm
+
+> jorap-com@2.2.0 lint:cards
+> node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py
+
+Flashcard frontmatter OK
+===LINT_EXIT:0===
+
+> jorap-com@2.2.0 audit:cards
+> node scripts/runPython.mjs scripts/audit-flashcard-north-star.py
+
+Flashcard north-star audit issues:
+  content/english/notes/depth-of-understanding.md [telegraphy-front] front=I can define the idea at dinner but never used it at wo… back=Explanation - not Application yet.…
+  content/english/notes/depth-of-understanding.md [telegraphy-front] front=Stuck between naming the concept and using it in a real… back=Explanation - meaning and relationships …
+
+2 issue(s) in garden flashcards
+===AUDIT_EXIT:1===
+
+> jorap-com@2.2.0 lint:voice
+> node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check
+
+Voice dash lint OK
+Voice lint warnings:
+  content/english/notes/law-of-empowerment.md: cards[3].front: AI-tell word `handoff` - try: pass off / pass to client
+===VOICE_EXIT:1===
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The flashcard lint check passed. Frontmatter is valid.
+
+Seven notes pass lint and voice checks. Pre-existing audit and voice warnings affect unrelated files. Filtering the results to confirm only the target files are clean.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;/home/jorap/.nvm/versions/node/v22.23.0/bin:$HOME/.local/share/mise/installs/pnpm/latest:$PATH&#34;
+cd /home/jorap/Documents/GitHub/jorap.com
+# Confirm our seven notes specifically clean in audit + voice
+node scripts/runPython.mjs scripts/audit-flashcard-north-star.py 2&gt;&amp;1 | rg &#34;law-of-(solid-ground|the-big-mo|the-inner-circle|the-lid|the-picture|timing|victory)&#34; || echo &#34;AUDIT: no issues in target seven&#34;
+node scripts/runPython.mjs scripts/voice-lint.py site --check 2&gt;&amp;1 | rg &#34;law-of-(solid-ground|the-big-mo|the-inner-circle|the-lid|the-picture|timing|victory)&#34; || echo &#34;VOICE: no issues in target seven&#34;
+# Length check front &gt; back for all cards in the seven
+python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import re
+stems = [
+  &#34;law-of-solid-ground&#34;,&#34;law-of-the-big-mo&#34;,&#34;law-of-the-inner-circle&#34;,
+  &#34;law-of-the-lid&#34;,&#34;law-of-the-picture&#34;,&#34;law-of-timing&#34;,&#34;law-of-victory&#34;
+]
+CARD_RE = re.compile(r&#39;^\s+-\s+front:\s+(&#34;(?:[^&#34;\\]|\\.)*&#34;)\s*\n\s+back:\s+(&#34;(?:[^&#34;\\]|\\.)*&#34;)\s*$&#39;, re.M)
+for stem in stems:
+  p = Path(f&#34;content/english/notes/{stem}.md&#34;)
+  text = p.read_text()
+  cards = CARD_RE.findall(text)
+  assert len(cards)==6, (stem, len(cards))
+  for i,(f,b) in enumerate(cards,1):
+    front=f[1:-1]; back=b[1:-1]
+    if len(front) &lt;= len(back):
+      print(f&#34;FAIL length {stem}#{i}: front={len(front)} back={len(back)}&#34;)
+    # hint question?
+    if &#39;?&#39; not in front:
+      print(f&#34;FAIL no ? {stem}#{i}: {front}&#34;)
+    # verse telegraph?
+    if re.search(r&#39;\b(Matthew|John|Mark|Luke|Proverbs|Samuel|Kings|Acts|Genesis|Deuteronomy|Judges|Exodus|Esther|Corinthians|Philippians|Peter)\b|\d+:\d+&#39;, front+back):
+      print(f&#34;FAIL verse {stem}#{i}&#34;)
+print(&#34;self-check done&#34;, sum(1 for s in stems for _ in [1]))
+PY
+# git status for report
+git status --short -- content/english/notes/law-of-solid-ground.md content/english/notes/law-of-the-big-mo.md content/english/notes/law-of-the-inner-circle.md content/english/notes/law-of-the-lid.md content/english/notes/law-of-the-picture.md content/english/notes/law-of-timing.md content/english/notes/law-of-victory.md
+</summary>
+```bash
+export PATH="/home/jorap/.nvm/versions/node/v22.23.0/bin:$HOME/.local/share/mise/installs/pnpm/latest:$PATH"
+cd /home/jorap/Documents/GitHub/jorap.com
+# Confirm our seven notes specifically clean in audit + voice
+node scripts/runPython.mjs scripts/audit-flashcard-north-star.py 2>&1 | rg "law-of-(solid-ground|the-big-mo|the-inner-circle|the-lid|the-picture|timing|victory)" || echo "AUDIT: no issues in target seven"
+node scripts/runPython.mjs scripts/voice-lint.py site --check 2>&1 | rg "law-of-(solid-ground|the-big-mo|the-inner-circle|the-lid|the-picture|timing|victory)" || echo "VOICE: no issues in target seven"
+# Length check front > back for all cards in the seven
+python3 - <<'PY'
+from pathlib import Path
+import re
+stems = [
+  "law-of-solid-ground","law-of-the-big-mo","law-of-the-inner-circle",
+  "law-of-the-lid","law-of-the-picture","law-of-timing","law-of-victory"
+]
+CARD_RE = re.compile(r'^\s+-\s+front:\s+("(?:[^"\\]|\\.)*")\s*\n\s+back:\s+("(?:[^"\\]|\\.)*")\s*$', re.M)
+for stem in stems:
+  p = Path(f"content/english/notes/{stem}.md")
+  text = p.read_text()
+  cards = CARD_RE.findall(text)
+  assert len(cards)==6, (stem, len(cards))
+  for i,(f,b) in enumerate(cards,1):
+    front=f[1:-1]; back=b[1:-1]
+    if len(front) <= len(back):
+      print(f"FAIL length {stem}#{i}: front={len(front)} back={len(back)}")
+    # hint question?
+    if '?' not in front:
+      print(f"FAIL no ? {stem}#{i}: {front}")
+    # verse telegraph?
+    if re.search(r'\b(Matthew|John|Mark|Luke|Proverbs|Samuel|Kings|Acts|Genesis|Deuteronomy|Judges|Exodus|Esther|Corinthians|Philippians|Peter)\b|\d+:\d+', front+back):
+      print(f"FAIL verse {stem}#{i}")
+print("self-check done", sum(1 for s in stems for _ in [1]))
+PY
+# git status for report
+git status --short -- content/english/notes/law-of-solid-ground.md content/english/notes/law-of-the-big-mo.md content/english/notes/law-of-the-inner-circle.md content/english/notes/law-of-the-lid.md content/english/notes/law-of-the-picture.md content/english/notes/law-of-timing.md content/english/notes/law-of-victory.md
+
+```
+
+```
+AUDIT: no issues in target seven
+VOICE: no issues in target seven
+self-check done 7
+ M content/english/notes/law-of-solid-ground.md
+ M content/english/notes/law-of-the-big-mo.md
+ M content/english/notes/law-of-the-inner-circle.md
+ M content/english/notes/law-of-the-lid.md
+ M content/english/notes/law-of-the-picture.md
+ M content/english/notes/law-of-timing.md
+ M content/english/notes/law-of-victory.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+All seven notes passed lint and voice checks. Finalizing the report now.
+
+No blockers affect the seven target notes. Site-wide audits flagged unrelated pre-existing files.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a concise report on the flashcard changes and any blockers.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Added six cue→apply flashcards to each of the seven notes (only `review` / `card_sets` / `cards` before `draft`).
+
+**Files changed**
+- `content/english/notes/law-of-solid-ground.md`
+- `content/english/notes/law-of-the-big-mo.md`
+- `content/english/notes/law-of-the-inner-circle.md`
+- `content/english/notes/law-of-the-lid.md`
+- `content/english/notes/law-of-the-picture.md`
+- `content/english/notes/law-of-timing.md`
+- `content/english/notes/law-of-victory.md`
+
+**Checks**
+- `lint:cards` — pass
+- Target seven — clean on `audit:cards` and `lint:voice`
+- Each deck: 6 cards, front `?` hint, front longer than back, no verse refs
+
+**Blockers (pre-existing, not these files)**
+- `audit:cards` still flags `depth-of-understanding.md` (telegraphy-front ×2)
+- `lint:voice` still warns on `law-of-empowerment.md` (`handoff`)
+
+No commit.
+
+## Session close
+- Fixed: Added six EP/Discipleship flashcards to seven Law notes
+- Encode: none
+- Open: clean for this batch; two unrelated garden lint debts remain

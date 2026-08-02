@@ -229,4 +229,30 @@ Three inference surfaces exist, and only the main agent chat is easy to set free
 
 - **Agent chat** → set to `kilo-auto/free` or a free model
 - **Autocomplete** → uses credits by default; free path is **Mistral Codestral via BYOK**
-- **Background tasks** 
+- **Background tasks** (titles, summarization) → uses paid small model by default; you must manually point these at a free model
+
+**5. Cloud features cost extra**  
+Cloud agents, code review, App Builder compute are **pay-as-you-go** ($0.33–$1.20/hr compute + model costs). That’s separate from the free extension.
+
+## Practical verdict
+
+**Quite useful if:**
+- You already have API keys (Claude, OpenAI, etc.) and want a capable agent UI with **no Kilo markup**
+- You run **local models** and want a polished agent interface
+- You want occasional help and can live with **200 req/hr** and weaker models
+
+**Less useful if:**
+- You want **Cursor Pro–level** daily agent work with zero spend
+- You need **reliable autocomplete** without setting up Mistral BYOK
+- You’re working on **private/proprietary code** and can’t use Auto Free’s data handling
+- You want hosted cloud agents without paying
+
+## Compared to alternatives (free angle)
+
+- **Cline / Continue + BYOK**: similar “free shell, you pay the model” model; less polished, more DIY
+- **Cursor free**: limited agent/composer usage on their hosted models
+- **Kilo free hosted tier**: real, but capped and lower quality — best as a **trial**, not a daily driver
+
+**Bottom line:** Kilo Code’s free plan is **most useful as a free open-source agent IDE when you BYOK or run local models**. The built-in `kilo-auto/free` tier is fine for light experimentation, but the **200/hr cap, weaker models, and privacy limits** make it a poor substitute for a paid coding assistant if that’s your main workflow.
+
+If you share how you’d use it (VS Code daily driver vs occasional edits vs local-only), I can give a more specific recommendation.
