@@ -36,3 +36,1240 @@ Also any remaining Faith notes if you find gaps: check whether these exist and a
 For EACH: COMPLIANT|MIXED|NON-COMPLIANT. Expand detail only for MIXED/NON-COMPLIANT with quotes. List COMPLIANT as filenames only.
 
 Thoroughness: medium. Audit only. No rewrites.
+
+---
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning the audit of remaining Faith category notes for Free Grace (Anderson) compliance.
+
+Reading the free-grace skill first, then auditing the listed files.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+I'll audit those Faith notes against Anderson Free Grace. Loading the free-grace skill first, then checking each listed file.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **339** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (339 files)
+
+| File |
+|------|
+| `content/english/notes/depth-of-understanding.md` |
+| `content/english/notes/by-their-fruits.md` |
+| `content/english/notes/digital-serendipity.md` |
+| `content/english/notes/shadow-the-work.md` |
+| `content/english/notes/words-that-build-up.md` |
+| `content/english/notes/fighting-dead-momentum.md` |
+| `content/english/notes/future-proofing-knowledge.md` |
+| `content/english/notes/strategic-foresight.md` |
+| `content/english/notes/invest-in-the-few.md` |
+| `content/english/notes/father-forgive-them.md` |
+| `content/english/notes/attention-to-detail.md` |
+| `content/english/notes/practice-small-experiments.md` |
+| `content/english/notes/mind-mapping.md` |
+| `content/english/notes/come-to-me-weary.md` |
+| `content/english/notes/develop-dont-endanger.md` |
+| `content/english/notes/life-before-achievement.md` |
+| `content/english/notes/render-unto-caesar.md` |
+| `content/english/notes/jesus-prayers.md` |
+| `content/english/notes/normalization-of-deviance.md` |
+| `content/english/notes/steward-after-the-win.md` |
+| `content/english/notes/community-depth.md` |
+| `content/english/notes/teachable-stack.md` |
+| `content/english/notes/influence-without-title.md` |
+| `content/english/notes/climb-without-cost.md` |
+| `content/english/notes/humility-and-service.md` |
+| `content/english/notes/literature-notes.md` |
+| `content/english/notes/faith-and-works.md` |
+| `content/english/notes/demanding-unearned-respect.md` |
+| `content/english/notes/incident-investigation.md` |
+| `content/english/notes/judge-not.md` |
+| `content/english/notes/law-of-the-lid.md` |
+| `content/english/notes/maintenance-window.md` |
+| `content/english/notes/reconcile-before-the-review.md` |
+| `content/english/notes/change-window.md` |
+| `content/english/notes/second-order-thinking.md` |
+| `content/english/notes/know-your-lane.md` |
+| `content/english/notes/minimum-effective-dose.md` |
+| `content/english/notes/issues.md` |
+| `content/english/notes/dont-worry.md` |
+| `content/english/notes/permission-scales.md` |
+| `content/english/notes/deep-work.md` |
+| `content/english/notes/the-second-brain-workflow.md` |
+| `content/english/notes/law-of-connection.md` |
+| `content/english/notes/block-recovery-time.md` |
+| `content/english/notes/great-commission.md` |
+| `content/english/notes/peacemakers.md` |
+| `content/english/notes/pressure-reveals-weakness.md` |
+| `content/english/notes/inspectable-stack.md` |
+| `content/english/notes/open-not-maintained.md` |
+| `content/english/notes/growth-mindset.md` |
+| `content/english/notes/21-laws-of-leadership-in-the-bible.md` |
+| `content/english/notes/weekly-review-checklists.md` |
+| `content/english/notes/safety-by-design.md` |
+| `content/english/notes/god-centered-design.md` |
+| `content/english/notes/information-diet.md` |
+| `content/english/notes/christianity-and-politics.md` |
+| `content/english/notes/standard-operating-procedures.md` |
+| `content/english/notes/turn-the-other-cheek.md` |
+| `content/english/notes/build-a-reliable-default.md` |
+| `content/english/notes/present-a-living-sacrifice.md` |
+| `content/english/notes/portable-software.md` |
+| `content/english/notes/freedom-over-free.md` |
+| `content/english/notes/the-trusted-inbox.md` |
+| `content/english/notes/it-is-written.md` |
+| `content/english/notes/the-fathers-food.md` |
+| `content/english/notes/sabbath-for-good.md` |
+| `content/english/notes/habit-formation.md` |
+| `content/english/notes/analog-capture-tools.md` |
+| `content/english/notes/seek-the-kingdom-first.md` |
+| `content/english/notes/opened-scripture.md` |
+| `content/english/notes/intellectual-sourcing.md` |
+| `content/english/notes/law-of-addition.md` |
+| `content/english/notes/graph.md` |
+| `content/english/notes/forgiveness-at-work.md` |
+| `content/english/notes/follow-their-lead.md` |
+| `content/english/notes/moved-with-compassion.md` |
+| `content/english/notes/law-of-empowerment.md` |
+| `content/english/notes/let-your-light-shine.md` |
+| `content/english/notes/composure.md` |
+| `content/english/notes/habit-stacking.md` |
+| `content/english/notes/first-principles-thinking.md` |
+| `content/english/notes/the-12-week-year.md` |
+| `content/english/notes/no-successor-left.md` |
+| `content/english/notes/the-golden-rule.md` |
+| `content/english/notes/guard-your-heart.md` |
+| `content/english/notes/create-regular-connection.md` |
+| `content/english/notes/faithful-steward.md` |
+| `content/english/notes/prayer-jesus-taught.md` |
+| `content/english/notes/resilience.md` |
+| `content/english/notes/blind-leadership-calls.md` |
+| `content/english/notes/read-later-queue.md` |
+| `content/english/notes/law-of-the-big-mo.md` |
+| `content/english/notes/pareto-principle.md` |
+| `content/english/notes/assurance.md` |
+| `content/english/notes/workplace-principles.md` |
+| `content/english/notes/take-up-your-cross.md` |
+| `content/english/notes/attention-economy.md` |
+| `content/english/notes/the-feynman-technique.md` |
+| `content/english/notes/execution.md` |
+| `content/english/notes/duty-of-care.md` |
+| `content/english/notes/follow-christ-then-lead.md` |
+| `content/english/notes/law-of-legacy.md` |
+| `content/english/notes/gate-what-you-consume.md` |
+| `content/english/notes/rollback-principle.md` |
+| `content/english/notes/random-duo.md` |
+| `content/english/notes/self-control.md` |
+| `content/english/notes/change-takes-repetition.md` |
+| `content/english/notes/heart-righteousness.md` |
+| `content/english/notes/open-source.md` |
+| `content/english/notes/finish-strong.md` |
+| `content/english/notes/law-of-magnetism.md` |
+| `content/english/notes/honest-self-awareness.md` |
+| `content/english/notes/evergreen-vs-fleeting-notes.md` |
+| `content/english/notes/signature-move.md` |
+| `content/english/notes/building-a-personal-api.md` |
+| `content/english/notes/bear-each-others-burdens.md` |
+| `content/english/notes/plain-commitments-at-work.md` |
+| `content/english/notes/law-of-sacrifice.md` |
+| `content/english/notes/active-reading.md` |
+| `content/english/notes/sanctification.md` |
+| `content/english/notes/create.md` |
+| `content/english/notes/accountability.md` |
+| `content/english/notes/low-leadership-lid.md` |
+| `content/english/notes/note-relationships.md` |
+| `content/english/notes/systems-for-growth.md` |
+| `content/english/notes/free-tier-hosting-stack.md` |
+| `content/english/notes/thank-father-at-lazarus.md` |
+| `content/english/notes/ask-seek-knock.md` |
+| `content/english/notes/christlikeness.md` |
+| `content/english/notes/discern-his-will-daily.md` |
+| `content/english/notes/learn-hireable-stacks.md` |
+| `content/english/notes/process-over-outcomes.md` |
+| `content/english/notes/people-centered-design.md` |
+| `content/english/notes/activity-without-accomplishment.md` |
+| `content/english/notes/peace.md` |
+| `content/english/notes/slow-the-moment.md` |
+| `content/english/notes/linking-by-meaning.md` |
+| `content/english/notes/ethical-leadership.md` |
+| `content/english/notes/love.md` |
+| `content/english/notes/sustainable-performance.md` |
+| `content/english/notes/listen-before-fixing.md` |
+| `content/english/notes/eternal-rewards.md` |
+| `content/english/notes/kingdom-on-the-road.md` |
+| `content/english/notes/safety-comes-first.md` |
+| `content/english/notes/into-your-hands.md` |
+| `content/english/notes/servant-leadership.md` |
+| `content/english/notes/table-fellowship.md` |
+| `content/english/notes/daily-notes.md` |
+| `content/english/notes/git-based-cms.md` |
+| `content/english/notes/expect-the-counter.md` |
+| `content/english/notes/skipped-daily-process.md` |
+| `content/english/notes/jesus-rhythms.md` |
+| `content/english/notes/outcomes-over-pitch-decks.md` |
+| `content/english/notes/spaced-repetition.md` |
+| `content/english/notes/gentleness.md` |
+| `content/english/notes/law-of-buy-in.md` |
+| `content/english/notes/free-grace.md` |
+| `content/english/notes/surface-bad-news-early.md` |
+| `content/english/notes/discipleship-vs-leadership.md` |
+| `content/english/notes/eliminate-before-managing.md` |
+| `content/english/notes/risk-management.md` |
+| `content/english/notes/static-site-client-scope.md` |
+| `content/english/notes/pkm.md` |
+| `content/english/notes/vision-without-trust.md` |
+| `content/english/notes/pray-when-drained.md` |
+| `content/english/notes/staged-rollout.md` |
+| `content/english/notes/mental-models.md` |
+| `content/english/notes/integrity-without-an-audience.md` |
+| `content/english/notes/joy.md` |
+| `content/english/notes/trust-god-for-today.md` |
+| `content/english/notes/minimum-viable-product.md` |
+| `content/english/notes/eternal-principles.md` |
+| `content/english/notes/hierarchy-of-controls.md` |
+| `content/english/notes/anti-fragile-systems.md` |
+| `content/english/notes/coaching-ethics.md` |
+| `content/english/notes/adaptability.md` |
+| `content/english/notes/own-the-error.md` |
+| `content/english/notes/measure-then-iterate.md` |
+| `content/english/notes/success-is-stewardship.md` |
+| `content/english/notes/right-move-wrong-time.md` |
+| `content/english/notes/follow-the-rhythm.md` |
+| `content/english/notes/okf-export.md` |
+| `content/english/notes/discipline.md` |
+| `content/english/notes/synthesis-as-a-goal.md` |
+| `content/english/notes/say-no-to-nulled.md` |
+| `content/english/notes/fruits-of-the-spirit.md` |
+| `content/english/notes/_index.md` |
+| `content/english/notes/notice-the-good.md` |
+| `content/english/notes/cross-platform-software.md` |
+| `content/english/notes/local-first-software.md` |
+| `content/english/notes/hoarding-all-power.md` |
+| `content/english/notes/the-collectors-fallacy.md` |
+| `content/english/notes/blameless-after-action-review.md` |
+| `content/english/notes/leading-by-subtraction.md` |
+| `content/english/notes/evergreen-notes.md` |
+| `content/english/notes/share-the-heavy-lift.md` |
+| `content/english/notes/capture.md` |
+| `content/english/notes/title-without-influence.md` |
+| `content/english/notes/building-a-second-brain.md` |
+| `content/english/notes/continuous-improvement.md` |
+| `content/english/notes/own-your-part.md` |
+| `content/english/notes/transformation-principles.md` |
+| `content/english/notes/versatility.md` |
+| `content/english/notes/atomic-habits.md` |
+| `content/english/notes/signal-vs-noise.md` |
+| `content/english/notes/law-of-process.md` |
+| `content/english/notes/loss-of-reward.md` |
+| `content/english/notes/low-hanging-fruit.md` |
+| `content/english/notes/there-is-no-perfect-solution.md` |
+| `content/english/notes/active-knowledge-curation.md` |
+| `content/english/notes/accept-the-starting-line.md` |
+| `content/english/notes/grateful-obedience.md` |
+| `content/english/notes/forgiveness.md` |
+| `content/english/notes/pray-before-you-choose.md` |
+| `content/english/notes/love-god.md` |
+| `content/english/notes/golden-rule-at-work.md` |
+| `content/english/notes/law-of-priorities.md` |
+| `content/english/notes/name-the-feeling.md` |
+| `content/english/notes/give-useful-feedback.md` |
+| `content/english/notes/systems-thinking.md` |
+| `content/english/notes/getting-started.md` |
+| `content/english/notes/walk-by-the-spirit.md` |
+| `content/english/notes/the-knowledge-lifecycle.md` |
+| `content/english/notes/do-as-i-say.md` |
+| `content/english/notes/emotional-regulation.md` |
+| `content/english/notes/metadata-strategy.md` |
+| `content/english/notes/preparedness.md` |
+| `content/english/notes/decision-quality.md` |
+| `content/english/notes/law-of-victory.md` |
+| `content/english/notes/faithfulness.md` |
+| `content/english/notes/law-of-respect.md` |
+| `content/english/notes/law-of-the-picture.md` |
+| `content/english/notes/share-what-you-learn.md` |
+| `content/english/notes/complete-the-cycle.md` |
+| `content/english/notes/inbox-zero.md` |
+| `content/english/notes/the-wise-builder.md` |
+| `content/english/notes/take-smart-notes.md` |
+| `content/english/notes/priorities-before-the-inbox.md` |
+| `content/english/notes/cap-todays-commitments.md` |
+| `content/english/notes/slow-productivity.md` |
+| `content/english/notes/the-beatitudes.md` |
+| `content/english/notes/judgment-seat.md` |
+| `content/english/notes/renewed-mind.md` |
+| `content/english/notes/not-my-will.md` |
+| `content/english/notes/treasure-in-heaven.md` |
+| `content/english/notes/digital-minimalism.md` |
+| `content/english/notes/law-of-the-inner-circle.md` |
+| `content/english/notes/the-garage-concept.md` |
+| `content/english/notes/maps-of-content.md` |
+| `content/english/notes/learning-organizations.md` |
+| `content/english/notes/psychological-safety.md` |
+| `content/english/notes/settling-for-loss.md` |
+| `content/english/notes/steering-without-chart.md` |
+| `content/english/notes/confess-to-one-another.md` |
+| `content/english/notes/let-your-yes-be-yes.md` |
+| `content/english/notes/quarterly-planning.md` |
+| `content/english/notes/justification.md` |
+| `content/english/notes/gtd-vs-para.md` |
+| `content/english/notes/flashcards.md` |
+| `content/english/notes/stay-effective-in-new-conditions.md` |
+| `content/english/notes/heed-every-near-miss.md` |
+| `content/english/notes/followers-without-leaders.md` |
+| `content/english/notes/set-calm-boundaries.md` |
+| `content/english/notes/iron-sharpens-iron.md` |
+| `content/english/notes/many-parts-one-body.md` |
+| `content/english/notes/discipleship.md` |
+| `content/english/notes/integrity.md` |
+| `content/english/notes/failure-as-feedback.md` |
+| `content/english/notes/creative-output.md` |
+| `content/english/notes/toxic-magnet-pull.md` |
+| `content/english/notes/commonplace-book.md` |
+| `content/english/notes/lean-startup.md` |
+| `content/english/notes/taxonomy.md` |
+| `content/english/notes/patience.md` |
+| `content/english/notes/purpose-and-vision.md` |
+| `content/english/notes/sunk-cost-fallacy.md` |
+| `content/english/notes/read-in-synagogue.md` |
+| `content/english/notes/law-of-intuition.md` |
+| `content/english/notes/love-your-neighbor.md` |
+| `content/english/notes/selling-static-sites.md` |
+| `content/english/notes/creative-blocks.md` |
+| `content/english/notes/secret-devotion.md` |
+| `content/english/notes/drafting-in-public.md` |
+| `content/english/notes/reconciliation-before-worship.md` |
+| `content/english/notes/childlike-faith.md` |
+| `content/english/notes/client-site-pass-off.md` |
+| `content/english/notes/layered-reading.md` |
+| `content/english/notes/digital-garden.md` |
+| `content/english/notes/leadership.md` |
+| `content/english/notes/context-aware-capture.md` |
+| `content/english/notes/weak-inner-circle.md` |
+| `content/english/notes/mobile-capture-workflows.md` |
+| `content/english/notes/withdraw-to-pray.md` |
+| `content/english/notes/process-mapping.md` |
+| `content/english/notes/grace.md` |
+| `content/english/notes/graph-view-analytics.md` |
+| `content/english/notes/law-of-influence.md` |
+| `content/english/notes/fail-on-paper-first.md` |
+| `content/english/notes/goodness.md` |
+| `content/english/notes/hand-before-heart.md` |
+| `content/english/notes/pray-for-his-own.md` |
+| `content/english/notes/compounding.md` |
+| `content/english/notes/para-method.md` |
+| `content/english/notes/the-narrow-way.md` |
+| `content/english/notes/ship-it.md` |
+| `content/english/notes/thank-father-for-revelation.md` |
+| `content/english/notes/standing-vs-fellowship.md` |
+| `content/english/notes/count-the-cost.md` |
+| `content/english/notes/law-of-timing.md` |
+| `content/english/notes/law-of-navigation.md` |
+| `content/english/notes/repent-and-believe.md` |
+| `content/english/notes/getting-things-done.md` |
+| `content/english/notes/trust-already-cracked.md` |
+| `content/english/notes/leadership-is-influence.md` |
+| `content/english/notes/energy-protects-judgment.md` |
+| `content/english/notes/love-your-enemies.md` |
+| `content/english/notes/atomic-notes.md` |
+| `content/english/notes/situational-control.md` |
+| `content/english/notes/glorify-your-name.md` |
+| `content/english/notes/deliberate-practice.md` |
+| `content/english/notes/reading-the-garden.md` |
+| `content/english/notes/control-the-rhythm.md` |
+| `content/english/notes/break-the-escalation-cycle.md` |
+| `content/english/notes/network-analysis.md` |
+| `content/english/notes/backlinks.md` |
+| `content/english/notes/sharpen-each-others-work.md` |
+| `content/english/notes/law-of-explosive-growth.md` |
+| `content/english/notes/reliability.md` |
+| `content/english/notes/review.md` |
+| `content/english/notes/periodic-knowledge-review.md` |
+| `content/english/notes/platform-reach-is-borrowed.md` |
+| `content/english/notes/behavioral-economics.md` |
+| `content/english/notes/mercy.md` |
+| `content/english/notes/law-of-solid-ground.md` |
+| `content/english/notes/reversibility.md` |
+| `content/english/notes/dont-copy-the-pattern.md` |
+| `content/english/notes/kindness.md` |
+| `content/english/notes/abide-in-me.md` |
+| `content/english/notes/convert-pain-into-learning.md` |
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning the audit of the remaining Faith category notes.
+
+Reading the remaining Faith notes in batches and searching for any additional Faith entries to close coverage gaps.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Next I'll scan those notes for the fail-checklist patterns and pull Faith-category gaps.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{21-laws-of-leadership-in-the-bible,law-of-*,jesus-rhythms,jesus-prayers,prayer-jesus-taught,withdraw-to-pray,pray-when-drained,pray-before-you-choose,pray-for-his-own,father-forgive-them,glorify-your-name,into-your-hands,not-my-will,thank-father-at-lazarus,thank-father-for-revelation,sabbath-for-good,the-fathers-food,kingdom-on-the-road,table-fellowship,moved-with-compassion,opened-scripture,read-in-synagogue,it-is-written,discern-his-will-daily,the-golden-rule}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "category:\\s*\\[?[\\\"']?Faith|categories:.*Faith|Faith"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "category:\\s*\\[?[\\\"']?Faith|categories:.*Faith|Faith",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-sacrifice.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-the-big-mo.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/into-your-hands.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/law-of-magnetism.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-buy-in.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/not-my-will.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-the-lid.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/pray-before-you-choose.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-victory.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-intuition.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/law-of-legacy.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-process.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/sabbath-for-good.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/father-forgive-them.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/pray-when-drained.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-priorities.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-explosive-growth.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/jesus-rhythms.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/thank-father-at-lazarus.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/it-is-written.md"
+    }
+  ],
+  "totalFiles": 45,
+  "totalMatches": 110
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "{21-laws-of-leadership-in-the-bible,law-of-*,jesus-rhythms,jesus-prayers,prayer-jesus-taught,withdraw-to-pray,pray-when-drained,pray-before-you-choose,pray-for-his-own,father-forgive-them,glorify-your-name,into-your-hands,not-my-will,thank-father-at-lazarus,thank-father-for-revelation,sabbath-for-good,the-fathers-food,kingdom-on-the-road,table-fellowship,moved-with-compassion,opened-scripture,read-in-synagogue,it-is-written,discern-his-will-daily,the-golden-rule}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "works prove|fruit confirms|dead on inspection|real faith shows|prove.*faith|persever|assurance|surrender|lordship|Mat(?:thew)?\\s*24:13|regenerat|limited atonement|universal|lose.*salvation|loss of.*life|James\\s*2|confession|fruit.*(belong|elect|saved)|saved.*(work|fruit|endure)|heaven.*(if|unless|by)|eternal life"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "works prove|fruit confirms|dead on inspection|real faith shows|prove.*faith|persever|assurance|surrender|lordship|Mat(?:thew)?\\s*24:13|regenerat|limited atonement|universal|lose.*salvation|loss of.*life|James\\s*2|confession|fruit.*(belong|elect|saved)|saved.*(work|fruit|endure)|heaven.*(if|unless|by)|eternal life",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-legacy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-the-big-mo.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/prayer-jesus-taught.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-magnetism.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-priorities.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/glorify-your-name.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-timing.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/jesus-rhythms.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/the-fathers-food.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/into-your-hands.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-the-lid.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-process.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-victory.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/jesus-prayers.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-solid-ground.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-sacrifice.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/21-laws-of-leadership-in-the-bible.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": "content/english/notes/not-my-will.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-the-picture.md"
+    }
+  ],
+  "totalFiles": 19,
+  "totalMatches": 53
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg -l &#39;categories:.*Faith|&#34;Faith&#34;&#39; /home/jorap/Documents/GitHub/jorap.com/content/english/notes/*.md | xargs -I{} sh -c &#39;f={}; rg -q &#34;^categories:&#34; -A5 &#34;$f&#34; | head -1; echo &#34;$f&#34;&#39; 2&gt;/dev/null; rg -l &#39;^\s*- Faith&#39; /home/jorap/Documents/GitHub/jorap.com/content/english/notes/*.md 2&gt;/dev/null | wc -l; rg -l &#39;categories:.*&#34;Faith&#34;|- Faith&#39; /home/jorap/Documents/GitHub/jorap.com/content/english/notes/*.md | sort</summary>
+```bash
+rg -l 'categories:.*Faith|"Faith"' /home/jorap/Documents/GitHub/jorap.com/content/english/notes/*.md | xargs -I{} sh -c 'f={}; rg -q "^categories:" -A5 "$f" | head -1; echo "$f"' 2>/dev/null; rg -l '^\s*- Faith' /home/jorap/Documents/GitHub/jorap.com/content/english/notes/*.md 2>/dev/null | wc -l; rg -l 'categories:.*"Faith"|- Faith' /home/jorap/Documents/GitHub/jorap.com/content/english/notes/*.md | sort
+```
+
+```
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/by-their-fruits.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/come-to-me-weary.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/glorify-your-name.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/assurance.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/faith-and-works.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-rhythms.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-explosive-growth.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/21-laws-of-leadership-in-the-bible.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/guard-your-heart.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-inner-circle.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-prayers.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-light-shine.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-empowerment.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/count-the-cost.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-big-mo.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-buy-in.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-neighbor.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-sacrifice.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md
+/home/jorap/Documents/GitHub/jorap.com/content/
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I am reading the listed files to check for doctrine issues.
+
+Grep results reveal many Free Grace affirmations. Riskier files are being reviewed for surrender language and missing hedges. Garden anti-patterns are also being checked.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Focusing on notes with surrender/fruit language and any missing Free Grace hedges.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "{21-laws-of-leadership-in-the-bible,law-of-*,jesus-rhythms,jesus-prayers,prayer-jesus-taught,withdraw-to-pray,pray-when-drained,pray-before-you-choose,pray-for-his-own,father-forgive-them,glorify-your-name,into-your-hands,not-my-will,thank-father-at-lazarus,thank-father-for-revelation,sabbath-for-good,the-fathers-food,kingdom-on-the-road,table-fellowship,moved-with-compassion,opened-scripture,read-in-synagogue,it-is-written,discern-his-will-daily,the-golden-rule}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "prove|confirm.*(belong|saved|elect|faith)|real faith|genuine|never saved|spurious|earn|price of|buy eternal|purchase|surrender.*(save|salvation|heaven|eternal)|faith.*(is|equals|means).*surrender|persever|endure.*(end|death)|fruit.*(proof|prove|confirm|ground)|saved.*(if|unless|only)|must.*(obey|surrender|endure)|lordship|Matthew 24|Mat 24|James 2|Rom(?:ans)? 10|regenerat|limited|universal|lose.*(life|salvation)|dead faith|works prove|shows up"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "prove|confirm.*(belong|saved|elect|faith)|real faith|genuine|never saved|spurious|earn|price of|buy eternal|purchase|surrender.*(save|salvation|heaven|eternal)|faith.*(is|equals|means).*surrender|persever|endure.*(end|death)|fruit.*(proof|prove|confirm|ground)|saved.*(if|unless|only)|must.*(obey|surrender|endure)|lordship|Matthew 24|Mat 24|James 2|Rom(?:ans)? 10|regenerat|limited|universal|lose.*(life|salvation)|dead faith|works prove|shows up",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/into-your-hands.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/thank-father-for-revelation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pray-for-his-own.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-intuition.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-magnetism.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/opened-scripture.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-empowerment.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/law-of-buy-in.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/discern-his-will-daily.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/prayer-jesus-taught.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/moved-with-compassion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-priorities.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-the-inner-circle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/withdraw-to-pray.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-solid-ground.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/read-in-synagogue.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-the-lid.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-explosive-growth.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/21-laws-of-leadership-in-the-bible.md"
+    }
+  ],
+  "totalFiles": 28,
+  "totalMatches": 78
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/not-my-will.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-sacrifice.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/into-your-hands.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discern-his-will-daily.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/table-fellowship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Auditing `discern-his-will-daily.md` against the Faith compliance checklist.
+
+The note contains Free Grace-aligned content about waiting for holiness before deciding and saved-first discernment. However, it lacks an explicit hedge against making obedience the ground of salvation. This gap leaves the status unresolved between MIXED and COMPLIANT.
+
+Absence of a Free Grace hedge does not automatically mark a note NON-COMPLIANT if it never teaches fail checklist items. The "willing to obey first" phrasing in `discern-his-will-daily.md` risks soft lordship implications, though the saved-first card and John 7:17 context likely keep it COMPLIANT or at worst MIXED.
+
+`law-of-sacrifice.md` is COMPLIANT. It corrects sacrifice as the ground of salvation to faith alone, though its body concerns leadership sacrifice rather than soteriology.
+
+`not-my-will.md` is COMPLIANT. It carries an explicit Free Grace hedge, treating surrender as a discipleship walk.
+
+`pray-for-his-own.md` may be MIXED. Its reference to "what He bought" could imply limited atonement, though it remains within John 17 particularism that Anderson accepts.
+
+`pray-for-his-own.md` is COMPLIANT. The phrase "what He bought" refers to believers, not limited atonement doctrine, and a Free Grace hedge is present.
+
+Next, auditing remaining notes for missing Free Grace hedges and ambiguous language. Focus areas include law notes without cards about eternal life, and jesus rhythms children.ement.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Checking notes without Free Grace hedges and scanning for ambiguous soteriology.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com/content/english/notes &amp;&amp; for f in \
+  21-laws-of-leadership-in-the-bible.md law-of-addition.md law-of-buy-in.md law-of-connection.md \
+  law-of-empowerment.md law-of-explosive-growth.md law-of-influence.md law-of-intuition.md \
+  law-of-legacy.md law-of-magnetism.md law-of-navigation.md law-of-priorities.md law-of-process.md \
+  law-of-respect.md law-of-sacrifice.md law-of-solid-ground.md law-of-the-big-mo.md \
+  law-of-the-inner-circle.md law-of-the-lid.md law-of-the-picture.md law-of-timing.md law-of-victory.md \
+  jesus-rhythms.md jesus-prayers.md prayer-jesus-taught.md withdraw-to-pray.md pray-when-drained.md \
+  pray-before-you-choose.md pray-for-his-own.md father-forgive-them.md glorify-your-name.md \
+  into-your-hands.md not-my-will.md thank-father-at-lazarus.md thank-father-for-revelation.md \
+  sabbath-for-good.md the-fathers-food.md kingdom-on-the-road.md table-fellowship.md \
+  moved-with-compassion.md opened-scripture.md read-in-synagogue.md it-is-written.md \
+  discern-his-will-daily.md the-golden-rule.md; do
+  has_fg=$(rg -c &#39;Free Grace|faith (already )?sav|Faith saves|not earn|not the price|not buying|not purchase|already saved|gift&#39; &#34;$f&#34; 2&gt;/dev/null || echo 0)
+  echo &#34;=== $f (fg-hits=$has_fg) ===&#34;
+  # print key doctrine-ish lines
+  rg -n -i &#39;faith|grace|save|heaven|eternal|surrender|obey|fruit|prove|confirm|belong|election|reward|justif|regen|lord|persever|assurance|merit|earn|purchase|gift|standing|fellowship&#39; &#34;$f&#34; | head -40
+done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com/content/english/notes && for f in \
+  21-laws-of-leadership-in-the-bible.md law-of-addition.md law-of-buy-in.md law-of-connection.md \
+  law-of-empowerment.md law-of-explosive-growth.md law-of-influence.md law-of-intuition.md \
+  law-of-legacy.md law-of-magnetism.md law-of-navigation.md law-of-priorities.md law-of-process.md \
+  law-of-respect.md law-of-sacrifice.md law-of-solid-ground.md law-of-the-big-mo.md \
+  law-of-the-inner-circle.md law-of-the-lid.md law-of-the-picture.md law-of-timing.md law-of-victory.md \
+  jesus-rhythms.md jesus-prayers.md prayer-jesus-taught.md withdraw-to-pray.md pray-when-drained.md \
+  pray-before-you-choose.md pray-for-his-own.md father-forgive-them.md glorify-your-name.md \
+  into-your-hands.md not-my-will.md thank-father-at-lazarus.md thank-father-for-revelation.md \
+  sabbath-for-good.md the-fathers-food.md kingdom-on-the-road.md table-fellowship.md \
+  moved-with-compassion.md opened-scripture.md read-in-synagogue.md it-is-written.md \
+  discern-his-will-daily.md the-golden-rule.md; do
+  has_fg=$(rg -c 'Free Grace|faith (already )?sav|Faith saves|not earn|not the price|not buying|not purchase|already saved|gift' "$f" 2>/dev/null || echo 0)
+  echo "=== $f (fg-hits=$has_fg) ==="
+  # print key doctrine-ish lines
+  rg -n -i 'faith|grace|save|heaven|eternal|surrender|obey|fruit|prove|confirm|belong|election|reward|justif|regen|lord|persever|assurance|merit|earn|purchase|gift|standing|fellowship' "$f" | head -40
+done
+```
+
+```
+=== 21-laws-of-leadership-in-the-bible.md (fg-hits=5) ===
+8:  - The laws describe faithful influence after [[Free Grace]] - they do not earn eternal life.
+9:  - Workplace extensions belong in [[Leadership]], [[Leadership Is Influence]], and [[Servant Leadership]] while this hub stays scripture-first.
+10:  - Twenty-one laws, three biblical examples each - link and drill like the rest of the faith cluster.
+11:level_1: "Twenty-one Laws of Leadership in the Bible is a faith hub that pairs Maxwell's leadership laws with three scriptural case studies each."
+13:level_3: "Pick one law you need this week, read its three cases, and choose one faithful influence move to practice."
+14:level_4: "The framework helps compare leadership patterns, but Scripture governs the lesson and [[Free Grace]] keeps influence separate from earning eternal life."
+19:  - "The laws describe faithful influence after Free Grace - they do not earn eternal life."
+20:  - "Pick one law you need this week, read its three cases, and choose one faithful influence move to practice."
+26:    wikilink: "[[Eternal Principles]]"
+27:    reason: "Faith MOC sibling - gospel spine and leadership scripture hub"
+29:    wikilink: "[[Free Grace]]"
+30:    reason: "Laws describe faithful influence after grace - not merit for eternal life"
+43:categories: ["Faith"]
+45:tags: ["Faith", "Leadership", "Bible", "MOC", "Discipleship"]
+52:- [[Free Grace]] - these laws shape how you lead after grace; they do not earn heaven
+90:| [[Law of Respect]] | You expect followership from title alone - people follow strength they respect, not volume. | [[Demanding Unearned Respect]] |
+106:## Cross-links (faith and work)
+119:| [[Law of Process]] | [[Change Takes Repetition]] | Hidden years before public fruit |
+=== law-of-addition.md (fg-hits=0) ===
+54:categories: ["Faith"]
+56:tags: ["Faith", "Leadership", "Bible", "Discipleship"]
+60:card_sets: ["Eternal Principles", "Leadership"]
+72:  - front: "Serving well feels like what qualifies me for he
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+A closer look is needed on a few potentially MIXED notes.
+
+The audit now covers law-of-magnetism.md, law-of-influence.md, law-of-intuition.md, law-of-the-inner-circle.md, and the-fathers-food.md. law-of-influence.md appears COMPLIANT after correcting a "proof by following" card. law-of-intuition.md may be purely leadership material without Free Grace hedge. law-of-the-inner-circle.md contains a card about earning favor. the-fathers-food.md needs context on its "Obey first" cards.
+
+New notes flagged for review include glorify-your-name.md, father-forgive-them.md, pray-before-you-choose.md, and pray-when-drained.md. law-of-magnetism.md may be MIXED if its link to By Their Fruits proves destiny. The-fathers-food.md is being checked for a "Saved first" card. law-of-solid-ground.md and law-of-the-big-mo.md are also under review.
+
+law-of-magnetism.md is COMPLIANT. Its "audit the pull" instruction uses By Their Fruits as a leadership tool to shape character, not as a destiny proof. law-of-influence.md is COMPLIANT pedagogy because the corrected card explicitly links faith to salvation.
+
+law-of-intuition.md is COMPLIANT. It contains no Free Grace hedge and no soteriological claims, so it avoids the fail items by silence.
+
+Remaining riskier notes still need full review: father-forgive-them.md, glorify-your-name.md, pray-before-you-choose.md, law-of-the-inner-circle.md, the-fathers-food.md cards, law-of-magnetism.md’s link to By Their Fruits, and thank-father-at-lazarus.md.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-magnetism.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-intuition.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-fathers-food.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/glorify-your-name.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/father-forgive-them.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-before-you-choose.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-inner-circle.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-at-lazarus.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*faith*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history",
+  "pattern": "COMPLIANT|NON-COMPLIANT|MIXED|Anderson compliance|Faith notes review|audit"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history",
+  "pattern": "COMPLIANT|NON-COMPLIANT|MIXED|Anderson compliance|Faith notes review|audit",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-08-03_01-24-04Z-faith-notes-review.md"
+    },
+    {
+      "matchCount": 38,
+      "uri": ".specstory/history/2026-08-02_11-41-16Z-flashcards-for-faith-notes.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 188
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing prior Faith audits to identify remaining items. Checking whether "father-forgive-them" is MIXED based on its reference to repentance and belief.
+
+The "Repent and Believe" reference in "father-forgive-them" is COMPLIANT. It frames repentance as temporal fellowship rather than a requirement for eternal life.
+
+`glorify-your-name` is COMPLIANT. `discern-his-will-daily` is MIXED. It uses heavy "obey first" language but does not teach that obedience purchases heaven. A card about being saved first and discerning from a fed mind is actually Free Grace-aligned.
+
+`discern-his-will-daily` is COMPLIANT. It tests the will of God without proving election.
+
+`law-of-magnetism` is COMPLIANT. It audits leadership character, not destiny. The card corrects eternal life confusion.
+
+`law-of-influence` is COMPLIANT. The front card is the wrong thought, but the back corrects it.
+
+`the-fathers-food` is COMPLIANT. "Obey first" refers to Father's will versus hunger, not ordo salutis. It carries an explicit Free Grace hedge.
+
+`pray-for-his-own` is COMPLIANT. It uses particular redemption language, but John 17 refers to those given to Christ, not a Dortian chain.
+
+`law-of-sacrifice` is COMPLIANT. The card is clear even though the body lacks a Free Grace relationship link.
+
+`law-of-explosive-growth` is COMPLIANT. It treats multiplication as fruit after salvation rather than grounding assurance. The entire batch is COMPLIANT.
+
+Double-checking truncated law notes: law-of-solid-ground, law-of-the-big-mo, law-of-the-picture, law-of-victory, law-of-timing, law-of-the-lid, withdraw-to-pray, pray-when-drained, jesus-rhythms, and sabbath. Other Faith notes are out of scope. Reviewing prior audit summary to confirm coverage.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-08-03_01-24-04Z-faith-notes-review.md",
+  "pattern": "Verdict:|NON-COMPLIANT|MIXED|COMPLIANT"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-08-03_01-24-04Z-faith-notes-review.md",
+  "pattern": "Verdict:|NON-COMPLIANT|MIXED|COMPLIANT",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-solid-ground.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/withdraw-to-pray.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-when-drained.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-rhythms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-prayers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Auditing the law-of-solid-ground note.
+
+law-of-solid-ground is COMPLIANT. It corrects the garden anti-destiny error and treats fruit as evidence of saved status rather than proof of election. The whitewashed-tombs card is also COMPLIANT. It frames character audit for leadership trust instead of election. Now checking `discern-his-will-daily` against checklist #4.
+
+`discern-his-will-daily` is COMPLIANT. It treats willing obedience as evidence of God's teaching rather than defining faith as total surrender. `father-forgive-them` is also COMPLIANT. It does not violate checklist items 1 through 12.
+
+`glorify-your-name` is COMPLIANT. It treats obedience as evidence of God’s glory rather than proof of election.
+
+All listed files exist. Other Faith notes outside this batch were not audited.
+
+`discern-his-will-daily.md` may be MIXED. Its lead claim of willing obedience lacks a Free Grace hedge, though the Saved-first card provides partial mitigation.
+
+`discern-his-will-daily` is confirmed COMPLIANT. John 7:17 is standard Free Grace-compatible epistemic reasoning, and the Saved-first card fully mitigates any soft lordship framing. `law-of-sacrifice` is COMPLIANT; its examples concern seminary and leadership costs, not heaven, and the card clarifies this distinction. `pray-for-his-own` is COMPLIANT; its purchased-people language aligns with Anderson’s view of Christ purchasing the church without committing to limited atonement.
+
+All 45 listed files are present. Every note is COMPLIANT; no MIXED or NON-COMPLIANT items were found. The audit will list only filenames, as requested. Other Faith notes outside this batch were not reviewed.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing the final audit report in the requested format.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+**Verdict:** all **45** listed notes **COMPLIANT**. Zero MIXED / NON-COMPLIANT on fail checklist 1–12 or garden anti-as-destiny-proof.
+
+## COMPLIANT (filenames only)
+
+**Maxwell / 21 laws**
+- `21-laws-of-leadership-in-the-bible.md`
+- `law-of-addition.md`
+- `law-of-buy-in.md`
+- `law-of-connection.md`
+- `law-of-empowerment.md`
+- `law-of-explosive-growth.md`
+- `law-of-influence.md`
+- `law-of-intuition.md`
+- `law-of-legacy.md`
+- `law-of-magnetism.md`
+- `law-of-navigation.md`
+- `law-of-priorities.md`
+- `law-of-process.md`
+- `law-of-respect.md`
+- `law-of-sacrifice.md`
+- `law-of-solid-ground.md`
+- `law-of-the-big-mo.md`
+- `law-of-the-inner-circle.md`
+- `law-of-the-lid.md`
+- `law-of-the-picture.md`
+- `law-of-timing.md`
+- `law-of-victory.md`
+
+**Jesus rhythms / prayers / misc**
+- `jesus-rhythms.md`
+- `jesus-prayers.md`
+- `prayer-jesus-taught.md`
+- `withdraw-to-pray.md`
+- `pray-when-drained.md`
+- `pray-before-you-choose.md`
+- `pray-for-his-own.md`
+- `father-forgive-them.md`
+- `glorify-your-name.md`
+- `into-your-hands.md`
+- `not-my-will.md`
+- `thank-father-at-lazarus.md`
+- `thank-father-for-revelation.md`
+- `sabbath-for-good.md`
+- `the-fathers-food.md`
+- `kingdom-on-the-road.md`
+- `table-fellowship.md`
+- `moved-with-compassion.md`
+- `opened-scripture.md`
+- `read-in-synagogue.md`
+- `it-is-written.md`
+- `discern-his-will-daily.md`
+- `the-golden-rule.md`
+
+## MIXED / NON-COMPLIANT
+
+None.
+
+## Gaps
+
+- All listed files exist; `not-my-will.md` included, Faith category, COMPLIANT.
+- Other Faith notes exist outside this batch (`assurance.md`, `by-their-fruits.md`, `repent-and-believe.md`, etc.) — **not** re-audited here.
+
+## Pattern (no fail)
+
+Batch already separates standing vs walk: Free Grace hedges and/or cards like “Faith saves… X is fruit after.” Surrender / obey / fruit language stays discipleship and leadership, not heaven price or assurance-from-fruit.

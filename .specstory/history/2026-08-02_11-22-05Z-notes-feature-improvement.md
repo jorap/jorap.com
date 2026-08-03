@@ -707,6 +707,576 @@ Parameters:
   "pattern": "level_[1-5]|key_concept|shareable_thought|random_duo|Feynman|teach.?back|interleav|compare|schema|depth"
 }
 ```
-Status: **loading**
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "level_[1-5]|key_concept|shareable_thought|random_duo|Feynman|teach.?back|interleav|compare|schema|depth",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_13-40-00Z-graph-layout-with-focal.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-05_22-53-06Z-discipleship-versus-leadership.md"
+    },
+    {
+      "matchCount": 28,
+      "uri": ".specstory/history/2026-07-02_07-13-32Z-clarification-needed-on-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_12-41-13Z-website-style-documentation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_07-21-57Z-voice-consistency-in-posts.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_18-30-06Z-alex-eala-tracker-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_09-41-14Z-categories-and-tags-page-format.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": ".specstory/history/2026-06-20_10-34-58Z-card-display-settings-for.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-02_00-21-54Z-fix-flashcards-batch-1.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-30_22-55-33Z-http-headers-analysis-and-recommendations.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-02_05-35-18Z-ai-prompts-review.md"
+    },
+    {
+      "matchCount": 26,
+      "uri": ".specstory/history/2026-07-05_14-39-40Z-discipleship-and-leadership-notes.md"
+    }
+  ],
+  "totalFiles": 12,
+  "totalMatches": 2001
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the random duo AI prompts, format-key-concept levels, graph view, create page, flashcards skill, and duo prompt JavaScript to assess how well they align with S and A Tier study techniques.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "notes-*.js",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "prompt|compare|contrast|explain|Feynman|teach|interleav|confus"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "prompt|compare|contrast|explain|Feynman|teach|interleav|confus",
+  "topFiles": [
+    {
+      "matchCount": 8,
+      "uri": "assets/js/notes-random-single.js"
+    },
+    {
+      "matchCount": 11,
+      "uri": "assets/js/notes-creator.js"
+    },
+    {
+      "matchCount": 8,
+      "uri": "assets/js/notes-random-duo.js"
+    },
+    {
+      "matchCount": 16,
+      "uri": "assets/js/notes-random-core.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-graph.js"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 44
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/format-key-concept.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/create.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/i18n",
+  "pattern": "random_duo|ai_prompt|connection|compare|contrast|explain"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/i18n",
+  "pattern": "random_duo|ai_prompt|connection|compare|contrast|explain",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "i18n/en.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-unrelated-notes.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I am reading the AI prompts in notes-random-core.js and notes-creator.js to understand what cognitive work they ask for.
+
+Also checking whether levels are used for teach-back or Feynman techniques.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mind-mapping.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-feynman-technique.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^level_"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^level_",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/capture.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/future-proofing-knowledge.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/guard-your-heart.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/evergreen-notes.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/influence-without-title.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/title-without-influence.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/learning-organizations.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/demanding-unearned-respect.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/freedom-over-free.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/creative-blocks.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/safety-comes-first.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/portable-software.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/preparedness.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/judgment-seat.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/sunk-cost-fallacy.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/vision-without-trust.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/drafting-in-public.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/take-up-your-cross.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/control-the-rhythm.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/develop-dont-endanger.md"
+    }
+  ],
+  "totalFiles": 338,
+  "totalMatches": 1690
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg -l &#39;^level_1:&#39; content/english/notes --glob &#39;*.md&#39; | wc -l; rg -l &#39;^review: true&#39; content/english/notes --glob &#39;*.md&#39; | wc -l; ls content/english/notes/*.md | wc -l</summary>
+```bash
+rg -l '^level_1:' content/english/notes --glob '*.md' | wc -l; rg -l '^review: true' content/english/notes --glob '*.md' | wc -l; ls content/english/notes/*.md | wc -l
+```
+
+```
+338
+298
+339
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Checking for blurting and teach-back UI. Verifying flashcard explanation outcomes. Assessing graph as a mind-map analogue.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toolbar.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{js,html,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "blurting|teach.?back|explain.*blank|cover.*description|self.?test|quiz"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "blurting|teach.?back|explain.*blank|cover.*description|self.?test|quiz",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-06_09-24-25Z-skill-update-for-site.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-23_01-08-34Z-bible-verses-in-notes.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-20_11-48-28Z-fix-pkm-notes-shareable.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_11-55-29Z-key-concepts-from-notes.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_14-57-19Z-javascript-library-for-network.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-28_02-28-11Z-blog-update-review.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/spaced-repetition.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-08-01_23-00-45Z-blog-post-draft-on.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-18_02-54-38Z-skill-update-based-on-history.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_01-09-33Z-bible-notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-24_11-34-53Z-best-examples-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_06-41-32Z-shareable-thoughts-analysis.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_01-02-56Z-rewrite-note-descriptions-batch.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-30_00-57-50Z-writing-nonfiction-guide.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-08-02_08-52-54Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-03_04-41-11Z-shareable-lines-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__grade-1-better-than-kumon.md"
+    }
+  ],
+  "totalFiles": 17,
+  "totalMatches": 613
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/depth-of-understanding.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'll analyze whether the notes feature leverages S and A tier study techniques from the blog post. Then I'll suggest specific improvements.
+
+The notes feature already implements strong B-tier techniques like flashcards and spaced repetition. A-tier and S-tier methods such as Feynman, mind mapping, and interleaving are missing. The response will map these gaps and suggest concrete additions.
+
+The flashcard system is stronger than typical because it tests application rather than isolated facts. However, it still underutilizes the explanation outcome.
+
+The garden’s relationship tools—graphs, backlinks, and connection AI—capture S-tier mind-mapping principles. They mainly consume existing structure instead of building maps from scratch.
+
+The depth ladder schema is useful, yet reading levels passively unless used as retrieval prompts.
+
+Random Duo and AI connection prompts approximate interleaving by forcing side-by-side comparisons. Still, the AI does the work, reducing the cognitive strain that makes interleaving effective. It also mixes unrelated topics rather than confusing comparable ones within a single concept.
+
+Generative note creation lets the AI write content, which may bypass the Feynman strain of explaining ideas from memory.
+
+Shareable thoughts are paste-ready one-liners that test recognition rather than recall. Mind mapping is treated as a paper-based content practice, not a product feature; the graph merely visualizes existing links instead of offering an interactive builder. The Feynman method appears only in content notes, with no teach-back interface. Flashcards favor application cards over explanations, and there is no blank-page mode for covering a concept and recalling it from memory.
+
+Concrete improvements include a per-note Feynman teach-back button that covers a concept and asks for an explanation, plus optional AI critique. Confusable interleaving could pull contradictory or alternative pairs from the same card set instead of random SRS order. Active schema building would force users to rank or compare concepts before revealing relationship reasons.
+
+Graphs are D-tier if they are only admired; they become S-tier only when users rebuild connections from memory. Depth ladder levels 3 through 5 should be hidden behind prompts like "What's the application?" before reveal. This turns passive prose into interleaved angles on a single claim. The garden already knows its wiki versus drill ceiling. Adding more flashcards is not the right path. Comparison and teach-back are the better improvements.
+
+Mind mapping should remain a paper or Excalidraw authoring workflow. The app should not build interactive mind maps inside a static Hugo site. A create flow could ask for branch-to-atomic exports instead. This keeps the product lean and avoids unnecessary complexity.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+**Short answer:** the notes feature is strong on B-tier (active recall + spaced drill) and has the *ingredients* for A/S (connections, comparison, depth), but the UI mostly lets you *read* structure rather than *rebuild* it under strain. Sung’s S-tier methods are about that strain.
+
+## Where you already match the tiers
+
+| Tier / technique | Notes feature today | Fit |
+|---|---|---|
+| **B – Flashcards + spacing** | `/notes/review/`, Anki export, cue→move cards | Strong — better than typical fact decks because fronts are life cues, not trivia |
+| **A – Feynman** | Notes *about* teach-back; flashcards skill mentions “explanation” | Weak as a product — no blank-page / cover-and-explain flow |
+| **S – Mind mapping (done right)** | Graph, local graph, typed relationships, Create Note linking | Partial — great *stored* schema; little *construction* strain |
+| **S – Sung interleaving** | Random Duo + connection AI prompt; contradicts/alternative types | Partial — side-by-side exists, but AI often does the compare for you; shuffle is cross-topic more than “confusable pair” |
+
+Your own garden already names the split: wiki for understanding, cards for drill (`reading-the-garden`). The depth ladder (`Recognize → Create`) and relationship types are the schema layer Sung wants. What’s missing is making those *effortful* at use time.
+
+## Gaps vs your post’s ranking
+
+1. **Recognition over recall on the wiki path**  
+   Opening a note shows description, key concept, levels, examples, shareable thoughts. That’s useful storage — and close to reread if “study” means scrolling the page.
+
+2. **Feynman is doctrine, not a surface**  
+   You teach “explain until you stumble,” but there’s no cover-description / write-one-breath / optional AI critique loop. Create Note + AI can skip the stumble entirely (AI drafts; you paste).
+
+3. **Graph ≠ S-tier mind map**  
+   Your `mind-mapping` note says maps are the messy first pass, then export to atoms. The site graph shows links *after* they exist. Admiring the graph is D-path; ranking/comparing while building links is S-path.
+
+4. **Random Duo leans classical interleaving**  
+   Two random notes + “find connections” is good. Sung’s S version is same neighborhood, different angles, and edges that are easy to confuse (`contradicts` / `alternative`). The AI prompt asks the model for the core relationship — so the hard compare can leave your brain.
+
+5. **Cards stay correctly modest**  
+   That matches the post: don’t inflate the deck to “fix” understanding. ~20% spine is the right ceiling. More cards won’t buy A/S.
+
+## Highest-leverage improvements (ponytail order)
+
+**1. Teach-back mode on a note (A → S with AI)**  
+One control: hide claim prose → textarea or speech-to-text → optional “critique this like a beginner asked” prompt (you already have AI prompt plumbing on Random Duo / Create). Reuse `description` / `key_concept` as the answer key. No new content model.
+
+**2. Confusable Duo (S interleaving)**  
+Bias Random Duo (or a Review variant) toward pairs that already `contradict` or `alternative` each other, or share a card set / hub. Prompt: “Where does A stop and B start?” *before* revealing relationship reasons. Keep pure random as an optional mode.
+
+**3. Depth ladder as retrieval, not a second summary**  
+On the note page (or in review): show only the title + “What’s the Use / Connect move?” then reveal `level_3` / `level_4`. Same claim, different angles — that’s Sung interleaving without leaving the topic.
+
+**4. Relationship reason as a quiz, not a caption**  
+Show neighbor titles + type (`contradicts`) with reason hidden until you attempt it. Turns backlinks from navigation into comparison practice.
+
+**5. Leave mind-map UI alone**  
+Paper / Excalidraw → atomic notes is already the right architecture. Building an in-browser mind mapper on a static Hugo site is YAGNI. Improve the *export path* (Create prompt: “branches → one claim each”) if anything.
+
+**6. Don’t chase more flashcard features**  
+Your post and `flashcards` skill already agree: isolated recall has a ceiling. Spend product time on teach-back and confusable comparison, not bigger decks or prettier SRS chrome.
+
+## Bottom line
+
+Notes already beats most digital gardens on **B-tier** (real SRS + application cards) and stores an **S-tier-shaped graph** (typed links, depth, Random Duo). It underuses A/S because the hard work — explain without looking, compare confusable neighbors, rebuild schema under load — is optional or outsourced to AI.
+
+If you only ship one thing: **teach-back on a single note + confusable Random Duo**. That maps directly to the A and S methods you’d steal first in the post.

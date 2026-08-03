@@ -980,4 +980,789 @@ _**Agent (auto-smart)**_
 
 <think><details><summary>Thought Process</summary>
 The lint currently requires all garden notes to have `review: true`.
+
+I'll set `review: false` on notes outside the Faith scope while keeping their cards intact. The lint script will be updated to skip notes without `review: true`, matching the existing opt-in pattern. The criteria will remain `categories` containing `"Faith"`.
+
+Notes with Faith in their categories will stay enabled. Open Leadership notes without Faith will be disabled. The skill file may also be updated to prevent agents from re-enabling cards.
+
+The flashcards skill will be updated to encode the Faith-only scope. This prevents agents from re-enabling cards in capture.md. The meta note in flashcards.md may be adjusted if it references the PKM spine. The note-flashcards partial on single-note pages needs checking to ensure it hides cards when review is false.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-flashcards.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/layouts/**/*.{html}",
+  "pattern": "Params\\.review|review:\\s*true"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "Params\\.review|review:\\s*true",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/review.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/collect-cards.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/cards.html"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Set review:false on notes outside Faith category",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Update lint:cards to only validate review:true notes",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Encode Faith+EP flashcard scope in flashcards skill",
+      "id": "3",
+      "status": "pending"
+    }
+  ],
+  "success": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+note-flashcards.html renders cards for single-note pages without checking the review:true flag.
+
+Need to check cards-for-page.html and where note-flashcards is included.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/layouts/**/*.{html}",
+  "pattern": "note-flashcards|cards-for-page"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "note-flashcards|cards-for-page",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/collect-cards.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/toc.html"
+    },
+    {
+      "matchCount": 4,
+      "uri": "layouts/_partials/notes/note-flashcards.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/single.html"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `layouts/_partials/notes/cards-for-page.html` |
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Evaluating options to fully disable Flashcards for users outside the scope.
+
+Two approaches are being weighed. One disables review mode and gates the flashcard components on it. The other removes the card blocks entirely. The first preserves recoverable content. The second is cleaner but destroys the data.
+
+Settled on disabling review mode entirely. The note-page flashcard display will be gated on review status, and the table-of-contents flashcards link will be removed when review is off. Need to verify whether cards-for-page.html should return empty when review is disabled, since that would suppress any shortcode cards too.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/cards-for-page.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The simplest approach is to disable Flashcards for users outside the current scope.
+
+Set `review: false` on non-Faith notes while keeping card data in YAML for recovery. Gate note-flashcards and TOC links behind `review: true`. Fix lint to only scan notes with `review: true`. Cards-for-page logic stays unchanged.
+
+A script will flip `review: true` to `false` for notes whose `categories` field excludes "Faith". YAML parsing must handle single-item and multi-item arrays. Edge cases need verification: Leadership notes tagged "Eternal Principles" but not under "Faith" could be missed.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+import re, pathlib
+notes = pathlib.Path(&#39;content/english/notes&#39;)
+
+def fm(p):
+    t = p.read_text(encoding=&#39;utf-8&#39;)
+    if not t.startswith(&#39;---&#39;): return None
+    return t.split(&#39;---&#39;, 2)[1]
+
+# Edge: Eternal Principles in sets/tags but not Faith category
+edge = []
+faith_keep = []
+disable = []
+for p in sorted(notes.glob(&#39;*.md&#39;)):
+    block = fm(p)
+    if not block: continue
+    if not re.search(r&#39;^review:\s*true\s*$&#39;, block, re.M): continue
+    # skip meta/index
+    kind = re.search(r&#39;^note_kind:\s*&#34;?(\w+)&#34;?&#39;, block, re.M)
+    if kind and kind.group(1) in {&#39;meta&#39;,&#39;index&#39;}: continue
+    cats = re.search(r&#39;^categories:\s*\[(.*)\]\s*$&#39;, block, re.M)
+    cat_s = cats.group(1) if cats else &#39;&#39;
+    is_faith = &#39;&#34;Faith&#34;&#39; in cat_s or &#34;&#39;Faith&#39;&#34; in cat_s
+    sets = re.search(r&#39;^card_sets:\s*\[(.*)\]\s*$&#39;, block, re.M)
+    set_s = sets.group(1) if sets else &#39;&#39;
+    tags = re.search(r&#39;^tags:\s*\[(.*)\]\s*$&#39;, block, re.M)
+    tag_s = tags.group(1) if tags else &#39;&#39;
+    has_ep = &#39;Eternal Principles&#39; in set_s or &#39;Eternal Principles&#39; in tag_s
+    if is_faith:
+        faith_keep.append(p.name)
+    elif has_ep:
+        edge.append((p.name, cat_s, set_s))
+    else:
+        disable.append(p.name)
+
+print(f&#39;keep Faith: {len(faith_keep)}&#39;)
+print(f&#39;edge EP-not-Faith: {len(edge)}&#39;)
+for e in edge: print(&#39; &#39;, e)
+print(f&#39;disable: {len(disable)}&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+import re, pathlib
+notes = pathlib.Path('content/english/notes')
+
+def fm(p):
+    t = p.read_text(encoding='utf-8')
+    if not t.startswith('---'): return None
+    return t.split('---', 2)[1]
+
+# Edge: Eternal Principles in sets/tags but not Faith category
+edge = []
+faith_keep = []
+disable = []
+for p in sorted(notes.glob('*.md')):
+    block = fm(p)
+    if not block: continue
+    if not re.search(r'^review:\s*true\s*$', block, re.M): continue
+    # skip meta/index
+    kind = re.search(r'^note_kind:\s*"?(\w+)"?', block, re.M)
+    if kind and kind.group(1) in {'meta','index'}: continue
+    cats = re.search(r'^categories:\s*\[(.*)\]\s*$', block, re.M)
+    cat_s = cats.group(1) if cats else ''
+    is_faith = '"Faith"' in cat_s or "'Faith'" in cat_s
+    sets = re.search(r'^card_sets:\s*\[(.*)\]\s*$', block, re.M)
+    set_s = sets.group(1) if sets else ''
+    tags = re.search(r'^tags:\s*\[(.*)\]\s*$', block, re.M)
+    tag_s = tags.group(1) if tags else ''
+    has_ep = 'Eternal Principles' in set_s or 'Eternal Principles' in tag_s
+    if is_faith:
+        faith_keep.append(p.name)
+    elif has_ep:
+        edge.append((p.name, cat_s, set_s))
+    else:
+        disable.append(p.name)
+
+print(f'keep Faith: {len(faith_keep)}')
+print(f'edge EP-not-Faith: {len(edge)}')
+for e in edge: print(' ', e)
+print(f'disable: {len(disable)}')
+PY
+```
+
+```
+keep Faith: 110
+edge EP-not-Faith: 10
+  ('break-the-escalation-cycle.md', '"Leadership"', '"Ethics", "Focus"')
+  ('forgiveness-at-work.md', '"Leadership"', '"Ethics", "Focus"')
+  ('golden-rule-at-work.md', '"Leadership"', '"Ethics", "Focus"')
+  ('integrity-without-an-audience.md', '"Leadership"', '"Ethics", "Focus"')
+  ('outcomes-over-pitch-decks.md', '"Leadership"', '"Ethics", "Focus"')
+  ('plain-commitments-at-work.md', '"Leadership"', '"Ethics", "Focus"')
+  ('priorities-before-the-inbox.md', '"Leadership"', '"Ethics", "Focus"')
+  ('reconcile-before-the-review.md', '"Leadership"', '"Ethics", "Focus"')
+  ('servant-leadership.md', '"Leadership"', '"Ethics", "Focus"')
+  ('share-what-you-learn.md', '"Leadership"', '"Ethics", "Focus"')
+disable: 176
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Edge cases with Eternal Principles in tags were incorrectly matched. They are not in the Faith category and lack Eternal Principles in card_sets.
+
+Only the 110 Faith category notes will remain enabled. The 186 non-Faith notes—including 10 workplace and 176 others—will be disabled. Next comes the disable script, lint fix, note-flashcards gate, and skill update.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Keeping Faith-category notes (~110); disabling the rest with `review: false` and gating note-page display so cards stay off.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+&#34;&#34;&#34;Disable flashcards outside Faith category: review: true -&gt; false.&#34;&#34;&#34;
+import re
+from pathlib import Path
+
+NOTES = Path(&#34;content/english/notes&#34;)
+changed = []
+kept = []
+for path in sorted(NOTES.glob(&#34;*.md&#34;)):
+    text = path.read_text(encoding=&#34;utf-8&#34;)
+    if not text.startswith(&#34;---&#34;):
+        continue
+    parts = text.split(&#34;---&#34;, 2)
+    block = parts[1]
+    if not re.search(r&#34;^review:\s*true\s*$&#34;, block, re.M):
+        continue
+    kind = re.search(r&#39;^note_kind:\s*&#34;?(\w+)&#34;?&#39;, block, re.M)
+    if kind and kind.group(1) in {&#34;meta&#34;, &#34;index&#34;}:
+        continue
+    cats = re.search(r&#34;^categories:\s*\[(.*)\]\s*$&#34;, block, re.M)
+    cat_s = cats.group(1) if cats else &#34;&#34;
+    if &#39;&#34;Faith&#34;&#39; in cat_s or &#34;&#39;Faith&#39;&#34; in cat_s:
+        kept.append(path.name)
+        continue
+    new_block = re.sub(r&#34;^review:\s*true\s*$&#34;, &#34;review: false&#34;, block, count=1, flags=re.M)
+    if new_block == block:
+        raise SystemExit(f&#34;failed to flip {path}&#34;)
+    path.write_text(f&#34;---{new_block}---{parts[2]}&#34;, encoding=&#34;utf-8&#34;)
+    changed.append(path.name)
+
+print(f&#34;disabled: {len(changed)}&#34;)
+print(f&#34;kept Faith review:true: {len(kept)}&#34;)
+assert len(changed) + len(kept) &gt;= 100
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+"""Disable flashcards outside Faith category: review: true -> false."""
+import re
+from pathlib import Path
+
+NOTES = Path("content/english/notes")
+changed = []
+kept = []
+for path in sorted(NOTES.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        continue
+    parts = text.split("---", 2)
+    block = parts[1]
+    if not re.search(r"^review:\s*true\s*$", block, re.M):
+        continue
+    kind = re.search(r'^note_kind:\s*"?(\w+)"?', block, re.M)
+    if kind and kind.group(1) in {"meta", "index"}:
+        continue
+    cats = re.search(r"^categories:\s*\[(.*)\]\s*$", block, re.M)
+    cat_s = cats.group(1) if cats else ""
+    if '"Faith"' in cat_s or "'Faith'" in cat_s:
+        kept.append(path.name)
+        continue
+    new_block = re.sub(r"^review:\s*true\s*$", "review: false", block, count=1, flags=re.M)
+    if new_block == block:
+        raise SystemExit(f"failed to flip {path}")
+    path.write_text(f"---{new_block}---{parts[2]}", encoding="utf-8")
+    changed.append(path.name)
+
+print(f"disabled: {len(changed)}")
+print(f"kept Faith review:true: {len(kept)}")
+assert len(changed) + len(kept) >= 100
+PY
+```
+
+```
+disabled: 186
+kept Faith review:true: 110
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-flashcards.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-flashcards.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the flashcards skill to restrict content to the Faith and Eternal Principles scope.
+
+Updating flashcards.md and running lint:cards. Voice lint may still scan disabled notes, but that is acceptable. Review flags will be removed from non-faith categories. Reference decks will switch to faith-specific files such as abide-in-me.md and free-grace.md.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The notes-review.md archetype defaults to Productivity with review enabled. This conflicts with the new scope and needs updating.
+
+The notes-review archetype should default to Faith or disable review for non-faith users. The skill description needs fixing for its ~20% claim. Lint checks for cards and agent config must run. The notes-review archetype may need to become Faith-focused.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:cards &amp;&amp; pnpm lint:agent-config &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+import re, pathlib
+notes = pathlib.Path(&#39;content/english/notes&#39;)
+on=off=0
+for p in notes.glob(&#39;*.md&#39;):
+    t=p.read_text(encoding=&#39;utf-8&#39;)
+    if not t.startswith(&#39;---&#39;): continue
+    fm=t.split(&#39;---&#39;,2)[1]
+    if re.search(r&#39;^review:\s*true\s*$&#39;, fm, re.M): on+=1
+    elif re.search(r&#39;^review:\s*false\s*$&#39;, fm, re.M): off+=1
+print(f&#39;review:true={on} review:false={off}&#39;)
+# any review:true without Faith?
+bad=[]
+for p in notes.glob(&#39;*.md&#39;):
+    t=p.read_text(encoding=&#39;utf-8&#39;)
+    if not t.startswith(&#39;---&#39;): continue
+    fm=t.split(&#39;---&#39;,2)[1]
+    if not re.search(r&#39;^review:\s*true\s*$&#39;, fm, re.M): continue
+    cats=re.search(r&#39;^categories:\s*\[(.*)\]\s*$&#39;, fm, re.M)
+    cat_s=cats.group(1) if cats else &#39;&#39;
+    if &#39;&#34;Faith&#34;&#39; not in cat_s and &#34;&#39;Faith&#39;&#34; not in cat_s:
+        bad.append(p.name)
+print(&#39;non-Faith review:true:&#39;, bad or &#39;none&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:cards && pnpm lint:agent-config && python3 - <<'PY'
+import re, pathlib
+notes = pathlib.Path('content/english/notes')
+on=off=0
+for p in notes.glob('*.md'):
+    t=p.read_text(encoding='utf-8')
+    if not t.startswith('---'): continue
+    fm=t.split('---',2)[1]
+    if re.search(r'^review:\s*true\s*$', fm, re.M): on+=1
+    elif re.search(r'^review:\s*false\s*$', fm, re.M): off+=1
+print(f'review:true={on} review:false={off}')
+# any review:true without Faith?
+bad=[]
+for p in notes.glob('*.md'):
+    t=p.read_text(encoding='utf-8')
+    if not t.startswith('---'): continue
+    fm=t.split('---',2)[1]
+    if not re.search(r'^review:\s*true\s*$', fm, re.M): continue
+    cats=re.search(r'^categories:\s*\[(.*)\]\s*$', fm, re.M)
+    cat_s=cats.group(1) if cats else ''
+    if '"Faith"' not in cat_s and "'Faith'" not in cat_s:
+        bad.append(p.name)
+print('non-Faith review:true:', bad or 'none')
+PY
+```
+
+```
+$ node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py
+Flashcard frontmatter errors:
+  content/english/notes/the-narrow-way.md: card front must be longer than back (front=73, back=77): Saying Lord Lord but same secret sin - t…
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+A pre-existing lint error exists in the-narrow-way.md.
+
+The lint error is a Faith note in scope. It must pass. I'll fix it quickly.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md",
+  "pattern": "^  - front:|^    back:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md",
+  "pattern": "^  - front:|^    back:",
+  "topFiles": [
+    {
+      "matchCount": 12,
+      "uri": "content/english/notes/the-narrow-way.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 12
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Set review:false on notes outside Faith category",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Update lint:cards to only validate review:true notes",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Encode Faith+EP flashcard scope in flashcards skill",
+      "id": "3",
+      "status": "completed"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Set review:false on notes outside Faith category",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Update lint:cards to only validate review:true notes",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Encode Faith+EP flashcard scope in flashcards skill",
+      "id": "3",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The flashcard with front 73 and back 77 needs fixing.
+
+The back text for that card is too long. It needs to be shortened.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:cards &amp;&amp; pnpm lint:agent-config &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+import re, pathlib
+notes = pathlib.Path(&#39;content/english/notes&#39;)
+on=off=0
+bad=[]
+for p in notes.glob(&#39;*.md&#39;):
+    t=p.read_text(encoding=&#39;utf-8&#39;)
+    if not t.startswith(&#39;---&#39;): continue
+    fm=t.split(&#39;---&#39;,2)[1]
+    if re.search(r&#39;^review:\s*true\s*$&#39;, fm, re.M):
+        on+=1
+        cats=re.search(r&#39;^categories:\s*\[(.*)\]\s*$&#39;, fm, re.M)
+        cat_s=cats.group(1) if cats else &#39;&#39;
+        if &#39;&#34;Faith&#34;&#39; not in cat_s and &#34;&#39;Faith&#39;&#34; not in cat_s:
+            bad.append(p.name)
+    elif re.search(r&#39;^review:\s*false\s*$&#39;, fm, re.M):
+        off+=1
+print(f&#39;review:true={on} review:false={off}&#39;)
+print(&#39;non-Faith review:true:&#39;, bad or &#39;none&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:cards && pnpm lint:agent-config && python3 - <<'PY'
+import re, pathlib
+notes = pathlib.Path('content/english/notes')
+on=off=0
+bad=[]
+for p in notes.glob('*.md'):
+    t=p.read_text(encoding='utf-8')
+    if not t.startswith('---'): continue
+    fm=t.split('---',2)[1]
+    if re.search(r'^review:\s*true\s*$', fm, re.M):
+        on+=1
+        cats=re.search(r'^categories:\s*\[(.*)\]\s*$', fm, re.M)
+        cat_s=cats.group(1) if cats else ''
+        if '"Faith"' not in cat_s and "'Faith'" not in cat_s:
+            bad.append(p.name)
+    elif re.search(r'^review:\s*false\s*$', fm, re.M):
+        off+=1
+print(f'review:true={on} review:false={off}')
+print('non-Faith review:true:', bad or 'none')
+PY
+```
+
+```
+$ node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py
+Flashcard frontmatter OK
+$ node scripts/lint-agent-config.mjs
+agent config OK: 18 skill(s), 8 rule(s), Kilo → .cursor/skills
+review:true=110 review:false=187
+non-Faith review:true: none
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+187 items were disabled, one more than the 186 previously turned off. One item likely already had review disabled.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Done. Flashcards are active only on Faith notes.
+
+- **110** Faith notes stay `review: true` (Eternal Principles, Jesus Rhythms, Jesus Prayers included)
+- **186** others set to `review: false` — card YAML kept, just off in `/notes/review/`, Anki export, and on the note page
+- Lint, skill, archetype, and `flashcards.md` updated so agents don’t re-enable PKM decks
+
+## Session close
+- Fixed: Disabled flashcards outside Faith / Eternal Principles (186 notes `review: false`).
+- Encode: flashcards skill scoped to Faith + EP only.
+- Open: clean

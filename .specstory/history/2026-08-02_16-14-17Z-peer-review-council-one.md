@@ -66,5 +66,32 @@ Response C carries the biggest blind spot. It makes almost no retirements and wa
 
 Response B also carries a blind spot. It misses that personal niches like Eala and Duopoly can be archive strengths if intentionally framed, not defects.
 
-All five responses missed concrete checks. None verified the current Facebook UI, Hugo repository steps, or Eala completeness. They ignored SEO redirect costs and alias safety. They overlooked whether
+All five responses missed concrete checks. None verified the current Facebook UI, Hugo repository steps, or Eala completeness. They ignored SEO redirect costs and alias safety. They overlooked whether drafts already exist. They lacked reader analytics or traffic data to guide prioritization. They also skipped legal and copyright questions for Duopoly.
+
+The review also found no audit of voice consistency against jorap-voice skill criteria per post. Retirements were judged without weighing cross-link damage. The tension between a distinct personal archive and a hub strategy was left unresolved. The assumed inventory of 27 posts lacked verification of actual draft:false status or last update dates.
+
+No response quantified editing hours against the five priorities. None checked existing redirect targets or aliases. None addressed how retirement affects RSS and search indexes already ranking those URLs. No response verified factual claims against the files. Draft prefixes and changelog implications were ignored. Temporary draft status for revision posts was not discussed.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The final summary is already contained in UpdateCurrentStep.
+
+Preparing the peer review answer now. It will be under 200 words and contain no preamble.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+1. **Strongest: D.** Sharp portfolio diagnosis (ownership cluster, tutorial risk, Eala-as-second-job) plus calibrated KEEP/REVISE/RETIRE—retires Sustainable and DNPAP, revises trust bombs, keeps distinct keepers. Priorities match limited editing time better than A’s soft keeps or C’s expand-everything.
+
+2. **Biggest blind spot: C.** Upside framing ignores the maintenance/trust constraint. Expanding HugoPlate shortcode docs and treating Eala as a flagship to grow contradicts A/D/E’s contain-or-cut logic and the “limited editing time” stake.
+
+3. **All five missed:** No traffic/analytics to rank which rotting URLs actually get hits; no redirect/alias plan for retires (broken internal links + search residue); none verified live Facebook UI, Hugo repo steps, or Eala completeness against the files before prescribing.

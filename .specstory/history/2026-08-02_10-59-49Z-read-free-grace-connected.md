@@ -190,5 +190,192 @@ Loss-of-reward.md is solid. It treats reward as separate from eternal life, citi
 
 Discipleship.md is solid. It frames following Jesus as grateful obedience after faith, not as a way to buy eternal life. The note guards against the danger that "daily cross" could drift toward lordship salvation, and it correctly distinguishes the Lord Lord with no fruit from a believer who stumbles.
 
-Grateful-obedience.md is solid. It treats obedience as thanks
+Grateful-obedience.md is solid. It treats obedience as thanks after salvation, not as a way to buy or re-earn eternal life. A minor duplicate line appears in the key concept. The phrase "Love shows up as keeping His commands" risks sounding like lordship if read alone, though the surrounding context corrects that danger.
+
+Christlikeness.md is solid. It treats reshaping into Jesus as growth after faith, not an entry fee, and it correctly warns that confusing fruit with justification.
+
+Mercy.md is now being reviewed.
+
+Mercy.md is thin on Free Grace soteriology. It frames the note as ethics and horizontal compassion rather than Anderson distinctions. The beatitude claim that showing mercy brings mercy is thin on ingress versus egress. It risks sounding like a reward condition but holds up in beatitude context. Renewed-mind.md is next.
+
+Renewed-mind.md is solid. It correctly states that renewal does not earn eternal life under Free Grace.
+
+Minimum-effective-dose.md and compounding.md are thin on Anderson doctrine. They are PKM notes that only link faith parallels to relationships, not primary faith doctrine.
+
+Joy.md is next.
+
+Joy.md is solid. It treats performance as not the proof of standing and rests on Christ’s promise.
+
+The ranked list is now set. Grace.md leads because its key concept lacks Anderson categories entirely. Mercy.md trails because its soteriology is a single line and its beatitude framing is thin on ingress versus egress. Discipleship.md follows because it misses the lordship distinction between deity and surrender-as-entry-fee.
+
+Justification.md is solid but opens with humility rather than faith as credit, so its Anderson ingress framing could be tighter. Sanctification.md could explicitly name the distinction between position and condition. Grateful-obedience.md carries a minor lordship-adjacent phrase in its John 14:15 opener. The remaining seven notes are fully solid and need no expounding.
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The full audit is complete. I am now compiling the structured report.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+# Anderson Free Grace audit — faith notes
+
+Audited against the `free-grace` skill checklist. **Verdict spread:** no note is outright non-compliant; several are **thin** on Anderson categories; the core gospel stack is **already solid**.
+
+---
+
+## Per-note report
+
+### 1. `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/assurance.md`
+- **Description:** Assurance is resting on Christ's finished work when doubt hits — not the week's obedience score.
+- **key_concept first claim:** Believe and you have eternal life — rest on that promise when the week was ugly, not on your scorecard.
+- **Anderson:** **Solid** — promise-grounded assurance, standing/fellowship, reward/salvation split, 1 John 5:13 shape.
+- **Problem phrases:** None. Cards explicitly reject fruit-grounds-assurance ("Waiting to feel holy enough before I trust I'm His").
+
+---
+
+### 2. `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/justification.md`
+- **Description:** God declares the believer righteous at faith — before obedience catches up.
+- **key_concept first claim:** The tax collector went home justified — humility before God, not self-promotion, is what Jesus commended.
+- **Anderson:** **Solid, slightly indirect opener** — Rom 3–5 stack is present but first claim is parable/humility, not faith-credited-as-righteousness.
+- **Problem phrases:** None fail. Minor: humility-first could blur into works-adjacent reading if a reader stops at line 1.
+
+---
+
+### 3. `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md`
+- **Description:** After God declares a believer righteous, He keeps shaping habits and heart — growth, not the ticket in.
+- **key_concept first claim:** Jesus asks the Father to make us holy through truth — Scripture shapes the slow becoming, not one heroic week.
+- **Anderson:** **Solid** — order is correct throughout; repeatedly guards against re-opening justification.
+- **Problem phrases:** None fail. Counter-examples name the errors: "quiet-time streak like proof God accepts me," "fruitless week and panic that I am fake." Could add Anderson **position vs condition** language explicitly.
+
+---
+
+### 4. `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/standing-vs-fellowship.md`
+- **Description:** Standing with God is settled at faith; fellowship breaks with sin and restores with confession.
+- **key_concept first claim:** Eternal life in His hand — no one snatches you out; standing stays settled even when closeness feels thin.
+- **Anderson:** **Solid** — textbook A/B (relationship vs fellowship).
+- **Problem phrases:** None.
+
+---
+
+### 5. `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md`
+- **Description:** Grace is gift never earned — salvation first, then the walk after — not wages that could be stacked.
+- **key_concept first claim:** God did not wait for me to earn it — He gave His Son so belief, not merit, decides where I spend forever.
+- **Anderson:** **Thin** — correct gift/faith language but **short** key_concept; no standing/fellowship, assurance, rewards, or security stack. Hub note that should carry more Anderson architecture.
+- **Problem phrases:** None fail; just under-developed.
+
+---
+
+### 6. `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md`
+- **Description:** Jesus promised believers the Father will repay faithful obedience after salvation, not as the price of eternal life.
+- **key_concept first claim:** Father who sees in secret repays — hidden devotion counted, not applause theater.
+- **Anderson:** **Solid** — gift first / repayment second, Judgment Seat, explicit "not the price of eternal life."
+- **Problem phrases:** None.
+
+---
+
+### 7. `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md`
+- **Description:** A saved believer can still lose reward — worthless works burn, eternal life stays secure on Christ.
+- **key_concept first claim:** Faithful use compounds; buried talent loses even what was given — reward can shrink without un-saving you.
+- **Anderson:** **Solid** — 1 Cor 3:15 two-ledger frame; distinguishes false "Lord, Lord" from stumbling believer.
+- **Problem phrases:** Relationship line "faith without fruit may lose reward" is reward-category only — fine in context; watch if read apart from note.
+
+---
+
+### 8. `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship.md`
+- **Description:** Discipleship is following Jesus daily — learning and doing what He said after faith, not buying eternal life.
+- **key_concept first claim:** Daily cross — deny self and follow after faith, not to buy heaven but because grace already saved.
+- **Anderson:** **Solid guards, thin on Anderson lordship distinction** — consistently post-faith; missing Anderson's *kurios* = deity vs surrender-as-essence-of-faith teaching.
+- **Problem phrases:** Luke 9:23 "daily cross" is lordship-adjacent if isolated — note corrects with "after faith, not to buy heaven." Duplicate key_concept line (editorial, not doctrinal).
+
+---
+
+### 9. `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md`
+- **Description:** Obedience flows from thanks because Christ already saved — not to buy or re-earn eternal life.
+- **key_concept first claim:** Love shows up as keeping His commands — thanks after salvation, not payment to earn it.
+- **Anderson:** **Solid** — thank-you-life frame throughout.
+- **Problem phrases:** John 14:15 opener is lordship-adjacent ("keeping His commands") but immediately qualified: "thanks after salvation, not payment." Duplicate key_concept line.
+
+---
+
+### 10. `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md`
+- **Description:** God keeps reshaping believers to look and love more like Jesus — growth after faith, not the entry fee.
+- **key_concept first claim:** Fully trained, like the teacher — the aim is not my old default self on display, it is looking more like Jesus over years.
+- **Anderson:** **Solid** — explicitly warns "confusing them turns fruit into a price for Justification."
+- **Problem phrases:** None fail. Cards refute "virtue streak is my proof God accepts me."
+
+---
+
+### 11. `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md`
+- **Description:** Mercy withholds the punishment deserved and calls for the same compassion toward others.
+- **key_concept first claim:** Show mercy and you will receive mercy — the beatitude ties compassion out to compassion back.
+- **Anderson:** **Thin / mixed-adjacent opener** — soteriology is one stack line ("Free Grace is how that pair lands on eternal life"); rest is horizontal ethics. Beatitude-first could read as **works-price** if a reader imports salvation category.
+- **Problem phrases:** "Show mercy and you will receive mercy" — fellowship/reward beatitude, not ingress, but **unlabeled** here.
+
+---
+
+### Skimmed (faith-adjacent)
+
+| Path | Anderson touch | Notes |
+|------|----------------|-------|
+| `renewed-mind.md` | Solid where soteriology appears | "Renewal does not earn eternal life; it follows the verdict Justification already gave." |
+| `minimum-effective-dose.md` | Thin (PKM hub) | Faith parallels only in relationships/cards; no body doctrine |
+| `compounding.md` | Correct parallel | "Compounding obedience follows grace received — not to earn the gift" |
+| `joy.md` | Solid | "Not a good-week performance"; rests on Christ's promise |
+
+---
+
+## Ranked: most need Anderson expounding → already solid
+
+### Tier 1 — expand Anderson architecture (thin or hub gaps)
+
+1. **`grace.md`** — Correct but **shortest** gospel hub; lacks standing/fellowship, assurance, rewards, security, and "no front/back strings" language Anderson uses.
+2. **`mercy.md`** — Beatitude/ethics-first; Free Grace landing is **one line**; beatitude reward language needs A/B labeling.
+3. **`discipleship.md`** — Good post-faith guards; needs Anderson **lordship-as-deity-not-surrender-fee** and clearer unbeliever-vs-believer ordo.
+
+### Tier 2 — solid but could sharpen
+
+4. **`justification.md`** — Doctrine sound; lead with Rom 4:5 faith-credited claim, not humility parable.
+5. **`sanctification.md`** — Strong guards; add explicit **position vs condition** (Anderson).
+6. **`grateful-obedience.md`** — Minor: John 14:15 opener needs same "after salvation" guard in first breath, not second.
+
+### Tier 3 — already solid (minimal work)
+
+7. **`assurance.md`**
+8. **`standing-vs-fellowship.md`**
+9. **`eternal-rewards.md`**
+10. **`loss-of-reward.md`**
+11. **`christlikeness.md`**
+12. **`renewed-mind.md`**
+13. **`joy.md`**
+
+### Tier 4 — not faith-doctrine notes (faith links only)
+
+14. **`minimum-effective-dose.md`**
+15. **`compounding.md`**
+
+---
+
+## Problem-phrase scan (five error patterns)
+
+| Pattern | Hits |
+|---------|------|
+| **Fruit-grounds-assurance** | None as teaching. Multiple notes **refute** it in cards/examples. |
+| **Works-price-of-heaven** | None as teaching. Guarded everywhere ("not to buy heaven," "not wages"). |
+| **Perseverance-as-litmus** | **None** in these notes. |
+| **Lordship-as-essence-of-faith** | **Borderline only:** Luke 9:23 / John 14:15 openers in `discipleship.md`, `grateful-obedience.md` — corrected in same bullet. |
+| **James-dead=never-saved** | **None.** `loss-of-reward.md` correctly splits false profession from reward-loss. |
+
+---
+
+## Bottom line
+
+The **salvation/reward/assurance stack** (`assurance`, `standing-vs-fellowship`, `justification`, `eternal-rewards`, `loss-of-reward`) is Anderson-aligned and self-guarding. **`grace.md`** and **`mercy.md`** are the main gaps — correct tone, insufficient Anderson category depth. No note currently **teaches** the five fail patterns; mixed language appears only where notes **name and correct** common errors.

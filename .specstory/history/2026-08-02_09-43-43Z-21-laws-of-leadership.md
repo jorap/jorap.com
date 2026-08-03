@@ -189,9 +189,33 @@ The hub links twenty-one individual law notes — I'll inspect how those notes u
 _**Agent (auto-smart)**_
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **0** directories</summary>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **21** results in **1** directory</summary>
 
-No results found
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/content/english/notes`** (21 files)
+
+| File |
+|------|
+| `law-of-legacy.md` |
+| `law-of-explosive-growth.md` |
+| `law-of-magnetism.md` |
+| `law-of-buy-in.md` |
+| `law-of-sacrifice.md` |
+| `law-of-the-picture.md` |
+| `law-of-timing.md` |
+| `law-of-victory.md` |
+| `law-of-priorities.md` |
+| `law-of-respect.md` |
+| `law-of-empowerment.md` |
+| `law-of-connection.md` |
+| `law-of-navigation.md` |
+| `law-of-solid-ground.md` |
+| `law-of-the-inner-circle.md` |
+| `law-of-intuition.md` |
+| `law-of-the-lid.md` |
+| `law-of-addition.md` |
+| `law-of-the-big-mo.md` |
+| `law-of-process.md` |
+| `law-of-influence.md` |
 </details></tool-use>
 
 _**Agent (auto-smart)**_
@@ -221,3 +245,485 @@ _**Agent (auto-smart)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-08-02_09-43-43Z-21-laws-of-leadership.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The existing law notes include brief scripture explanations after each shortcode, but these may be too thin.
+
+The user wants deeper explanations of how scripture illustrates each law. The current glosses already attempt this, but they may still be too thin. I am checking whether any verse ranges span entire chapters, since garden-voice forbids that for EP notes, though these appear to be faith and leadership notes rather than EP notes.
+
+I will read all 21 law notes to assess their scripture bullets and strengthen them.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+The law notes already have short case bullets — I'll pull all twenty-one scripture glosses and tighten each so it shows how the passage proves the law.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: for f in /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-*.md; do echo &#34;===== $(basename &#34;$f&#34;) =====&#34;; rg -n &#39;bible ref|^\s+- \*\*&#39; &#34;$f&#34; | head -20; echo; done</summary>
+```bash
+for f in /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-*.md; do echo "===== $(basename "$f") ====="; rg -n 'bible ref|^\s+- \*\*' "$f" | head -20; echo; done
+```
+
+```
+===== law-of-addition.md =====
+9:  {{< bible ref="Genesis 13:1-12" >}}
+10:  - **Abram Took the High Road** - Let Lot choose the well-watered plain - Abram trusted God with the leftovers.
+11:  {{< bible ref="Mark 10:35-45" >}}
+12:  - **Jesus Gave a New Definition of Leadership** - Greatest serves - Son of Man came to give His life, not grab thrones.
+13:  {{< bible ref="Philippians 2:1-11" >}}
+14:  - **Paul Encouraged Putting Others First** - Christ's mind in you - empty yourself like He did.
+
+===== law-of-buy-in.md =====
+9:  {{< bible ref="Judges 7:2-25" >}}
+10:  - **A Test of Leadership Buy-In** - Three hundred followed Gideon's odd battle plan - belief in the leader carried the night.
+11:  {{< bible ref="Nehemiah 2:1-18" >}}
+12:  - **Buying into a Bold Vision** - Cupbearer's grief earned royal favor - then Jerusalem's wall vision landed.
+13:  {{< bible ref="Hebrews 3:1-15" >}}
+14:  - **Remaining Confident in Christ** - Fix eyes on Christ - do not harden hearts like the wilderness generation.
+
+===== law-of-connection.md =====
+11:  {{< bible ref="Genesis 32:3-12" >}}
+12:  - **Jacob Prepares to Face Esau** - Gifts and prayer before the reunion - fear met with prepared peace.
+13:  {{< bible ref="2 Samuel 15:1-13" >}}
+14:  - **Absalom Uses Connection for Self-Promotion** - Stole hearts with handshakes - connection weaponized for coup.
+15:  {{< bible ref="Philemon 1:1-21" >}}
+16:  - **Paul Connects Instead of Commanding** - Appeal on the basis of love - not apostolic hammer.
+
+===== law-of-empowerment.md =====
+10:  {{< bible ref="Exodus 18:13-26" >}}
+11:  - **Moses the One-Man Band** - Jethro's counsel - share the load or wear out leader and people.
+12:  {{< bible ref="Ezra 7:11-28" >}}
+13:  - **Ezra Is Empowered to Lead** - King's letter gave authority, silver, and safe passage - institutional empowerment.
+14:  {{< bible ref="Matthew 10:1-33" >}}
+15:  - **Jesus Empowers and Warns** - Sent twelve with power - and honest warning about rejection.
+
+===== law-of-explosive-gro
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-08-02_09-43-43Z-21-laws-of-leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the prior session to clarify the agent's conclusion and the user's actual request.
+
+The user wants each of the 21 law notes updated to explain how scripture illustrates the law. Current glosses are brief summaries that fail to explicitly connect events back to the law itself.
+
+A concrete example now shows how the Aaron incident illustrates the law: the lid gap reveals the leader's capacity, not the people's potential. Each of the three scripture gloss bullets per law note will be rewritten to explicitly name how the passage illustrates that law. Garden-voice guidelines also apply: plain words, no frontmatter contractions, straight faith tone, and JoRap voice after the bible shortcode.
+
+EP notes use first person. The law notes currently use third-person story summaries with bold titles. I will keep the bold titles but strengthen the "how this illustrates the law" connection.
+
+Garden-voice rules say to quote only specific verses, not whole chapters. Some passages span long ranges. The EP-specific rule about not quoting whole chapters applies only to Eternal Principles notes.
+
+I will leave existing scripture references unchanged unless they are clearly wrong. The rewrite targets all 63 gloss bullets across the 21 law notes. Each bullet will follow a pattern: a bible shortcode, a bold case title, the event summary, and an explicit link to the law claim.
+
+A Python script was considered but rejected as too risky for twenty-one files. Individual StrReplace edits are safer. The first file will be scored against garden-voice requirements before editing begins.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Current glosses retell the story; I'll rewrite each so it names how the passage proves the law, then run the voice gate.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: pnpm slop:score content/english/notes/law-of-the-lid.md content/english/notes/law-of-influence.md content/english/notes/law-of-addition.md 2&gt;&amp;1 | tail -40</summary>
+```bash
+pnpm slop:score content/english/notes/law-of-the-lid.md content/english/notes/law-of-influence.md content/english/notes/law-of-addition.md 2>&1 | tail -40
+```
+
+```
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/pnpm/11.7.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.3/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.146.5/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.150.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.155.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.157.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.158.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.2/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.3/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+Command 'pnpm' not found, did you mean:
+  command 'npm' from deb npm (9.2.0~ds1-2)
+Try: apt install <deb name>
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/examples.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Locating the pnpm path comes first. Then the scripture glosses will be rewritten.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: which pnpm || ls ~/.local/share/pnpm 2&gt;/dev/null; type pnpm; command -v pnpm; ls /home/jorap/.local/bin/pnpm 2&gt;/dev/null; mise which pnpm 2&gt;/dev/null; echo PATH=$PATH</summary>
+```bash
+which pnpm || ls ~/.local/share/pnpm 2>/dev/null; type pnpm; command -v pnpm; ls /home/jorap/.local/bin/pnpm 2>/dev/null; mise which pnpm 2>/dev/null; echo PATH=$PATH
+```
+
+```
+store
+--: line 1: type: pnpm: not found
+/home/jorap/.local/share/mise/installs/pnpm/latest/pnpm
+PATH=/home/jorap/.local/bin:/home/jorap/.nvm/versions/node/v22.23.0/bin:/usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin:/home/jorap/.local/bin:/home/jorap/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jorap/.nvm/versions/node/v22.23.0/bin
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I will rewrite the scripture explanations for all 21 law notes.
+
+Each bullet will explicitly show how the scripture illustrates the law, not merely retell the story. I'll apply this pattern across all 63 law notes using StrReplace for clarity.
+
+Drafting the new glosses now. Aaron's calf sacrifice shows how pressure cracked his leadership lid. David's courage against Goliath raised the crown above the tent. Rehoboam's harsh reply split the kingdom.
+
+Rahab's faith moved spies and saved her house without rank. Eli's corrupt priests lost sway; Samuel gained favor through integrity alone. Paul's chained calmness over a storm-tossed crew showed that influence peaks when fear rises. Joseph's pit, prison, and palace seasons forged admin skill day by day. Moses spent forty years in Midian before the bush; God delayed public call until process matured.
+
+Peter's rock confession followed the long climb of denial and baptism; the name came after the journey, not as instant polish.
+
+Joshua's ambush at Ai succeeded only after the first defeat; the second attempt followed a plotted course rather than blind courage.
+
+Nehemiah's builders carried both tools and weapons; navigation charted the wall and its threats before the work stalled.
+
+Jesus warned that charting the tower and king costs the commitment before allegiance; steering without a course is not leading.
+
+Abram let Lot choose the well-watered plain; serving by giving away advantage created peace, not loss.
+
+Jesus defined greatness as service; the Son of Man gave His life rather than grasping thrones. Paul taught that emptying oneself like Christ adds value the ego never achieves.
+
+Solomon chose a small portion with righteousness over great gain with injustice; trust rests on character, not image.
+
+Jesus warned that whitewashed tombs look clean on the outside but hold dead inside; solid ground collapses when the interior is hollow.
+
+Elders must shepherd willingly, not for money; humble example earns trust, while lordship spends it.
+
+Deborah forced Barak to move because she was the stronger leader; people followed her into a cowardly war. Jonathan bowed to the anointed shepherd; respect crossed the org chart toward proven strength. Daniel earned respect by reading what terrified the king’s sages; it followed proven wisdom, not party invitations.
+
+Abigail intercepted David’s anger before blood; leadership bias saw the disaster coming and acted. Solomon’s sword threat revealed the true mother; intuition read the heart when facts alone stalled.
+
+Barnabas introduced a feared convert to the apostles; leadership bias saw potential while others saw threat.
+
+Joshua’s young aide in the tent became national leader; faithfulness attracted the succession call.
+
+David’s mighty men rallied to a shepherd-king; courage drew courage, and who you are is who shows up.
+
+Ahab and Jezebel’s wickedness attracted wicked counsel on Naboth; magnetism works for evil as well as good.
+
+Jacob gave gifts and prayed before Esau; he touched the heart before asking for peace with his hands.
+
+Absalom stole hearts with handshakes; connection without integrity becomes a coup tool.
+
+Paul and Philemon asked for the hand after touching the heart, appealing on love rather than apostolic authority.
+
+Abraham’s servant sent the bride to Isaac; potential rode on who was closest and trusted.
+
+Hushai foiled Ahithophel inside Absalom’s tent; the inner circle decided the kingdom’s next move.
+
+Nathan’s parable broke David’s denial; the closest voice risked wrath to save the leader.
+
+Moses and Jethro shared the load or wore out; secure leadership multiplies judges instead of hoarding the seat.
+
+Ezra’s letter gave authority and silver; empowerment is real power handed over, not slogans.
+
+Jesus sent the twelve with power and honest warning; He gave authority away before the mission scaled.
+
+Josiah read the Law, then demolished high places; people followed what they saw the king do.
+
+Jesus washed feet; the picture outran the speech.
+
+Paul told the Corinthians to imitate him; apostles set the visible pattern, and a higher seat demands a louder example.
+
+Gideon’s three hundred followed an odd battle plan; they bought the leader before the trumpet strategy made sense.
+
+Nehemiah’s cupbearer grief won royal favor, and the wall vision landed because the king trusted the man. Hebrews warns that fixing eyes on Christ comes before endurance in the wilderness; buy-in to the Leader precedes survival. Samson found a way to push the pillars after being blinded, winning at the cost of everything left. Jonathan climbed with his armor-bearer, and one man’s faith triggered national victory when the camp stalled. The four friends tore the roof to reach the man below, proving that victory is the path you invent for the team.
+
+Sihon and Og’s early victories fed momentum that carried the next fight. Joash struck three times and missed the unfinished rout; the leader stopped short and lost the momentum. The day of Pentecost saw three thousand baptized one day; gospel fire caught and multiplied what one sermon started.
+
+Tradition versus heart: what defiles comes from inside, so washing hands is not a clean heart. Mary’s good portion outranked Martha’s kitchen frenzy; presence beats busy motion that looks like service.
+
+The seven chosen to serve tables freed the apostles to pray and preach; priorities protect the few things that matter. Set-apart living demands surrendering hair, wine, and contact; devotion rises through sacrifice, not comfort. Paul laid aside rights so the gospel could travel farther; leadership climbs by what you give up, not what you grab. Saul offered the sacrifice before Samuel arrived; the right act at the wrong hour destroyed the kingdom.
+
+Esther waited for fasting and heaven to align before approaching the king; timing saved a people. Jesus avoided Judea until the Father’s hour; knowing when to move matters as much as what to do.
+
+The sanctuary rose by spirit-filled craftsmen teaching others; growth came from multiplying skilled leaders, not solo heroics. The seventy went out two by two; the harvest needed workers in training, and growth multiplies through leaders who lead leaders. Paul entrusted faithful men to teach others; explosive growth spans four generations, not one star.
+
+David and Solomon’s deathbed charges and coronations show lasting value is measured by who sits next, not the last win. Elijah passed the mantle to Elisha, giving the prophetic work a double portion that outlived the prophet. Jesus chose twelve disciples before commissioning them, ensuring lasting value comes from generations of making disciples rather than one final victory.
+
+I will focus on writing the explanatory glosses and leave the verse references untouched for now, trimming only obvious whole-chapter citations. Then I will apply all StrReplace edits in parallel batches.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Rewriting each law note’s three scripture glosses so they name how the passage proves the law, not just retell the story.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-lid.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-influence.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-process.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-navigation.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-addition.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-solid-ground.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing with the next batch of law notes.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-respect.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-intuition.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-magnetism.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-connection.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-inner-circle.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-empowerment.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing with the remaining laws.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-picture.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-buy-in.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-victory.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-big-mo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-priorities.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-sacrifice.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The final three laws are timing, explosive growth, and legacy.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-timing.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-explosive-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-legacy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Running voice lint and slop score on the law notes.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Running voice and slop checks on the updated law notes.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;/home/jorap/.local/share/mise/installs/pnpm/latest:$PATH&#34;
+cd /home/jorap/Documents/GitHub/jorap.com
+pnpm lint:voice -- content/english/notes/law-of-*.md 2&gt;&amp;1 | tail -60
+pnpm slop:score content/english/notes/law-of-the-lid.md content/english/notes/law-of-legacy.md content/english/notes/law-of-buy-in.md 2&gt;&amp;1 | tail -40</summary>
+```bash
+export PATH="/home/jorap/.local/share/mise/installs/pnpm/latest:$PATH"
+cd /home/jorap/Documents/GitHub/jorap.com
+pnpm lint:voice -- content/english/notes/law-of-*.md 2>&1 | tail -60
+pnpm slop:score content/english/notes/law-of-the-lid.md content/english/notes/law-of-legacy.md content/english/notes/law-of-buy-in.md 2>&1 | tail -40
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check -- content/english/notes/law-of-addition.md content/english/notes/law-of-buy-in.md content/english/notes/law-of-connection.md content/english/notes/law-of-empowerment.md content/english/notes/law-of-explosive-growth.md content/english/notes/law-of-influence.md content/english/notes/law-of-intuition.md content/english/notes/law-of-legacy.md content/english/notes/law-of-magnetism.md content/english/notes/law-of-navigation.md content/english/notes/law-of-priorities.md content/english/notes/law-of-process.md content/english/notes/law-of-respect.md content/english/notes/law-of-sacrifice.md content/english/notes/law-of-solid-ground.md content/english/notes/law-of-the-big-mo.md content/english/notes/law-of-the-inner-circle.md content/english/notes/law-of-the-lid.md content/english/notes/law-of-the-picture.md content/english/notes/law-of-timing.md content/english/notes/law-of-victory.md
+Voice dash lint OK
+Voice lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/notes/law-of-the-lid.md content/english/notes/law-of-legacy.md content/english/notes/law-of-buy-in.md
+law-of-the-lid.md                        words= 514 total=  0 per100w=  0.00
+law-of-legacy.md                         words= 480 total=  0 per100w=  0.00
+law-of-buy-in.md                         words= 482 total=  0 per100w=  0.00
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Voice lint checks passed cleanly. Slop scores are zero.
+
+Running additional lint checks on the notes. Verifying no contractions were introduced. The hub note was left unchanged; the user requested updates for each law note instead. A session close block is required since files were modified.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;/home/jorap/.local/share/mise/installs/pnpm/latest:$PATH&#34;
+cd /home/jorap/Documents/GitHub/jorap.com
+# quick contraction / dash scan on new glosses only
+rg -n &#34;don&#39;t|can&#39;t|won&#39;t|it&#39;s|that&#39;s|I&#39;m|you&#39;re|we&#39;re|they&#39;ve|em dash|—&#34; content/english/notes/law-of-*.md | rg &#39;key_concept|^\s+- \*\*&#39; || true
+pnpm lint:slop --notes-only 2&gt;&amp;1 | rg -i &#39;law-of-|error|fail|OK|pass&#39; | head -40</summary>
+```bash
+export PATH="/home/jorap/.local/share/mise/installs/pnpm/latest:$PATH"
+cd /home/jorap/Documents/GitHub/jorap.com
+# quick contraction / dash scan on new glosses only
+rg -n "don't|can't|won't|it's|that's|I'm|you're|we're|they've|em dash|—" content/english/notes/law-of-*.md | rg 'key_concept|^\s+- \*\*' || true
+pnpm lint:slop --notes-only 2>&1 | rg -i 'law-of-|error|fail|OK|pass' | head -40
+```
+
+```
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The requested analysis of the 21 laws of leadership in the Bible is ready. Each law will be explained by its corresponding scripture.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Rewrote the three scripture glosses on all **21** law notes so each one names how the passage proves the law — not just retells the story.
+
+Pattern now: what happened → why it illustrates the claim (e.g. Lid: same people, different ceiling; Buy-In: people buy the person, then the vision; Legacy: lasting value is who sits next).
+
+`pnpm lint:voice` and `pnpm lint:slop --notes-only` both clean. Hub list left as-is; the explanations live on each law note.
+
+## Session close
+- Fixed: Strengthened scripture→law glosses across all 21 Maxwell Bible law notes
+- Encode: none
+- Open: clean

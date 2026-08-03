@@ -76,4 +76,8 @@ Drafting the peer review now. It will stay under 200 words with no preamble.
 
 _**Agent (auto-smart)**_
 
-**1. Strongest: E.** It reframes the job correctly—one answer per intent, kill duplicate keys and trust bombs first—not voice polish. Per-post calls follow from that frame (Facebook retire, Eala freeze/scrapbook, HugoPlate cut docs, Jo
+**1. Strongest: E.** It reframes the job correctly—one answer per intent, kill duplicate keys and trust bombs first—not voice polish. Per-post calls follow from that frame (Facebook retire, Eala freeze/scrapbook, HugoPlate cut docs, JoRap Notes date/de-proceduralize). Clearer than A’s Monday list or D’s similar cuts.
+
+**2. Biggest blind spot: C.** Treats the archive as a compounding hub machine and wants to expand HugoPlate into living docs and run Eala as a flagship product. Ignores limited editing time, tutorial rot, and the maintenance tax A/D/E flag. Upside without the constraint.
+
+**3. All five missed:** No traffic, search, or inbound-link evidence for borderline KEEP/RETIRE calls—and no concrete 301/canonical plan for retires (where Sustainable, DNPAP, Facebook point; whether homepage, sitemap, and RSS still surface them). Decisions stay taste-only.

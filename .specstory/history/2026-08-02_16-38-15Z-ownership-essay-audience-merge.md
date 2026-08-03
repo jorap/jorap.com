@@ -433,3 +433,232 @@ corepack is /home/jorap/.nvm/versions/node/v22.23.0/bin/corepack
 
 ```
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Enabling pnpm via corepack or using npx.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export NVM_DIR=&#34;$HOME/.nvm&#34; &amp;&amp; . &#34;$NVM_DIR/nvm.sh&#34; &amp;&amp; corepack enable &amp;&amp; corepack prepare pnpm@latest --activate &amp;&amp; pnpm slop:score content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md</summary>
+```bash
+export NVM_DIR="$HOME/.nvm" && . "$NVM_DIR/nvm.sh" && corepack enable && corepack prepare pnpm@latest --activate && pnpm slop:score content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md
+```
+
+```
+Internal Error: EACCES: permission denied, symlink '../lib/node_modules/corepack/dist/pnpm.js' -> '/home/jorap/.nvm/versions/node/v22.23.0/bin/pnpm'
+    at async Object.symlink (node:internal/fs/promises:1001:10)
+    at async EnableCommand.generatePosixLink (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23218:5)
+    at async Promise.all (index 0)
+    at async EnableCommand.execute (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23199:5)
+    at async EnableCommand.validateAndExecute (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:20278:22)
+    at async _Cli.run (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:21215:18)
+    at async Object.runMain (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23704:19)
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The sustainable page is now written. Next, revise why-run to link to it.
+
+Why-run will retain its philosophy and reasons. A soft link to Sustainable will close it out. The cost section may be trimmed slightly. The duplicate "Social is a lobby" section was removed from Sustainable. Its remaining philosophy is kept as lived friction.
+
+Why-run will close with a checklist-style nudge toward Sustainable.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Sustainable is trimmed to the habit lane. Next I’ll tune the ownership essay and soft-link them.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export NVM_DIR=&#34;$HOME/.nvm&#34; &amp;&amp; . &#34;$NVM_DIR/nvm.sh&#34; &amp;&amp; (command -v pnpm || npx pnpm --version) &amp;&amp; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; (pnpm slop:score content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md || npx pnpm slop:score content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md)</summary>
+```bash
+export NVM_DIR="$HOME/.nvm" && . "$NVM_DIR/nvm.sh" && (command -v pnpm || npx pnpm --version) && cd /home/jorap/Documents/GitHub/jorap.com && (pnpm slop:score content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md || npx pnpm slop:score content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md)
+```
+
+```
+npm warn exec The following package was not found and will be installed: pnpm@11.18.0
+11.7.0
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md
+sustainable-online-publishing.md         words= 519 total=  2 per100w=  0.39
+why-run-your-own-website.md              words= 870 total=  8 per100w=  0.92
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Scores look good. Now running lint:voice and lint:slop on the files.
+
+Refining Sustainable. Removing philosophy overlap and duplicating the PHP hosting lesson. Checking whether the interesting-facts ledger needs updating.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md; pnpm lint:slop -- content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md; pnpm lint:blog 2&gt;&amp;1 | head -80</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md; pnpm lint:slop -- content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md; pnpm lint:blog 2>&1 | head -80
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check -- content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md
+Voice dash lint OK
+Voice lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check -- content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md
+Slop lint OK
+$ node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify && node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only
+Blog frontmatter OK
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Noticed the phrase "Social is the megaphone" appears twice, in both the owning files section and the "what I don't mean" section.
+
+Removing the duplicate.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md &amp;&amp; pnpm lint:voice -- content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md &amp;&amp; pnpm lint:slop -- content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md && pnpm lint:voice -- content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md && pnpm lint:slop -- content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md
+sustainable-online-publishing.md         words= 473 total=  2 per100w=  0.42
+why-run-your-own-website.md              words= 870 total=  8 per100w=  0.92
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check -- content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md
+Voice dash lint OK
+Voice lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check -- content/english/blog/sustainable-online-publishing.md content/english/blog/why-run-your-own-website.md
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Revise Sustainable Online Publishing → level 3 habit post",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Revise Why I Still Run My Own Website → level 4 ownership + soft link",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Run voice/slop checks on both posts",
+      "id": "3",
+      "status": "completed"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Revise Sustainable Online Publishing → level 3 habit post",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Revise Why I Still Run My Own Website → level 4 ownership + soft link",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Run voice/slop checks on both posts",
+      "id": "3",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The requested changes are complete. Files were modified. The session will now close.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Both stay live, split by depth:
+
+| Post | Role | Depth |
+|------|------|-------|
+| [Why I Still Run My Own Website](content/english/blog/why-run-your-own-website.md) | Ownership essay for “why bother?” | **4** |
+| [Sustainable Online Publishing](content/english/blog/sustainable-online-publishing.md) | Habit post for people ready to start | **3** |
+
+**Sustainable:** Dropped the lobby/library sermon. Opens with a pointer to Why-run, then domain/hosting, “what I don’t mean,” and the five steps. Cross-links both ways.
+
+**Why-run:** Closing now sends setup-ready readers to Sustainable instead of another soft “start with one thing” only.
+
+Voice/slop clean. Slop scores: Sustainable 0.42, Why-run 0.92.
+
+## Session close
+- Fixed: Split ownership vs habit posts by `level_depth` (4 vs 3) so they stop competing.
+- Encode: none
+- Open: clean

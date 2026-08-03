@@ -1021,5 +1021,84 @@ The eternal-principles note is COMPLIANT. The skill explicitly warns against "wo
 
 Eternal-principles is now MIXED. Two anti-phrases were found: "real faith shows up in obedience" (line 62) and "Real faith hears Jesus and builds by doing" (line 184). Both risk sounding like obedience proves saving faith to Calvinists. No other notes failed.
 
-Reconsidering the forgiveness note. The
+Reconsidering the forgiveness note. The Matthew 6:14-15 key concept opens without an immediate A/B split, and the level_4 framing of "heart out of step with the gift" could imply works merit rather than fellowship. This raises the possibility of a MIXED verdict instead of COMPLIANT.
+
+The forgiveness note is COMPLIANT. The Standing versus Fellowship section and cards clarify closeness rather than eternal life. Mercy is COMPLIANT; it explicitly ties compassion to the walk and reward, not as the price of eternal life. The beatitudes note guards against treating blessings as a performance checklist. Goodness.md uses correct phrasing: good works answer grace, with motive as thanks rather than wages.
+
+Follow-christ-then-lead and discipleship-vs-leadership are COMPLIANT. They frame denial of self and taking up the cross as post-salvation discipleship rather than a condition for entering salvation.
+
+The Christianity-and-politics card rejects the idea that voting proves faithfulness. Patience and beatitudes are COMPLIANT; they do not frame endurance as an election litmus. No further notes fail the checklist.
+
+Peace and words-that-build-up are COMPLIANT. Neither note frames words or calm as proof of standing. Only eternal-principles remains MIXED.
+
+The line 160 cross-link in eternal-principles is post-faith discipleship framing within the hub that principles are not the price of heaven, so it is acceptable. No James 2 content was found to trigger item 11. The love note card about fruit showing at home is being checked.
+
+The full audit covers forty-eight files. The love note card about fruit showing at home is COMPLIANT; it describes sanctification rather than destiny proof. All remaining notes are being checked against the checklist.
+
+The forgiveness note is confirmed COMPLIANT. Its card frames closeness with God as the motivation for forgiving from the heart. The eternal-principles note is finalized as MIXED. The two anti-phrase failures are "real faith shows up in obedience" and "Real faith hears Jesus and builds by doing." These should be rephrased to "works answer grace" and "faith alone saves; obedience follows."
+
+The caveman mode rule conflicts with the user’s explicit request for a structured audit deliverable. The final report will follow the requested format rather than defaulting to terse caveman style.
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing the comprehensive audit report.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+# Anderson compliance audit — Eternal Principles / Sermon on the Mount / Jesus rhythms batch
+
+**Scope:** 48 notes, full frontmatter read. **Checklist:** 12 fail items + garden anti-phrases.
+
+---
+
+## MIXED
+
+### `eternal-principles.md` — **MIXED**
+
+**Verdict:** MIXED
+
+**Failures:**
+- **Garden anti-phrase / item 3 (assurance via fruit):** Hub theological basis line pairs correct gospel with fruit-as-proof wording:
+  > "faith alone saves, **real faith shows up in obedience**"
+- **Garden anti-phrase (same pattern):** Cross-link table repeats it:
+  > "**Real faith** hears Jesus and builds by doing"
+
+**Notes:** Rest of hub is strongly Anderson-aligned — explicit "not the price of heaven," `[[Standing vs Fellowship]]`, `[[Judgment Seat]]` / `[[Loss of Reward]]`, assurance "rest on Christ's promise, not this week's report card." Fail is hub summary phrasing only, not doctrine body elsewhere.
+
+**Fix (if asked):** Swap to skill-preferred phrasing — e.g. "faith alone saves; obedience answers grace" / "works may back up, never ground assurance."
+
+---
+
+## NON-COMPLIANT
+
+None in this batch.
+
+---
+
+## COMPLIANT (47)
+
+`love-god.md`, `love-your-neighbor.md`, `love-your-enemies.md`, `love.md`, `the-beatitudes.md`, `heart-righteousness.md`, `peacemakers.md`, `mercy.md`, `ask-seek-knock.md`, `seek-the-kingdom-first.md`, `treasure-in-heaven.md`, `secret-devotion.md`, `let-your-light-shine.md`, `let-your-yes-be-yes.md`, `judge-not.md`, `turn-the-other-cheek.md`, `reconciliation-before-worship.md`, `dont-worry.md`, `trust-god-for-today.md`, `come-to-me-weary.md`, `guard-your-heart.md`, `renewed-mind.md`, `dont-copy-the-pattern.md`, `faithful-steward.md`, `success-is-stewardship.md`, `steward-after-the-win.md`, `forgiveness.md`, `confess-to-one-another.md`, `great-commission.md`, `follow-christ-then-lead.md`, `discipleship-vs-leadership.md`, `invest-in-the-few.md`, `humility-and-service.md`, `joy.md`, `peace.md`, `patience.md`, `kindness.md`, `goodness.md`, `gentleness.md`, `many-parts-one-body.md`, `bear-each-others-burdens.md`, `iron-sharpens-iron.md`, `words-that-build-up.md`, `christianity-and-politics.md`, `render-unto-caesar.md`, `god-centered-design.md`
+
+---
+
+## Batch summary
+
+| Verdict | Count |
+|---------|-------|
+| COMPLIANT | 47 |
+| MIXED | 1 (`eternal-principles.md`) |
+| NON-COMPLIANT | 0 |
+
+**Checklist sweep:** No hits on items 2, 4–12 across audited notes. No "works prove faith," "fruit confirms belonging," or "dead on inspection." Repeated pass signals: gift-not-wage, standing vs fellowship, assurance from promise (`[[Assurance]]`, joy/peace cards), rewards/judgment seat separated from destiny, Matthew 6:14–15 framed as fellowship where tested (`forgiveness.md`, `reconciliation-before-worship.md`).
+
+**Only action item:** Repair two hub lines in `eternal-principles.md` that use "real faith shows up" / "Real faith hears…" — reads as fruit-grounds-election despite surrounding Free Grace spine.

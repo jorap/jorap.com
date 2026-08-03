@@ -1936,3 +1936,161 @@ Destiny Music wrote the song. It means "God of Hope and Love." The mother-in-law
 _**Agent (auto-smart)**_
 
 Local check only: the page has a long git history and inbound links from the facts ledger; no analytics cache here, and I’m not hitting Cloudflare/Spotify/YouTube. Expanding it into a story-first archive piece and keeping the resource links.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The title was updated while the slug remained dnpap-song-resources.
+
+Removing the redundant alias that duplicates the slug. Frontmatter field order is correct. The filename and URL remain unchanged. The facts ledger and author context need no updates. Running the slop score.
+
+The council recommendation will keep the page as a cornerstone. The interesting-facts link text may be updated to match the new title for consistency.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;$HOME/.local/share/mise/shims:$PATH&#34;
+pnpm slop:score content/english/blog/dnpap-song-resources.md
+pnpm exec node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only 2&gt;&amp;1 | tail -20
+pnpm exec node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify 2&gt;&amp;1 | rg -i &#39;dnpap|error|OK&#39; | head -20
+</summary>
+```bash
+export PATH="$HOME/.local/share/mise/shims:$PATH"
+pnpm slop:score content/english/blog/dnpap-song-resources.md
+pnpm exec node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only 2>&1 | tail -20
+pnpm exec node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify 2>&1 | rg -i 'dnpap|error|OK' | head -20
+
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/dnpap-song-resources.md
+dnpap-song-resources.md                  words= 532 total=  3 per100w=  0.56
+Slop lint OK
+Blog frontmatter errors:
+  content/english/blog/facebook-favorites-feed.md: key order ['title', 'meta_title', 'description', 'slug', 'date', 'image', 'categories', 'author', 'tags', 'related_notes', 'level_depth', 'aliases', 'lastmod', 'featured', 'draft'] != ['title', 'meta_title', 'description', 'slug', 'date', 'image', 'categories', 'author', 'tags', 'related_notes', 'level_depth', 'aliases', 'featured', 'draft', 'lastmod']
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing a frontmatter order error in facebook-favorites-feed. The linter expects lastmod after featured and draft, or in the aliases, featured, draft, lastmod sequence.
+
+Confirmed dnpap frontmatter already follows the linter order. Fixing facebook favorites now.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md",
+  "pattern": "DNPAP|Song Resources"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md",
+  "pattern": "DNPAP|Song Resources",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/jorap-voice/author-context.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Author context is fine. Verifying frontmatter again.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;$HOME/.local/share/mise/shims:$PATH&#34;
+pnpm exec node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify 2&gt;&amp;1 | tail -15
+</summary>
+```bash
+export PATH="$HOME/.local/share/mise/shims:$PATH"
+pnpm exec node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify 2>&1 | tail -15
+
+```
+
+```
+Blog frontmatter OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Planning the DNPAP song resources redirect. The bookmark page will validate traffic before redirecting. It will serve as an archive cornerstone. Server load during validation will be minimized.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Council RETIRE call overridden. DNPAP stays as an archive cornerstone.
+
+**Traffic (local only, no external hits):** long git history; inbound from the facts ledger and a shortcodes draft. No Cloudflare analytics in-repo — skipped live analytics rather than query CF/Spotify/YouTube.
+
+**What shipped:** Rewrote as story-first, links-second.
+- Title: **DNPAP - The Song Pia Recorded at Home**
+- Slug/URL unchanged: `/blog/dnpap-song-resources/`
+- COVID remote session scene (Pia, mother-in-law, Isaiah) up front
+- Embeds and quick-link table kept
+- Facts ledger link text updated
+
+Slop 0.56; frontmatter OK.
+
+## Session close
+- Fixed: Kept DNPAP as a story cornerstone instead of retiring it.
+- Encode: none
+- Open: HugoPlate shortcodes cut; Sustainable Publishing still pending.

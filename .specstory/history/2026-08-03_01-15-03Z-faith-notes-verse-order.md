@@ -1213,3 +1213,514 @@ I need to reconstruct the format by swapping line spans while keeping the blank 
 
 I’ve got a structure that looks like: "gloss1 blank verse1 blank gloss2 blank verse2 blank claims." That works, but I realize I might want to change the whitespace a bit more. Maybe I should render extra paragraphs for clarity. The markdown parser for shortcodes and bullets may require blank separation to function best. I could have the algorithm process key concepts by removing the next non-blank bullet while keeping the gloss and ensuring one blank before the next line. That sounds efficient!
 </details></think>
+
+_**Agent (auto-smart)**_
+
+Found 178 verse/explanation pairs across 111 current Faith notes. Six Faith hubs contain no verse blocks, so no reorder needed. Applying pair swap only; prose stays unchanged.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import re
+
+root = Path(&#39;content/english/notes&#39;)
+changed_files = 0
+moved_pairs = 0
+
+for path in root.glob(&#39;*.md&#39;):
+    text = path.read_text()
+    if not re.search(r&#39;^categories:\s*\[[^\]]*&#34;Faith&#34;&#39;, text, re.M):
+        continue
+
+    match = re.search(r&#39;(^key_concept:\s*\|\n)(?P&lt;body&gt;(?:^[ \t].*\n|^\s*$)*)(?=^[A-Za-z_][\w-]*:)&#39;, text, re.M)
+    if not match:
+        continue
+
+    body = match.group(&#39;body&#39;)
+    pattern = re.compile(
+        r&#39;(?m)^(?P&lt;indent&gt;[ \t]+)(?P&lt;verse&gt;\{\{&lt; bible[^\n]*&gt;\}\})\n&#39;
+        r&#39;(?:[ \t]*\n)*&#39;
+        r&#39;^(?P=indent)(?P&lt;gloss&gt;- [^\n]+)\n&#39;
+    )
+
+    def swap(pair):
+        nonlocal_marker[0] += 1
+        indent = pair.group(&#39;indent&#39;)
+        return f&#34;{indent}{pair.group(&#39;gloss&#39;)}\n\n{indent}{pair.group(&#39;verse&#39;)}\n\n&#34;
+
+    nonlocal_marker = [0]
+    new_body = pattern.sub(swap, body)
+    if new_body != body:
+        new_text = text[:match.start(&#39;body&#39;)] + new_body + text[match.end(&#39;body&#39;):]
+        path.write_text(new_text)
+        changed_files += 1
+        moved_pairs += nonlocal_marker[0]
+
+assert moved_pairs == 178, f&#39;expected 178 pairs, moved {moved_pairs}&#39;
+print(f&#39;moved {moved_pairs} verse explanations in {changed_files} faith notes&#39;)
+PY</summary>
+```bash
+python3 - <<'PY'
+from pathlib import Path
+import re
+
+root = Path('content/english/notes')
+changed_files = 0
+moved_pairs = 0
+
+for path in root.glob('*.md'):
+    text = path.read_text()
+    if not re.search(r'^categories:\s*\[[^\]]*"Faith"', text, re.M):
+        continue
+
+    match = re.search(r'(^key_concept:\s*\|\n)(?P<body>(?:^[ \t].*\n|^\s*$)*)(?=^[A-Za-z_][\w-]*:)', text, re.M)
+    if not match:
+        continue
+
+    body = match.group('body')
+    pattern = re.compile(
+        r'(?m)^(?P<indent>[ \t]+)(?P<verse>\{\{< bible[^\n]*>\}\})\n'
+        r'(?:[ \t]*\n)*'
+        r'^(?P=indent)(?P<gloss>- [^\n]+)\n'
+    )
+
+    def swap(pair):
+        nonlocal_marker[0] += 1
+        indent = pair.group('indent')
+        return f"{indent}{pair.group('gloss')}\n\n{indent}{pair.group('verse')}\n\n"
+
+    nonlocal_marker = [0]
+    new_body = pattern.sub(swap, body)
+    if new_body != body:
+        new_text = text[:match.start('body')] + new_body + text[match.end('body'):]
+        path.write_text(new_text)
+        changed_files += 1
+        moved_pairs += nonlocal_marker[0]
+
+assert moved_pairs == 178, f'expected 178 pairs, moved {moved_pairs}'
+print(f'moved {moved_pairs} verse explanations in {changed_files} faith notes')
+PY
+```
+
+```
+moved 178 verse explanations in 111 faith notes
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Verifying code structure**
+
+I need to make sure there are no accidental outside key concepts involved, so I'll check everything that’s been done before. I think using Python and git commands like `git diff` would help. I should run some lints too, as the existing pnpm path matters. Running analysis scripts in parallel with `git diff --check` and linting may save time, especially since the garden lint can take longer. I'll use shell calls to do all this concurrently.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import re
+root=Path(&#39;content/english/notes&#39;)
+faith_blocks=[]
+bad=[]
+for p in root.glob(&#39;*.md&#39;):
+    s=p.read_text()
+    if not re.search(r&#39;^categories:\s*\[[^\]]*&#34;Faith&#34;&#39;,s,re.M): continue
+    m=re.search(r&#39;^key_concept:\s*\|\n(?P&lt;body&gt;(?:^[ \t].*\n|^\s*$)*)&#39;,s,re.M)
+    lines=m.group(&#39;body&#39;).splitlines() if m else []
+    for i,line in enumerate(lines):
+        if &#39;{{&lt; bible&#39; not in line: continue
+        faith_blocks.append((p,i))
+        j=i-1
+        while j&gt;=0 and not lines[j].strip(): j-=1
+        if j&lt;0 or not lines[j].lstrip().startswith(&#39;- &#39;):
+            bad.append(f&#39;{p.name}:{i+1}&#39;)
+print(f&#39;faith bible blocks: {len(faith_blocks)}; preceded by explanation bullet: {len(faith_blocks)-len(bad)}&#39;)
+if bad: print(&#39;missing:&#39;,*bad,sep=&#39;\n&#39;)
+assert len(faith_blocks)==178 and not bad
+PY
+
+git diff --check
+git diff --stat</summary>
+```bash
+python3 - <<'PY'
+from pathlib import Path
+import re
+root=Path('content/english/notes')
+faith_blocks=[]
+bad=[]
+for p in root.glob('*.md'):
+    s=p.read_text()
+    if not re.search(r'^categories:\s*\[[^\]]*"Faith"',s,re.M): continue
+    m=re.search(r'^key_concept:\s*\|\n(?P<body>(?:^[ \t].*\n|^\s*$)*)',s,re.M)
+    lines=m.group('body').splitlines() if m else []
+    for i,line in enumerate(lines):
+        if '{{< bible' not in line: continue
+        faith_blocks.append((p,i))
+        j=i-1
+        while j>=0 and not lines[j].strip(): j-=1
+        if j<0 or not lines[j].lstrip().startswith('- '):
+            bad.append(f'{p.name}:{i+1}')
+print(f'faith bible blocks: {len(faith_blocks)}; preceded by explanation bullet: {len(faith_blocks)-len(bad)}')
+if bad: print('missing:',*bad,sep='\n')
+assert len(faith_blocks)==178 and not bad
+PY
+
+git diff --check
+git diff --stat
+```
+
+```
+faith bible blocks: 0; preceded by explanation bullet: 0
+Traceback (most recent call last):
+  File "<stdin>", line 20, in <module>
+AssertionError
+ .../skills/ai-writing-system/writing-samples.md    |   2 +-
+ .cursor/skills/garden-voice/SKILL.md               |  12 +-
+ .cursor/skills/garden-voice/examples.md            |   6 +-
+ .specstory/statistics.json                         |   9 +
+ content/english/notes/abide-in-me.md               |   5 +-
+ content/english/notes/ask-seek-knock.md            |  10 +-
+ content/english/notes/assurance.md                 |   5 +-
+ content/english/notes/bear-each-others-burdens.md  |   5 +-
+ content/english/notes/by-their-fruits.md           |   5 +-
+ content/english/notes/childlike-faith.md           |   5 +-
+ content/english/notes/christianity-and-politics.md |   5 +-
+ content/english/notes/christlikeness.md            |   5 +-
+ content/english/notes/come-to-me-weary.md          |   5 +-
+ content/english/notes/confess-to-one-another.md    |   5 +-
+ content/english/notes/count-the-cost.md            |   5 +-
+ content/english/notes/discern-his-will-daily.md    |   5 +-
+ .../english/notes/discipleship-vs-leadership.md    |   5 +-
+ content/english/notes/discipleship.md              |   5 +-
+ content/english/notes/dont-copy-the-pattern.md     |   5 +-
+ content/english/notes/dont-worry.md                |   5 +-
+ content/english/notes/eternal-rewards.md           |   5 +-
+ content/english/notes/faith-and-works.md           |   5 +-
+ content/english/notes/faithful-steward.md          |   5 +-
+ content/english/notes/faithfulness.md              |   5 +-
+ content/english/notes/father-forgive-them.md       |   5 +-
+ content/english/notes/follow-christ-then-lead.md   |   5 +-
+ content/english/notes/forgiveness.md               |   5 +-
+ content/english/notes/free-grace.md                |   9 +-
+ content/english/notes/fruits-of-the-spirit.md      |   5 +-
+ content/english/notes/gentleness.md                |   5 +-
+ content/english/notes/gl
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: /home/jorap/.local/share/mise/installs/pnpm/11.7.0/pnpm lint:garden</summary>
+```bash
+/home/jorap/.local/share/mise/installs/pnpm/11.7.0/pnpm lint:garden
+```
+
+```
+$ node scripts/runPython.mjs scripts/lint-notes-frontmatter.py && node scripts/runPython.mjs scripts/normalize-notes-format.py --verify && node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py && node scripts/runPython.mjs scripts/audit-flashcard-north-star.py && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py && node scripts/runPython.mjs scripts/voice-lint.py garden --check && node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+Note frontmatter lint OK
+Flashcard frontmatter OK
+Flashcard north-star audit OK
+Utility wikilinks OK
+Garden voice lint OK
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: /home/jorap/.local/share/mise/installs/pnpm/11.7.0/pnpm lint:agent-config</summary>
+```bash
+/home/jorap/.local/share/mise/installs/pnpm/11.7.0/pnpm lint:agent-config
+```
+
+```
+$ node scripts/lint-agent-config.mjs
+agent config OK: 20 skill(s), 9 rule(s), Kilo → .cursor/skills
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Evaluating git commands**
+
+I'm considering the shell command `git show HEAD:... > ...`, which seems to be destructive to the files that weren't modified initially. Is that acceptable? Since we own those files, I'm not sure if using `git restore` is appropriate or if it’s forbidden. The developer mentioned avoiding destructive commands. We can restore files with `git show`, but first, I feel the need to inspect the file and verify things—making sure we read the free-grace top.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-process.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git diff -- .specstory/statistics.json data/noteFileDates.json</summary>
+```bash
+git diff -- .specstory/statistics.json data/noteFileDates.json
+```
+
+```
+diff --git a/.specstory/statistics.json b/.specstory/statistics.json
+index 9d4bcb8e..b6d3f606 100644
+--- a/.specstory/statistics.json
++++ b/.specstory/statistics.json
+@@ -558,6 +558,15 @@
+       "provider": "cursoride",
+       "last_updated": "2026-08-02T08:53:42Z"
+     },
++    "1a5f6a6d-909d-4094-af21-5d9d9dc9825b": {
++      "user_message_count": 2,
++      "agent_message_count": 58,
++      "start_timestamp": "2026-08-03T09:15:03+08:00",
++      "end_timestamp": "2026-08-03T09:15:03+08:00",
++      "markdown_size_bytes": 37616,
++      "provider": "cursoride",
++      "last_updated": "2026-08-03T01:19:38Z"
++    },
+     "1a887e5c-ad07-4a00-8c4f-ab31cb98ef41": {
+       "user_message_count": 1,
+       "agent_message_count": 26,
+diff --git a/data/noteFileDates.json b/data/noteFileDates.json
+index 23351ad4..b97e65cd 100644
+--- a/data/noteFileDates.json
++++ b/data/noteFileDates.json
+@@ -5,7 +5,7 @@
+   },
+   "notes/abide-in-me.md": {
+     "created": "2026-07-19T12:50:49.806Z",
+-    "updated": "2026-08-02T14:17:06.754Z"
++    "updated": "2026-08-03T01:19:05.381Z"
+   },
+   "notes/accept-the-starting-line.md": {
+     "created": "2026-07-29T12:37:02.134Z",
+@@ -41,11 +41,11 @@
+   },
+   "notes/ask-seek-knock.md": {
+     "created": "2026-07-29T12:37:02.136Z",
+-    "updated": "2026-08-03T00:48:30.941Z"
++    "updated": "2026-08-03T01:19:05.372Z"
+   },
+   "notes/assurance.md": {
+     "created": "2026-07-29T12:37:02.136Z",
+-    "updated": "2026-08-03T00:29:00.331Z"
++    "updated": "2026-08-03T01:19:05.390Z"
+   },
+   "notes/atomic-habits.md": {
+     "created": "2026-07-23T12:46:57.398Z",
+@@ -69,7 +69,7 @@
+   },
+   "notes/bear-each-others-burdens.md": {
+     "created": "2026-07-29T12:37:02.137Z",
+-    "updated": "2026-08-02T14:17:06.755Z"
++    "updated": "2026-08-03T01:19:05.377Z"
+   },
+   "notes/behavioral-economics.md": {
+     "created": "2026-07-29T12:37:02.137Z",
+@@ -105,7 +105,7 @@
+   },
+   "notes/by-their-fruits.md": {
+     "created": "2026-07-29T12:37:02.137Z",
+-    "updated": "2026-
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Analyzing regex and file updates**
+
+I’ve encountered an issue with the regex validation; it’s failing because blank lines are unindented, and the regex might not be set up correctly. I think I need a simpler approach that counts lines and notes bullet points without relying on regex. It's possible that the linting process modified whitespace in those blank lines. I should consider whether the user expects updates to the metadata generated by the watcher when files are edited. I want to make sure I understand how these updates impact workflow.
+**Considering file changes and commits**
+
+I’m looking at local tools and rules regarding commits and wondering if the user even asked about it. It seems the changes were generated automatically during a transcript process, not by our linting. I think it’s best to leave the changes since the system may continue updating it. The user's rules say not to commit certain files, but the change might be fine to keep. I need to verify all 178 lines and inspect the diffs to ensure everything aligns correctly.
+**Assessing script and file comparisons**
+
+I’m realizing that using Python for comparison based on the git baseline is tricky because it includes user changes related to the law-of-process. I need to check all categories for the Bible shortcode and see if any are followed by explanations. We could also compare the data in YAML format, although the explanations might not match perfectly. It seems the formatting script I need is missing, so I should remove any commands that could cause confusion later on, especially since they reference nonexistent scripts. Keeping the user's "moving forward" approach in mind is essential.**Evaluating lint rules**
+
+I’m thinking about the user's request regarding lint rules. Maybe it doesn't enforce ordering consistently, so adding an order rule could be useful. The user wants everything moving forward, and I could possibly check existing lint for compliance. But then again, do I really need something new? We’ve already captured the skill. I should ensure the process checks for immediate rules and confirm with git diff. Perhaps a clean-up is also necessary for stale formats.
+**Applying the patch**
+
+I’m focusing on applying a patch to a single file. First, I’ll read the relevant lines to ensure that I have the current context right. This helps avoid any mistakes during the patching process. I'll make sure to use the patch correctly so that everything integrates smoothly. It feels straightforward, but I want to be diligent to ensure that nothing goes wrong, and I’m being careful about the details!
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import re
+
+blocks = []
+bad = []
+for path in Path(&#39;content/english/notes&#39;).glob(&#39;*.md&#39;):
+    lines = path.read_text().splitlines()
+    if not any(re.fullmatch(r&#39;categories:\s*\[[^\]]*&#34;Faith&#34;[^\]]*\]&#39;, line) for line in lines):
+        continue
+    try:
+        start = next(i for i, line in enumerate(lines) if line == &#39;key_concept: |&#39;) + 1
+        end = next(i for i in range(start, len(lines)) if lines[i].startswith(&#39;level_1:&#39;))
+    except StopIteration:
+        continue
+    for i in range(start, end):
+        if &#39;{{&lt; bible&#39; not in lines[i]:
+            continue
+        blocks.append((path, i))
+        j = i - 1
+        while j &gt;= start and not lines[j].strip():
+            j -= 1
+        if j &lt; start or not lines[j].lstrip().startswith(&#39;- &#39;):
+            bad.append(f&#39;{path.name}:{i + 1}&#39;)
+
+print(f&#39;faith Bible blocks: {len(blocks)}&#39;)
+print(f&#39;explanation-before-verse: {len(blocks) - len(bad)}&#39;)
+assert len(blocks) == 178, f&#39;expected 178 blocks, found {len(blocks)}&#39;
+assert not bad, &#39;missing explanation before verse:\n&#39; + &#39;\n&#39;.join(bad)
+PY
+
+git diff --check</summary>
+```bash
+python3 - <<'PY'
+from pathlib import Path
+import re
+
+blocks = []
+bad = []
+for path in Path('content/english/notes').glob('*.md'):
+    lines = path.read_text().splitlines()
+    if not any(re.fullmatch(r'categories:\s*\[[^\]]*"Faith"[^\]]*\]', line) for line in lines):
+        continue
+    try:
+        start = next(i for i, line in enumerate(lines) if line == 'key_concept: |') + 1
+        end = next(i for i in range(start, len(lines)) if lines[i].startswith('level_1:'))
+    except StopIteration:
+        continue
+    for i in range(start, end):
+        if '{{< bible' not in lines[i]:
+            continue
+        blocks.append((path, i))
+        j = i - 1
+        while j >= start and not lines[j].strip():
+            j -= 1
+        if j < start or not lines[j].lstrip().startswith('- '):
+            bad.append(f'{path.name}:{i + 1}')
+
+print(f'faith Bible blocks: {len(blocks)}')
+print(f'explanation-before-verse: {len(blocks) - len(bad)}')
+assert len(blocks) == 178, f'expected 178 blocks, found {len(blocks)}'
+assert not bad, 'missing explanation before verse:\n' + '\n'.join(bad)
+PY
+
+git diff --check
+```
+
+```
+faith Bible blocks: 178
+explanation-before-verse: 178
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: /home/jorap/.local/share/mise/installs/pnpm/11.7.0/pnpm lint:agent-config</summary>
+```bash
+/home/jorap/.local/share/mise/installs/pnpm/11.7.0/pnpm lint:agent-config
+```
+
+```
+$ node scripts/lint-agent-config.mjs
+agent config OK: 20 skill(s), 9 rule(s), Kilo → .cursor/skills
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="read_lints"><details>
+<summary>Tool use: **read_lints**</summary>
+
+Parameters:
+
+```json
+{
+  "paths": [
+    "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md",
+    "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/examples.md",
+    "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ai-writing-system/writing-samples.md",
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/notes"
+  ]
+}
+```
+Result:
+
+```json
+{
+  "linterErrorsByFile": [
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/examples.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ai-writing-system/writing-samples.md"
+    },
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes"
+    }
+  ]
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+**Reviewing project changes**
+
+I'm thinking about running a git status to check the count of any changes and unrelated files. I also need to detect .specstory statistics and note their dates. The user has already made modifications, and I might include current migration notes. It seems there are open issues to address, and we need to avoid false positives. We’ve automatically changed metadata note file dates, but I might mention those. 
+
+The user's request for a Bible verse explanation needs to be prioritized above shortcodes, so that's a good adjustment.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Applied to 111 faith notes: 178/178 explanation blocks now appear before verses. Six hub notes had no verse blocks.
+
+Checks passed: garden lint, agent config, IDE lint, diff integrity.
+
+## Session close
+- Fixed: Migrated all current faith verse blocks
+- Encode: garden-voice updated
+- Open: clean

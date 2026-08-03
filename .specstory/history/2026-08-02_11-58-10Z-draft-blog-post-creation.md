@@ -1597,5 +1597,86 @@ I'm applying Justin Sung's learning principles to evaluate the notes feature. He
 
 Atomic notes and typed relationships align with his schema-building framework. The recognize-to-create depth ladder matches his depth-thinking model. Cue-to-apply flashcards outperform basic definition cards because they test retrieval in transfer contexts. Graph views support his emphasis on seeing connections. Shareable thoughts provide a Feynman-like "say it out loud" mechanism.
 
-Transfer examples and Random Duo promote serendipitous discovery.
+Transfer examples and Random Duo promote serendipitous discovery. Requiring contradictions prevents shallow organization.
+
+The interface still publishes encoded material rather than serving as an active learning workbench. Flashcards are disabled on learning notes, which contradicts their learning purpose. There is no built-in loop to process material while consuming it.
+
+Graph browsing is passive recognition rather than active encoding. Heavy frontmatter risks becoming editorial polish instead of cognitive struggle. There is no spaced retrieval for relationships or schema. Teach-back feedback and interleaving across related notes are missing. AI copy may offload thinking to the machine. I will now assign a fair grade and suggest concrete improvements.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+Through Justin Sung’s lens (handling > storage, encode by transforming, schema/connections, retrieval where you’ll use it), here’s an honest grade of JoRap Notes.
+
+## Overall: **B+ as a knowledge garden, A− on a few features, C as a live learning workbench**
+
+He’d respect the *principles* baked into the system more than most PKM tools. He’d also say: a polished garden is not the same as encoding under load. The product is strong at **storing and drilling finished claims**; weaker at **forcing the messy middle** while you’re still learning something new.
+
+---
+
+### What he’d rate high
+
+| Feature | Why Sung would like it | Rough grade |
+|--------|-------------------------|-------------|
+| **One claim + compression** (`description` / `key_concept`) | If you can’t say it in one breath, you don’t own it yet. That’s encoding pressure, not note-dumping. | **A** |
+| **Typed relationships** (`extends` / `contradicts` + reason) | Comparison and tension = schema building. Required `contradicts` fights shallow “everything is related.” | **S** (closest thing you have to “mind map done right”) |
+| **`level_1`…`level_5` depth ladder** | Matches his depth talk: recognize ≠ use ≠ connect ≠ create. Explicitly warns that flashcard recall can fake depth. | **A** |
+| **Cue → apply cards** (`/notes/review/`) | Retrieval in *life’s* context, not definition quiz. Aligns with “practice where you’ll need it.” | **A** (for Faith spine) |
+| **Two different `examples`** | Transfer across contexts — better than one polished anecdote. | **A−** |
+| **Shareable thoughts** | Mini teach-back / Feynman check: can you say it out loud? | **B+** |
+| **Graph + Random Duo** | Good for spotting orphans and forcing odd links — *if* you think while you look. | **B** (tool is fine; passive browsing is not learning) |
+
+He’d especially like that your flashcards skill already says the scoreboard isn’t the point — retention, application, explanation — and that cards are for **loaded moves**, not wiki clones.
+
+---
+
+### What he’d ding
+
+1. **Garden ≠ workbench.** Publishing atomic notes is often *after* understanding. Sung cares about the 15–30 second workbench *while* input is still warm. JoRap Notes shines after the idea is cooked; it doesn’t force “pause, reframe, connect” mid-video or mid-chapter.
+
+2. **Flashcards are narrow on purpose.** Faith / Eternal Principles only. That’s Pareto discipline he’d respect for *application under pressure* — and he’d still ask why learning/PKM claims (depth, spaced repetition, Feynman) aren’t drilled the same way if you want Davis (and you) to *use* those methods.
+
+3. **Cards stay B-tier if they stay isolated.** Cue→apply is better than trivia, but Sung’s ceiling for flashcards is still “isolated units.” Your graph/relationships are where S-tier learning lives — and those aren’t in the review loop.
+
+4. **Risk of productive gardening.** Lint, OKF, copy buttons, pretty graph = easy to feel productive rearranging the map instead of struggling with a hard idea.
+
+5. **AI/OKF offload.** Copy-to-agent is great for *using* the garden. For *learning*, he’d warn: don’t let the model do the organizing your working memory was supposed to do.
+
+---
+
+### What Justin would suggest to improve it
+
+Concrete product / practice moves, Sung-flavored:
+
+1. **Encode-on-capture mode (highest leverage)**  
+   When creating a note from a video/article: force a short “digest” before save — nearest neighbor (link to 1 existing note), one `contradicts`, one plain-language teach-back. No publish until the workbench did work.
+
+2. **Relationship review, not only card review**  
+   Drill: show note A + “what does this contradict / extend?” Blank reason → flip. That’s schema retrieval, which he’d value more than another definition card.
+
+3. **Depth gate before `review: true`**  
+   Don’t enable cards until `level_3` (use) is honest. Cards for recognize/explain-only claims = fake depth (your own depth note already says this).
+
+4. **Optional Learning deck**  
+   A small set of cue→apply cards for *methods* (pause the binge, think on paper, say it without looking) — aligned with your “not keen on memorizing / teach Davis how learning works” goal. Keep Faith decks; add a tiny Learning set, don’t Anki the whole garden.
+
+5. **Interleaving in `/notes/review/`**  
+   Mix related notes in one session (two ideas that are easy to confuse), not one note’s six cards in a row. Matches his S-tier interleaving: same domain, different angles.
+
+6. **“Struggle signal” on the graph**  
+   Surface orphans, notes with no `contradicts`, or hubs with no recent teach-back — not vanity link density. Make discomfort visible.
+
+7. **Closed-book explain before open-book edit**  
+   On note open: optional blank box — write the claim from memory, then reveal frontmatter. Micro-retrieval before polishing YAML.
+
+8. **Protect digestion time**  
+   Pair with the habit from your memory draft: after one idea lands, stop consuming. The feature can prompt: “One idea in, one digest out — queue the next video later.”
+
+---
+
+### Bottom line in Sung’s voice
+
+> Your notes system is unusually good at **organizing and applying finished knowledge**. The relationships + depth ladder + life-cue cards are closer to real learning science than most second brains.  
+> What’s missing is the **hard part of encoding**: forced transformation under load, schema retrieval, and less gardening-as-progress. Fix the *process around capture and review*, not another export button.
+
+If you want, I can turn this into a short section in `__i-dont-have-a-bad-memory.md` or a separate draft comparing JoRap Notes to Sung’s tiers — your call.

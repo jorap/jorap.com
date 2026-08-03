@@ -1027,5 +1027,549 @@ _**Agent (auto-smart)**_
 <think><details><summary>Thought Process</summary>
 Fixing faith-and-works.md by replacing "prove" and "dead on inspection" in the James passage.
 
-Expanding the fix list to five more files: fruits-of-the-spirit.md, the-narrow-way.md, eternal-principles.md, plus soft fixes in 
+Expanding the fix list to five more files: fruits-of-the-spirit.md, the-narrow-way.md, eternal-principles.md, plus soft fixes in free-grace.md, the-wise-builder.md, grateful-obedience.md, and goodness.md. Also checking flashcards skill wording and garden-voice alignment.
+
+Drafting replacement wording for the faith-and-works.md edits. Works will be reframed as showing faith at work rather than proving it alive. "Dead on inspection" becomes "inactive faith sits unused." Fruit will be described as backing up grace already received, never grounding belonging. The narrow-way card will distinguish a stumbling believer from a false profession.
+
+The eternal-principles talent parable needs careful handling. Anderson treats it as a reward-loss scenario, so the loss-of-reward note must be checked before editing. The flashcards skill and the remaining four files still need a quick review for surgical edits.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 0,
+  "contextBefore": 2,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md",
+  "pattern": "prove faith|Works do not buy"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md",
+  "pattern": "prove faith|Works do not buy",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/free-grace.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 1,
+  "contextBefore": 1,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md",
+  "pattern": "prove faith"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md",
+  "pattern": "prove faith",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/the-wise-builder.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 0,
+  "contextBefore": 2,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md",
+  "pattern": "prove faith"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md",
+  "pattern": "prove faith",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/grateful-obedience.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 0,
+  "contextBefore": 2,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/goodness.md",
+  "pattern": "prove faith"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/goodness.md",
+  "pattern": "prove faith",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/goodness.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Fix faith-and-works.md (James inactive + prove language)",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Fix fruits-of-the-spirit.md (confirms belonging)",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Fix the-narrow-way.md Lord Lord card",
+      "id": "3",
+      "status": "pending"
+    },
+    {
+      "content": "Fix eternal-principles.md cast-out line",
+      "id": "4",
+      "status": "pending"
+    },
+    {
+      "content": "Normalize soft prove-faith language in related notes",
+      "id": "5",
+      "status": "pending"
+    },
+    {
+      "content": "Run lint:voice / lint:garden on touched notes",
+      "id": "6",
+      "status": "pending"
+    }
+  ],
+  "success": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Proceeding with careful edits using Anderson doctrine and a garden voice, using plain words and no contractions.
+
+Revising the faith-and-works section. Removing "prove" and "evidence as ground." Using "answer grace already received" instead of "prove faith alive." Clarifying "inactive faith" versus "fake faith that never saved." Keeping the Free Grace contrast: faith saves; works are the response, not the price.
+
+Changing the card text to "Works answer grace - they don't buy heaven." Updating the alias from "works prove faith" to "works show faith" to avoid encoding the problematic phrase while preserving search functionality. Proceeding to the fruits section.
+
+Revising the fruits section. Fruit may back up a life already given by faith. It never grounds belonging or assurance. The narrow way card now asks what is missing when words and walk remain unchanged.
+
+Drafting the narrow way card back side. One option contrasts never believing with saved fellowship that burns. Another uses a flashcard cue to move: "I said Lord Lord but keep the same secret sin" and "Rest on Christ's promise - confess for fellowship, not re-earn heaven." A separate card for false profession is also being considered.
+
+Refining the narrow way card to preserve the existing relationship distinctions. One draft asks whether the same secret sin after "Lord Lord" means being lost, with the back side offering fellowship through confession. Another draft frames empty talk as never having believed, with the narrow gate grounded in faith rather than words.
+
+Finalizing the narrow way card to split false talk from a believer who stumbles. The front asks whether the same secret sin after "Lord Lord" signals never having believed or a fallen believer. The back distinguishes standing from fellowship.
+
+Adding the Loss of Reward entry to eternal principles. It cites the talents parable and 1 Corinthians 3:12-15 to show that even saved believers may lose reward.
+
+The Loss of Reward entry now clarifies that cast-out is not hell for a genuine believer. Soft related notes are being rewritten to replace "prove" with "show faith at work" or "answer grace," such as "Works do not buy grace - they answer faith already alive."
+
+Applying the revised wording across the remaining cards. The wise-builder now states that works show faith at work without buying heaven. Grateful obedience and goodness are updated to frame works as answering grace, with motive rooted in gratitude rather than wages. All edits are ready to be applied.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Applying Anderson-tight wording across the four MIXED notes and the related soft-risk lines.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faith-and-works.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/goodness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether changing the Hugo alias from "works prove faith" would break anything.
+
+The old alias should remain as a redirect to protect existing links. However, keeping "works prove faith" would encode the problematic phrase directly in the URL path.
+
+The old alias will be kept as a redirect for existing bookmarks. The "works answer grace" alias is fine. Need to check for other references to "works prove faith" and run lint. Also considering encoding the lesson in the free-grace skill, since "prove faith / confirms belonging" appears as a repeated failure pattern.
+
+Adding a one-line phrasing tip to the free-grace skill. It replaces "prove/confirm belonging" with "answer grace / may back up, never ground". This encodes the session's repeated correction.
+
+Existing aliases use spaces, so "works answer grace" keeps the same convention. Running garden lint on the touched files.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "works prove faith|confirms belonging|dead on inspection|prove faith alive"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "works prove faith|confirms belonging|dead on inspection|prove faith alive",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faith-and-works.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: pnpm lint:voice -- content/english/notes/faith-and-works.md content/english/notes/fruits-of-the-spirit.md content/english/notes/the-narrow-way.md content/english/notes/eternal-principles.md content/english/notes/free-grace.md content/english/notes/the-wise-builder.md content/english/notes/grateful-obedience.md content/english/notes/goodness.md 2&gt;&amp;1 | tail -40; pnpm lint:agent-config 2&gt;&amp;1 | tail -20; pnpm lint:filenames 2&gt;&amp;1 | tail -15</summary>
+```bash
+pnpm lint:voice -- content/english/notes/faith-and-works.md content/english/notes/fruits-of-the-spirit.md content/english/notes/the-narrow-way.md content/english/notes/eternal-principles.md content/english/notes/free-grace.md content/english/notes/the-wise-builder.md content/english/notes/grateful-obedience.md content/english/notes/goodness.md 2>&1 | tail -40; pnpm lint:agent-config 2>&1 | tail -20; pnpm lint:filenames 2>&1 | tail -15
+```
+
+```
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/pnpm/11.7.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.3/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.146.5/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.150.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.155.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.157.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.158.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.2/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.3/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+Command 'pnpm' not found, did you mean:
+  command 'npm' from deb npm (9.2.0~ds1-2)
+Try: apt install <deb name>
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/pnpm/11.7.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.3/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.146.5/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.150.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Mise and pnpm need full permissions to run. Alternatively, I need to locate the pnpm binary path.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34; &amp;&amp; pnpm lint:voice -- content/english/notes/faith-and-works.md content/english/notes/fruits-of-the-spirit.md content/english/notes/the-narrow-way.md content/english/notes/eternal-principles.md content/english/notes/free-grace.md content/english/notes/the-wise-builder.md content/english/notes/grateful-obedience.md content/english/notes/goodness.md 2&gt;&amp;1 | tail -50; pnpm lint:agent-config 2&gt;&amp;1 | tail -25; pnpm lint:filenames 2&gt;&amp;1 | tail -20; pnpm lint:slop -- content/english/notes/faith-and-works.md content/english/notes/fruits-of-the-spirit.md content/english/notes/the-narrow-way.md 2&gt;&amp;1 | tail -30</summary>
+```bash
+eval "$(mise activate bash)" && pnpm lint:voice -- content/english/notes/faith-and-works.md content/english/notes/fruits-of-the-spirit.md content/english/notes/the-narrow-way.md content/english/notes/eternal-principles.md content/english/notes/free-grace.md content/english/notes/the-wise-builder.md content/english/notes/grateful-obedience.md content/english/notes/goodness.md 2>&1 | tail -50; pnpm lint:agent-config 2>&1 | tail -25; pnpm lint:filenames 2>&1 | tail -20; pnpm lint:slop -- content/english/notes/faith-and-works.md content/english/notes/fruits-of-the-spirit.md content/english/notes/the-narrow-way.md 2>&1 | tail -30
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check -- content/english/notes/faith-and-works.md content/english/notes/fruits-of-the-spirit.md content/english/notes/the-narrow-way.md content/english/notes/eternal-principles.md content/english/notes/free-grace.md content/english/notes/the-wise-builder.md content/english/notes/grateful-obedience.md content/english/notes/goodness.md
+Voice dash lint OK
+Voice lint OK
+$ node scripts/lint-agent-config.mjs
+agent config OK: 18 skill(s), 8 rule(s), Kilo → .cursor/skills
+$ node scripts/lint-filenames.mjs
+Git tracked: scanned 1735 path(s)
+No cross-platform unsafe path components found.
+Frontmatter aliases: scanned 400 path(s)
+No cross-platform unsafe aliases found.
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check -- content/english/notes/faith-and-works.md content/english/notes/fruits-of-the-spirit.md content/english/notes/the-narrow-way.md
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+All lints passed. Updating todos and closing the session.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Fix faith-and-works.md (James inactive + prove language)",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Fix fruits-of-the-spirit.md (confirms belonging)",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Fix the-narrow-way.md Lord Lord card",
+      "id": "3",
+      "status": "completed"
+    },
+    {
+      "content": "Fix eternal-principles.md cast-out line",
+      "id": "4",
+      "status": "completed"
+    },
+    {
+      "content": "Normalize soft prove-faith language in related notes",
+      "id": "5",
+      "status": "completed"
+    },
+    {
+      "content": "Run lint:voice / lint:garden on touched notes",
+      "id": "6",
+      "status": "completed"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Fix faith-and-works.md (James inactive + prove language)",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Fix fruits-of-the-spirit.md (confirms belonging)",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Fix the-narrow-way.md Lord Lord card",
+      "id": "3",
+      "status": "pending"
+    },
+    {
+      "content": "Fix eternal-principles.md cast-out line",
+      "id": "4",
+      "status": "pending"
+    },
+    {
+      "content": "Normalize soft prove-faith language in related notes",
+      "id": "5",
+      "status": "pending"
+    },
+    {
+      "content": "Run lint:voice / lint:garden on touched notes",
+      "id": "6",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Proceeding with the requested action.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+All four MIXED notes are patched, and the soft “prove/confirm” language is cleaned across the related spine notes.
+
+### Fixes
+| Note | Change |
+|------|--------|
+| `faith-and-works.md` | James = inactive faith (not fake); “works answer grace”; God/people justification split |
+| `fruits-of-the-spirit.md` | “Fruit answers grace… never grounds belonging/assurance” |
+| `the-narrow-way.md` | Card splits false professor vs stumbled believer |
+| `eternal-principles.md` | Talents line = reward loss, not hell for a believer |
+| Soft: `free-grace`, `the-wise-builder`, `grateful-obedience`, `goodness` | Same “answer grace” phrasing |
+
+Also encoded a one-line **garden phrasing** tip in the `free-grace` skill so future drafts avoid “prove faith / confirms belonging / dead on inspection.”
+
+Voice, slop, filenames, and agent-config lints all pass.
+
+## Session close
+- Fixed: Anderson MIXED faith notes + soft prove/confirm phrasing tightened to Free Grace
+- Encode: free-grace skill — garden phrasing tip for prove/confirm language
+- Open: clean

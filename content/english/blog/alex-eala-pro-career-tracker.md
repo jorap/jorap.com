@@ -15,7 +15,7 @@ related_notes:
 level_depth: 1
 featured: false
 draft: false
-lastmod: "2026-08-01T22:10:00Z"
+lastmod: "2026-08-03T17:00:00Z"
 ---
 
 I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook for it. I update it when something happens worth pinning, not on a schedule.
@@ -27,9 +27,9 @@ I've been following Alex Eala's career since her run at the **2025 Miami Open** 
 The numbers I refresh first when something breaks on Twitter at 2am - everything else on this page is detail.
 
 - **Career highs:** No. 28 singles · No. 88 doubles
-- **WTA titles:** 2 (2025 Guadalajara 125, 2026 Birmingham 125)
+- **WTA titles:** 3 (2025 Guadalajara 125, 2026 Birmingham 125, 2026 Washington 500)
 - **Best Slam (singles):** Wimbledon 2026 - Round of 16
-- **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina to reach a Grand Slam fourth round in the Open era (Wimbledon 2026); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina in a WTA 500 final (Washington 2026); first Filipina in a WTA 500 semifinal (Berlin 2026); first Filipina in the WTA top 100
+- **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina to reach a Grand Slam fourth round in the Open era (Wimbledon 2026); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina to win a WTA 500 title (Washington 2026); first Filipina in a WTA 500 final (Washington 2026); first Filipina in a WTA 500 semifinal (Berlin 2026); first Filipina in the WTA top 100
 
 ---
 
@@ -142,9 +142,12 @@ Slams are in the section above. This is the week-to-week grind where the ranking
 - 2026
 
   - **Washington (WTA 500, Hard)**
+    - First Career WTA 500 Title
+    - First Filipina to win a WTA 500 title
+    - Third Career WTA Title
+    - First career hard-court WTA title
     - First Filipina to reach a WTA 500 final
-    - First career hard-court WTA Tour final
-    - Finals (vs Jessica Pegula)
+    - Winner, d. Jessica Pegula 4-6, 6-4, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/j-pegula-vs-a-eala-2026-08-02)
     - Semifinals, d. Naomi Osaka 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/n-osaka-vs-a-eala-2026-08-01)
     - Quarterfinals, d. Elina Svitolina 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31)
     - Round of 16, d. Leylah Fernandez 6-2, 7-6(1) | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/l-fernandez-vs-a-eala-2026-07-29)
@@ -650,6 +653,7 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 **Matches:**
 
+- **2026 Washington (Hard)** - Final, WIN, 4-6, 6-4, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/j-pegula-vs-a-eala-2026-08-02)
 - **2025 Miami Open (Hard)** - Semifinals, LOSS, 6-7(3), 7-5, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/j-pegula-vs-a-eala-2025-03-28)
 
 {{< youtube efazYG5hSAA >}}

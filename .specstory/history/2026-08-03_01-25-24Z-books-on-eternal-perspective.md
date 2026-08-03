@@ -305,9 +305,19 @@ Parameters:
   "searchTerm": "eternal perspective Christian books Randy Alcorn Heaven rewards Free Grace"
 }
 ```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [What You Do for the Glory of Jesus Will Last Forever: Answering Questions about Eternal Rewards - Eternal Perspective Ministries](https://www.epm.org/resources/2025/Aug/20/what-you-do-for-the-glory-of-jesus-will-last-forev/)\n2. [](https://www.epm.org/static/uploads/downloads/book-resources/law_of_rewards.pdf)\n3. [The Doctrine of Eternal Rewards - Eternal Perspective Ministries](https://www.epm.org/resources/2013/Mar/27/doctrine-eternal-rewards/)\n4. [In Light of Eternity by Randy Alcorn: 9781578562992 | PenguinRandomHouse.com: Books](https://www.penguinrandomhouse.com/books/1667/in-light-of-eternity-by-randy-alcorn/)\n5. [The Treasure Principle, Revised and Updated by Randy Alcorn: 9780735290327 | PenguinRandomHouse.com: Books](https://www.penguinrandomhouse.com/books/1674/the-treasure-principle-revised-and-updated-by-randy-alcorn/)\n\nSynthesis:\nRandy Alcorn is a Christian author who frequently writes about the doctrine of eternal rewards, emphasizing that while salvation is a free gift of grace not earned by works, a believer's earthly actions and stewardship are nonetheless evaluated by God to determine future rewards in heaven [1][2][3]. His books, such as Heaven, The Treasure Principle, and The Law of Rewards, frame these rewards as biblical motivations for faithful living and generous giving [2][4][5][6]. While many evangelical circles share this view, others, including some Free Grace adherents, have offered critiques regarding his theological nuances [7][8].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eWhat You Do for the Glory of Jesus Will Last Forever: Answering Questions about Eternal Rewards - Eternal Perspective Ministries\u003c/title\u003e\n\u003curl\u003ehttps://www.epm.org/resources/2025/Aug/20/what-you-do-for-the-glory-of-jesus-will-last-forev/\u003c/url\u003e\n\u003ccontent\u003eWhat You Do for the Glory of Jesus Will Last Forever: Answering Questions abou
+… (output truncated)
+```
 User decision: **accepted**
 
-Status: **loading**
+Status: **completed**
 
 </details></tool-use>
 
@@ -354,3 +364,190 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The user wants books to build a skill on "eternal perspective," similar to how the free-grace skill uses Anderson exclusively.
+
+Their existing "Eternal Principles" MOC covers Jesus' teachings. "Eternal Perspective" should instead reflect Randy Alcorn's Eternal Perspective Ministries, a worldview centered on eternity and heavenly rewards.
+
+Alcorn's broad evangelicalism may conflict with strict Free Grace views on reward nuances. Classic Free Grace authors on rewards include Dillow, Hodges, Radmacher, and Wilkinson. Recent agent transcripts and the Free Grace skill should be checked for related book mentions.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Free Grace eternal rewards books Dillow Reign of the Servant Kings Hodges Wilkin judgment seat"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [The Road to Reward: A Biblical Theology of Eternal Rewards: Second Edition | Logos Bible Software](https://www.logos.com/product/247595/the-road-to-reward-a-biblical-theology-of-eternal-rewards-second-edition)\n2. [Final Destiny: The Future Reign of the Servant Kings - Grace Evangelical Society](https://faithalone.org/journal-articles/book-reviews/final-destiny-the-future-reign-of-the-servant-kings/)\n3. [DENNIS A. WRIGHT,](https://lionandlambapologetics.org/wp-content/uploads/2021/08/Exactly-What-is-the-Free-Grace-Movement-DW.pdf)\n4. [The Theology of Zane Hodges and Joseph Dillow and the Grace Evangelical Society](https://www.middletownbiblechurch.org/doctrine/hodges.pdf)\n5. [Grace in Eclipse: A Study on Eternal Rewards - Grace Evangelical Society](https://faithalone.org/journal-articles/book-reviews/grace-in-eclipse-a-study-on-eternal-rewards/)\n\nSynthesis:\nFree Grace theology distinguishes between eternal salvation, which is a free gift received through faith alone, and eternal rewards, which are earned through faithful works and perseverance [1][2][3]. Key proponents include Joseph Dillow, Zane Hodges, and Robert Wilkin [4][5][6].\n\nDillow’s primary work is The Reign of the Servant Kings, which argues that while all believers have eternal security, only faithful overcomers will reign with Christ [7][8][9]. Zane Hodges wrote Grace in Eclipse, a central text on the topic [4][5]. Robert Wilkin authored The Road to Reward, which explores the distinction between salvation and future rewards [1][10].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eThe Road to Reward: A Biblical Theology of Eternal Rewards: Second Edition | Logos Bible Software\u003c/title\u003e\n\u003curl\u003ehttps://www.logos.com/product/247595/the-road-to-reward-a-biblical-theology-of-eternal-rewards-second-edition\u003c/url\u003e\n\u003ccontent\u003eWhat comes after faith in Christ? The Biblical teaching ab
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace",
+  "pattern": "Dillow|Hodges|Wilkin|Alcorn|rewards|Judgment Seat|bema"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace",
+  "pattern": "Dillow|Hodges|Wilkin|Alcorn|rewards|Judgment Seat|bema",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": ".cursor/skills/free-grace/SKILL.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".cursor/skills/free-grace/contrasts.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".cursor/skills/free-grace/doctrines.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 15
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/content/english/notes`** (1 file)
+
+| File |
+|------|
+| `judgment-seat.md` |
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Randy Alcorn Free Grace critique eternal rewards lordship"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [What You Do for the Glory of Jesus Will Last Forever: Answering Questions about Eternal Rewards - Eternal Perspective Ministries](https://www.epm.org/resources/2025/Aug/20/what-you-do-for-the-glory-of-jesus-will-last-forev/)\n2. [Randy Alcorn, “The Law of Rewards” – Mere Pensees](https://merepensees.com/2018/09/randy-alcorn-the-law-of-rewards/)\n3. [](https://probe.org/the-law-of-rewards/?print=pdf)\n4. [The Law of Rewards - Grace Evangelical Society](https://faithalone.org/journal-articles/book-reviews/the-law-of-rewards/)\n5. [The Law of Rewards \u0026 The Matter of Works - Eternal Perspective Ministries](https://www.epm.org/resources/2010/Feb/22/law-rewards-matter-works/)\n\nSynthesis:\nRandy Alcorn teaches that while salvation is a free gift of God’s grace, eternal rewards are earned by the works and faithfulness of a believer [1][2][3]. He distinguishes clearly between salvation, which is positional and permanent, and rewards, which are conditional and determined by how a Christian uses their time and resources [2][3][4].\n\nAlcorn identifies with the Lordship perspective, emphasizing that true faith produces transformation and good works [5][6]. While Free Grace proponents often appreciate his teaching on rewards [7], some criticize his occasional language regarding repentance and surrender, arguing it risks conflating discipleship with the requirements for salvation [7].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eWhat You Do for the Glory of Jesus Will Last Forever: Answering Questions about Eternal Rewards - Eternal Perspective Ministries\u003c/title\u003e\n\u003curl\u003ehttps://www.epm.org/resources/2025/Aug/20/what-you-do-for-the-glory-of-jesus-will-last-forev/\u003c/url\u003e\n\u003ccontent\u003eI also had the opportunity to do a breakout session focused on eternal rewards, which is the subject of my book The Law of Rewards. Eternal rewards can be a controversial 
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether Anderson's book covers rewards in depth. Also searching for other "eternal perspective" titles beyond Alcorn.
+
+The skill would follow the same sole-source pattern as the existing free-grace skill. Eternal Principles covers post-grace living; Eternal Perspective covers living now with heaven and rewards in view. The best candidates are Zane C. Hodges' *Grace in Eclipse* and Robert N. Wilkin's *The Road to Reward*.
+
+Also considering Dillow's *Final Destiny* as a major free-grace rewards tome. Alcorn's *The Law of Rewards* offers a clean gift-versus-reward distinction and a stewardship focus, though his interpretation of Matthew 25 is lordship-leaning. *The Treasure Principle* and *Money, Possessions, and Eternity* map to existing notes.
+
+Alcorn’s *In Light of Eternity* and *Heaven* offer a broader heaven worldview rather than deep rewards doctrine. Bruce Wilkinson’s *A Life God Rewards* and Erwin Lutzer’s *Your Eternal Reward* are simpler gift-versus-reward works. C.S. Lewis’s *Weight of Glory* is literary, not doctrine material. John Piper’s Reformed reward framing conflicts with free grace. Wilkin or Hodges should anchor the doctrine skill, not Alcorn alone.
+
+The skill should extend free-grace doctrine rather than compete with it. It would own horizon, motivation, and stewardship from one book. Anderson already addresses the Judgment Seat, so rewards become a natural continuation of soteriology.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Garden already has the lane: **Eternal Principles** (Jesus’ teaching MOC) + notes like [[Eternal Rewards]], [[Treasure in Heaven]], [[Judgment Seat]], all under **Free Grace / Anderson**. Skill gap = **horizon doctrine** (live now with eternity / rewards in view), not another soteriology skill.
+
+Mirror `free-grace`: pick **one sole source**, encode positions, never paste prose. Anderson still wins on destiny.
+
+---
+
+### Best sole-source picks (Free Grace–safe)
+
+| Book | Why | Skill fit |
+|------|-----|-----------|
+| **Zane C. Hodges**, *Grace in Eclipse* | Classic FG on rewards; gift vs reward; hard texts (outer darkness, rich young ruler, endure) | Strong sole source for **rewards doctrine** |
+| **Robert N. Wilkin**, *The Road to Reward* (2nd ed.) | Short biblical theology of rewards; GES; keeps salvation ≠ reward clean | Strong sole source if you want leaner than Hodges |
+| **Joseph C. Dillow**, *Final Destiny* (ex-*Reign of the Servant Kings*) | Huge FG map: reign, inheritance, parables, treasures | Too big for first skill; use later as depth, not sole file |
+
+---
+
+### “Eternal Perspective” brand (Alcorn) — useful, not sole
+
+Randy Alcorn / Eternal Perspective Ministries owns the **phrase**. Rewards thesis matches garden notes: faith → destination; works → rewards.
+
+| Book | Role |
+|------|------|
+| **The Law of Rewards** | Core “law”; giving as eternal investment; GES review liked rewards half |
+| **The Treasure Principle** | Short; maps to [[Treasure in Heaven]] |
+| **Money, Possessions, and Eternity** | Parent of *Law of Rewards*; stewardship depth |
+| **In Light of Eternity** / **Heaven** | Horizon/imagination, less tight rewards doctrine |
+
+**Risk:** Alcorn lean lordship on some texts (e.g. Matt 25 sheep/goats as faith-proved-by-works). Fine for stewardship voice; **bad sole source** next to Anderson. Pattern: `free-grace` owns destiny; Alcorn skill only if fenced: “stewardship / horizon; defer contested texts to Anderson.”
+
+---
+
+### Popular adjacent (lower priority)
+
+- **Bruce Wilkinson**, *A Life God Rewards* — simple gift vs reward; light
+- **Erwin Lutzer**, *Your Eternal Reward* — bema survey; less FG-native
+- Skip Piper / Reformed reward books as skill source — clash with Anderson assurance frame
+
+---
+
+### Practical recommendation
+
+1. **Doctrine skill (FG rewards):** sole source = **Hodges** *Grace in Eclipse* **or** **Wilkin** *Road to Reward*. Pair with existing `free-grace` (Anderson = destiny; this = bema / crowns / loss-of-reward).
+2. **Lifestyle “eternal perspective” skill:** sole source = **Alcorn** *Law of Rewards* (or *Treasure Principle*), with hard rule: no soteriology; contested passages defer to Anderson.
+3. Do **not** mash Alcorn + Hodges + Anderson into one skill — same failure mode `free-grace` avoids.
+
+Garden already encodes half the content in notes; skill mainly needs **audit checklist + fail-if** like Anderson skill (gift≠reward, loss-of-reward≠loss-of-life, desire-for-reward OK, no works-as-entry).
+
+Want next step: shortlist one sole source and draft skill skeleton, or compare Hodges vs Wilkin vs Alcorn against your Judgment Seat / Eternal Rewards notes?

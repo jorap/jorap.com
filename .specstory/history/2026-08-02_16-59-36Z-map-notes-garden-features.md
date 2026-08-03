@@ -1796,3 +1796,1420 @@ _**Agent (composer-2.5-fast)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.html</summary>
 
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+I am checking the full notes configuration in params.toml.
+
+I am cataloguing discrete notes features across the codebase. Key items include:
+
+- Wikilink hover previews and random note generators
+- Shortcodes, RSS feeds, and OKF exports
+- Random-duo, key-concept formatting, and see-also links
+- Obsidian import, Decap CMS integration, and draft counts
+- Ponytail debt and half-built features flagged for review
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/preview-index.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/format-key-concept.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-thought.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **27** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (27 files)
+
+| File |
+|------|
+| `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/video.html` |
+| `themes/jorap/layouts/shortcodes/youtube_time.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/images/layouts/shortcodes/image.html` |
+| `layouts/shortcodes/bible.html` |
+| `layouts/shortcodes/card.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/adsense/layouts/shortcodes/adsense.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/button/layouts/shortcodes/button.html` |
+| `layouts/shortcodes/spotify_iframe_artist.html` |
+| `themes/jorap/layouts/shortcodes/spotify_iframe_track.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/tab/layouts/shortcodes/tab.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/youtube-lite.html` |
+| `layouts/shortcodes/spotify.html` |
+| `layouts/shortcodes/youtube_time.html` |
+| `layouts/shortcodes/spotify_iframe_track.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/shortcodes/slider.html` |
+| `themes/jorap/layouts/shortcodes/spotify.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/vimeo-lite.html` |
+| `themes/jorap/layouts/shortcodes/spotify_iframe_artist.html` |
+| `themes/jorap/layouts/shortcodes/youtube.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/mermaid/layouts/shortcodes/mermaid.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/notice/layouts/shortcodes/notice.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/accordion/layouts/shortcodes/accordion.html` |
+| `layouts/shortcodes/youtube.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/shortcodes/gallery.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/modal/layouts/shortcodes/modal.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/table-of-contents/layouts/shortcodes/toc.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/tab/layouts/shortcodes/tabs.html` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{toml,html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "RSS|rss|\\.OutputFormats"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "RSS|rss|\\.OutputFormats",
+  "topFiles": [
+    {
+      "matchCount": 12,
+      "uri": "council/council-report-20260803-000700.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "hugo.toml"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 15
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/random-duo.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the local graph feature on single note pages.
+
+Expanding the inventory to include markdown copying, see-also links, featured random notes, asset JS lists, relationship types, content categories and tags, draft counts, CMS admin, Obsidian import, OKF export, meta-docs like reading-the-garden and maps-of-content, note_kind variants, level_depth fields, related_notes on blogs, and search indexing.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **13** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (13 files)
+
+| File |
+|------|
+| `assets/js/notes-list.js` |
+| `assets/js/notes-copy-md.js` |
+| `assets/js/notes-creator.js` |
+| `assets/js/notes-flashcard.js` |
+| `assets/js/notes-graph.js` |
+| `assets/js/notes-random-core.js` |
+| `assets/js/notes-random-featured.js` |
+| `assets/js/notes-random-select.js` |
+| `assets/js/notes-cards.js` |
+| `assets/js/notes-random-single.js` |
+| `assets/js/notes-review.js` |
+| `assets/js/notes-backlinks.js` |
+| `assets/js/notes-random-duo.js` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/local-graph.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/see-also.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^draft: true"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^draft: true",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^review: true"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^review: true",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipleship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-intuition.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/dont-copy-the-pattern.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/thank-father-at-lazarus.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-sacrifice.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pray-for-his-own.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/judgment-seat.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-connection.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-respect.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-priorities.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/success-is-stewardship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-your-enemies.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-process.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/let-your-light-shine.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipleship-vs-leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/many-parts-one-body.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/into-your-hands.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/iron-sharpens-iron.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pray-before-you-choose.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-fathers-food.md"
+    }
+  ],
+  "totalFiles": 112,
+  "totalMatches": 112
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the copy-markdown partial for Copy MD and agent copy functionality.
+
+Found additional features across the codebase:
+
+- Random note display on single pages and featured random note blocks
+- Wikilink preview JavaScript
+- Blog related_notes references
+- Decap CMS port and Obsidian sync integration
+- level_depth field usage in note frontmatter
+- Ponytail comments in notes code
+- Meta documentation: reading-the-garden.md and digital-garden.md
+- Total note count estimated at 339 files
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/copy-markdown.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-unrelated-notes.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "assets/js/*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "wikilink-preview|preview-index"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "wikilink-preview|preview-index",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "assets/js/wikilink-preview.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-random-featured.js"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/notes/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "ponytail:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "ponytail:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-raw-body.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/collect-note-issues.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/build-hub-cluster.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/expand-bible-mentions.html"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reading-the-garden.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "level_depth"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "level_depth",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__how-to-create-a-good-habit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/drupal-to-wordpress.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__everyone-communicates-few-connect.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__rechargeable-batteries.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__tailwind-css-v4.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__stack-mismatch-stories.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-i-focused-on-open-source.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__client-site-pass-off.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-i-stopped-playing-marvel-snap.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__local-ai-my-machines.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__humanize-ai-articles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/getting-started-with-rss-feeds.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__markdown-deep-dive.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__selling-static-sites.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__why-git-greatest-open-source-innovation.md"
+    }
+  ],
+  "totalFiles": 15,
+  "totalMatches": 164
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Also cataloguing note metadata fields such as created and updated dates.
+
+Also cataloguing Decap CMS integration, search indexing, a bible shortcode, render-content intro/tail splitting, related notes on blog posts, a recent-new partial, utility page flags, note_kind taxonomy, review counts, graph analytics, Obsidian imports, and a file-dates script.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/pages.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml",
+  "pattern": "notes|flashcard|wikilink"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml",
+  "pattern": "notes|flashcard|wikilink",
+  "topFiles": [
+    {
+      "matchCount": 11,
+      "uri": "static/admin/config.yml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 11
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/shortcodes/bible.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/shortcodes/card.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^review: true"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^review: true",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/abide-in-me.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/success-is-stewardship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-navigation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/let-your-yes-be-yes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/great-commission.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/peacemakers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/many-parts-one-body.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-intuition.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-beatitudes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/father-forgive-them.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/flashcards.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/opened-scripture.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/secret-devotion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/kindness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-influence.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/faith-and-works.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/dont-worry.md"
+    }
+  ],
+  "totalFiles": 112,
+  "totalMatches": 112
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^categories:.*Faith"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^categories:.*Faith",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/dont-worry.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-solid-ground.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/render-unto-caesar.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pray-when-drained.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/trust-god-for-today.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-priorities.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/grateful-obedience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-beatitudes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/glorify-your-name.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-magnetism.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/assurance.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/prayer-jesus-taught.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-empowerment.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/present-a-living-sacrifice.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/great-commission.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/god-centered-design.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/repent-and-believe.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/thank-father-for-revelation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/eternal-rewards.md"
+    }
+  ],
+  "totalFiles": 117,
+  "totalMatches": 117
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-garden.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning a systematic inventory of notes features across the repository.
+
+Key features identified so far include key_concept rendering, inline flashcards, search indexing, connection-based sorting, Obsidian import scripts, linting tools, dev banners, file dates, and related blog links.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/is-utility-page.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-flashcards.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "layouts/**/*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "SearchIndex|search-index"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "SearchIndex|search-index",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/_default/list.searchindex.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/import-from-obsidian.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/dev-banner.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap/Documents/GitHub/jorap.com/content/english/notes -name &#39;*.md&#39; | wc -l</summary>
+```bash
+find /home/jorap/Documents/GitHub/jorap.com/content/english/notes -name '*.md' | wc -l
+```
+
+```
+339
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking search index fields and note counts to distinguish utility notes from regular ones.
+
+Also checking hugo.toml for notes RSS and related blog partials.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/search-index-fields.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "layouts/**/*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "related_notes"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "related_notes",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "./layouts/_partials/notes/related-notes.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./layouts/_partials/blog/related-notes.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./layouts/_partials/toc-related-extras.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./layouts/_partials/blog/toc.html"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maps-of-content.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-maintenance/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^note_kind:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^note_kind:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/graph.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/okf-export.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/21-laws-of-leadership-in-the-bible.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/jesus-rhythms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/create.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/random-duo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/prayer-jesus-taught.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pressure-reveals-weakness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/flashcards.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/issues.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/leadership-is-influence.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/maps-of-content.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/jesus-prayers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/transformation-principles.md"
+    }
+  ],
+  "totalFiles": 21,
+  "totalMatches": 21
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The full scope of notes features across the repository is now clear.
+
+Additional features spotted: note-card blurb badges, connection sorting, graph analytics, lint and format normalization, random note button, wikilink aliases, depth ladder, featured flags, and categories. Total note files: ~339, roughly 310 atomic notes. Next steps are to inspect note-card and relationship-neighbors layouts, and verify whether a notes-level RSS feed exists.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-note.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/graph-view-analytics.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "scripts/*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "noteFileDates"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "noteFileDates",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/noteFileDates.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/lintNotes.mjs"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/deployBuild.mjs"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/garden-health.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/test-search.mjs"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Enough information has been gathered to compile the full notes feature inventory.
+
+A few more items are being checked: shareable_thought placement, site-wide search, Decap CMS, export scripts, relationship syncing, and feature flags for graph and cards. Core features are being grouped together: atomic notes with structured frontmatter, wikilinks and backlinks, a searchable notes index, and single-note rendering.
+
+Core features include maps of content, tags, categories, and getting started docs. Niche or experimental features include global and local graphs, flashcards and review, random note serendipity, OKF export, Anki export, depth ladder levels, shareable thoughts UI, relationship neighbors, tag-based see also links, Decap CMS, and Obsidian import. Author tooling covers the create note page, issues page, and agent copy utilities.
+
+Additional features include random duo shortest-path routing, hub cluster copy generation, graph analytics filters, and Bible shortcode expansion. Body-level card shortcodes, wikilink aliases, connection sorting, featured random notes, recent additions, and hover previews are also present. Author tooling covers voice linting and markdown copy. The `garden:health` script and static OKF visualization are included. Debt and half-built items remain: hub clusters cap at 60 links, bible chapter-only citations are skipped, and the note issues collector runs slowly and only on select pages.
+
+Flashcard YAML remains on many PKM notes even though the skill restricts reviews to Faith and Eternal Principles. Wikilinks warnings are set to false rather than errors. The site uses a workaround for a Hugo .RawContent panic. RSS was intentionally dropped per page. Random duo and create note flows are AI-assisted authoring tools, not core reading features. Some faith notes carry review flags despite the faith-only restriction, and leadership bible notes may have cards disabled. The Obsidian import is a one-time migration script. Decap CMS appears partially configured. The best overview document is content/english/notes/getting-started.md.
+
+Two additional overview documents were identified: content/english/blog/how-i-built-jorap-notes.md and content/english/notes/reading-the-garden.md. The site contains 339 total files, roughly 318 regular notes plus 20 note_kind hub files and one index. Eight note_kind entries are meta pages—backlinks, okf-export, issues, create, graph, flashcards, review, and random-duo—and pages.html excludes utility pages by default.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The final report is being compiled now.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+# JoRap Notes Garden — Feature Inventory
+
+**Scale:** ~339 markdown files under `content/english/notes/` (flat folder, no subfolders). ~20 typed pages (`note_kind: meta|index`); rest are atomic garden notes. No drafts currently (`draft: true` count = 0). ~110 notes have `review: true` (Faith / Eternal Principles spine).
+
+---
+
+## Discrete features (user-facing + authoring/tooling)
+
+### Content model & frontmatter
+- **Atomic notes** — One claim per page; prose lives in YAML fields, not body `##` sections (hubs/MOCs excepted).
+- **`description`** — One-breath claim (≤20 words, lint-enforced); shown in cards and search.
+- **`key_concept`** — Angle + wikilink stack; rendered as “Key Concept” section.
+- **`level_1`…`level_5`** — Depth ladder (Recognize → Create); appended under Key Concept as H3s.
+- **`examples`** — Exactly two scene bullets; rendered as Examples section.
+- **`shareable_thought`** — Four paste-ready lines; rendered as “Shareable thoughts” grid on note page.
+- **`relationships`** — Typed edges (`extends`, `contradicts`, `implements`, `alternative`) + reason; rendered as table + “Relationship neighbors” cards.
+- **`tags` / `categories`** — Facets on index, backlinks, cards; drive “See also” and site search.
+- **`aliases`** — Alternate wikilink targets (e.g. `MOC`, `CODE`).
+- **`note_kind`** — `note` (default), `index` (MOC/hub), `meta` (utility surfaces); controls copy buttons and list inclusion.
+- **`review` + `cards` + `card_sets`** — Flashcard deck in frontmatter; `review: true` enables on-page deck + review queue + Anki export.
+- **`featured`** — Surfaces note in discovery (e.g. Getting Started).
+- **Hub/MOC body prose** — Index pages keep curated `##` sections in markdown body (Maps of Content, Eternal Principles, etc.).
+
+### Linking & navigation
+- **`[[wikilinks]]`** — Case-insensitive resolution via link registry; rendered as internal links with hover preview.
+- **Backlinks** — Per-note “Backlinks” aside; global `/notes/backlinks/` index with search, sort, expand/collapse, strength bars.
+- **Outgoing links** — “Links from this Note” cards (hidden when index page already wikilinks in body).
+- **Relationship neighbors** — Grouped cards by relationship type on each note.
+- **See also** — Tag-overlap suggestions excluding already-linked notes.
+- **Wikilink hover preview** — Title + description tooltip (`assets/js/wikilink-preview.js` + preview JSON index).
+- **Aliases & `#heading` anchors** — Fragment links supported in wikilink resolution.
+
+### Browse & discovery UI
+- **`/notes/` index** — Intro, featured random pair, “New notes”, full catalog grid sorted by connection count.
+- **Client-side search** — Filter by title, description, tags, aliases on index.
+- **Tag/category refine** — Dropdown facets on index.
+- **Random pick (index)** — Two random notes refreshed per visit.
+- **Random Duo** (`/notes/random-duo/`) — Two selectable/shuffleable notes + shortest wikilink path + ChatGPT prompt panel.
+- **Random note (per note + blog)** — Serendipity section with connection AI prompt and path (notes) or blog↔note prompt (blog posts).
+- **Recent new** — Latest notes by git/file created date.
+- **Table of contents** — From assembled content headings; sticky sidebar on desktop.
+- **Created/Updated dates** — From `data/noteFileDates.json` (git/file mtime script).
+- **Tag chips** — On note pages and cards.
+
+### Graph
+- **Global graph** (`/notes/graph/`) — Pixi.js interactive map; zoom, rank/tag coloring, filters (top/middle/bottom %, orphans, dead-ends, hubs, relationship types).
+- **Local graph** — Per-note neighborhood graph at top of single pages.
+- **OKF static graph** — `/exports/okf/viz.html` (export companion, linked from graph page).
+
+### Flashcards & review
+- **Flashcards gallery** (`/notes/flashcards/`) — Flip cards grid, filter by `card_sets`, about copy.
+- **Per-note flashcard deck** — Inline flip cards when `review: true`.
+- **`{{< card >}}` shortcode** — Body-embedded cards collected into decks.
+- **Review session** (`/notes/review/`) — Spaced-repetition UI (Again/Hard/Good/Easy), keyboard shortcuts, cram mode, localStorage progress, set filters.
+- **Anki export** — `pnpm export:anki` → downloadable `.txt` at `exports/jorap-notes-anki.txt`.
+
+### Faith-specific
+- **`{{< bible >}}` shortcode** — NASB verse blocks in faith notes.
+- **Bible mention expansion** — Auto-expands prose citations in render pipeline.
+- **Flashcards policy** — Skill restricts active review to Faith + Eternal Principles; PKM/leadership notes keep `review: false`.
+
+### Author / agent tooling (affects garden quality)
+- **Issues dashboard** (`/notes/issues/`) — Broken wikilinks, pipe syntax, unlinked mentions, orphans, dead-ends, utility wikilinks, structure violations; copyable report + `index.txt` after build.
+- **Create Note** (`/notes/create/`) — Topic input + random prompts + ChatGPT-oriented note scaffold generator.
+- **Copy MD / Agent copy / Copy hub cluster / Copy OKF catalog** — Clipboard buttons on note pages for Hugo source, OKF flatten, hub bundles.
+- **OKF export** — `pnpm export:okf`; flat agent-readable bundle under `static/exports/okf/` (+ page at `/notes/okf-export/`).
+- **Decap CMS** (`static/admin/config.yml`) — Web editor for notes frontmatter fields.
+- **Obsidian import** — `pnpm import:obsidian` one-shot migration script.
+- **Voice & quality lint** — `pnpm lint:garden`, `lint:frontmatter`, `lint:cards`, `audit:cards`, `lint:garden-voice`, `lint:slop`, `lint:utility-links`, `garden:health`.
+- **Normalize / sync scripts** — `normalize-notes-format.py`, `sync-note-relationships.py`, `lintNotes.mjs` + `noteFileDates.js`.
+
+### Cross-site integration
+- **Site search (Fuse)** — Notes indexed with flattened `key_concept`, `shareable_thought`, relationships (`search-index-fields.html`).
+- **Section RSS** — `/notes/` section emits RSS (home + section outputs in `hugo.toml`); no per-note RSS.
+- **Blog ↔ notes** — `related_notes` on blog posts; random note block on blog singles; related blog posts footer on note singles.
+
+### Shortcodes & render pipeline
+- **Assembled content** — Frontmatter fields synthesized into markdown before render (intro/tail split around shareable thoughts).
+- **Strict wikilink lint** — Configurable (`strict_wikilinks`, `strict_unlinked` — currently **off**).
+
+---
+
+## Core vs niche / experimental
+
+| **Core** (garden identity) | **Niche / author / experimental** |
+|---|---|
+| Atomic note pages + structured frontmatter | Global/local graph + graph analytics filters |
+| Wikilinks, backlinks, relationship types | Random Duo + AI prompt panels |
+| `/notes/` browse, search, tag/category filter | Spaced review session + Anki export |
+| MOC/index hubs (Maps of Content, Eternal Principles) | OKF export + Agent copy + Create Note |
+| Tags, See also, relationship neighbors | Issues dashboard (maintenance, not reading) |
+| Site search inclusion | Decap CMS, Obsidian import |
+| Getting Started / Reading the Garden docs | Shareable thoughts grid (social paste layer) |
+| Copy MD for editing | `level_1`–`level_5` depth ladder (pedagogy overlay) |
+| | Featured random / random note serendipity |
+| | Flashcards (Faith-only policy; ~110 active decks) |
+
+---
+
+## Known debt, drafts, half-built pieces
+
+- **`collect-note-issues` too slow for toolbar** — Issue counts omitted from every page; only on `/notes/issues/` (comment in `toolbar.html`).
+- **Ponytail caps** — Hub cluster copy truncates at 60 links; bible mention expander skips chapter-only refs; `.RawContent` panic workaround in `note-raw-body.html`.
+- **Lint warnings, not hard fails** — `strict_wikilinks: false`, `strict_unlinked: false` in `config/_default/params.toml`.
+- **Flashcard scope mismatch** — Many PKM notes retain `cards:` YAML with `review: false`; skill says don’t enable review outside Faith/EP.
+- **Per-page RSS dropped** — Intentional (`hugo.toml` comment); only section/home feeds.
+- **Random/Create/OKF lanes** — Built for ChatGPT handoff; not part of casual reader flow.
+- **No note drafts in tree** — All 339 files published; `draft: false` everywhere checked.
+- **Graph dependency** — `pixi.js` in `package.json`; toggle via `enable_graph` / `enable_cards` params.
+
+---
+
+## Best overview docs
+
+1. **`/home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md`** — Canonical garden rules, field shapes, atomic rule, create workflow.
+2. **`/home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md`** — Stack story + where the site is now (Aug 2026 section).
+
+**Strong secondary:** `content/english/notes/reading-the-garden.md` (wiki vs drill lanes), `content/english/notes/note-relationships.md` (typed links), `content/english/notes/flashcards.md` (card policy), `.cursor/skills/garden-voice/SKILL.md` + `.cursor/skills/flashcards/SKILL.md` (authoring), `.cursor/skills/garden-maintenance/SKILL.md` (weekly hygiene loop).

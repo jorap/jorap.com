@@ -460,3 +460,147 @@ content/english/blog/__hugo-shortcodes.md:75:I use `{{</* ... */>}}` for images 
 
 ```
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The file uses `{{</* shortcode */>}}` to escape shortcodes in markdown without executing them.
+
+Checking whether the user means literal disabled shortcodes or the standard Hugo escape syntax. Searching thoroughly for `{{</*` and `{{%/*` patterns.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "\\{\\{[\u003c%]/\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "\\{\\{[\u003c%]/\\*",
+  "topFiles": [
+    {
+      "matchCount": 20,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__hugo-shortcodes.md"
+    },
+    {
+      "matchCount": 27,
+      "uri": "content/english/blog/__blog-template.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 52
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "\\{\\{[\u003c%]/\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "\\{\\{[\u003c%]/\\*",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes",
+  "pattern": "\\{\\{[\u003c%]/\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes",
+  "pattern": "\\{\\{[\u003c%]/\\*",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__study-techniques-worth-your-time.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+There are Hugo "commented out" shortcodes using the `{{</* ...` syntax.
+
+They appear in documentationexample posts rather than accidentally disabled shortcodes in real posts.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Yes — but only as **Hugo escape syntax** (`{{</* ... */>}}`), not accidental leftovers in live posts. That form shows the shortcode in the rendered page without running it.
+
+They show up in three content files:
+
+1. **`content/english/blog/hugoplate-theme-review.md`** — examples for notice, button, accordion, tabs, toc, image, gallery, video, youtube, youtube_time, spotify embeds  
+2. **`content/english/blog/__blog-template.md`** — template docs for the same shortcodes  
+3. **`content/english/blog/__hugo-shortcodes.md`** — docs explaining the `{{</* */>}}` vs `{{%/* */%}}` delimiters  
+
+No commented-out shortcodes in layouts/themes, and none in `__study-techniques-worth-your-time.md`.

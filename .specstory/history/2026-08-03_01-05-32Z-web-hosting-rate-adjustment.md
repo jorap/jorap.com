@@ -111,3 +111,31 @@ invoice only. warmer full of gratitude
 _**Agent (auto-smart)**_
 
 > Auto routed to grok-4.5
+
+
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The email will be warmer and more grateful. Invoice details will remain on the invoice only.
+
+The email will cover the free WordPress migration, improved process, new enquiries, annual renewal invoice, and upgrade.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+---
+
+Hi,
+
+Thank you for trusting us with your site. Working with you has been a pleasure, and I don't take that lightly.
+
+Before your annual renewal, I wanted to share something I'm genuinely glad we got to do for you. We moved your site to WordPress at no charge so upgrades stay simpler going forward. That cleaner setup already helped bring in new enquiries - and that outcome is yours.
+
+I've attached the invoice for your upcoming annual renewal. Details are on the invoice. Hosting and support stay the same - reliable, secure, and here when you need us.
+
+Grateful to keep working with you,
+
+[Your name]
+
+---

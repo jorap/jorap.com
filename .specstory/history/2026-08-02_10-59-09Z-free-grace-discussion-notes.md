@@ -1384,7 +1384,7 @@ Frontmatter, flashcards, and garden-voice checks are clean on the edited set.
 
 _**User**_
 
-make sure all notes follow /garden-voice and /free-grace 
+any /free-grace 
 
 ---
 
@@ -1506,3 +1506,713 @@ _**Agent (auto-smart)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Lint checks pass, but the garden-voice skill enforces stricter rules than lint.
+
+Punch lines and blank lines must be followed by at most two to four tight sentences before the link stack grows. Free-grace and mercy currently exceed this limit. Their key_concept stacks need trimming. The free-grace description is seventeen words, which satisfies the twenty-word cap.
+
+The grace description is seventeen words, and the mercy description is fourteen, both within the cap. The grace meta_title "Unmerited Favor" should be swapped for "gift you didn't earn" per garden-voice.
+
+The grace example cites Romans 4:4-5. Garden-voice forbids bible verse citations in relationships.reason, though faith notes may permit them. Free-grace, mercy, sanctification, and discipleship need tighter key_concept density to match abide-in-me while preserving Anderson doctrine. The grace shareable thought may be a fragment, but lint approved it.
+
+The grace shareable thought is eight words, so it passes the fragment check. The user's request to cover all notes likely targets only the Free Grace cluster. Discipleship scores 1.44 on slop and needs review for AI tells. A manual garden-voice and Anderson pass will follow for density and doctrine.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Lints are clean; next I’m tightening density and Anderson phrasing against garden-voice (cut stacks, fix voice tells).
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faith-and-works.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/assurance.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/justification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*{free-grace,grace,mercy,discipleship,grateful-obedience,sanctification,justification,faith-and-works,assurance,repent-and-believe,standing-vs-fellowship,eternal-rewards,loss-of-reward,judgment-seat,christlikeness}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "prove|confirms belonging|dead on inspection|unmerited|grounds assurance|works prove|fruit confirms|phenomenological|temporary faith|never saved|must surrender|perseverance"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "prove|confirms belonging|dead on inspection|unmerited|grounds assurance|works prove|fruit confirms|phenomenological|temporary faith|never saved|must surrender|perseverance",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/repent-and-believe.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipleship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/grace.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/faith-and-works.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sanctification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/loss-of-reward.md"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Density-cut free-grace, mercy, grace key_concept stacks",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Garden-voice pass on discipleship/sanctification/others",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Anderson phrasing sweep + re-lint cluster",
+      "id": "3",
+      "status": "pending"
+    }
+  ],
+  "success": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Identifying key garden-voice fixes needed.
+
+free-grace.md needs its key_concept trimmed to a verse gloss, two to four claims, and a tight wikilink stack. mercy.md should lose its PKM mirror and excess link bullets. grace.md must drop the "Unmerited Favor" meta_title because garden voice discourages that phrase.
+
+The Romans 4:4-5 example in grace.md should drop its verse citation and read as a lived-in scene instead. sanctification.md needs its key_concept bullets thinned out.
+
+discipleship.md needs its "emancipation" term replaced with a plain gloss like "freedom from Sin's tyranny." Level_2 should avoid wages-adjacent language such as "paying back a gift with loyalty"; it should read as gratitude rather than coinage. justification.md carries high verse density that could be trimmed, though its link stack is acceptable. EP notes should anchor on Jesus first, and Luke is fine as primary.
+
+assurance.md is mostly sound; one PKM mirror could be trimmed for density.
+
+The faith-and-works meta title should change from "Saved by Faith, Shown by Action" to "Faith and Works - Works Answer Grace," since "Shown by Action" implies works prove salvation.
+
+Discipleship and grace descriptions both land within their twenty-word limits.
+
+The flashcard cue "fruit proves I never belonged" correctly frames the wrong thought being rejected. Free-grace's description is confirmed at seventeen words. Its key_concept should tighten to an abide-in-me density, opening with a John 5:24-29 verse block and an Ephesians 2:8-10 verse block.
+
+Free-grace's key_concept now uses three plain claims: grace is a gift never earned; free means no front or back strings, so faith is trust not surrender-as-entry-fee; and fruit may support assurance but cannot ground belonging. It links to Justification, Standing vs Fellowship, and Assurance.
+
+Free-grace's key_concept now adds Sanctification, Discipleship, Grateful Obedience, Eternal Rewards, Judgment Seat, and Loss of Reward as plain claims. It also states that repentance and belief place the turn with fellowship, and that cheap grace is a smear while discipline and reward loss remain real.
+
+Mercy.md is being compressed to four brief bullets: show mercy, walk and reward, not price of eternal life; Paul keeps mercy and grace; grace gives, mercy spares; Free Grace lands pair on eternal life.
+
+Mercy.md will add a compact stack of forgiveness, beatitudes, judge-not, and love-neighbor or enemies. Sanctification.md should drop Fruits of Spirit detail and redundancy while keeping position versus condition. The discipleship description is being checked against the eighteen-word limit.
+
+Discipleship description is seventeen words. Assurance description is sixteen words. Both fit the limit. The grace shareable line is eight words and borderline. It may be merged with another angle. Then the densest notes will be rewritten and re-linted.
+
+The grace example is being rewritten as a lived-in scene without verse citations. Sanctification level_2 will replace "proves acceptance" with "feels like proof of acceptance" or "treated like the ticket" to avoid garden "prove" language. Loss-of-reward and related notes are already solid. Free-grace description wording is acceptable. Proceeding to execute the cuts.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Cutting bloated `key_concept` stacks to garden-voice density and fixing Anderson-adjacent phrasing.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+shareable and key_concept now match exactly. This should pass lint.
+
+Fruit may back up a claim, never grounds belonging now matches key_concept. Both instances use the (wages)/(bribe) form. The old "that would be wages" version is removed.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faith-and-works.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/assurance.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/justification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The free-grace shareable needs fixing. The key_concept now uses "(wages)" and "(bribe)", but shareable[3] likely needs to match.
+
+Free-grace shareable[2] and [3] now match key_concept. Grateful-obedience shareable is fine. Need to check if any semicolons remain in free-grace key_concept.
+
+Grateful-obedience shareable needs updating to match comma form. Discipleship card also needs fixing. The Sunk Cost Fallacy relationship can stay since its PKM mirror was removed from key_concept. Re-linting carefully for shareable_thought failures.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+Incorrect tool arguments
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/standing-vs-fellowship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing a duplicate Free Grace line in standing-vs-fellowship. Checking whether Romans 8:29 is properly placed in the key_concept section. Garden guidelines prohibit direct verse citations in relationships.
+
+EP will keep Luke as primary and treat Romans as expansion. Standing-vs-fellowship needs its duplicate line removed. Loss-of-reward needs a denser cut and redundant bullets trimmed. Christlikeness will drop the verse reference for cleaner voice. A light addition about fruit may back up is being considered.
+
+Grateful-obedience already matches key_concept punctuation. Running lint now.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/standing-vs-fellowship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Tightening density in eternal-rewards and judgment-seat.
+
+Eternal-rewards description is 18 words. Under the 20-word limit. Judgment-seat description is drafted.
+
+Judgment-seat description is 19 words. Eternal-rewards key_concept is being trimmed of redundant phrases. Judgment-seat is also being cut for PKM and redundancy.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-rewards.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: PNPM=/home/jorap/.local/share/mise/installs/pnpm/latest/pnpm
+cd /home/jorap/Documents/GitHub/jorap.com
+NOTES=(free-grace grace mercy discipleship grateful-obedience sanctification justification faith-and-works assurance repent-and-believe standing-vs-fellowship eternal-rewards loss-of-reward judgment-seat christlikeness)
+PAT=$(IFS=&#39;|&#39;; echo &#34;${NOTES[*]}&#34;)
+echo &#34;=== FRONTMATTER ===&#34;
+$PNPM exec node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg &#34;$PAT&#34; || echo clean
+echo &#34;=== FLASHCARDS ===&#34;
+$PNPM exec node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py 2&gt;&amp;1 | rg &#34;$PAT&#34; || echo clean
+echo &#34;=== GARDEN ===&#34;
+$PNPM exec node scripts/runPython.mjs scripts/voice-lint.py garden --check 2&gt;&amp;1 | rg &#34;$PAT&#34; || echo clean
+echo &#34;=== SLOP ===&#34;
+$PNPM exec node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only 2&gt;&amp;1 | rg &#34;notes/($PAT)\.md&#34; || echo clean
+echo &#34;=== SCORE ===&#34;
+for f in &#34;${NOTES[@]}&#34;; do
+  $PNPM exec node scripts/runPython.mjs scripts/voice-lint.py score &#34;content/english/notes/$f.md&#34; 2&gt;&amp;1 | tail -1
+done
+</summary>
+```bash
+PNPM=/home/jorap/.local/share/mise/installs/pnpm/latest/pnpm
+cd /home/jorap/Documents/GitHub/jorap.com
+NOTES=(free-grace grace mercy discipleship grateful-obedience sanctification justification faith-and-works assurance repent-and-believe standing-vs-fellowship eternal-rewards loss-of-reward judgment-seat christlikeness)
+PAT=$(IFS='|'; echo "${NOTES[*]}")
+echo "=== FRONTMATTER ==="
+$PNPM exec node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2>&1 | rg "$PAT" || echo clean
+echo "=== FLASHCARDS ==="
+$PNPM exec node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py 2>&1 | rg "$PAT" || echo clean
+echo "=== GARDEN ==="
+$PNPM exec node scripts/runPython.mjs scripts/voice-lint.py garden --check 2>&1 | rg "$PAT" || echo clean
+echo "=== SLOP ==="
+$PNPM exec node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only 2>&1 | rg "notes/($PAT)\.md" || echo clean
+echo "=== SCORE ==="
+for f in "${NOTES[@]}"; do
+  $PNPM exec node scripts/runPython.mjs scripts/voice-lint.py score "content/english/notes/$f.md" 2>&1 | tail -1
+done
+
+```
+
+```
+=== FRONTMATTER ===
+clean
+=== FLASHCARDS ===
+clean
+=== GARDEN ===
+clean
+=== SLOP ===
+clean
+=== SCORE ===
+free-grace.md                            words= 730 total=  6 per100w=  0.82
+grace.md                                 words= 573 total=  4 per100w=  0.70
+mercy.md                                 words= 619 total=  6 per100w=  0.97
+discipleship.md                          words= 669 total=  9 per100w=  1.35
+grateful-obedience.md                    words= 543 total=  4 per100w=  0.74
+sanctification.md                        words= 653 total=  1 per100w=  0.15
+justification.md                         words= 597 total=  3 per100w=  0.50
+faith-and-works.md                       words= 538 total=  7 per100w=  1.30
+assurance.md                             words= 523 total=  3 per100w=  0.57
+repent-and-believe.md                    words= 455 total=  1 per100w=  0.22
+standing-vs-fellowship.md                words= 522 total=  2 per100w=  0.38
+eternal-rewards.md                       words= 540 total=  3 per100w=  0.56
+loss-of-reward.md                        words= 561 total=  3 per100w=  0.53
+judgment-seat.md                         words= 558 total=  3 per100w=  0.54
+christlikeness.md                        words= 572 total=  6 per100w=  1.05
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The frontmatter for eternal-rewards looks clean, but shareable notes may have issues.
+
+Discipleship and faith-and-works scores are acceptable. Checking whether christlikeness and standing-vs-fellowship shareables still echo removed key_concept text. Grateful-obedience and repent also need verification.
+
+Mercy description word counts are fine. Free-grace shareable[3] matches its key concept exactly. Eternal-rewards shareable[1] correctly pulls from key_concept. Shareable[3] aligns after wikilink stripping. Now auditing north-star cards.
+
+Grace.md description stays within the 20-word limit. Todos are updated. Discipleship may need optional polish for high-score words or parallel structure. Loss-of-reward shareable needs checking for removed "wood hay" references.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: PNPM=/home/jorap/.local/share/mise/installs/pnpm/latest/pnpm
+cd /home/jorap/Documents/GitHub/jorap.com
+$PNPM exec node scripts/runPython.mjs scripts/audit-flashcard-north-star.py 2&gt;&amp;1 | rg &#34;free-grace|grace\.md|mercy|discipleship|grateful|sanctification|justification|faith-and-works|assurance|repent|standing|eternal-rewards|loss-of-reward|judgment-seat|christlikeness&#34; || echo north-star clean
+# description word counts
+python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import yaml, re
+notes=[&#34;free-grace&#34;,&#34;grace&#34;,&#34;mercy&#34;,&#34;discipleship&#34;,&#34;grateful-obedience&#34;,&#34;sanctification&#34;,&#34;justification&#34;,&#34;faith-and-works&#34;,&#34;assurance&#34;,&#34;repent-and-believe&#34;,&#34;standing-vs-fellowship&#34;,&#34;eternal-rewards&#34;,&#34;loss-of-reward&#34;,&#34;judgment-seat&#34;,&#34;christlikeness&#34;]
+for n in notes:
+    text=Path(f&#39;content/english/notes/{n}.md&#39;).read_text()
+    fm=text.split(&#39;---&#39;,2)[1]
+    # crude description extract
+    m=re.search(r&#39;^description:\s*&#34;(.*)&#34;\s*$&#39;, fm, re.M)
+    if not m:
+        print(n, &#39;NO DESC&#39;)
+        continue
+    d=m.group(1)
+    wc=len(d.split())
+    flag=&#39; OVER&#39; if wc&gt;20 else &#39;&#39;
+    print(f&#39;{n}: {wc}w{flag} | {d[:70]}&#39;)
+PY
+</summary>
+```bash
+PNPM=/home/jorap/.local/share/mise/installs/pnpm/latest/pnpm
+cd /home/jorap/Documents/GitHub/jorap.com
+$PNPM exec node scripts/runPython.mjs scripts/audit-flashcard-north-star.py 2>&1 | rg "free-grace|grace\.md|mercy|discipleship|grateful|sanctification|justification|faith-and-works|assurance|repent|standing|eternal-rewards|loss-of-reward|judgment-seat|christlikeness" || echo north-star clean
+# description word counts
+python3 - <<'PY'
+from pathlib import Path
+import yaml, re
+notes=["free-grace","grace","mercy","discipleship","grateful-obedience","sanctification","justification","faith-and-works","assurance","repent-and-believe","standing-vs-fellowship","eternal-rewards","loss-of-reward","judgment-seat","christlikeness"]
+for n in notes:
+    text=Path(f'content/english/notes/{n}.md').read_text()
+    fm=text.split('---',2)[1]
+    # crude description extract
+    m=re.search(r'^description:\s*"(.*)"\s*$', fm, re.M)
+    if not m:
+        print(n, 'NO DESC')
+        continue
+    d=m.group(1)
+    wc=len(d.split())
+    flag=' OVER' if wc>20 else ''
+    print(f'{n}: {wc}w{flag} | {d[:70]}')
+PY
+
+```
+
+```
+north-star clean
+free-grace: 17w | Eternal life is Christ's gift received by faith alone, not wages for c
+grace: 19w | Grace is gift never earned - salvation first, then the walk after - no
+mercy: 13w | Mercy withholds the punishment deserved and calls for the same compass
+discipleship: 18w | Discipleship is following Jesus daily - learning and doing what He sai
+grateful-obedience: 16w | Obedience flows from thanks because Christ already saved - not to buy 
+sanctification: 18w | After God declares a believer righteous, He keeps shaping habits and h
+justification: 12w | God declares the believer righteous at faith - before obedience catche
+faith-and-works: 13w | Faith alone saves; works answer grace already received, they do not bu
+assurance: 16w | Assurance is resting on Christ's finished work when doubt hits - not t
+repent-and-believe: 17w | Jesus' opening command: turn from self-rule and trust the good news th
+standing-vs-fellowship: 15w | Standing with God is settled at faith; fellowship breaks with sin and 
+eternal-rewards: 18w | Jesus promised believers the Father will repay faithful obedience afte
+loss-of-reward: 17w | A saved believer can still lose reward - worthless works burn, eternal
+judgment-seat: 20w | Believers stand before Christ after salvation to have works evaluated 
+christlikeness: 19w | God keeps reshaping believers to look and love more like Jesus - growt
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The note "Growth after faith, not the entry fee" may be a fragment.
+
+Frontmatter lint passed. The loss-of-reward note needs a light rewrite to "inactive faith may lose reward" per garden-voice. The christlikeness shareable is fragmentary but lint clean, so it may stay. Both should become complete thoughts matching their descriptions.
+
+The christlikeness shareable is complete enough. The judgment-seat description is exactly 20 words. The standing-vs-fellowship shareable should still work after removing the duplicate line. Todos are now complete.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The shareable note needs an exact match for the phrase "I do not manufacture Christlikeness to earn it," which already appears in the key concept.
+
+Shareable[3] matches the key after stripping markdown. Shareable[2] still needs its wording fixed to match the key exactly.
+
+Shareable[0] matches the description exactly. Shareable[1] omits the key phrase "it is not my old default self on display" and may fail the substring check.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: PNPM=/home/jorap/.local/share/mise/installs/pnpm/latest/pnpm
+cd /home/jorap/Documents/GitHub/jorap.com
+NOTES=(free-grace grace mercy discipleship grateful-obedience sanctification justification faith-and-works assurance repent-and-believe standing-vs-fellowship eternal-rewards loss-of-reward judgment-seat christlikeness)
+PAT=$(IFS=&#39;|&#39;; echo &#34;${NOTES[*]}&#34;)
+$PNPM exec node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg &#34;$PAT&#34; || echo frontmatter clean
+$PNPM exec node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py 2&gt;&amp;1 | rg &#34;$PAT&#34; || echo flashcards clean
+$PNPM exec node scripts/runPython.mjs scripts/voice-lint.py garden --check 2&gt;&amp;1 | rg &#34;$PAT&#34; || echo garden clean
+$PNPM exec node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only 2&gt;&amp;1 | rg &#34;notes/($PAT)\.md&#34; || echo slop clean
+</summary>
+```bash
+PNPM=/home/jorap/.local/share/mise/installs/pnpm/latest/pnpm
+cd /home/jorap/Documents/GitHub/jorap.com
+NOTES=(free-grace grace mercy discipleship grateful-obedience sanctification justification faith-and-works assurance repent-and-believe standing-vs-fellowship eternal-rewards loss-of-reward judgment-seat christlikeness)
+PAT=$(IFS='|'; echo "${NOTES[*]}")
+$PNPM exec node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2>&1 | rg "$PAT" || echo frontmatter clean
+$PNPM exec node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py 2>&1 | rg "$PAT" || echo flashcards clean
+$PNPM exec node scripts/runPython.mjs scripts/voice-lint.py garden --check 2>&1 | rg "$PAT" || echo garden clean
+$PNPM exec node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only 2>&1 | rg "notes/($PAT)\.md" || echo slop clean
+
+```
+
+```
+frontmatter clean
+flashcards clean
+garden clean
+slop clean
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Density-cut free-grace, mercy, grace key_concept stacks",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Garden-voice pass on discipleship/sanctification/others",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Anderson phrasing sweep + re-lint cluster",
+      "id": "3",
+      "status": "completed"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Density-cut free-grace, mercy, grace key_concept stacks",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Garden-voice pass on discipleship/sanctification/others",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Anderson phrasing sweep + re-lint cluster",
+      "id": "3",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I will ensure all notes follow /garden-voice and /free-grace.
+
+All 15 Free Grace notes now pass garden-voice density, Anderson doctrine, and lints.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+The Free Grace cluster (15 notes) now clears both bars: garden-voice density/plain speech, and Anderson Free Grace doctrine.
+
+**Garden-voice:** Cut overloaded `key_concept` stacks (hub dumps → tight claim + link stack), swapped “unmerited favor” meta, fixed fragmentary shareables, dropped verse-in-example and redundant PKM mirrors, glossed “emancipation” in plain words.
+
+**Free Grace:** Kept gift / no front-back strings, standing vs fellowship, promise-grounded assurance (“fruit may back up, never grounds”), works-answer-grace, repentance with fellowship, rewards ≠ destiny, lordship = dedication after freedom — no fruit-grounds or works-price language.
+
+Lint: frontmatter, flashcards, garden voice, and slop are clean across the set. Descriptions all ≤20 words; slop scores ≤1.35.
+
+## Session close
+- Fixed: Passed Free Grace cluster through garden-voice density and Anderson phrasing.
+- Encode: none
+- Open: clean

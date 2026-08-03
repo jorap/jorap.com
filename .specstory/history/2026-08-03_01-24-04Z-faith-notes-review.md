@@ -1044,4 +1044,352 @@ I need to make targeted edits to a couple of files. In `eternal-principles.md`, 
 The surgical fix is to clarify that the narrow gate itself is Christ, not a cost—the cost comes with walking the road. So I'm revising line 6 to say "the narrow gate is Christ" and moving the self-rule cost to the discipleship road. I'm also fixing line 12's reward antecedent to distinguish false professors from believers who stumble, and reframing line 16 so "few find it" because self-righteousness feels safer than trusting Christ, not because God hides the door. The level_1 and level_2 descriptions need the same doctrinal clarity—the gate is Christ himself, and trusting him is what's narrow, not the entry cost.
 
 For level_3, I'm shifting from "costs self-rule" to "Ask which road you are walking today" to keep the apply-step focused on present choice. The shareable_thought gets the same fix: "the narrow gate is Christ" instead of "costs self-rule." I'm checking that the garden-voice rules hold—shareable_thought needs exactly four complete thoughts in third-person description, and the examples about gossip and dirty play are discipleship-walk costs, not gate-entry costs.
+
+For the-wise-builder.md, I'm replacing "Real faith hears and does" with "Works answer grace" to avoid implying dead faith means never saved—that's Anderson's distinction between inactive and active faith. And I'm catching the false profession line: it shouldn't say they lose reward, since false professors were never believers to begin with.
+
+Moving to faith-and-works.md, I'm swapping "Real faith hears Jesus" for "Faith that acts builds on rock" to keep the focus on works flowing from grace rather than faith being "real." The works-follow line stays as is.
+
+Now checking abide-in-me.md where the self-powered fruit language needs attention.
+
+For eternal-principles, I'm refining line 62 to emphasize that faith saves while works are grace's answer, not heaven's price. Line 184 gets a similar treatment—faith saves first, then hearing and doing build on that foundation.
+
+After the edits, I'll run the linting checks to catch any voice or style issues.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+Applying doctrinal fixes across the four notes.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faith-and-works.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+Now the narrow-way blur: entry framed as self-rule cost, plus the reward-loss antecedent.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm checking that the narrow-way level 4 concept about professions and the moral performance salvation ticket are both solid. I found some earlier grep results pointing to files like `finish-strong.md` that aren't faith doctrine, so those are clear. Now I need to run the lint checks.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Running garden lints on the edited notes.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: pnpm lint:voice &amp;&amp; pnpm lint:slop &amp;&amp; pnpm lint:filenames</summary>
+```bash
+pnpm lint:voice && pnpm lint:slop && pnpm lint:filenames
+```
+
+```
+Command 'pnpm' not found, did you mean:
+  command 'npm' from deb npm (9.2.0~ds1-2)
+Try: apt install <deb name>
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls ~/.nvm/versions/node 2&gt;/dev/null; which node npm npx corepack 2&gt;/dev/null; ls node_modules/.bin 2&gt;/dev/null | head -20</summary>
+```bash
+ls ~/.nvm/versions/node 2>/dev/null; which node npm npx corepack 2>/dev/null; ls node_modules/.bin 2>/dev/null | head -20
+```
+
+```
+v22.23.0
+/home/jorap/.nvm/versions/node/v22.23.0/bin/node
+/home/jorap/.nvm/versions/node/v22.23.0/bin/npm
+/home/jorap/.nvm/versions/node/v22.23.0/bin/npx
+/home/jorap/.nvm/versions/node/v22.23.0/bin/corepack
+conc
+concurrently
+cssesc
+detect-libc
+jiti
+mini-svg-data-uri
+prettier
+tailwindcss
+tailwindcss-shim.mjs
+tree-kill
+ulid
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;$HOME/.nvm/versions/node/v22.23.0/bin:$PATH&#34;; node scripts/lint-voice.mjs; echo &#34;---voice exit $?&#34;; node scripts/lint-slop.mjs; echo &#34;---slop exit $?&#34;</summary>
+```bash
+export PATH="$HOME/.nvm/versions/node/v22.23.0/bin:$PATH"; node scripts/lint-voice.mjs; echo "---voice exit $?"; node scripts/lint-slop.mjs; echo "---slop exit $?"
+```
+
+```
+node:internal/modules/cjs/loader:1433
+  throw err;
+  ^
+
+Error: Cannot find module '/home/jorap/Documents/GitHub/jorap.com/scripts/lint-voice.mjs'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.23.0
+---voice exit 1
+node:internal/modules/cjs/loader:1433
+  throw err;
+  ^
+
+Error: Cannot find module '/home/jorap/Documents/GitHub/jorap.com/scripts/lint-slop.mjs'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.23.0
+---slop exit 1
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "lint:voice|lint:slop|lint:garden|slop:score"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "lint:voice|lint:slop|lint:garden|slop:score",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "package.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;$HOME/.nvm/versions/node/v22.23.0/bin:$PATH&#34;; npm run lint:garden 2&gt;&amp;1 | tail -40</summary>
+```bash
+export PATH="$HOME/.nvm/versions/node/v22.23.0/bin:$PATH"; npm run lint:garden 2>&1 | tail -40
+```
+
+```
+
+> jorap-com@2.2.0 lint:garden
+> node scripts/runPython.mjs scripts/lint-notes-frontmatter.py && node scripts/runPython.mjs scripts/normalize-notes-format.py --verify && node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py && node scripts/runPython.mjs scripts/audit-flashcard-north-star.py && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py && node scripts/runPython.mjs scripts/voice-lint.py garden --check && node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+
+Note frontmatter lint OK
+Flashcard frontmatter OK
+Flashcard north-star audit OK
+Utility wikilinks OK
+Garden voice lint OK
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+All the linting checks are passing. I'm doing a final sweep through the faith notes to catch any anti-phrases that slipped through, and I'm noticing that "real faith shows up" keeps appearing—that's the same garden-voice pattern as "works prove faith" and "fruit confirms belonging." I should add it to the free-grace skill's avoid list since it's the same class of mistake.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+All lint clean. Adding the phrase that slipped through to the skill's avoid list.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "real faith|works prove|fruit confirms|dead on inspection|costs self-rule|dead wood"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "real faith|works prove|fruit confirms|dead on inspection|costs self-rule|dead wood",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;$HOME/.nvm/versions/node/v22.23.0/bin:$PATH&#34;; npm run lint:agent-config 2&gt;&amp;1 | tail -15; git diff --stat</summary>
+```bash
+export PATH="$HOME/.nvm/versions/node/v22.23.0/bin:$PATH"; npm run lint:agent-config 2>&1 | tail -15; git diff --stat
+```
+
+```
+
+> jorap-com@2.2.0 lint:agent-config
+> node scripts/lint-agent-config.mjs
+
+agent config OK: 20 skill(s), 9 rule(s), Kilo → .cursor/skills
+ .cursor/skills/free-grace/SKILL.md          |  4 +++-
+ .specstory/statistics.json                  | 27 +++++++++++++++++++++++++++
+ content/english/notes/abide-in-me.md        |  2 +-
+ content/english/notes/eternal-principles.md |  4 ++--
+ content/english/notes/faith-and-works.md    |  2 +-
+ content/english/notes/the-narrow-way.md     | 14 +++++++-------
+ content/english/notes/the-wise-builder.md   |  4 ++--
+ data/noteFileDates.json                     | 10 +++++-----
+ 8 files changed, 48 insertions(+), 19 deletions(-)
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+All flagged spots fixed, garden lint and agent-config lint pass, no anti-phrase left in any note.
+
+**`eternal-principles.md`** — hub line now `faith alone saves, works answer the gift after`; cross-link table row now `Faith saves; hearing Jesus and doing is the build after`.
+
+**`the-narrow-way.md`** — the gate is Christ, not self-rule cost. Key concept, level_1–3, and shareable_thought reworded; cost stays on the road walked after. Fixed the reward antecedent: false professors never believed, and a stumbling believer keeps standing, risking only `[[Loss of Reward]]`.
+
+**`the-wise-builder.md`** — `Real faith hears and does` → `Works answer grace by hearing and doing`; relationship reason no longer gives a false professor reward-loss.
+
+**`faith-and-works.md`** — `Real faith hears Jesus...` → `Faith that acts builds on rock - hearing alone is sand`.
+
+**`abide-in-me.md`** — dead wood line now: self-powered fruit dries up, the Father prunes to serve fruit, never to revoke a branch's place.
+
+**Encoded** in `free-grace` skill: "real faith shows up in obedience" added to avoid list, plus rule that entry metaphors name Christ received by faith while cost and pruning belong to the walk, and reward-loss language never attaches to a false professor.
+
+## Session close
+- Fixed: five Faith notes brought into Anderson compliance — hub fruit-proof phrasing, narrow-gate entry blur, false-professor reward-loss mix-up, vine dead-wood implication.
+- Encode: `free-grace` skill garden phrasing section updated (done).
+- Open: clean — garden, slop, agent-config lints pass; no commit made.

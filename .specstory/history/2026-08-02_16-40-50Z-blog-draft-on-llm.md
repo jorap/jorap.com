@@ -1090,3 +1090,85 @@ The skill will be operational rather than essay-style. I will extract the core l
 _**Agent (auto-smart)**_
 
 Creating the project skill, cross-linking it from `llm-council` and `AGENTS.md`, then running the agent-config lint.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/six-hats/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Updating llm-council with a six-hats pointer. Updating AGENTS.md. Running lint.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/llm-council/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/AGENTS.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;/home/jorap/.nvm/versions/node/v22.23.0/bin:$PATH&#34; &amp;&amp; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node /home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/pnpm.js lint:agent-config</summary>
+```bash
+export PATH="/home/jorap/.nvm/versions/node/v22.23.0/bin:$PATH" && cd /home/jorap/Documents/GitHub/jorap.com && node /home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/pnpm.js lint:agent-config
+```
+
+```
+$ node scripts/lint-agent-config.mjs
+agent config OK: 20 skill(s), 8 rule(s), Kilo → .cursor/skills
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+A line linking the blog draft to the new skill would help users who are looking for the next step.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Updating the draft so it points at the new skill instead of saying you still want to build it.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__six-hats-one-agent.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Drafting the agent skill from the blog post.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Shipped **`six-hats`** at [`.cursor/skills/six-hats/SKILL.md`](.cursor/skills/six-hats/SKILL.md).
+
+**What it does:** one agent, forced sequence (White → Red → Black → Yellow → Green → Outsider → Executor → optional self-review → Blue). No Task subagents. Clear recommendation + one first step.
+
+**Triggers:** `hats this`, `six hats`, `wear the hats`, `one-agent council`, …
+
+**Wired up:** cross-link from `llm-council`, `AGENTS.md` routing (expensive → council, cheaper → hats), `pnpm lint:agent-config` OK. Draft closing updated to mention the skill.
+
+Try: `hats this: should I publish the six-hats blog draft?`
+
+## Session close
+- Fixed: Added `six-hats` one-agent skill and linked it from council + AGENTS.
+- Encode: none
+- Open: clean

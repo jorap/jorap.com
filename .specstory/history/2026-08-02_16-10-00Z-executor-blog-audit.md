@@ -21,3 +21,498 @@ Lean fully into your angle. Read all 27 published files yourself before judging.
 2) exactly one line per post in newest-first order: `Title — ACTION — reason`;
 3) the five highest-priority interventions ranked.
 Be direct and specific. No preamble. Do not hedge or balance; other advisors cover other angles.
+
+---
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I am acting as The Executor on the LLM Council. I will review all 27 published blog posts to deliver the requested portfolio diagnosis and prioritized intervention list.
+
+I will read the llm-council skill first. Then I will scan all 27 published posts while excluding drafts and _index.md. I will stay strictly non-editing. The diagnosis will prioritize maintainability and Monday morning action items.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+I'll review every published blog post as The Executor—maintainability and Monday-morning impact only—then give keep/revise/retire calls.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/llm-council/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg -l &#39;^draft:\s*false&#39; /home/jorap/Documents/GitHub/jorap.com/content/english/blog/ --glob &#39;*.md&#39; | sort; echo &#39;---&#39;; rg -L &#39;^draft:\s*(true|false)&#39; /home/jorap/Documents/GitHub/jorap.com/content/english/blog/ --glob &#39;*.md&#39; | head -50; echo &#39;---count---&#39;; for f in /home/jorap/Documents/GitHub/jorap.com/content/english/blog/*.md; do base=$(basename &#34;$f&#34;); [[ &#34;$base&#34; == _index.md ]] &amp;&amp; continue; [[ &#34;$base&#34; == __* ]] &amp;&amp; continue; if rg -q &#39;^draft:\s*false&#39; &#34;$f&#34; 2&gt;/dev/null; then echo &#34;PUB: $base&#34;; elif rg -q &#39;^draft:\s*true&#39; &#34;$f&#34; 2&gt;/dev/null; then echo &#34;DRAFT: $base&#34;; else echo &#34;NO-DRAFT: $base&#34;; fi; done</summary>
+```bash
+rg -l '^draft:\s*false' /home/jorap/Documents/GitHub/jorap.com/content/english/blog/ --glob '*.md' | sort; echo '---'; rg -L '^draft:\s*(true|false)' /home/jorap/Documents/GitHub/jorap.com/content/english/blog/ --glob '*.md' | head -50; echo '---count---'; for f in /home/jorap/Documents/GitHub/jorap.com/content/english/blog/*.md; do base=$(basename "$f"); [[ "$base" == _index.md ]] && continue; [[ "$base" == __* ]] && continue; if rg -q '^draft:\s*false' "$f" 2>/dev/null; then echo "PUB: $base"; elif rg -q '^draft:\s*true' "$f" 2>/dev/null; then echo "DRAFT: $base"; else echo "NO-DRAFT: $base"; fi; done
+```
+
+```
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/mouse-wheel-click.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Confirmed 27 published posts in the blog directory. The `__markdown-deep-dive` file carries a draft flag despite its `__` prefix, so it was excluded from the count.
+
+Reading all 27 posts now, sorted by frontmatter dates to establish newest-first order.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+I'll pull dates and read all 27 published posts next.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com/content/english/blog &amp;&amp; for f in alex-eala-pro-career-tracker.md consistent-ai-output-wordpress-builds.md dnpap-song-resources.md drupal-to-wordpress.md extension-cord.md facebook-favorites-feed.md getting-started-with-rss-feeds.md google-over-apple-ecosystem.md hanamikoji-duopoly-retheme.md how-i-built-jorap-notes.md hugoplate-theme-review.md instant-pot-arroz-caldo.md instant-pot-chicken-adobo.md miracle-isaiah-david.md mouse-wheel-click.md one-page-zine.md set-it-forget-it-arroz-caldo.md static-site-vs-cms.md sustainable-online-publishing.md what-i-look-for-in-wireless-earphones.md why-i-focused-on-open-source.md why-i-love-modern-board-games.md why-i-stopped-playing-marvel-snap.md why-keep-desktop-laptop.md why-my-son-loves-toca-boca-world.md why-run-your-own-website.md worship-pads-solo-guitar.md; do
+  title=$(rg -m1 &#39;^title:&#39; &#34;$f&#34; | sed &#39;s/^title:[[:space:]]*//;s/^[&#34;&#39;\&#39;&#39;]//;s/[&#34;&#39;\&#39;&#39;]$//&#39;)
+  date=$(rg -m1 &#39;^date:&#39; &#34;$f&#34; | sed &#39;s/^date:[[:space:]]*//&#39;)
+  echo &#34;$date|$title|$f&#34;
+done | sort -r</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com/content/english/blog && for f in alex-eala-pro-career-tracker.md consistent-ai-output-wordpress-builds.md dnpap-song-resources.md drupal-to-wordpress.md extension-cord.md facebook-favorites-feed.md getting-started-with-rss-feeds.md google-over-apple-ecosystem.md hanamikoji-duopoly-retheme.md how-i-built-jorap-notes.md hugoplate-theme-review.md instant-pot-arroz-caldo.md instant-pot-chicken-adobo.md miracle-isaiah-david.md mouse-wheel-click.md one-page-zine.md set-it-forget-it-arroz-caldo.md static-site-vs-cms.md sustainable-online-publishing.md what-i-look-for-in-wireless-earphones.md why-i-focused-on-open-source.md why-i-love-modern-board-games.md why-i-stopped-playing-marvel-snap.md why-keep-desktop-laptop.md why-my-son-loves-toca-boca-world.md why-run-your-own-website.md worship-pads-solo-guitar.md; do
+  title=$(rg -m1 '^title:' "$f" | sed 's/^title:[[:space:]]*//;s/^["'\'']//;s/["'\'']$//')
+  date=$(rg -m1 '^date:' "$f" | sed 's/^date:[[:space:]]*//')
+  echo "$date|$title|$f"
+done | sort -r
+```
+
+```
+"2026-08-02T05:00:00Z"|Alex Eala Pro Career Tracker|alex-eala-pro-career-tracker.md
+"2026-07-30T02:53:00Z"|Why My Son Loves Toca Boca World|why-my-son-loves-toca-boca-world.md
+"2026-07-27T10:00:00Z"|Why I Love Modern Board Games|why-i-love-modern-board-games.md
+"2026-07-26T02:51:00Z"|Why I Prefer the Google Ecosystem Over Apple|google-over-apple-ecosystem.md
+"2026-07-14T01:26:00Z"|Retheming Hanamikoji as Duopoly|hanamikoji-duopoly-retheme.md
+"2026-07-13T14:15:00Z"|One Sheet, Eight Pages: Why I Use a 1-Page Zine for Rules Booklets|one-page-zine.md
+"2026-07-11T05:04:00Z"|The Short Extension Cord in My Laptop Bag|extension-cord.md
+"2026-07-10T06:00:00Z"|Static Site or CMS? How I Pick the Stack|static-site-vs-cms.md
+"2026-07-09T06:00:00Z"|Instant Pot Arroz Caldo|instant-pot-arroz-caldo.md
+"2026-07-05T06:11:00Z"|Why I Stopped Playing Marvel Snap|why-i-stopped-playing-marvel-snap.md
+"2026-07-04T12:00:00Z"|Why I Focused on Open Source Technologies|why-i-focused-on-open-source.md
+"2026-06-12T14:58:00Z"|Sustainable Online Publishing|sustainable-online-publishing.md
+"2026-05-30T05:00:00Z"|Consistent AI Output for WordPress Builds|consistent-ai-output-wordpress-builds.md
+"2026-05-29T05:00:00Z"|HugoPlate: The Theme Quietly Powering This Site|hugoplate-theme-review.md
+"2026-05-28T05:00:00Z"|The Mouse Wheel Click: One Button, Three Operating Systems|mouse-wheel-click.md
+"2026-05-27T06:30:00Z"|Why I Switched from Drupal to WordPress|drupal-to-wordpress.md
+"2026-05-27T05:00:00Z"|What I Look For in Wireless Earphones|what-i-look-for-in-wireless-earphones.md
+"2026-05-03T23:00:00Z"|Instant Pot Chicken Adobo|instant-pot-chicken-adobo.md
+"2025-05-04T05:00:00Z"|Worship Pads for Solo Guitar: What Changed When I Finally Tried Them|worship-pads-solo-guitar.md
+"2025-03-29T05:00:00Z"|The Set It and Forget It Arroz Caldo|set-it-forget-it-arroz-caldo.md
+"2024-06-14T05:00:00Z"|How I Built JoRap Notes: After Losing PHP Hosting|how-i-built-jorap-notes.md
+"2024-03-30T05:00:00Z"|RSS Feeds - What I W
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Good progress so far. Still need to read the remaining posts.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-my-son-loves-toca-boca-world.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-love-modern-board-games.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the remaining published posts.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/mouse-wheel-click.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/worship-pads-solo-guitar.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+All 27 published posts have been reviewed.
+
+The Alex Eala Pro Career Tracker is the heaviest maintenance burden. It should be kept as a living scrapbook but needs a sustainable update cadence. Otherwise stale data creates a trust risk. This ranks as the top priority.
+
+The Washington Finals entry is incomplete; it names the match but omits the result. It should stay, yet it needs a strict rule: update only after a tournament ends, and do not expand scope. The Toca Boca World piece is fresh, personal, and low-maintenance, so it should be kept.
+
+Why I Love Modern Board Games is personal and low-maintenance. It should be kept.
+
+Google Over Apple carries dated hardware specs. It should stay for now but be revised later. It does not need a Monday update.
+
+The Hanamikoji Duopoly build log is personal-only and needs no maintenance. It should be kept.
+
+One Page Zine and Extension Cord are evergreen and practical. They should be kept.
+
+Static Site vs CMS should be kept as the decision framework. The other stack-choice posts overlap too much and need consolidation.
+
+The Instant Pot Arroz Caldo recipe should be kept.
+
+Marvel Snap is an evergreen experience snapshot. It needs no maintenance.
+
+The Open Source post should be kept. It is valuable but long. A Monday rewrite would not yield a concrete next step.
+
+Sustainable Online Publishing overlaps with why-run-your-own-website. The fastest path is to retire it and redirect readers to the philosophy post, or to condense it to three practical steps with a clear link-out.
+
+Sustainable Online Publishing is more recent than why-run-your-own-website, so it should be kept rather than retired. The faster path is to trim it to half its length, keeping only the habit-focused content. A full rewrite is unnecessary.
+
+The seven overlapping website posts form a single cluster. Consolidating them is a multi-day project. Monday morning should target one specific fix. The hugoplate-theme-review post is the largest surface and carries the deepest maintenance debt. It is the best candidate for immediate trimming or retirement.
+
+Consistent AI WordPress is strong and practical. It should be kept.
+
+Hugoplate’s massive shortcode catalog is maintenance debt with low reader connection. The demo gallery should be deleted or collapsed to a link to blog-template. The opinion and review sections can remain.
+
+Mouse Wheel Click is an evergreen tip. It should be kept.
+
+Drupal to WordPress overlaps the Open Source essay. That redundancy still needs a Monday fix.
+
+Wireless Earphones should stay, though it will need revising once the Soundpeats RunFree product dies.
+
+Instant Pot Chicken Adobo should be kept.
+
+Worship Pads is evergreen but links may rot over time. It should be kept with periodic link checks.
+
+The Set It Forget It Arroz Caldo post should stay because it serves a different appliance audience despite being superseded.
+
+How I Built JoRap Notes carries tutorial risk. Its instructions may diverge from the current repository, so it needs careful verification.
+
+How I Built JoRap Notes should be revised with a dated banner and a link to the hugoplate review, or the tutorial steps should be retired while the story remains. Five commands there need fact-checking against the current README. RSS Feeds is evergreen and should stay. Why Run Own Website should stay as the philosophy pillar. Facebook Favorites should be revised or retired because its 2024 screenshots and UI instructions face high rotation risk.
+
+Facebook Favorites should be revised rather than retired. Verify the current UI path Monday. If the instructions still work, add a disclaimer that interface changes happen frequently. If they do not, retire the post and redirect readers to the digital minimalism note instead.
+
+Miracle Isaiah David is timeless and needs only occasional age updates. It should be kept.
+
+DNPAP is a low-maintenance link archive. It should be kept.
+
+Why Keep Desktop/Laptop is still relevant but carries some dated examples. It should be kept or given a light revision.
+
+The top five Monday interventions are now ranked by executor priority.
+
+1. Facebook Favorites: verify the current UI path in ten minutes. Retire the post if the instructions no longer work.
+2. How I Built JoRap Notes: add a dated note that the stack has evolved, then correct any wrong steps such as submodule versus fork.
+3. Alex Eala tracker: finish the Washington final if it is still missing, and strictly limit updates to skill entries only.
+4. Hugoplate shortcode encyclopedia: collapse the demo gallery to one paragraph and link to the draft template.
+5. The fifth intervention is still being finalized.
+
+No post will be fully retired unless Facebook Favorites is confirmed broken. The website ownership cluster should be thinned to four hundred words or redirected, not rewritten. The Hanamikoji Duopoly idea lacks a concrete next step and should be flagged. The Alex Eala tracker risks infinite expansion, so it should stay capped.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing the final Executor response in the requested format.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+**Portfolio diagnosis:** The archive is already useful and mostly in voice. What will hurt you is maintenance and overlap—one living sports database, one UI how-to that Facebook can break overnight, one Hugo tutorial that may lie about the current repo, and five “own your site / pick a stack” posts fighting for the same SEO slot. Monday is not a voice rewrite. Monday is: verify or kill rot, stamp the tutorial, stop expanding the tracker, cut the shortcode dump.
+
+---
+
+### One line per post (newest first)
+
+Alex Eala Pro Career Tracker — KEEP — Distinctive living scrapbook with an update skill; do not expand H2H forever—update only when a tournament ends, then stop.
+
+Why My Son Loves Toca Boca World — KEEP — Fresh, personal, zero maintenance; ships as-is.
+
+Why I Love Modern Board Games — KEEP — Shelf changes slowly; strong voice, no upkeep tax.
+
+Why I Prefer the Google Ecosystem Over Apple — KEEP — Hardware names age slowly; revisit only when the kit changes, not this week.
+
+Retheming Hanamikoji as Duopoly — KEEP — Private build log, copyright fence already clear; zero public maintenance.
+
+One Sheet, Eight Pages: Why I Use a 1-Page Zine for Rules Booklets — KEEP — Evergreen craft tip; print once, done.
+
+The Short Extension Cord in My Laptop Bag — KEEP — Evergreen gear; no refresh cycle.
+
+Static Site or CMS? How I Pick the Stack — KEEP — Best decision framework in the ownership cluster; leave it as the stack post.
+
+Instant Pot Arroz Caldo — KEEP — Current recipe; low maintenance, high usefulness.
+
+Why I Stopped Playing Marvel Snap — KEEP — Quit memoir, not a live meta guide; freezes well.
+
+Why I Focused on Open Source Technologies — KEEP — Career essay earns its length; full rewrite is a multi-day trap with no Monday payoff.
+
+Sustainable Online Publishing — REVISE — Habit post that rehashes `why-run-your-own-website`; cut to domain → Git → push → share link, then stop.
+
+Consistent AI Output for WordPress Builds — KEEP — Practical, lived-in; no freshness bomb.
+
+HugoPlate: The Theme Quietly Powering This Site — REVISE — Opinion half stays; delete or collapse the live shortcode encyclopedia to “open `blog-template.md`”—that gallery is unpaid maintenance.
+
+The Mouse Wheel Click: One Button, Three Operating Systems — KEEP — Evergreen tip; zero upkeep.
+
+Why I Switched from Drupal to WordPress — KEEP — Distinct job-market story; overlaps open-source essay but doesn’t need a merge this week.
+
+What I Look For in Wireless Earphones — KEEP — Checklist ages slower than product reviews; swap the named pair only when you stop wearing it.
+
+Instant Pot Chicken Adobo — KEEP — Working recipe; leave it.
+
+Worship Pads for Solo Guitar: What Changed When I Finally Tried Them — KEEP — Still practical; quarterly link check is enough, not a rewrite.
+
+The Set It and Forget It Arroz Caldo — KEEP — Explicitly superseded, different appliance audience; keep as the rice-cooker path, don’t merge into Instant Pot.
+
+How I Built JoRap Notes: After Losing PHP Hosting — REVISE — Tutorial trust risk: add a dated “stack evolved / see HugoPlate post” banner and fix any step that no longer matches the repo (fork vs submodule, paths, versions).
+
+RSS Feeds - What I Wish I'd Done Sooner — KEEP — Evergreen habit post; Inoreader numbers can drift later, not Monday.
+
+Why I Still Run My Own Website — KEEP — Philosophy pillar; don’t retire it—thin the newer habit twin instead.
+
+Facebook's Hidden Gem: The Favorites Feed — REVISE — UI rot is the highest trust hit; verify Feeds path in 10 minutes—if wrong, RETIRE/redirect the same day.
+
+The Miracle of Isaiah David — KEEP — Archive cornerstone; age line only every couple years.
+
+DNPAP - Song Resources — KEEP — Family/worship bookmark page; check embeds only if something breaks.
+
+Why I Still Keep a Desktop or Laptop — KEEP — 2021 thesis still holds; full refresh is low impact vs UI/tutorial risk.
+
+---
+
+### Five highest-priority interventions
+
+1. **Facebook Favorites — verify or retire today.** Open app, confirm Feeds → Favorites; if menus moved, draft:true + redirect (or one-paragraph “search Favorites”) same session. Highest rot, fastest win.
+
+2. **Hugo setup tutorial — date-stamp + fact-check five steps.** Banner: “Written 2024; this site’s theme is forked in-repo now—see HugoPlate post.” Fix wrong commands only. Stops teaching a false path.
+
+3. **Alex Eala tracker — complete current hole, then freeze scope.** Finish Washington (or whatever’s incomplete), then rule: update after tournament end only; no new H2H sections Monday. Caps the biggest ongoing tax.
+
+4. **HugoPlate — cut the shortcode zoo.** Replace demo gallery with a link to draft `blog-template.md`. Same usefulness for you, less page that drifts when modules change.
+
+5. **Sustainable Online Publishing — thin to habit only.** One screen: domain, Git, push, share. Link philosophy to `why-run-your-own-website`. Don’t merge five stack posts this week—that’s a project without a Monday finish line.
+
+**Flagged: good idea, no practical next step** — “publisher should ship an official Duopoly/business retheme of Hanamikoji.” Fun, zero action for you. Ignore.

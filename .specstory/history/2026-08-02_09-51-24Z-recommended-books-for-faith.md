@@ -49,9 +49,19 @@ Parameters:
   "searchTerm": "Grace School of Theology recommended reading list faculty textbooks hermeneutics Bible study"
 }
 ```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Master of Arts in Biblical Studies MA(BS) - Grace School of Theology](https://gsot.edu/programs/mabs/)\n2. [Principles of Biblical Interpretation/Hermeneutics (Fellowship of Purpose) - Grace School of Theology](https://gsot.edu/hermeneutics-fellowship-of-purpose/)\n3. [Academic Catalog 22-23 FINAL](https://www.gsot.edu/wp-content/uploads/2022/08/Academic-Catalog-22-23-Updated.pdf)\n4. [Academic Catalog 19-20 ENG DRAFT](https://www.gsot.edu/wp-content/uploads/2019/09/Academic-Catalog-19-20-ENG.pdf)\n5. [Principles of Biblical Interpretation (Hermeneutics) - Grace School of Theology](https://gsot.edu/hermeneutics/)\n\nSynthesis:\nGrace School of Theology focuses on a literal-grammatical-historical system of biblical interpretation [1][2]. Their curriculum utilizes textbooks from scholarly authors who maintain a commitment to the Bible as divinely revealed [3][4]. While the school maintains internal course materials, they do not publish a singular, public-facing faculty-recommended reading list for all students [5][1]. For general evangelical studies, common textbooks favored in similar seminary contexts include works by Grant Osborne, J. Scott Duvall, J. Daniel Hays, and Gordon Fee for hermeneutics, as well as commentaries such as the New International Commentary series [6][7][8].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eMaster of Arts in Biblical Studies MA(BS) - Grace School of Theology\u003c/title\u003e\n\u003curl\u003ehttps://gsot.edu/programs/mabs/\u003c/url\u003e\n\u003ccontent\u003eThe Master of Arts in Biblical Studies is a 60-credit graduate program designed to provide a strong foundation in Scripture and theology. This master’s in biblical studies equips students with in-depth biblical knowledge and practical ministry skills for service in local churches, parachurch ministries, and mission organizations.\n...\nThis biblical studies master’s degree can typically be c
+… (output truncated)
+```
 User decision: **accepted**
 
-Status: **loading**
+Status: **completed**
 
 </details></tool-use>
 
@@ -107,3 +117,209 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the GSOT academic catalog for textbook recommendations. Also reviewing authors from Free Grace and Grace Theology Press linked to GSOT faculty.
+
+The user’s existing Free Grace notes and Eternal Principles align well with GSOT.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/f62c44d6-3c23-43d7-bf9c-7b39b102cf4d.txt",
+  "pattern": "textbook|required text|Hermeneutics|Zuck|Fee|Osborne|Chafer|Ryrie|Bing|Dillow|Anderson|Hodges|Radmacher|Walvoord"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/f62c44d6-3c23-43d7-bf9c-7b39b102cf4d.txt",
+  "pattern": "textbook|required text|Hermeneutics|Zuck|Fee|Osborne|Chafer|Ryrie|Bing|Dillow|Anderson|Hodges|Radmacher|Walvoord",
+  "topFiles": [
+    {
+      "matchCount": 57,
+      "uri": "../../../.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/f62c44d6-3c23-43d7-bf9c-7b39b102cf4d.txt"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 57
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Grace Theology Press recommended books Free Grace Charlie Bing Fred Chay hermeneutics"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [The Reason For Our Resources - Grace Theology Press](https://gracetheology.org/blog/the-reason-for-our-resources.html/)\n2. [Timely Resources, Timeless Grace. About Grace Theology Press](https://gracetheology.org/about/)\n3. [Grace, Salvation and Discipleship - Grace Theology Press](https://gracetheology.org/bookstore/grace-salvation-and-discipleship/)\n4. [Grace, Salvation and Discipleship - Grace Theology Press](https://gracetheology.org/blog/grace-salvation-and-discipleship.html/)\n\nSynthesis:\nGrace Theology Press provides theological resources grounded in Free Grace doctrine and biblical hermeneutics [1][2]. Charlie Bing’s book, Grace, Salvation and Discipleship, is a key recommendation for interpreting difficult New Testament passages [3][4]. It utilizes a framework called A Truth/B Truth to distinguish between passages concerning eternal salvation and those regarding the Christian life [3][4]. Additionally, Fred Chay, who serves as Managing Editor, edited A Defense of Free Grace Theology and teaches hermeneutics, emphasizing that sound interpretation is essential to maintaining the distinction between justification and discipleship [1][5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eThe Reason For Our Resources - Grace Theology Press\u003c/title\u003e\n\u003curl\u003ehttps://gracetheology.org/blog/the-reason-for-our-resources.html/\u003c/url\u003e\n\u003ccontent\u003eFirst is the foundation of “Exegesis.” The term comes from two words that mean “to lead out.” It is fundamental that we submit ourselves to the text and allow the text to speak for itself, for textual intent will give us authorial intent, which alone is inspired and inerrant for all time, never changing with the times. Exegesis involves both principles and procedures for arriving at the meaning of the text. This is coupled ever so closely with hermeneutics, which provides principles of interpretation. T
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/content`** (1 file)
+
+| File |
+|------|
+| `english/notes/free-grace.md` |
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I am checking standard L-G-H hermeneutics textbooks recommended by Free Grace scholars. Their note and eternal principles will be reviewed for alignment.
+
+Zuck’s Basic Bible Interpretation is a classic Dallas-adjacent text frequently used by Free Grace schools.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Zuck Basic Bible Interpretation Free Grace seminary textbook Roy Zuck Ryrie Basic Theology"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Basic Bible Interpretation – David C Cook](https://davidccook.org/books/basic-bible-interpretation-2/)\n2. [Basic Bible interpretation : a practical guide to discovering biblical truth : Zuck, Roy B : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/basicbibleinterp0000zuck_u2u1)\n3. [Basic Bible Interpretation - Tyndale Theological Seminary and Biblical Institute](https://tyndale.edu/product/basic-bible-interpretation/)\n4. [Basic Theology | Moody Publishers](https://www.moodypublishers.com/basic-theology)\n5. [Basic Bible Interpretation](https://books.google.com/books/about/Basic_Bible_Interpretation.html?id=kWIFAAAACAAJ)\n\nSynthesis:\nBasic Bible Interpretation by Roy B. Zuck is a foundational textbook on biblical hermeneutics that provides practical methods for understanding and applying Scripture [1][2][3]. While often used in seminary settings, such as Dallas Theological Seminary where Zuck served on faculty, it is written for both students and lay readers [1][4][5]. It is frequently associated with Charles Ryrie, whose book Basic Theology is often sold as a companion set [6][4]. Both authors are associated with a literal, dispensational approach to biblical interpretation [4][7].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eBasic Bible Interpretation – David C Cook\u003c/title\u003e\n\u003curl\u003ehttps://davidccook.org/books/basic-bible-interpretation-2/\u003c/url\u003e\n\u003ccontent\u003eBasic Bible Interpretation – David C Cook\n\n# Basic Bible Interpretation\n\n## Roy B. Zuck\n\n### Share the book!\n\nBasic Bible Interpretation lives up to its title. It deals with the basics and doesn’t confuse the reader with extraneous material. It focuses on the bible as the Word of God and handles that Word with “reverence and godly fear.” It tells us how to interpret this marvelous Book, and even gives the reader opportunity to put the prin
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+Parameters:
+
+```json
+{
+  "url": "https://gracetheology.org/blog/the-reason-for-our-resources.html/"
+}
+```
+Result:
+
+```json
+{
+  "markdown": "The Reason For Our Resources - Grace Theology Press\n\n# The Reason For Our Resources\n\nGRACE THEOLOGY PRESS is committed to providing timely theological resources that teach timeless theological truth. This involves three pillars of study.\n\nFirst is the foundation of “Exegesis.” The term comes from two words that mean “to lead out.” It is fundamental that we submit ourselves to the text and allow the text to speak for itself, for textual intent will give us authorial intent, which alone is inspired and inerrant for all time, never changing with the times. Exegesis involves both principles and procedures for arriving at the meaning of the text. This is coupled ever so closely with hermeneutics, which provides principles of interpretation. Together we arrive at the understanding and meaning of the text.\n\nSecond is “Exposition.” This is the presentation of the biblical truth gained from the sound principles of hermeneutics and the solid procedures of exegesis. It is the solid preaching and teaching of the inspired word of God.\n\nLike a farmer who grows the seed and grinds the grain, and the cook who makes the grain into bread to feed the people, so exegesis excavates the truth, while exposition explains the truth. The two must go together.\n\nFinally, truth must not be separated; it must be correlated. Analysis must always lead to synthesis. This is how the mind works and how the Bible is presented. The word of God is not a messy mass of material but a masterful message from the mind of God. This is the task of theology. The integrating of all truth allows us to prepare and present the revelation of the mind of God to the receptive mind of man through illumination, a ministry of the Holy Spirit, regarding all of life in the present and eternal life in eternity.\n\nGTP provides resources for all three of these disciplines. Let me provide some examples. Regarding exegesis, Portraits of Righteousness is both an exegetical and expositional feast of 
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I have enough context to recommend books for creating faith notes.
+
+The recommendations should cover hermeneutics, the Free Grace theological framework, and exposition models. GSOT does not publish a single public reading list for faith notes, but its catalog, editorial framing, and faculty authors provide a clear stack.
+
+The recommendations will be organized by five skill areas: text interpretation, Free Grace soteriology, exposition modeling, systematics, and optional research methods. These are inferred from GSOT curriculum and faculty priorities rather than a published syllabus.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+GSOT does not publish a “faith notes” reading list, but faculty priorities are clear from the catalog and Grace Theology Press: **literal-grammatical-historical hermeneutics → clear Free Grace distinctions → exposition that stays tied to the text**. For your Eternal Principles / Free Grace notes, that stack maps well.
+
+### 1. How to read a passage (skill: claim + verse stay honest)
+
+| Book | Why it helps faith notes |
+|------|--------------------------|
+| **Roy B. Zuck — *Basic Bible Interpretation*** | Classic L-G-H handbook: context, genre, grammar, figures, application. Closest “how to study” book to what GSOT’s TH-560 Hermeneutics is aiming at. |
+| **Charles C. Ryrie — *Basic Theology*** (or *So Great Salvation*) | Ryrie advised GSOT’s founding; plain systematic map so notes don’t blur doctrine categories. |
+
+### 2. Free Grace frame (skill: don’t mix gift and walk)
+
+These are the GTP/faculty books Fred Chay highlights as the school’s own toolkit:
+
+| Book | Author / role | Faith-note use |
+|------|---------------|----------------|
+| **Charlie Bing — *Grace, Salvation and Discipleship*** | GSOT adjunct | Best single book for notes: **A Truth / B Truth** (justification vs sanctification, gift vs reward). Stops you from writing one claim that collapses [[Free Grace]] and [[Discipleship]]. |
+| **Dave Anderson — *Free Grace Soteriology*** | GSOT president / systematic theology | Deeper exegetical backbone when a note’s `key_concept` needs more than a slogan. |
+| **Fred Chay (ed.) — *A Defense of Free Grace Theology*** | GTP managing editor | When a note sits in contested territory (assurance, perseverance language, Lordship debates). |
+| **Joseph Dillow — *Final Destiny*** | Free Grace scholarship GTP pushes | Rewards / destiny language without turning grace into wages — useful for [[Eternal Rewards]]–adjacent notes. |
+
+### 3. Models of exposition (skill: write *from* a text, not *at* it)
+
+| Book | Passage focus | Note-writing takeaway |
+|------|---------------|------------------------|
+| **Dave Anderson — *Maximum Joy*** | 1 John | Assurance notes that stay in fellowship vs relationship language. |
+| **Dave Anderson — *Bewitched*** | Galatians | Grace vs performance notes without soft-pedaling the text. |
+| **Jeremy Vance — *Companions with Christ*** | Hebrews | How to walk a hard book into plain teaching points. |
+| **Anderson / co-authors — *Portraits of Righteousness*** | Romans 5–8 | Identity-in-Christ notes with exegetical spine. |
+
+### 4. Minimum shelf for *your* garden
+
+If you only buy four for faith-note craft:
+
+1. **Zuck** — interpret before you claim  
+2. **Bing — *Grace, Salvation and Discipleship*** — keep gift/walk split in every EP note  
+3. **Anderson — *Free Grace Soteriology*** — when the claim needs depth  
+4. **Anderson — *Maximum Joy* or *Bewitched*** — one live model of verse → plain claim → life
+
+That matches how GTP describes its own work: exegesis + hermeneutics first, then exposition, then theology that correlates without mushing categories — the same order your faith notes need (`bible` shortcode → claim → lived example).
+
+Want this turned into a short “Faith note bookshelf” note under `content/english/notes/` with wikilinks to [[Free Grace]], [[Eternal Principles]], and your PKM stack?

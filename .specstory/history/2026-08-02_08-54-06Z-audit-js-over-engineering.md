@@ -404,6 +404,39 @@ _**Agent (composer-2.5-fast)**_
 ```bash
 wc -l /home/jorap/Documents/GitHub/jorap.com/assets/js/*.js /home/jorap/Documents/GitHub/jorap.com/functions/**/*.js /home/jorap/Documents/GitHub/jorap.com/scripts/*.{mjs,js} 2>/dev/null | sort -rn
 ```
+
+```
+  7679 total
+  1534 /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-graph.js
+   628 /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js
+   505 /home/jorap/Documents/GitHub/jorap.com/assets/js/search.js
+   489 /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js
+   361 /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-review.js
+   304 /home/jorap/Documents/GitHub/jorap.com/scripts/test-search.mjs
+   263 /home/jorap/Documents/GitHub/jorap.com/scripts/lint-agent-config.mjs
+   256 /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js
+   252 /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs
+   252 /home/jorap/Documents/GitHub/jorap.com/scripts/fix-tailwind-bin.js
+   250 /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-duo.js
+   230 /home/jorap/Documents/GitHub/jorap.com/scripts/cspHashes.mjs
+   194 /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-single.js
+   193 /home/jorap/Documents/GitHub/jorap.com/scripts/themeGenerator.js
+   173 /home/jorap/Documents/GitHub/jorap.com/scripts/ensureHugo.mjs
+   145 /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-list.js
+   145 /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-backlinks.js
+   137 /home/jorap/Documents/GitHub/jorap.com/assets/js/toc.js
+   131 /home/jorap/Documents/GitHub/jorap.com/functions/api/callback.js
+   126 /home/jorap/Documents/GitHub/jorap.com/assets/js/main.js
+   118 /home/jorap/Documents/GitHub/jorap.com/scripts/spawnUtil.mjs
+   112 /home/jorap/Documents/GitHub/jorap.com/assets/js/wikilink-preview.js
+    91 /home/jorap/Documents/GitHub/jorap.com/assets/js/search-core.js
+    76 /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-featured.js
+    60 /home/jorap/Documents/GitHub/jorap.com/assets/js/gallery-slider.js
+    52 /home/jorap/Documents/GitHub/jorap.com/scripts/noteFileDates.js
+    52 /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-copy-md.js
+    45 /home/jorap/Documents/GitHub/jorap.c
+… (output truncated)
+```
 </details></tool-use>
 
 _**Agent (composer-2.5-fast)**_
@@ -470,3 +503,1892 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Digging deeper into search.js duplication with search-core, randomizer offline duplication, script overlaps, and unused exports.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/previewProd.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/servePublic.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/spawnUtil.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/runPython.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/test-search.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,toml,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "plugins\\.js|\\.js\\\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "plugins\\.js|\\.js\\\"",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-graph.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/review.html"
+    },
+    {
+      "matchCount": 4,
+      "uri": "layouts/_partials/notes/random-unrelated-notes.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/blog/single.html"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/okf-viz/viz.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "themes/jorap/layouts/contact/list.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/backlinks.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/themeGenerator.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/blog/single.html"
+    },
+    {
+      "matchCount": 26,
+      "uri": "hugo.toml"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/randomizer.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/search.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/essentials/fingerprint-asset.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager/layouts/partials/gtm.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/pwa/static/service-worker.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/assets/plugins/glightbox/glightbox.js"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/cards.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/issues.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "static/admin/index.html"
+    }
+  ],
+  "totalFiles": 26,
+  "totalMatches": 76
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Scanning additional files for over-engineering patterns. Checking notes-graph canvas alternatives, duplicated search.js logic, connectionPromptTail sizing, overlapping scripts, functions middleware, and themeGenerator.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/touch-controls.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/deferred-media.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-cards.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-flashcard.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/functions/admin/_middleware.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-agent-config.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Digging into notes-graph.js, search.js renderResult, randomizer offline duplication, notes-random-core connectionPromptTail, overlapping scripts, and unused exports.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "scripts/*.{mjs,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "^export "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "^export ",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/ensureHugo.mjs"
+    },
+    {
+      "matchCount": 9,
+      "uri": "scripts/spawnUtil.mjs"
+    },
+    {
+      "matchCount": 5,
+      "uri": "scripts/lint-agent-config.mjs"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/lint-filenames.mjs"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 18
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "assets/js/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "cloneArticleBody|setSlotLoading|setSlotEmpty|renderPathChain|wireSendPromptButtons|flashButton|promptIsReady"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "cloneArticleBody|setSlotLoading|setSlotEmpty|renderPathChain|wireSendPromptButtons|flashButton|promptIsReady",
+  "topFiles": [
+    {
+      "matchCount": 23,
+      "uri": "assets/js/notes-random-core.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-random-single.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-random-duo.js"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 27
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-graph.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/deployBuild.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/clearModules.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/setupGitHooks.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+search.js duplicates filterAndSortSearchResults inside displayResult and uses an escapeHTML alias. renderResult contains a mini template engine. notes-random-select exports findInPool. randomizer.js offline logic (~150 lines) is duplicated elsewhere. gallery-slider elementIsVisibleInViewport could be replaced by the native IntersectionObserver.
+
+package.json scripts overlap: test:agent-config versus lint:agent-config, test:filenames versus lint:filenames, preview variants, and watch versus dev. search.js duplicates groupByConfiguredSections and searchIndex partially around lines 141-158. displayResult calls filterAndSortSearchResults again on already-filtered data at lines 239-243 and 294-298. notes-random-featured repeats core.pickOne logic via pickMany. connectionPromptTail is roughly 80 lines in core.
+
+Checking notes-graph for speculative abstractions. Auditing unused exports in jorapNotesRandomCore.plo.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "assets/js/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "jorapNotesRandomCore\\.|core\\.(buildAdjacency|cloneArticleBody|normalizeText|pathHopLabel|renderPathChain|flashButton|promptIsReady)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "jorapNotesRandomCore\\.|core\\.(buildAdjacency|cloneArticleBody|normalizeText|pathHopLabel|renderPathChain|flashButton|promptIsReady)",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-random-duo.js"
+    },
+    {
+      "matchCount": 3,
+      "uri": "assets/js/notes-random-single.js"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "assets/js/notes-graph.js",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "data-graph-|graphLayout|isPresentMode|presentLocal|MAX_"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "data-graph-|graphLayout|isPresentMode|presentLocal|MAX_",
+  "topFiles": [
+    {
+      "matchCount": 44,
+      "uri": "assets/js/notes-graph.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 44
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/share.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/back-to-top.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/scroll-progress.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/ai-writing-samples-check.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lintNotes.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+`cloneArticleBody` is exported but only used internally in core, making it dead code.
+
+`pathHopLabel`, `renderPathChain`, `flashButton`, and `promptIsReadreateAiHelpers` are also exported but unused externally.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "pathHopLabel|cloneArticleBody|findInPool|jorapNotesRandomSelect\\.findInPool"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "pathHopLabel|cloneArticleBody|findInPool|jorapNotesRandomSelect\\.findInPool",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-06-20_10-34-58Z-card-display-settings-for.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_10-34-58Z-card-display-settings-for-random-trio-and-duo.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-22_02-16-32Z-missing-hugo-extended-package.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_00-24-02Z-notes-layout-preference.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_15-20-18Z-notes-section-addition.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "assets/js/notes-random-select.js"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-20_03-54-22Z-git-commit-symbolic-link.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-01_15-00-26Z-random-notes-display-check.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-22_03-05-21Z-random-duo-and-shuffle-options.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_12-48-52Z-format-consistency.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-20_03-54-22Z-git-commit-symbolic-link-error.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_12-30-32Z-two-random-notes-feature.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-06-22_02-16-32Z-missing-hugo-extended-package-warning.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "assets/js/notes-random-core.js"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes.md"
+    }
+  ],
+  "totalFiles": 17,
+  "totalMatches": 51
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/wikilink-preview.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-list.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/functions/api/auth.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/functions/api/callback.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking how `notes-creator` uses `jorapNotesRandomCore` to identify thin wrappers or duplicated logic.
+
+Found dead exports in `notes-random-select`: `pathHopLabel`, `cloneArticleBody`, and `findInPool`. In `Search.js`, `escapeHTML` aliases `escapeHtml` as a thin wrapper. Section filtering duplicates `groupByConfiguredSections`. `displayResult` re-filters results three times. `renderResult` implements a ~25-line template engine instead of using DOM templates.
+
+Search.js contains an inline fallback template and `performance.now` timing that are likely speculative abstractions. `randomizer.js` duplicates roughly 70 lines of shuffle and render logic inside an `offlineHtml` string. It also exposes several one-liner mode wrappers and pulls `escapeHtml` from a global rather than importing it from `search-core`. `notes-random-select.js` is only 44 lines and could be inlined directly into its core module.
+
+`notes-random-featured` duplicates the `pickOne` loop pattern in `pickMany`.
+
+`duo` and `single` build prompts that are nearly identical (~30 lines each). Core can absorb this duplication.
+
+`equalizePanelHeights` in `duo` is a niche layout hack.
+
+`notes-graph` is 1534 lines of Pixi.js. Canvas 2D or SVG would replace it. The ~500KB dependency is speculative bloat.
+
+`gallery-slider` hand-rolls `elementIsVisibleInViewport`. Native `IntersectionObserver` replaces it. The file is mostly upstream theme copy with one `loop: true` tweak.
+
+`touch-controls` exports `jorapBindTouchClickIf` as a 3-line thin wrapper around `jorapBindTouchClick`. It also hand-rolls a 300ms debounce.
+
+`main.js` duplicates `escapeHtml` from `search-core` instead of importing it.
+
+`scroll-progress` and `back-to-top` both implement the same scroll `requestAnimationFrame` throttling. One shared listener would shrink the code.
+
+`runPython.mjs` is a 35-line thin wrapper over `spawnUtil.runPython`. `previewProd.mjs` is only 10 lines that duplicates `deployBuild` plus `servePublic`; the `local` alias is yagni. `test:agent-config` and `lint:agent-config` are redundant scripts that call the same command with different flags.
+
+`test:filenames` and `lint:filenames` duplicate each other. `watch` and `dev` both launch Hugo servers with overlapping flags. `preview` and `watch` differ only by running `themeGenerator` once versus watching it. `themeGenerator` and `noteFileDates` are repeated across `dev`, `watch`, `preview`, `deployBuild`, and `lintNotes`. `spawnUtil` duplicates `resolvePython` logic that `runPython.mjs` already handles. `cspHashes.mjs` needs a size check. `fix-tailwind-bin.js` is 252 lines. `themeGenerator` is 193 lines.
+
+`notes-review.js` is 361 lines. `search-core` slugifies with `encodeURIComponent`, which is odd but not over-engineered. Next I will inspect `notes-creator` core usage, `notes-review`, `cspHashes`, and whether search uses `searchIndexEscap`.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "assets/js/notes-creator.js",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "core\\."
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "core\\.",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "assets/js/notes-creator.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-graph.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/cspHashes.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-tailwind-bin.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "assets/js/search.js",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "searchIndex|groupByConfiguredSections"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "searchIndex|groupByConfiguredSections",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "layouts/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "search-result-item-template"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "search-result-item-template",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+search.js exports searchIndex and groupByConfiguredSections for tests, but the UI duplicates that logic manually instead of importing it.
+
+Confirmed a major shrink finding. Now checking theme partials for the search template.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "search-result-item-template"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "search-result-item-template",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/search/layouts/partials/search-page.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-14_00-54-16Z-code-improvement-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/search.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-14_00-58-57Z-explore-core-app-code.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_09-57-42Z-tag-list-row-gap-issue.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/search/assets/js/search.js"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-review.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "assets/js/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "jorapBindTouchClickIf|jorapBindTouchClick[^I]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "jorapBindTouchClickIf|jorapBindTouchClick[^I]",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-graph.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-flashcard.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-copy-md.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-review.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-random-core.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-cards.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/touch-controls.js"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/themeGenerator.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/noteFileDates.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning the audit by examining the project structure and key JavaScript files.
+
+Checking whether search logic lives in custom templates or vendor code. Tracing usage of `bindGraphControl`, `createAiHelpers`, and `wireSendPromptButtons` across files. Evaluating if `notes-random-select` can merge into core. Pixi.js appears only in `notes-graph.js` for WebGL graph rendering; Canvas 2D or SVG could replace it.
+
+Found roughly 150 lines of duplicated JavaScript inside `randomizer.js`. `search.js` duplicates about 20 lines of logic in `doSearch` and `displayResult` because it never imports `searchIndex`.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "assets/js/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "wireSendPromptButtons|connectionPromptTail|connectionPromptIntro|formatPromptNote"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "wireSendPromptButtons|connectionPromptTail|connectionPromptIntro|formatPromptNote",
+  "topFiles": [
+    {
+      "matchCount": 8,
+      "uri": "assets/js/notes-random-core.js"
+    },
+    {
+      "matchCount": 4,
+      "uri": "assets/js/notes-random-duo.js"
+    },
+    {
+      "matchCount": 5,
+      "uri": "assets/js/notes-random-single.js"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "layouts/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "search-page|search-modal"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "search-page|search-modal",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/baseof.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/essentials/header.html"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "assets/js/notes-graph.js",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "graphColorMode|typeFilter|pinchState|presentHint"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "graphColorMode|typeFilter|pinchState|presentHint",
+  "topFiles": [
+    {
+      "matchCount": 33,
+      "uri": "assets/js/notes-graph.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 33
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+notes-creator duplicates wireSendPromptButtons logic inline instead of using core.
+
+Checking search-modal partial for template.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **6** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (6 files)
+
+| File |
+|------|
+| `_vendor/github.com/gethugothemes/hugo-modules/search/layouts/partials/search-modal.html` |
+| `layouts/_partials/search-index.html` |
+| `layouts/_partials/notes/search-index-fields.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/search/layouts/partials/searchImage.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/search/layouts/partials/search-index.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/search/layouts/partials/search-page.html` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-copy-md.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/toc.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "assets/js/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "createAiHelpers"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "createAiHelpers",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-random-duo.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-creator.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-random-single.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-random-core.js"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether a template file exists for the search-modal layout.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+File not found
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "assets/js/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "flashButton|promptIsReady"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "flashButton|promptIsReady",
+  "topFiles": [
+    {
+      "matchCount": 9,
+      "uri": "assets/js/notes-random-core.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/test-search.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether search-modal is located in a theme directory.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
+
+| File |
+|------|
+| `_vendor/github.com/gethugothemes/hugo-modules/search/layouts/partials/search-modal.html` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "assets/js/notes-graph.js",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "function (wake|draw|settleLayout|initPositions)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "function (wake|draw|settleLayout|initPositions)",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "assets/js/notes-graph.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-graph.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether the search modal template in vendor partials is actually used.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/search/layouts/partials/search-modal.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "layouts/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "search-wrapper|search-page"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "search-wrapper|search-page",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+search-modal omits search-result-item-template.
+
+The fallback template in search.js is actually used. Moving it into the modal layout would eliminate the fallback entirely. This is a yagni or shrink finding. Now checking whether search-page.html is used anywhere else.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "search-page"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "search-page",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_02-28-04Z-professional-name-suggestions-for.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_17-18-55Z-button-and-link-padding.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-17_17-47-53Z-project-update-with-new-skill.md"
+    },
+    {
+      "matchCount": 26,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/search/assets/css/search.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-26_02-22-39Z-printable-letter-sheet-format.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_03-23-09Z-blog-and-notes-structure-consistency.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-06_08-19-33Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-31_22-20-40Z-explore-level-frontmatter-usage.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-28_00-07-52Z-tinacms-compatibility.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_23-20-58Z-ui-ux-review-completion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_13-21-05Z-audit-template-responsiveness.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-18_09-57-42Z-tag-list-row-gap-issue.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_05-09-23Z-hugo-version-update-to-0.163.2.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_08-15-23Z-clickable-tags-in-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_05-47-02Z-bema-search-issue.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-08_02-18-55Z-search-functionality-issue.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-09_14-18-35Z-bible-verse-shortcode-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_02-04-57Z-npm-run-watch-compatibility.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-22_02-39-52Z-impeccable-audit-discussion.md"
+    },
+    {
+      "matchCount": 26,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/search/assets/scss/search.scss"
+    }
+  ],
+  "totalFiles": 41,
+  "totalMatches": 104
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "assets/js/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "escapeRegex"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "escapeRegex",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "assets/js/search.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-backlinks.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Compiling the full ranked audit.
+
+The largest cut is replacing pixi.js with native Canvas 2D or SVG for the notes-graph force graph, saving roughly 1500 lines and removing a dependency. The next biggest cut is shrinking the duplicated offline embedded JavaScript in randomizer.js by consolidating its render and shuffle logic.
+
+search.js duplicates searchIndex and groupByConfiguredSections logic from search-core. Dropping the redundant filter in displayResult would save roughly 30–50 lines. The 80-line connectionPromptTail string in notes-random-core should become a static asset instead of being duplicated inline.
+
+buildPrompt is duplicated across notes-random-duo.js and notes-random-single.js; a single shared helper would save roughly 50 lines. Three separate escapeHtml implementations exist in main.js, search-core, and the global scope; consolidating them into one module would remove redundancy. The 44-line notes-random-select.js file should be merged into core, since it exports an API consumed only by duo and single.
+
+search.js contains a 40-line inline fallback template and mini-templater that should move to a static `#search-result-item-template` in the modal HTML. Its `performance.now` timing block and `escapeHTML` alias are dead code and can be deleted. Unused exports such as `cloneArticleBody`, `pathHopLabel`, `flashButton`, and `promptIsReady` from `jorapNotesRandomCore` should be removed.
+
+The `findInPool` export from `jorapNotesRandomSelect` is dead code and should be removed. `notes-creator` duplicates `wireSendPromptButtons` from core; it should call `core.wireSendPromptButtons` instead. A 4-line `flashButton` pattern is repeated across `notes-copy-md`, `share.js`, `createAiHelpers`, and `notes-review`; one shared helper would trim roughly 15 lines. The `gallery-slider` viewport visibility check and scroll listener should be replaced by `IntersectionObserver`.
+
+jorapBindTouchClickIf in touch-controls.js is a 5-line thin wrapper around jorapBindTouchClick; callers can bind directly without it.
+
+The hand-rolled hashSeed in notes-graph is a 1-line FNV-1a routine that could be replaced by a simpler Math.random seed derived from the node id.
+
+scroll-progress.js and back-to-top.js both implement a requestAnimationFrame scroll throttle; one shared subscriber would save roughly 15 lines.
+
+notes-list.js and notes-backlinks.js duplicate a nearly identical filter, URL, and clear pattern; overlapping logic totals about 40 lines.
+
+package.json contains three redundant script aliases: deploy duplicates build, local and preview:prod both run previewProd.mjs, and test:agent-config and lint:agent-config share the same --self-check flag. test:filenames and lint:filenames also run the same pattern.
+
+runPython.mjs is a thin wrapper that could be inlined into package.json as a node -e command, though cross-platform Python resolution still needs spawnUtil. previewProd.mjs is a 10-line wrapper that could collapse into a single package.json script, but cross-platform && chaining complicates it. The randomizer mode helpers isQuizMode, isSpectrumMode, and isPersonalMode total roughly 15 lines and should be inlined as direct col.mode checks. notes-random-featured’s pickMany can be replaced by calling pickOne repeatedly, saving about 10 lines.
+
+auth.js and callback.js each duplicate a roughly ten-line OPTIONS and CORS block. That overlap could be trimmed to one shared snippet.
+
+lintNotes.mjs is a report-only linter that always exits zero; it may be dead weight.
+
+gallery-slider.js is a 59-line file that could be replaced by a Hugo configuration change if glightbox supported upstream copy. The Fisher-Yates shuffle in notes-review is standard and not over-engineered. equalizePanelHeights in duo.js adds roughly 22 lines of niche layout logic. Replacing pixi.js with native Canvas 2D would likely preserve the same line count, so the primary gain is removing the dependency rather than reducing source.
+
+The audit also found that `dev` and `watch` scripts largely overlap, since both launch `themeGenerator watch`, `noteFileDates watch`, and `hugo:prod-server`. Dropping `dev` would eliminate redundant watchers.
+
+dev and watch intentionally differ only in Hugo server mode, so they are not duplicate scripts. Now checking whether any assets/js files are never loaded.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "layouts/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-random-core|deferred-media|touch-controls"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-random-core|deferred-media|touch-controls",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/random-duo.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/essentials/style.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/random-unrelated-notes.html"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "data-notes-featured-random|data-blog-random"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "data-notes-featured-random|data-blog-random",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_00-03-14Z-blog-output-improvement-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_02-16-32Z-missing-hugo-extended-package.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-22_02-16-32Z-missing-hugo-extended-package-warning.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-07-01_15-00-26Z-random-notes-display-check.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-06-19_14-26-19Z-exploring-connections-in-digital.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-random-featured.js"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-06-20_10-34-58Z-card-display-settings-for-random-trio-and-duo.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-19_13-13-32Z-blog-random-notes-section.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-22_03-05-21Z-random-duo-and-shuffle-options.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_01-09-33Z-bible-notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-random-single.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/featured-random-note.html"
+    }
+  ],
+  "totalFiles": 15,
+  "totalMatches": 58
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-graph.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether notes-creator loads notes-random-core.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "layouts/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-creator|notes-random-core"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-creator|notes-random-core",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/random-duo.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 4,
+      "uri": "layouts/notes/create.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/random-unrelated-notes.html"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "layouts/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-create|create\\.html"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-create|create\\.html",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+create.html loads notes-creator.js but omits notes-random-core.js. That core module is required by notes-creator.js. This is a dead dependency.
+
+notes-creator.js exits early if its core dependency is missing. That dependency is absent from hugo.toml plugins. This may be a dead feature rather than a bug.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/create.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+notes-creator.js imports jorapNotesRandomCore, yet create.html never loads notes-random-core.js. This is a correctness bug, but it may still qualify for the audit.
+
+notes-creator.js imports the full 489-line core module for just ~70 lines of AI helpers. Inlining those helpers would eliminate the oversized dependency. The next step is verifying whether random-prompt-panel.html loads the core script, since the unloaded dependency may render the entire file dead code.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-prompt-panel.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+notes-creator appears to omit loading its core module. This is likely a bug.
+
+notes-creator only needs a handful of helpers from its 489-line core module. Extracting those ~75 lines would remove over-engineering. The slop:scan, slop:score, and lint:slop scripts are distinct voice-lint modes rather than duplicates. Similar overlaps exist between garden-voice and voice scan variants.
+
+deploy and build are duplicate scripts. local and preview:prod are also duplicates. test:agent-config and lint:agent-config target the same file. test:filenames and lint:filenames target the same file. preview and watch differ by design. dev and watch differ by design. runPython.mjs is a thin wrapper.
+
+search.js repeats modal logic both inside and outside its wrapper block, inheriting structure from the upstream theme. displayResult filters search results twice in a five-line span. createAiHelpers returns flashButton and promptIsReady, yet neither export is consumed externally. connectionPromptIntro and connectionPromptTail are exported but only used internally within duo and single modules.
+
+The audit ranks eight largest cuts first.
+
+- Replace pixi.js with native Canvas 2D. Drop present, pinch, radial, and color modes. Save roughly 300–700 lines.
+- Remove the randomizer offline duplicate. Save about 150 lines.
+- Simplify search.js by using searchIndex directly and dropping redundant re-filtering. Save around 80 lines.
+- Move connectionPromptTail into a static text asset. Save about 80 lines.
+- Merge buildPrompt into a single function. Save roughly 35 lines.
+- Consolidate notes-random-select into fewer files. Save about 44 lines plus overhead.
+- Extract inline AI helpers from notes-creator to replace its 489-line core dependency.
+
+escapeHtml and scroll listener patterns could be consolidated into smaller shared utilities. notes-list and notes-backlinks duplicate roughly 30–50 lines of filter and URL logic. The functions auth/callback endpoint repeats its OPTIONS handler about eight lines per call. fix-tailwind-bin is required for a Hugo bug and should not be deleted.
+
+cspHashes, themeGenerator, and test-search are necessary and should be kept.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The audit is complete. I am now compiling the findings.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Ponytail audit — scoped JS/frontend only (`assets/js/`, `functions/`, `scripts/*.{mjs,js}`). Ranked biggest cut first.
+
+---
+
+1. `native:` PixiJS WebGL stack for wikilink graph (~1534 lines + `pixi.js` dep). Canvas 2D or SVG + simple force layout. [`assets/js/notes-graph.js`, `package.json`]
+
+2. `shrink:` Offline randomizer embeds second copy of shuffle/render/quiz logic (~150 lines inside `offlineHtml()`). Extract shared play functions or drop offline export. [`assets/js/randomizer.js` ~423–529]
+
+3. `shrink:` `search.js` reimplements section grouping/filtering instead of calling `searchIndex()` / `groupByConfiguredSections()` from `search-core.js` (~20 lines in `doSearch`, plus triple `filterAndSortSearchResults` in `displayResult`). Import and call `searchIndex()`. [`assets/js/search.js` ~141–158, ~239–243, ~294–298]
+
+4. `delete:` Hand-rolled `#{isset …}#{end}` template engine + inline fallback HTML (~40 lines) while modal layout omits `#search-result-item-template`. Put template in `search-modal.html`, render with `<template>` + `cloneNode`. [`assets/js/search.js` ~246–380; vendor modal at `_vendor/.../search-modal.html`]
+
+5. `delete:` ~80-line `connectionPromptTail()` string living in runtime JS. Static `.txt` / Hugo partial included once. [`assets/js/notes-random-core.js` ~157–236]
+
+6. `shrink:` Near-identical `buildPrompt()` in duo vs single (~25 lines each). One `buildConnectionPrompt(notes, opts)` in core. [`assets/js/notes-random-duo.js` ~61–86, `assets/js/notes-random-single.js` ~97–122]
+
+7. `yagni:` `notes-random-select.js` (44 lines) — thin pool lookup + change handler used only by duo/single. Fold into `notes-random-core.js`. [`assets/js/notes-random-select.js`]
+
+8. `yagni:` `notes-creator.js` depends on full `jorapNotesRandomCore` (~489 lines) for ~70 lines of `createAiHelpers` + duplicates `wireSendPromptButtons` inline; create page doesn't even load core. Inline AI helpers or load a tiny shared snippet only. [`assets/js/notes-creator.js` ~215–238, `layouts/notes/create.html`]
+
+9. `delete:` Search-result render timing via `performance.now()` (~10 lines) — dev curiosity, not user value. Remove `totalTime` footer. [`assets/js/search.js` ~301–320]
+
+10. `shrink:` `escapeHtml` implemented twice — `search-core.js` export + `window.jorapEscapeHtml` in `main.js`; six files use the global. One module, one import/global. [`assets/js/main.js` ~120–126, `assets/js/search-core.js` ~15–21]
+
+11. `delete:` `const escapeHTML = escapeHtml` alias. Use `escapeHtml` directly. [`assets/js/search.js` ~51]
+
+12. `delete:` Unused public exports on `jorapNotesRandomCore` (`cloneArticleBody`, `pathHopLabel`, `flashButton`, `promptIsReady` — nothing calls them outside the IIFE). Keep internal only. [`assets/js/notes-random-core.js` ~469–487]
+
+13. `delete:` Exported `findInPool` on `jorapNotesRandomSelect` — only used inside `wire()`. [`assets/js/notes-random-select.js` ~14]
+
+14. `native:` `elementIsVisibleInViewport()` + window scroll listener for gallery justify. `IntersectionObserver`. [`assets/js/gallery-slider.js` ~12–41]
+
+15. `shrink:` Duplicate rAF-throttled scroll handlers in progress bar and back-to-top (~15 lines each). One shared `onScroll(fn)`. [`assets/js/scroll-progress.js`, `assets/js/back-to-top.js`]
+
+16. `yagni:` `jorapBindTouchClickIf` — 3-line wrapper over `jorapBindTouchClick`; callers can guard themselves. [`assets/js/touch-controls.js` ~27–29]
+
+17. `shrink:` Repeated `bindTap = window.jorapBindTouchClick || fallback` in five files (~3 lines each). Always load `touch-controls.js` first or one one-liner helper. [`assets/js/notes-cards.js`, `notes-flashcard.js`, `notes-review.js`, `notes-graph.js`, `notes-random-core.js`]
+
+18. `shrink:` `notes-list.js` and `notes-backlinks.js` duplicate URL-state + filter/clear/count pattern (~40 lines overlap). Shared filter helper. [`assets/js/notes-list.js`, `assets/js/notes-backlinks.js`]
+
+19. `yagni:` Randomizer mode one-liner helpers (`isQuizMode`, `isSpectrumMode`, `isPersonalMode`, `collectionMode`). Inline `col.mode === "…"`. [`assets/js/randomizer.js` ~64–89]
+
+20. `yagni:` `pickMany()` in featured block — loop over `core.pickOne` already does the same. [`assets/js/notes-random-featured.js` ~24–37]
+
+21. `yagni:` `equalizePanelHeights()` md+ min-height hack (~22 lines). CSS grid/`align-items: stretch`. [`assets/js/notes-random-duo.js` ~105–126]
+
+22. `shrink:` Duplicate OPTIONS/CORS preamble in both OAuth handlers (~8 lines each). Shared `corsOptionsResponse()`. [`functions/api/auth.js`, `functions/api/callback.js`]
+
+23. `yagni:` `previewProd.mjs` (10 lines) only chains `deployBuild` + `servePublic`. Single `node -e` script or drop file. [`scripts/previewProd.mjs`]
+
+24. `yagni:` `runPython.mjs` (35 lines) — thin argv wrapper over `spawnUtil.runPython`. Call spawnUtil from `package.json` via one node one-liner. [`scripts/runPython.mjs`]
+
+25. `yagni:` package script `"deploy": "pnpm run build"` — alias nobody needs. [`package.json`]
+
+26. `yagni:` package scripts `"local"` and `"preview:prod"` — identical entrypoints. Keep one name. [`package.json`]
+
+27. `yagni:` `"test:agent-config"` vs `"lint:agent-config"` — same script, `--self-check` flag only. One script, document the flag. [`package.json`, `scripts/lint-agent-config.mjs`]
+
+28. `yagni:` `"test:filenames"` vs `"lint:filenames"` — same split. [`package.json`, `scripts/lint-filenames.mjs`]
+
+29. `yagni:` `parseJsonc()` hand-rolled comment stripper (~35 lines) in lint script. `jsonc-parser` is already a transitive dep, or read `kilo.jsonc` as JSON if comments removed. [`scripts/lint-agent-config.mjs` ~27–60]
+
+30. `delete:` `gallery-slider.js` (~59 lines) — upstream copy changed only for `GLightbox({ loop: true })`. Patch upstream or init in layout once. [`assets/js/gallery-slider.js`]
+
+---
+
+**Not flagged (lean or justified):** `search-core.js` split for Node tests; `spawnUtil.mjs` cross-platform spawn; `cspHashes.mjs` / `fix-tailwind-bin.js` / `deployBuild.mjs` / `ensureHugo.mjs` — boring build plumbing; `deferred-media.js`, `share.js`, `wikilink-preview.js`, `toc.js` — small and single-purpose; `functions/admin/_middleware.js` — 19 lines, no abstraction layer.
+
+---
+
+**net:** ~**600–900 lines** cuttable in scoped JS without touching the graph renderer; **~1500 lines + 1 dep (`pixi.js`)** if the graph moves to Canvas/SVG and present/pinch/radial/color modes are trimmed. **2–4 redundant `package.json` script names** mergeable.

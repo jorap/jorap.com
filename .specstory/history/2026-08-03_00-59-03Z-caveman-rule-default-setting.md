@@ -47,6 +47,17 @@ Parameters:
   "url": "https://github.com/JuliusBrussee/caveman/tree/main"
 }
 ```
+Additional data:
+
+```json
+{
+  "reviewData": {
+    "isShowingInput": false,
+    "selectedOption": "run",
+    "status": "None"
+  }
+}
+```
 Result:
 
 ````json
@@ -70,6 +81,17 @@ Parameters:
 ```json
 {
   "url": "https://raw.githubusercontent.com/JuliusBrussee/caveman/main/README.md"
+}
+```
+Additional data:
+
+```json
+{
+  "reviewData": {
+    "isShowingInput": false,
+    "selectedOption": "run",
+    "status": "None"
+  }
 }
 ```
 Result:
@@ -115,3 +137,335 @@ The caveman skill content likely resides in `uploads/main-0.md`. The actual rule
 _**Agent (auto-smart)**_
 
 Checking the uploaded doc and the repo's Cursor rule/skill source so we match upstream.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/uploads/main-0.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+Fetch timed out while retrieving content
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "JuliusBrussee caveman cursor rule SKILL.md site:github.com"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [INSTALL.md](https://github.com/JuliusBrussee/caveman/blob/main/INSTALL.md)\n2. [src/rules/caveman-activate.md at main · JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman/blob/main/src/rules/caveman-activate.md)\n3. [README.md](https://github.com/juliusbrussee/caveman/blob/main/README.md)\n4. [skills/skills/caveman at main · JuliusBrussee/skills · GitHub](https://github.com/JuliusBrussee/skills/tree/main/skills/caveman)\n5. [feat: add Cursor IDE plugin support (.cursor-plugin/plugin.json)](https://github.com/JuliusBrussee/caveman/issues/405)\n\nSynthesis:\nThe SKILL.md file for the JuliusBrussee/caveman project is the authoritative LLM-facing instruction set that defines the caveman communication behavior, including compression levels, auto-clarity rules, and mode persistence. It is located at skills/caveman/SKILL.md in the source repository and is automatically synced to agent-specific paths when you install the skill. You should edit this file directly to modify the core caveman behavior, rather than editing the synced copies found in individual agent folders like.cursor/skills/.\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eINSTALL.md\u003c/title\u003e\n\u003curl\u003ehttps://github.com/JuliusBrussee/caveman/blob/main/INSTALL.md\u003c/url\u003e\n\u003ccontent\u003e| **Cursor** | `npx skills add JuliusBrussee/caveman -a cursor` | Per-session by default; `--with-init` for an always-on rule file |\n...\nrule files in\n...\n| `--only\n...\nOne agent only. Repeatable: `--only claude --only cursor`.\n...\n| `--with-init` | Drop always-on rule files into the current repo (`.cursor/`, `.windsurf/`, `.clinerules/`, `.github/copilot-instructions.md`, `.opencode/AGENTS.md`, `AGENTS.md`) and, if OpenClaw is on the box, append the bootstrap block to `~/.openclaw/workspace/SOUL.md`. |\n...\n## Always-on rules\n...\nFor agents without a hook system (Cursor, Windsurf, Cline, Cop
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The Cursor always-on rule is located in `src/rules/caveman-activate.md`.
+
+I'll fetch the full skill content and the activate rule. I'll also check an existing alwaysApply rule and verify the `.cursor/rules/` path.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Fetching the upstream activate rule and full skill so the local rule defaults to `full`.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+Parameters:
+
+```json
+{
+  "url": "https://raw.githubusercontent.com/JuliusBrussee/caveman/main/src/rules/caveman-activate.md"
+}
+```
+Additional data:
+
+```json
+{
+  "reviewData": {
+    "isShowingInput": false,
+    "selectedOption": "run",
+    "status": "None"
+  }
+}
+```
+Result:
+
+```json
+{
+  "markdown": "Respond terse like smart caveman. All technical substance stay. Only fluff die.\n\nRules:\n- Drop: articles (a/an/the), filler (just/really/basically), pleasantries, hedging\n- Fragments OK. Short synonyms. Technical terms exact. Code unchanged.\n- Pattern: [thing] [action] [reason]. [next step].\n- Not: \"Sure! I'd be happy to help you with that.\"\n- Yes: \"Bug in auth middleware. Fix:\"\n\nSwitch level: /caveman lite|full|ultra|wenyan\nStop: \"stop caveman\" or \"normal mode\"\n\nAuto-Clarity: drop caveman for security warnings, irreversible actions, user confused. Resume after.\n\nBoundaries: code/commits/PRs written normal.\n",
+  "url": "https://raw.githubusercontent.com/JuliusBrussee/caveman/main/src/rules/caveman-activate.md"
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+Parameters:
+
+```json
+{
+  "url": "https://raw.githubusercontent.com/JuliusBrussee/caveman/main/skills/caveman/SKILL.md"
+}
+```
+Additional data:
+
+```json
+{
+  "reviewData": {
+    "isShowingInput": false,
+    "selectedOption": "run",
+    "status": "None"
+  }
+}
+```
+Result:
+
+```json
+{
+  "markdown": "---\nname: caveman\ndescription: \u003e\n Ultra-compressed communication mode. Cuts output tokens 65% (measured) by speaking like caveman\n while keeping full technical accuracy. Supports intensity levels: lite, full (default), ultra,\n wenyan-lite, wenyan-full, wenyan-ultra.\n Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\",\n \"be brief\", or invokes /caveman. Also auto-triggers when token efficiency is requested.\n---\n\nRespond terse like smart caveman. All technical substance stay. Only fluff die.\n\n## Persistence\n\nACTIVE EVERY RESPONSE. No revert after many turns. No filler drift. Still active if unsure. Off only: \"stop caveman\" / \"normal mode\".\n\nDefault: **full**. Switch: `/caveman lite|full|ultra`.\n\n## Rules\n\nDrop: articles (a/an/the), filler (just/really/basically/actually/simply), pleasantries (sure/certainly/of course/happy to), hedging. Fragments OK. Short synonyms (big not extensive, fix not \"implement a solution for\"). No tool-call narration, no decorative tables/emoji, no dumping long raw error logs unless asked — quote shortest decisive line. Standard well-known tech acronyms OK (DB/API/HTTP); never invent new abbreviations (cfg/impl/req/res/fn) — tokenizer split them same as full word: zero token saved, reader still decode. Full word cheaper AND clearer. No causal arrows (→) either — own token, save nothing. Technical terms exact. Code blocks unchanged. Errors quoted exact.\n\nPreserve user's dominant language. User write Portuguese → reply Portuguese caveman. User write Spanish → reply Spanish caveman. Compress the style, not the language. No forced English openings or status phrases. ALWAYS keep technical terms, code, API names, CLI commands, commit-type keywords (feat/fix/...), and exact error strings verbatim — unless user explicitly ask for translation.\n\nNo self-reference. Never name or announce the style. No \"caveman mode on\", \"me caveman think\", no third-person
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/rules/ponytail.mdc</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/kilo.jsonc</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "caveman"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "caveman",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/__remote-work-checklist.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-20_11-28-59Z-analyze-draft-blogs-likability.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./.specstory/history/2026-05-30_14-34-04Z-creating-reusable-acf-block-generation.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+An old history references caveman-mode.mdc.
+
+The activate.md script is too brief. A proper `.mdc` file with frontmatter is needed instead. SKILL.md already sets the default to full.
+
+Checking alignment with existing communication rules. Caveman matches direct, concise messaging. Content drafting skills like garden-voice and jorap-voice override caveman for blog and notes. Session-close and other verbose rules remain unchanged because they use required formats.
+
+After creating the rule, run `pnpm lint:agent-config` to sync agent config. The `.mdc` will use `alwaysApply: true` and pull from the full SKILL.md rather than the brief activate script. The short activate script does not explicitly set the default level to full.
+
+The rule will merge the activate script with the SKILL intensity table so switching levels works. It should stay under 500 lines and ideally under 50 lines.
+
+The rule will note that workspace boundaries still govern code, commits, and PRs. Session-close blocks remain required. The existing pointed-response preference is amplified by caveman.
+
+No conflict exists with the always-applied communication rule forbidding mentions of what will not work. The rule will be drafted in normal language; it will not be enforced during this session because agent rules may not reload mid-conversation.
+
+The rule will be written in normal English for this session, with full caveman reserved for future messages. Content drafting skills such as garden-voice and jorap-voice must keep their careful prose intact; caveman-speak in note frontmatter would ruin those voices. This repo’s content boundaries differ from the upstream code-only default.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Creating an always-on `.cursor/rules/caveman.mdc` from upstream, default intensity `full`, with repo boundaries so voice skills and session-close stay intact.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/rules/caveman.mdc</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: pnpm lint:agent-config</summary>
+```bash
+pnpm lint:agent-config
+```
+
+```
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/pnpm/11.7.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.3/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.146.5/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.150.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.155.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.157.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.158.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.2/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.3/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+Command 'pnpm' not found, did you mean:
+  command 'npm' from deb npm (9.2.0~ds1-2)
+Try: apt install <deb name>
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+pnpm is missing from the sandbox. I need to run with full permissions or locate the binary via mise.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: pnpm lint:agent-config</summary>
+```bash
+pnpm lint:agent-config
+```
+
+```
+Command 'pnpm' not found, did you mean:
+  command 'npm' from deb npm (9.2.0~ds1-2)
+Try: sudo apt install <deb name>
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Locating pnpm through mise or corepack.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: which mise; mise which pnpm; ls package.json scripts/lint*agent* 2&gt;/dev/null; grep -n &#34;lint:agent-config&#34; package.json</summary>
+```bash
+which mise; mise which pnpm; ls package.json scripts/lint*agent* 2>/dev/null; grep -n "lint:agent-config" package.json
+```
+
+```
+/home/jorap/.local/bin/mise
+/home/jorap/.local/share/mise/installs/pnpm/latest/pnpm
+package.json
+scripts/lint-agent-config.mjs
+45:    "lint:agent-config": "node scripts/lint-agent-config.mjs",
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Deciding between running the node script directly or using mise exec.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: mise exec -- pnpm lint:agent-config</summary>
+```bash
+mise exec -- pnpm lint:agent-config
+```
+
+```
+$ node scripts/lint-agent-config.mjs
+agent config OK: 20 skill(s), 9 rule(s), Kilo → .cursor/skills
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Created the caveman rule. Set its default to full. Lint passed.
+
+New sessions will apply the rule automatically. This session may need a reload to pick it up. A session close block was added because repository files were modified.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Created [`.cursor/rules/caveman.mdc`](.cursor/rules/caveman.mdc) — always-on, default **full**.
+
+- Drop fluff, keep tech exact (from [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman))
+- Switch: `/caveman lite|full|ultra|wenyan`
+- Off: `stop caveman` / `normal mode`
+- Normal prose for code/commits/PRs, voice-skill drafts, session-close
+
+`pnpm lint:agent-config` OK (9 rules). New chats pick it up; this one may need a fresh session.
+
+## Session close
+- Fixed: Added always-on caveman rule, default full.
+- Encode: none
+- Open: clean

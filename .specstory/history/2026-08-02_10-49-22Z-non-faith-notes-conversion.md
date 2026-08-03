@@ -344,3 +344,4053 @@ _**Agent (auto-smart)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-08-02_10-26-31Z-leadership-laws-violation-notes.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I need to clarify what "convert all violation notes to non-faith notes" means.
+
+Non-faith notes follow the Workplace lane format: no bible verse shortcodes or citations in frontmatter. Verses from violation notes should move to the corresponding law notes if those law notes do not already contain them. I will examine a few examples to understand the current state.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Next I'll sample a few violation notes and their paired law notes to see how faith content and verses are structured.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/low-leadership-lid.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-lid.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/title-without-influence.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-influence.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*{low-leadership-lid,title-without-influence,skipped-daily-process,steering-without-chart,leading-by-subtraction,trust-already-cracked,demanding-unearned-respect,blind-leadership-calls,toxic-magnet-pull,hand-before-heart,weak-inner-circle,hoarding-all-power,do-as-i-say,vision-without-trust,settling-for-loss,fighting-dead-momentum,activity-without-accomplishment,climb-without-cost,right-move-wrong-time,followers-without-leaders,no-successor-left}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "categories:|tags:|bible|Faith"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "categories:|tags:|bible|Faith",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/followers-without-leaders.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/hand-before-heart.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/fighting-dead-momentum.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/title-without-influence.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/steering-without-chart.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/trust-already-cracked.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/climb-without-cost.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/leading-by-subtraction.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/demanding-unearned-respect.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/no-successor-left.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/do-as-i-say.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/blind-leadership-calls.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/weak-inner-circle.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/right-move-wrong-time.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/toxic-magnet-pull.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/skipped-daily-process.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/settling-for-loss.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/low-leadership-lid.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/activity-without-accomplishment.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/hoarding-all-power.md"
+    }
+  ],
+  "totalFiles": 21,
+  "totalMatches": 63
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **8** results in **1** directory</summary>
+
+Directory: **``** (8 files)
+
+| File |
+|------|
+| `content/english/notes/leadership.md` |
+| `content/english/notes/servant-leadership.md` |
+| `content/english/notes/21-laws-of-leadership-in-the-bible.md` |
+| `content/english/notes/leadership-is-influence.md` |
+| `content/english/notes/discipleship-vs-leadership.md` |
+| `content/english/notes/low-leadership-lid.md` |
+| `content/english/notes/ethical-leadership.md` |
+| `content/english/notes/blind-leadership-calls.md` |
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+`title-without-influence.md` is already a non-faith Leadership note with no Bible verses.
+
+The remaining 20 violation notes are faith-based with Bible verses. I will convert them to non-faith Workplace/Leadership style. Verses from these notes must be added to the corresponding law notes if missing. I will check a workplace principles note for the pattern and verify the Workplace tag guidance.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/skipped-daily-process.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-process.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "law-of-*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\{\\{\u003c bible ref="
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\{\\{\u003c bible ref=",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-the-picture.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-empowerment.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-connection.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-addition.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-influence.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-the-lid.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-magnetism.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-intuition.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-victory.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-priorities.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-explosive-growth.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-buy-in.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-process.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-sacrifice.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-navigation.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-the-inner-circle.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-legacy.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-respect.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-timing.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/law-of-the-big-mo.md"
+    }
+  ],
+  "totalFiles": 21,
+  "totalMatches": 63
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in low-leadership-lid skipped-daily-process steering-without-chart leading-by-subtraction trust-already-cracked demanding-unearned-respect blind-leadership-calls toxic-magnet-pull hand-before-heart weak-inner-circle hoarding-all-power do-as-i-say vision-without-trust settling-for-loss fighting-dead-momentum activity-without-accomplishment climb-without-cost right-move-wrong-time followers-without-leaders no-successor-left; do echo &#34;=== $f ===&#34;; rg -n &#39;bible ref=|Free Grace|Faith|categories:|tags:&#39; &#34;content/english/notes/$f.md&#34;; done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in low-leadership-lid skipped-daily-process steering-without-chart leading-by-subtraction trust-already-cracked demanding-unearned-respect blind-leadership-calls toxic-magnet-pull hand-before-heart weak-inner-circle hoarding-all-power do-as-i-say vision-without-trust settling-for-loss fighting-dead-momentum activity-without-accomplishment climb-without-cost right-move-wrong-time followers-without-leaders no-successor-left; do echo "=== $f ==="; rg -n 'bible ref=|Free Grace|Faith|categories:|tags:' "content/english/notes/$f.md"; done
+```
+
+```
+=== low-leadership-lid ===
+10:  {{< bible ref="1 Kings 12:1-16" emphasize="13" >}}
+12:  - Under [[Free Grace]] this failure costs influence, fellowship, and reward potential - not the free gift of eternal life.
+17:level_5: "Repair path is [[Law of the Lid]] plus [[Servant Leadership]] - raise capacity; under [[Free Grace]] growth is discipleship fruit, not a ticket to heaven."
+37:    wikilink: "[[Free Grace]]"
+45:categories: ["Faith"]
+47:tags: ["Faith", "Leadership", "Bible", "Discipleship"]
+=== skipped-daily-process ===
+10:  {{< bible ref="1 Samuel 13:8-14" emphasize="13" >}}
+12:  - Under [[Free Grace]] this failure costs influence, fellowship, and reward potential - not the free gift of eternal life.
+17:level_5: "Return to [[Law of Process]] and [[Change Takes Repetition]] - stack reps; [[Free Grace]] already settled heaven by faith, not by grinding years."
+37:    wikilink: "[[Free Grace]]"
+45:categories: ["Faith"]
+47:tags: ["Faith", "Leadership", "Bible", "Discipleship"]
+=== steering-without-chart ===
+10:  {{< bible ref="Luke 14:28-30" emphasize="28" >}}
+12:  - Under [[Free Grace]] this failure costs influence, fellowship, and reward potential - not the free gift of eternal life.
+37:    wikilink: "[[Free Grace]]"
+45:categories: ["Faith"]
+47:tags: ["Faith", "Leadership", "Bible", "Discipleship"]
+=== leading-by-subtraction ===
+10:  {{< bible ref="Mark 10:35-45" emphasize="45" >}}
+12:  - Under [[Free Grace]] this failure costs influence, fellowship, and reward potential - not the free gift of eternal life.
+17:level_5: "Flip back to [[Law of Addition]] and [[Servant Leadership]] - serve first; under [[Free Grace]] serving answers grace, it does not buy eternal life."
+37:    wikilink: "[[Free Grace]]"
+45:categories: ["Faith"]
+47:tags: ["Faith", "Leadership", "Bible", "Discipleship"]
+=== trust-already-cracked ===
+10:  {{< bible ref="Matthew 23:25-28" emphasize="27" >}}
+12:  - Under [[Free Grace]] this failure costs influence, fellowship, and reward potential - not the 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing verse coverage across the file.
+
+Most violation verses already appear in their corresponding law notes. One exception found: 1 Samuel 13:8-14 is missing from the Process law note but exists in the Timing law note. The remaining checks are still in progress.
+
+All checked violation verses are confirmed present in their respective law notes. The review continues.
+
+Three more gaps found. Matthew 23:1-4 belongs in the Picture law note. Numbers 14:1-4 belongs in the Buy-In law note. 1 Samuel 17:10-11 belongs in the Victory law note. The Big Mo note already covers 2 Kings 13:14-19.
+
+More gaps found. Mark 10:37-40 belongs in the Sacrifice law note. Exodus 18:17-23 belongs in the Explosive Growth law note. Judges 2:7-10 belongs in the Legacy law note. The Priorities note already covers Luke 10:38-42.
+
+Overlapping ranges are handled by existing broader law note ranges. The next step is to check a workplace reference note for the conversion pattern, then read and convert the remaining violation notes.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+I'll use `title-without-influence` as the workplace template, check which violation verses are missing from their paired law notes, then convert the rest.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Map violation→law verse gaps; add missing verses to law notes",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Convert 20 faith violation notes to Leadership/workplace (non-faith)",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Align title-without-influence hub wording; lint voice/garden",
+      "id": "3",
+      "status": "pending"
+    }
+  ],
+  "success": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+# Compare violation verses vs paired law notes
+pairs = [
+(&#34;low-leadership-lid&#34;,&#34;law-of-the-lid&#34;,&#34;1 Kings 12:1-16&#34;),
+(&#34;skipped-daily-process&#34;,&#34;law-of-process&#34;,&#34;1 Samuel 13:8-14&#34;),
+(&#34;steering-without-chart&#34;,&#34;law-of-navigation&#34;,&#34;Luke 14:28-30&#34;),
+(&#34;leading-by-subtraction&#34;,&#34;law-of-addition&#34;,&#34;Mark 10:35-45&#34;),
+(&#34;trust-already-cracked&#34;,&#34;law-of-solid-ground&#34;,&#34;Matthew 23:25-28&#34;),
+(&#34;demanding-unearned-respect&#34;,&#34;law-of-respect&#34;,&#34;Daniel 5:1-6&#34;),
+(&#34;blind-leadership-calls&#34;,&#34;law-of-intuition&#34;,&#34;1 Samuel 25:10-13&#34;),
+(&#34;toxic-magnet-pull&#34;,&#34;law-of-magnetism&#34;,&#34;1 Kings 21:5-16&#34;),
+(&#34;hand-before-heart&#34;,&#34;law-of-connection&#34;,&#34;2 Samuel 15:1-6&#34;),
+(&#34;weak-inner-circle&#34;,&#34;law-of-the-inner-circle&#34;,&#34;2 Samuel 17:1-14&#34;),
+(&#34;hoarding-all-power&#34;,&#34;law-of-empowerment&#34;,&#34;Exodus 18:13-18&#34;),
+(&#34;do-as-i-say&#34;,&#34;law-of-the-picture&#34;,&#34;Matthew 23:1-4&#34;),
+(&#34;vision-without-trust&#34;,&#34;law-of-buy-in&#34;,&#34;Numbers 14:1-4&#34;),
+(&#34;settling-for-loss&#34;,&#34;law-of-victory&#34;,&#34;1 Samuel 17:10-11&#34;),
+(&#34;fighting-dead-momentum&#34;,&#34;law-of-the-big-mo&#34;,&#34;2 Kings 13:14-19&#34;),
+(&#34;activity-without-accomplishment&#34;,&#34;law-of-priorities&#34;,&#34;Luke 10:38-42&#34;),
+(&#34;climb-without-cost&#34;,&#34;law-of-sacrifice&#34;,&#34;Mark 10:37-40&#34;),
+(&#34;right-move-wrong-time&#34;,&#34;law-of-timing&#34;,&#34;1 Samuel 13:8-14&#34;),
+(&#34;followers-without-leaders&#34;,&#34;law-of-explosive-growth&#34;,&#34;Exodus 18:17-23&#34;),
+(&#34;no-successor-left&#34;,&#34;law-of-legacy&#34;,&#34;Judges 2:7-10&#34;),
+]
+import re, pathlib
+root = pathlib.Path(&#34;content/english/notes&#34;)
+
+def parse_ref(ref):
+    m = re.match(r&#39;(.+?)\s+(\d+):(\d+)(?:-(\d+))?$&#39;, ref)
+    if not m: return None
+    book, ch, a, b = m.group(1), int(m.group(2)), int(m.group(3)), m.group(4)
+    b = int(b) if b else a
+    return book, ch, a, b
+
+def covers(law_refs, vref):
+    vp = parse_ref(vref)
+    if not vp: return False
+    vb, vc, va, vb2 = vp
+    for r in law_refs:
+        # handle multi like Judges 16:1, 16:15-31
+        for part in re.split(r&#39;,\s*&#39;, r):
+            part = part.strip()
+            # book may only be on first
+            if not re.search(r&#39;[A-Za-z]&#39;, part.split(&#39;:&#39;)[0] if &#39;:&#39; in part else part):
+                # incomplete - skip complex
+                continue
+            lp = parse_ref(part) if re.match(r&#39;.+\s+\d+:&#39;, part) else None
+            if not lp:
+                # try with book from full r
+                bm = re.match(r&#39;(.+?)\s+(\d+)&#39;, r)
+                if bm and re.match(r&#39;\d+:&#39;, part):
+                    lp = parse_ref(f&#34;{bm.group(1)} {part}&#34;)
+            if not lp: continue
+            lb, lc, la, lb2 = lp
+            if lb == vb and lc == vc and la &lt;= va and lb2 &gt;= vb2:
+                return True
+            # also if law has wider same chapter span covering
+            if lb == vb and lc == vc and la &lt;= va and lb2 &gt;= vb2:
+                return True
+    return False
+
+for vnote, lnote, vref in pairs:
+    text = (root/f&#34;{lnote}.md&#34;).read_text()
+    law_refs = re.findall(r&#39;bible ref=&#34;([^&#34;]+)&#34;&#39;, text)
+    ok = covers(law_refs, vref)
+    # simpler string containment check too
+    book_ch = re.match(r&#39;(.+?\s+\d+):&#39;, vref).group(1)
+    simple = any(book_ch in r for r in law_refs)
+    status = &#34;COVERED&#34; if ok or simple else &#34;MISSING&#34;
+    print(f&#34;{status}: {vnote} → {lnote} | {vref} | law has: {law_refs}&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+# Compare violation verses vs paired law notes
+pairs = [
+("low-leadership-lid","law-of-the-lid","1 Kings 12:1-16"),
+("skipped-daily-process","law-of-process","1 Samuel 13:8-14"),
+("steering-without-chart","law-of-navigation","Luke 14:28-30"),
+("leading-by-subtraction","law-of-addition","Mark 10:35-45"),
+("trust-already-cracked","law-of-solid-ground","Matthew 23:25-28"),
+("demanding-unearned-respect","law-of-respect","Daniel 5:1-6"),
+("blind-leadership-calls","law-of-intuition","1 Samuel 25:10-13"),
+("toxic-magnet-pull","law-of-magnetism","1 Kings 21:5-16"),
+("hand-before-heart","law-of-connection","2 Samuel 15:1-6"),
+("weak-inner-circle","law-of-the-inner-circle","2 Samuel 17:1-14"),
+("hoarding-all-power","law-of-empowerment","Exodus 18:13-18"),
+("do-as-i-say","law-of-the-picture","Matthew 23:1-4"),
+("vision-without-trust","law-of-buy-in","Numbers 14:1-4"),
+("settling-for-loss","law-of-victory","1 Samuel 17:10-11"),
+("fighting-dead-momentum","law-of-the-big-mo","2 Kings 13:14-19"),
+("activity-without-accomplishment","law-of-priorities","Luke 10:38-42"),
+("climb-without-cost","law-of-sacrifice","Mark 10:37-40"),
+("right-move-wrong-time","law-of-timing","1 Samuel 13:8-14"),
+("followers-without-leaders","law-of-explosive-growth","Exodus 18:17-23"),
+("no-successor-left","law-of-legacy","Judges 2:7-10"),
+]
+import re, pathlib
+root = pathlib.Path("content/english/notes")
+
+def parse_ref(ref):
+    m = re.match(r'(.+?)\s+(\d+):(\d+)(?:-(\d+))?$', ref)
+    if not m: return None
+    book, ch, a, b = m.group(1), int(m.group(2)), int(m.group(3)), m.group(4)
+    b = int(b) if b else a
+    return book, ch, a, b
+
+def covers(law_refs, vref):
+    vp = parse_ref(vref)
+    if not vp: return False
+    vb, vc, va, vb2 = vp
+    for r in law_refs:
+        # handle multi like Judges 16:1, 16:15-31
+        for part in re.split(r',\s*', r):
+            part = part.strip()
+            # book may only be on first
+            if not re.search(r'[A-Za-z]', part.split(':')[0] if ':' in part else part):
+                # incomplete - skip complex
+                continue
+            lp = parse_ref(part) if re.match(r'.+\s+\d+:', part) else None
+            if not lp:
+                # try with book from full r
+                bm = re.match(r'(.+?)\s+(\d+)', r)
+                if bm and re.match(r'\d+:', part):
+                    lp = parse_ref(f"{bm.group(1)} {part}")
+            if not lp: continue
+            lb, lc, la, lb2 = lp
+            if lb == vb and lc == vc and la <= va and lb2 >= vb2:
+                return True
+            # also if law has wider same chapter span covering
+            if lb == vb and lc == vc and la <= va and lb2 >= vb2:
+                return True
+    return False
+
+for vnote, lnote, vref in pairs:
+    text = (root/f"{lnote}.md").read_text()
+    law_refs = re.findall(r'bible ref="([^"]+)"', text)
+    ok = covers(law_refs, vref)
+    # simpler string containment check too
+    book_ch = re.match(r'(.+?\s+\d+):', vref).group(1)
+    simple = any(book_ch in r for r in law_refs)
+    status = "COVERED" if ok or simple else "MISSING"
+    print(f"{status}: {vnote} → {lnote} | {vref} | law has: {law_refs}")
+PY
+```
+
+```
+COVERED: low-leadership-lid → law-of-the-lid | 1 Kings 12:1-16 | law has: ['Exodus 32:1-25', '1 Samuel 17:32-52', '1 Kings 12:1-20']
+MISSING: skipped-daily-process → law-of-process | 1 Samuel 13:8-14 | law has: ['Acts 7:9-19', 'Exodus 3:1-12', 'Acts 2:36-41']
+COVERED: steering-without-chart → law-of-navigation | Luke 14:28-30 | law has: ['Joshua 8:1-19', 'Nehemiah 4:7-23', 'Luke 14:28-31']
+COVERED: leading-by-subtraction → law-of-addition | Mark 10:35-45 | law has: ['Genesis 13:1-12', 'Mark 10:35-45', 'Philippians 2:1-11']
+COVERED: trust-already-cracked → law-of-solid-ground | Matthew 23:25-28 | law has: ['Proverbs 16:8-18', 'Matthew 23:1-28', '1 Peter 5:1-11']
+COVERED: demanding-unearned-respect → law-of-respect | Daniel 5:1-6 | law has: ['Judges 4:1-16', '1 Samuel 20:1-31', 'Daniel 5:1-30']
+COVERED: blind-leadership-calls → law-of-intuition | 1 Samuel 25:10-13 | law has: ['1 Samuel 25:2-35', '1 Kings 3:16-28', 'Acts 9:19-30']
+COVERED: toxic-magnet-pull → law-of-magnetism | 1 Kings 21:5-16 | law has: ['Numbers 27:15-23', '1 Chronicles 11:10-25', '1 Kings 21:1-16']
+COVERED: hand-before-heart → law-of-connection | 2 Samuel 15:1-6 | law has: ['Genesis 32:3-12', '2 Samuel 15:1-13', 'Philemon 1:1-21']
+COVERED: weak-inner-circle → law-of-the-inner-circle | 2 Samuel 17:1-14 | law has: ['Genesis 24:1-27', '2 Samuel 17:1-16', '2 Samuel 12:1-13']
+COVERED: hoarding-all-power → law-of-empowerment | Exodus 18:13-18 | law has: ['Exodus 18:13-26', 'Ezra 7:11-28', 'Matthew 10:1-33']
+MISSING: do-as-i-say → law-of-the-picture | Matthew 23:1-4 | law has: ['2 Kings 23:1-16', 'John 13:1-17', '1 Corinthians 4:9-17']
+MISSING: vision-without-trust → law-of-buy-in | Numbers 14:1-4 | law has: ['Judges 7:2-25', 'Nehemiah 2:1-18', 'Hebrews 3:1-15']
+MISSING: settling-for-loss → law-of-victory | 1 Samuel 17:10-11 | law has: ['Judges 16:1, 16:15-31', '1 Samuel 14:1-23', 'Mark 2:1-12']
+COVERED: fighting-dead-momentum → law-of-the-big-mo | 2 Kings 13:14-19 | law has: ['Deuteronomy 2:24-37', '2 Kin
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ethical-leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md",
+  "pattern": "Workplace|categories: \\[\\\"Leadership\\\"\\]|tags: \\[\\\"Leadership\\\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md",
+  "pattern": "Workplace|categories: \\[\\\"Leadership\\\"\\]|tags: \\[\\\"Leadership\\\"",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "content/english/notes/workplace-principles.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steering-without-chart.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/no-successor-left.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Missing verses must be added to seven law notes.
+
+Twenty violation notes will be converted to non-faith Leadership entries. They will use workplace tags and lose all Bible shortcodes, Free Grace framing, and Discipleship labels. The hub will link to the 21 Laws without faith-based wording. Examples will be secularized.
+
+A script will handle the batch conversion. Each law note contains exactly three biblical cases. The missing violation verse may replace one existing case or become a fourth.
+
+Saul’s impatience in 1 Samuel 13 will serve as the fourth case for the Law of Process. Matthew 23:1–4 will be added as the fourth case for the Law of the Picture.
+
+Numbers 14:1–4 will be added to the Law of Buy-In. 1 Samuel 17:10–11 will be added to the Law of Victory. Mark 10:37–40 will be added to the Law of Sacrifice. Exodus 18:17–23 will be added to the Law of Explosive Growth. Judges 2:7–10 will be added to the Law of Legacy.
+
+A Python script will automate the systematic conversion of violation notes. The template strips all Bible shortcodes and Free Grace framing while preserving the core leadership concept. Verses will be added to the law notes manually afterward.
+
+The conversion template specifies two workplace scenes in examples and four name-free shareable thoughts. Relationships will link to the violated law, the 21 Laws hub, and leadership categories while omitting Free Grace and Discipleship labels. The title-without-influence note omits the hub phrase from key_concept but retains the relationship link.
+
+The hub line will remain as a cross-link to the 21 Laws, but Free Grace and Bible framing will be removed. All twenty violation notes must be read fully before conversion.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Reading the remaining violation notes and the law notes that need verses, then converting in batch.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in leading-by-subtraction trust-already-cracked demanding-unearned-respect blind-leadership-calls toxic-magnet-pull hand-before-heart weak-inner-circle hoarding-all-power do-as-i-say vision-without-trust settling-for-loss fighting-dead-momentum activity-without-accomplishment climb-without-cost right-move-wrong-time followers-without-leaders; do echo &#34;######## $f&#34;; cat &#34;content/english/notes/$f.md&#34;; echo; done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in leading-by-subtraction trust-already-cracked demanding-unearned-respect blind-leadership-calls toxic-magnet-pull hand-before-heart weak-inner-circle hoarding-all-power do-as-i-say vision-without-trust settling-for-loss fighting-dead-momentum activity-without-accomplishment climb-without-cost right-move-wrong-time followers-without-leaders; do echo "######## $f"; cat "content/english/notes/$f.md"; echo; done
+```
+
+```
+######## leading-by-subtraction
+---
+title: "Leading by Subtraction"
+meta_title: "Leading by Subtraction - Grabbing Value Instead of Adding It"
+description: "Leading by subtraction grabs credit and advantage - the team shrinks while the leader looks bigger."
+key_concept: |
+  - Grab the advantage and you subtract trust - addition is service, not a throne grab.
+  - Failure mode of [[Law of Addition]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  
+  {{< bible ref="Mark 10:35-45" emphasize="45" >}}
+  - James and John asked for thrones; Jesus named the cup of service - greatness adds by giving, not by seating.
+  - Under [[Free Grace]] this failure costs influence, fellowship, and reward potential - not the free gift of eternal life.
+level_1: "Leading by subtraction means taking advantage and credit so the team ends smaller."
+level_2: "Like claiming the best seat at the table, the grab looks like winning and costs followership."
+level_3: "Before the next promotion fight, name one cost you can absorb so someone else wins visibly."
+level_4: "Throne requests without towels are subtraction dressed as ambition - the Son of Man came to serve."
+level_5: "Flip back to [[Law of Addition]] and [[Servant Leadership]] - serve first; under [[Free Grace]] serving answers grace, it does not buy eternal life."
+examples:
+  - "I kept the easier shift and watched trust drop - subtraction looked like self-care on my calendar."
+  - "James and John wanted seats of honor - Jesus pointed at the servant cup."
+shareable_thought:
+  - "Leading by subtraction grabs credit and advantage - the team shrinks while the leader looks bigger."
+  - "Grab the advantage and you subtract trust - addition is service, not a throne grab."
+  - "Before the next promotion fight, name one cost you can absorb so someone else wins visibly."
+  - "Throne requests without towels are subtraction dressed as ambition - the
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-process.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-picture.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-buy-in.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-victory.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-sacrifice.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-explosive-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-legacy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+A Python script will convert all violation notes to non-faith notes. Verses will be added to the law note if missing.
+
+Missing verses will be added to the seven law notes. All twenty faith violation notes will be rewritten in workplace and leadership style. The remaining notes still need to be read.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/7d29276d-036e-48c3-9933-601202b519aa.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+A Python script will handle the structural conversion programmatically. Faith-specific content fields will be rewritten carefully.
+
+The script will strip Bible shortcodes and verse glosses from key_concept fields. Workplace equivalents will replace Bible character references in examples and shareable sections. Free Grace and Discipleship relationships will be replaced with Leadership, Servant Leadership, and Ethical Leadership concepts. Categories and tags will be updated accordingly. Hub lines will retain links without emphasizing Bible as faith.
+
+Repair paths will reference [[Servant Leadership]] and [[Leadership]] rather than Free Grace. Missing verses will be added to law notes as fourth bible cases, with glosses adapted to law note style. All 20 converted notes will be written out carefully by the script.
+
+Each shareable_thought line must echo the description, key_concept, and level wording. A comprehensive conversion script will enforce this lint rule.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+I'll add the seven missing verses to the law notes, then convert all twenty faith violation notes to the Leadership/workplace pattern.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+from pathlib import Path
+
+notes = Path(&#34;content/english/notes&#34;)
+
+# --- 1) Add missing verses to law notes ---
+verse_additions = {
+    &#34;law-of-process.md&#34;: (
+        &#39;  {{&lt; bible ref=&#34;Acts 2:36-41&#34; &gt;}}\n  - **It Took Time for Peter to Live Up to His Name** - Rock confession, courtyard denial, then three thousand baptized. The name fit after the climb - process, not instant polish.\n&#39;,
+        &#39;  {{&lt; bible ref=&#34;Acts 2:36-41&#34; &gt;}}\n  - **It Took Time for Peter to Live Up to His Name** - Rock confession, courtyard denial, then three thousand baptized. The name fit after the climb - process, not instant polish.\n  {{&lt; bible ref=&#34;1 Samuel 13:8-14&#34; &gt;}}\n  - **Saul Skipped the Wait** - Would not wait for Samuel; grabbed the priestly act under pressure. Microwaved urgency cost the lasting kingdom - process skipped for the stage.\n&#39;,
+    ),
+    &#34;law-of-the-picture.md&#34;: (
+        &#39;  {{&lt; bible ref=&#34;1 Corinthians 4:9-17&#34; &gt;}}\n  - **The Higher the Leader, the More Important the Example** - Paul said imitate me - apostles set the visible pattern. Higher seat means louder example.\n&#39;,
+        &#39;  {{&lt; bible ref=&#34;1 Corinthians 4:9-17&#34; &gt;}}\n  - **The Higher the Leader, the More Important the Example** - Paul said imitate me - apostles set the visible pattern. Higher seat means louder example.\n  {{&lt; bible ref=&#34;Matthew 23:1-4&#34; &gt;}}\n  - **Do As I Say, Not As I Do** - Pharisees piled heavy loads they would not lift. Mouth taught what feet refused - the team copies the picture, not the slogan.\n&#39;,
+    ),
+    &#34;law-of-buy-in.md&#34;: (
+        &#39;  {{&lt; bible ref=&#34;Hebrews 3:1-15&#34; &gt;}}\n  - **Remaining Confident in Christ** - Fix eyes on Christ; do not harden hearts like the wilderness generation. Buy-in to the Leader comes before endurance on the road.\n&#39;,
+        &#39;  {{&lt; bible ref=&#34;Hebrews 3:1-15&#34; &gt;}}\n  - **Remaining Confident in Christ** - Fix eyes on Christ; do not harden hearts like the wilderness generation. Buy-in to the Leader comes before endurance on the road.\n  {{&lt; bible ref=&#34;Numbers 14:1-4&#34; &gt;}}\n  - **Vision Without a Trusted Guide** - Israel wept and named a new captain back to Egypt. They rejected the leaders before they rejected the land - no buy-in, no march.\n&#39;,
+    ),
+    &#34;law-of-victory.md&#34;: (
+        &#39;  {{&lt; bible ref=&#34;Mark 2:1-12&#34; &gt;}}\n  - **Finding a Way** - Four friends tore the roof when the door failed. Victory is the path you invent so the team reaches what matters.\n&#39;,
+        &#39;  {{&lt; bible ref=&#34;Mark 2:1-12&#34; &gt;}}\n  - **Finding a Way** - Four friends tore the roof when the door failed. Victory is the path you invent so the team reaches what matters.\n  {{&lt; bible ref=&#34;1 Samuel 17:10-11&#34; &gt;}}\n  - **Settling for Loss** - Goliath taunted; Saul and Israel were dismayed and greatly afraid. Early acceptance of defeat became the camp\&#39;s culture until someone found a way.\n&#39;,
+    ),
+    &#34;law-of-sacrifice.md&#34;: (
+        &#39;  {{&lt; bible ref=&#34;1 Timothy 3:1-10&#34; &gt;}}\n  - **Setting the Bar for Leadership** - Overseer qualifications - desire is noble, standard is costly. Leadership climbs by what you surrender, not what you grab.\n&#39;,
+        &#39;  {{&lt; bible ref=&#34;1 Timothy 3:1-10&#34; &gt;}}\n  - **Setting the Bar for Leadership** - Overseer qualifications - desire is noble, standard is costly. Leadership climbs by what you surrender, not what you grab.\n  {{&lt; bible ref=&#34;Mark 10:37-40&#34; &gt;}}\n  - **Climb Without the Cup** - James and John asked for seats of honor; Jesus named the cup and baptism of suffering. Wanting up without giving up hits the toll booth.\n&#39;,
+    ),
+    &#34;law-of-explosive-growth.md&#34;: (
+        &#39;  {{&lt; bible ref=&#34;2 Timothy 2:1-2&#34; &gt;}}\n  - **Paul\&#39;s Strategy for Growth** - Entrust truth to faithful people who will teach others also. Explosive growth is four generations deep, not one star.\n&#39;,
+        &#39;  {{&lt; bible ref=&#34;2 Timothy 2:1-2&#34; &gt;}}\n  - **Paul\&#39;s Strategy for Growth** - Entrust truth to faithful people who will teach others also. Explosive growth is four generations deep, not one star.\n  {{&lt; bible ref=&#34;Exodus 18:17-23&#34; &gt;}}\n  - **Jethro: Appoint Leaders** - Moses heard he would wear out alone; Jethro said appoint able men over thousands and tens. Addition of followers stalls; multiplication needs leaders who lead.\n&#39;,
+    ),
+    &#34;law-of-legacy.md&#34;: (
+        &#39;  {{&lt; bible ref=&#34;Matthew 28:16-20&#34; &gt;}}\n  - **Jesus\&#39; Plan of Succession** - Chose twelve after prayer; Great Commission extends to every generation. A leader\&#39;s lasting value is disciples who make disciples.\n&#39;,
+        &#39;  {{&lt; bible ref=&#34;Matthew 28:16-20&#34; &gt;}}\n  - **Jesus\&#39; Plan of Succession** - Chose twelve after prayer; Great Commission extends to every generation. A leader\&#39;s lasting value is disciples who make disciples.\n  {{&lt; bible ref=&#34;Judges 2:7-10&#34; &gt;}}\n  - **No Successor Left** - After Joshua\&#39;s generation, another arose that did not know the Lord or the work He had done. Lasting value dies when succession is never transferred.\n&#39;,
+    ),
+}
+
+for fname, (old, new) in verse_additions.items():
+    p = notes / fname
+    text = p.read_text()
+    if old not in text:
+        raise SystemExit(f&#34;anchor missing in {fname}&#34;)
+    if &#39;bible ref=&#34;&#39; in new.split(old)[-1] if False else False:
+        pass
+    # skip if already added
+    added_ref = {
+        &#34;law-of-process.md&#34;: &#34;1 Samuel 13:8-14&#34;,
+        &#34;law-of-the-picture.md&#34;: &#34;Matthew 23:1-4&#34;,
+        &#34;law-of-buy-in.md&#34;: &#34;Numbers 14:1-4&#34;,
+        &#34;law-of-victory.md&#34;: &#34;1 Samuel 17:10-11&#34;,
+        &#34;law-of-sacrifice.md&#34;: &#34;Mark 10:37-40&#34;,
+        &#34;law-of-explosive-growth.md&#34;: &#34;Exodus 18:17-23&#34;,
+        &#34;law-of-legacy.md&#34;: &#34;Judges 2:7-10&#34;,
+    }[fname]
+    if f&#39;ref=&#34;{added_ref}&#34;&#39; in text:
+        print(f&#34;skip verse (already): {fname}&#34;)
+        continue
+    p.write_text(text.replace(old, new, 1))
+    print(f&#34;added verse: {fname} -&gt; {added_ref}&#34;)
+
+print(&#34;verse pass done&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+from pathlib import Path
+
+notes = Path("content/english/notes")
+
+# --- 1) Add missing verses to law notes ---
+verse_additions = {
+    "law-of-process.md": (
+        '  {{< bible ref="Acts 2:36-41" >}}\n  - **It Took Time for Peter to Live Up to His Name** - Rock confession, courtyard denial, then three thousand baptized. The name fit after the climb - process, not instant polish.\n',
+        '  {{< bible ref="Acts 2:36-41" >}}\n  - **It Took Time for Peter to Live Up to His Name** - Rock confession, courtyard denial, then three thousand baptized. The name fit after the climb - process, not instant polish.\n  {{< bible ref="1 Samuel 13:8-14" >}}\n  - **Saul Skipped the Wait** - Would not wait for Samuel; grabbed the priestly act under pressure. Microwaved urgency cost the lasting kingdom - process skipped for the stage.\n',
+    ),
+    "law-of-the-picture.md": (
+        '  {{< bible ref="1 Corinthians 4:9-17" >}}\n  - **The Higher the Leader, the More Important the Example** - Paul said imitate me - apostles set the visible pattern. Higher seat means louder example.\n',
+        '  {{< bible ref="1 Corinthians 4:9-17" >}}\n  - **The Higher the Leader, the More Important the Example** - Paul said imitate me - apostles set the visible pattern. Higher seat means louder example.\n  {{< bible ref="Matthew 23:1-4" >}}\n  - **Do As I Say, Not As I Do** - Pharisees piled heavy loads they would not lift. Mouth taught what feet refused - the team copies the picture, not the slogan.\n',
+    ),
+    "law-of-buy-in.md": (
+        '  {{< bible ref="Hebrews 3:1-15" >}}\n  - **Remaining Confident in Christ** - Fix eyes on Christ; do not harden hearts like the wilderness generation. Buy-in to the Leader comes before endurance on the road.\n',
+        '  {{< bible ref="Hebrews 3:1-15" >}}\n  - **Remaining Confident in Christ** - Fix eyes on Christ; do not harden hearts like the wilderness generation. Buy-in to the Leader comes before endurance on the road.\n  {{< bible ref="Numbers 14:1-4" >}}\n  - **Vision Without a Trusted Guide** - Israel wept and named a new captain back to Egypt. They rejected the leaders before they rejected the land - no buy-in, no march.\n',
+    ),
+    "law-of-victory.md": (
+        '  {{< bible ref="Mark 2:1-12" >}}\n  - **Finding a Way** - Four friends tore the roof when the door failed. Victory is the path you invent so the team reaches what matters.\n',
+        '  {{< bible ref="Mark 2:1-12" >}}\n  - **Finding a Way** - Four friends tore the roof when the door failed. Victory is the path you invent so the team reaches what matters.\n  {{< bible ref="1 Samuel 17:10-11" >}}\n  - **Settling for Loss** - Goliath taunted; Saul and Israel were dismayed and greatly afraid. Early acceptance of defeat became the camp\'s culture until someone found a way.\n',
+    ),
+    "law-of-sacrifice.md": (
+        '  {{< bible ref="1 Timothy 3:1-10" >}}\n  - **Setting the Bar for Leadership** - Overseer qualifications - desire is noble, standard is costly. Leadership climbs by what you surrender, not what you grab.\n',
+        '  {{< bible ref="1 Timothy 3:1-10" >}}\n  - **Setting the Bar for Leadership** - Overseer qualifications - desire is noble, standard is costly. Leadership climbs by what you surrender, not what you grab.\n  {{< bible ref="Mark 10:37-40" >}}\n  - **Climb Without the Cup** - James and John asked for seats of honor; Jesus named the cup and baptism of suffering. Wanting up without giving up hits the toll booth.\n',
+    ),
+    "law-of-explosive-growth.md": (
+        '  {{< bible ref="2 Timothy 2:1-2" >}}\n  - **Paul\'s Strategy for Growth** - Entrust truth to faithful people who will teach others also. Explosive growth is four generations deep, not one star.\n',
+        '  {{< bible ref="2 Timothy 2:1-2" >}}\n  - **Paul\'s Strategy for Growth** - Entrust truth to faithful people who will teach others also. Explosive growth is four generations deep, not one star.\n  {{< bible ref="Exodus 18:17-23" >}}\n  - **Jethro: Appoint Leaders** - Moses heard he would wear out alone; Jethro said appoint able men over thousands and tens. Addition of followers stalls; multiplication needs leaders who lead.\n',
+    ),
+    "law-of-legacy.md": (
+        '  {{< bible ref="Matthew 28:16-20" >}}\n  - **Jesus\' Plan of Succession** - Chose twelve after prayer; Great Commission extends to every generation. A leader\'s lasting value is disciples who make disciples.\n',
+        '  {{< bible ref="Matthew 28:16-20" >}}\n  - **Jesus\' Plan of Succession** - Chose twelve after prayer; Great Commission extends to every generation. A leader\'s lasting value is disciples who make disciples.\n  {{< bible ref="Judges 2:7-10" >}}\n  - **No Successor Left** - After Joshua\'s generation, another arose that did not know the Lord or the work He had done. Lasting value dies when succession is never transferred.\n',
+    ),
+}
+
+for fname, (old, new) in verse_additions.items():
+    p = notes / fname
+    text = p.read_text()
+    if old not in text:
+        raise SystemExit(f"anchor missing in {fname}")
+    if 'bible ref="' in new.split(old)[-1] if False else False:
+        pass
+    # skip if already added
+    added_ref = {
+        "law-of-process.md": "1 Samuel 13:8-14",
+        "law-of-the-picture.md": "Matthew 23:1-4",
+        "law-of-buy-in.md": "Numbers 14:1-4",
+        "law-of-victory.md": "1 Samuel 17:10-11",
+        "law-of-sacrifice.md": "Mark 10:37-40",
+        "law-of-explosive-growth.md": "Exodus 18:17-23",
+        "law-of-legacy.md": "Judges 2:7-10",
+    }[fname]
+    if f'ref="{added_ref}"' in text:
+        print(f"skip verse (already): {fname}")
+        continue
+    p.write_text(text.replace(old, new, 1))
+    print(f"added verse: {fname} -> {added_ref}")
+
+print("verse pass done")
+PY
+```
+
+```
+added verse: law-of-process.md -> 1 Samuel 13:8-14
+added verse: law-of-the-picture.md -> Matthew 23:1-4
+added verse: law-of-buy-in.md -> Numbers 14:1-4
+added verse: law-of-victory.md -> 1 Samuel 17:10-11
+added verse: law-of-sacrifice.md -> Mark 10:37-40
+added verse: law-of-explosive-growth.md -> Exodus 18:17-23
+added verse: law-of-legacy.md -> Judges 2:7-10
+verse pass done
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Converting all 20 violation notes to non-faith notes.
+
+Writing a Python script to generate the full rewritten content. Each note will follow the title-without-influence pattern.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Map violation→law verse gaps; add missing verses to law notes",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Convert 20 faith violation notes to Leadership/workplace (non-faith)",
+      "id": "2",
+      "status": "in_progress"
+    },
+    {
+      "content": "Align title-without-influence hub wording; lint voice/garden",
+      "id": "3",
+      "status": "pending"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Map violation→law verse gaps; add missing verses to law notes",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Convert 20 faith violation notes to Leadership/workplace (non-faith)",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Align title-without-influence hub wording; lint voice/garden",
+      "id": "3",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+from pathlib import Path
+notes = Path(&#34;content/english/notes&#34;)
+
+# Full rewritten non-faith violation notes
+# Pattern: Leadership category, workplace tags, no bible/Free Grace, secular examples
+
+files = {}
+
+files[&#34;low-leadership-lid.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Low Leadership Lid&#34;
+meta_title: &#34;Low Leadership Lid - Ceiling That Caps the Team&#34;
+description: &#34;A low leadership lid caps the team - raise capacity or the load stalls under you.&#34;
+key_concept: |
+  - Your lid is the bottleneck - blame the crew while you stay small and the load stalls.
+  - Failure mode of [[Law of the Lid]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Repair path is [[Law of the Lid]] plus [[Servant Leadership]] - raise capacity; stop hoarding every call.
+level_1: &#34;Low leadership lid means your capacity caps how far the people under you can go.&#34;
+level_2: &#34;Like a jar lid too small for the jar, low leadership limits output no matter how gifted the crew is.&#34;
+level_3: &#34;Before you blame the crew for stalled targets, ask whether your own leadership level is the ceiling.&#34;
+level_4: &#34;A harsh answer after a promotion can split a room you inherited whole - the team cannot rise above the leader&#39;s lid.&#34;
+level_5: &#34;Repair path is [[Law of the Lid]] plus [[Servant Leadership]] - raise capacity; delegate real decisions instead of protecting the ceiling.&#34;
+examples:
+  - &#34;I kept every call myself after the promotion - the lid was my insecurity, not the org chart.&#34;
+  - &#34;New director answered every pushback with volume - half the squad routed around him within a month.&#34;
+shareable_thought:
+  - &#34;A low leadership lid caps the team - raise capacity or the load stalls under you.&#34;
+  - &#34;Your lid is the bottleneck - blame the crew while you stay small and the load stalls.&#34;
+  - &#34;Before you blame the crew for stalled targets, ask whether your own leadership level is the ceiling.&#34;
+  - &#34;A harsh answer after a promotion can split a room you inherited whole - the team cannot rise above the leader&#39;s lid.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of the Lid]]&#34;
+    reason: &#34;Failure mode when the leader&#39;s ceiling caps the people&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of the Lid&#34;
+  - type: extends
+    wikilink: &#34;[[Law of the Lid]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Servant Leadership]]&#34;
+    reason: &#34;Repair path - raise capacity by serving and delegating&#34;
+  - type: extends
+    wikilink: &#34;[[Leadership]]&#34;
+    reason: &#34;Horizontal lid problem sits under the leadership stack&#34;
+slug: &#34;low-leadership-lid&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;]
+aliases: [&#34;low leadership lid&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+files[&#34;skipped-daily-process.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Skipped Daily Process&#34;
+meta_title: &#34;Skipped Daily Process - Microwave Leadership That Cannot Hold&#34;
+description: &#34;Skipped daily process microwaves a lid that cannot hold the load when the stage arrives.&#34;
+key_concept: |
+  - Skip the boring Tuesday reps and you microwave a leader who cannot hold the load.
+  - Failure mode of [[Law of Process]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Repair path is [[Law of Process]] and [[Change Takes Repetition]] - stack reps before the visible stage.
+level_1: &#34;Skipped daily process means grabbing the stage without the hidden years that forge a leader.&#34;
+level_2: &#34;Like microwaving bread for a feast, overnight titles look done and fall apart under weight.&#34;
+level_3: &#34;When you want the lead after one good meeting, keep the weekly skill hour instead of the hero sprint.&#34;
+level_4: &#34;Urgency that skips the wait costs lasting trust - process skipped for the stage cracks under real load.&#34;
+level_5: &#34;Return to [[Law of Process]] and [[Change Takes Repetition]] - stack reps; titles do not replace the long forge.&#34;
+examples:
+  - &#34;I wanted the team lead after one strong meeting - I had skipped months of quiet ownership.&#34;
+  - &#34;We promoted on a hero week - the next outage showed the skipped Tuesday reps.&#34;
+shareable_thought:
+  - &#34;Skipped daily process microwaves a lid that cannot hold the load when the stage arrives.&#34;
+  - &#34;Skip the boring Tuesday reps and you microwave a leader who cannot hold the load.&#34;
+  - &#34;When you want the lead after one good meeting, keep the weekly skill hour instead of the hero sprint.&#34;
+  - &#34;Urgency that skips the wait costs lasting trust - process skipped for the stage cracks under real load.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Process]]&#34;
+    reason: &#34;Failure mode when urgency skips the hidden years&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Process&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Process]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Change Takes Repetition]]&#34;
+    reason: &#34;Repair path - daily reps beat microwave titles&#34;
+  - type: extends
+    wikilink: &#34;[[Leadership]]&#34;
+    reason: &#34;Horizontal process failure sits under the leadership stack&#34;
+slug: &#34;skipped-daily-process&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;]
+aliases: [&#34;skipped daily process&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+files[&#34;steering-without-chart.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Steering Without Chart&#34;
+meta_title: &#34;Steering Without Chart - Motion Without a Course&#34;
+description: &#34;Steering without a chart is busy motion that sinks the crew when the first storm hits.&#34;
+key_concept: |
+  - Anyone can grab the tiller - without a chart the crew rows into the reef.
+  - Failure mode of [[Law of Navigation]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Repair with [[Law of Navigation]] - write risks and route before the public yes.
+level_1: &#34;Steering without a chart means moving the crew before anyone mapped risks and route.&#34;
+level_2: &#34;Like launching a boat with oars and no map, motion feels like leadership until the reef appears.&#34;
+level_3: &#34;Before you announce the march, write risks and route on one page - no heroic improvisation as strategy.&#34;
+level_4: &#34;Public yes without a cost count leaves a stump - unfinished work spends the crew&#39;s trust.&#34;
+level_5: &#34;Repair with [[Law of Navigation]] - chart first; planning is stewardship of the crew, not theater.&#34;
+examples:
+  - &#34;We had launch energy and no phased plan - the whiteboard was empty while Slack was loud.&#34;
+  - &#34;Kickoff slides promised Q3 without a risk page - the first blocker made the stump public.&#34;
+shareable_thought:
+  - &#34;Steering without a chart is busy motion that sinks the crew when the first storm hits.&#34;
+  - &#34;Anyone can grab the tiller - without a chart the crew rows into the reef.&#34;
+  - &#34;Before you announce the march, write risks and route on one page - no heroic improvisation as strategy.&#34;
+  - &#34;Public yes without a cost count leaves a stump - unfinished work spends the crew&#39;s trust.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Navigation]]&#34;
+    reason: &#34;Failure mode when motion replaces a charted course&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Navigation&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Navigation]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Leadership]]&#34;
+    reason: &#34;Horizontal navigation failure sits under the leadership stack&#34;
+  - type: extends
+    wikilink: &#34;[[Servant Leadership]]&#34;
+    reason: &#34;Charting protects the crew you ask to row&#34;
+slug: &#34;steering-without-chart&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;]
+aliases: [&#34;steering without chart&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+files[&#34;leading-by-subtraction.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Leading by Subtraction&#34;
+meta_title: &#34;Leading by Subtraction - Grabbing Value Instead of Adding It&#34;
+description: &#34;Leading by subtraction grabs credit and advantage - the team shrinks while the leader looks bigger.&#34;
+key_concept: |
+  - Grab the advantage and you subtract trust - addition is service, not a throne grab.
+  - Failure mode of [[Law of Addition]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Flip back to [[Law of Addition]] and [[Servant Leadership]] - serve first; add value before you claim the seat.
+level_1: &#34;Leading by subtraction means taking advantage and credit so the team ends smaller.&#34;
+level_2: &#34;Like claiming the best seat at the table, the grab looks like winning and costs followership.&#34;
+level_3: &#34;Before the next promotion fight, name one cost you can absorb so someone else wins visibly.&#34;
+level_4: &#34;Seat requests without towels are subtraction dressed as ambition - greatness adds by giving, not by seating.&#34;
+level_5: &#34;Flip back to [[Law of Addition]] and [[Servant Leadership]] - serve first; addition rebuilds what the grab spent.&#34;
+examples:
+  - &#34;I kept the easier shift and watched trust drop - subtraction looked like self-care on my calendar.&#34;
+  - &#34;I took the spotlight slot and left the grunt work to juniors - the room got quieter around me.&#34;
+shareable_thought:
+  - &#34;Leading by subtraction grabs credit and advantage - the team shrinks while the leader looks bigger.&#34;
+  - &#34;Grab the advantage and you subtract trust - addition is service, not a throne grab.&#34;
+  - &#34;Before the next promotion fight, name one cost you can absorb so someone else wins visibly.&#34;
+  - &#34;Seat requests without towels are subtraction dressed as ambition - greatness adds by giving, not by seating.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Addition]]&#34;
+    reason: &#34;Failure mode when leaders take value instead of adding it&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Addition&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Addition]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Servant Leadership]]&#34;
+    reason: &#34;Repair path - serve to add value instead of grab credit&#34;
+  - type: extends
+    wikilink: &#34;[[Leadership]]&#34;
+    reason: &#34;Horizontal subtraction failure sits under the leadership stack&#34;
+slug: &#34;leading-by-subtraction&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;]
+aliases: [&#34;leading by subtraction&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+files[&#34;trust-already-cracked.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Trust Already Cracked&#34;
+meta_title: &#34;Trust Already Cracked - Character Holiness on Stage Only&#34;
+description: &#34;Trust already cracked means character failed under the surface while the stage still looked clean.&#34;
+key_concept: |
+  - Whitewash the outside and the ground still fails - trust sits on character, not polish.
+  - Failure mode of [[Law of Solid Ground]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Return to [[Law of Solid Ground]] and [[Integrity]] - rebuild the hidden walk before the next stage show.
+level_1: &#34;Trust already cracked means the foundation of followership broke because character did not match the stage.&#34;
+level_2: &#34;Like a bridge with rust under fresh paint, polish holds until the first real load.&#34;
+level_3: &#34;Catch one small promise you broke this week and repair it before the team files it as pattern.&#34;
+level_4: &#34;Public trust and hidden walk must both hold - cracks show when pressure hits, not when slides look sharp.&#34;
+level_5: &#34;Return to [[Law of Solid Ground]] and [[Integrity]] - rebuild the hidden walk; polish cannot carry cracked character.&#34;
+examples:
+  - &#34;I shaded one number in the update - the room went quiet long before any audit.&#34;
+  - &#34;Status looked green while I knew the risk - the first miss made the whitewash obvious.&#34;
+shareable_thought:
+  - &#34;Trust already cracked means character failed under the surface while the stage still looked clean.&#34;
+  - &#34;Whitewash the outside and the ground still fails - trust sits on character, not polish.&#34;
+  - &#34;Catch one small promise you broke this week and repair it before the team files it as pattern.&#34;
+  - &#34;Public trust and hidden walk must both hold - cracks show when pressure hits, not when slides look sharp.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Solid Ground]]&#34;
+    reason: &#34;Failure mode when character cracks under the stage polish&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Solid Ground&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Solid Ground]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Integrity]]&#34;
+    reason: &#34;Repair path - rebuild the hidden walk the stage cannot fake&#34;
+  - type: extends
+    wikilink: &#34;[[Ethical Leadership]]&#34;
+    reason: &#34;What you shade in the open becomes the team&#39;s real standard&#34;
+slug: &#34;trust-already-cracked&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;, &#34;Ethics&#34;]
+aliases: [&#34;trust already cracked&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+for name, content in files.items():
+    (notes / name).write_text(content)
+    print(&#34;wrote&#34;, name)
+print(&#34;batch1 done&#34;, len(files))
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+from pathlib import Path
+notes = Path("content/english/notes")
+
+# Full rewritten non-faith violation notes
+# Pattern: Leadership category, workplace tags, no bible/Free Grace, secular examples
+
+files = {}
+
+files["low-leadership-lid.md"] = '''---
+title: "Low Leadership Lid"
+meta_title: "Low Leadership Lid - Ceiling That Caps the Team"
+description: "A low leadership lid caps the team - raise capacity or the load stalls under you."
+key_concept: |
+  - Your lid is the bottleneck - blame the crew while you stay small and the load stalls.
+  - Failure mode of [[Law of the Lid]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Repair path is [[Law of the Lid]] plus [[Servant Leadership]] - raise capacity; stop hoarding every call.
+level_1: "Low leadership lid means your capacity caps how far the people under you can go."
+level_2: "Like a jar lid too small for the jar, low leadership limits output no matter how gifted the crew is."
+level_3: "Before you blame the crew for stalled targets, ask whether your own leadership level is the ceiling."
+level_4: "A harsh answer after a promotion can split a room you inherited whole - the team cannot rise above the leader's lid."
+level_5: "Repair path is [[Law of the Lid]] plus [[Servant Leadership]] - raise capacity; delegate real decisions instead of protecting the ceiling."
+examples:
+  - "I kept every call myself after the promotion - the lid was my insecurity, not the org chart."
+  - "New director answered every pushback with volume - half the squad routed around him within a month."
+shareable_thought:
+  - "A low leadership lid caps the team - raise capacity or the load stalls under you."
+  - "Your lid is the bottleneck - blame the crew while you stay small and the load stalls."
+  - "Before you blame the crew for stalled targets, ask whether your own leadership level is the ceiling."
+  - "A harsh answer after a promotion can split a room you inherited whole - the team cannot rise above the leader's lid."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of the Lid]]"
+    reason: "Failure mode when the leader's ceiling caps the people"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of the Lid"
+  - type: extends
+    wikilink: "[[Law of the Lid]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Servant Leadership]]"
+    reason: "Repair path - raise capacity by serving and delegating"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal lid problem sits under the leadership stack"
+slug: "low-leadership-lid"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management"]
+aliases: ["low leadership lid"]
+featured: false
+draft: false
+---
+'''
+
+files["skipped-daily-process.md"] = '''---
+title: "Skipped Daily Process"
+meta_title: "Skipped Daily Process - Microwave Leadership That Cannot Hold"
+description: "Skipped daily process microwaves a lid that cannot hold the load when the stage arrives."
+key_concept: |
+  - Skip the boring Tuesday reps and you microwave a leader who cannot hold the load.
+  - Failure mode of [[Law of Process]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Repair path is [[Law of Process]] and [[Change Takes Repetition]] - stack reps before the visible stage.
+level_1: "Skipped daily process means grabbing the stage without the hidden years that forge a leader."
+level_2: "Like microwaving bread for a feast, overnight titles look done and fall apart under weight."
+level_3: "When you want the lead after one good meeting, keep the weekly skill hour instead of the hero sprint."
+level_4: "Urgency that skips the wait costs lasting trust - process skipped for the stage cracks under real load."
+level_5: "Return to [[Law of Process]] and [[Change Takes Repetition]] - stack reps; titles do not replace the long forge."
+examples:
+  - "I wanted the team lead after one strong meeting - I had skipped months of quiet ownership."
+  - "We promoted on a hero week - the next outage showed the skipped Tuesday reps."
+shareable_thought:
+  - "Skipped daily process microwaves a lid that cannot hold the load when the stage arrives."
+  - "Skip the boring Tuesday reps and you microwave a leader who cannot hold the load."
+  - "When you want the lead after one good meeting, keep the weekly skill hour instead of the hero sprint."
+  - "Urgency that skips the wait costs lasting trust - process skipped for the stage cracks under real load."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Process]]"
+    reason: "Failure mode when urgency skips the hidden years"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Process"
+  - type: extends
+    wikilink: "[[Law of Process]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Change Takes Repetition]]"
+    reason: "Repair path - daily reps beat microwave titles"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal process failure sits under the leadership stack"
+slug: "skipped-daily-process"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management"]
+aliases: ["skipped daily process"]
+featured: false
+draft: false
+---
+'''
+
+files["steering-without-chart.md"] = '''---
+title: "Steering Without Chart"
+meta_title: "Steering Without Chart - Motion Without a Course"
+description: "Steering without a chart is busy motion that sinks the crew when the first storm hits."
+key_concept: |
+  - Anyone can grab the tiller - without a chart the crew rows into the reef.
+  - Failure mode of [[Law of Navigation]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Repair with [[Law of Navigation]] - write risks and route before the public yes.
+level_1: "Steering without a chart means moving the crew before anyone mapped risks and route."
+level_2: "Like launching a boat with oars and no map, motion feels like leadership until the reef appears."
+level_3: "Before you announce the march, write risks and route on one page - no heroic improvisation as strategy."
+level_4: "Public yes without a cost count leaves a stump - unfinished work spends the crew's trust."
+level_5: "Repair with [[Law of Navigation]] - chart first; planning is stewardship of the crew, not theater."
+examples:
+  - "We had launch energy and no phased plan - the whiteboard was empty while Slack was loud."
+  - "Kickoff slides promised Q3 without a risk page - the first blocker made the stump public."
+shareable_thought:
+  - "Steering without a chart is busy motion that sinks the crew when the first storm hits."
+  - "Anyone can grab the tiller - without a chart the crew rows into the reef."
+  - "Before you announce the march, write risks and route on one page - no heroic improvisation as strategy."
+  - "Public yes without a cost count leaves a stump - unfinished work spends the crew's trust."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Navigation]]"
+    reason: "Failure mode when motion replaces a charted course"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Navigation"
+  - type: extends
+    wikilink: "[[Law of Navigation]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal navigation failure sits under the leadership stack"
+  - type: extends
+    wikilink: "[[Servant Leadership]]"
+    reason: "Charting protects the crew you ask to row"
+slug: "steering-without-chart"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management"]
+aliases: ["steering without chart"]
+featured: false
+draft: false
+---
+'''
+
+files["leading-by-subtraction.md"] = '''---
+title: "Leading by Subtraction"
+meta_title: "Leading by Subtraction - Grabbing Value Instead of Adding It"
+description: "Leading by subtraction grabs credit and advantage - the team shrinks while the leader looks bigger."
+key_concept: |
+  - Grab the advantage and you subtract trust - addition is service, not a throne grab.
+  - Failure mode of [[Law of Addition]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Flip back to [[Law of Addition]] and [[Servant Leadership]] - serve first; add value before you claim the seat.
+level_1: "Leading by subtraction means taking advantage and credit so the team ends smaller."
+level_2: "Like claiming the best seat at the table, the grab looks like winning and costs followership."
+level_3: "Before the next promotion fight, name one cost you can absorb so someone else wins visibly."
+level_4: "Seat requests without towels are subtraction dressed as ambition - greatness adds by giving, not by seating."
+level_5: "Flip back to [[Law of Addition]] and [[Servant Leadership]] - serve first; addition rebuilds what the grab spent."
+examples:
+  - "I kept the easier shift and watched trust drop - subtraction looked like self-care on my calendar."
+  - "I took the spotlight slot and left the grunt work to juniors - the room got quieter around me."
+shareable_thought:
+  - "Leading by subtraction grabs credit and advantage - the team shrinks while the leader looks bigger."
+  - "Grab the advantage and you subtract trust - addition is service, not a throne grab."
+  - "Before the next promotion fight, name one cost you can absorb so someone else wins visibly."
+  - "Seat requests without towels are subtraction dressed as ambition - greatness adds by giving, not by seating."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Addition]]"
+    reason: "Failure mode when leaders take value instead of adding it"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Addition"
+  - type: extends
+    wikilink: "[[Law of Addition]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Servant Leadership]]"
+    reason: "Repair path - serve to add value instead of grab credit"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal subtraction failure sits under the leadership stack"
+slug: "leading-by-subtraction"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management"]
+aliases: ["leading by subtraction"]
+featured: false
+draft: false
+---
+'''
+
+files["trust-already-cracked.md"] = '''---
+title: "Trust Already Cracked"
+meta_title: "Trust Already Cracked - Character Holiness on Stage Only"
+description: "Trust already cracked means character failed under the surface while the stage still looked clean."
+key_concept: |
+  - Whitewash the outside and the ground still fails - trust sits on character, not polish.
+  - Failure mode of [[Law of Solid Ground]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Return to [[Law of Solid Ground]] and [[Integrity]] - rebuild the hidden walk before the next stage show.
+level_1: "Trust already cracked means the foundation of followership broke because character did not match the stage."
+level_2: "Like a bridge with rust under fresh paint, polish holds until the first real load."
+level_3: "Catch one small promise you broke this week and repair it before the team files it as pattern."
+level_4: "Public trust and hidden walk must both hold - cracks show when pressure hits, not when slides look sharp."
+level_5: "Return to [[Law of Solid Ground]] and [[Integrity]] - rebuild the hidden walk; polish cannot carry cracked character."
+examples:
+  - "I shaded one number in the update - the room went quiet long before any audit."
+  - "Status looked green while I knew the risk - the first miss made the whitewash obvious."
+shareable_thought:
+  - "Trust already cracked means character failed under the surface while the stage still looked clean."
+  - "Whitewash the outside and the ground still fails - trust sits on character, not polish."
+  - "Catch one small promise you broke this week and repair it before the team files it as pattern."
+  - "Public trust and hidden walk must both hold - cracks show when pressure hits, not when slides look sharp."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Solid Ground]]"
+    reason: "Failure mode when character cracks under the stage polish"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Solid Ground"
+  - type: extends
+    wikilink: "[[Law of Solid Ground]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Integrity]]"
+    reason: "Repair path - rebuild the hidden walk the stage cannot fake"
+  - type: extends
+    wikilink: "[[Ethical Leadership]]"
+    reason: "What you shade in the open becomes the team's real standard"
+slug: "trust-already-cracked"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management", "Ethics"]
+aliases: ["trust already cracked"]
+featured: false
+draft: false
+---
+'''
+
+for name, content in files.items():
+    (notes / name).write_text(content)
+    print("wrote", name)
+print("batch1 done", len(files))
+PY
+```
+
+```
+wrote low-leadership-lid.md
+wrote skipped-daily-process.md
+wrote steering-without-chart.md
+wrote leading-by-subtraction.md
+wrote trust-already-cracked.md
+batch1 done 5
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing with the remaining 15 notes.
+
+Fixing the meta_title for trust-already-cracked to remove faith language and make it workplace-appropriate.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+from pathlib import Path
+notes = Path(&#34;content/english/notes&#34;)
+
+files = {}
+
+files[&#34;demanding-unearned-respect.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Demanding Unearned Respect&#34;
+meta_title: &#34;Demanding Unearned Respect - Rank Without Strength Worth Following&#34;
+description: &#34;Demanding unearned respect pulls rank when people see no strength worth following.&#34;
+key_concept: |
+  - Pull rank without respected strength and you get compliance theater, not followership.
+  - Failure mode of [[Law of Respect]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Build toward [[Law of Respect]] and [[Ethical Leadership]] - earn followership; title alone is not strength.
+level_1: &#34;Demanding unearned respect means expecting people to follow because of rank, not because they see strength worth trusting.&#34;
+level_2: &#34;Like shouting orders from a cardboard throne, volume rises while respect falls.&#34;
+level_3: &#34;Before you flash the title to close debate, ask what strength they have actually seen in you this month.&#34;
+level_4: &#34;A loud feast of rank that weighs nothing - respect tracks character and courage, not the guest list.&#34;
+level_5: &#34;Build toward [[Law of Respect]] and [[Ethical Leadership]] - earn followership; stop trading volume for strength.&#34;
+examples:
+  - &#34;I shut down the meeting with my title - they nodded, then waited for the senior tech in the hall.&#34;
+  - &#34;New VP flashed the org chart mid-debate - compliance in the room, workarounds in Slack.&#34;
+shareable_thought:
+  - &#34;Demanding unearned respect pulls rank when people see no strength worth following.&#34;
+  - &#34;Pull rank without respected strength and you get compliance theater, not followership.&#34;
+  - &#34;Before you flash the title to close debate, ask what strength they have actually seen in you this month.&#34;
+  - &#34;A loud feast of rank that weighs nothing - respect tracks character and courage, not the guest list.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Respect]]&#34;
+    reason: &#34;Failure mode when rank demands what strength never earned&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Respect&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Respect]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Ethical Leadership]]&#34;
+    reason: &#34;Earn followership - title without strength is compliance theater&#34;
+  - type: extends
+    wikilink: &#34;[[Title Without Influence]]&#34;
+    reason: &#34;Same hollow badge problem from the respect angle&#34;
+slug: &#34;demanding-unearned-respect&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;]
+aliases: [&#34;demanding unearned respect&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+files[&#34;blind-leadership-calls.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Blind Leadership Calls&#34;
+meta_title: &#34;Blind Leadership Calls - No Leadership Lens on the Room&#34;
+description: &#34;Blind leadership calls miss the room - no leadership lens means danger walks past unnoticed.&#34;
+key_concept: |
+  - Refuse the leadership lens and you call plays while the real threat walks past.
+  - Failure mode of [[Law of Intuition]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Practice [[Law of Intuition]] with [[Surface Bad News Early]] - see people, risk, and timing before you lock the call.
+level_1: &#34;Blind leadership calls happen when a leader evaluates everything except how people and risk will move.&#34;
+level_2: &#34;Like driving with the headlights off, you still move - you just hit what a leadership bias would have seen.&#34;
+level_3: &#34;Before the next hard call, name one people-risk and one timing-risk out loud - force the leadership lens on.&#34;
+level_4: &#34;Pride-only reads miss the coming collision - intuition is a leadership bias that protects the house.&#34;
+level_5: &#34;Practice [[Law of Intuition]] with [[Surface Bad News Early]] - see early; wise calls protect the team you lead.&#34;
+examples:
+  - &#34;I greenlit the date without asking who was burned out - the blind call was calendar math, not leadership.&#34;
+  - &#34;I dismissed the warning email as noise - the outage proved the room had already seen what I missed.&#34;
+shareable_thought:
+  - &#34;Blind leadership calls miss the room - no leadership lens means danger walks past unnoticed.&#34;
+  - &#34;Refuse the leadership lens and you call plays while the real threat walks past.&#34;
+  - &#34;Before the next hard call, name one people-risk and one timing-risk out loud - force the leadership lens on.&#34;
+  - &#34;Pride-only reads miss the coming collision - intuition is a leadership bias that protects the house.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Intuition]]&#34;
+    reason: &#34;Failure mode when leaders evaluate without a leadership lens&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Intuition&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Intuition]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Leadership]]&#34;
+    reason: &#34;Horizontal intuition failure sits under the leadership stack&#34;
+  - type: extends
+    wikilink: &#34;[[Surface Bad News Early]]&#34;
+    reason: &#34;Repair path - force the risk read before the call locks&#34;
+slug: &#34;blind-leadership-calls&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;]
+aliases: [&#34;blind leadership calls&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+files[&#34;toxic-magnet-pull.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Toxic Magnet Pull&#34;
+meta_title: &#34;Toxic Magnet Pull - Character That Attracts the Same Rot&#34;
+description: &#34;Toxic magnet pull keeps attracting the same rot - the magnet is your character, not bad luck.&#34;
+key_concept: |
+  - Keep attracting the same rot and the magnet is you - character draws what it is.
+  - Failure mode of [[Law of Magnetism]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Repair through [[Law of Magnetism]] and [[Ethical Leadership]] - change what you reward and who stays close.
+level_1: &#34;Toxic magnet pull means your character keeps drawing the same harmful people and habits into the room.&#34;
+level_2: &#34;Like a fridge magnet stuck on rust, you keep collecting what matches your field - not random bad luck.&#34;
+level_3: &#34;Name the last three hires or allies who burned the team - ask what in you signaled that was welcome.&#34;
+level_4: &#34;Who you protect and praise becomes the magnet - rot repeats until the character field changes.&#34;
+level_5: &#34;Repair through [[Law of Magnetism]] and [[Ethical Leadership]] - change what you reward so the next pull is healthier.&#34;
+examples:
+  - &#34;Every reorg I landed the same yes-people - the magnet was my hunger for agreement, not the market.&#34;
+  - &#34;I kept the sharp tongue that closed deals and wondered why the next wave cut corners the same way.&#34;
+shareable_thought:
+  - &#34;Toxic magnet pull keeps attracting the same rot - the magnet is your character, not bad luck.&#34;
+  - &#34;Keep attracting the same rot and the magnet is you - character draws what it is.&#34;
+  - &#34;Name the last three hires or allies who burned the team - ask what in you signaled that was welcome.&#34;
+  - &#34;Who you protect and praise becomes the magnet - rot repeats until the character field changes.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Magnetism]]&#34;
+    reason: &#34;Failure mode when character keeps drawing the same rot&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Magnetism&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Magnetism]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Ethical Leadership]]&#34;
+    reason: &#34;What you reward and protect becomes the next magnet&#34;
+  - type: extends
+    wikilink: &#34;[[Leadership]]&#34;
+    reason: &#34;Horizontal magnetism failure sits under the leadership stack&#34;
+slug: &#34;toxic-magnet-pull&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;, &#34;Ethics&#34;]
+aliases: [&#34;toxic magnet pull&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+files[&#34;hand-before-heart.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Hand Before Heart&#34;
+meta_title: &#34;Hand Before Heart - Ask Before Connection&#34;
+description: &#34;Hand before heart asks for labor before any real connection - the ask feels like use, not leadership.&#34;
+key_concept: |
+  - Ask for a hand before you touch a heart and the ask feels like use, not leadership.
+  - Failure mode of [[Law of Connection]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Repair with [[Law of Connection]] - earn the heart before you ask for the hand.
+level_1: &#34;Hand before heart means demanding labor before you have earned trust or care with the person.&#34;
+level_2: &#34;Like a stranger asking for a kidney, the ask is not wrong - the missing relationship makes it feel like use.&#34;
+level_3: &#34;Before the next big ask, spend one real conversation on their load - connection first, request second.&#34;
+level_4: &#34;Charm that only shows up when you need volunteers is connection theater - hearts close and hands slow.&#34;
+level_5: &#34;Repair with [[Law of Connection]] - touch the heart first; followership grows after care, not after the pitch.&#34;
+examples:
+  - &#34;I pinged the whole channel for weekend help without asking how anyone was - hands stayed dark.&#34;
+  - &#34;I led with the deadline slide and skipped the check-in - the room complied once, then ghosted the next ask.&#34;
+shareable_thought:
+  - &#34;Hand before heart asks for labor before any real connection - the ask feels like use, not leadership.&#34;
+  - &#34;Ask for a hand before you touch a heart and the ask feels like use, not leadership.&#34;
+  - &#34;Before the next big ask, spend one real conversation on their load - connection first, request second.&#34;
+  - &#34;Charm that only shows up when you need volunteers is connection theater - hearts close and hands slow.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Connection]]&#34;
+    reason: &#34;Failure mode when the ask lands before any care&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Connection&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Connection]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Servant Leadership]]&#34;
+    reason: &#34;Repair path - care for people before you draft their hands&#34;
+  - type: extends
+    wikilink: &#34;[[Leadership]]&#34;
+    reason: &#34;Horizontal connection failure sits under the leadership stack&#34;
+slug: &#34;hand-before-heart&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;]
+aliases: [&#34;hand before heart&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+files[&#34;weak-inner-circle.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Weak Inner Circle&#34;
+meta_title: &#34;Weak Inner Circle - Closest Voices Only Cheer&#34;
+description: &#34;A weak inner circle only cheers - potential dies in the room that never tells hard truth.&#34;
+key_concept: |
+  - Closest voices that only cheer shrink your potential - hard truth belongs in the inner room.
+  - Failure mode of [[Law of Inner Circle]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Rebuild with [[Law of Inner Circle]] - put truth-tellers closest, not only fans.
+level_1: &#34;Weak inner circle means the people closest to you only affirm, so blind spots never get named.&#34;
+level_2: &#34;Like a mirror that only flatters, the room feels safe and the decisions stay soft.&#34;
+level_3: &#34;Invite one person who will disagree into the next private decision - reward the hard read, not the cheer.&#34;
+level_4: &#34;Cheer-only counsel protects ego and sinks plans - potential dies where truth never enters.&#34;
+level_5: &#34;Rebuild with [[Law of Inner Circle]] - put truth-tellers closest; fans can stay in the wider circle.&#34;
+examples:
+  - &#34;My kitchen cabinet never pushed back - the bad hire was my idea and their silence.&#34;
+  - &#34;I filled the standup with people who nodded - the risk sat in a quiet Slack thread I never saw.&#34;
+shareable_thought:
+  - &#34;A weak inner circle only cheers - potential dies in the room that never tells hard truth.&#34;
+  - &#34;Closest voices that only cheer shrink your potential - hard truth belongs in the inner room.&#34;
+  - &#34;Invite one person who will disagree into the next private decision - reward the hard read, not the cheer.&#34;
+  - &#34;Cheer-only counsel protects ego and sinks plans - potential dies where truth never enters.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Inner Circle]]&#34;
+    reason: &#34;Failure mode when closest voices only cheer&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Inner Circle&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Inner Circle]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Leadership]]&#34;
+    reason: &#34;Horizontal inner-circle failure sits under the leadership stack&#34;
+  - type: extends
+    wikilink: &#34;[[Surface Bad News Early]]&#34;
+    reason: &#34;Truth-tellers closest keep bad news from dying in the hall&#34;
+slug: &#34;weak-inner-circle&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;]
+aliases: [&#34;weak inner circle&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+for name, content in files.items():
+    (notes / name).write_text(content)
+    print(&#34;wrote&#34;, name)
+print(&#34;batch2 done&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+from pathlib import Path
+notes = Path("content/english/notes")
+
+files = {}
+
+files["demanding-unearned-respect.md"] = '''---
+title: "Demanding Unearned Respect"
+meta_title: "Demanding Unearned Respect - Rank Without Strength Worth Following"
+description: "Demanding unearned respect pulls rank when people see no strength worth following."
+key_concept: |
+  - Pull rank without respected strength and you get compliance theater, not followership.
+  - Failure mode of [[Law of Respect]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Build toward [[Law of Respect]] and [[Ethical Leadership]] - earn followership; title alone is not strength.
+level_1: "Demanding unearned respect means expecting people to follow because of rank, not because they see strength worth trusting."
+level_2: "Like shouting orders from a cardboard throne, volume rises while respect falls."
+level_3: "Before you flash the title to close debate, ask what strength they have actually seen in you this month."
+level_4: "A loud feast of rank that weighs nothing - respect tracks character and courage, not the guest list."
+level_5: "Build toward [[Law of Respect]] and [[Ethical Leadership]] - earn followership; stop trading volume for strength."
+examples:
+  - "I shut down the meeting with my title - they nodded, then waited for the senior tech in the hall."
+  - "New VP flashed the org chart mid-debate - compliance in the room, workarounds in Slack."
+shareable_thought:
+  - "Demanding unearned respect pulls rank when people see no strength worth following."
+  - "Pull rank without respected strength and you get compliance theater, not followership."
+  - "Before you flash the title to close debate, ask what strength they have actually seen in you this month."
+  - "A loud feast of rank that weighs nothing - respect tracks character and courage, not the guest list."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Respect]]"
+    reason: "Failure mode when rank demands what strength never earned"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Respect"
+  - type: extends
+    wikilink: "[[Law of Respect]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Ethical Leadership]]"
+    reason: "Earn followership - title without strength is compliance theater"
+  - type: extends
+    wikilink: "[[Title Without Influence]]"
+    reason: "Same hollow badge problem from the respect angle"
+slug: "demanding-unearned-respect"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management"]
+aliases: ["demanding unearned respect"]
+featured: false
+draft: false
+---
+'''
+
+files["blind-leadership-calls.md"] = '''---
+title: "Blind Leadership Calls"
+meta_title: "Blind Leadership Calls - No Leadership Lens on the Room"
+description: "Blind leadership calls miss the room - no leadership lens means danger walks past unnoticed."
+key_concept: |
+  - Refuse the leadership lens and you call plays while the real threat walks past.
+  - Failure mode of [[Law of Intuition]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Practice [[Law of Intuition]] with [[Surface Bad News Early]] - see people, risk, and timing before you lock the call.
+level_1: "Blind leadership calls happen when a leader evaluates everything except how people and risk will move."
+level_2: "Like driving with the headlights off, you still move - you just hit what a leadership bias would have seen."
+level_3: "Before the next hard call, name one people-risk and one timing-risk out loud - force the leadership lens on."
+level_4: "Pride-only reads miss the coming collision - intuition is a leadership bias that protects the house."
+level_5: "Practice [[Law of Intuition]] with [[Surface Bad News Early]] - see early; wise calls protect the team you lead."
+examples:
+  - "I greenlit the date without asking who was burned out - the blind call was calendar math, not leadership."
+  - "I dismissed the warning email as noise - the outage proved the room had already seen what I missed."
+shareable_thought:
+  - "Blind leadership calls miss the room - no leadership lens means danger walks past unnoticed."
+  - "Refuse the leadership lens and you call plays while the real threat walks past."
+  - "Before the next hard call, name one people-risk and one timing-risk out loud - force the leadership lens on."
+  - "Pride-only reads miss the coming collision - intuition is a leadership bias that protects the house."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Intuition]]"
+    reason: "Failure mode when leaders evaluate without a leadership lens"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Intuition"
+  - type: extends
+    wikilink: "[[Law of Intuition]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal intuition failure sits under the leadership stack"
+  - type: extends
+    wikilink: "[[Surface Bad News Early]]"
+    reason: "Repair path - force the risk read before the call locks"
+slug: "blind-leadership-calls"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management"]
+aliases: ["blind leadership calls"]
+featured: false
+draft: false
+---
+'''
+
+files["toxic-magnet-pull.md"] = '''---
+title: "Toxic Magnet Pull"
+meta_title: "Toxic Magnet Pull - Character That Attracts the Same Rot"
+description: "Toxic magnet pull keeps attracting the same rot - the magnet is your character, not bad luck."
+key_concept: |
+  - Keep attracting the same rot and the magnet is you - character draws what it is.
+  - Failure mode of [[Law of Magnetism]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Repair through [[Law of Magnetism]] and [[Ethical Leadership]] - change what you reward and who stays close.
+level_1: "Toxic magnet pull means your character keeps drawing the same harmful people and habits into the room."
+level_2: "Like a fridge magnet stuck on rust, you keep collecting what matches your field - not random bad luck."
+level_3: "Name the last three hires or allies who burned the team - ask what in you signaled that was welcome."
+level_4: "Who you protect and praise becomes the magnet - rot repeats until the character field changes."
+level_5: "Repair through [[Law of Magnetism]] and [[Ethical Leadership]] - change what you reward so the next pull is healthier."
+examples:
+  - "Every reorg I landed the same yes-people - the magnet was my hunger for agreement, not the market."
+  - "I kept the sharp tongue that closed deals and wondered why the next wave cut corners the same way."
+shareable_thought:
+  - "Toxic magnet pull keeps attracting the same rot - the magnet is your character, not bad luck."
+  - "Keep attracting the same rot and the magnet is you - character draws what it is."
+  - "Name the last three hires or allies who burned the team - ask what in you signaled that was welcome."
+  - "Who you protect and praise becomes the magnet - rot repeats until the character field changes."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Magnetism]]"
+    reason: "Failure mode when character keeps drawing the same rot"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Magnetism"
+  - type: extends
+    wikilink: "[[Law of Magnetism]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Ethical Leadership]]"
+    reason: "What you reward and protect becomes the next magnet"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal magnetism failure sits under the leadership stack"
+slug: "toxic-magnet-pull"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management", "Ethics"]
+aliases: ["toxic magnet pull"]
+featured: false
+draft: false
+---
+'''
+
+files["hand-before-heart.md"] = '''---
+title: "Hand Before Heart"
+meta_title: "Hand Before Heart - Ask Before Connection"
+description: "Hand before heart asks for labor before any real connection - the ask feels like use, not leadership."
+key_concept: |
+  - Ask for a hand before you touch a heart and the ask feels like use, not leadership.
+  - Failure mode of [[Law of Connection]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Repair with [[Law of Connection]] - earn the heart before you ask for the hand.
+level_1: "Hand before heart means demanding labor before you have earned trust or care with the person."
+level_2: "Like a stranger asking for a kidney, the ask is not wrong - the missing relationship makes it feel like use."
+level_3: "Before the next big ask, spend one real conversation on their load - connection first, request second."
+level_4: "Charm that only shows up when you need volunteers is connection theater - hearts close and hands slow."
+level_5: "Repair with [[Law of Connection]] - touch the heart first; followership grows after care, not after the pitch."
+examples:
+  - "I pinged the whole channel for weekend help without asking how anyone was - hands stayed dark."
+  - "I led with the deadline slide and skipped the check-in - the room complied once, then ghosted the next ask."
+shareable_thought:
+  - "Hand before heart asks for labor before any real connection - the ask feels like use, not leadership."
+  - "Ask for a hand before you touch a heart and the ask feels like use, not leadership."
+  - "Before the next big ask, spend one real conversation on their load - connection first, request second."
+  - "Charm that only shows up when you need volunteers is connection theater - hearts close and hands slow."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Connection]]"
+    reason: "Failure mode when the ask lands before any care"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Connection"
+  - type: extends
+    wikilink: "[[Law of Connection]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Servant Leadership]]"
+    reason: "Repair path - care for people before you draft their hands"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal connection failure sits under the leadership stack"
+slug: "hand-before-heart"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management"]
+aliases: ["hand before heart"]
+featured: false
+draft: false
+---
+'''
+
+files["weak-inner-circle.md"] = '''---
+title: "Weak Inner Circle"
+meta_title: "Weak Inner Circle - Closest Voices Only Cheer"
+description: "A weak inner circle only cheers - potential dies in the room that never tells hard truth."
+key_concept: |
+  - Closest voices that only cheer shrink your potential - hard truth belongs in the inner room.
+  - Failure mode of [[Law of Inner Circle]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Rebuild with [[Law of Inner Circle]] - put truth-tellers closest, not only fans.
+level_1: "Weak inner circle means the people closest to you only affirm, so blind spots never get named."
+level_2: "Like a mirror that only flatters, the room feels safe and the decisions stay soft."
+level_3: "Invite one person who will disagree into the next private decision - reward the hard read, not the cheer."
+level_4: "Cheer-only counsel protects ego and sinks plans - potential dies where truth never enters."
+level_5: "Rebuild with [[Law of Inner Circle]] - put truth-tellers closest; fans can stay in the wider circle."
+examples:
+  - "My kitchen cabinet never pushed back - the bad hire was my idea and their silence."
+  - "I filled the standup with people who nodded - the risk sat in a quiet Slack thread I never saw."
+shareable_thought:
+  - "A weak inner circle only cheers - potential dies in the room that never tells hard truth."
+  - "Closest voices that only cheer shrink your potential - hard truth belongs in the inner room."
+  - "Invite one person who will disagree into the next private decision - reward the hard read, not the cheer."
+  - "Cheer-only counsel protects ego and sinks plans - potential dies where truth never enters."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Inner Circle]]"
+    reason: "Failure mode when closest voices only cheer"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Inner Circle"
+  - type: extends
+    wikilink: "[[Law of Inner Circle]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal inner-circle failure sits under the leadership stack"
+  - type: extends
+    wikilink: "[[Surface Bad News Early]]"
+    reason: "Truth-tellers closest keep bad news from dying in the hall"
+slug: "weak-inner-circle"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management"]
+aliases: ["weak inner circle"]
+featured: false
+draft: false
+---
+'''
+
+for name, content in files.items():
+    (notes / name).write_text(content)
+    print("wrote", name)
+print("batch2 done")
+PY
+```
+
+```
+wrote demanding-unearned-respect.md
+wrote blind-leadership-calls.md
+wrote toxic-magnet-pull.md
+wrote hand-before-heart.md
+wrote weak-inner-circle.md
+batch2 done
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether the note "Surface Bad News Early" already exists.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `./content/english/notes/surface-bad-news-early.md` |
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Surface Bad News Early|title: \\\"Surface"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Surface Bad News Early|title: \\\"Surface",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/weak-inner-circle.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/blind-leadership-calls.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/surface-bad-news-early.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/confess-to-one-another.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/eternal-principles.md"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 12
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/7d29276d-036e-48c3-9933-601202b519aa.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Converting the remaining violation notes to non-faith notes. Moving through entries including hoarding-all-power, do-as-i-say, vision-without-trust, and others.
+
+Fixing the trust-already-cracked meta_title to use workplace language instead of stage terminology.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+from pathlib import Path
+notes = Path(&#34;content/english/notes&#34;)
+
+# fix meta_title holiness
+p = notes / &#34;trust-already-cracked.md&#34;
+t = p.read_text()
+t = t.replace(
+    &#39;meta_title: &#34;Trust Already Cracked - Character Holiness on Stage Only&#34;&#39;,
+    &#39;meta_title: &#34;Trust Already Cracked - Polish Over Cracked Character&#34;&#39;,
+)
+p.write_text(t)
+
+files = {}
+
+files[&#34;hoarding-all-power.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Hoarding All Power&#34;
+meta_title: &#34;Hoarding All Power - Insecure Leaders Keep Every Decision&#34;
+description: &#34;Hoarding all power keeps every decision - insecure leaders bottleneck the work they fear to share.&#34;
+key_concept: |
+  - Insecure leaders hoard power - only secure leaders give it away so the work multiplies.
+  - Failure mode of [[Law of Empowerment]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Return to [[Law of Empowerment]] and [[Invest in the Few]] - give real authority, not fake errands.
+level_1: &#34;Hoarding all power means keeping decisions that others could carry because sharing feels like a threat.&#34;
+level_2: &#34;Like a one-man band on a stadium stage, volume is high and coverage is thin.&#34;
+level_3: &#34;Delegate one real decision this week with authority attached - not a fake errand you will redo overnight.&#34;
+level_4: &#34;An endless personal queue means you never shared judging - empowerment is secure leadership, not abdication theater.&#34;
+level_5: &#34;Return to [[Law of Empowerment]] and [[Invest in the Few]] - give power; sharing authority grows leaders instead of burning one.&#34;
+examples:
+  - &#34;I redid every task I had passed on at midnight - the hoard was fear dressed as standards.&#34;
+  - &#34;Every approval still routed through me - the team waited while I wore out.&#34;
+shareable_thought:
+  - &#34;Hoarding all power keeps every decision - insecure leaders bottleneck the work they fear to share.&#34;
+  - &#34;Insecure leaders hoard power - only secure leaders give it away so the work multiplies.&#34;
+  - &#34;Delegate one real decision this week with authority attached - not a fake errand you will redo overnight.&#34;
+  - &#34;An endless personal queue means you never shared judging - empowerment is secure leadership, not abdication theater.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Empowerment]]&#34;
+    reason: &#34;Failure mode when insecure leaders keep every decision&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Empowerment&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Empowerment]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Invest in the Few]]&#34;
+    reason: &#34;Repair path - give real authority to people who can carry it&#34;
+  - type: extends
+    wikilink: &#34;[[Servant Leadership]]&#34;
+    reason: &#34;Secure leaders serve by sharing power, not hoarding it&#34;
+slug: &#34;hoarding-all-power&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;]
+aliases: [&#34;hoarding all power&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+files[&#34;do-as-i-say.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Do As I Say&#34;
+meta_title: &#34;Do As I Say - Words Without a Matching Walk&#34;
+description: &#34;Do as I say fails when the walk contradicts the speech - people copy what they see.&#34;
+key_concept: |
+  - Preach one standard and live another - people do what people see.
+  - Failure mode of [[Law of the Picture]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Live [[Law of the Picture]] with [[Integrity]] - model first; the team copies the picture, not the slogan.
+level_1: &#34;Do as I say is leadership that demands a standard the leader will not model.&#34;
+level_2: &#34;Like a coach yelling hustle from a folding chair, the speech is loud and the picture is rest.&#34;
+level_3: &#34;Before you announce a new standard, name one visible way you will go first this week.&#34;
+level_4: &#34;Heavy loads for others with idle fingers teach more than the sermon - the picture outruns the speech.&#34;
+level_5: &#34;Live [[Law of the Picture]] with [[Integrity]] - model first; example beats slogans every time.&#34;
+examples:
+  - &#34;I preached inbox zero and answered Slack at midnight - the team copied the midnight picture.&#34;
+  - &#34;I banned weekend work and mailed the deck Sunday night - they copied the Sunday send.&#34;
+shareable_thought:
+  - &#34;Do as I say fails when the walk contradicts the speech - people copy what they see.&#34;
+  - &#34;Preach one standard and live another - people do what people see.&#34;
+  - &#34;Before you announce a new standard, name one visible way you will go first this week.&#34;
+  - &#34;Heavy loads for others with idle fingers teach more than the sermon - the picture outruns the speech.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of the Picture]]&#34;
+    reason: &#34;Failure mode when speech and walk disagree&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of the Picture&#34;
+  - type: extends
+    wikilink: &#34;[[Law of the Picture]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Integrity]]&#34;
+    reason: &#34;Repair path - match the walk to the standard you preach&#34;
+  - type: extends
+    wikilink: &#34;[[Ethical Leadership]]&#34;
+    reason: &#34;What you model in the open becomes their real standard&#34;
+slug: &#34;do-as-i-say&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;, &#34;Ethics&#34;]
+aliases: [&#34;do as i say&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+files[&#34;vision-without-trust.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Vision Without Trust&#34;
+meta_title: &#34;Vision Without Trust - Pitch Before the Leader Is Credible&#34;
+description: &#34;Vision without trust sells the dream before people trust the dreamer - the pitch dies early.&#34;
+key_concept: |
+  - Pitch the vision before you have trust and the room hears a slide, not a leader.
+  - Failure mode of [[Law of Buy-In]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Earn [[Law of Buy-In]] through [[Law of Connection]] first - trust then vision.
+level_1: &#34;Vision without trust means selling a future before people have bought into the person casting it.&#34;
+level_2: &#34;Like a stranger pitching a relocation, the slides can be perfect and the yes still missing.&#34;
+level_3: &#34;Before the big vision talk, check whether they would follow you on a smaller ask this week.&#34;
+level_4: &#34;When the room wants a new captain more than your map, buy-in failed at the leader before the plan mattered.&#34;
+level_5: &#34;Earn [[Law of Buy-In]] through [[Law of Connection]] first - trust then vision; slides cannot replace deposits.&#34;
+examples:
+  - &#34;I unveiled the year plan and got polite silence - I had skipped months of smaller trust deposits.&#34;
+  - &#34;Day-one roadmap from a new lead landed flat - they had not seen her carry load yet.&#34;
+shareable_thought:
+  - &#34;Vision without trust sells the dream before people trust the dreamer - the pitch dies early.&#34;
+  - &#34;Pitch the vision before you have trust and the room hears a slide, not a leader.&#34;
+  - &#34;Before the big vision talk, check whether they would follow you on a smaller ask this week.&#34;
+  - &#34;When the room wants a new captain more than your map, buy-in failed at the leader before the plan mattered.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Buy-In]]&#34;
+    reason: &#34;Failure mode when vision outruns trust in the leader&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Buy-In&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Buy-In]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Connection]]&#34;
+    reason: &#34;Repair path - earn the heart before you pitch the map&#34;
+  - type: extends
+    wikilink: &#34;[[Leadership Is Influence]]&#34;
+    reason: &#34;People buy the leader first - influence before the vision deck&#34;
+slug: &#34;vision-without-trust&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;]
+aliases: [&#34;vision without trust&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+files[&#34;settling-for-loss.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Settling for Loss&#34;
+meta_title: &#34;Settling for Loss - Leaders Who Stop Looking for a Way&#34;
+description: &#34;Settling for loss stops hunting a path to win - the team inherits the leader&#39;s surrender.&#34;
+key_concept: |
+  - Stop hunting a path to win and the team inherits your surrender as normal.
+  - Failure mode of [[Law of Victory]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Practice [[Law of Victory]] - find a way; early surrender becomes the culture.
+level_1: &#34;Settling for loss means accepting defeat while a path to win still exists for the team.&#34;
+level_2: &#34;Like quitting at half-time while time remains, the scoreboard freezes because the leader does.&#34;
+level_3: &#34;When the room goes quiet after a setback, name one next experiment before you name the loss.&#34;
+level_4: &#34;Fear treated as final freezes the camp - victory starts when a leader refuses early surrender.&#34;
+level_5: &#34;Practice [[Law of Victory]] - find a way; the team copies whether you hunt or settle.&#34;
+examples:
+  - &#34;We missed one sprint and I called the quarter lost - the team stopped looking for a path.&#34;
+  - &#34;After the first customer no, I cancelled the chase - settling taught them to quit early.&#34;
+shareable_thought:
+  - &#34;Settling for loss stops hunting a path to win - the team inherits the leader&#39;s surrender.&#34;
+  - &#34;Stop hunting a path to win and the team inherits your surrender as normal.&#34;
+  - &#34;When the room goes quiet after a setback, name one next experiment before you name the loss.&#34;
+  - &#34;Fear treated as final freezes the camp - victory starts when a leader refuses early surrender.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Victory]]&#34;
+    reason: &#34;Failure mode when leaders accept defeat early&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Victory&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Victory]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Leadership]]&#34;
+    reason: &#34;Horizontal victory failure sits under the leadership stack&#34;
+  - type: extends
+    wikilink: &#34;[[Servant Leadership]]&#34;
+    reason: &#34;Find a way for the team - do not leave them in early surrender&#34;
+slug: &#34;settling-for-loss&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;]
+aliases: [&#34;settling for loss&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+files[&#34;fighting-dead-momentum.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Fighting Dead Momentum&#34;
+meta_title: &#34;Fighting Dead Momentum - Pushing After Mo Already Died&#34;
+description: &#34;Fighting dead momentum pushes harder after Mo dies - effort multiplies friction instead of progress.&#34;
+key_concept: |
+  - Push harder after momentum dies and effort multiplies friction - Mo was the friend you ignored.
+  - Failure mode of [[Law of Big Mo]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Return to [[Law of Big Mo]] - rebuild small wins before you floor the gas.
+level_1: &#34;Fighting dead momentum means forcing volume after the team&#39;s energy and wins have already stalled.&#34;
+level_2: &#34;Like flooring a car with a dead battery, more throttle only burns the starter.&#34;
+level_3: &#34;When wins stop stacking, cut scope to one visible win this week before you demand a bigger push.&#34;
+level_4: &#34;Half-hearted strikes after Mo dies waste the remaining arrows - rebuild momentum before the big swing.&#34;
+level_5: &#34;Return to [[Law of Big Mo]] - stack small wins first; dead Mo does not revive under louder urgency.&#34;
+examples:
+  - &#34;I stacked three all-hands after the product stall - noise rose, Mo stayed dead.&#34;
+  - &#34;We pushed a second launch week with the same broken funnel - effort without a restart.&#34;
+shareable_thought:
+  - &#34;Fighting dead momentum pushes harder after Mo dies - effort multiplies friction instead of progress.&#34;
+  - &#34;Push harder after momentum dies and effort multiplies friction - Mo was the friend you ignored.&#34;
+  - &#34;When wins stop stacking, cut scope to one visible win this week before you demand a bigger push.&#34;
+  - &#34;Half-hearted strikes after Mo dies waste the remaining arrows - rebuild momentum before the big swing.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Big Mo]]&#34;
+    reason: &#34;Failure mode when leaders push after momentum already died&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Big Mo&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Big Mo]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Leadership]]&#34;
+    reason: &#34;Horizontal momentum failure sits under the leadership stack&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Priorities]]&#34;
+    reason: &#34;Cut scope to one win - activity is not the restart&#34;
+slug: &#34;fighting-dead-momentum&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;]
+aliases: [&#34;fighting dead momentum&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+for name, content in files.items():
+    (notes / name).write_text(content)
+    print(&#34;wrote&#34;, name)
+print(&#34;batch3 done&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+from pathlib import Path
+notes = Path("content/english/notes")
+
+# fix meta_title holiness
+p = notes / "trust-already-cracked.md"
+t = p.read_text()
+t = t.replace(
+    'meta_title: "Trust Already Cracked - Character Holiness on Stage Only"',
+    'meta_title: "Trust Already Cracked - Polish Over Cracked Character"',
+)
+p.write_text(t)
+
+files = {}
+
+files["hoarding-all-power.md"] = '''---
+title: "Hoarding All Power"
+meta_title: "Hoarding All Power - Insecure Leaders Keep Every Decision"
+description: "Hoarding all power keeps every decision - insecure leaders bottleneck the work they fear to share."
+key_concept: |
+  - Insecure leaders hoard power - only secure leaders give it away so the work multiplies.
+  - Failure mode of [[Law of Empowerment]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Return to [[Law of Empowerment]] and [[Invest in the Few]] - give real authority, not fake errands.
+level_1: "Hoarding all power means keeping decisions that others could carry because sharing feels like a threat."
+level_2: "Like a one-man band on a stadium stage, volume is high and coverage is thin."
+level_3: "Delegate one real decision this week with authority attached - not a fake errand you will redo overnight."
+level_4: "An endless personal queue means you never shared judging - empowerment is secure leadership, not abdication theater."
+level_5: "Return to [[Law of Empowerment]] and [[Invest in the Few]] - give power; sharing authority grows leaders instead of burning one."
+examples:
+  - "I redid every task I had passed on at midnight - the hoard was fear dressed as standards."
+  - "Every approval still routed through me - the team waited while I wore out."
+shareable_thought:
+  - "Hoarding all power keeps every decision - insecure leaders bottleneck the work they fear to share."
+  - "Insecure leaders hoard power - only secure leaders give it away so the work multiplies."
+  - "Delegate one real decision this week with authority attached - not a fake errand you will redo overnight."
+  - "An endless personal queue means you never shared judging - empowerment is secure leadership, not abdication theater."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Empowerment]]"
+    reason: "Failure mode when insecure leaders keep every decision"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Empowerment"
+  - type: extends
+    wikilink: "[[Law of Empowerment]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Invest in the Few]]"
+    reason: "Repair path - give real authority to people who can carry it"
+  - type: extends
+    wikilink: "[[Servant Leadership]]"
+    reason: "Secure leaders serve by sharing power, not hoarding it"
+slug: "hoarding-all-power"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management"]
+aliases: ["hoarding all power"]
+featured: false
+draft: false
+---
+'''
+
+files["do-as-i-say.md"] = '''---
+title: "Do As I Say"
+meta_title: "Do As I Say - Words Without a Matching Walk"
+description: "Do as I say fails when the walk contradicts the speech - people copy what they see."
+key_concept: |
+  - Preach one standard and live another - people do what people see.
+  - Failure mode of [[Law of the Picture]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Live [[Law of the Picture]] with [[Integrity]] - model first; the team copies the picture, not the slogan.
+level_1: "Do as I say is leadership that demands a standard the leader will not model."
+level_2: "Like a coach yelling hustle from a folding chair, the speech is loud and the picture is rest."
+level_3: "Before you announce a new standard, name one visible way you will go first this week."
+level_4: "Heavy loads for others with idle fingers teach more than the sermon - the picture outruns the speech."
+level_5: "Live [[Law of the Picture]] with [[Integrity]] - model first; example beats slogans every time."
+examples:
+  - "I preached inbox zero and answered Slack at midnight - the team copied the midnight picture."
+  - "I banned weekend work and mailed the deck Sunday night - they copied the Sunday send."
+shareable_thought:
+  - "Do as I say fails when the walk contradicts the speech - people copy what they see."
+  - "Preach one standard and live another - people do what people see."
+  - "Before you announce a new standard, name one visible way you will go first this week."
+  - "Heavy loads for others with idle fingers teach more than the sermon - the picture outruns the speech."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of the Picture]]"
+    reason: "Failure mode when speech and walk disagree"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of the Picture"
+  - type: extends
+    wikilink: "[[Law of the Picture]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Integrity]]"
+    reason: "Repair path - match the walk to the standard you preach"
+  - type: extends
+    wikilink: "[[Ethical Leadership]]"
+    reason: "What you model in the open becomes their real standard"
+slug: "do-as-i-say"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management", "Ethics"]
+aliases: ["do as i say"]
+featured: false
+draft: false
+---
+'''
+
+files["vision-without-trust.md"] = '''---
+title: "Vision Without Trust"
+meta_title: "Vision Without Trust - Pitch Before the Leader Is Credible"
+description: "Vision without trust sells the dream before people trust the dreamer - the pitch dies early."
+key_concept: |
+  - Pitch the vision before you have trust and the room hears a slide, not a leader.
+  - Failure mode of [[Law of Buy-In]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Earn [[Law of Buy-In]] through [[Law of Connection]] first - trust then vision.
+level_1: "Vision without trust means selling a future before people have bought into the person casting it."
+level_2: "Like a stranger pitching a relocation, the slides can be perfect and the yes still missing."
+level_3: "Before the big vision talk, check whether they would follow you on a smaller ask this week."
+level_4: "When the room wants a new captain more than your map, buy-in failed at the leader before the plan mattered."
+level_5: "Earn [[Law of Buy-In]] through [[Law of Connection]] first - trust then vision; slides cannot replace deposits."
+examples:
+  - "I unveiled the year plan and got polite silence - I had skipped months of smaller trust deposits."
+  - "Day-one roadmap from a new lead landed flat - they had not seen her carry load yet."
+shareable_thought:
+  - "Vision without trust sells the dream before people trust the dreamer - the pitch dies early."
+  - "Pitch the vision before you have trust and the room hears a slide, not a leader."
+  - "Before the big vision talk, check whether they would follow you on a smaller ask this week."
+  - "When the room wants a new captain more than your map, buy-in failed at the leader before the plan mattered."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Buy-In]]"
+    reason: "Failure mode when vision outruns trust in the leader"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Buy-In"
+  - type: extends
+    wikilink: "[[Law of Buy-In]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Law of Connection]]"
+    reason: "Repair path - earn the heart before you pitch the map"
+  - type: extends
+    wikilink: "[[Leadership Is Influence]]"
+    reason: "People buy the leader first - influence before the vision deck"
+slug: "vision-without-trust"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management"]
+aliases: ["vision without trust"]
+featured: false
+draft: false
+---
+'''
+
+files["settling-for-loss.md"] = '''---
+title: "Settling for Loss"
+meta_title: "Settling for Loss - Leaders Who Stop Looking for a Way"
+description: "Settling for loss stops hunting a path to win - the team inherits the leader's surrender."
+key_concept: |
+  - Stop hunting a path to win and the team inherits your surrender as normal.
+  - Failure mode of [[Law of Victory]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Practice [[Law of Victory]] - find a way; early surrender becomes the culture.
+level_1: "Settling for loss means accepting defeat while a path to win still exists for the team."
+level_2: "Like quitting at half-time while time remains, the scoreboard freezes because the leader does."
+level_3: "When the room goes quiet after a setback, name one next experiment before you name the loss."
+level_4: "Fear treated as final freezes the camp - victory starts when a leader refuses early surrender."
+level_5: "Practice [[Law of Victory]] - find a way; the team copies whether you hunt or settle."
+examples:
+  - "We missed one sprint and I called the quarter lost - the team stopped looking for a path."
+  - "After the first customer no, I cancelled the chase - settling taught them to quit early."
+shareable_thought:
+  - "Settling for loss stops hunting a path to win - the team inherits the leader's surrender."
+  - "Stop hunting a path to win and the team inherits your surrender as normal."
+  - "When the room goes quiet after a setback, name one next experiment before you name the loss."
+  - "Fear treated as final freezes the camp - victory starts when a leader refuses early surrender."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Victory]]"
+    reason: "Failure mode when leaders accept defeat early"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Victory"
+  - type: extends
+    wikilink: "[[Law of Victory]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal victory failure sits under the leadership stack"
+  - type: extends
+    wikilink: "[[Servant Leadership]]"
+    reason: "Find a way for the team - do not leave them in early surrender"
+slug: "settling-for-loss"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management"]
+aliases: ["settling for loss"]
+featured: false
+draft: false
+---
+'''
+
+files["fighting-dead-momentum.md"] = '''---
+title: "Fighting Dead Momentum"
+meta_title: "Fighting Dead Momentum - Pushing After Mo Already Died"
+description: "Fighting dead momentum pushes harder after Mo dies - effort multiplies friction instead of progress."
+key_concept: |
+  - Push harder after momentum dies and effort multiplies friction - Mo was the friend you ignored.
+  - Failure mode of [[Law of Big Mo]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Return to [[Law of Big Mo]] - rebuild small wins before you floor the gas.
+level_1: "Fighting dead momentum means forcing volume after the team's energy and wins have already stalled."
+level_2: "Like flooring a car with a dead battery, more throttle only burns the starter."
+level_3: "When wins stop stacking, cut scope to one visible win this week before you demand a bigger push."
+level_4: "Half-hearted strikes after Mo dies waste the remaining arrows - rebuild momentum before the big swing."
+level_5: "Return to [[Law of Big Mo]] - stack small wins first; dead Mo does not revive under louder urgency."
+examples:
+  - "I stacked three all-hands after the product stall - noise rose, Mo stayed dead."
+  - "We pushed a second launch week with the same broken funnel - effort without a restart."
+shareable_thought:
+  - "Fighting dead momentum pushes harder after Mo dies - effort multiplies friction instead of progress."
+  - "Push harder after momentum dies and effort multiplies friction - Mo was the friend you ignored."
+  - "When wins stop stacking, cut scope to one visible win this week before you demand a bigger push."
+  - "Half-hearted strikes after Mo dies waste the remaining arrows - rebuild momentum before the big swing."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Big Mo]]"
+    reason: "Failure mode when leaders push after momentum already died"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Big Mo"
+  - type: extends
+    wikilink: "[[Law of Big Mo]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal momentum failure sits under the leadership stack"
+  - type: extends
+    wikilink: "[[Law of Priorities]]"
+    reason: "Cut scope to one win - activity is not the restart"
+slug: "fighting-dead-momentum"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management"]
+aliases: ["fighting dead momentum"]
+featured: false
+draft: false
+---
+'''
+
+for name, content in files.items():
+    (notes / name).write_text(content)
+    print("wrote", name)
+print("batch3 done")
+PY
+```
+
+```
+wrote hoarding-all-power.md
+wrote do-as-i-say.md
+wrote vision-without-trust.md
+wrote settling-for-loss.md
+wrote fighting-dead-momentum.md
+batch3 done
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Five more violations remain to convert: activity without accomplishment, climbing without cost, moving right at the wrong time, followers without leaders, and leaving no successor.
+
+Need to verify whether the Invest in the Few note exists.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `./content/english/notes/invest-in-the-few.md` |
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+from pathlib import Path
+notes = Path(&#34;content/english/notes&#34;)
+
+files = {}
+
+files[&#34;activity-without-accomplishment.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Activity Without Accomplishment&#34;
+meta_title: &#34;Activity Without Accomplishment - Busy Hands, No Priorities&#34;
+description: &#34;Activity without accomplishment keeps hands busy while numbered priorities stay untouched.&#34;
+key_concept: |
+  - Busy hands replace numbered priorities - activity masquerades as accomplishment.
+  - Failure mode of [[Law of Priorities]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Return to [[Law of Priorities]] - name the few that matter; cut the rest.
+level_1: &#34;Activity without accomplishment means filling the day while the real priorities never get a number.&#34;
+level_2: &#34;Like rearranging chairs during a fire drill, motion looks useful and changes nothing that matters.&#34;
+level_3: &#34;Before you open the inbox, write the top three outcomes for the day - activity starts after the list.&#34;
+level_4: &#34;Many tasks with no first thing leave the better portion untouched - busyness is not the win.&#34;
+level_5: &#34;Return to [[Law of Priorities]] - number what matters; protect the few against the flood of busy.&#34;
+examples:
+  - &#34;I closed forty tickets and missed the one client save - activity looked like a win on the dashboard.&#34;
+  - &#34;All-day Slack while the launch checklist sat - busy hands, empty accomplishment.&#34;
+shareable_thought:
+  - &#34;Activity without accomplishment keeps hands busy while numbered priorities stay untouched.&#34;
+  - &#34;Busy hands replace numbered priorities - activity masquerades as accomplishment.&#34;
+  - &#34;Before you open the inbox, write the top three outcomes for the day - activity starts after the list.&#34;
+  - &#34;Many tasks with no first thing leave the better portion untouched - busyness is not the win.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Priorities]]&#34;
+    reason: &#34;Failure mode when busy hands replace numbered priorities&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Priorities&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Priorities]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Leadership]]&#34;
+    reason: &#34;Horizontal priorities failure sits under the leadership stack&#34;
+  - type: extends
+    wikilink: &#34;[[Outcomes Over Pitch Decks]]&#34;
+    reason: &#34;Outcomes beat activity theater&#34;
+slug: &#34;activity-without-accomplishment&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;, &#34;Focus&#34;]
+aliases: [&#34;activity without accomplishment&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+files[&#34;climb-without-cost.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Climb Without Cost&#34;
+meta_title: &#34;Climb Without Cost - Wanting Up Without Giving Up&#34;
+description: &#34;Climb without cost wants the higher seat without paying the personal toll leadership requires.&#34;
+key_concept: |
+  - Want to go up without giving up and the toll booth stops you - sacrifice is the price of the climb.
+  - Failure mode of [[Law of Sacrifice]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Practice [[Law of Sacrifice]] - name the comfort you will lay down before you ask for the seat.
+level_1: &#34;Climb without cost means wanting more influence while refusing the personal price that comes with it.&#34;
+level_2: &#34;Like demanding a summit photo without the hike, the title request arrives with empty hands.&#34;
+level_3: &#34;Before you ask for the next level, name one comfort you will lay down this month so the team can advance.&#34;
+level_4: &#34;Seats of honor without the cup of cost hit the toll booth - up requires a down payment.&#34;
+level_5: &#34;Practice [[Law of Sacrifice]] - give up to go up; the climb is real only when the cost is paid.&#34;
+examples:
+  - &#34;I wanted the director title and kept every Friday golf block - the climb stalled at the cost I refused.&#34;
+  - &#34;I asked for the lead role and would not drop the side projects - up without a down payment.&#34;
+shareable_thought:
+  - &#34;Climb without cost wants the higher seat without paying the personal toll leadership requires.&#34;
+  - &#34;Want to go up without giving up and the toll booth stops you - sacrifice is the price of the climb.&#34;
+  - &#34;Before you ask for the next level, name one comfort you will lay down this month so the team can advance.&#34;
+  - &#34;Seats of honor without the cup of cost hit the toll booth - up requires a down payment.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Sacrifice]]&#34;
+    reason: &#34;Failure mode when leaders want up without giving up&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Sacrifice&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Sacrifice]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Servant Leadership]]&#34;
+    reason: &#34;Repair path - pay the toll that serves the team upward&#34;
+  - type: extends
+    wikilink: &#34;[[Leadership]]&#34;
+    reason: &#34;Horizontal sacrifice failure sits under the leadership stack&#34;
+slug: &#34;climb-without-cost&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;]
+aliases: [&#34;climb without cost&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+files[&#34;right-move-wrong-time.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Right Move Wrong Time&#34;
+meta_title: &#34;Right Move Wrong Time - Action That Misses the Clock&#34;
+description: &#34;Right move wrong time means the action was sound and the clock was wrong - timing turns success into loss.&#34;
+key_concept: |
+  - Right action on the wrong clock still loses - when to lead matters as much as what to do.
+  - Failure mode of [[Law of Timing]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Practice [[Law of Timing]] - wait or move with the clock, not only with the idea.
+level_1: &#34;Right move wrong time means doing a sound action when the moment cannot support it.&#34;
+level_2: &#34;Like planting seed in frost, the seed is fine and the season kills the crop.&#34;
+level_3: &#34;Before you force the launch, ask what must be true this week for the same move to land.&#34;
+level_4: &#34;Urgency that jumps the wait can cost the lasting trust the right clock would have kept.&#34;
+level_5: &#34;Practice [[Law of Timing]] - check the clock before you lock the move; right action still needs the season.&#34;
+examples:
+  - &#34;We shipped the feature during the freeze window - right code, wrong week.&#34;
+  - &#34;I forced the reorg the week after layoffs - the move was planned, the timing spent the room.&#34;
+shareable_thought:
+  - &#34;Right move wrong time means the action was sound and the clock was wrong - timing turns success into loss.&#34;
+  - &#34;Right action on the wrong clock still loses - when to lead matters as much as what to do.&#34;
+  - &#34;Before you force the launch, ask what must be true this week for the same move to land.&#34;
+  - &#34;Urgency that jumps the wait can cost the lasting trust the right clock would have kept.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Timing]]&#34;
+    reason: &#34;Failure mode when the clock is wrong even if the move is right&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Timing&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Timing]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Navigation]]&#34;
+    reason: &#34;Chart includes when, not only where&#34;
+  - type: extends
+    wikilink: &#34;[[Leadership]]&#34;
+    reason: &#34;Horizontal timing failure sits under the leadership stack&#34;
+slug: &#34;right-move-wrong-time&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;]
+aliases: [&#34;right move wrong time&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+files[&#34;followers-without-leaders.md&#34;] = &#39;&#39;&#39;---
+title: &#34;Followers Without Leaders&#34;
+meta_title: &#34;Followers Without Leaders - Addition That Dies When You Leave&#34;
+description: &#34;Followers without leaders means you only add bodies - growth dies when you leave the room.&#34;
+key_concept: |
+  - Only make followers and addition grows slowly - it dies when you leave the room.
+  - Failure mode of [[Law of Explosive Growth]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Practice [[Law of Explosive Growth]] with [[Invest in the Few]] - raise leaders who raise leaders.
+level_1: &#34;Followers without leaders means headcount grows while nobody else can teach, decide, or multiply.&#34;
+level_2: &#34;Like a shop with one trained cook, lunch rushes stall the moment that person steps out.&#34;
+level_3: &#34;Teach one person your full playbook this quarter - judgment calls included, not only task dumps.&#34;
+level_4: &#34;A one-person bottleneck is addition theater - multiplication needs leaders who spawn leaders.&#34;
+level_5: &#34;Practice [[Law of Explosive Growth]] with [[Invest in the Few]] - raise leaders; stop being the only teacher.&#34;
+examples:
+  - &#34;I mentored nobody and hired six - when I took leave, the queue froze.&#34;
+  - &#34;Every decision still needed me on Slack - followers grew, leaders did not.&#34;
+shareable_thought:
+  - &#34;Followers without leaders means you only add bodies - growth dies when you leave the room.&#34;
+  - &#34;Only make followers and addition grows slowly - it dies when you leave the room.&#34;
+  - &#34;Teach one person your full playbook this quarter - judgment calls included, not only task dumps.&#34;
+  - &#34;A one-person bottleneck is addition theater - multiplication needs leaders who spawn leaders.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Explosive Growth]]&#34;
+    reason: &#34;Failure mode when leaders only make followers&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Explosive Growth&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Explosive Growth]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Invest in the Few]]&#34;
+    reason: &#34;Repair path - depth first so multiplication has leaders to send&#34;
+  - type: extends
+    wikilink: &#34;[[Hoarding All Power]]&#34;
+    reason: &#34;Same bottleneck - power and teaching both stay with one person&#34;
+slug: &#34;followers-without-leaders&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;]
+aliases: [&#34;followers without leaders&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+files[&#34;no-successor-left.md&#34;] = &#39;&#39;&#39;---
+title: &#34;No Successor Left&#34;
+meta_title: &#34;No Successor Left - Influence That Dies With You&#34;
+description: &#34;No successor left means lasting value dies with you - legacy is measured by who carries the work after.&#34;
+key_concept: |
+  - Build a personal brand with no baton and the work dies when you leave.
+  - Failure mode of [[Law of Legacy]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Build [[Law of Legacy]] - name a successor and hand a real baton piece this quarter.
+level_1: &#34;No successor left means the work has no one prepared to carry it when the leader steps away.&#34;
+level_2: &#34;Like a shop that closes when the owner retires, skill lived in one head and never transferred.&#34;
+level_3: &#34;Name your succession person this quarter and give them one real baton piece, not a shadow seat.&#34;
+level_4: &#34;When knowledge dies with the leader, lasting value was never transferred - legacy is succession, not a monument.&#34;
+level_5: &#34;Build [[Law of Legacy]] - pass the work on; succession is the final exam, not a farewell speech.&#34;
+examples:
+  - &#34;I left the role and nothing moved - no successor left because I had never handed the baton.&#34;
+  - &#34;The runbook lived only in my head - the next lead spent a month rediscovering what I never taught.&#34;
+shareable_thought:
+  - &#34;No successor left means lasting value dies with you - legacy is measured by who carries the work after.&#34;
+  - &#34;Build a personal brand with no baton and the work dies when you leave.&#34;
+  - &#34;Name your succession person this quarter and give them one real baton piece, not a shadow seat.&#34;
+  - &#34;When knowledge dies with the leader, lasting value was never transferred - legacy is succession, not a monument.&#34;
+relationships:
+  - type: contradicts
+    wikilink: &#34;[[Law of Legacy]]&#34;
+    reason: &#34;Failure mode when nobody carries the work after you&#34;
+  - type: extends
+    wikilink: &#34;[[21 Laws of Leadership in the Bible]]&#34;
+    reason: &#34;Violation partner for Law of Legacy&#34;
+  - type: extends
+    wikilink: &#34;[[Law of Legacy]]&#34;
+    reason: &#34;Named cost when that leadership law is ignored&#34;
+  - type: extends
+    wikilink: &#34;[[Followers Without Leaders]]&#34;
+    reason: &#34;No leaders raised means no successor left either&#34;
+  - type: extends
+    wikilink: &#34;[[Leadership]]&#34;
+    reason: &#34;Horizontal legacy failure sits under the leadership stack&#34;
+slug: &#34;no-successor-left&#34;
+date: &#34;2026-08-02 18:40:00+08:00&#34;
+image: &#34;/images/note.jpg&#34;
+categories: [&#34;Leadership&#34;]
+author: &#34;JoRap&#34;
+tags: [&#34;Leadership&#34;, &#34;Work&#34;, &#34;Management&#34;]
+aliases: [&#34;no successor left&#34;]
+featured: false
+draft: false
+---
+&#39;&#39;&#39;
+
+for name, content in files.items():
+    (notes / name).write_text(content)
+    print(&#34;wrote&#34;, name)
+print(&#34;batch4 done&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+from pathlib import Path
+notes = Path("content/english/notes")
+
+files = {}
+
+files["activity-without-accomplishment.md"] = '''---
+title: "Activity Without Accomplishment"
+meta_title: "Activity Without Accomplishment - Busy Hands, No Priorities"
+description: "Activity without accomplishment keeps hands busy while numbered priorities stay untouched."
+key_concept: |
+  - Busy hands replace numbered priorities - activity masquerades as accomplishment.
+  - Failure mode of [[Law of Priorities]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Return to [[Law of Priorities]] - name the few that matter; cut the rest.
+level_1: "Activity without accomplishment means filling the day while the real priorities never get a number."
+level_2: "Like rearranging chairs during a fire drill, motion looks useful and changes nothing that matters."
+level_3: "Before you open the inbox, write the top three outcomes for the day - activity starts after the list."
+level_4: "Many tasks with no first thing leave the better portion untouched - busyness is not the win."
+level_5: "Return to [[Law of Priorities]] - number what matters; protect the few against the flood of busy."
+examples:
+  - "I closed forty tickets and missed the one client save - activity looked like a win on the dashboard."
+  - "All-day Slack while the launch checklist sat - busy hands, empty accomplishment."
+shareable_thought:
+  - "Activity without accomplishment keeps hands busy while numbered priorities stay untouched."
+  - "Busy hands replace numbered priorities - activity masquerades as accomplishment."
+  - "Before you open the inbox, write the top three outcomes for the day - activity starts after the list."
+  - "Many tasks with no first thing leave the better portion untouched - busyness is not the win."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Priorities]]"
+    reason: "Failure mode when busy hands replace numbered priorities"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Priorities"
+  - type: extends
+    wikilink: "[[Law of Priorities]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal priorities failure sits under the leadership stack"
+  - type: extends
+    wikilink: "[[Outcomes Over Pitch Decks]]"
+    reason: "Outcomes beat activity theater"
+slug: "activity-without-accomplishment"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management", "Focus"]
+aliases: ["activity without accomplishment"]
+featured: false
+draft: false
+---
+'''
+
+files["climb-without-cost.md"] = '''---
+title: "Climb Without Cost"
+meta_title: "Climb Without Cost - Wanting Up Without Giving Up"
+description: "Climb without cost wants the higher seat without paying the personal toll leadership requires."
+key_concept: |
+  - Want to go up without giving up and the toll booth stops you - sacrifice is the price of the climb.
+  - Failure mode of [[Law of Sacrifice]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Practice [[Law of Sacrifice]] - name the comfort you will lay down before you ask for the seat.
+level_1: "Climb without cost means wanting more influence while refusing the personal price that comes with it."
+level_2: "Like demanding a summit photo without the hike, the title request arrives with empty hands."
+level_3: "Before you ask for the next level, name one comfort you will lay down this month so the team can advance."
+level_4: "Seats of honor without the cup of cost hit the toll booth - up requires a down payment."
+level_5: "Practice [[Law of Sacrifice]] - give up to go up; the climb is real only when the cost is paid."
+examples:
+  - "I wanted the director title and kept every Friday golf block - the climb stalled at the cost I refused."
+  - "I asked for the lead role and would not drop the side projects - up without a down payment."
+shareable_thought:
+  - "Climb without cost wants the higher seat without paying the personal toll leadership requires."
+  - "Want to go up without giving up and the toll booth stops you - sacrifice is the price of the climb."
+  - "Before you ask for the next level, name one comfort you will lay down this month so the team can advance."
+  - "Seats of honor without the cup of cost hit the toll booth - up requires a down payment."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Sacrifice]]"
+    reason: "Failure mode when leaders want up without giving up"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Sacrifice"
+  - type: extends
+    wikilink: "[[Law of Sacrifice]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Servant Leadership]]"
+    reason: "Repair path - pay the toll that serves the team upward"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal sacrifice failure sits under the leadership stack"
+slug: "climb-without-cost"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management"]
+aliases: ["climb without cost"]
+featured: false
+draft: false
+---
+'''
+
+files["right-move-wrong-time.md"] = '''---
+title: "Right Move Wrong Time"
+meta_title: "Right Move Wrong Time - Action That Misses the Clock"
+description: "Right move wrong time means the action was sound and the clock was wrong - timing turns success into loss."
+key_concept: |
+  - Right action on the wrong clock still loses - when to lead matters as much as what to do.
+  - Failure mode of [[Law of Timing]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Practice [[Law of Timing]] - wait or move with the clock, not only with the idea.
+level_1: "Right move wrong time means doing a sound action when the moment cannot support it."
+level_2: "Like planting seed in frost, the seed is fine and the season kills the crop."
+level_3: "Before you force the launch, ask what must be true this week for the same move to land."
+level_4: "Urgency that jumps the wait can cost the lasting trust the right clock would have kept."
+level_5: "Practice [[Law of Timing]] - check the clock before you lock the move; right action still needs the season."
+examples:
+  - "We shipped the feature during the freeze window - right code, wrong week."
+  - "I forced the reorg the week after layoffs - the move was planned, the timing spent the room."
+shareable_thought:
+  - "Right move wrong time means the action was sound and the clock was wrong - timing turns success into loss."
+  - "Right action on the wrong clock still loses - when to lead matters as much as what to do."
+  - "Before you force the launch, ask what must be true this week for the same move to land."
+  - "Urgency that jumps the wait can cost the lasting trust the right clock would have kept."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Timing]]"
+    reason: "Failure mode when the clock is wrong even if the move is right"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Timing"
+  - type: extends
+    wikilink: "[[Law of Timing]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Law of Navigation]]"
+    reason: "Chart includes when, not only where"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal timing failure sits under the leadership stack"
+slug: "right-move-wrong-time"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management"]
+aliases: ["right move wrong time"]
+featured: false
+draft: false
+---
+'''
+
+files["followers-without-leaders.md"] = '''---
+title: "Followers Without Leaders"
+meta_title: "Followers Without Leaders - Addition That Dies When You Leave"
+description: "Followers without leaders means you only add bodies - growth dies when you leave the room."
+key_concept: |
+  - Only make followers and addition grows slowly - it dies when you leave the room.
+  - Failure mode of [[Law of Explosive Growth]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Practice [[Law of Explosive Growth]] with [[Invest in the Few]] - raise leaders who raise leaders.
+level_1: "Followers without leaders means headcount grows while nobody else can teach, decide, or multiply."
+level_2: "Like a shop with one trained cook, lunch rushes stall the moment that person steps out."
+level_3: "Teach one person your full playbook this quarter - judgment calls included, not only task dumps."
+level_4: "A one-person bottleneck is addition theater - multiplication needs leaders who spawn leaders."
+level_5: "Practice [[Law of Explosive Growth]] with [[Invest in the Few]] - raise leaders; stop being the only teacher."
+examples:
+  - "I mentored nobody and hired six - when I took leave, the queue froze."
+  - "Every decision still needed me on Slack - followers grew, leaders did not."
+shareable_thought:
+  - "Followers without leaders means you only add bodies - growth dies when you leave the room."
+  - "Only make followers and addition grows slowly - it dies when you leave the room."
+  - "Teach one person your full playbook this quarter - judgment calls included, not only task dumps."
+  - "A one-person bottleneck is addition theater - multiplication needs leaders who spawn leaders."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Explosive Growth]]"
+    reason: "Failure mode when leaders only make followers"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Explosive Growth"
+  - type: extends
+    wikilink: "[[Law of Explosive Growth]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Invest in the Few]]"
+    reason: "Repair path - depth first so multiplication has leaders to send"
+  - type: extends
+    wikilink: "[[Hoarding All Power]]"
+    reason: "Same bottleneck - power and teaching both stay with one person"
+slug: "followers-without-leaders"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management"]
+aliases: ["followers without leaders"]
+featured: false
+draft: false
+---
+'''
+
+files["no-successor-left.md"] = '''---
+title: "No Successor Left"
+meta_title: "No Successor Left - Influence That Dies With You"
+description: "No successor left means lasting value dies with you - legacy is measured by who carries the work after."
+key_concept: |
+  - Build a personal brand with no baton and the work dies when you leave.
+  - Failure mode of [[Law of Legacy]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Build [[Law of Legacy]] - name a successor and hand a real baton piece this quarter.
+level_1: "No successor left means the work has no one prepared to carry it when the leader steps away."
+level_2: "Like a shop that closes when the owner retires, skill lived in one head and never transferred."
+level_3: "Name your succession person this quarter and give them one real baton piece, not a shadow seat."
+level_4: "When knowledge dies with the leader, lasting value was never transferred - legacy is succession, not a monument."
+level_5: "Build [[Law of Legacy]] - pass the work on; succession is the final exam, not a farewell speech."
+examples:
+  - "I left the role and nothing moved - no successor left because I had never handed the baton."
+  - "The runbook lived only in my head - the next lead spent a month rediscovering what I never taught."
+shareable_thought:
+  - "No successor left means lasting value dies with you - legacy is measured by who carries the work after."
+  - "Build a personal brand with no baton and the work dies when you leave."
+  - "Name your succession person this quarter and give them one real baton piece, not a shadow seat."
+  - "When knowledge dies with the leader, lasting value was never transferred - legacy is succession, not a monument."
+relationships:
+  - type: contradicts
+    wikilink: "[[Law of Legacy]]"
+    reason: "Failure mode when nobody carries the work after you"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Legacy"
+  - type: extends
+    wikilink: "[[Law of Legacy]]"
+    reason: "Named cost when that leadership law is ignored"
+  - type: extends
+    wikilink: "[[Followers Without Leaders]]"
+    reason: "No leaders raised means no successor left either"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal legacy failure sits under the leadership stack"
+slug: "no-successor-left"
+date: "2026-08-02 18:40:00+08:00"
+image: "/images/note.jpg"
+categories: ["Leadership"]
+author: "JoRap"
+tags: ["Leadership", "Work", "Management"]
+aliases: ["no successor left"]
+featured: false
+draft: false
+---
+'''
+
+for name, content in files.items():
+    (notes / name).write_text(content)
+    print("wrote", name)
+print("batch4 done")
+PY
+```
+
+```
+wrote activity-without-accomplishment.md
+wrote climb-without-cost.md
+wrote right-move-wrong-time.md
+wrote followers-without-leaders.md
+wrote no-successor-left.md
+batch4 done
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying all 20 notes are Leadership category and free of Bible or Free Grace content.
+
+Confirmed title-without-influence is correct. Checking that Outcomes Over Pitch Decks exists. Will run lint. Need to fix the wikilink for the Inner Circle law.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "law-of-the-inner-circle.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-the-inner-circle.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "law-of-the-big-mo.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title:|aliases:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title:|aliases:",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/law-of-the-big-mo.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `content/english/notes/outcomes-over-pitch-decks.md` |
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+from pathlib import Path
+import re
+violations = [
+&#34;low-leadership-lid&#34;,&#34;title-without-influence&#34;,&#34;skipped-daily-process&#34;,&#34;steering-without-chart&#34;,
+&#34;leading-by-subtraction&#34;,&#34;trust-already-cracked&#34;,&#34;demanding-unearned-respect&#34;,&#34;blind-leadership-calls&#34;,
+&#34;toxic-magnet-pull&#34;,&#34;hand-before-heart&#34;,&#34;weak-inner-circle&#34;,&#34;hoarding-all-power&#34;,&#34;do-as-i-say&#34;,
+&#34;vision-without-trust&#34;,&#34;settling-for-loss&#34;,&#34;fighting-dead-momentum&#34;,&#34;activity-without-accomplishment&#34;,
+&#34;climb-without-cost&#34;,&#34;right-move-wrong-time&#34;,&#34;followers-without-leaders&#34;,&#34;no-successor-left&#34;,
+]
+root = Path(&#34;content/english/notes&#34;)
+problems = []
+for slug in violations:
+    text = (root/f&#34;{slug}.md&#34;).read_text()
+    if &#39;bible ref=&#39; in text:
+        problems.append(f&#34;{slug}: still has bible&#34;)
+    if &#39;[[Free Grace]]&#39; in text:
+        problems.append(f&#34;{slug}: still has Free Grace&#34;)
+    if &#39;categories: [&#34;Faith&#34;]&#39; in text:
+        problems.append(f&#34;{slug}: still Faith category&#34;)
+    if &#39;&#34;Faith&#34;&#39; in text and &#39;tags:&#39; in text:
+        # check tags line
+        m = re.search(r&#39;tags: \[([^\]]+)\]&#39;, text)
+        if m and &#39;Faith&#39; in m.group(1):
+            problems.append(f&#34;{slug}: Faith tag {m.group(1)}&#34;)
+    if &#39;categories: [&#34;Leadership&#34;]&#39; not in text:
+        problems.append(f&#34;{slug}: not Leadership category&#34;)
+print(&#34;problems:&#34;, len(problems))
+for p in problems:
+    print(p)
+
+# verify missing verses now in law notes
+missing_check = [
+(&#34;law-of-process&#34;,&#34;1 Samuel 13:8-14&#34;),
+(&#34;law-of-the-picture&#34;,&#34;Matthew 23:1-4&#34;),
+(&#34;law-of-buy-in&#34;,&#34;Numbers 14:1-4&#34;),
+(&#34;law-of-victory&#34;,&#34;1 Samuel 17:10-11&#34;),
+(&#34;law-of-sacrifice&#34;,&#34;Mark 10:37-40&#34;),
+(&#34;law-of-explosive-growth&#34;,&#34;Exodus 18:17-23&#34;),
+(&#34;law-of-legacy&#34;,&#34;Judges 2:7-10&#34;),
+]
+for law, ref in missing_check:
+    text = (root/f&#34;{law}.md&#34;).read_text()
+    print((&#34;OK&#34; if f&#39;ref=&#34;{ref}&#34;&#39; in text else &#34;MISS&#34;), law, ref)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+from pathlib import Path
+import re
+violations = [
+"low-leadership-lid","title-without-influence","skipped-daily-process","steering-without-chart",
+"leading-by-subtraction","trust-already-cracked","demanding-unearned-respect","blind-leadership-calls",
+"toxic-magnet-pull","hand-before-heart","weak-inner-circle","hoarding-all-power","do-as-i-say",
+"vision-without-trust","settling-for-loss","fighting-dead-momentum","activity-without-accomplishment",
+"climb-without-cost","right-move-wrong-time","followers-without-leaders","no-successor-left",
+]
+root = Path("content/english/notes")
+problems = []
+for slug in violations:
+    text = (root/f"{slug}.md").read_text()
+    if 'bible ref=' in text:
+        problems.append(f"{slug}: still has bible")
+    if '[[Free Grace]]' in text:
+        problems.append(f"{slug}: still has Free Grace")
+    if 'categories: ["Faith"]' in text:
+        problems.append(f"{slug}: still Faith category")
+    if '"Faith"' in text and 'tags:' in text:
+        # check tags line
+        m = re.search(r'tags: \[([^\]]+)\]', text)
+        if m and 'Faith' in m.group(1):
+            problems.append(f"{slug}: Faith tag {m.group(1)}")
+    if 'categories: ["Leadership"]' not in text:
+        problems.append(f"{slug}: not Leadership category")
+print("problems:", len(problems))
+for p in problems:
+    print(p)
+
+# verify missing verses now in law notes
+missing_check = [
+("law-of-process","1 Samuel 13:8-14"),
+("law-of-the-picture","Matthew 23:1-4"),
+("law-of-buy-in","Numbers 14:1-4"),
+("law-of-victory","1 Samuel 17:10-11"),
+("law-of-sacrifice","Mark 10:37-40"),
+("law-of-explosive-growth","Exodus 18:17-23"),
+("law-of-legacy","Judges 2:7-10"),
+]
+for law, ref in missing_check:
+    text = (root/f"{law}.md").read_text()
+    print(("OK" if f'ref="{ref}"' in text else "MISS"), law, ref)
+PY
+```
+
+```
+problems: 0
+OK law-of-process 1 Samuel 13:8-14
+OK law-of-the-picture Matthew 23:1-4
+OK law-of-buy-in Numbers 14:1-4
+OK law-of-victory 1 Samuel 17:10-11
+OK law-of-sacrifice Mark 10:37-40
+OK law-of-explosive-growth Exodus 18:17-23
+OK law-of-legacy Judges 2:7-10
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the title-without-influence hub wording to match the pattern. Running garden lint on the changed notes.
+
+Verified the "Law of Inner Circle" wikilink is correct. Fixed the trust meta_title. Confirmed title-without-influence was already converted. Will run lint:voice and lint:slop.
+
+Checking shareable_thought lint for missing source fields. Verified fighting-dead-momentum references the correct "Law of Big Mo" title. Running pnpm lint across the notes. Dangling Free Grace links from other notes to these violation notes likely need updating.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Running garden lint on the converted notes and checking for broken wikilinks.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/notes/low-leadership-lid.md content/english/notes/skipped-daily-process.md content/english/notes/steering-without-chart.md content/english/notes/leading-by-subtraction.md content/english/notes/trust-already-cracked.md content/english/notes/demanding-unearned-respect.md content/english/notes/blind-leadership-calls.md content/english/notes/toxic-magnet-pull.md content/english/notes/hand-before-heart.md content/english/notes/weak-inner-circle.md content/english/notes/hoarding-all-power.md content/english/notes/do-as-i-say.md content/english/notes/vision-without-trust.md content/english/notes/settling-for-loss.md content/english/notes/fighting-dead-momentum.md content/english/notes/activity-without-accomplishment.md content/english/notes/climb-without-cost.md content/english/notes/right-move-wrong-time.md content/english/notes/followers-without-leaders.md content/english/notes/no-successor-left.md content/english/notes/law-of-process.md content/english/notes/law-of-the-picture.md content/english/notes/law-of-buy-in.md content/english/notes/law-of-victory.md content/english/notes/law-of-sacrifice.md content/english/notes/law-of-explosive-growth.md content/english/notes/law-of-legacy.md 2&gt;&amp;1 | tail -80</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/notes/low-leadership-lid.md content/english/notes/skipped-daily-process.md content/english/notes/steering-without-chart.md content/english/notes/leading-by-subtraction.md content/english/notes/trust-already-cracked.md content/english/notes/demanding-unearned-respect.md content/english/notes/blind-leadership-calls.md content/english/notes/toxic-magnet-pull.md content/english/notes/hand-before-heart.md content/english/notes/weak-inner-circle.md content/english/notes/hoarding-all-power.md content/english/notes/do-as-i-say.md content/english/notes/vision-without-trust.md content/english/notes/settling-for-loss.md content/english/notes/fighting-dead-momentum.md content/english/notes/activity-without-accomplishment.md content/english/notes/climb-without-cost.md content/english/notes/right-move-wrong-time.md content/english/notes/followers-without-leaders.md content/english/notes/no-successor-left.md content/english/notes/law-of-process.md content/english/notes/law-of-the-picture.md content/english/notes/law-of-buy-in.md content/english/notes/law-of-victory.md content/english/notes/law-of-sacrifice.md content/english/notes/law-of-explosive-growth.md content/english/notes/law-of-legacy.md 2>&1 | tail -80
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check -- content/english/notes/low-leadership-lid.md content/english/notes/skipped-daily-process.md content/english/notes/steering-without-chart.md content/english/notes/leading-by-subtraction.md content/english/notes/trust-already-cracked.md content/english/notes/demanding-unearned-respect.md content/english/notes/blind-leadership-calls.md content/english/notes/toxic-magnet-pull.md content/english/notes/hand-before-heart.md content/english/notes/weak-inner-circle.md content/english/notes/hoarding-all-power.md content/english/notes/do-as-i-say.md content/english/notes/vision-without-trust.md content/english/notes/settling-for-loss.md content/english/notes/fighting-dead-momentum.md content/english/notes/activity-without-accomplishment.md content/english/notes/climb-without-cost.md content/english/notes/right-move-wrong-time.md content/english/notes/followers-without-leaders.md content/english/notes/no-successor-left.md content/english/notes/law-of-process.md content/english/notes/law-of-the-picture.md content/english/notes/law-of-buy-in.md content/english/notes/law-of-victory.md content/english/notes/law-of-sacrifice.md content/english/notes/law-of-explosive-growth.md content/english/notes/law-of-legacy.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "\"lint:garden\"|\"lint:slop\"|\"lint:links\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "\"lint:garden\"|\"lint:slop\"|\"lint:links\"",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "package.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Voice lint passed. Now running garden frontmatter lint and shareable thought checks.
+
+The full garden lint may be too heavy. I'll run only the frontmatter and slop notes checks instead.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg -i &#39;low-leadership|skipped-daily|steering-without|leading-by|trust-already|demanding-unearned|blind-leadership|toxic-magnet|hand-before|weak-inner|hoarding-all|do-as-i-say|vision-without|settling-for|fighting-dead|activity-without|climb-without|right-move|followers-without|no-successor|law-of-process|law-of-the-picture|law-of-buy|law-of-victory|law-of-sacrifice|law-of-explosive|law-of-legacy|error|FAIL|failed&#39; | head -60; echo EXIT:$?; node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only 2&gt;&amp;1 | rg -i &#39;low-leadership|skipped-daily|steering-without|leading-by|trust-already|demanding-unearned|blind-leadership|toxic-magnet|hand-before|weak-inner|hoarding-all|do-as-i-say|vision-without|settling-for|fighting-dead|activity-without|climb-without|right-move|followers-without|no-successor|FAIL|error&#39; | head -40; echo SLOP:$?</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2>&1 | rg -i 'low-leadership|skipped-daily|steering-without|leading-by|trust-already|demanding-unearned|blind-leadership|toxic-magnet|hand-before|weak-inner|hoarding-all|do-as-i-say|vision-without|settling-for|fighting-dead|activity-without|climb-without|right-move|followers-without|no-successor|law-of-process|law-of-the-picture|law-of-buy|law-of-victory|law-of-sacrifice|law-of-explosive|law-of-legacy|error|FAIL|failed' | head -60; echo EXIT:$?; node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only 2>&1 | rg -i 'low-leadership|skipped-daily|steering-without|leading-by|trust-already|demanding-unearned|blind-leadership|toxic-magnet|hand-before|weak-inner|hoarding-all|do-as-i-say|vision-without|settling-for|fighting-dead|activity-without|climb-without|right-move|followers-without|no-successor|FAIL|error' | head -40; echo SLOP:$?
+```
+
+```
+FAIL description in key_concept (Ask for a hand before you touch a heart and the ask feels li…): hand-before-heart.md
+1 note(s) failed frontmatter lint
+EXIT:1
+SLOP:1
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The hand-before-heart entry has a description echo issue. Its key_concept line duplicates the description too closely, or a rule prevents description from appearing there.
+
+The hand-before-heart description and key_concept share the phrase "the ask feels like use, not leadership." I will differentiate them. The slop exit code may be caused by unrelated pre-existing issues.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | tail -20; echo &#39;---&#39;; node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only 2&gt;&amp;1 | tail -40</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2>&1 | tail -20; echo '---'; node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only 2>&1 | tail -40
+```
+
+```
+FAIL description in key_concept (Ask for a hand before you touch a heart and the ask feels li…): hand-before-heart.md
+
+1 note(s) failed frontmatter lint
+---
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 5,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "description in key_concept|shareable"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "description in key_concept|shareable",
+  "topFiles": [
+    {
+      "matchCount": 67,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 22
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The description field must be distinguished from the key_concept line.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/hand-before-heart.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg -i &#39;hand-before|FAIL|failed|OK&#39; | head -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2>&1 | rg -i 'hand-before|FAIL|failed|OK' | head -20
+```
+
+```
+Note frontmatter lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The shareable_thought line 2 still contains outdated key_concept text. It must be updated to echo from the principle fields.
+
+Frontmatter lint confirms shareable generation still works. The hand-before-heart line 2 must be updated to match the new key_concept. A title-without-influence tweak is optional.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/hand-before-heart.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/lint-utility-wikilinks.py 2&gt;&amp;1 | rg -i &#39;low-leadership|skipped-daily|steering|leading-by|trust-already|demanding|blind-leadership|toxic-magnet|hand-before|weak-inner|hoarding|do-as-i-say|vision-without|settling|fighting-dead|activity-without|climb-without|right-move|followers-without|no-successor|FAIL|dangling|broken&#39; | head -40; echo EXIT:$?; node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py 2>&1 | rg -i 'low-leadership|skipped-daily|steering|leading-by|trust-already|demanding|blind-leadership|toxic-magnet|hand-before|weak-inner|hoarding|do-as-i-say|vision-without|settling|fighting-dead|activity-without|climb-without|right-move|followers-without|no-successor|FAIL|dangling|broken' | head -40; echo EXIT:$?; node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2>&1 | tail -5
+```
+
+```
+EXIT:1
+Note frontmatter lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Map violation→law verse gaps; add missing verses to law notes",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Convert 20 faith violation notes to Leadership/workplace (non-faith)",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Align title-without-influence hub wording; lint voice/garden",
+      "id": "3",
+      "status": "in_progress"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Map violation→law verse gaps; add missing verses to law notes",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Convert 20 faith violation notes to Leadership/workplace (non-faith)",
+      "id": "2",
+      "status": "in_progress"
+    },
+    {
+      "content": "Align title-without-influence hub wording; lint voice/garden",
+      "id": "3",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The wikilink linter failed with exit code 1 but found no matches. These appear to be pre-existing issues.
+
+Checking for dangling links in the notes.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/lint-utility-wikilinks.py 2&gt;&amp;1 | tail -30</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py 2>&1 | tail -30
+```
+
+```
+Utility wikilinks OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/title-without-influence.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether renaming the title-without-influence key concept could trigger a description overlap lint error.
+
+Removed a self-referential bullet. Verifying frontmatter lint remains valid after the title-without-influence change.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | tail -5 &amp;&amp; node scripts/runPython.mjs scripts/voice-lint.py garden --check 2&gt;&amp;1 | tail -10 &amp;&amp; pnpm lint:filenames 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2>&1 | tail -5 && node scripts/runPython.mjs scripts/voice-lint.py garden --check 2>&1 | tail -10 && pnpm lint:filenames 2>&1 | tail -5
+```
+
+```
+Note frontmatter lint OK
+Garden voice lint:
+  content/english/notes/do-as-i-say.md: description: first-person (Do as I say fails when the walk contradicts the speech - people copy what they s)
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Map violation→law verse gaps; add missing verses to law notes",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Convert 20 faith violation notes to Leadership/workplace (non-faith)",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Align title-without-influence hub wording; lint voice/garden",
+      "id": "3",
+      "status": "completed"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Map violation→law verse gaps; add missing verses to law notes",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Convert 20 faith violation notes to Leadership/workplace (non-faith)",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Align title-without-influence hub wording; lint voice/garden",
+      "id": "3",
+      "status": "in_progress"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The phrase "Do as I say" is being incorrectly flagged as first-person because of the word "I".
+
+The description needs rephrasing to remove the pronoun "I".
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/voice-lint.py garden --check 2&gt;&amp;1 | rg &#39;content/english/notes/(low-leadership|title-without|skipped-daily|steering|leading-by|trust-already|demanding|blind-leadership|toxic-magnet|hand-before|weak-inner|hoarding|do-as-i-say|vision-without|settling|fighting-dead|activity-without|climb-without|right-move|followers-without|no-successor|law-of-process|law-of-the-picture|law-of-buy|law-of-victory|law-of-sacrifice|law-of-explosive|law-of-legacy)&#39; | head -40</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/voice-lint.py garden --check 2>&1 | rg 'content/english/notes/(low-leadership|title-without|skipped-daily|steering|leading-by|trust-already|demanding|blind-leadership|toxic-magnet|hand-before|weak-inner|hoarding|do-as-i-say|vision-without|settling|fighting-dead|activity-without|climb-without|right-move|followers-without|no-successor|law-of-process|law-of-the-picture|law-of-buy|law-of-victory|law-of-sacrifice|law-of-explosive|law-of-legacy)' | head -40
+```
+
+```
+  content/english/notes/do-as-i-say.md: description: first-person (Do-as-I-say leadership fails when the walk contradicts the speech - people copy )
+  content/english/notes/do-as-i-say.md: examples: count=0
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/do-as-i-say.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+A StrReplace accidentally removed key_concept, levels, and examples.
+
+Fixing the file now.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+I accidentally stripped fields from `do-as-i-say.md` — restoring them now.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/do-as-i-say.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I need to restore the full file first.
+
+The description contains "I" which triggers the first-person detector. I'll rewrite it to avoid the letter I entirely.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/do-as-i-say.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Level_1 still contains "Do as I say" with first-person pronouns. These may need to be flagged as non-faith notes.
+
+Garden voice may only check descriptions. Running lint again.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | tail -3 &amp;&amp; node scripts/runPython.mjs scripts/voice-lint.py garden --check 2&gt;&amp;1 | rg &#39;content/english/notes/(low-leadership|title-without|skipped-daily|steering|leading-by|trust-already|demanding|blind-leadership|toxic-magnet|hand-before|weak-inner|hoarding|do-as-i-say|vision-without|settling|fighting-dead|activity-without|climb-without|right-move|followers-without|no-successor)&#39; | head -40; echo EXIT:$?</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2>&1 | tail -3 && node scripts/runPython.mjs scripts/voice-lint.py garden --check 2>&1 | rg 'content/english/notes/(low-leadership|title-without|skipped-daily|steering|leading-by|trust-already|demanding|blind-leadership|toxic-magnet|hand-before|weak-inner|hoarding|do-as-i-say|vision-without|settling|fighting-dead|activity-without|climb-without|right-move|followers-without|no-successor)' | head -40; echo EXIT:$?
+```
+
+```
+Note frontmatter lint OK
+EXIT:1
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The garden voice check returned exit code 1, but no matches were found in the target files. These appear to be pre-existing issues unrelated to the current conversion.
+
+The notes are clean. I should verify whether the title-without-influence frontmatter still references old content after editing.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg &#39;title-without|FAIL&#39; | head -10; node scripts/runPython.mjs -c &#34;
+from pathlib import Path
+import re
+# quick: any Faith left in violation partners
+from pathlib import Path
+violations = &#39;&#39;&#39;low-leadership-lid title-without-influence skipped-daily-process steering-without-chart leading-by-subtraction trust-already-cracked demanding-unearned-respect blind-leadership-calls toxic-magnet-pull hand-before-heart weak-inner-circle hoarding-all-power do-as-i-say vision-without-trust settling-for-loss fighting-dead-momentum activity-without-accomplishment climb-without-cost right-move-wrong-time followers-without-leaders no-successor-left&#39;&#39;&#39;.split()
+root = Path(&#39;content/english/notes&#39;)
+for s in violations:
+    t = (root/f&#39;{s}.md&#39;).read_text()
+    assert &#39;categories: [\&#34;Leadership\&#34;]&#39; in t, s
+    assert &#39;bible ref=&#39; not in t, s
+    assert &#39;[[Free Grace]]&#39; not in t, s
+print(&#39;all 21 violations are Leadership, no bible, no Free Grace&#39;)
+&#34; 2&gt;&amp;1 || python3 -c &#34;
+from pathlib import Path
+violations = &#39;&#39;&#39;low-leadership-lid title-without-influence skipped-daily-process steering-without-chart leading-by-subtraction trust-already-cracked demanding-unearned-respect blind-leadership-calls toxic-magnet-pull hand-before-heart weak-inner-circle hoarding-all-power do-as-i-say vision-without-trust settling-for-loss fighting-dead-momentum activity-without-accomplishment climb-without-cost right-move-wrong-time followers-without-leaders no-successor-left&#39;&#39;&#39;.split()
+root = Path(&#39;content/english/notes&#39;)
+for s in violations:
+    t = (root/f&#39;{s}.md&#39;).read_text()
+    assert &#39;categories: [\&#34;Leadership\&#34;]&#39; in t, s
+    assert &#39;bible ref=&#39; not in t, s
+    assert &#39;[[Free Grace]]&#39; not in t, s
+print(&#39;all 21 violations are Leadership, no bible, no Free Grace&#39;)
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2>&1 | rg 'title-without|FAIL' | head -10; node scripts/runPython.mjs -c "
+from pathlib import Path
+import re
+# quick: any Faith left in violation partners
+from pathlib import Path
+violations = '''low-leadership-lid title-without-influence skipped-daily-process steering-without-chart leading-by-subtraction trust-already-cracked demanding-unearned-respect blind-leadership-calls toxic-magnet-pull hand-before-heart weak-inner-circle hoarding-all-power do-as-i-say vision-without-trust settling-for-loss fighting-dead-momentum activity-without-accomplishment climb-without-cost right-move-wrong-time followers-without-leaders no-successor-left'''.split()
+root = Path('content/english/notes')
+for s in violations:
+    t = (root/f'{s}.md').read_text()
+    assert 'categories: [\"Leadership\"]' in t, s
+    assert 'bible ref=' not in t, s
+    assert '[[Free Grace]]' not in t, s
+print('all 21 violations are Leadership, no bible, no Free Grace')
+" 2>&1 || python3 -c "
+from pathlib import Path
+violations = '''low-leadership-lid title-without-influence skipped-daily-process steering-without-chart leading-by-subtraction trust-already-cracked demanding-unearned-respect blind-leadership-calls toxic-magnet-pull hand-before-heart weak-inner-circle hoarding-all-power do-as-i-say vision-without-trust settling-for-loss fighting-dead-momentum activity-without-accomplishment climb-without-cost right-move-wrong-time followers-without-leaders no-successor-left'''.split()
+root = Path('content/english/notes')
+for s in violations:
+    t = (root/f'{s}.md').read_text()
+    assert 'categories: [\"Leadership\"]' in t, s
+    assert 'bible ref=' not in t, s
+    assert '[[Free Grace]]' not in t, s
+print('all 21 violations are Leadership, no bible, no Free Grace')
+"
+```
+
+```
+[runPython] not found: /home/jorap/Documents/GitHub/jorap.com/-c
+all 21 violations are Leadership, no bible, no Free Grace
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+All violation notes have been converted to non-faith notes. Missing verses were added to the law note.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+All 21 violation partners are now Leadership/workplace notes (no Faith category, no `{{< bible >}}`, no Free Grace framing). `title-without-influence` was already non-faith; the other 20 were converted.
+
+**Verses moved into law notes** (were only on the violation side):
+- [[Law of Process]] ← `1 Samuel 13:8-14`
+- [[Law of the Picture]] ← `Matthew 23:1-4`
+- [[Law of Buy-In]] ← `Numbers 14:1-4`
+- [[Law of Victory]] ← `1 Samuel 17:10-11`
+- [[Law of Sacrifice]] ← `Mark 10:37-40`
+- [[Law of Explosive Growth]] ← `Exodus 18:17-23`
+- [[Law of Legacy]] ← `Judges 2:7-10`
+
+The other 13 violation verses were already covered by broader spans on their law notes.
+
+## Session close
+- Fixed: Converted 20 faith violation notes to Leadership lane and added 7 missing verses to paired law notes.
+- Encode: none
+- Open: clean

@@ -2787,4 +2787,345 @@ The second group of seven Maxwell laws covers people leadership. The third group
 Three Leadership-style names sound awkward. Considering shorter labels instead: Leadership, Influence, and Legacy. Lead Self, Lead Others, and Lead Results were rejected as too long.
 
 Decided on Leadership, Influence, and Legacy for the three Maxwell law sets to match the existing skill style. Now tallying the remaining Discipleship notes, including cost, cross, narrow way, wise builder, great commission, weary, light, follow, invest, and humility. Sanctification and Walk are next.
+
+Sanctification is trimmed to seven notes for 42 cards. The remaining three notes will move elsewhere. Ethics is 78 cards and will split into two sets of roughly six to seven notes.
+
+The first Ethics set covers forgiveness, love-your-enemies, turn-the-other-cheek, judge-not, reconciliation-before-worship, peacemakers, and mercy. It totals 42 cards. The second Ethics set covers heart-righteousness, let-your-yes-be-yes, the-golden-rule, by-their-fruits, words-that-build-up, and discipleship-vs-leadership. It totals 36 cards. Naming options include Mercy and Integrity.
+
+Integrity is now fixed at 30 cards across five notes. The discipleship-vs-leadership note will move to either Leadership or Discipleship.
+
+Jesus Rhythms totals 72 cards and will split into two 36-card sets. The first set includes prayer rhythms such as pray-before-you-choose, pray-when-drained, and withdraw-to-pray. These may overlap with Prayer and could merge with it.
+
+Prayer alone is only 18 cards, so its notes will likely fold into Jesus Prayers.
+
+Prayer will absorb six rhythm notes and grow to 36 cards. Jesus Prayers remains the 42-card prayed-words lane. The remaining nine rhythm notes still exceed the 48-card limit, so they will be split into another set.
+
+Rhythms will split into two sets. One covers Scripture with four notes at 24 cards. The other covers mission and compassion with five notes at 30 cards. Considering names like Word and Mission or Scripture and Jesus Rhythms.
+
+Commandments total 12 cards. They will merge into Love, Ethics, or Community.
+
+Commandments will merge into a new **Love** set of six notes at 36 cards. The Galatians **Fruit** cluster keeps its own **love** note.
+
+Civic notes will merge into Discipleship, Priorities, or Ethics. Childlike-faith is moving from Faith to Discipleship as an entry posture for following.
+
+Discipleship is now fixed at exactly 48 cards across eight notes. The remaining seven discipleship notes—let-your-light-shine, follow-christ-then-lead, humility-and-service, discern-his-will-daily, dont-copy-the-pattern, guard-your-heart, and invest-in-the-few—will form a new set. Considering names like Obedience or Witness.
+
+The remaining seven Discipleship notes will form a new **Obedience** set of 36 cards. **Community** is fixed at 30 cards across five notes. **Stewardship** is fixed at 36 cards across six notes. **Priorities** is fixed at 24 cards across four notes. The three **Leadership** sets are each locked at 42 cards.
+
+Finalized the three Leadership sets as **Leadership**, **Influence**, and **Legacy**. The People set is now named **Influence**. Still deciding whether to place follow-christ-then-lead and discipleship-vs-leadership into Leadership or Obedience.
+
+discipleship-vs-leadership joins Leadership foundation as the eighth note, locking that set at 48 cards. The remaining seven Ethics notes form a second Ethics set of 42 cards. Prayer is finalized at 36 cards across six notes.
+
+Civic leftovers will join Priorities, bringing that set to six notes and 36 cards.
+
+Obedience is finalized at six notes and 36 cards. A full tally of all ten sets is underway.
+
+All seventeen sets now have exact card counts. The grand total is 110 cards. The final list is:
+
+- Faith 44
+- Fruit 48
+- Sanctification 42
+- Discipleship 48
+- Obedience 36
+- Community 30
+- Stewardship 36
+- Priorities 36
+- Leadership 48
+- Influence 42
+- Legacy 42
+- Love 36
+- Ethics 42
+- Prayer 36
+- Jesus Prayers 42
+- Scripture 24
+- Jesus Rhythms 30
+
+A mapping script will generate the final files. Lint, skill definitions, flashcards.md, and Anki exports will be updated. The EP+Faith archetype stays. Secondary sets target 24–48 cards. follow-christ-then-lead belongs in Obedience. guard-your-heart belongs in Obedience. discipleship-vs-leadership belongs in Leadership.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+Designing ~17 secondaries in the 24–48 band, then applying the remaps.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/regroup-flashcard-sets-size.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Running the script now. Will update lint and skill next. Considering whether to delete the archive script afterward, following the previous pattern of removing one-off scripts.
+
+Will delete the archive script after success. Also updating skill, flashcards.md, and linting SECONDARY_SETS.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/archive/regroup-flashcard-sets-size.py &amp;&amp; rm scripts/archive/regroup-flashcard-sets-size.py</summary>
+```bash
+python3 scripts/archive/regroup-flashcard-sets-size.py && rm scripts/archive/regroup-flashcard-sets-size.py
+```
+
+```
+Updated 70 notes
+  Discipleship: 48
+  Fruit: 48
+  Leadership: 48
+  Faith: 44
+  Ethics: 42
+  Influence: 42
+  Jesus Prayers: 42
+  Legacy: 42
+  Sanctification: 42
+  Love: 36
+  Obedience: 36
+  Prayer: 36
+  Priorities: 36
+  Stewardship: 36
+  Community: 30
+  Jesus Rhythms: 30
+  Scripture: 24
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+All sets fall within the 24–48 range. Next step is exporting Anki and running lints.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Design secondary sets sized 24-48 cards",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Reassign card_sets on all active notes",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Update lint enum + flashcards skill/docs",
+      "id": "3",
+      "status": "completed"
+    },
+    {
+      "content": "Export Anki + run lint/audit/voice checks",
+      "id": "4",
+      "status": "in_progress"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Design secondary sets sized 24-48 cards",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Reassign card_sets on all active notes",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Update lint enum + flashcards skill/docs",
+      "id": "3",
+      "status": "pending"
+    },
+    {
+      "content": "Export Anki + run lint/audit/voice checks",
+      "id": "4",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: npm run lint:cards &amp;&amp; npm run audit:cards &amp;&amp; npm run export:anki &amp;&amp; npm run lint:agent-config &amp;&amp; npm run lint:voice &amp;&amp; git diff --check -- .cursor/skills/flashcards/SKILL.md content/english/notes scripts/lint-flashcard-frontmatter.py static/exports/jorap-notes-anki.txt</summary>
+```bash
+npm run lint:cards && npm run audit:cards && npm run export:anki && npm run lint:agent-config && npm run lint:voice && git diff --check -- .cursor/skills/flashcards/SKILL.md content/english/notes scripts/lint-flashcard-frontmatter.py static/exports/jorap-notes-anki.txt
+```
+
+```
+
+> jorap-com@2.2.0 lint:cards
+> node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py
+
+Flashcard frontmatter OK
+
+> jorap-com@2.2.0 audit:cards
+> node scripts/runPython.mjs scripts/audit-flashcard-north-star.py
+
+Flashcard north-star audit OK
+
+> jorap-com@2.2.0 export:anki
+> node scripts/runPython.mjs scripts/export-anki-deck.py
+
+Wrote 668 cards to /home/jorap/Documents/GitHub/jorap.com/static/exports/jorap-notes-anki.txt
+
+> jorap-com@2.2.0 lint:agent-config
+> node scripts/lint-agent-config.mjs
+
+agent config OK: 18 skill(s), 8 rule(s), Kilo → .cursor/skills
+
+> jorap-com@2.2.0 lint:voice
+> node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check
+
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Sets with sizes 24–48 have been regrouped. Todo 4 is now complete.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Design secondary sets sized 24-48 cards",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Reassign card_sets on all active notes",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Update lint enum + flashcards skill/docs",
+      "id": "3",
+      "status": "completed"
+    },
+    {
+      "content": "Export Anki + run lint/audit/voice checks",
+      "id": "4",
+      "status": "completed"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Design secondary sets sized 24-48 cards",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Reassign card_sets on all active notes",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Update lint enum + flashcards skill/docs",
+      "id": "3",
+      "status": "completed"
+    },
+    {
+      "content": "Export Anki + run lint/audit/voice checks",
+      "id": "4",
+      "status": "in_progress"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Summarizing the 17 sets with their sizes.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+All 17 secondary sets now sit in the 24–48 band:
+
+| Set | Cards | Set | Cards |
+|---|---:|---|---:|
+| Discipleship | 48 | Fruit | 48 |
+| Leadership | 48 | Faith | 44 |
+| Ethics | 42 | Influence | 42 |
+| Jesus Prayers | 42 | Legacy | 42 |
+| Sanctification | 42 | Love | 36 |
+| Obedience | 36 | Prayer | 36 |
+| Priorities | 36 | Stewardship | 36 |
+| Community | 30 | Jesus Rhythms | 30 |
+| Scripture | 24 | | |
+
+Dropped `Commandments` (too thin). Split the Maxwell laws into Leadership / Influence / Legacy. Lint, skill docs, and Anki export updated.
+
+## Session close
+- Fixed: Regrouped flashcard sets into 24–48 card lanes.
+- Encode: Updated flashcards skill size target and lint enum.
+- Open: clean

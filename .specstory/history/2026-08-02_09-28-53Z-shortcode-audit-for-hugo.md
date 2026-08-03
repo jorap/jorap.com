@@ -1717,5 +1717,242 @@ The user confirmed the practical rule recommendation.
 
 The user likely wants bible and card shortcodes rewritten as self-contained files in layouts/shortcodes/.
 
-The user's "yes" is ambiguous. They may
+The user's "yes" is ambiguous. They may want bible and card kept site-specific rather than rewritten as self-contained shortcodes.
+
+Rewriting bible.html as fully self-contained would be extremely large. It requires massive JSON scripture data, jesus words, and red letter data.
+
+Inlining bible's massive JSON data and card's CSS/JS into a single HTML file is impractical. The safer path is to leave bible and card site-specific, and treat only the embeds folder as portable. I will likely clarify this ambiguity with the user.
+
+Hugo cannot load data files from inside layouts/shortcodes/. Bible must remain site-specific. Embeds are the only portable set.
+
+Inlining bible's partial into bible.html would create a single markup file, though data dependencies remain. Card could be inlined without external CSS, but that would degrade UX. I am weighing whether to ask the user which path they prefer, or simply proceed with the clearer option. I also noticed some layouts/shortcodes files were untracked from the start, and theme copies may still exist.
+
+I will interpret the user's "yes" as a go-ahead to make reusable shortcodes self-contained for folder transfer. YouTube and Spotify shortcodes will stay as-is. Bible's partial will be inlined into bible.html so the template lives in one file. Data dependencies remain unresolved.
+
+I decided against asking a clarifying question. I will deduce intent from the conversation instead. The user wants to transfer the shortcodes folder to other sites without using a Hugo module. They agreed to make reusable shortcodes self-contained. I will make what is actually portable truly portable. Bible and card will remain site-specific because they cannot be fully self-contained without data or CSS. I might add a README to layouts/shortcodes to document this.
+
+I will avoid adding markdown files the user did not request. Unused theme copies of shortcodes will be cleaned up. Card will remain site-specific. Bible will be inlined into a single file. Data files are still required for bible on another site.
+
+I will ask the user in one sentence whether they want bible and card left site-specific or rewritten as self-contained files. This avoids unnecessary work if they prefer the simpler path.
+
+I will leave bible and card site-specific. Only the embed shortcodes will be treated as portable. I may inline bible's partial into bible.html as a cleanup step, though data dependencies remain.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+Making the reusable embeds fully self-contained in `layouts/shortcodes/`, and leaving `bible`/`card` site-specific since they need data and notes assets outside that folder.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la layouts/shortcodes/ themes/jorap/layouts/shortcodes/ 2&gt;&amp;1; echo &#39;---&#39;; ls data/*bible* data/*scripture* data/*jesus* 2&gt;/dev/null; ls data/ | head -40; echo &#39;---&#39;; wc -c layouts/partials/shortcodes/bible.html layouts/shortcodes/bible.html layouts/shortcodes/card.html</summary>
+```bash
+ls -la layouts/shortcodes/ themes/jorap/layouts/shortcodes/ 2>&1; echo '---'; ls data/*bible* data/*scripture* data/*jesus* 2>/dev/null; ls data/ | head -40; echo '---'; wc -c layouts/partials/shortcodes/bible.html layouts/shortcodes/bible.html layouts/shortcodes/card.html
+```
+
+```
+ls: cannot access 'themes/jorap/layouts/shortcodes/': No such file or directory
+layouts/shortcodes/:
+total 36
+drwxrwxr-x 2 root root 4096 Aug  2 17:35 .
+drwxr-xr-x 9 root root 4096 Jul 23 09:16 ..
+-rw-rw-r-- 1 root root  259 Jul  9 23:27 bible.html
+-rw-rw-r-- 1 root root  345 Jun 20 10:38 card.html
+-rw-r--r-- 1 root root  696 Aug  2 17:35 spotify.html
+-rw-r--r-- 1 root root  542 Aug  2 17:35 spotify_iframe_artist.html
+-rw-r--r-- 1 root root  536 Aug  2 17:35 spotify_iframe_track.html
+-rw-r--r-- 1 root root  696 Aug  2 17:35 youtube.html
+-rw-r--r-- 1 root root  839 Aug  2 17:35 youtube_time.html
+---
+data/bible-books.yaml
+data/bible-red-letter-nasb1995.json
+data/jesus-words.yaml
+data/scripture-nasb1995.json
+bible-books.yaml
+bible-red-letter-nasb1995.json
+ep-verse-explanations.yaml
+garden-voice-descriptions.yaml
+icons.json
+jesus-words.yaml
+noteFileDates.json
+private
+randomizer.yaml
+scripture-nasb1995.json
+settings.json
+slop-rules.yaml
+social.json
+theme.json
+voice-words.yaml
+---
+5078 layouts/partials/shortcodes/bible.html
+ 259 layouts/shortcodes/bible.html
+ 345 layouts/shortcodes/card.html
+5682 total
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "partial \\\"shortcodes/bible\\\"|partial \\\"notes/flashcard\\\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "partial \\\"shortcodes/bible\\\"|partial \\\"notes/flashcard\\\"",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The user agreed to the practical rule.
+
+Nested shortcode folders likely won't work in Hugo. A separate portable folder would duplicate files. Site-specific embeds should remain in layouts/.
+
+No code changes are needed. Bible and card embeds will stay site-specific. The split will be stated clearly.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts/shortcodes/bible.html",
+  "pattern": "partial"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts/shortcodes/bible.html",
+  "pattern": "partial",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/shortcodes/bible.html"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "shortcodes/bible|notes/flashcard"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "shortcodes/bible|notes/flashcard",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/cards.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/toolbar.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/review.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-flashcards.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/shortcodes/card.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/shortcodes/bible.html"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The portable set is locked in.
+
+No need to rewrite bible/card.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Agreed. Treat it as two tiers:
+
+**Copy to other sites** (`layouts/shortcodes/` only):
+- `youtube.html`
+- `youtube_time.html`
+- `spotify.html`
+- `spotify_iframe_track.html`
+- `spotify_iframe_artist.html`
+
+**Stay on this site** (need data / notes assets outside that folder):
+- `bible.html` → partial + `data/scripture-*` / jesus-words
+- `card.html` → flashcard partial + CSS/JS
+
+No rewrite of `bible`/`card` into fake self-containment — a folder copy alone can’t carry scripture data or flashcard behavior.

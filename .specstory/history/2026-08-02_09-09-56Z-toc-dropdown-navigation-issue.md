@@ -674,4 +674,225 @@ _**Agent (auto-smart)**_
 
 <think><details><summary>Thought Process</summary>
 I'm calculating the actual header height on mobile — the padding adds 40px, the logo is 60px tall, plus a 1px border, which totals around 101px. That's why the heading appears almost fixed but sits about 20px too high, getting hidden behind the header.
+
+The best fix is to have JavaScript measure the real sticky header height and use that instead of relying on a hardcoded CSS variable, which would be brittle if the logo or spacing ever changes. This approach works across all breakpoints and both the blog and notes sections, with the CSS variable serving as a fallback for native anchor jumps and the back-to-top button logic. Rather than guessing at the exact measurements, I'll measure the sticky header at runtime and use that value, with a fallback to the CSS variable. I'll update the toc.js function to dynamically calculate the offset, and then sync the base.css variable and scroll-padding-top to match the actual header height so native browser behavior works correctly too. I need to check if `--header-offset` is used elsewhere in the codebase before committing to this approach.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "context": 3,
+  "glob": "!**/{public,.specstory,resources}/**",
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "header-offset"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "header-offset",
+  "topFiles": [
+    {
+      "matchCount": 14,
+      "uri": "./assets/js/toc.js"
+    },
+    {
+      "matchCount": 27,
+      "uri": "./themes/jorap/assets/css/base.css"
+    },
+    {
+      "matchCount": 7,
+      "uri": "./.cursor/skills/sync-upstreams/triage-hugoplate.sh"
+    },
+    {
+      "matchCount": 7,
+      "uri": "./assets/css/custom.css"
+    },
+    {
+      "matchCount": 7,
+      "uri": "./assets/css/notes-graph.css"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The `--header-offset` variable controls both the header positioning and the sticky toolbar placement. If I measure the actual header height at runtime and update this variable, the toolbar will sit flush below the header instead of overlapping it by about 20 pixels on mobile. I also noticed the back-to-top.js file has an outdated comment referencing this variable, but it's not actually used there anymore.
+
+My approach: measure the header element in toc.js (which loads on blog/notes pages) and update the CSS variable with the real value. Since the graph toolbar might load on pages without toc.js, I'll keep the measurement localized to avoid unintended side effects on other components. The CSS variable will serve as a fallback, and I'll add a comment noting that JavaScript measures the live header height at runtime.
+
+The actual issue is likely a small gap—around 20px—where the heading gets hidden behind the sticky header because its height wasn't accounted for. I'm writing a function that queries the header element, measures its bounding rectangle, adds a small breathing room buffer, and falls back to the CSS variable if the header isn't found. I should also check whether the header is actually sticky or fixed before using the measurement, so I don't overshoot if it's not positioned that way.
+
+One more thing: the mobile nav menu expands the header when open, but since the TOC link closes it and the measurement happens at click time, I'll get the accurate height either way. The scroll-spy also calls this offset function on every scroll frame, which means getBoundingClientRect runs frequently—that's fine since it's already inside the animation frame loop. I'll keep it simple rather than cache it.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+The header is `py-5` with a 60px logo, so it's ~101px tall — but `--header-offset` is only 80px below `lg`, which is why headings land tucked under it. Let me have the script measure the real sticky header instead.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/toc.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/toc.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I need to update the file header comment to clarify that the header height is read from a CSS custom property, and revise the base.css comment to explain that JavaScript measures the live header while the variable serves as a fallback for scroll-padding. I'm also considering increasing the mobile variable from 80px to 100px to better align the scroll-padding-top value.
+
+Actually, I should reconsider—the user's main issue is the TOC jump, and the CSS variable at 80px also affects native scroll-padding-top for hash navigation without JavaScript. Since JavaScript already handles this, I'll leave the values unchanged and just fix the comments to be accurate.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/toc.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/base.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm checking that the file reads cleanly and passes syntax validation with prettier. The scroll-spy implementation calls getHeaderOffset on each frame, which retrieves the computed style and bounding rect of the header—it's a bit expensive to do per scroll event, but since it's wrapped in requestAnimationFrame and only fires on scroll, it's acceptable. I could optimize by hoisting the header lookup, but it's fine as is.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+Invalid arguments:
+offset: Expected number, received string
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/toc.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm checking for edge cases with the mobile menu and scroll positioning—the menu overlay prevents accidental clicks, and negative scroll values get clamped automatically. For the offset logic that depends on the DOM, I'd need jsdom to write a meaningful test, so I'm considering whether to add a runnable check here.
+
+Looking at the project setup, there's a test script for filenames but no existing JS test harness. Given this is calibration code, a full jsdom test feels like overkill. I'll verify the build works instead—running prettier and node syntax checks should catch issues, and since Hugo likely uses ESBuild for JS, that's sufficient validation.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: node --check assets/js/toc.js &amp;&amp; npx prettier -c assets/js/toc.js themes/jorap/assets/css/base.css</summary>
+```bash
+node --check assets/js/toc.js && npx prettier -c assets/js/toc.js themes/jorap/assets/css/base.css
+```
+
+```
+Checking formatting...
+[warn] themes/jorap/assets/css/base.css
+[warn] Code style issues found in the above file. Run Prettier with --write to fix.
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I need to check if base.css was already unformatted before my changes, so I'll run prettier on it and compare the diff to make sure only my comment area was modified.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git stash -q &amp;&amp; npx prettier -c themes/jorap/assets/css/base.css; git stash pop -q; git diff --stat</summary>
+```bash
+git stash -q && npx prettier -c themes/jorap/assets/css/base.css; git stash pop -q; git diff --stat
+```
+
+```
+Checking formatting...
+[warn] themes/jorap/assets/css/base.css
+[warn] Code style issues found in the above file. Run Prettier with --write to fix.
+ ...8-02_09-09-56Z-toc-dropdown-navigation-issue.md | 514 ++++++++++++++++++++-
+ .specstory/statistics.json                         |   8 +-
+ assets/js/toc.js                                   |  17 +-
+ themes/jorap/assets/css/base.css                   |   7 +-
+ 4 files changed, 536 insertions(+), 10 deletions(-)
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The base.css prettier failure is pre-existing due to Tailwind's `@apply` syntax, so I'll leave that as-is. A quick sanity check on the header height being around 101px would be helpful, though I can't measure directly without a browser—but since the measurement approach self-corrects regardless of the exact number, the fix doesn't depend on getting the arithmetic perfectly right. I don't need to fix the theme's blog/single.html either.
+
+The `.header` selector is unique—there's only one element with `class="header"` in the HTML, so `querySelector('.header')` will reliably grab it. That's all set.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Both checks pass (the base.css prettier warning is pre-existing — it fails the same way on the unmodified file).
+
+Your sticky header is `py-5` around a 60px logo plus a 1px border, so it renders around 100px tall at every width, but `--header-offset` declares only 80px below the `lg` breakpoint. That's the leftover ~20px: the scroll math was correct, it just aimed at a spot the header was still covering, so the heading you clicked sat hidden behind the navbar on phones and tablets.
+
+Rather than hand-tune the breakpoint numbers, the script now measures the header it actually has to clear:
+
+```18:35:assets/js/toc.js
+  /* Measure the live sticky header rather than trusting `--header-offset`: the
+     rendered height moves with the logo, brand text wrapping, and an open mobile
+     nav menu, and the breakpoint values are only approximations of it. */
+  const getHeaderOffset = () => {
+    const header = document.querySelector(".header");
+    if (header) {
+      const { position } = getComputedStyle(header);
+      const height = header.getBoundingClientRect().height;
+      if ((position === "sticky" || position === "fixed") && height > 0) {
+        return Math.round(height) + ANCHOR_GAP;
+      }
+    }
+```
+
+Three details worth knowing. The `sticky`/`fixed` check matters because a header that scrolls away shouldn't be subtracted at all — otherwise you'd overshoot upward instead of undershooting down. The `ANCHOR_GAP` of 12px puts a little air between the navbar and the heading instead of jamming them flush. And the CSS variable stays as the fallback, so the graph toolbar's sticky positioning and native `scroll-padding-top` behavior are untouched.
+
+Since scroll-spy shares this offset, the bolded TOC entry now switches at the same line where the heading clears the header, which should also feel less jumpy while scrolling.
+
+## Session close
+- Fixed: anchor jumps now clear the real sticky header height instead of the 80px mobile approximation.
+- Encode: none
+- Open: clean

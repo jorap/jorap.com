@@ -7655,4 +7655,585 @@ rg -n 'The law of' content/english/notes/law-of-*.md | head -40
 node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2>&1 | rg -i 'FAIL|OK' | head -40
 
 ```
+
+```
+content/english/notes/law-of-victory.md:29:  - "The law of victory is that leaders accept responsibility for finding a path to win for the team."
+content/english/notes/law-of-legacy.md:29:  - "The law of legacy is that lasting value is measured by who carries the work after you - succession is the final exam."
+content/english/notes/law-of-timing.md:27:  - "The law of timing is that the same action succeeds or fails depending on when you take it."
+content/english/notes/law-of-the-lid.md:27:  - "The law of the lid is the ceiling your leadership ability puts on what your team can achieve - you can name the cap."
+content/english/notes/law-of-the-picture.md:29:  - "The law of the picture is that people follow what leaders model in action, not only what they announce."
+content/english/notes/law-of-the-inner-circle.md:27:  - "The law of the inner circle is that a leader's potential is determined by those closest - pick counselors who tell the truth."
+content/english/notes/law-of-explosive-growth.md:29:  - "The law of explosive growth is that addition adds bodies but multiplication adds leaders who spawn leaders."
+content/english/notes/law-of-the-big-mo.md:28:  - "The law of the big Mo is that momentum multiplies effort - leaders protect it and grieve when it leaks."
+content/english/notes/law-of-empowerment.md:27:  - "The law of empowerment is that secure leaders delegate - insecure leaders hoard decisions until they break."
+content/english/notes/law-of-solid-ground.md:27:  - "The law of solid ground is that trust is the foundation - character cracks sink leadership faster than bad strategy."
+content/english/notes/law-of-intuition.md:29:  - "The law of intuition is that leaders read situations with a leadership lens - who moves, what breaks, what window opens."
+content/english/notes/law-of-connection.md:29:  - "The law of connection is that hearts move before hands do - know the person before you request the labor."
+content/english/notes/law-of-sacrifice.md:29:  - "The law 
+… (output truncated)
+```
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Only the law-of-the-lid test failed. The shareable version contained an extra phrase from the old level_1.
+
+The shareable line for law-of-the-lid needs updating. Other shareable lines still use the "The law of X is that" prefix and should switch to claim-first for consistency.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+One shareable still referenced the old `level_1` wording. Fixing that, then aligning the remaining "The law of…" shareable lines to claim-first.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-lid.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 - &lt;&lt;&#39;PY&#39;
+&#34;&#34;&#34;Strip &#39;The law of X is that &#39; from shareable_thought lines on law notes.&#34;&#34;&#34;
+from pathlib import Path
+import re, yaml, sys
+sys.path.insert(0,&#39;scripts&#39;)
+from notes_content import dump_frontmatter, split_frontmatter, shareable_line_from_principle
+
+N=Path(&#39;content/english/notes&#39;)
+PREFIX = re.compile(r&#39;^The law of .+? is (?:that )?&#39;, re.I)
+changed=[]
+for p in sorted(N.glob(&#39;law-of-*.md&#39;)):
+    text=p.read_text(encoding=&#39;utf-8&#39;)
+    raw, body = split_frontmatter(text)
+    fm=yaml.safe_load(raw) or {}
+    sh=fm.get(&#39;shareable_thought&#39;)
+    if not isinstance(sh, list): continue
+    new_sh=[]
+    touched=False
+    for line in sh:
+        if not isinstance(line, str):
+            new_sh.append(line); continue
+        if PREFIX.match(line):
+            stripped=PREFIX.sub(&#39;&#39;, line).strip()
+            if stripped and stripped[0].islower():
+                stripped=stripped[0].upper()+stripped[1:]
+            # special lid line
+            if p.stem==&#39;law-of-the-lid&#39; and &#39;you can name the cap&#39; in stripped.lower():
+                stripped=&#34;Your leadership ability is the ceiling on what your team can achieve.&#34;
+            if not shareable_line_from_principle(stripped, fm):
+                print(f&#39;WARN {p.stem}: stripped not from principle: {stripped}&#39;)
+            new_sh.append(stripped)
+            touched=True
+        else:
+            new_sh.append(line)
+    if touched:
+        fm[&#39;shareable_thought&#39;]=new_sh
+        out=f&#34;---\n{dump_frontmatter(fm)}\n---{body}&#34;
+        if not out.endswith(&#39;\n&#39;): out+=&#39;\n&#39;
+        p.write_text(out, encoding=&#39;utf-8&#39;)
+        changed.append(p.stem)
+print(&#39;updated&#39;, len(changed), changed)
+PY
+</summary>
+```bash
+python3 - <<'PY'
+"""Strip 'The law of X is that ' from shareable_thought lines on law notes."""
+from pathlib import Path
+import re, yaml, sys
+sys.path.insert(0,'scripts')
+from notes_content import dump_frontmatter, split_frontmatter, shareable_line_from_principle
+
+N=Path('content/english/notes')
+PREFIX = re.compile(r'^The law of .+? is (?:that )?', re.I)
+changed=[]
+for p in sorted(N.glob('law-of-*.md')):
+    text=p.read_text(encoding='utf-8')
+    raw, body = split_frontmatter(text)
+    fm=yaml.safe_load(raw) or {}
+    sh=fm.get('shareable_thought')
+    if not isinstance(sh, list): continue
+    new_sh=[]
+    touched=False
+    for line in sh:
+        if not isinstance(line, str):
+            new_sh.append(line); continue
+        if PREFIX.match(line):
+            stripped=PREFIX.sub('', line).strip()
+            if stripped and stripped[0].islower():
+                stripped=stripped[0].upper()+stripped[1:]
+            # special lid line
+            if p.stem=='law-of-the-lid' and 'you can name the cap' in stripped.lower():
+                stripped="Your leadership ability is the ceiling on what your team can achieve."
+            if not shareable_line_from_principle(stripped, fm):
+                print(f'WARN {p.stem}: stripped not from principle: {stripped}')
+            new_sh.append(stripped)
+            touched=True
+        else:
+            new_sh.append(line)
+    if touched:
+        fm['shareable_thought']=new_sh
+        out=f"---\n{dump_frontmatter(fm)}\n---{body}"
+        if not out.endswith('\n'): out+='\n'
+        p.write_text(out, encoding='utf-8')
+        changed.append(p.stem)
+print('updated', len(changed), changed)
+PY
+
+```
+
+```
+updated 20 ['law-of-addition', 'law-of-buy-in', 'law-of-connection', 'law-of-empowerment', 'law-of-explosive-growth', 'law-of-influence', 'law-of-intuition', 'law-of-legacy', 'law-of-navigation', 'law-of-priorities', 'law-of-process', 'law-of-respect', 'law-of-sacrifice', 'law-of-solid-ground', 'law-of-the-big-mo', 'law-of-the-inner-circle', 'law-of-the-lid', 'law-of-the-picture', 'law-of-timing', 'law-of-victory']
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The law-of-magnetism entry was missing from the list. Its shareable likely lost the phrase "The law of" during earlier edits.
+
+Checking for overlap failures after stripping. Two shareables may now be too similar. law-of-magnetism might still contain an old pattern. Running lint.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;$HOME/.local/share/mise/shims:$HOME/.local/bin:$PATH&#34;
+node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | tail -40
+rg -n &#39;The law of&#39; content/english/notes/law-of-*.md | head -20
+</summary>
+```bash
+export PATH="$HOME/.local/share/mise/shims:$HOME/.local/bin:$PATH"
+node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2>&1 | tail -40
+rg -n 'The law of' content/english/notes/law-of-*.md | head -20
+
+```
+
+```
+FAIL shareable_thought[0] overlaps [2]: law-of-addition.md
+FAIL shareable_thought[1] overlaps [2]: law-of-addition.md
+FAIL shareable_thought[1] overlaps [2]: law-of-buy-in.md
+FAIL shareable_thought[1] overlaps [2]: law-of-explosive-growth.md
+FAIL shareable_thought[1] overlaps [2]: law-of-legacy.md
+FAIL shareable_thought[1] overlaps [2]: law-of-priorities.md
+
+6 note(s) failed frontmatter lint
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Stripping the prefix caused shareable lines to overlap with others that already contained the claim.
+
+The angle at index [2] needs replacement with a different level angle for those six notes.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import yaml
+N=Path(&#39;content/english/notes&#39;)
+for s in [&#39;law-of-addition&#39;,&#39;law-of-buy-in&#39;,&#39;law-of-explosive-growth&#39;,&#39;law-of-legacy&#39;,&#39;law-of-priorities&#39;]:
+    fm=yaml.safe_load((N/f&#39;{s}.md&#39;).read_text().split(&#39;---&#39;,2)[1])
+    print(f&#39;\n== {s}&#39;)
+    for i,x in enumerate(fm.get(&#39;shareable_thought&#39;) or []): print(f&#39;  [{i}] {x}&#39;)
+    print(&#39;  L3:&#39;, fm.get(&#39;level_3&#39;))
+    print(&#39;  L4:&#39;, str(fm.get(&#39;level_4&#39;,&#39;&#39;))[:120])
+    print(&#39;  kc1:&#39;, str(fm.get(&#39;key_concept&#39;,&#39;&#39;)).splitlines()[0][:100])
+PY
+</summary>
+```bash
+python3 - <<'PY'
+from pathlib import Path
+import yaml
+N=Path('content/english/notes')
+for s in ['law-of-addition','law-of-buy-in','law-of-explosive-growth','law-of-legacy','law-of-priorities']:
+    fm=yaml.safe_load((N/f'{s}.md').read_text().split('---',2)[1])
+    print(f'\n== {s}')
+    for i,x in enumerate(fm.get('shareable_thought') or []): print(f'  [{i}] {x}')
+    print('  L3:', fm.get('level_3'))
+    print('  L4:', str(fm.get('level_4',''))[:120])
+    print('  kc1:', str(fm.get('key_concept','')).splitlines()[0][:100])
+PY
+
+```
+
+```
+
+== law-of-addition
+  [0] Leaders add value by serving others.
+  [1] Leaders add value by serving - the lot you give away may become the blessing lane.
+  [2] Leaders add value by serving others - giving away advantage can become the blessing lane.
+  [3] Abram let Lot pick first - generosity added peace, not loss; Jesus redefined greatness as service.
+  L3: Before the next promotion fight, name one cost you can absorb so someone else wins visibly - serve before you grab credit.
+  L4: Addition without real cost becomes performance theater - serving only when the camera is on does not add value.
+  kc1: - Leaders add value by serving - the lot you give away may become the blessing lane.
+
+== law-of-buy-in
+  [0] People buy into the leader, then the vision.
+  [1] People buy the leader before the vision - trust the guide, then the map.
+  [2] People trust the leader before the vision - buy the guide, then the map.
+  [3] Gideon's trimmed army followed his jar-and-torch plan - buy-in to him, then the tactic.
+  L3: Share the plan only after people have seen you carry load - trust the leader before the slide deck lands in the room.
+  L4: Vision without a trusted leader is a poster; a trusted leader without vision is a stroll - people need both guide and ma
+  kc1: - People buy the leader before the vision - trust the guide, then the map.
+
+== law-of-explosive-growth
+  [0] To grow by addition, raise followers - to multiply, raise leaders.
+  [1] Addition adds bodies; multiplication adds leaders who spawn leaders.
+  [2] Addition adds bodies but multiplication adds leaders who spawn leaders.
+  [3] Bezalel trained craftsmen who built the tabernacle; Jesus sent seventy with authority.
+  L3: Teach one person your full playbook this quarter - not just a task dump, the judgment calls they will need when you are not in the room.
+  L4: Headcount alone stalls when only one person can teach - addition grows bodies; multiplication needs leaders who spawn le
+  kc1: - Addition adds bodies; multip
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Replacing index [2] with L3 content for each of the five notes.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-addition.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-buy-in.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-explosive-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-legacy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-priorities.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;$HOME/.local/share/mise/shims:$HOME/.local/bin:$PATH&#34;
+# explosive growth L3 text might not match principle exactly - check
+node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | tail -25
+</summary>
+```bash
+export PATH="$HOME/.local/share/mise/shims:$HOME/.local/bin:$PATH"
+# explosive growth L3 text might not match principle exactly - check
+node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2>&1 | tail -25
+
+```
+
+```
+Note frontmatter lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Frontmatter lint passed. Skipping bulk L2/L3 checks; L2 scripture stacks are intentional.
+
+Running garden health. Considering a one-line garden-voice edit for law level_1. Checking dump_frontmatter didn't break issues.md.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;$HOME/.local/share/mise/shims:$HOME/.local/bin:$PATH&#34;
+rg -n &#39;^outputs:&#39; content/english/notes/issues.md
+pnpm garden:health 2&gt;&amp;1 | tail -40
+</summary>
+```bash
+export PATH="$HOME/.local/share/mise/shims:$HOME/.local/bin:$PATH"
+rg -n '^outputs:' content/english/notes/issues.md
+pnpm garden:health 2>&1 | tail -40
+
+```
+
+```
+34:outputs: ["HTML", "ISSUES"]
+$ node scripts/runPython.mjs scripts/garden-health.py
+$ node scripts/runPython.mjs scripts/lint-notes-frontmatter.py && node scripts/runPython.mjs scripts/normalize-notes-format.py --verify && node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py && node scripts/runPython.mjs scripts/audit-flashcard-north-star.py && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py && node scripts/runPython.mjs scripts/voice-lint.py garden --check && node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+Note frontmatter lint OK
+Flashcard frontmatter OK
+Flashcard north-star audit OK
+Utility wikilinks OK
+Garden voice lint OK
+Slop lint OK
+✅ Theme CSS generated successfully at: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css
+✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (338 notes)
+GARDEN HEALTH
+========================================
+
+## Lint
+$ pnpm lint:garden
+
+## Link issues
+$ hugo --quiet
+GARDEN LINK ISSUES
+Source: JoRap notes garden
+
+SUMMARY
+- 0 broken wikilinks (target note does not exist)
+- 0 pipe wikilinks (deprecated [[note|label]] syntax)
+- 0 unlinked mentions (note title in prose without [[wikilink]])
+- 0 structure issues (missing typed links or extra sections)
+- 0 orphans (no inbound wikilinks)
+- 0 dead ends (no body wikilinks)
+- 0 utility wikilinks (tool page via [[wikilink]])
+- 0 broken relationship targets
+- 0 body sections (frontmatter headings still in body)
+- 0 notes affected
+
+No garden issues found.
+
+OK - garden health passed.
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Searching garden-voice for the voice check section containing the encode line.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 3,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md",
+  "pattern": "level_1.*level_5 present"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md",
+  "pattern": "level_1.*level_5 present",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Rewrite 21 law note level_1 openers to claim-first",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Spot-check level_2/3 stamps in law cluster if quick wins",
+      "id": "2",
+      "status": "cancelled"
+    },
+    {
+      "content": "Re-run garden:health",
+      "id": "3",
+      "status": "completed"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Rewrite 21 law note level_1 openers to claim-first",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Spot-check level_2/3 stamps in law cluster if quick wins",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Re-run garden:health",
+      "id": "3",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The search returned no results. The checklist may use different formatting.
+
+Searching for "level_1".
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md",
+  "pattern": "level_1"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md",
+  "pattern": "level_1",
+  "topFiles": [
+    {
+      "matchCount": 10,
+      "uri": ".cursor/skills/garden-voice/SKILL.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 10
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Located the target at line 320. Adding law note guidance there.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;$HOME/.local/share/mise/shims:$HOME/.local/bin:$PATH&#34;; pnpm lint:agent-config 2&gt;&amp;1 | tail -8
+</summary>
+```bash
+export PATH="$HOME/.local/share/mise/shims:$HOME/.local/bin:$PATH"; pnpm lint:agent-config 2>&1 | tail -8
+
+```
+
+```
+$ node scripts/lint-agent-config.mjs
+agent config OK: 20 skill(s), 9 rule(s), Kilo → .cursor/skills
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The StrReplace failed because the following line was incorrect.
+
+Using exact text from the fuzzy match.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Finished. L2 and L3 were left unchanged; scripture stacks and use-moves are fine.
+
+Garden-wide Build a/Create a remains as schema.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Law-cluster `level_1` stamps are gone. `pnpm garden:health` is green.
+
+All 21 law notes now open claim-first — e.g. "Leadership compounds in hidden years" instead of "The law of process is that…". Matching "The law of…" lines in `shareable_thought` were stripped or replaced where stripping created overlaps. Encoded in garden-voice so agents do not bring the dictionary opener back.
+
+Left alone on purpose: `level_2` scripture stacks (intentional Bible case studies) and garden-wide `level_5` "Build a… / Create a…" (schema for the Create rung). Those are pattern, not noise.
+
+The hats three-cluster pass plus its lint debt is complete.
+
+## Session close
+- Fixed: Claim-first `level_1` on all 21 law notes; cleaned matching shareable stamps; health green.
+- Encode: garden-voice — law `level_1` never opens with "The law of X is that…".
+- Open: clean.

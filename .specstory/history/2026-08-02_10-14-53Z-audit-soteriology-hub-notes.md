@@ -346,6 +346,645 @@ _**Agent (composer-2.5-fast)**_
 _**Agent (composer-2.5-fast)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2** • Read file: </summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/goodness.md</summary>
 
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 31 files have been read. Now auditing each against the 12 fail criteria and garden phrasing risks.
+
+Starting systematic audit. free-grace.md passes all checks. It treats good works as post-gift results rather than payment for salvation. It avoids perseverance to death as a litmus test. It rejects assurance based on fruit scores. It affirms saving faith alone. It does not mention Matthew 24:13. It does not warn of hell. It does not discuss regeneration before faith. It does not mention limited atonement or universalism.
+
+free-grace.md is COMPLIANT. It treats losing reward as not undoing the gift. It does not mention Romans 10 confession. A risk note uses "buys" for the gift, which is metaphorical and not a fail.
+
+faith-and-works.md is COMPLIANT. It treats dead faith in James 2 as inactive faith that sits unused, not fake faith that never saved.
+
+faith-and-works.md is COMPLIANT. It treats Abraham’s offering as a demonstration of faith already counted righteous, not proof of it. It quotes the James passage about faith shown by works. It treats false profession as lacking faith.
+
+It carries two risk notes. The alias “works prove faith” is explicit garden phrasing. The level_2 text “shows whether hearing became trust” could ambiguously ground assurance in fruit.
+
+faith-and-works.md is MIXED. The alias "works prove faith" and the level_2 phrasing are flagged as garden risks.
+
+standing-vs-fellowship.md is COMPLIANT. It maintains a strong A/B distinction between standing and fellowship loss.
+
+justification.md is COMPLIANT. It treats justification as a gift by grace and closes the case at trust, not at perfect obedience.
+
+assurance.md is COMPLIANT. It treats assurance as resting on Christ’s promise, not a weekly performance scorecard. It warns that reward can be lost, but not salvation. Fruit is presented as rest on Christ, not as a grounding for assurance.
+
+sanctification.md is COMPLIANT. It explicitly rejects treating one heroic week or a Bible reading streak as proof of God’s acceptance.
+
+repent-and-believe.md is COMPLIANT. It defines repentance as a change of mind and direction, not a down payment on salvation.
+
+repent-and-believe.md is COMPLIANT. It treats repentance as restoring fellowship, not re-earning heaven.
+
+grace.md is COMPLIANT.
+
+loss-of-reward.md is COMPLIANT. It distinguishes a false profession from a believer who stumbles.
+
+judgment-seat.md is COMPLIANT. It treats the judgment seat as not re-deciding who receives eternal life.
+
+eternal-rewards.md is COMPLIANT. It states rewards are not the price of eternal life.
+
+discipleship.md is COMPLIANT. It treats obedience as not buying eternal life.
+
+present-a-living-sacrifice.md is COMPLIANT. It treats sacrifice as a response to Christ’s prior gift, not as a purchase of heaven.
+
+grateful-obedience.md is COMPLIANT.
+
+by-their-fruits.md is COMPLIANT. It uses fruit to judge teachers, not to judge a person’s soul or salvation.
+
+the-narrow-way.md is COMPLIANT. It distinguishes a false profession from a believer who stumbles and may lose reward while remaining saved.
+
+take-up-your-cross.md is COMPLIANT. It treats eternal life as received by faith, not earned by cross-bearing.
+
+count-the-cost.md is COMPLIANT. It presents the cost as discipleship weight, not a price tag on heaven.
+
+childlike-faith.md is COMPLIANT.
+
+abide-in-me.md is COMPLIANT. It treats pruning as refinement rather than a revocation of place in the vine.
+
+walk-by-the-spirit.md is COMPLIANT. It treats fruit as not a performance score.
+
+fruits-of-the-spirit.md is COMPLIANT. It explicitly states that fruit may back up a life given by faith, but it never grounds belonging or assurance.
+
+heart-righteousness.md is COMPLIANT. It treats righteousness as the standard the Spirit applies to a life already saved, not a new merit ladder.
+
+the-wise-builder.md is MIXED. Its card asks what proves genuine hearing, then answers by commanding obedience to one command. That phrasing could sound like works proving faith or salvation, which violates Anderson’s principle that works do not prove election for assurance.
+
+seek-the-kingdom-first.md is COMPLIANT. It treats rest as an invitation rather than a reward to earn.
+
+come-to-me-weary.md is COMPLIANT. It treats rest as an invitation, not a reward to earn first.
+
+christlikeness.md is now being reviewed.
+
+christlikeness.md is COMPLIANT. It treats Christlikeness as a gift, not a way to earn standing.
+
+great-commission.md is COMPLIANT. It treats teaching obedience as discipleship after faith, not a payment for salvation.
+
+eternal-principles.md is COMPLIANT. It treats the ground as Free Grace and states these principles are not the price of heaven. The line “real faith shows up in obedience” is standard Free Grace language and carries only a slight risk.
+
+goodness.md is COMPLIANT. It treats Spirit fruit as a result of grace, not a cause of salvation.
+
+The audit is now reaching the final five files.
+
+forgiveness.md is COMPLIANT. It treats unforgiveness as breaking fellowship with God, not as a threat to eternal life. The note cites Matthew 6:14-15 in a fellowship frame. It warns that refusing to forgive exposes a heart out of step with the gift. The card explicitly tells the reader to forgive from the heart to restore closeness with God. No non-compliant items were found in this file.
+
+sanctification.md is now being reviewed. It contains an explicit example where a quiet-time streak was treated as proof of God’s acceptance, which is flagged as a wrong pattern. No non-compliant items were found in the final five files.
+
+abide-in-me.md is COMPLIANT. It treats pruning and removal of dead wood as temporal discipline, not a loss of eternal life. The note explicitly states that fruit does not earn the branch’s place.
+
+fruits-of-the-spirit.md line 110 explicitly contradicts Anderson by stating that stacked virtue streaks prove the reader is saved. No note was found that teaches perseverance to death as a litmus for election or that grounds assurance primarily in fruit.
+
+The forgiveness note risks misreading the Matthew 6 verse as a threat to eternal life. The description and cards push a fellowship frame, but the verse block itself omits the A/B distinction. Strict readers could mistake unforgiveness for a loss of salvation.
+
+eternal-principles.md is COMPLIANT. Its line about faith showing up in obedience is standard Free Grace language and does not ground assurance in fruit. The audit is now finalizing the summary table.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Searching for problematic phrasing patterns across the audited files.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "{free-grace,faith-and-works,standing-vs-fellowship,justification,assurance,sanctification,repent-and-believe,grace,loss-of-reward,judgment-seat,eternal-rewards,discipleship,present-a-living-sacrifice,grateful-obedience,by-their-fruits,the-narrow-way,take-up-your-cross,count-the-cost,childlike-faith,abide-in-me,walk-by-the-spirit,fruits-of-the-spirit,heart-righteousness,the-wise-builder,seek-the-kingdom-first,come-to-me-weary,christlikeness,great-commission,eternal-principles,goodness,forgiveness}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "prove|confirm|dead on inspection|persever|Mat(thew)? 24|regenerat|limited atonement|double predest|universal|lose (salvation|eternal)|never saved|spurious|confession.*(heaven|salv|merit)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "prove|confirm|dead on inspection|persever|Mat(thew)? 24|regenerat|limited atonement|double predest|universal|lose (salvation|eternal)|never saved|spurious|confession.*(heaven|salv|merit)",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/faith-and-works.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sanctification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/loss-of-reward.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipleship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/repent-and-believe.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/by-their-fruits.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/standing-vs-fellowship.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    }
+  ],
+  "totalFiles": 11,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace/doctrines.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading doctrines.md to check references to James 2 and Matthew 7.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace/doctrines.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "shows whether|proves|proof I am|proof God|confirm"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "shows whether|proves|proof I am|proof God|confirm",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-timing.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-trusted-inbox.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/daily-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/context-aware-capture.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/inspectable-stack.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pressure-reveals-weakness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/evergreen-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/practice-small-experiments.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/follow-their-lead.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/decision-quality.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/christlikeness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/give-useful-feedback.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/building-a-personal-api.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/sharpen-each-others-work.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/finish-strong.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/faith-and-works.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/compounding.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/heed-every-near-miss.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/listen-before-fixing.md"
+    }
+  ],
+  "totalFiles": 35,
+  "totalMatches": 52
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+I have finished reviewing all the faith notes and now hold a complete picture of their contents.
+
+The audit verdicts are finalized. faith-and-works.md and the-wise-builder.md are MIXED due to risk phrases like "works prove faith" and "obedience under pressure shows whether hearing became trust." All other files are COMPLIANT.
+
+The forgiveness note is COMPLIANT. It links the Matthew quote to fellowship rather than eternal life. The abide-in-me note is also COMPLIANT. It rejects the idea that fruit earns a branch’s place.
+
+The pruning card is COMPLIANT. The “dead wood” risk is minor. The “Show me your faith by what you do” quote is used for living faith display. Not for salvation price. The remaining notes are COMPLIANT. They are N/A for soteriological items. Or they treat fruit as ethical discernment. Not as assurance.
+
+The free-grace card uses the phrase "buys eternal life," which Anderson rejects as wage language. This risks a failure on item 11. No file is fully NON-COMPLIANT.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Drafting the comprehensive Anderson compliance audit.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Anderson-only audit (David R. Anderson, *Free Grace Soteriology*, 3rd ed.). All 31 files read in full. Strict grading: hard fails only on checklist items 1–12; garden phrasing → **MIXED** even when doctrine otherwise holds.
+
+---
+
+## Anderson compliance: free-grace.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Gift/faith-alone ingress; works after gift; assurance not scorecard; standing vs walk split; reward-loss ≠ gift-loss
+- **Risk notes:** `"Faith is the smallest act that still buys eternal life"` — wage metaphor on a free gift; meaning is Anderson-aligned but phrasing is loose
+
+---
+
+## Anderson compliance: faith-and-works.md
+- **Verdict:** MIXED
+- **Failures:** none (hard)
+- **Passes:** Paul/James split; James dead faith = inactive; Abraham justified before God then shown before people; works answer grace
+- **Risk notes:** Alias `"works prove faith"`; level_2 `"obedience under pressure shows whether hearing became trust"` — reads as fruit-grounds-belonging unless reader already knows A/B
+
+---
+
+## Anderson compliance: standing-vs-fellowship.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Core A/B frame; John 10 security; confession restores fellowship not standing; reward/fellowship separate from salvation
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: justification.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Declared at faith; gift not performance; case closed at trust; confession re-buys neither heaven nor verdict
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: assurance.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Primary rest on Christ’s promise (John 6); standing vs fellowship; reward vs salvation; 1 John 5:13 pattern implied
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: sanctification.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Growth after faith; explicitly rejects streak-as-proof; loss of reward ≠ un-saving; abide engine
+- **Risk notes:** Cards quote wrong patterns (`"proof God accepts me"`) only to correct them — safe in context
+
+---
+
+## Anderson compliance: repent-and-believe.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Repentance not down payment; belief = reliance; believer re-turn = fellowship not re-earning heaven
+- **Risk notes:** Entry pair is repent+believe for unbelievers — Anderson allows; not framed as works-price
+
+---
+
+## Anderson compliance: grace.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Unmerited gift; belief decides destiny; standing settled at faith
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: loss-of-reward.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Two ledgers; saved through fire; false Lord Lord vs stumbled believer; reward shrink ≠ salvation loss
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: judgment-seat.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Bema = reward review; eternal life settled at faith; wood/hay/stubble burns, standing stays
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: eternal-rewards.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Gift first, repayment second; explicit not price of eternal life; Free Grace ingress named
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: discipleship.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** After faith; cross not heaven-price; grateful obedience motive; lazy obedience = reward not salvation
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: present-a-living-sacrifice.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Mercy first; offer from thanks not payment; rejects streak-as-standing-proof
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: grateful-obedience.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Thanks after salvation; obedience not re-earning; faith leads, obedience responds
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: by-their-fruits.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Teacher discernment only; `"not a verdict on someone's soul"`; Judge Not paired
+- **Risk notes:** Not an assurance/election note — N/A on most ingress items by design
+
+---
+
+## Anderson compliance: the-narrow-way.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Narrow gate = faith in Christ; false profession vs stumbled believer; loss of reward not loss of life
+- **Risk notes:** `"empty profession without obedience"` — lordship-adjacent wording, but note keeps ingress on faith/grace
+
+---
+
+## Anderson compliance: take-up-your-cross.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** `"eternal life is received by faith, not earned by cross-bearing"`; daily discipleship cost
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: count-the-cost.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** `"discipleship weight, not a price tag on heaven"`; gift/cost lanes separated
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: childlike-faith.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Receive gift without merit ladder; assurance posture; dependence not achievement
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: abide-in-me.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** `"Fruit does not earn the branch's place"`; pruning ≠ revoked gift; connection before grind
+- **Risk notes:** `"dead wood Jesus removes"` — John 15 ambiguity; note never teaches loss of eternal life
+
+---
+
+## Anderson compliance: walk-by-the-spirit.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** `"fruit is not a performance score"`; obedience follows salvation; grateful not wage steps
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: fruits-of-the-spirit.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Anderson-preferred language: `"may back up… never grounds belonging or assurance"`; explicitly rejects proof-you-are-saved streaks
+- **Risk notes:** none — model phrasing for the garden
+
+---
+
+## Anderson compliance: heart-righteousness.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Standard applied to life already saved; not new merit ladder; sanctification frame
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: the-wise-builder.md
+- **Verdict:** MIXED
+- **Failures:** none (hard)
+- **Passes:** Faith saves; doing follows; false profession vs stumbled believer distinguished in key_concept
+- **Risk notes:** Card `"What proves genuine hearing?"` → `"Act - obey one command"` — works-prove-faith / fruit-grounds-assurance drift unless reader imports Matthew 7 false-profession frame from body
+
+---
+
+## Anderson compliance: seek-the-kingdom-first.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Priorities/discipleship note; card `"Receive by faith - then live it"`
+- **Risk notes:** Minimal soteriology content — most checklist items N/A by scope
+
+---
+
+## Anderson compliance: come-to-me-weary.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Rest invitation not merit pay; Free Grace rest frame
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: christlikeness.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Growth after faith; does not manufacture standing; rejects virtue-streak proof
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: great-commission.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Teach obedience after faith; not works payment for salvation
+- **Risk notes:** none
+
+---
+
+## Anderson compliance: eternal-principles.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Hub grounds on Free Grace; `"These principles aren't the price of heaven"`; reward/judgment/standing lanes indexed correctly
+- **Risk notes:** Index line `"real faith shows up in obedience"` — fine if read as corroboration; watch against lordship collapse in downstream notes
+
+---
+
+## Anderson compliance: goodness.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Spirit-fruit ethics; motive not wages; no ingress doctrine
+- **Risk notes:** Soteriology N/A — fruit-of-character note only
+
+---
+
+## Anderson compliance: forgiveness.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Mat 6 framed as fellowship (`"Closeness with God"`); standing vs fellowship linked; unforgiveness breaks closeness not verdict
+- **Risk notes:** Raw Mat 6:14–15 in key_concept without inline A/B label — fellowship frame comes from cards/relationships
+
+---
+
+## SUMMARY
+
+| file | verdict | failing items |
+|------|---------|---------------|
+| free-grace.md | COMPLIANT | — |
+| faith-and-works.md | **MIXED** | Garden phrasing (alias + level_2) |
+| standing-vs-fellowship.md | COMPLIANT | — |
+| justification.md | COMPLIANT | — |
+| assurance.md | COMPLIANT | — |
+| sanctification.md | COMPLIANT | — |
+| repent-and-believe.md | COMPLIANT | — |
+| grace.md | COMPLIANT | — |
+| loss-of-reward.md | COMPLIANT | — |
+| judgment-seat.md | COMPLIANT | — |
+| eternal-rewards.md | COMPLIANT | — |
+| discipleship.md | COMPLIANT | — |
+| present-a-living-sacrifice.md | COMPLIANT | — |
+| grateful-obedience.md | COMPLIANT | — |
+| by-their-fruits.md | COMPLIANT | — |
+| the-narrow-way.md | COMPLIANT | — |
+| take-up-your-cross.md | COMPLIANT | — |
+| count-the-cost.md | COMPLIANT | — |
+| childlike-faith.md | COMPLIANT | — |
+| abide-in-me.md | COMPLIANT | — |
+| walk-by-the-spirit.md | COMPLIANT | — |
+| fruits-of-the-spirit.md | COMPLIANT | — |
+| heart-righteousness.md | COMPLIANT | — |
+| the-wise-builder.md | **MIXED** | Garden phrasing (card) |
+| seek-the-kingdom-first.md | COMPLIANT | — |
+| come-to-me-weary.md | COMPLIANT | — |
+| christlikeness.md | COMPLIANT | — |
+| great-commission.md | COMPLIANT | — |
+| eternal-principles.md | COMPLIANT | — |
+| goodness.md | COMPLIANT | — |
+| forgiveness.md | COMPLIANT | — |
+
+**Totals:** 29 COMPLIANT · 2 MIXED · 0 NON-COMPLIANT · 0 hard fails on items 1–12
+
+**Checklist sweep (all 31):** No hits on items 2, 5, 7, 8, 9, 10, 12. Item 11 (James dead faith) handled correctly in `faith-and-works.md`. Item 1 avoided everywhere. Item 3 avoided as primary ground — strongest positive model is `fruits-of-the-spirit.md`. Item 4 avoided — lordship kept post-faith. Item 6 avoided — warnings/reward/fellowship frames present where relevant.
+
+**Minimal fixes for the two MIXED notes (if you want them):**
+1. `faith-and-works.md` — drop alias `"works prove faith"`; change level_2 to `"obedience under pressure shows whether hearing became obedience"` or `"works answer grace already received"`.
+2. `the-wise-builder.md` — card: `"What shows hearing became obedience?"` → `"Do one command — rock is hear-and-do, not hear-only."`

@@ -51,4 +51,35 @@ Response A is the strongest. It offers concrete, surgical revisions and practica
 Response D is the strongest. It pairs concrete per-post judgments with sharp RETIRE calls and prioritizes trust bombs. Response E offers the clearest reframing and coherent decision criteria. Response A is most actionable for Monday.
 
 Response C ignores the editing-time constraint entirely. It wants to expand HugoPlate documentation while others suggest cutting it. Response A is too soft on RETIRE. It keeps DNPAP despite others calling for its retirement. Response D matches the stakes with sharp diagnosis. Response B captures outsider trust well. Response E offers the clearest reframing. None of the five responses mention the specific constraints of draft:false, twenty-seven posts, or JoRap voice.
+
+None of the five responses verified that all twenty-seven posts exist in live frontmatter. They omitted redirect strategies, SEO 301 plans, and analytics to prioritize traffic. They ignored legal and safety risks, RSS subscriber impact, internal link gardens, homepage curation, meta title and description quality, and dates or lastmod honesty.
+
+No response tallied KEEP, REVISE, and RETIRE counts for the portfolio. None checked whether retirees are linked from elsewhere on the site. Response C treats expansion as free and ignores the editing-time constraint.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+Framing the three peer-review answers against A–E now.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The UpdateCurrentStep already contains the final summary.
+
+The peer review will be delivered directly without preamble, keeping the response under 200 words.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+1. **Strongest: D.** Best match to the stakes: names trust leaks, kills clear duplicates (Sustainable → ownership essay; DNPAP), and ranks tutorial/UI/Eala debt over voice polish. Sharper than A’s soft KEEP bias and more realistic than C’s expand-everything plan.
+
+2. **Biggest blind spot: C.** Treats limited editing time as free. Flags Eala as a flagship product and HugoPlate as living docs—exactly the unpaid surfaces A/D/E say to shrink. Upside without a maintenance budget.
+
+3. **All five missed:** No traffic or last-hit evidence to triage which “trust bombs” readers actually hit, and no redirect/internal-link map before RETIRE (esp. B/D/E on Facebook, Sustainable, DNPAP).

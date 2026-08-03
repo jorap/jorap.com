@@ -255,6 +255,37 @@ _**Agent (composer-2.5-fast)**_
 ```bash
 wc -l /home/jorap/Documents/GitHub/jorap.com/scripts/*.py /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/*.py 2>/dev/null | sort -n
 ```
+
+```
+    55 /home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py
+    58 /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py
+    60 /home/jorap/Documents/GitHub/jorap.com/scripts/voice-lint.py
+    75 /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-note-levels.py
+    76 /home/jorap/Documents/GitHub/jorap.com/scripts/lint-randomizer.py
+    93 /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-relationships.py
+    94 /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py
+    95 /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-blog-frontmatter.py
+   106 /home/jorap/Documents/GitHub/jorap.com/scripts/audit-flashcard-north-star.py
+   147 /home/jorap/Documents/GitHub/jorap.com/scripts/okf_bundle.py
+   151 /home/jorap/Documents/GitHub/jorap.com/scripts/bible-red-letter-mark.py
+   160 /home/jorap/Documents/GitHub/jorap.com/scripts/blog_frontmatter.py
+   166 /home/jorap/Documents/GitHub/jorap.com/scripts/bible_shortcode.py
+   177 /home/jorap/Documents/GitHub/jorap.com/scripts/import-from-obsidian.py
+   193 /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py
+   220 /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py
+   241 /home/jorap/Documents/GitHub/jorap.com/scripts/export-anki-deck.py
+   242 /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py
+   254 /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py
+   257 /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py
+   277 /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py
+   284 /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/generate.py
+   326 /home/jorap/Documents/GitHub/jorap.com/scripts/blog_shortcodes.py
+   326 /home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py
+   349 /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py
+   379 /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py
+   393 /home/jorap/Documents
+… (output truncated)
+```
 </details></tool-use>
 
 _**Agent (composer-2.5-fast)**_
@@ -291,3 +322,2151 @@ _**Agent (composer-2.5-fast)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py</summary>
 
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading export scripts and notes_content.py to identify over-engineered patterns.
+
+Checking migrate scripts, bible-red-letter-mark.py, and grepping for unreferenced scripts across the repository.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{json,mjs,js,md,mdc,yml,yaml,sh,py}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "scripts/[a-zA-Z0-9_-]+\\.py"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "scripts/[a-zA-Z0-9_-]+\\.py",
+  "topFiles": [
+    {
+      "matchCount": 40,
+      "uri": ".specstory/history/2026-06-20_09-15-01Z-flashcard-answer-hint-design.md"
+    },
+    {
+      "matchCount": 100,
+      "uri": ".specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 32,
+      "uri": ".specstory/history/2026-06-30_04-43-36Z-notes-formatting-review.md"
+    },
+    {
+      "matchCount": 24,
+      "uri": ".specstory/history/2026-06-19_10-33-08Z-notes-linking-requirements.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-19_09-15-28Z-obsidian-like-design-modifications.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-06-19_04-46-28Z-notes-formatting-for-jorap-voice.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-19_15-20-18Z-notes-section-addition.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-20_10-34-58Z-card-display-settings-for-random-trio-and-duo.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-01_11-51-46Z-connections-between-mercy-and.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "docs/CONTENT_VOICE_REVIEW.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-06-28_17-06-25Z-free-grace-and-eternal-rewards-notes.md"
+    },
+    {
+      "matchCount": 43,
+      "uri": ".specstory/history/2026-06-20_09-38-30Z-flashcard-skill-question-hints.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/runPython.mjs"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-06-20_02-55-39Z-notes-review-and-definition-updates.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-06-19_12-30-32Z-two-random-notes-feature.md"
+    },
+    {
+      "matchCount": 32,
+      "uri": ".specstory/history/2026-07-01_13-22-54Z-garden-link-structure-issues.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-06-19_08-24-40Z-dead-internal-links-check.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-06-29_00-45-19Z-@tasks.workspaceid-6c9cecb364b8aca3f894dc941c3259bc-(1-28).md"
+    },
+    {
+      "matchCount": 79,
+      "uri": ".specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-19_14-18-04Z-randomized-notes-simplification.md"
+    }
+  ],
+  "totalFiles": 98,
+  "totalMatches": 2002
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/okf_bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/migrate-note-levels.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/bible-red-letter-mark.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing to explore notes_content.py structure and grep for dead script references across additional files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "^def |^class "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "^def |^class ",
+  "topFiles": [
+    {
+      "matchCount": 40,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 40
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{py,mjs,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "from notes_content import|import notes_content"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "from notes_content import|import notes_content",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/sync-note-relationships.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/slop-score.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/migrate-note-levels.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/okf_bundle.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/normalize-notes-format.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/import-from-obsidian.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/export-anki-deck.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/export-okf-blog-bundle.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/audit-flashcard-north-star.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/export-okf-bundle.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/lint-flashcard-frontmatter.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/blog_frontmatter.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/lint-utility-wikilinks.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/slop-lint.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/sync-note-flashcards.py"
+    }
+  ],
+  "totalFiles": 17,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{json,mjs,js,md,mdc,yml,yaml,sh,py,toml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "migrate-note-levels|bible-red-letter-mark|sync-note-flashcards|sync-note-relationships|normalize-notes-format|notes-voice-sanitize|garden-voice-lint|notes-voice-lint|slop-lint|slop-score|okf-viz|blog_frontmatter|blog_shortcodes|bible_shortcode"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "migrate-note-levels|bible-red-letter-mark|sync-note-flashcards|sync-note-relationships|normalize-notes-format|notes-voice-sanitize|garden-voice-lint|notes-voice-lint|slop-lint|slop-score|okf-viz|blog_frontmatter|blog_shortcodes|bible_shortcode",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-06_07-13-26Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-10_12-30-25Z-jorap-voice-blog-check.md"
+    },
+    {
+      "matchCount": 45,
+      "uri": ".specstory/history/2026-07-10_06-19-24Z-garden-voice-fix-chunk.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": ".specstory/history/2026-07-03_01-49-12Z-notes-with-five-word-titles.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-07_04-31-58Z-obsidian-features-discussion.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-07-20_00-30-59Z-google-vs-apple-ecosystem.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-01_23-54-03Z-css-hidden-flex-properties.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-10_14-17-01Z-open-source-focus-review.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-14_02-00-12Z-slug-and-filename-improvement.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-03_01-49-12Z-five-word-titles-for-notes.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-19_13-09-48Z-voice-and-anti-slop-rules.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-22_12-39-49Z-jesus-teachings-on-prayer.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-19_12-56-56Z-next-blog-publication.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_05-47-02Z-bema-search-issue.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": ".specstory/history/2026-07-06_02-22-55Z-notes-review-for-connections.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-28_17-06-25Z-free-grace-and-eternal-rewards-notes.md"
+    },
+    {
+      "matchCount": 88,
+      "uri": ".specstory/history/2026-07-10_05-58-29Z-jorap-voice-refinement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_13-10-50Z-static-site-slug-update.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-29_00-45-19Z-at-tasks-workspaceid-6c9cecb364b8aca3f894dc941c3259bc.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "docs/CONTENT_VOICE_REVIEW.md"
+    }
+  ],
+  "totalFiles": 185,
+  "totalMatches": 2001
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lintNotes.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Grepping for script references while excluding .specstory. Reviewing notes_content.py for shareable logic. Comparing slop-lint and slop-score for overlap. Checking whether migrate-note-levels was already run.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{py,mjs,js,json,mdc,md,toml,yml,yaml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "migrate-note-levels|bible-red-letter-mark|sync-note-flashcards|sync-note-relationships|normalize-notes-format|notes-voice-sanitize|garden-voice-lint\\.py|notes-voice-lint\\.py|slop-lint\\.py|slop-score\\.py|bible_shortcode|blog_frontmatter|blog_shortcodes"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "migrate-note-levels|bible-red-letter-mark|sync-note-flashcards|sync-note-relationships|normalize-notes-format|notes-voice-sanitize|garden-voice-lint\\.py|notes-voice-lint\\.py|slop-lint\\.py|slop-score\\.py|bible_shortcode|blog_frontmatter|blog_shortcodes",
+  "topFiles": [
+    {
+      "matchCount": 44,
+      "uri": ".specstory/history/2026-07-10_06-19-24Z-garden-voice-fix-chunk.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-29_00-45-19Z-at-tasks-workspaceid-6c9cecb364b8aca3f894dc941c3259bc.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-07-02_00-11-43Z-effective-flashcard-philosophy.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-03_01-49-12Z-five-word-titles-for-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-12_00-03-01Z-jorap-voice-wording-improvement.md"
+    },
+    {
+      "matchCount": 18,
+      "uri": ".specstory/history/2026-07-20_11-43-35Z-garden-voice-notes-review.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-07-22_12-10-07Z-notes-in-biblical-devotions.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-28_00-07-52Z-tinacms-compatibility.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-06_03-58-01Z-board-game-question-randomizer.md"
+    },
+    {
+      "matchCount": 20,
+      "uri": ".specstory/history/2026-07-11_00-02-19Z-workplace-principles-notes.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-07-13_16-24-58Z-blog-retheming-and-component-reduction.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-07-14_00-54-16Z-code-improvement-review.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": ".specstory/history/2026-07-14_02-39-51Z-blog-frontmatter-review.md"
+    },
+    {
+      "matchCount": 48,
+      "uri": ".specstory/history/2026-07-17_01-21-56Z-explore-repo-structure.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": ".specstory/history/2026-07-06_02-22-55Z-notes-review-for-connections.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": ".specstory/history/2026-07-10_14-08-35Z-notes-descriptions-in-concepts.md"
+    },
+    {
+      "matchCount": 69,
+      "uri": ".specstory/history/2026-07-01_13-22-54Z-garden-link-structure-issues.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-26_15-20-35Z-garden-voice-batch-1.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_13-10-50Z-static-site-slug-update.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-14_04-32-45Z-blog-content-review.md"
+    }
+  ],
+  "totalFiles": 188,
+  "totalMatches": 2002
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking external references, lint-notes-frontmatter imports, migrate status, slop-lint dynamic imports, notes-voice-sanitize, and okf-viz generate.py.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{py,mjs,js,json,mdc,md,toml,yml,yaml,sh}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "migrate-note-levels|bible-red-letter-mark|sync-note-flashcards|sync-note-relationships|normalize-notes-format|notes-voice-sanitize|garden-voice-lint|notes-voice-lint|slop-lint|slop-score|bible_shortcode|blog_frontmatter|blog_shortcodes|shareable_line_from_principle|principle_line_pool|strip_description_from_key_concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "migrate-note-levels|bible-red-letter-mark|sync-note-flashcards|sync-note-relationships|normalize-notes-format|notes-voice-sanitize|garden-voice-lint|notes-voice-lint|slop-lint|slop-score|bible_shortcode|blog_frontmatter|blog_shortcodes|shareable_line_from_principle|principle_line_pool|strip_description_from_key_concept",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/export-okf-blog-bundle.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-15_18-23-28Z-jorap-blog-facts-table.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-06-20_09-33-14Z-em-dash-usage-in.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": ".specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md"
+    },
+    {
+      "matchCount": 30,
+      "uri": ".specstory/history/2026-07-03_03-10-34Z-key-concept-review-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-08_00-42-13Z-verse-display-standards-update.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-20_00-45-49Z-git-as-an-open.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-07-13_16-24-58Z-blog-retheming-and-component-reduction.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_03-18-44Z-changelog-update-request.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-23_12-19-22Z-wider-levels-batch-2.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-02_12-50-16Z-blog-drafts-for-credibility.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-10_01-09-33Z-bible-notes-review.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-20_11-46-55Z-jorap-voice-skill-vocabulary.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-02_01-02-56Z-rewrite-note-descriptions-batch.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-14_02-01-30Z-blog-slug-and-filename.md"
+    },
+    {
+      "matchCount": 64,
+      "uri": ".specstory/history/2026-07-01_13-08-10Z-note-relationship-duplication.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-06-22_16-41-21Z-new-connections-in-notes.md"
+    },
+    {
+      "matchCount": 30,
+      "uri": ".specstory/history/2026-07-03_06-41-32Z-shareable-thoughts-analysis.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-07-10_14-08-35Z-notes-descriptions-in-concepts.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-10_14-51-21Z-sustainable-online-publishing-review.md"
+    }
+  ],
+  "totalFiles": 181,
+  "totalMatches": 2000
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^level_1:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^level_1:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/getting-things-done.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-feynman-technique.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/share-what-you-learn.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/network-analysis.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-process.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/lean-startup.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/random-duo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/surface-bad-news-early.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-beatitudes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/versatility.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/habit-stacking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/follow-christ-then-lead.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/ask-seek-knock.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/okf-export.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-garage-concept.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/own-the-error.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/give-useful-feedback.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/glorify-your-name.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/slow-productivity.md"
+    }
+  ],
+  "totalFiles": 318,
+  "totalMatches": 318
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level [1-5]:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level [1-5]:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/generate.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Starting the audit by examining the scripts directory.
+
+Checking which scripts are unreferenced in package.json. Verifying whether strip_description_from_key_concept is actually used. Inspecting slop-lint's dynamic import pattern. Comparing parse_scalar against YAML parsing in notes_content. Confirming bible-red-letter-mark output exists. Reviewing sync script usage in docs. Comparing export main() blocks. Detecting YAML duplication between blog_frontmatter and notes_content.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{py,mjs,js,mdc,md,toml,yml,yaml,sh}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "strip_description_from_key_concept|key_concept_overlaps_description|principle_line_pool|shareable_line_from_principle"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "strip_description_from_key_concept|key_concept_overlaps_description|principle_line_pool|shareable_line_from_principle",
+  "topFiles": [
+    {
+      "matchCount": 28,
+      "uri": ".specstory/history/2026-07-31_22-44-54Z-fix-early-shareable-thoughts.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-03_05-57-22Z-writing-quality-model.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-26_15-20-51Z-garden-voice-batch-2.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-31_22-44-54Z-fix-later-shareable-thoughts.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-07-31_22-17-00Z-depth-of-understanding-levels.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-26_15-04-10Z-okf-version-update-steps.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-24_10-18-40Z-audit-scripts-and-js.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-07-03_06-41-32Z-shareable-thoughts-analysis.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-07-19_12-29-48Z-blog-understanding-difficulty-ranking.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-03_06-55-32Z-inspect-note-schema.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-26_01-17-47Z-notes-and-flashcards-guidelines.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": ".specstory/history/2026-07-10_05-58-29Z-jorap-voice-refinement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-05_14-32-06Z-new-notes-creation.md"
+    },
+    {
+      "matchCount": 30,
+      "uri": ".specstory/history/2026-07-03_03-10-34Z-key-concept-review-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-20_11-48-28Z-fix-pkm-notes-shareable.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": ".specstory/history/2026-07-22_12-39-49Z-jesus-teachings-on-prayer.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": ".specstory/history/2026-07-06_00-46-11Z-leadership-notes-connection.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-07-22_12-10-07Z-notes-in-biblical-devotions.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-07-31_13-37-29Z-21-laws-of-leadership.md"
+    }
+  ],
+  "totalFiles": 37,
+  "totalMatches": 313
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "!**/.specstory/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "bible-red-letter|migrate-note-levels|sync-note-flashcards|sync-note-relationships"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "bible-red-letter|migrate-note-levels|sync-note-flashcards|sync-note-relationships",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/garden-maintenance/SKILL.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/partials/shortcodes/bible.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/bible-red-letter-mark.py"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "!**/.specstory/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "garden-voice-lint|notes-voice-lint|slop-lint|slop-score|notes-voice-sanitize"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "garden-voice-lint|notes-voice-lint|slop-lint|slop-score|notes-voice-sanitize",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "scripts/slop-score.py"
+    },
+    {
+      "matchCount": 5,
+      "uri": "scripts/voice-lint.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "docs/CONTENT_VOICE_REVIEW.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/notes-voice-lint.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/slop-lint.py"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog_frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/bible-red-letter-mark.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking how slop-lint dynamically imports slop-score to identify duplication.
+
+normalize-notes-format is actively used via package.json. sync-note-flashcards appears dead. migrate-note-levels is finished. bible-red-letter is a one-shot generator that could be kept for future data changes. voice-lint.py is the unified entry point; the four sub-scripts remain as modules but should only be invoked through it.
+
+`strip_description_from_key_concept` may only be used internally by `self_check`. `okf-viz` frontmatter splitting duplicates `notes_content` logic. `export-okf-bundle.py` and `export-okf-blog-bundle.py` share `parse_yaml_list` versus `parse_list_field`, a validate-only `main()` pattern, and `note_timestamp` versus `post_timestamp` helpers. `notes_content` uses hand-rolled YAML parsing instead of `pyyaml`; this may be intentional to preserve formatting. `clear_bundle_dir` duplicates `shutil.rmtree`.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "strip_description_from_key_concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "strip_description_from_key_concept",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-31_22-20-40Z-explore-level-frontmatter-usage.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./scripts/notes_content.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-10_14-08-35Z-notes-descriptions-in-concepts.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "!**/.specstory/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "sync-note-flashcards|migrate-note-levels|bible-red-letter-mark|normalize-blog-frontmatter|blog_frontmatter|blog_shortcodes|bible_shortcode|import-from-obsidian|okf-viz"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "sync-note-flashcards|migrate-note-levels|bible-red-letter-mark|normalize-blog-frontmatter|blog_frontmatter|blog_shortcodes|bible_shortcode|import-from-obsidian|okf-viz",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./scripts/okf-viz/viz.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./scripts/okf-viz/viz.js"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./scripts/normalize-blog-frontmatter.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./scripts/blog_frontmatter.py"
+    },
+    {
+      "matchCount": 5,
+      "uri": "./scripts/bible_shortcode.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./package.json"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./scripts/export-okf-bundle.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./scripts/export-okf-blog-bundle.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.cursor/skills/hugo-template-guidance/references/content-management.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./scripts/blog_shortcodes.py"
+    }
+  ],
+  "totalFiles": 10,
+  "totalMatches": 22
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether sync-note-flashcards has any references outside specstory.
+
+Checking migrate-note-levels and bible-red-letter-mark references. Found duplicate frontmatter loaders across voice-lint, slop-lint, and okf_bundle. Duplicated YAML list parsing exists between export-okf-bundle, export-okf-blog-bundle, and notes_content. okf-viz generate.py contains a third split_frontmatter variant. extract_levels_from_key_concept is still required for dual reads. notes_content self_check is roughly 70 lines and could shrink.
+
+normalize-notes-format uses a hand-rolled CARD_ITEM_RE regex instead of YAML for card parsing. Narrowing grep searches for sync-note-flashcards and migrate-note-levels.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "!**/.specstory/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "sync-note-flashcards|migrate-note-levels"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "sync-note-flashcards|migrate-note-levels",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "!**/.specstory/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "garden-voice-lint\\.py|notes-voice-lint\\.py|slop-lint\\.py|slop-score\\.py|notes-voice-sanitize\\.py"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "garden-voice-lint\\.py|notes-voice-lint\\.py|slop-lint\\.py|slop-score\\.py|notes-voice-sanitize\\.py",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/slop-lint.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "docs/CONTENT_VOICE_REVIEW.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "importlib\\.util\\.spec_from_file_location"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "importlib\\.util\\.spec_from_file_location",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/voice-lint.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/slop-lint.py"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/bible-red-letter-mark.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
+
+| File |
+|------|
+| `data/bible-red-letter-nasb1995.json` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking garden-voice-lint and notes-voice-lint for overlap. Comparing slop-lint and slop-score for duplicate logic.
+
+Auditing package.json coverage for the 28 Python scripts. Most are referenced directly or indirectly through lint commands. Also checking whether okf_bundle clear_bundle_dir duplicates shutil functionality.
+
+normalize-blog-frontmatter.py is covered by lint:blog. migrate-note-levels.py and bible-red-letter-mark.py are dead scripts not in package.json. sync-note-flashcards.py may also be dead. sync-note-relationships.py is referenced in garden-maintenance. notes_content.py, okf_bundle.py, blog_frontmatter.py, and blog_shortcodes.py are libraries.
+
+bible_shortcode.py is a library. okf-viz/generate.py is consumed by export-okf-bundle.
+
+sync-note-flashcards.py is dead. bible-red-letter-mark.py is alive as a one-shot generator.
+
+voice-lint.py is the 60-line thin wrapper. The four sub-scripts are the real implementations.
+
+The duplicate entry points are not true duplicates because each script can still be invoked directly. Removing their standalone CLI entry points would not save many lines. The concrete deletions are migrate-note-levels.py (~75 lines) and sync-note-flashcards.py (~393 lines).
+
+okf_bundle.clear_bundle could be replaced by shutil.rmtree. Hand-rolled YAML parsing in export scripts should use notes_content._parse_string_list instead. strip_description_from_key_concept is unused outside self-check and saves roughly fifteen lines. extract_levels_from_key_concept is a legacy path now that key_concept sections no longer contain Level N: markers; it could be trimmed by about thirty lines.
+
+Verifying whether Level bullets still appear in key_concept content. If notes now use level_1..level_5 fields exclusively, the legacy extract_levels_from_key_concept path is dead and its thirty-line helper can be removed.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^- Level [1-5]:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^- Level [1-5]:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "parse_yaml_list|parse_inline_list|parse_list_field|_parse_string_list"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "parse_yaml_list|parse_inline_list|parse_list_field|_parse_string_list",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/import-from-obsidian.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/export-okf-bundle.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/export-anki-deck.py"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/export-okf-blog-bundle.py"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 19
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/generate.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "!**/.specstory/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "bible-red-letter-mark"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "bible-red-letter-mark",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+bible-red-letter-mark.py is unreferenced outside specstory, yet its output JSON is consumed by a Hugo layout. This suggests the script may be dead code despite serving a live template.
+
+slop-score and slop-lint duplicate word_count and FRONTMATTER regex logic. garden-voice-lint and notes-voice-lint likely share duplicated code too. The two OKF export scripts contain nearly identical main() blocks and timestamp fields. parse_yaml_list is duplicated across four files.
+
+voice-lint duplicates slop-lint’s `_load` pattern. `notes_content.py` contains dead `strip_description_from_key_concept`, and `extract_levels_from_key_concept` is now a no-op since legacy bullets were stripped. Its ~330-line shareable heuristic is required by lint-notes-frontmatter.
+
+`append_flashcard_hint_question` (~30 lines) is used by `lint-flashcard`. The hand-rolled `_parse_*` routines (~80 lines) intentionally avoid `pyyaml` for export display assembly. `split_frontmatter` and `split_frontmatter_parts` overlap by roughly 15 lines. `notes_content.py` could shed about 35 lines by deleting the dead key-concept strip and the now-unused level-extraction path.
+
+`sync-note-flashcards.py` is 393 lines and completely unreferenced. `sync-note-relationships.py` appears only inside `skilloncept_sect`.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "!**/.specstory/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "sync-note-relationships"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "sync-note-relationships",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/garden-maintenance/SKILL.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog_shortcodes.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py",
+  "pattern": "^def |word_count|FRONTMATTER"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py",
+  "pattern": "^def |word_count|FRONTMATTER",
+  "topFiles": [
+    {
+      "matchCount": 14,
+      "uri": "scripts/slop-score.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 14
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py",
+  "pattern": "^def |word_count|FRONTMATTER"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py",
+  "pattern": "^def |word_count|FRONTMATTER",
+  "topFiles": [
+    {
+      "matchCount": 18,
+      "uri": "scripts/slop-lint.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 18
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/CONTENT_VOICE_REVIEW.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Found overlapping frontmatter logic between okf_bundle and notes_content. Both export and garden bundles duplicate dump_frontmatter patterns, though their field shapes differ slightly.
+
+export-okf-bundle.py spawns okf-viz via subprocess; importing the generate module directly would remove roughly fifteen lines of boilerplate. The five voice-lint wrapper scripts total about 1280 lines versus voice-lint.py’s 60, suggesting consolidation rather than deletion. garden-health.py remains actively referenced in package.json.
+
+voice-lint.py is the unified CLI. The four sibling scripts remain as standalone modules with their own `main()` functions. Dropping the direct invocation docs would let them become pure libraries. Their `__main__` blocks are redundant because voice-lint imports them via importlib. Removing those blocks saves roughly forty lines across the four files.
+
+slop-lint.py dynamically loads slop-score instead of importing it directly, duplicating roughly fifteen lines of loader logic already present in voice-lint.py.
+
+The export-okf-bundle.py and export-okf-blog-bundle.py main blocks follow nearly identical validate-only patterns.
+
+sync-note-flashcards.py is completely dead at roughly 393 lines. migrate-note-levels.py is a finished migration at roughly 75 lines. notes_content.py contains about fifty lines of legacy extraction paths and helpers that could be trimmed if lint simplification is desired.
+
+Centralizing parse_yaml_list into notes_content would remove roughly sixty lines duplicated across export-anki, export-okf, and import-from-obsidian. okf-viz split_frontmatter duplicates about twenty-five lines of logic that notes_content.parse_scalar already covers. okf_bundle.clear_bundle_dir is only ten lines and can be replaced by shutil.rmtree. slop-lint word_count duplicates slop-score word_count by four lines. The importlib loaders in voice-lint and slop-lint are not worth refactoring into a shared helper.
+
+bible-red-letter-mark.py is not dead; it regenerates data when its source YAML changes. It should stay as a one-shot regeneration tool rather than a migration script.
+
+blog_shortcodes.py is thirty-two-six lines and is required by export-okf-blog-bundle.py. It cannot be removed without replacing Hugo rendering.
+
+Checking bible_shortcode.py against blog_shortcodes.py for duplicate bible shortcode logic.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/bible_shortcode.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py",
+  "pattern": "FRONTMATTER|split_frontmatter|yaml\\.safe_load"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py",
+  "pattern": "FRONTMATTER|split_frontmatter|yaml\\.safe_load",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "scripts/garden-voice-lint.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py",
+  "pattern": "FRONTMATTER|split_frontmatter|yaml\\.safe_load"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py",
+  "pattern": "FRONTMATTER|split_frontmatter|yaml\\.safe_load",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "scripts/notes-voice-lint.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/deployBuild.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Export scripts are invoked by deployBuild, confirming they are actively used rather than dead code.
+
+okf-viz generate.py duplicates notes_content logic with a hand-rolled split_frontmatter function. Two voice-lint scripts share identical FRONTMATTER regex and load_md patterns. The largest cut is deleting sync-note-flashcards.py (~393 lines). It has zero repository references outside its specstory file and was never wired to package.json or CI.
+
+migrate-note-levels.py (~75 lines) is dead because every note now carries level_1 fields and no Level N: bullets remain in key_concept. notes_content.py contains 50–80 lines of unused legacy helpers: strip_description_from_key_concept, extract_levels_from_key_concept, and a legacy branch in format_key_concept_section. These should be merged or removed.
+
+Four export scripts duplicate a 55-line parse_yaml_list helper. Consolidate it into notes_content._parse_string_list or okf_bundle.parse_list_field.
+
+export-okf-bundle.py and export-okf-blog-bundle.py each carry ~35 lines of duplicated main and validate logic. Extract a shared validate_and_run() into okf_bundle.
+
+voice-lint.py and slop-lint.py both reimplement a 20-line importlib loader. slop-lint should import slop_score directly or use a shared five-line helper.
+
+okf_bundle.clear_bundle_dir (~12 lines) can become a direct shutil.rmtree and mkdir call. okf-viz/generate.py split_frontmatter (~25 lines) should delegate to notes_content.parse_scalar and split_frontmatter_parts. export-okf-bundle.py spawns okf-viz as a subprocess (~20 lines); importing generate_visualization directly would remove that indirection. bible-red-letter-mark.py should be deleted if already executed.
+
+bible-red-letter-mark.py is a regeneration hook, not dead code. It should be kept, but its 151-line fuzzy-matching body can be shrunk to a 20-line package.json entry point.
+
+The four voice-lint scripts are not thin wrappers. docs/CONTENT_VOICE_REVIEW.md still points directly to notes-voice-sanitize.py. Only the documentation needs updating, not the implementations.
+
+slop-lint.py duplicates slop-score.py’s word_count. Import it instead. okf_bundle.yaml_frontmatter and notes_content.dump produce different output formats, so okf_bundle stays export-specific. blog_shortcodes is 326 lines of naive Hugo scanning. It is needed for OKF blog export without Hugo. notes_content._self_check is intentionally bloat. Leave it alone.
+
+normalize-notes-format.py re-implements card parsing with CARD_ITEM_RE when yaml.safe_load already extracts cards. That is roughly fifteen lines of unnecessary duplication. garden-voice-lint.py repeats bible_verse_ref_in_text and BIBLE_SHORTCODE regexes already present in notes_content.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "!**/.specstory/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "sync-note-flashcards"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "sync-note-flashcards",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "!**/.specstory/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "migrate-note-levels"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "migrate-note-levels",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/generate.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "yaml_frontmatter|dump_frontmatter"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "yaml_frontmatter|dump_frontmatter",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/normalize-notes-format.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/sync-note-flashcards.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/export-okf-blog-bundle.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/export-okf-bundle.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/migrate-note-levels.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/okf_bundle.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/sync-note-relationships.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 8,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Two separate YAML dump systems were identified.
+
+notes_content.dump_frontmatter and okf_bundle.yaml_frontmatter are intentionally different formats, so merging them would add complexity rather than remove duplication.
+
+The export-okf scripts duplicate blog post_timestamp logic across roughly 20 lines each.
+
+Checking whether slop-score and slop-lint share duplicated PHRASAL patterns.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/slop-rules.yaml",
+  "pattern": "mechanical_"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/slop-rules.yaml",
+  "pattern": "mechanical_",
+  "topFiles": [
+    {
+      "matchCount": 8,
+      "uri": "data/slop-rules.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+slop-lint delegates mechanical checks to slop-score via importlib. This is good design rather than duplicate logic.
+
+voice-lint.py is the unified entry point for five distinct linting scripts. The audit ranks the largest cuts by approximate line savings: sync-note-flashcards (~393), migrate-note-levels (~75), export duplicates (~130), notes_content dead legacy (~50–70), okf-viz split_frontmatter (~25), okf_bundle clear_bundle_dir (~10), export subprocess to import (~15), and strip_description_from_key_concept (~15).
+
+Voice-lint docs-only duplicate entry points save roughly 30–40 lines if the four scripts lose their `__main__` blocks. The shared Hit dataclass and `load_md` regex between `notes-voice-lint` and `slop-lint` are structurally similar but serve different rules, so merging them would be over-engineering. I am now checking whether `CARD_ITEM_RE` in `normalize-notes-format` is actually used elsewhere.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py",
+  "pattern": "CARD_ITEM_RE"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py",
+  "pattern": "CARD_ITEM_RE",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/normalize-notes-format.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+`CARD_ITEM_RE` is defined but never used. About 4 lines of dead code.
+
+Compiling the final ranked list of findings.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing findings in the requested tag-and-path format.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Ranked by approximate line savings (6,097 lines across 28 files today):
+
+1. `delete: sync-note-flashcards.py entire tier-sync script (393 lines). No references outside SpecStory; card counts are enforced by lint:cards only. [scripts/sync-note-flashcards.py]`
+
+2. `delete: migrate-note-levels.py one-shot level_1..level_5 migrator (75 lines). Migration done — ~300 notes have level_1, zero `- Level N:` bullets remain in key_concept. [scripts/migrate-note-levels.py]`
+
+3. `shrink: notes_content.py shareable-line engine is ~330 lines but required by lint-notes-frontmatter (gets_point_across, shareable_line_from_principle, principle_line_pool); do not delete — only trim dead helpers below (~50 lines). [scripts/notes_content.py]`
+
+4. `yagni: export-okf-bundle.py + export-okf-blog-bundle.py duplicate CLI/validate/export main() (~35 lines each). Factor shared --validate-only + validate_bundle exit path into okf_bundle.run_export_cli(). [scripts/export-okf-bundle.py, scripts/export-okf-blog-bundle.py, scripts/okf_bundle.py]`
+
+5. `yagni: parse_yaml_list / parse_inline_list / parse_list_field copied 4× (~55 lines total). export-okf parse_yaml_list ≡ export-anki parse_yaml_list ≡ export-okf-blog parse_list_field ≡ notes_content._parse_string_list — one helper in notes_content or okf_bundle. [scripts/export-okf-bundle.py, scripts/export-okf-blog-bundle.py, scripts/export-okf-bundle.py, scripts/import-from-obsidian.py, scripts/export-anki-deck.py]`
+
+6. `yagni: voice-lint.py (60 lines) is the only package.json entry; garden-voice-lint / notes-voice-lint / slop-lint / slop-score / notes-voice-sanitize are implementation modules (~881 lines) loaded via importlib — not duplicate logic, but duplicate CLIs/docs still invoke them directly (~40 lines of redundant if __name__ blocks + docs/CONTENT_VOICE_REVIEW.md). Route everything through voice-lint.py. [scripts/voice-lint.py, scripts/garden-voice-lint.py, scripts/notes-voice-lint.py, scripts/slop-lint.py, scripts/slop-score.py, scripts/notes-voice-sanitize.py]`
+
+7. `shrink: notes_content.py legacy level migration path (~35 lines). extract_levels_from_key_concept + format_key_concept_section strip branch — no `- Level N:` bullets left after migrate-note-levels; keep level_1..level_5 render only. [scripts/notes_content.py]`
+
+8. `delete: notes_content.py strip_description_from_key_concept (~15 lines). Only referenced in _self_check; one-shot script was never committed. [scripts/notes_content.py]`
+
+9. `yagni: okf-viz/generate.py hand-rolled split_frontmatter + parse_scalar (~25 lines). Duplicates notes_content.split_frontmatter_parts / parse_scalar for OKF bundle concepts already using simple export FM. [scripts/okf-viz/generate.py]`
+
+10. `stdlib: okf_bundle.py clear_bundle_dir manual rglob unlink/rmdir (~12 lines). shutil.rmtree(out_dir, ignore_errors=True); out_dir.mkdir(parents=True). [scripts/okf_bundle.py]`
+
+11. `native: export-okf-bundle.py subprocess spawn of okf-viz/generate.py (~20 lines). Direct import generate_visualization() — same pattern as slop-lint → slop-score. [scripts/export-okf-bundle.py, scripts/okf-viz/generate.py]`
+
+12. `yagni: slop-lint.py importlib loader for slop-score.py (~10 lines) mirrors voice-lint._load — second copy; rename slop-score.py → slop_score.py or one shared load_script(). [scripts/slop-lint.py, scripts/voice-lint.py]`
+
+13. `yagni: slop-lint.py word_count() (~4 lines). Duplicates slop-score.word_count regex — import from slop_score after rename. [scripts/slop-lint.py, scripts/slop-score.py]`
+
+14. `delete: normalize-notes-format.py CARD_ITEM_RE (~4 lines). Defined, never used; cards already parsed via yaml.safe_load + parse_cards(). [scripts/normalize-notes-format.py]`
+
+15. `shrink: bible-red-letter-mark.py keep as regen tool, not delete (~151 lines). Output already in data/bible-red-letter-nasb1995.json (consumed by layouts/partials/shortcodes/bible.html); zero repo references — wire `pnpm bible:red-letter` or document regen when jesus-words.yaml changes. [scripts/bible-red-letter-mark.py]`
+
+16. `yagni: export-okf-bundle note_timestamp + export-okf-blog post_timestamp (~25 lines combined). Same mtime/ISO fallback pattern — one timestamp_from(inner, path, fields) in okf_bundle. [scripts/export-okf-bundle.py, scripts/export-okf-blog-bundle.py]`
+
+17. `yagni: okf_bundle.yaml_frontmatter vs notes_content.dump_frontmatter (~50 lines overlap in quoting rules). Export uses minimal Concept FM; garden dump handles cards/relationships — share yaml_quote/scalar only (already partially done via blog_frontmatter). [scripts/okf_bundle.py, scripts/notes_content.py]`
+
+18. `yagni: notes_content.py hand-rolled _parse_scalar/_parse_block_scalar/_parse_relationships (~80 lines). Intentional stdlib-only path for assemble_markdown/export without PyYAML round-trip — keep unless all callers accept yaml.safe_load + dump_frontmatter. [scripts/notes_content.py]`
+
+**Dead vs package.json (28 `.py` files):**
+
+| Script | In package.json? | Verdict |
+|--------|------------------|---------|
+| sync-note-flashcards.py | No | **Dead — delete** |
+| migrate-note-levels.py | No | **Dead — delete** |
+| bible-red-letter-mark.py | No | Manual regen only |
+| sync-note-relationships.py | No | Alive — `.cursor/skills/garden-maintenance/SKILL.md` |
+| garden/notes-voice/slop-* | Via voice-lint.py | Alive — modules |
+| notes_content, okf_bundle, blog_*, bible_shortcode | Imported | Libraries |
+| okf-viz/generate.py | Via export-okf + deployBuild | Alive |
+
+**Rough total if top cuts applied:** ~550–650 lines (~9–11% of Python scripts), dominated by deleting `sync-note-flashcards.py` alone.

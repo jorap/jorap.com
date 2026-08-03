@@ -11671,3 +11671,254 @@ free grace skiil must be based on Anderson's material only. i will use the skill
 _**Agent (auto-smart)**_
 
 > Auto routed to grok-4.5
+
+
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The free-grace skill must be a pure encoding of Anderson's material only. It should not incorporate JoRap garden voice conventions, garden hubs, existing note links, or other soft adaptations that could dilute the source.
+
+The skill will function as a strict compliance and audit tool for faith notes. I will now review the current skill files and revise them to be strictly Anderson-based, stripping out any JoRap-specific garden voice coupling.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Tightening the skill to Anderson-only and shaping it as a compliance check for faith notes. Reading the current files and the create-skill guidance.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace/doctrines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace/contrasts.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/skills-cursor/create-skill/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The skill must be based solely on Anderson's material.
+
+The skill will audit faith notes against Anderson's pure doctrinal standard. JoRap garden voice couplings, soft editing guidance, and garden-specific rules will be removed. A strict compliance checklist will replace soft guidance and rewriting instructions.
+
+Non-compliant notes will fail. Voice guidance remains separate from the Anderson-only compliance standard. AGENTS.md will be updated to reflect this. All three files will be rewritten cleanly.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Rewriting the skill as an Anderson-only compliance standard—no garden voice, no soft accommodation of non-Anderson note phrasing.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Updating doctrines.md and contrasts.md to remove JoRap-specific soft guidance. Also updating AGENTS.md.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace/contrasts.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace/doctrines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/AGENTS.md",
+  "pattern": "free-grace|Free Grace"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/AGENTS.md",
+  "pattern": "free-grace|Free Grace",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "AGENTS.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I accidentally swapped the contents between the two files.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+I swapped the companion files — fixing that now.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace/doctrines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace/contrasts.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/AGENTS.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: pnpm lint:agent-config &amp;&amp; head -n 5 .cursor/skills/free-grace/doctrines.md .cursor/skills/free-grace/contrasts.md &amp;&amp; wc -l .cursor/skills/free-grace/*</summary>
+```bash
+pnpm lint:agent-config && head -n 5 .cursor/skills/free-grace/doctrines.md .cursor/skills/free-grace/contrasts.md && wc -l .cursor/skills/free-grace/*
+```
+
+```
+$ node scripts/lint-agent-config.mjs
+agent config OK: 18 skill(s), 8 rule(s), Kilo → .cursor/skills
+==> .cursor/skills/free-grace/doctrines.md <==
+# Free Grace — doctrine cards (Anderson only)
+
+Compact teaching map from David R. Anderson, *Free Grace Soteriology*, 3rd ed. Attribute; do not paste book text. No other soteriological authority.
+
+## Free gift (grace)
+
+==> .cursor/skills/free-grace/contrasts.md <==
+# Free Grace — contrasts (Anderson only)
+
+How Anderson's Free Grace differs from neighboring systems. Use when auditing a note or answering "isn't that Calvinism / Arminian / Catholic / lordship?" Doctrine only — no other authority.
+
+## Shared words, different parking lots
+   69 .cursor/skills/free-grace/contrasts.md
+  112 .cursor/skills/free-grace/doctrines.md
+  113 .cursor/skills/free-grace/SKILL.md
+  294 total
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Files are correct. Lint passed.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace",
+  "pattern": "garden-voice|JoRap|wikilink|free-grace\\.md|pastoral"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace",
+  "pattern": "garden-voice|JoRap|wikilink|free-grace\\.md|pastoral",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/free-grace/contrasts.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".cursor/skills/free-grace/SKILL.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The remaining JoRap and garden references only clarify that voice is separate and Anderson wins on doctrine.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+The skill is now **Anderson-only** and framed as a **compliance check** for faith notes.
+
+What changed:
+- Sole doctrinal source: Anderson, *Free Grace Soteriology* (3rd ed.) — no garden hubs, wikilinks, or soft “pastoral” exceptions as authority
+- Voice skills may still shape wording; if they clash with Anderson, **Anderson wins**
+- New **compliance audit**: 12 fail conditions, pass signals, and a fixed report format (`COMPLIANT | NON-COMPLIANT | MIXED`)
+- Default: audit only; rewrite a note only if you ask
+
+Ask something like “does `assurance.md` comply with Free Grace?” and it will run that checklist.
+
+## Session close
+- Fixed: free-grace skill tightened to Anderson-only with a faith-note compliance audit.
+- Encode: none
+- Open: clean

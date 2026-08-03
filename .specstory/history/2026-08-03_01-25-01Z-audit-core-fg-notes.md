@@ -423,5 +423,299 @@ The faith-and-works note is MIXED. Its level_1 quote about sand versus rock coul
 
 The faith-and-works note is COMPLIANT. Its key concept and later levels explicitly distinguish dead faith from false profession, preventing the sand metaphor from implying a person was never saved.
 
-The wise-builder note is COMPLIANT. Its metadata imprecision about false-profession reward loss is minor and not teaching in
+The wise-builder note is COMPLIANT. Its metadata imprecision about false-profession reward loss is minor and not teaching in the key concept.
+
+The abide-in-me note is NON-COMPLIANT. Its "dead wood" reference to John 15:6, read as self-powered fruit without abiding, implies a person loses salvation. This conflates self-effort with eternal security.
+
+All 25 notes are COMPLIANT. The by-their-fruits note explicitly warns against judging souls. The abide-in-me note omits a specific parsing of John 15:6. These remain edge cases. No note is MIXED or NON-COMPLIANT.
+
+No note is NON-COMPLIANT. Four candidates are MIXED: faith-and-works, the-narrow-way, abide-in-me, and the-wise-builder. The summary will rank them worst-first.
+
+Reconsidering the MIXED verdicts. If no checklist item is actually violated, every note is COMPLIANT. The faith-and-works sand metaphor may still raise a borderline edge, but it does not constitute a failure.
+
+The faithfulness note carries a graph edge that only contradicts when faithful use becomes currency for eternal life. This is not a teaching contradiction. The free-grace note has no body text beyond frontmatter. The fruits-of-the-spirit note is an index with body content and was fully audited. The narrow-way card contains a quote about secret sin and fear of not being saved.
+
+The narrow-way key concept states the narrow gate is Free Grace in Christ. This phrasing is slightly odd. All notes are COMPLIANT. No note is NON-COMPLIANT or MIXED. The final report will list no failures. It will flag edge cases for awareness.
+
+The narrow-way note is MIXED. It passes Free Grace framing, Lord Lord false-profession warnings, and the distinction between salvation receipt and discipleship. Yet its level 1 and key-concept language still pairs the narrow gate with self-rule without always clarifying that faith alone receives eternal life while self-denial follows.
+
+The narrow-way note is COMPLIANT. Its self-rule language does not violate item 4 because the note explicitly rejects moral performance as the price of salvation. No checklist item is clearly failed.
+
+The sanctification card avoids implying that fruit proves a person is fake. The discipleship card correctly rejects a surrender-at-conversion requirement. Repentance is explicitly framed as turning from sin for fellowship, not as the price of receiving eternal life. The audit is now complete.
+
+The final summary will list four notes with borderline phrasing for optional tightening: the-narrow-way, faith-and-works, abide-in-me, and the-wise-builder. No note is NON-COMPLIANT or MIXED.
+
+The pruning card explicitly reassures that staying on the vine prevents revoked place. The key_concept still carries an edge: "self-powered fruit without abiding is the dead wood Jesus removes," which could sound like believers being thrown away. The wise-builder note contradicts the loss-of-reward relationship only in metadata. The report is now being finalized.
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace",
+  "pattern": "narrow gate|self-rule|sand|dead wood|Lord Lord"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace",
+  "pattern": "narrow gate|self-rule|sand|dead wood|Lord Lord",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning the comprehensive Anderson compliance audit.
+
+Most notes are frontmatter-only; only fruits-of-the-spirit contains body text. Each note will be evaluated against the Anderson checklist.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The full Anderson compliance audit report is ready for delivery.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Audit complete. All 25 notes read (frontmatter + body where present). Verdict against Anderson checklist only.
+
+---
+
+## Anderson compliance: free-grace.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Gift/no-strings language; faith alone; standing vs fellowship; assurance on promise; fruit may back up, never grounds belonging; repentance with fellowship; rewards/judgment seat separate from destiny; James inactive-faith guard in cards
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: justification.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Declared righteous at faith; gift by grace; case closed at trust; standing vs fellowship; sanctification/rewards after verdict
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: assurance.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Primary ground = God's promise; fruit may back up, never grounds belonging; standing vs fellowship; reward vs salvation split; childlike receive-without-merit-ladder
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: faith-and-works.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Faith alone saves; James dead = inactive, not never-saving; works answer grace; false profession vs stumbled believer (relationships); no garden anti-phrases
+- **Unclear/edge:** Matt 7 sand/rock in level_1 ("hearing alone is sand") — collapse category (false profession vs reward-loss) not tagged in this note; clarified in [[The Wise Builder]] / level_4–5 here
+
+---
+
+## Anderson compliance: standing-vs-fellowship.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** A/B split explicit; eternal life secure; fellowship breaks/restores; reward-loss ≠ salvation-loss
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: grace.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Gift not wages; no front/back strings; faith alone; assurance on promise; standing vs fellowship
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: repent-and-believe.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Belief receives eternal life; repentance for fellowship, not price of life; faith today, not when fixed
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: sanctification.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Position vs condition; after justification; fruit may back up, never grounds assurance; reward-loss ≠ un-saving
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: eternal-rewards.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Repayment after salvation; gift first; judgment seat = reward review; cards correct merit-ladder errors
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: judgment-seat.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Bema = works for reward; destiny settled at faith; 1 Cor 3:15 saved through fire; standing secure
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: loss-of-reward.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Two ledgers; saved through fire; false Lord Lord vs believer who stumbled; standing vs fellowship under shame
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: childlike-faith.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Receive kingdom without merit ladder; stop negotiating worthiness; gift/receive posture aligned with assurance
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: grateful-obedience.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Obedience from thanks after salvation; fruit may back up, never grounds assurance; rejects obedience-as-payment cards
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: by-their-fruits.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Teacher discernment only; "not a verdict on someone's soul"; paired with [[Judge Not]]; no fruit-grounds-belonging language
+- **Unclear/edge:** No explicit assurance/Free Grace link — scope is teachers, not election; still safe
+
+---
+
+## Anderson compliance: the-narrow-way.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Narrow gate = faith in Christ, not works road; Lord Lord = false professors; believer stumbles stay saved; discipleship cost distinct from how life is received
+- **Unclear/edge:** "narrow gate costs self-rule" / "enter… costs self-rule" (level_1–2, key_concept) — entry-to-life metaphor can blur with lordship entry if read without level_5 / Free Grace key_concept paragraph
+
+---
+
+## Anderson compliance: the-wise-builder.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Doing does not save; faith saves; Lord Lord without doing = empty profession; false profession ≠ stumbled believer; [[Faith and Works]] order
+- **Unclear/edge:** Relationship reason to [[Loss of Reward]] ("false profession loses reward") — imprecise metadata; false professors face condemnation, not bema reward-loss
+
+---
+
+## Anderson compliance: count-the-cost.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Cost = discipleship weight, not heaven price tag; explicit Free Grace lane split in level_4
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: take-up-your-cross.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Cross after faith; daily discipleship; eternal life received by faith, not earned by cross-bearing; cards reject cross-to-feel-saved
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: discipleship.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Lord in gospel = trust who He is; dedication after freedom, not entry fee; fruit may back up, never grounds assurance; card rejects total-surrender-at-conversion as salvation test
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: present-a-living-sacrifice.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Mercy first; worship from thanks, not payment; sacrifice after justification; rejects streak-as-proof cards
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: walk-by-the-spirit.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Spirit walk follows salvation; fruit not performance score; obedience never buys it
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: fruits-of-the-spirit.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Fruit answers grace; may back up life given by faith, never grounds belonging/assurance; index body reinforces Free Grace link; contrasts [[By Their Fruits]] (teachers) vs Spirit fruit
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: christlikeness.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Growth after faith; do not manufacture likeness to earn standing; fruit may back up, never grounds assurance; position settled at faith
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: faithfulness.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Steady use after grace; performance cannot replace entry fee; eternal rewards separate from gift
+- **Unclear/edge:** none
+
+---
+
+## Anderson compliance: abide-in-me.md
+- **Verdict:** COMPLIANT
+- **Failures:** none
+- **Passes:** Fruit from connection, not earning branch place; pruning refines, not revokes standing (card); Free Grace guard in key_concept
+- **Unclear/edge:** "dead wood Jesus removes" — John 15:6 fire destination not parsed (false branch vs believer discipline/reward); card answers pruning fear correctly
+
+---
+
+# SUMMARY (NON-COMPLIANT and MIXED only)
+
+**None.** All 25 notes = COMPLIANT on numbered checklist.
+
+**Optional tightening (not failures):** ranked by blur risk if a reader skips Free Grace paragraphs —
+1. `the-narrow-way.md` — self-rule/surrender language on "enter" / "way to life"
+2. `faith-and-works.md` — Matt 7 sand without inline false-profession tag
+3. `abide-in-me.md` — "dead wood removed" without John 15 destiny parse
+4. `the-wise-builder.md` — metadata link reason on false profession + reward
+
+**Checklist items with zero hits across set:** 2 (perseverance litmus), 5 (Mat 24:13), 6 (warnings = hell), 7 (regeneration before faith), 8 (limited atonement), 9 (universalism), 10 (loss of eternal life), 12 (Rom 10 meritorious confession).
+
+**Garden anti-phrases:** none found ("works prove faith," "fruit confirms belonging," "dead on inspection"). Preferred phrasing ("may back up," "never grounds belonging/assurance") appears throughout core gospel notes.

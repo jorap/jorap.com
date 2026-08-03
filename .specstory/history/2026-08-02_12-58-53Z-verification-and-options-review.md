@@ -3635,6 +3635,17 @@ Parameters:
   "url": "https://kilo.ai/docs/providers/openai-compatible"
 }
 ```
+Additional data:
+
+```json
+{
+  "reviewData": {
+    "isShowingInput": false,
+    "selectedOption": "run",
+    "status": "None"
+  }
+}
+```
 Result:
 
 ```json
@@ -3701,4 +3712,80 @@ curl -sL --max-time 20 "https://raw.githubusercontent.com/jundot/omlx/main/READM
 curl -sL --max-time 20 "https://omlx.ai/" 2>/dev/null | rg -i "kilo|base.url|localhost|claude code|one-click" | head -n 20
 
 ```
+
+```
+30:  <a href="#models">Models</a> ·
+49:> *Every LLM server I tried made me choose between convenience and control. I wanted to pin everyday models in memory, auto-swap heavier ones on demand, set context limits - and manage it all from a menu bar.*
+115:Launch oMLX from your Applications folder. The Welcome screen guides you through three steps - model directory, server start, and first model download. That's it. To connect OpenClaw, OpenCode, Codex, Hermes Agent, or Copilot, see [Integrations](#integrations).
+131:omlx serve --model-dir ~/models
+134:The server discovers LLMs, VLMs, embedding models, and rerankers from subdirectories automatically. Any OpenAI-compatible client can connect to `http://localhost:8000/v1`. A built-in chat UI is also available at `http://localhost:8000/admin/chat`.
+151:The service runs `omlx serve` with zero-config defaults (`~/.omlx/models`, port 8000). `omlx start`, `omlx stop`, and `omlx restart` are the portable lifecycle commands; Homebrew installs delegate them to `brew services`. To customize, either set environment variables (`OMLX_MODEL_DIR`, `OMLX_PORT`, etc.) or run `omlx serve --model-dir /your/path` once to persist settings to `~/.omlx/settings.json`.
+159:Supports text LLMs, vision-language models (VLM), OCR models, embeddings, and rerankers on Apple Silicon.
+169:### Vision-Language Models
+171:Run VLMs with the same continuous batching and tiered KV cache stack as text LLMs. Supports multi-image chat, base64/URL/file image inputs, and tool calling with vision context. OCR models (DeepSeek-OCR, DOTS-OCR, GLM-OCR) are auto-detected with optimized prompts.
+190:Context scaling support for running smaller context models with Claude Code. Scales reported token counts so that auto-compact triggers at the right timing, and SSE keep-alive prevents read timeouts during long prefill.
+194:Load LLMs, VLMs, embedding models, and rerankers within the same server. Models are managed through a combination of automatic and manual controls:
+196:
+… (output truncated)
+```
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing detailed Kilo Code instructions for the draft's next step 3.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Writing Kilo Code steps into the draft and summarizing them here.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__chasing-composer-2-5-locally.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a clean copy of the instructions for the user.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+### Kilo Code → oMLX
+
+1. Install **Kilo Code** in VS Code → open **Settings** (gear) → **Providers**.
+2. Scroll down → **Custom provider**.
+3. Set:
+
+| Field | Value |
+|-------|--------|
+| Provider ID | `omlx` |
+| Display name | `oMLX` |
+| Provider API | **OpenAI Compatible** |
+| Base URL | `http://localhost:8000/v1` |
+| API key | `not-needed` (or any placeholder if required) |
+
+4. Get the exact model id from oMLX:
+
+```bash
+curl -s http://localhost:8000/v1/models
+```
+
+Use that `id` in Kilo (auto-fetch if it appears, otherwise add manually). For the draft pick it’s usually something like `Qwen2.5-Coder-14B-Instruct-4bit` or whatever folder/alias oMLX shows.
+
+5. Pick that model in Kilo → open your repo → small agent task with diffs on.
+
+**Tips:** oMLX must be running first. You can set a short **alias** in oMLX’s admin UI so the name is cleaner. Don’t use Cursor for this.
+
+Same pattern works in **Cline** if you prefer that extension.
+
+Draft step 3 is updated with these details.
+
+## Session close
+- Fixed: expanded Kilo Code → oMLX localhost setup into the draft next-steps
+- Encode: none
+- Open: `[NEEDS SCENE]` for real install, placeholder hero, `draft: true`

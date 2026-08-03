@@ -532,4 +532,899 @@ _**Agent (composer-2.5-fast)**_
 
 <think><details><summary>Thought Process</summary>
 Twenty-seven published blog posts were identified by checking frontmatter draft flags.
+
+`__markdown-deep-dive.md` contains two `draft:` lines. The first (`draft: true`) sits in the frontmatter, while the second (`draft: false`) appears inside a code example in the body. Hugo would likely use the first value, so the file may still be treated as a draft.
+
+`__markdown-deep-dive.md` is confirmed as unpublished because its frontmatter sets `draft: true`. The twenty-seven published posts are now being listed.
+
+The full list of twenty-seven published posts is now complete. All files will be read in batches to extract frontmatter and summarize each post’s thesis and evidence.
+
+Body word counts excluding frontmatter are needed. The shell command returned total file counts including frontmatter. A script will compute body-only lengths before reading the posts.
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Verifying `__markdown-deep-dive.md` draft status and reading all 27 published posts for summaries.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import re, pathlib
+root = pathlib.Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/blog&#34;)
+published = []
+for f in sorted(root.glob(&#34;*.md&#34;)):
+    if f.name == &#34;_index.md&#34;: continue
+    text = f.read_text(encoding=&#34;utf-8&#34;)
+    m = re.match(r&#34;^---\n(.*?)\n---\n&#34;, text, re.S)
+    if not m: continue
+    fm = m.group(1)
+    draft_m = re.search(r&#34;^draft:\s*(true|false)&#34;, fm, re.M)
+    if not draft_m or draft_m.group(1) != &#34;false&#34;:
+        continue
+    body = text[m.end():]
+    body_words = len(re.findall(r&#34;\S+&#34;, body))
+    title = re.search(r&#39;^title:\s*&#34;?([^&#34;\n]+)&#34;?&#39;, fm, re.M)
+    date = re.search(r&#39;^date:\s*&#34;?([^&#34;\n]+)&#34;?&#39;, fm, re.M)
+    cats = re.search(r&#39;^categories:\s*(\[.*?\])&#39;, fm, re.M)
+    published.append((date.group(1) if date else &#34;?&#34;, title.group(1) if title else &#34;?&#34;, body_words, cats.group(1) if cats else &#34;?&#34;, str(f)))
+for row in sorted(published, key=lambda x: x[0]):
+    print(f&#34;{row[0]}|{row[3]}|{row[2]}w|{row[1]}|{row[4]}&#34;)
+print(&#34;TOTAL:&#34;, len(published))
+PY</summary>
+```bash
+python3 << 'PY'
+import re, pathlib
+root = pathlib.Path("/home/jorap/Documents/GitHub/jorap.com/content/english/blog")
+published = []
+for f in sorted(root.glob("*.md")):
+    if f.name == "_index.md": continue
+    text = f.read_text(encoding="utf-8")
+    m = re.match(r"^---\n(.*?)\n---\n", text, re.S)
+    if not m: continue
+    fm = m.group(1)
+    draft_m = re.search(r"^draft:\s*(true|false)", fm, re.M)
+    if not draft_m or draft_m.group(1) != "false":
+        continue
+    body = text[m.end():]
+    body_words = len(re.findall(r"\S+", body))
+    title = re.search(r'^title:\s*"?([^"\n]+)"?', fm, re.M)
+    date = re.search(r'^date:\s*"?([^"\n]+)"?', fm, re.M)
+    cats = re.search(r'^categories:\s*(\[.*?\])', fm, re.M)
+    published.append((date.group(1) if date else "?", title.group(1) if title else "?", body_words, cats.group(1) if cats else "?", str(f)))
+for row in sorted(published, key=lambda x: x[0]):
+    print(f"{row[0]}|{row[3]}|{row[2]}w|{row[1]}|{row[4]}")
+print("TOTAL:", len(published))
+PY
+```
+
+```
+2021-06-14T05:00:00Z|["Technology", "Productivity", "Tips"]|1156w|Why I Still Keep a Desktop or Laptop|/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md
+2022-11-12T05:00:00Z|["Worship", "Music", "Filipino"]|298w|DNPAP - Song Resources|/home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md
+2023-05-08T05:00:00Z|["Faith", "Family", "Testimony"]|1262w|The Miracle of Isaiah David|/home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md
+2024-02-04T05:00:00Z|["Social Media", "Technology", "Tips"]|747w|Facebook's Hidden Gem: The Favorites Feed|/home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md
+2024-03-10T05:00:00Z|["Website", "Ideas", "Tips"]|869w|Why I Still Run My Own Website|/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md
+2024-03-30T05:00:00Z|["Technology", "Productivity", "Guide"]|1292w|RSS Feeds - What I Wish I'd Done Sooner|/home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md
+2024-06-14T05:00:00Z|["Website", "Technology", "Tutorial"]|1627w|How I Built JoRap Notes: After Losing PHP Hosting|/home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md
+2025-03-29T05:00:00Z|["Food", "Recipes", "Filipino"]|837w|The Set It and Forget It Arroz Caldo|/home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md
+2025-05-04T05:00:00Z|["Worship", "Music", "Tips"]|1187w|Worship Pads for Solo Guitar: What Changed When I Finally Tried Them|/home/jorap/Documents/GitHub/jorap.com/content/english/blog/worship-pads-solo-guitar.md
+2026-05-03T23:00:00Z|["Food", "Recipes", "Filipino"]|917w|Instant Pot Chicken Adobo|/home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md
+2026-05-27T05:00:00Z|["Technology", "Gear", "Reviews"]|1267w|What I Look For in Wireless Earphones|/home/jorap/Documents/GitHub/
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Twenty-seven published blog posts were identified.
+
+The draft flag in `__markdown-deep-dive.md` is genuine and correctly excludes it. All 27 published posts will now be read in batches to compile summaries and note staleness or incomplete sections.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Reading all 27 published posts for summaries and staleness notes.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the remaining published posts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/mouse-wheel-click.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the remaining published blog posts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-love-modern-board-games.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-my-son-loves-toca-boca-world.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/worship-pads-solo-guitar.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "TODO|TBD|WIP|placeholder|coming soon|incomplete|\\[\\]|FIXME"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "TODO|TBD|WIP|placeholder|coming soon|incomplete|\\[\\]|FIXME",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__worcestershire-sauce.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__tenant-not-landlord-on-the-web.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__interesting-facts-about-jorap.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/mouse-wheel-click.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/miracle-isaiah-david.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-my-son-loves-toca-boca-world.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-run-your-own-website.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__chasing-composer-2-5-locally.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__jobs-to-be-done-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__why-brave-browser.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__blog-template.md"
+    }
+  ],
+  "totalFiles": 11,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking additional details before finalizing the findings.
+
+Verifying draft flags and stale markers across posts. Inspecting alex-eala and hugoplate for incomplete sections. Confirming the arroz-caldo post is superseded. Searching for outdated language like "still developing" or "TBD".
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "still developing|TBD|update when|not on a schedule|superseded|don't do it anymore|I switched|outdated|as of"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "still developing|TBD|update when|not on a schedule|superseded|don't do it anymore|I switched|outdated|as of",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/drupal-to-wordpress.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-i-focused-on-open-source.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__client-site-pass-off.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__apple-strategically-late.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__why-git-greatest-open-source-innovation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/set-it-forget-it-arroz-caldo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/what-i-look-for-in-wireless-earphones.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__interesting-facts-about-jorap.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__why-brave-browser.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__jobs-to-be-done-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/instant-pot-arroz-caldo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-run-your-own-website.md"
+    }
+  ],
+  "totalFiles": 13,
+  "totalMatches": 24
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the end of miracle-isaiah-david for a "developing story" note. Reading the tail of why-i-focused-on-open-source.
+
+The alex-eala tracker is current as of August 2026. Facebook UI paths may be stale due to platform changes. No files with draft flags were included in the published list.
+
+Twenty-seven posts are confirmed published. The inventory will be sorted chronologically from newest to oldest. Approximate lengths will be grouped by word count ranges.
+
+Long-length posts include hugoplate, why-i-focused, google-over-apple, alex-eala, and hanamikoji. Checking the end of why-i-stopped-playing-marvel-snap for completeness notes.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Enough information has been gathered to compile the comprehensive report.
+
+Several posts carry notable staleness or incomplete sections. The oldest published post dates to June 2021. One recipe article was superseded by a newer version but retained for historical reference. The Alex Eala career tracker is a living document with tournament rankings that may grow stale. The Facebook favorites feed references UI paths that change over time.
+
+The Hugo notes post may reference an outdated baseURL or submodule setup. The Isaiah David piece cites his age as six and includes media coverage that could become stale. The Marvel Snap analysis references specific series numbers and recent layoffs. The Google versus Apple ecosystem piece names particular products and pricing that will likely change.
+
+The why-i-focused-on-open-source essay is a long essay last modified in July 2026, so it remains relatively current.
+
+The inventory totals 83 files. One is the index page. Twenty-seven are published posts. Fifty-five are excluded drafts, templates, or unpublished files. All 27 published posts explicitly set draft to false.
+
+The final report will be sorted by date with the newest posts first.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing the final comprehensive report of published blog posts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+## Method
+
+- Scanned all **82** markdown files in `content/english/blog/` (excluding `_index.md`).
+- **Published** = frontmatter `draft: false` (first YAML block only; body examples ignored).
+- **Excluded**: `_index.md`, **55** files with `draft: true` (including `__blog-template.md`, `__how-to-create-a-blog-template.md`, and all other `__*` drafts), and `streamlining-games-and-sports.md` (draft).
+- Length = approximate **body word count** (prose after frontmatter, including shortcodes/markdown).
+
+**Total published: 27**
+
+---
+
+## Published posts (newest first)
+
+### 1. Alex Eala Pro Career Tracker
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md`
+- **Date:** 2026-08-02
+- **Categories:** Sports, Filipino, People
+- **Length:** ~3,340 words (long)
+- **Summary:** A living fan scrapbook tracking Filipina tennis player Alex Eala’s WTA career—rankings, Grand Slam results, title wins, head-to-head records, and embedded match video. Evidence is match-by-match results with links to WTA, Tennis.com, and YouTube. The author updates when news merits, not on a fixed schedule.
+- **Staleness:** **Inherently time-sensitive.** Rankings and recent tournament results will age quickly; `lastmod` is 2026-08-01. “Matches to Watch Out For” is a forward-looking stub, not a complete H2H archive.
+
+---
+
+### 2. Why My Son Loves Toca Boca World
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-my-son-loves-toca-boca-world.md`
+- **Date:** 2026-07-30
+- **Categories:** Parenting, Games, Opinion
+- **Length:** ~1,550 words (medium-long)
+- **Summary:** Argues Toca Boca World fits a six-year-old better than war games or open social platforms because it is sandbox play without scores, chat, or ads. Evidence includes the author’s parenting setup (locked kids phone), contrast with Stick War and Roblox, and Toca’s “digital toy” design philosophy plus App Store recognition.
+- **Staleness:** Child’s age and app features may drift; otherwise complete opinion piece.
+
+---
+
+### 3. Why I Prefer the Google Ecosystem Over Apple
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md`
+- **Date:** 2026-07-26
+- **Categories:** Technology, Opinion
+- **Length:** ~2,600 words (long)
+- **Summary:** Despite owning MacBook and iPad, the author stays in Google’s service layer (Gmail, Drive, Meet, Chrome) across mixed hardware rather than completing Apple’s walled garden with iPhone/Watch. Evidence is personal workflow examples, cost comparisons (Shopee Android, Mi Box S), and cross-platform flexibility.
+- **Staleness:** Product pricing and hardware references (Mi Box S, specific Mac/iPad gens) will age; thesis is evergreen opinion.
+
+---
+
+### 4. Why I Love Modern Board Games
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-love-modern-board-games.md`
+- **Date:** 2026-07-27
+- **Categories:** Games, Opinion
+- **Length:** ~2,070 words (long)
+- **Summary:** Toy-store classics (Monopoly, Scrabble, chess) failed the author; modern hobby games fit 30-minute sessions with meaningful decisions. Evidence is personal play experience and short-form versions (Monopoly Deal, Ticket to Ride: London/New York, Hanamikoji, etc.).
+- **Staleness:** None obvious; complete.
+
+---
+
+### 5. Retheming Hanamikoji as Duopoly
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md`
+- **Date:** 2026-07-14
+- **Categories:** Games, Design
+- **Length:** ~2,300 words (long)
+- **Summary:** A private retheme of Hanamikoji using country flags and business framing to test whether “I split, you choose” mechanics work without illustration. Evidence is a full component/action mapping table, component cuts, and build notes for personal play only (no PnP release).
+- **Staleness:** Complete build log; not meant to stay current.
+
+---
+
+### 6. One Sheet, Eight Pages (1-Page Zine)
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md`
+- **Date:** 2026-07-13
+- **Categories:** Games, Tutorial, Design
+- **Length:** ~1,230 words (medium)
+- **Summary:** Recommends the classic 8-panel one-page zine for board-game rules and small handouts—one print, fold, no binding. Evidence includes layout rationale, Hanamikoji teach-night anecdote, and clear limits (small type, not for publisher pitch decks).
+- **Staleness:** Complete tutorial.
+
+---
+
+### 7. The Short Extension Cord in My Laptop Bag
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md`
+- **Date:** 2026-07-11
+- **Categories:** Gear, Home, Reviews
+- **Length:** ~640 words (short)
+- **Summary:** A ~2 m flat-plug extension cord solves hotel/café outlet problems for laptop travel. Evidence is specific use cases (outlets behind beds, blocked sockets) and safety habits.
+- **Staleness:** Complete; evergreen gear advice.
+
+---
+
+### 8. Static Site or CMS? How I Pick the Stack
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md`
+- **Date:** 2026-07-10
+- **Categories:** Website, Technology, Tips
+- **Length:** ~1,340 words (medium-long)
+- **Summary:** Stack choice should follow who publishes and what must change live, not forum debates. Evidence is decision criteria for static (Hugo), CMS (WordPress), and git-based CMS middle ground (Sveltia/Decap), with client anecdotes.
+- **Staleness:** Complete framework post.
+
+---
+
+### 9. Instant Pot Arroz Caldo
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md`
+- **Date:** 2026-07-09
+- **Categories:** Food, Recipes, Filipino
+- **Length:** ~1,130 words (medium)
+- **Summary:** Current arroz caldo method: 8-quart Instant Pot, bone-in drumsticks, 25 min pressure + 15 min NR for 10–12 bowls in ~45 min. Evidence is full ingredient list, step-by-step, and comparison to superseded rice-cooker approach.
+- **Staleness:** Supersedes the rice-cooker post; recipe itself is complete.
+
+---
+
+### 10. Why I Stopped Playing Marvel Snap
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md`
+- **Date:** 2026-07-05
+- **Categories:** Games, Opinion
+- **Length:** ~1,190 words (medium)
+- **Summary:** Marvel Snap’s short matches hooked the author, but meta/collection treadmill, cube anxiety, and tilt-browsing turned a snack game into homework. Evidence includes meta-site habits, Series 4/5 roster gaps, shop FOMO (without spending), and creator/community burnout signals.
+- **Staleness:** **Game-balance and Series references are dated by design**; quit narrative is complete.
+
+---
+
+### 11. Why I Focused on Open Source Technologies
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md`
+- **Date:** 2026-07-04 (`lastmod` 2026-07-29)
+- **Categories:** Technology, Opinion, Developer Life
+- **Length:** ~3,780 words (long)
+- **Summary:** Open source mattered because it was installable on student/borrowed machines (XAMPP portable), teachable in the Philippines job market, and offered freedom beyond “free.” Evidence spans XOOPS → WordPress career path, classroom constraints, client economics, Hugo/Git hosting, and AI-on-open-stack workflow.
+- **Staleness:** Long but structurally complete; some stack examples (XOOPS era) are historical by intent.
+
+---
+
+### 12. Sustainable Online Publishing
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md`
+- **Date:** 2026-06-12
+- **Categories:** Website, Ideas, Technology
+- **Length:** ~670 words (short)
+- **Summary:** Social platforms are a lobby, not an archive; sustainable publishing means keeping the canonical copy on infrastructure you control (Hugo + Git + Cloudflare Pages). Evidence links to companion posts on ownership and the author’s PHP hosting loss.
+- **Staleness:** Companion to `why-run-your-own-website`; complete habit-focused piece.
+
+---
+
+### 13. Consistent AI Output for WordPress Builds
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md`
+- **Date:** 2026-05-30
+- **Categories:** Technology, AI, Web Development
+- **Length:** ~1,470 words (medium-long)
+- **Summary:** AI on WordPress drifts because each chat is “day one”; fix is building a reusable 80% layer (helpers, reference blocks, rules doc) so features assemble consistently. Evidence is a four-step process with ACF/block examples and a blueprint image.
+- **Staleness:** Complete; tool names (Cursor) may age but workflow is self-contained.
+
+---
+
+### 14. HugoPlate Theme Review
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md`
+- **Date:** 2026-05-29
+- **Categories:** Website, Technology, Reviews
+- **Length:** ~2,740 words (long)
+- **Summary:** After theme-shopping, the author stayed on HugoPlate for Tailwind v4, starter wiring, and Hugo conventions; documents customizations and rough edges (case-sensitive theme name, submodule vs fork, Node/Hugo version pinning). Evidence is a year+ usage report with folder map and troubleshooting.
+- **Staleness:** Tailwind v4 and upstream HugoPlate changes may outpace specifics; “pin versions” advice remains valid.
+
+---
+
+### 15. The Mouse Wheel Click
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/mouse-wheel-click.md`
+- **Date:** 2026-05-28
+- **Categories:** Technology, Productivity, Tips
+- **Length:** ~920 words (medium)
+- **Summary:** Middle-click (scroll-wheel press) opens links in background tabs, closes tabs, and behaves consistently across Windows, Mac, and Linux browsers/editors. Evidence is enumerated browser and IDE behaviors plus trackpad limitation note.
+- **Staleness:** Evergreen tip; complete.
+
+---
+
+### 16. Why I Switched from Drupal to WordPress
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md`
+- **Date:** 2026-05-27
+- **Categories:** Technology, Web Development, Opinion
+- **Length:** ~980 words (medium)
+- **Summary:** Drupal’s architecture appealed but job market, community size, and upgrade pain pushed a switch to WordPress as Gutenberg/ACF matured. Evidence includes market reality, plugin shelf advantage, and WordCamp Asia Manila anecdote with embedded video.
+- **Staleness:** Historical career narrative; complete.
+
+---
+
+### 17. What I Look For in Wireless Earphones
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md`
+- **Date:** 2026-05-27
+- **Categories:** Technology, Gear, Reviews
+- **Length:** ~1,270 words (medium-long)
+- **Summary:** Buying checklist prioritizes open-ear awareness, all-day comfort, meeting-grade mics, secure/losable design, physical buttons, USB-C, and budget-tier replaceability. Evidence culminates in Soundpeats RunFree as current pick matching all seven criteria.
+- **Staleness:** **Product recommendation may age**; criteria list is the durable core.
+
+---
+
+### 18. Instant Pot Chicken Adobo
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md`
+- **Date:** 2026-05-03
+- **Categories:** Food, Recipes, Filipino
+- **Length:** ~920 words (medium)
+- **Summary:** Weeknight adobo for 2 kg bone-in thighs in an 8-quart Instant Pot: sear separately, pressure 10 min + NR, then reduce glaze in sauté mode. Evidence is precise liquid measurements developed to avoid burn notices.
+- **Staleness:** Complete recipe.
+
+---
+
+### 19. Worship Pads for Solo Guitar
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/worship-pads-solo-guitar.md`
+- **Date:** 2025-05-04
+- **Categories:** Worship, Music, Tips
+- **Length:** ~1,190 words (medium)
+- **Summary:** Ambient pad tracks fill sonic space for solo acoustic worship leading without a band. Evidence is before/after room feel, and a deliberately simple MP3 + VLC setup after app reliability failures.
+- **Staleness:** Complete; pad sources/apps may change but workflow advice stands.
+
+---
+
+### 20. The Set It and Forget It Arroz Caldo (Rice Cooker)
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md`
+- **Date:** 2025-03-29
+- **Categories:** Food, Recipes, Filipino
+- **Length:** ~840 words (medium)
+- **Summary:** Documents the author’s former Hanabishi congee-button method for 4–6 servings. Evidence is ingredients and steps for hands-off rice-cooker batch.
+- **Staleness:** **Explicitly superseded**—opening states author now uses [Instant Pot version](/blog/instant-pot-arroz-caldo/); kept as alternate method for rice-cooker owners.
+
+---
+
+### 21. How I Built JoRap Notes
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md`
+- **Date:** 2024-06-14
+- **Categories:** Website, Technology, Tutorial
+- **Length:** ~1,630 words (medium-long)
+- **Summary:** After losing PHP hosting, the author rebuilt on Hugo + GitHub + Cloudflare Pages. Evidence is step-by-step setup, Hugoplate choice, deploy troubleshooting, workflow, cost, and backup model.
+- **Staleness:** **Some details may lag current repo** (e.g. `baseURL` example `jorapdotcom.pages.dev`, submodule install vs forked theme per later HugoPlate review). Tutorial is complete but not automatically synced to today’s config.
+
+---
+
+### 22. RSS Feeds — What I Wish I’d Done Sooner
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md`
+- **Date:** 2024-03-30
+- **Categories:** Technology, Productivity, Guide
+- **Length:** ~1,290 words (medium-long)
+- **Summary:** RSS replaces compulsive site-checking with a chronological reader (Inoreader). Evidence is beginner setup, feed discovery tricks, folder organization, and reduced social-media grazing.
+- **Staleness:** Reader app landscape shifts slowly; guide is complete.
+
+---
+
+### 23. Why I Still Run My Own Website
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md`
+- **Date:** 2024-03-10
+- **Categories:** Website, Ideas, Tips
+- **Length:** ~870 words (medium)
+- **Summary:** Personal sites beat platform-only publishing for ownership, custom presentation, and durable findability. Evidence includes platform shutdown examples (Vine, Google+, MySpace, Flickr) and this site as unified home for blog + notes garden + tracker.
+- **Staleness:** Philosophy piece; platform examples are historical anchors, not live data.
+
+---
+
+### 24. Facebook’s Hidden Gem: The Favorites Feed
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md`
+- **Date:** 2024-02-04
+- **Categories:** Social Media, Technology, Tips
+- **Length:** ~750 words (medium)
+- **Summary:** Facebook’s Favorites feed shows only chosen people/pages with a finite scroll, reducing algorithmic noise while keeping Messenger. Evidence is navigation steps (mobile/desktop screenshots) and curation advice (15–20 favorites).
+- **Staleness:** **Facebook UI paths change**—post acknowledges this (“Facebook moves things around occasionally”); screenshots may not match 2026 app layout.
+
+---
+
+### 25. The Miracle of Isaiah David
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md`
+- **Date:** 2023-05-08
+- **Categories:** Faith, Family, Testimony
+- **Length:** ~1,260 words (medium-long)
+- **Summary:** On May 8, 2020 during Philippine ECQ lockdown, the author’s wife discovered pregnancy and gave birth the same day via emergency C-section. Evidence is timeline, embedded news coverage (GMA, 24 Oras, 700 Club Asia, DZMM), and media reach figures.
+- **Staleness:** **Age reference (“Isaiah is six now”) will age**; testimony and media links are complete. Original FB post quoted “developing story” but blog version is finished.
+
+---
+
+### 26. DNPAP — Song Resources
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md`
+- **Date:** 2022-11-12
+- **Categories:** Worship, Music, Filipino
+- **Length:** ~300 words (short)
+- **Summary:** Link hub for Filipino worship song DNPAP (“Diyos Ng Pagasa at Pagibig”) by Destiny Music, with personal note that the author’s wife sang the studio vocal. Evidence is Spotify/YouTube embeds and link table.
+- **Staleness:** **Link/embed rot risk** if streaming IDs change; structurally complete resource page.
+
+---
+
+### 27. Why I Still Keep a Desktop or Laptop
+- **Path:** `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md`
+- **Date:** 2021-06-14
+- **Categories:** Technology, Productivity, Tips
+- **Length:** ~1,160 words (medium)
+- **Summary:** Mobile-only workflows fail for sustained work; laptops/desktops win on sustained performance, full apps, real multitasking, keyboard/ergonomics, and storage. Evidence is personal failures on phone (photo export throttle) and multi-tab client work.
+- **Staleness:** Oldest published post; examples (Alex Eala tracker tab) still valid but hardware generations implied are dated.
+
+---
+
+## Excluded (not published)
+
+| Exclusion reason | Count | Notes |
+|------------------|------:|-------|
+| `draft: true` | 54 | All `__*` prefixed files, `streamlining-games-and-sports.md`, etc. |
+| Template / meta | 2 | `__blog-template.md`, `__how-to-create-a-blog-template.md` (both draft) |
+| Section index | 1 | `_index.md` (no `draft` field; Hugo section page) |
+
+**False positive note:** `__markdown-deep-dive.md` matched a grep for `draft: false` only because that string appears inside a **YAML code example** in the body; frontmatter has `draft: true`.
+
+---
+
+## Cross-cutting staleness patterns
+
+1. **Living documents:** Alex Eala tracker (rankings/results).
+2. **Superseded but kept:** Rice-cooker arroz caldo → Instant Pot version.
+3. **Time-bound product/game refs:** Marvel Snap Series/meta, Soundpeats RunFree, Google/Apple hardware, Facebook UI paths.
+4. **Setup docs vs current repo:** `how-i-built-jorap-notes.md` may diverge from forked/customized HugoPlate setup described in the theme review.
+5. **Age-sensitive personal facts:** Isaiah’s age in the testimony post.
+
+---
+
+## Category distribution (published)
+
+| Category cluster | Posts |
+|------------------|------:|
+| Website / publishing / stack | 7 |
+| Technology / gear / productivity | 8 |
+| Games | 5 |
+| Food / Filipino recipes | 3 |
+| Worship / music | 2 |
+| Faith / family | 1 |
+| Sports | 1 |

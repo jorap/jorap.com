@@ -255,3 +255,386 @@ No author-context changes are needed. The revision will treat the shortcode sect
 _**Agent (auto-smart)**_
 
 Council’s “cut the shortcode zoo” call misses the post’s job. Revising so it owns the shortcode showcase and keeping the lived review as framing — not deleting the gallery.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/council/council-report-20260803-000700.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/council/council-transcript-20260803-000700.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/blog-template*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes",
+  "pattern": "shortcode|layouts/shortcodes"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes",
+  "pattern": "shortcode|layouts/shortcodes",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The blog post will be revised to own its shortcode-showcase purpose. The council report and transcript will be updated to reflect the author override.
+
+The post will frame itself as both a lived review and a live shortcode gallery. The shortcode section becomes the main deliverable rather than an appendix. The description and meta title will be updated to reflect this dual purpose. The closing will direct readers to the shortcode section.
+
+The council row will likely change from REVISE to KEEP, since the shortcode showcase is the core purpose. Alternatively, it may stay REVISE but with a clearer mandate to own that purpose rather than cut the gallery.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/council/council-report-20260803-000700.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/council/council-transcript-20260803-000700.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the table row class from "revise" to "keep" in the HTML. Revising the chair's recommendation text that currently calls for cutting HugoPlate's shortcode zoo.
+
+Fixing the HugoPlate shortcodes matrix row and verdict synthesis.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Updating the council report’s row class and the chair verdict that still says “cut the shortcode zoo.”
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/council/council-report-20260803-000700.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/council/council-report-20260803-000700.html",
+  "pattern": "shortcode zoo|HugoPlate shortcodes|Cut HugoPlate|cut shortcode"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/council/council-report-20260803-000700.html",
+  "pattern": "shortcode zoo|HugoPlate shortcodes|Cut HugoPlate|cut shortcode",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "council/council-report-20260803-000700.html"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: pnpm lint:voice -- content/english/blog/hugoplate-theme-review.md 2&gt;&amp;1 | head -40; pnpm slop:score content/english/blog/hugoplate-theme-review.md 2&gt;&amp;1 | tail -20</summary>
+```bash
+pnpm lint:voice -- content/english/blog/hugoplate-theme-review.md 2>&1 | head -40; pnpm slop:score content/english/blog/hugoplate-theme-review.md 2>&1 | tail -20
+```
+
+```
+Command 'pnpm' not found, did you mean:
+  command 'npm' from deb npm (9.2.0~ds1-2)
+Try: apt install <deb name>
+Command 'pnpm' not found, did you mean:
+  command 'npm' from deb npm (9.2.0~ds1-2)
+Try: apt install <deb name>
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the council report's chair verdict to note the author override on HugoPlate shortcodes. Will try pnpm with corepack or npx.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/council/council-report-20260803-000700.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/council/council-report-20260803-000700.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/council/council-transcript-20260803-000700.md",
+  "pattern": "Cut HugoPlate|shortcode zoo|HugoPlate keeps"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/council/council-transcript-20260803-000700.md",
+  "pattern": "Cut HugoPlate|shortcode zoo|HugoPlate keeps",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "council/council-transcript-20260803-000700.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: command -v corepack; ls ~/.local/share/pnpm 2&gt;/dev/null; which node; type pnpm 2&gt;&amp;1; ls /home/jorap/Documents/GitHub/jorap.com/node_modules/.bin/pnpm 2&gt;/dev/null; export PATH=&#34;$HOME/.local/share/pnpm:$PATH:/usr/local/bin:$HOME/.nvm/versions/node/*/bin&#34;; hash -r; which pnpm || (source ~/.bashrc 2&gt;/dev/null; which pnpm) || find /home/jorap -name pnpm -type f 2&gt;/dev/null | head -5</summary>
+```bash
+command -v corepack; ls ~/.local/share/pnpm 2>/dev/null; which node; type pnpm 2>&1; ls /home/jorap/Documents/GitHub/jorap.com/node_modules/.bin/pnpm 2>/dev/null; export PATH="$HOME/.local/share/pnpm:$PATH:/usr/local/bin:$HOME/.nvm/versions/node/*/bin"; hash -r; which pnpm || (source ~/.bashrc 2>/dev/null; which pnpm) || find /home/jorap -name pnpm -type f 2>/dev/null | head -5
+```
+
+```
+/home/jorap/.nvm/versions/node/v22.23.0/bin/corepack
+store
+/home/jorap/.nvm/versions/node/v22.23.0/bin/node
+--: line 1: type: pnpm: not found
+/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/shims/nodewin/pnpm
+/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/shims/pnpm
+/home/jorap/.local/share/mise/installs/node/20.20.2/lib/node_modules/corepack/shims/nodewin/pnpm
+/home/jorap/.local/share/mise/installs/node/20.20.2/lib/node_modules/corepack/shims/pnpm
+/home/jorap/.local/share/mise/installs/node/22.22.3/lib/node_modules/corepack/shims/nodewin/pnpm
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Transcript item 14 has already been updated.
+
+Updating the chair's final recommendation in the transcript at line 386. Historical advisor responses will remain unchanged. The level_depth stays at 3.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/council/council-transcript-20260803-000700.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/council/council-transcript-20260803-000700.md",
+  "pattern": "HugoPlate.*KEEP|author override"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/council/council-transcript-20260803-000700.md",
+  "pattern": "HugoPlate.*KEEP|author override",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "council/council-transcript-20260803-000700.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;/home/jorap/.nvm/versions/node/v22.23.0/bin:/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/shims:$PATH&#34; &amp;&amp; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/blog/hugoplate-theme-review.md 2&gt;&amp;1 | tail -30 &amp;&amp; pnpm slop:score content/english/blog/hugoplate-theme-review.md 2&gt;&amp;1 | tail -15 &amp;&amp; pnpm lint:blog 2&gt;&amp;1 | tail -20</summary>
+```bash
+export PATH="/home/jorap/.nvm/versions/node/v22.23.0/bin:/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/shims:$PATH" && cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/hugoplate-theme-review.md 2>&1 | tail -30 && pnpm slop:score content/english/blog/hugoplate-theme-review.md 2>&1 | tail -15 && pnpm lint:blog 2>&1 | tail -20
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check -- content/english/blog/hugoplate-theme-review.md
+Voice dash lint OK
+Voice lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/hugoplate-theme-review.md
+hugoplate-theme-review.md                words=2346 total= 10 per100w=  0.43
+$ node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify && node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only
+Blog frontmatter OK
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The revision is complete. The shortcode encyclopedia was cut. The lived review remains.
+
+The full shortcode gallery remains. The post was reframed to own its purpose as a showcase. Council artifacts were kept with an author override. A session close block is needed.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Council’s “cut the encyclopedia” call was wrong for this post — vetoed.
+
+**What changed**
+- Full shortcode gallery stays (that’s the job).
+- Lead, H2, meta, and day-one tips now say so out loud, with a jump link to the demos.
+- Lived review (why I stayed / what I changed / rough edges) stays as framing, not the whole post.
+- Council report + transcript: **KEEP (author override)** — do not cut the gallery.
+
+Voice/slop/blog lint clean (`per100w` 0.43).
+
+## Session close
+- Fixed: HugoPlate post owns shortcode showcase; council cut-gallery call overridden to KEEP.
+- Encode: none
+- Open: clean

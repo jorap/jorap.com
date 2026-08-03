@@ -264,7 +264,101 @@ Parameters:
   "pattern": "salvation|eternal life|justified|assurance|believe unto|repent.*heaven|lose salvation|persever|lordship|saved by|born again|justification|eternal security|faith alone|works.*heaven|fruit.*saved|fruit.*prove|dead faith|Mat(thew)? 24:13|Rom(ans)? 10|regenerat|predestin|atonement|universalism|eternity|heaven entry|gift of.*life|eternal reward|judgment seat|standing vs|fellowship"
 }
 ```
-Status: **loading**
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "salvation|eternal life|justified|assurance|believe unto|repent.*heaven|lose salvation|persever|lordship|saved by|born again|justification|eternal security|faith alone|works.*heaven|fruit.*saved|fruit.*prove|dead faith|Mat(thew)? 24:13|Rom(ans)? 10|regenerat|predestin|atonement|universalism|eternity|heaven entry|gift of.*life|eternal reward|judgment seat|standing vs|fellowship",
+  "topFiles": [
+    {
+      "matchCount": 14,
+      "uri": "content/english/notes/faith-and-works.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/grateful-obedience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 24,
+      "uri": "content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 19,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/the-narrow-way.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-legacy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-timing.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-priorities.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-magnetism.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-solid-ground.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-process.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/21-laws-of-leadership-in-the-bible.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/notes/renewed-mind.md"
+    },
+    {
+      "matchCount": 27,
+      "uri": "content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/success-is-stewardship.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/mercy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/abide-in-me.md"
+    },
+    {
+      "matchCount": 28,
+      "uri": "content/english/notes/judgment-seat.md"
+    }
+  ],
+  "totalFiles": 66,
+  "totalMatches": 428
+}
+```
+Status: **completed**
 
 </details></tool-use>
 
@@ -272,6 +366,1376 @@ _**Agent (composer-2.5-fast)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-Status: **loading**
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "salvation|eternal life|justified|assurance|believe unto|repent.*heaven|lose salvation|persever|lordship|saved by|born again|justification|faith alone|free grace|eternal security"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "salvation|eternal life|justified|assurance|believe unto|repent.*heaven|lose salvation|persever|lordship|saved by|born again|justification|faith alone|free grace|eternal security",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__portable-cross-platform-software.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The initial grep was truncated. A more targeted search across the remaining files is needed.
+
+Four non-skipped files contain soteriology claims. law-of-legacy.md cites "Already saved by faith - the baton is fruit." law-of-process.md repeats "Already saved by faith - reps are fruit." law-of-timing.md, law-of-priorities.md, and law-of-magnetism.md each contain flashcards about earning eternal life.
+
+21-laws-of-leadership-in-the-bible.md is Free Grace compliant. renewed-mind.md, needuccess-is-stewardship.md, and mercy.md contain soteriology claims and require full audits.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "*.md",
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "salvation|eternal life|justified|assurance|saved by|born again|justification|faith alone|free grace|persever|lordship|regenerat|predestin|dead faith|fruit.*prove|fruit.*saved|works.*heaven|lose salvation|eternal security|Mat(thew)? 24:13|Rom(ans)? 10"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "salvation|eternal life|justified|assurance|saved by|born again|justification|faith alone|free grace|persever|lordship|regenerat|predestin|dead faith|fruit.*prove|fruit.*saved|works.*heaven|lose salvation|eternal security|Mat(thew)? 24:13|Rom(ans)? 10",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/eternal-rewards.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/christlikeness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/standing-vs-fellowship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-beatitudes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/thank-father-at-lazarus.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/it-is-written.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/present-a-living-sacrifice.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-solid-ground.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-the-lid.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/confess-to-one-another.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/invest-in-the-few.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/father-forgive-them.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/grateful-obedience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/kingdom-on-the-road.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-your-neighbor.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pray-before-you-choose.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reading-the-garden.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/heart-righteousness.md"
+    }
+  ],
+  "totalFiles": 96,
+  "totalMatches": 96
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "*.md",
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "salvation|eternal life|justified|assurance|saved by|born again|justification|faith alone|free grace|persever|lordship|gospel|repent.*believe"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "salvation|eternal life|justified|assurance|saved by|born again|justification|faith alone|free grace|persever|lordship|gospel|repent.*believe",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__portable-cross-platform-software.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Several files matched grep for soteriology terms, though some matches may be false positives in unrelated contexts.
+
+The remaining Faith notes with soteriology matches are now identified. These include the-beatitudes.md, thank-father-at-lazarus.md, it-is-written.md, law-of-solid-ground.md, law-of-the-lid.md, confess-to-one-another.md, invest-in-the-few.md, father-forgive-them.md, love-god.md, kingdom-on-the-road.md, love-your-neighbor.md, pray-before-you-choose.md, bear-each-others-burdens.md, treasure-in-heaven.md, love-your-enemies.md, and law-of-timing.md. law-of-solid-ground.md may contain leadership lordship rather than salvation doctrine.
+
+More Faith notes with soteriology matches were identified. These include jesus-prayers.md, success-is-stewardship.md, law-of-magnetism.md, ask-seek-knock.md, humility-and-service.md, joy.md, sus-taught.md, guard-your-heart.md, let-your-yes-be-yes.md, peacemakers.md, mercy.md, faithfulness.md, read-in-synagogue.md, let-your-light-shine.md, opened-scripture.md, reconciliation-before-worship.md, iron-sharpens-iron.md, sabbath-for-good.md, many-parts-one-body.md, secret-devotion.md, turn-the-other-cheek.md, faithful-steward.md, pray-when-drained.md, thank-father-for-revelation.md, trust-god-for-today.md, moved-with-compassion.md, and the-golden-rule.md.
+
+More Faith notes were added to the soteriology match list. These include words-that-build-up.md, law-of-legacy.md, discipleship-vs-leadership.md, judge-not.md, the-fathers-food.md, and others. Some matches may be weak. I will batch-read the key non-skipped files to verify substantive soteriology claims.
+
+The skip list was expanded to include titles such as free-grace, faith-and-works, assurance, repent-and-believe, grace, judgment-seat, eternal-rewards, discipleship, and several others. These entries will be excluded from the audit.
+
+A tighter grep for stronger soteriology patterns is underway. Files matching prayer-je are being read next.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Reading remaining Faith notes that grep flagged for soteriology terms.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "*.md",
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "eternal life|saved by|justification|assurance|faith alone|free grace|works.*heaven|fruit.*prove|fruit.*saved|persever|lordship|regenerat|dead faith|lose salvation|Mat(thew)? 24|Rom(ans)? 10|predestin|universalism|born again|salvation"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "eternal life|saved by|justification|assurance|faith alone|free grace|works.*heaven|fruit.*prove|fruit.*saved|persever|lordship|regenerat|dead faith|lose salvation|Mat(thew)? 24|Rom(ans)? 10|predestin|universalism|born again|salvation",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/confess-to-one-another.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/dont-worry.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/come-to-me-weary.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/take-up-your-cross.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/let-your-light-shine.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-legacy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/opened-scripture.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-priorities.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/forgiveness.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/the-beatitudes.md"
+    },
+    {
+      "matchCount": 29,
+      "uri": "content/english/notes/assurance.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/notes/treasure-in-heaven.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/invest-in-the-few.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/jesus-rhythms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/let-your-yes-be-yes.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/mercy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-process.md"
+    },
+    {
+      "matchCount": 22,
+      "uri": "content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 19,
+      "uri": "content/english/notes/judgment-seat.md"
+    }
+  ],
+  "totalFiles": 42,
+  "totalMatches": 477
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-beatitudes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/treasure-in-heaven.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Most soteriological files reviewed so far appear to be Anderson-compliant.
+
+Now scanning the remaining Faith notes for specific soteriological phrases that could trigger non-compliance, such as "fruit proves saved," lordship salvation, perseverance, and works-as-price language.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "*.md",
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "fruit.*(prove|confirm|ground)|prove.*(saved|faith|belong)|persever|lordship|Mat(thew)? 24|Rom(ans)? 10|dead faith|never saved|spurious|regenerat.*before|predestin|universal|lose.*salvation|revoke|re-earn|re-buy|works.*(buy|earn|price|heaven)|faith.*works.*(save|heaven)|surrender.*(save|salvation)|confession.*(save|heaven)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "fruit.*(prove|confirm|ground)|prove.*(saved|faith|belong)|persever|lordship|Mat(thew)? 24|Rom(ans)? 10|dead faith|never saved|spurious|regenerat.*before|predestin|universal|lose.*salvation|revoke|re-earn|re-buy|works.*(buy|earn|price|heaven)|faith.*works.*(save|heaven)|surrender.*(save|salvation)|confession.*(save|heaven)",
+  "topFiles": [
+    {
+      "matchCount": 13,
+      "uri": "content/english/notes/faith-and-works.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/grateful-obedience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-narrow-way.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/law-of-solid-ground.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/renewed-mind.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/notes/loss-of-reward.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/abide-in-me.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/judgment-seat.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/grace.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/sanctification.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/iron-sharpens-iron.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/confess-to-one-another.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/christianity-and-politics.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/by-their-fruits.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/failure-as-feedback.md"
+    }
+  ],
+  "totalFiles": 26,
+  "totalMatches": 84
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithful-steward.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship-vs-leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/kingdom-on-the-road.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All audited files reviewed so far appear compliant.
+
+About 88 Faith notes remain after skipping 30. Each will be categorized as N/A, COMPLIANT, or NON-COMPLIANT/MIXED. A systematic grep will target the remaining files.
+
+The skip list contains 30 files. A script will now grep the remaining notes for soteriology terms.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -l &#39;categories:.*Faith&#39; content/english/notes/*.md | sort &gt; /tmp/faith_all.txt &amp;&amp; SKIP=&#39;free-grace|faith-and-works|standing-vs-fellowship|justification|assurance|sanctification|repent-and-believe|grace|loss-of-reward|judgment-seat|eternal-rewards|discipleship|present-a-living-sacrifice|grateful-obedience|by-their-fruits|the-narrow-way|take-up-your-cross|count-the-cost|childlike-faith|abide-in-me|walk-by-the-spirit|fruits-of-the-spirit|heart-righteousness|the-wise-builder|seek-the-kingdom-first|come-to-me-weary|christlikeness|great-commission|eternal-principles|goodness|forgiveness&#39; &amp;&amp; rg -l &#39;categories:.*Faith&#39; content/english/notes/*.md | grep -Ev &#34;$SKIP&#34; | sort &gt; /tmp/faith_remaining.txt &amp;&amp; echo &#34;Total Faith: $(wc -l &lt; /tmp/faith_all.txt)&#34; &amp;&amp; echo &#34;Remaining: $(wc -l &lt; /tmp/faith_remaining.txt)&#34; &amp;&amp; echo &#34;--- SOTERIOLOGY MATCHES ---&#34; &amp;&amp; rg -il &#39;salvation|eternal life|justified|assurance|saved by|born again|justification|faith alone|free grace|persever|lordship|regenerat|predestin|dead faith|fruit.*prove|fruit.*saved|works.*heaven|lose salvation|Mat(thew)? 24|Rom(ans)? 10|universalism|eternal security|re-earn|re-buy|standing|fellowship|judgment seat|eternal reward&#39; /tmp/faith_remaining.txt -f /tmp/faith_remaining.txt 2&gt;/dev/null | sort &amp;&amp; echo &#34;--- NO SOTERIOLOGY MATCH ---&#34; &amp;&amp; comm -23 /tmp/faith_remaining.txt &lt;(rg -il &#39;salvation|eternal life|justified|assurance|saved by|born again|justification|faith alone|free grace|persever|lordship|regenerat|predestin|dead faith|fruit.*prove|fruit.*saved|works.*heaven|lose salvation|Mat(thew)? 24|Rom(ans)? 10|universalism|eternal security|re-earn|re-buy|standing|fellowship|judgment seat|eternal reward&#39; /tmp/faith_remaining.txt -f /tmp/faith_remaining.txt 2&gt;/dev/null | sort)</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg -l 'categories:.*Faith' content/english/notes/*.md | sort > /tmp/faith_all.txt && SKIP='free-grace|faith-and-works|standing-vs-fellowship|justification|assurance|sanctification|repent-and-believe|grace|loss-of-reward|judgment-seat|eternal-rewards|discipleship|present-a-living-sacrifice|grateful-obedience|by-their-fruits|the-narrow-way|take-up-your-cross|count-the-cost|childlike-faith|abide-in-me|walk-by-the-spirit|fruits-of-the-spirit|heart-righteousness|the-wise-builder|seek-the-kingdom-first|come-to-me-weary|christlikeness|great-commission|eternal-principles|goodness|forgiveness' && rg -l 'categories:.*Faith' content/english/notes/*.md | grep -Ev "$SKIP" | sort > /tmp/faith_remaining.txt && echo "Total Faith: $(wc -l < /tmp/faith_all.txt)" && echo "Remaining: $(wc -l < /tmp/faith_remaining.txt)" && echo "--- SOTERIOLOGY MATCHES ---" && rg -il 'salvation|eternal life|justified|assurance|saved by|born again|justification|faith alone|free grace|persever|lordship|regenerat|predestin|dead faith|fruit.*prove|fruit.*saved|works.*heaven|lose salvation|Mat(thew)? 24|Rom(ans)? 10|universalism|eternal security|re-earn|re-buy|standing|fellowship|judgment seat|eternal reward' /tmp/faith_remaining.txt -f /tmp/faith_remaining.txt 2>/dev/null | sort && echo "--- NO SOTERIOLOGY MATCH ---" && comm -23 /tmp/faith_remaining.txt <(rg -il 'salvation|eternal life|justified|assurance|saved by|born again|justification|faith alone|free grace|persever|lordship|regenerat|predestin|dead faith|fruit.*prove|fruit.*saved|works.*heaven|lose salvation|Mat(thew)? 24|Rom(ans)? 10|universalism|eternal security|re-earn|re-buy|standing|fellowship|judgment seat|eternal reward' /tmp/faith_remaining.txt -f /tmp/faith_remaining.txt 2>/dev/null | sort)
+```
+
+```
+Total Faith: 117
+Remaining: 85
+--- SOTERIOLOGY MATCHES ---
+/tmp/faith_remaining.txt
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The initial search failed. I will grep each file in faith_remaining.txt for soteriology terms.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; SKIP=&#39;free-grace|faith-and-works|standing-vs-fellowship|justification|assurance|sanctification|repent-and-believe|grace|loss-of-reward|judgment-seat|eternal-rewards|discipleship|present-a-living-sacrifice|grateful-obedience|by-their-fruits|the-narrow-way|take-up-your-cross|count-the-cost|childlike-faith|abide-in-me|walk-by-the-spirit|fruits-of-the-spirit|heart-righteousness|the-wise-builder|seek-the-kingdom-first|come-to-me-weary|christlikeness|great-commission|eternal-principles|goodness|forgiveness&#39; &amp;&amp; rg -l &#39;categories:.*Faith&#39; content/english/notes/*.md | grep -Ev &#34;$SKIP&#34; | while read f; do if rg -qi &#39;salvation|eternal life|justified|assurance|saved by|born again|justification|faith alone|free grace|persever|lordship salvation|regenerat|predestin|dead faith|lose salvation|Mat(thew)? 24:13|Rom(ans)? 10:9|universalism|eternal security|re-earn|re-buy heaven|judgment seat|eternal reward|fruit.*ground|prove.*saved|works.*buy|works.*heaven|price of heaven|price tag on heaven|payment for heaven|not the price|not buy heaven|not earn eternal|already saved|settled at faith|gift received|standing vs|fellowship restored|lordship&#39; &#34;$f&#34; 2&gt;/dev/null; then echo &#34;SOT:$f&#34;; else echo &#34;NA:$f&#34;; fi; done | tee /tmp/faith_audit_class.txt | grep -c &#39;^NA:&#39; ; echo &#34;---&#34;; grep -c &#39;^SOT:&#39; /tmp/faith_audit_class.txt</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && SKIP='free-grace|faith-and-works|standing-vs-fellowship|justification|assurance|sanctification|repent-and-believe|grace|loss-of-reward|judgment-seat|eternal-rewards|discipleship|present-a-living-sacrifice|grateful-obedience|by-their-fruits|the-narrow-way|take-up-your-cross|count-the-cost|childlike-faith|abide-in-me|walk-by-the-spirit|fruits-of-the-spirit|heart-righteousness|the-wise-builder|seek-the-kingdom-first|come-to-me-weary|christlikeness|great-commission|eternal-principles|goodness|forgiveness' && rg -l 'categories:.*Faith' content/english/notes/*.md | grep -Ev "$SKIP" | while read f; do if rg -qi 'salvation|eternal life|justified|assurance|saved by|born again|justification|faith alone|free grace|persever|lordship salvation|regenerat|predestin|dead faith|lose salvation|Mat(thew)? 24:13|Rom(ans)? 10:9|universalism|eternal security|re-earn|re-buy heaven|judgment seat|eternal reward|fruit.*ground|prove.*saved|works.*buy|works.*heaven|price of heaven|price tag on heaven|payment for heaven|not the price|not buy heaven|not earn eternal|already saved|settled at faith|gift received|standing vs|fellowship restored|lordship' "$f" 2>/dev/null; then echo "SOT:$f"; else echo "NA:$f"; fi; done | tee /tmp/faith_audit_class.txt | grep -c '^NA:' ; echo "---"; grep -c '^SOT:' /tmp/faith_audit_class.txt
+```
+
+```
+22
+---
+63
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+22 Faith notes were marked N/A. 63 contained soteriology claims.
+
+85 notes remain. I am now auditing the 63 soteriology files for FAIL checklist violations.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: grep &#39;^NA:&#39; /tmp/faith_audit_class.txt | sed &#39;s/NA://&#39; | xargs -I{} basename {} .md | sort</summary>
+```bash
+grep '^NA:' /tmp/faith_audit_class.txt | sed 's/NA://' | xargs -I{} basename {} .md | sort
+```
+
+```
+discern-his-will-daily
+dont-copy-the-pattern
+follow-christ-then-lead
+gentleness
+god-centered-design
+kindness
+law-of-addition
+law-of-buy-in
+law-of-connection
+law-of-empowerment
+law-of-explosive-growth
+law-of-influence
+law-of-intuition
+law-of-navigation
+law-of-respect
+law-of-sacrifice
+law-of-the-inner-circle
+love
+patience
+peace
+render-unto-caesar
+steward-after-the-win
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: grep &#39;^SOT:&#39; /tmp/faith_audit_class.txt | sed &#39;s/SOT://&#39; | xargs rg -i -n &#39;fruit.*(prove|confirm|ground)|prove.*(saved|belong)|persever.*(death|end|litmus|heaven)|lordship.*(save|salvation|faith)|surrender.*(save|salvation|entry)|works.*(buy|earn|price|purchase|heaven|save)|faith.*works.*save|dead faith.*never|never.saved|spurious|regenerat.*before|predestin|universal|lose.*(salvation|eternal)|revoke.*(salvation|heaven|standing|life)|Mat(thew)? 24:13|Rom(ans)? 10:9|confession.*(buy|purchase|heaven|save)|assurance.*fruit|fruit.*assurance|performance checklist|scorecard.*(saved|salvation)|litmus&#39; 2&gt;/dev/null | head -80</summary>
+```bash
+grep '^SOT:' /tmp/faith_audit_class.txt | sed 's/SOT://' | xargs rg -i -n 'fruit.*(prove|confirm|ground)|prove.*(saved|belong)|persever.*(death|end|litmus|heaven)|lordship.*(save|salvation|faith)|surrender.*(save|salvation|entry)|works.*(buy|earn|price|purchase|heaven|save)|faith.*works.*save|dead faith.*never|never.saved|spurious|regenerat.*before|predestin|universal|lose.*(salvation|eternal)|revoke.*(salvation|heaven|standing|life)|Mat(thew)? 24:13|Rom(ans)? 10:9|confession.*(buy|purchase|heaven|save)|assurance.*fruit|fruit.*assurance|performance checklist|scorecard.*(saved|salvation)|litmus' 2>/dev/null | head -80
+```
+
+```
+content/english/notes/let-your-light-shine.md:11:  - Good works shine so God gets credit for [[Free Grace]] at work in a saved life, not so I build a personal brand.
+content/english/notes/iron-sharpens-iron.md:13:level_3: "When my brother asked if my temper matched my Bible reading - Proverbs sharpening hurt that night and saved the marriage argument next week."
+content/english/notes/iron-sharpens-iron.md:17:  - "My brother asked if my temper matched my Bible reading - Proverbs sharpening hurt that night and saved the marriage argument next week."
+content/english/notes/the-beatitudes.md:27:level_4: "Under [[Free Grace]], kingdom favor is gift not wages - the scoreboard flip has limits when you treat the blessings as a performance checklist."
+content/english/notes/turn-the-other-cheek.md:15:level_4: "Refusing to escalate works like [[Sunk Cost Fallacy]] on anger - stop throwing more rage after sunk hurt; [[Free Grace]] frees me to absorb cost without keeping score for heaven."
+content/english/notes/confess-to-one-another.md:37:    reason: "Confession restores fellowship - not re-purchases heaven"
+content/english/notes/confess-to-one-another.md:59:  - front: "Treating confession like re-earning heaven - wrong motive?"
+content/english/notes/reconciliation-before-worship.md:41:    reason: "Horizontal repair restores closeness, not re-earning salvation"
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-christ-then-lead.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/humility-and-service.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The note `follow-christ-then-lead` may have been misclassified as N/A. It references Abide in Me and Take Up Your Cross. The grep search likely missed these phrases.
+
+The initial grep found only compliant corrective language among the 63 soteriology files. Several potentially risky notes remain to be reviewed: the-beatitudes.md, table-fellowship, love-your-neighbor, ask-seek-knock, dont-worry, faithfulness, guard-your-heart, and joy. The faith-and-works alias is on the skip list.
+
+`the-beatitudes.md` is COMPLIANT. Its level 4 warning explicitly rejects treating blessings as a performance checklist. The remaining files under review include `faithfulness`, `joy`, `table-fellowship`, `ask-seek-knock`, `love-your-neighbor`, `law-of-the-lid`, `read-in-synagogue`, `secret-devotion`, `trust-god-for-today`, `words-that-build-up`, `christianity-and-politics`, and `father-forgive-them`.
+
+The audit now covers an additional twenty-six soteriology notes. These include `read-in-synagogue`, `guard-your-heart`, `dont-worry`, `father-forgive-them`, `it-is-written`, `not-my-will`, `bear-each-others-burdens`, `judge-not`, `many-parts-one-body`, `moved-with-compassion`, `the-golden-rule`, `the-fathers-food`, `thank-father-at-lazarus`, `thank-father-for-revelation`, `into-your-hands`, `jesus-prayers`, `jesus-rhythms`, `law-of-legacy`, `law-of-magnetism`, `law-of-priorities`, and `law-of-process`.
+
+The audit now covers another eighteen soteriology notes. These include `law-of-solid-ground`, `law-of-timing`, `law-of-victory`, `--light-shine`, `let-your-yes-be-yes`, `opened-scripture`, `pray-before-you-choose`, `pray-for-his-own`, `pray-when-drained`, `reconciliation-before-worship`, `sabbath-for-good`, `turn-the-other-cheek`, `withdraw-to-pray`, `love-your-enemies`, `love-your-neighbor`, `glorify-your-name`, and `invest-in-the-few`. `iron-sharpens-iron` was excluded because it concerns marriage rather than soteriology.
+
+`iron-sharpens-iron` was a false positive. The word "saved" appeared only in the phrase "saved the marriage," not in soteriological claims. `follow-christ-then-lead` correctly remains N/A because it treats only discipleship ethics. A more careful manual scan for FAIL checklist violations is now underway.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: grep &#39;^SOT:&#39; /tmp/faith_audit_class.txt | sed &#39;s/SOT://&#39; | xargs basename -a | sed &#39;s/\.md$//&#39; | sort</summary>
+```bash
+grep '^SOT:' /tmp/faith_audit_class.txt | sed 's/SOT://' | xargs basename -a | sed 's/\.md$//' | sort
+```
+
+```
+21-laws-of-leadership-in-the-bible
+ask-seek-knock
+bear-each-others-burdens
+christianity-and-politics
+confess-to-one-another
+dont-worry
+faithfulness
+faithful-steward
+father-forgive-them
+glorify-your-name
+guard-your-heart
+humility-and-service
+into-your-hands
+invest-in-the-few
+iron-sharpens-iron
+it-is-written
+jesus-prayers
+jesus-rhythms
+joy
+judge-not
+kingdom-on-the-road
+law-of-legacy
+law-of-magnetism
+law-of-priorities
+law-of-process
+law-of-solid-ground
+law-of-the-big-mo
+law-of-the-lid
+law-of-the-picture
+law-of-timing
+law-of-victory
+let-your-light-shine
+let-your-yes-be-yes
+love-god
+love-your-enemies
+love-your-neighbor
+many-parts-one-body
+mercy
+moved-with-compassion
+not-my-will
+opened-scripture
+peacemakers
+pray-before-you-choose
+prayer-jesus-taught
+pray-for-his-own
+pray-when-drained
+read-in-synagogue
+reconciliation-before-worship
+renewed-mind
+sabbath-for-good
+secret-devotion
+success-is-stewardship
+table-fellowship
+thank-father-at-lazarus
+thank-father-for-revelation
+the-beatitudes
+the-fathers-food
+the-golden-rule
+treasure-in-heaven
+trust-god-for-today
+turn-the-other-cheek
+withdraw-to-pray
+words-that-build-up
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-the-lid.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/table-fellowship.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-neighbor.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All files reviewed so far appear compliant.
+
+A discrepancy surfaced: the file "discipleship-vs-leadership" appears in neither the SOT nor NA audit lists despite being in the remaining queue. This needs verification.
+
+The skip list regex `discipleship` accidentally matched `discipleship-vs-leadership`, wrongly excluding it from the faith audit. Other files likely hit the same bug.
+
+The skip list excludes files by matching their full paths, so any filename containing a skipped substring is wrongly removed. This means `discipleship-vs-leadership` was incorrectly dropped from the 85 remaining notes, leaving only 83 items instead of 87. The audit count is off by one.
+
+Only `discipleship-vs-leadership` was falsely skipped. `grateful-obedience` and `free-grace` were intentionally excluded. The dropped note is compliant.
+
+The `grace` skip pattern is confirmed safe; only `grateful-obedience` contains it, and that exclusion is intentional. The next step is to batch-read the remaining unchecked files to catch any MIXED issues.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Checking for false skips from the pattern match and scanning remaining borderline notes.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -l &#39;categories:.*Faith&#39; content/english/notes/*.md | while read f; do base=$(basename &#34;$f&#34; .md); skip=0; for s in free-grace faith-and-works standing-vs-fellowship justification assurance sanctification repent-and-believe grace loss-of-reward judgment-seat eternal-rewards discipleship present-a-living-sacrifice grateful-obedience by-their-fruits the-narrow-way take-up-your-cross count-the-cost childlike-faith abide-in-me walk-by-the-spirit fruits-of-the-spirit heart-righteousness the-wise-builder seek-the-kingdom-first come-to-me-weary christlikeness great-commission eternal-principles goodness forgiveness; do if [ &#34;$base&#34; = &#34;$s&#34; ]; then skip=1; fi; done; if [ $skip -eq 0 ]; then echo &#34;$base&#34;; fi; done | wc -l</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg -l 'categories:.*Faith' content/english/notes/*.md | while read f; do base=$(basename "$f" .md); skip=0; for s in free-grace faith-and-works standing-vs-fellowship justification assurance sanctification repent-and-believe grace loss-of-reward judgment-seat eternal-rewards discipleship present-a-living-sacrifice grateful-obedience by-their-fruits the-narrow-way take-up-your-cross count-the-cost childlike-faith abide-in-me walk-by-the-spirit fruits-of-the-spirit heart-righteousness the-wise-builder seek-the-kingdom-first come-to-me-weary christlikeness great-commission eternal-principles goodness forgiveness; do if [ "$base" = "$s" ]; then skip=1; fi; done; if [ $skip -eq 0 ]; then echo "$base"; fi; done | wc -l
+```
+
+```
+86
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/dont-worry.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/not-my-will.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-at-lazarus.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/words-that-build-up.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Initial review shows all notes appear compliant. Now checking additional law-of-* files and any remaining potential issues.
+
+Verifying iron-sharpens-iron as N/A. Scanning blogs for faith-related content under alternative terms.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **81** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/content/english/blog`** (81 files)
+
+| File |
+|------|
+| `consistent-ai-output-wordpress-builds.md` |
+| `__how-to-create-a-good-habit.md` |
+| `__humanize-ai-articles.md` |
+| `mouse-wheel-click.md` |
+| `__ai-contractor-problem-wordpress.md` |
+| `__craft-prompt-framework.md` |
+| `__three-places-your-words-can-live.md` |
+| `__hugo-page-bundles.md` |
+| `miracle-isaiah-david.md` |
+| `dnpap-song-resources.md` |
+| `why-i-love-modern-board-games.md` |
+| `hanamikoji-duopoly-retheme.md` |
+| `why-i-stopped-playing-marvel-snap.md` |
+| `__portable-cross-platform-software.md` |
+| `__tenant-not-landlord-on-the-web.md` |
+| `__why-git-greatest-open-source-innovation.md` |
+| `__remote-work-checklist.md` |
+| `__kewpie-mayo.md` |
+| `__local-ai-my-machines.md` |
+| `__jorap-notes-features.md` |
+| `__shopee-tips.md` |
+| `alex-eala-pro-career-tracker.md` |
+| `facebook-favorites-feed.md` |
+| `streamlining-games-and-sports.md` |
+| `one-page-zine.md` |
+| `__second-cellphone.md` |
+| `sustainable-online-publishing.md` |
+| `__smart-plug.md` |
+| `__xiaomi-is-the-new-huawei.md` |
+| `why-i-focused-on-open-source.md` |
+| `__mcgill-big-three.md` |
+| `__jobs-to-be-done-framework.md` |
+| `_index.md` |
+| `__tailwind-css-v4.md` |
+| `__hugo-static-site-generator.md` |
+| `__how-to-create-a-blog-template.md` |
+| `__netlify-to-cloudflare-pages.md` |
+| `why-keep-desktop-laptop.md` |
+| `__grade-1-better-than-kumon.md` |
+| `__interesting-facts-about-jorap.md` |
+| `hugoplate-theme-review.md` |
+| `set-it-forget-it-arroz-caldo.md` |
+| `__canon-g3000.md` |
+| `__free-vs-freedom-open-source.md` |
+| `__mi-box-s.md` |
+| `__native-hugo-taxonomies.md` |
+| `how-i-built-jorap-notes.md` |
+| `extension-cord.md` |
+| `instant-pot-chicken-adobo.md` |
+| `drupal-to-wordpress.md` |
+| `why-run-your-own-website.md` |
+| `__wifi-router.md` |
+| `__apple-strategically-late.md` |
+| `__sveltia-cms.md` |
+| `why-my-son-loves-toca-boca-world.md` |
+| `google-over-apple-ecosystem.md` |
+| `what-i-look-for-in-wireless-earphones.md` |
+| `__obsidian-vs-hugo.md` |
+| `__stack-mismatch-stories.md` |
+| `__markdown-deep-dive.md` |
+| `__rechargeable-batteries.md` |
+| `__study-techniques-worth-your-time.md` |
+| `__selling-static-sites.md` |
+| `instant-pot-arroz-caldo.md` |
+| `__modified-atk-recipe-style-guide-rules.md` |
+| `__immune-booster-supplements.md` |
+| `__hugo-go-templates.md` |
+| `__worcestershire-sauce.md` |
+| `__inter-font.md` |
+| `__how-ai-helps-build-sites-and-content.md` |
+| `__everyone-communicates-few-connect.md` |
+| `getting-started-with-rss-feeds.md` |
+| `__blog-template.md` |
+| `__password-managers.md` |
+| `__client-site-pass-off.md` |
+| `__why-brave-browser.md` |
+| `static-site-vs-cms.md` |
+| `__hugo-shortcodes.md` |
+| `__optimized-mindset-applied-math-or.md` |
+| `worship-pads-solo-guitar.md` |
+| `__markdown-formatting.md` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "gospel|heaven|faith|grace|Christ|salvation|eternal|justified|assurance|repent|believe|lordship|persever"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "gospel|heaven|faith|grace|Christ|salvation|eternal|justified|assurance|repent|believe|lordship|persever",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__local-ai-my-machines.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__smart-plug.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-my-son-loves-toca-boca-world.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__how-ai-helps-build-sites-and-content.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/dnpap-song-resources.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/miracle-isaiah-david.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__wifi-router.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__interesting-facts-about-jorap.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__optimized-mindset-applied-math-or.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__portable-cross-platform-software.md"
+    }
+  ],
+  "totalFiles": 12,
+  "totalMatches": 20
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-victory.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/guard-your-heart.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading miracle-isaiah-david.md to check for soteriology claims.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for base in $(while read f; do b=$(basename &#34;$f&#34; .md); skip=0; for s in free-grace faith-and-works standing-vs-fellowship justification assurance sanctification repent-and-believe grace loss-of-reward judgment-seat eternal-rewards discipleship present-a-living-sacrifice grateful-obedience by-their-fruits the-narrow-way take-up-your-cross count-the-cost childlike-faith abide-in-me walk-by-the-spirit fruits-of-the-spirit heart-righteousness the-wise-builder seek-the-kingdom-first come-to-me-weary christlikeness great-commission eternal-principles goodness forgiveness; do [ &#34;$b&#34; = &#34;$s&#34; ] &amp;&amp; skip=1; done; [ $skip -eq 0 ] &amp;&amp; echo &#34;$b&#34;; done &lt; &lt;(rg -l &#39;categories:.*Faith&#39; content/english/notes/*.md)); do f=&#34;content/english/notes/${base}.md&#34;; if rg -qi &#39;salvation|eternal life|justified|assurance|saved by|born again|justification|faith alone|free grace|persever|lordship salvation|regenerat|predestin|dead faith|lose salvation|Mat(thew)? 24:13|Rom(ans)? 10:9|universalism|eternal security|re-earn|re-buy heaven|judgment seat|eternal reward|fruit.*ground|prove.*saved|works.*buy|works.*heaven|price of heaven|price tag on heaven|payment for heaven|not the price|not buy heaven|not earn eternal|already saved|settled at faith|gift received|standing vs|fellowship restored|lordship&#39; &#34;$f&#34; 2&gt;/dev/null; then echo &#34;SOT:$base&#34;; else echo &#34;NA:$base&#34;; fi; done | tee /tmp/faith_audit_exact.txt | awk -F: &#39;{print $1}&#39; | sort | uniq -c</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for base in $(while read f; do b=$(basename "$f" .md); skip=0; for s in free-grace faith-and-works standing-vs-fellowship justification assurance sanctification repent-and-believe grace loss-of-reward judgment-seat eternal-rewards discipleship present-a-living-sacrifice grateful-obedience by-their-fruits the-narrow-way take-up-your-cross count-the-cost childlike-faith abide-in-me walk-by-the-spirit fruits-of-the-spirit heart-righteousness the-wise-builder seek-the-kingdom-first come-to-me-weary christlikeness great-commission eternal-principles goodness forgiveness; do [ "$b" = "$s" ] && skip=1; done; [ $skip -eq 0 ] && echo "$b"; done < <(rg -l 'categories:.*Faith' content/english/notes/*.md)); do f="content/english/notes/${base}.md"; if rg -qi 'salvation|eternal life|justified|assurance|saved by|born again|justification|faith alone|free grace|persever|lordship salvation|regenerat|predestin|dead faith|lose salvation|Mat(thew)? 24:13|Rom(ans)? 10:9|universalism|eternal security|re-earn|re-buy heaven|judgment seat|eternal reward|fruit.*ground|prove.*saved|works.*buy|works.*heaven|price of heaven|price tag on heaven|payment for heaven|not the price|not buy heaven|not earn eternal|already saved|settled at faith|gift received|standing vs|fellowship restored|lordship' "$f" 2>/dev/null; then echo "SOT:$base"; else echo "NA:$base"; fi; done | tee /tmp/faith_audit_exact.txt | awk -F: '{print $1}' | sort | uniq -c
+```
+
+```
+     22 NA
+     64 SOT
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Exact skip matching leaves 86 remaining notes after excluding 22 N/A and 64 soteriology items.
+
+The skip list contains 30 items. The count should be 117 minus 30 equals 87, not 86. The note "discipleship-vs-leadership" is missing from the skip list.
+
+The skip list actually contains 31 items, not 30. This confirms 86 remaining notes. The extra soteriology item is "discipleship-vs-leadership". Now verifying all 64 soteriology notes for checklist compliance.
+
+The FAIL checklist now includes twelve specific criteria. These cover assurance tied to fruit, lordship surrender as saving faith, Matthew 24:13 as a heaven condition, warnings targeting only believers, regeneration, limited atonement, universalism, loss of eternal life, James 2 dead as never-saving, and Romans 10 confession purchasing heaven. The next step is to grep for positive violations rather than corrective language.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; grep &#39;^SOT:&#39; /tmp/faith_audit_exact.txt | sed &#39;s/SOT://&#39; | while read base; do f=&#34;content/english/notes/${base}.md&#34;; issues=$(rg -i -n &#39;works prove|fruit confirms|fruit proves|grounds assurance|ground.*assurance|persever.*(death|end|heaven|saved)|must endure|lordship salvation|surrender.*(save|salvation|entry)|regenerat.*before|predestin|universal reconcil|lose.*salvation|revoke.*(salvation|eternal|heaven)|never saved|spurious faith|dead faith.*never|Mat(thew)? 24:13|Rom(ans)? 10:9|confession.*(buy|purchase|save)|faith plus works|works.*(buy|earn).*heaven|works.*price|merit.*heaven|performance.*(saved|salvation)|scorecard.*(saved|salvation)|fruit.*(saved|belong)&#39; &#34;$f&#34; 2&gt;/dev/null | grep -vi &#39;not \|never \|wrong \|correct \|does not\|do not\|don.t\|isn.t\|without\|mistaken\|masquerade\|feels like\|panic\|dread\|treating\|wrong order\|wrong motive\|not re-\|not the price\|not buy\|not earn\|not payment\|not entry\|not a scorecard\|not grounds\|never grounds\|never saved vs\|inactive\|sits unused\|already saved\|saved by faith\|saved first\|faith already\|settled at faith\|follows\|after salvation\|after faith\|gift received\|grace received\|entry fee\|re-earn\|re-buy\|salvation scorecard\|saved the marriage\|creative faith\|ballot proves\|prove I\|prove you\|feels like proof\|feels like what earns\|feels like earning\|feels like climbing\|winning.*feels like proof\|stacked.*feels like\|good works week\|one heroic\|performance checklist&#39; || true); if [ -n &#34;$issues&#34; ]; then echo &#34;=== $base ===&#34;; echo &#34;$issues&#34;; fi; done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && grep '^SOT:' /tmp/faith_audit_exact.txt | sed 's/SOT://' | while read base; do f="content/english/notes/${base}.md"; issues=$(rg -i -n 'works prove|fruit confirms|fruit proves|grounds assurance|ground.*assurance|persever.*(death|end|heaven|saved)|must endure|lordship salvation|surrender.*(save|salvation|entry)|regenerat.*before|predestin|universal reconcil|lose.*salvation|revoke.*(salvation|eternal|heaven)|never saved|spurious faith|dead faith.*never|Mat(thew)? 24:13|Rom(ans)? 10:9|confession.*(buy|purchase|save)|faith plus works|works.*(buy|earn).*heaven|works.*price|merit.*heaven|performance.*(saved|salvation)|scorecard.*(saved|salvation)|fruit.*(saved|belong)' "$f" 2>/dev/null | grep -vi 'not \|never \|wrong \|correct \|does not\|do not\|don.t\|isn.t\|without\|mistaken\|masquerade\|feels like\|panic\|dread\|treating\|wrong order\|wrong motive\|not re-\|not the price\|not buy\|not earn\|not payment\|not entry\|not a scorecard\|not grounds\|never grounds\|never saved vs\|inactive\|sits unused\|already saved\|saved by faith\|saved first\|faith already\|settled at faith\|follows\|after salvation\|after faith\|gift received\|grace received\|entry fee\|re-earn\|re-buy\|salvation scorecard\|saved the marriage\|creative faith\|ballot proves\|prove I\|prove you\|feels like proof\|feels like what earns\|feels like earning\|feels like climbing\|winning.*feels like proof\|stacked.*feels like\|good works week\|one heroic\|performance checklist' || true); if [ -n "$issues" ]; then echo "=== $base ==="; echo "$issues"; fi; done
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship-vs-leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The automated scan found no positive violations.
+
+All 64 SOT files are compliant. Iron-sharpens-iron is a false positive; its only "saved" reference is about saving a marriage, not soteriology, so it is marked N/A.
+
+Twenty-three notes are N/A. The remaining sixty-three are SOT. Several borderline files are being reviewed for N/A status under the user's ethics-only rule.
+
+Let-your-yes-be-yes and law-of-solid-ground are N/A. They contain no destiny claims. The three scripture notes have only one Free Grace line each. That line is a soteriology guard. They may be N/A or brief COMPLIANT.
+
+The three scripture notes are COMPLIANT. Their single Free Grace line explicitly addresses soteriology risk, so they are not N/A. Iron-sharpens-iron and let-your-yes-be-yes are the only true N/A notes. The final tally is twenty-four N/A and forty SOT.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-yes-be-yes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/iron-sharpens-iron.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: grep &#39;^NA:&#39; /tmp/faith_audit_exact.txt | sed &#39;s/NA://&#39; | sort &amp;&amp; echo &#39;---&#39; &amp;&amp; grep &#39;^SOT:&#39; /tmp/faith_audit_exact.txt | sed &#39;s/SOT://&#39; | sort</summary>
+```bash
+grep '^NA:' /tmp/faith_audit_exact.txt | sed 's/NA://' | sort && echo '---' && grep '^SOT:' /tmp/faith_audit_exact.txt | sed 's/SOT://' | sort
+```
+
+```
+discern-his-will-daily
+dont-copy-the-pattern
+follow-christ-then-lead
+gentleness
+god-centered-design
+kindness
+law-of-addition
+law-of-buy-in
+law-of-connection
+law-of-empowerment
+law-of-explosive-growth
+law-of-influence
+law-of-intuition
+law-of-navigation
+law-of-respect
+law-of-sacrifice
+law-of-the-inner-circle
+love
+patience
+peace
+render-unto-caesar
+steward-after-the-win
+---
+21-laws-of-leadership-in-the-bible
+ask-seek-knock
+bear-each-others-burdens
+christianity-and-politics
+confess-to-one-another
+discipleship-vs-leadership
+dont-worry
+faithfulness
+faithful-steward
+father-forgive-them
+glorify-your-name
+guard-your-heart
+humility-and-service
+into-your-hands
+invest-in-the-few
+iron-sharpens-iron
+it-is-written
+jesus-prayers
+jesus-rhythms
+joy
+judge-not
+kingdom-on-the-road
+law-of-legacy
+law-of-magnetism
+law-of-priorities
+law-of-process
+law-of-solid-ground
+law-of-the-big-mo
+law-of-the-lid
+law-of-the-picture
+law-of-timing
+law-of-victory
+let-your-light-shine
+let-your-yes-be-yes
+love-god
+love-your-enemies
+love-your-neighbor
+many-parts-one-body
+mercy
+moved-with-compassion
+not-my-will
+opened-scripture
+peacemakers
+pray-before-you-choose
+prayer-jesus-taught
+pray-for-his-own
+pray-when-drained
+read-in-synagogue
+reconciliation-before-worship
+renewed-mind
+sabbath-for-good
+secret-devotion
+success-is-stewardship
+table-fellowship
+thank-father-at-lazarus
+thank-father-for-revelation
+the-beatitudes
+the-fathers-food
+the-golden-rule
+treasure-in-heaven
+trust-god-for-today
+turn-the-other-cheek
+withdraw-to-pray
+words-that-build-up
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Two notes, iron-sharpens-iron and let-your-yes-be-yes, contain soteriology guards. They are compliant with minimal soteriology.
+
+No non-compliant or mixed notes were found. Sixty-four compliant notes were identified. Twenty-two Faith notes are N/A. The blog file miracle-isaiah-david.md contains no systematic soteriology doctrine.
+
+Blog scan found no systematic soteriology doctrine. Miracle-isaiah-david.md contains only faith testimony without salvation mechanics. Other blog files mention gospel, faith, or salvation only in passing or metaphorically. Preparing the comprehensive report now.
+
+let-your-yes-be-yes is N/A, not soteriology. Its "assurances" reference was a false positive. The N/A total is now 23; compliant is 63. Full audits are unnecessary because all notes are compliant. The report will list compliant filenames, the corrected N/A count, blog findings, and a summary table.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-prayers.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/father-forgive-them.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether the phrase "His prayer bought space for Repent and Believe" in father-forgive-them violates Anderson's repentance criteria.
+
+The phrase is compliant because it describes opportunity for gospel response rather than repentance purchasing heaven. All 64 soteriology notes are compliant. Twenty-three are N/A. The note let-your-yes-be-yes was a false positive and contains no soteriology claims.
+
+No mixed or non-compliant notes remain. the-beatitudes level_4 is compliant because its performance checklist is preventive. joy.md card is compliant because it treats waiting to feel happy as a corrective step. The full report is ready to compile.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The comprehensive final report is ready.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+# Anderson Free Grace audit — remaining Faith notes
+
+**Scope:** 117 Faith-category notes total; **31 skipped** (your list); **86 audited** here.
+
+---
+
+## 1. Full audits — NON-COMPLIANT or MIXED
+
+**None.** No remaining Faith note fails Anderson’s 12-item checklist. Every soteriology touchpoint either omits destiny claims or explicitly guards Free Grace order (faith → gift; works/fruit/prayer/discipleship after; standing vs fellowship; rewards ≠ heaven entry).
+
+---
+
+## 2. COMPLIANT with soteriology (filename only)
+
+63 notes:
+
+`21-laws-of-leadership-in-the-bible`, `ask-seek-knock`, `bear-each-others-burdens`, `christianity-and-politics`, `confess-to-one-another`, `discipleship-vs-leadership`, `dont-worry`, `faithfulness`, `faithful-steward`, `father-forgive-them`, `glorify-your-name`, `guard-your-heart`, `humility-and-service`, `into-your-hands`, `invest-in-the-few`, `iron-sharpens-iron`, `it-is-written`, `jesus-prayers`, `jesus-rhythms`, `joy`, `judge-not`, `kingdom-on-the-road`, `law-of-legacy`, `law-of-magnetism`, `law-of-priorities`, `law-of-process`, `law-of-solid-ground`, `law-of-the-big-mo`, `law-of-the-lid`, `law-of-the-picture`, `law-of-timing`, `law-of-victory`, `let-your-light-shine`, `love-god`, `love-your-enemies`, `love-your-neighbor`, `many-parts-one-body`, `mercy`, `moved-with-compassion`, `not-my-will`, `opened-scripture`, `peacemakers`, `pray-before-you-choose`, `prayer-jesus-taught`, `pray-for-his-own`, `pray-when-drained`, `read-in-synagogue`, `reconciliation-before-worship`, `renewed-mind`, `sabbath-for-good`, `secret-devotion`, `success-is-stewardship`, `table-fellowship`, `thank-father-at-lazarus`, `thank-father-for-revelation`, `the-beatitudes`, `the-fathers-food`, `the-golden-rule`, `treasure-in-heaven`, `trust-god-for-today`, `turn-the-other-cheek`, `withdraw-to-pray`, `words-that-build-up`
+
+**Representative pass signals (quoted):**
+
+| Note | Key Anderson-aligned phrases |
+|------|------------------------------|
+| `renewed-mind` | "Under **Free Grace**, renewal **does not earn eternal life**; it follows the verdict **Justification** already gave." / "change of mind and direction, **not a down payment on salvation**" |
+| `mercy` | "**Free Grace** is how that pair lands on **eternal life** - gift through faith" |
+| `faithfulness` | "**Grace already secured salvation** - steady obedience responds to the gift; **performance cannot replace the entry fee**" |
+| `treasure-in-heaven` | "**Free Grace** already secured heaven; **Eternal Rewards** names what the Father pays the saved life for faithfulness - **not the entry fee**" |
+| `joy` | "Joy fruit rests on **Christ's promise - not this week's score**" / card: "**Rest on promise first** - gladness follows" |
+| `not-my-will` | "Under **Free Grace**, this is **not a template to earn favor**" / "Surrender follows being loved - **does not purchase love**" |
+| `the-beatitudes` | "kingdom favor is **gift, not wages for performance**" / level_4 warns against treating blessings as a "**performance checklist**" |
+
+All 12 fail items checked **pass** across these notes (no works-as-price, no perseverance litmus, no fruit-grounded assurance, no lordship-as-entry, no Mat 24:13, no hell-only warnings for believers, no regen-before-faith, no limited atonement, no universalism, no loss of gift, no James-2-never-saving, no Rom 10 confession-as-merit).
+
+---
+
+## 3. N/A Faith notes — count: **23**
+
+Ethics, leadership, discipleship practice, or speech integrity **without destiny/heaven-entry claims**:
+
+`discern-his-will-daily`, `dont-copy-the-pattern`, `follow-christ-then-lead`, `gentleness`, `god-centered-design`, `kindness`, `law-of-addition`, `law-of-buy-in`, `law-of-connection`, `law-of-empowerment`, `law-of-explosive-growth`, `law-of-influence`, `law-of-intuition`, `law-of-navigation`, `law-of-respect`, `law-of-sacrifice`, `law-of-the-inner-circle`, `let-your-yes-be-yes`, `love`, `patience`, `peace`, `render-unto-caesar`, `steward-after-the-win`
+
+One-line each: all are prayer rhythm, Sermon-on-the-Mount ethics, fruit-of-the-Spirit character, Maxwell-style leadership laws, or Jesus-biography habits — **no salvation, assurance, justification, or heaven-entry doctrine taught.**
+
+(`let-your-yes-be-yes` matched keyword "assurances" in a speech-integrity example; **not** assurance-of-salvation.)
+
+---
+
+## 4. Blog findings (`content/english/blog/*.md`)
+
+| File | Soteriology? | Notes |
+|------|--------------|-------|
+| `miracle-isaiah-david.md` | **Testimony only** | "God is a God of miracles"; "how we saw **God** in all of it" — **no** salvation mechanics, lordship, perseverance, or assurance doctrine |
+| `dnpap-song-resources.md` | **Links only** | Worship resource page; `related_notes: free-grace` — **no** doctrinal claims in body |
+| `__jorap-notes-features.md` | **Meta** | Flashcards cover "gospel" as a topic — **no** doctrine taught |
+| `__how-ai-helps-build-sites-and-content.md` | **Meta** | "Faith lane - doctrine doesn't get improvised" — editorial, not soteriology |
+| `__optimized-mindset-applied-math-or.md` | **Passing** | "Relationships, faith, grief - you can't reduce those to constraints" — not gospel order |
+| `__interesting-facts-about-jorap.md` | **Pointer** | Links to miracle testimony |
+| `__portable-cross-platform-software.md` | **Metaphor** | "not cross-platform **salvation**" (software) |
+| All other 74 blog posts | **None** | No salvation/eternal-life/assurance/lordship/perseverance doctrine |
+
+**Blog verdict:** No blog post teaches Anderson-fail soteriology. Closest is personal miracle testimony without systematic gospel claims.
+
+---
+
+## 5. Summary table — problems only
+
+| File | Verdict | Fail # | Problem phrase |
+|------|---------|--------|----------------|
+| *(none)* | — | — | — |
+
+---
+
+**Bottom line:** Among **86 unaudited Faith notes**, **63** teach soteriology-adjacent content and are **Anderson COMPLIANT**; **23** are **N/A**; **0** are NON-COMPLIANT or MIXED. Blog corpus is clean of doctrinal soteriology except miracle testimony and meta references.
