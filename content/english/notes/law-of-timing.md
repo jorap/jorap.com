@@ -7,12 +7,18 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 19 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: The action was right and the clock was wrong - timing turns success into loss. See [[Right Move Wrong Time]].
   
-  {{< bible ref="1 Samuel 13:5-14" >}}
   - **Saul's Bad Decision** - Offered the burnt offering before Samuel arrived. Right act, wrong hour - impatience tore the kingdom; when to lead mattered as much as what to do.
-  {{< bible ref="Esther 4:1-16" >}}
+
+  {{< bible ref="1 Samuel 13:5-14" >}}
+
   - **An Entire Nation's Fate Rests on Her Timing** - For such a time - she approached when fasting and heaven aligned. Timing saved a people; the same move a day early or late would have failed.
-  {{< bible ref="John 7:1-15" >}}
+
+  {{< bible ref="Esther 4:1-16" >}}
+
   - **Jesus Waited for the Right Time** - Avoided Judea until the Father's hour. Not fear - alignment. When to move mattered as much as where to go.
+
+  {{< bible ref="John 7:1-15" >}}
+
 level_1: "The same action succeeds or fails depending on when you take it."
 level_2: "Saul offered sacrifice early and lost the kingdom; Esther waited for the scepter; Jesus avoided Judea until His hour came."
 level_3: "Delay the public move one beat when the room is hot but the map is not ready yet."

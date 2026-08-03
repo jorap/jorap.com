@@ -3,10 +3,14 @@ title: "Grace"
 meta_title: "Grace - Gift Never Earned"
 description: "Grace is gift never earned - salvation first, then the walk after - not wages that could be stacked."
 key_concept: |
-  {{< bible ref="John 3:16-18" emphasize="16" >}}
   - God did not wait for me to earn it - He gave His Son so belief, not merit, decides where I spend forever.
-  {{< bible ref="Ephesians 2:8-10" emphasize="8" >}}
+
+  {{< bible ref="John 3:16-18" emphasize="16" >}}
+
   - Saved by grace through faith - gift not wages; good works come after the gift.
+
+  {{< bible ref="Ephesians 2:8-10" emphasize="8" >}}
+
   - Free means no strings on the front (wages) and no strings on the back (bribe) - [[Free Grace]] applies that to eternal life.
   - [[Mercy]] withholds what I deserve; grace gives what I could not earn.
   - [[Justification]] is the verdict at faith; [[Standing vs Fellowship]] keeps standing settled while closeness rises and falls; [[Assurance]] rests on the promise - fruit may back up, never grounds belonging.

@@ -3,9 +3,10 @@ title: "Love God"
 meta_title: "Love God - The Greatest Commandment"
 description: "First command, whole self - heart, mind, strength, not a corner of Sunday morning."
 key_concept: |
-  {{< bible ref="Matthew 22:37-40" emphasize="37" >}}
-  
   - Whole-person devotion beats a Sunday-only corner.
+
+  {{< bible ref="Matthew 22:37-40" emphasize="37" >}}
+
   - Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.
 level_1: "Love God is the first command - devote heart, soul, mind, and strength to God, not a Sunday-only corner of life."
 level_2: "Like loving your family all week, not only at dinner, whole-person devotion means daily choices, not one worship hour."

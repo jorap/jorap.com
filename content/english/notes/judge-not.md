@@ -3,11 +3,15 @@ title: "Judge Not"
 meta_title: "Judge Not - Speck and Plank"
 description: "Final judge on souls is not your job - pull your own plank before nitpicking someone speck."
 key_concept: |
-  {{< bible ref="Matthew 7:1-5" emphasize="5" >}}
   - Do not play final judge on souls - pull your plank before you nitpick someone's speck.
+
+  {{< bible ref="Matthew 7:1-5" emphasize="5" >}}
+
   - Final judgment belongs to God - hypocrisy blocks clear sight when you skip your own plank.
-  {{< bible ref="Matthew 7:16-20" emphasize="20" >}}
   - Still judge fruit - outcomes over time tell you what is underneath the hype.
+
+  {{< bible ref="Matthew 7:16-20" emphasize="20" >}}
+
   - Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours.
   - He does not forbid all moral discernment: the same sermon names fruit too.
   - Garden parallel: the [Issues](/notes/issues/) page lists broken wikilinks to fix - diagnose the graph, do not condemn the author.

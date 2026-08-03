@@ -3,9 +3,10 @@ title: "Trust God for Today"
 meta_title: "Trust God for Today - Daily Bread Not Tomorrow's Panic"
 description: "Jesus taught asking for today's bread - enough grace for this day, not stockpiled anxiety about tomorrow."
 key_concept: |
-  {{< bible ref="Matthew 6:11" emphasize="11" >}}
-  
   - Tomorrow's pile of worry does not feed today - I ask the Father for enough bread for this day and trust Him with the next.
+
+  {{< bible ref="Matthew 6:11" emphasize="11" >}}
+
   - [[Do not Worry]] in Matthew 6 is the same chapter - bread today, Father tomorrow.
 level_1: "Trust God for today means asking the Father for daily bread - enough grace for this day, not stockpiled anxiety about tomorrow."
 level_2: "Like eating today's portion instead of hoarding lunch for a week you cannot see - today's meal is the gift on the table."

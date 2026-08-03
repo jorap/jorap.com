@@ -3,9 +3,10 @@ title: "Discipleship"
 meta_title: "Discipleship - Following Jesus After Faith"
 description: "Discipleship is following Jesus daily - learning and doing what He said after faith, not buying eternal life."
 key_concept: |
-  {{< bible ref="Luke 9:23-24" emphasize="23" >}}
-  
   - Daily cross - deny self and follow after faith, not to buy heaven but because grace already saved.
+
+  {{< bible ref="Luke 9:23-24" emphasize="23" >}}
+
   - Under [[Free Grace]], calling Jesus Lord in the gospel means trusting who He is - dedication belongs to the walk after God frees you, not as the entry fee.
   - Discipleship is [[Grateful Obedience]] - grateful response, not payment; [[Sanctification]] is the slow becoming that walk produces.
   - Fruit may back up a claim of life; it never grounds [[Assurance]] or re-buys [[Justification]]; [[Loss of Reward]] and the [[Judgment Seat]] weigh the walk.

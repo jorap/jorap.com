@@ -3,9 +3,10 @@ title: "Childlike Faith"
 meta_title: "Childlike Faith - Receive the Kingdom"
 description: "The kingdom is received like a child receives care, not negotiated on a merit ladder."
 key_concept: |
-  {{< bible ref="Mark 10:13-16" emphasize="15" >}}
-  
   - Receive the kingdom like a child - stop negotiating merit before you enter.
+
+  {{< bible ref="Mark 10:13-16" emphasize="15" >}}
+
   - Children do not enter the kingdom by achievement; they receive care they did not earn.
   - Jesus was not praising ignorance - he was naming the posture [[Free Grace]] and [[Assurance]] require: stop calculating worthiness and receive the gift.
   - Same first-day posture as [[Getting Started]] in the garden - assume you are new, follow the guide, do not perform expertise you do not have.

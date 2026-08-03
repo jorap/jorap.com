@@ -3,9 +3,10 @@ title: "Goodness"
 meta_title: "Goodness - Upright Deeds the Spirit Grows"
 description: "Goodness fruit is upright action that points to God, not hidden virtue or good deeds performed for applause."
 key_concept: |
-  {{< bible ref="Matthew 5:16" emphasize="16" >}}
-  
   - Good works that glorify the Father - upright deeds that point to God, not a personal brand.
+
+  {{< bible ref="Matthew 5:16" emphasize="16" >}}
+
   - [[Kindness]] is the soft strength beside goodness; both stay aimed at others, not a nice-guy pose.
   - [[Let Your Light Shine]] is the garden echo: do good visibly so others glorify the Father, not so you collect likes.
   - [[Heart Righteousness]] keeps the inside matching the outside - upright deeds from motive, not polish over poison.

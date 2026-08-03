@@ -3,9 +3,10 @@ title: "By Their Fruits"
 meta_title: "By Their Fruits - Discern Teachers by Outcome"
 description: "Teachers are checked by what their teaching produces, not by how polished the talk sounds."
 key_concept: |
-  {{< bible ref="Matthew 7:15-20" emphasize="20" >}}
-  
   - Wolves wear sheep's clothing - time and results tell, not the polished talk.
+
+  {{< bible ref="Matthew 7:15-20" emphasize="20" >}}
+
   - Jesus pairs this with [[Judge Not]]: do not condemn souls, but do evaluate fruit - grapes from vines, not hype.
   - Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Signal vs Noise]] - what actually produces good over time? The [Issues](/notes/issues/) audit - does the teaching leave the graph healthier or broken?
   - I check teachers by what their teaching produces, not by how polished the talk sounds.

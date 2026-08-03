@@ -3,11 +3,14 @@ title: "Free Grace"
 meta_title: "Free Grace - Salvation by Faith Alone"
 description: "Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works."
 key_concept: |
-  {{< bible ref="John 5:24-29" emphasize="24" >}}
-  
   - Hear Christ's word and believe - you have crossed from death to life; judgment is not hanging over your head.
-  {{< bible ref="Ephesians 2:8-10" emphasize="8" >}}
+
+  {{< bible ref="John 5:24-29" emphasize="24" >}}
+
   - Grace through faith - gift never earned; good works come after the gift, not to buy the ticket.
+
+  {{< bible ref="Ephesians 2:8-10" emphasize="8" >}}
+
   - Free means no strings on the front (wages) and no strings on the back (bribe) - faith is trust in Christ's promise, not surrender as the entry fee.
   - [[Justification]] finishes at faith; [[Standing vs Fellowship]] keeps the verdict separate from daily closeness; [[Assurance]] rests on the promise - fruit may back up a claim, never grounds belonging.
   - [[Sanctification]], [[Discipleship]], and [[Grateful Obedience]] are the thank-you life; [[Eternal Rewards]] and the [[Judgment Seat]] weigh works; [[Loss of Reward]] never undoes eternal life.

@@ -3,9 +3,10 @@ title: "Don't Copy the Pattern"
 meta_title: "Don't Copy the Pattern - Refuse Culture's Default"
 description: "Culture default script is not neutral - refuse the pattern before reactions run on autopilot."
 key_concept: |
-  {{< bible ref="John 15:19" emphasize="19" >}}
-  
   - Chosen out of the world - so when the feed's outrage feels normal, that is the world's script, not mine.
+
+  {{< bible ref="John 15:19" emphasize="19" >}}
+
   - Do not conform - refuse the default before renewal reshapes how I react. Pairs with [[Present a Living Sacrifice]] on the same Romans passage.
   - [[Renewed Mind]] is the positive half - be transformed by the renewing of your mind.
   - This note names the refusal: outrage feeds, hurry-and-react, comparison traps - culture's presets I did not choose but my nervous system runs anyway.

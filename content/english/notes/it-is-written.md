@@ -3,8 +3,10 @@ title: "It Is Written"
 meta_title: "It Is Written - Scripture Under Pressure"
 description: "Jesus answered temptation with Scripture already in Him - not improvised slogans under pressure."
 key_concept: |
-  {{< bible ref="Matthew 4:1-11" emphasize="4" >}}
   - Each wilderness attack met Scripture already loaded - Deuteronomy in memory, not a panic search mid-temptation.
+
+  {{< bible ref="Matthew 4:1-11" emphasize="4" >}}
+
   - [[Jesus' Rhythms]] includes living in Scripture; under [[Free Grace]] memorized word is ammunition for the fork, not a merit badge.
   - He did not invent new ethics on the spot; He answered from what the Father had already spoken.
   - [[Renewed Mind]] names letting Scripture reshape judgment; [[Abide in Me]] names staying in His words - this names the reflex under pressure.

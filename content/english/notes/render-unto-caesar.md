@@ -3,9 +3,10 @@ title: "Render Unto Caesar"
 meta_title: "Render Unto Caesar - Civic Duty and Worship"
 description: "Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone."
 key_concept: |
-  {{< bible ref="Matthew 22:15-22" emphasize="21" >}}
-  
   - Pay lawful taxes, reserve worship for God - no revolutionary tax refusal, no idolizing the state.
+
+  {{< bible ref="Matthew 22:15-22" emphasize="21" >}}
+
   - You bear God's image; give yourself to Him.
   - Jesus avoids both revolutionary tax refusal and idolizing Rome.
   - [[Seek the Kingdom First]] still ranks the kingdom above every earthly master, but that does not excuse dodging legitimate civic responsibility.

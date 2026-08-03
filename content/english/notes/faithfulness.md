@@ -3,9 +3,10 @@ title: "Faithfulness"
 meta_title: "Faithfulness - Steady Use the Spirit Grows"
 description: "The Spirit grows steady follow-through with what God entrusted, not one heroic sprint mistaken for earned salvation."
 key_concept: |
-  {{< bible ref="Matthew 25:21" emphasize="21" >}}
-  
   - Well done for faithful use of what He entrusted - steady follow-through, not one heroic sprint mistaken for earned salvation.
+
+  {{< bible ref="Matthew 25:21" emphasize="21" >}}
+
   - [[Faithful Steward]] is the garden echo: well done for faithful use over quiet Tuesdays, not burying what He gave or performing for applause.
   - [[Eternal Rewards]] names what steady faithfulness may receive; [[Free Grace]] keeps it from becoming the entry fee.
 level_1: "Faithfulness is steady use of what God entrusted over time - not one visible sprint that tries to earn salvation."

@@ -3,9 +3,10 @@ title: "Joy"
 meta_title: "Joy - Gladness the Spirit Grows"
 description: "Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance."
 key_concept: |
-  {{< bible ref="John 15:11" emphasize="11" >}}
-  
   - Christ's joy in me - gladness rooted in His promise, not something I switch on for a good week.
+
+  {{< bible ref="John 15:11" emphasize="11" >}}
+
   - Joy is grown by walking in the Spirit, not manufactured for credit.
   - Manufactured gladness for church credit is not Spirit fruit.
   - Abide first - gladness shows up from connection, not from performing a good week.

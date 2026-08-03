@@ -3,9 +3,10 @@ title: "The Wise Builder"
 meta_title: "The Wise Builder - Hear and Do"
 description: "Hearing the words is not enough - build on rock by actually doing what Jesus said."
 key_concept: |
-  {{< bible ref="Matthew 7:24" label="Matthew 7:24-27" emphasize="24" >}}
-  
   - Hear and do - rock in the storm; hearing sermons without obedience is sand.
+
+  {{< bible ref="Matthew 7:24" label="Matthew 7:24-27" emphasize="24" >}}
+
   - Lord Lord without doing the Father's will - empty profession, not a stumbled believer who repents.
   - Storms reveal which foundation held.
   - Under [[Free Grace]], doing is not what saves - faith saves - but genuine hearing produces action.

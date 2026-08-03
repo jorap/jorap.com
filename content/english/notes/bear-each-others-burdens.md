@@ -3,9 +3,10 @@ title: "Bear Each Other's Burdens"
 meta_title: "Bear Each Other's Burdens - Carry Weight Together"
 description: "Believers carry each other's heavy loads - bearing is shared weight, not solo heroics or gossip."
 key_concept: |
-  {{< bible ref="Galatians 6:2" emphasize="2" >}}
-  
   - I cannot shoulder every weight alone - bearing means showing up with hands on the load, not commentary from the sidewalk.
+
+  {{< bible ref="Galatians 6:2" emphasize="2" >}}
+
   - I bear burdens from love, not to earn standing or look holy.
   - Load-sharing and repair belong in the same breath.
   - [[Love Your Neighbor]] shows up when I trade observation for shared weight.

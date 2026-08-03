@@ -7,14 +7,22 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 13 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: Your mouth teaches what your feet refuse - the team copies the picture, not the slogan. See [[Do As I Say]].
   
-  {{< bible ref="2 Kings 23:1-16" >}}
   - **Josiah - A King Like No Other** - Read the Law, then demolished high places. Reform followed what the people saw the king do - people do what people see.
-  {{< bible ref="John 13:1-17" >}}
+
+  {{< bible ref="2 Kings 23:1-16" >}}
+
   - **Jesus' Example Stands for All Time** - Washed the disciples' feet, then said love one another as I loved you. The picture outran the speech.
-  {{< bible ref="1 Corinthians 4:9-17" >}}
+
+  {{< bible ref="John 13:1-17" >}}
+
   - **The Higher the Leader, the More Important the Example** - Paul said imitate me - apostles set the visible pattern. Higher seat means louder example.
-  {{< bible ref="Matthew 23:1-4" >}}
+
+  {{< bible ref="1 Corinthians 4:9-17" >}}
+
   - **Do As I Say, Not As I Do** - Pharisees piled heavy loads they would not lift. Mouth taught what feet refused - the team copies the picture, not the slogan.
+
+  {{< bible ref="Matthew 23:1-4" >}}
+
 level_1: "People follow what leaders model in action, not only what they announce."
 level_2: "Josiah tore down idols he read about; Jesus washed feet; Paul said imitate me - the walk out-teaches the speech."
 level_3: "Do the unglamorous task you keep assigning before you ask the team to carry it alone."

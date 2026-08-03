@@ -3,9 +3,10 @@ title: "Withdraw to Pray"
 meta_title: "Withdraw to Pray - Solitude Before the Next Push"
 description: "Jesus rose early and prayed alone before crowds pressed in - solitude refuels service, not escape."
 key_concept: |
-  {{< bible ref="Mark 1:35" >}}
-  
   - Crowds wanted more; He rose before dawn and prayed in a solitary place - withdrawal refueled the next push, not escape from duty.
+
+  {{< bible ref="Mark 1:35" >}}
+
   - Same pattern in Luke 5:16 - He often slipped to lonely places to pray when demand stacked up.
   - [[Ask Seek Knock]] names the rhythm He taught; [[Secret Devotion]] names the hidden audience; this names the move before the inbox wins.
   - Under [[Free Grace]], slipping away is not earning favor - it is how a grateful follower copies the Teacher's dependence.

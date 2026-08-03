@@ -3,9 +3,10 @@ title: "The Father's Food"
 meta_title: "The Father's Food - Obedience as Sustenance"
 description: "Jesus said His food was doing the Father's will - obedience was sustenance, not a side task."
 key_concept: |
-  {{< bible ref="John 4:34" emphasize="34" >}}
-  
   - Disciples worried about lunch; He said My food is to do the will of Him who sent Me - obedience fed Him more than bread.
+
+  {{< bible ref="John 4:34" emphasize="34" >}}
+
   - John 5:19 and 8:28 repeat the pattern - nothing on His own initiative, only what pleases the Father.
   - [[Grateful Obedience]] obeys from thanks; [[Take Up Your Cross]] denies self daily - this names what actually sustained Him mid-journey.
   - Under [[Free Grace]], the Father's will is not a wage for eternal life - it is the meal that nourishes a life already His.

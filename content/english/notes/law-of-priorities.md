@@ -7,12 +7,18 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 17 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: Busy hands replace numbered priorities - activity masquerades as accomplishment. See [[Activity Without Accomplishment]].
   
-  {{< bible ref="Matthew 15:1-20" >}}
   - **What Comes First?** - Tradition vs heart - what defiles comes from inside, not unwashed hands. Activity of washing is not accomplishment of a clean heart.
-  {{< bible ref="Luke 10:38-42" >}}
+
+  {{< bible ref="Matthew 15:1-20" >}}
+
   - **Two Sisters - Two Perspectives** - Mary sat at Jesus' feet; Martha spun in kitchen frenzy. The good portion outranks busy motion that only looks like service.
-  {{< bible ref="Acts 6:1-7" >}}
+
+  {{< bible ref="Luke 10:38-42" >}}
+
   - **Acts 6 - Tables Served, Word Ministry Central** - Seven appointed to tables so [[Invest in the Few]] stayed on prayer and word. Priorities protect the few things that actually matter.
+
+  {{< bible ref="Acts 6:1-7" >}}
+
 level_1: "Activity is not accomplishment."
 level_2: "Mary chose the good portion; Martha hustled plates; apostles appointed servers so word ministry stayed central."
 level_3: "List today's top three before you open the inbox - kingdom work gets numbered first, not last."

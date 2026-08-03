@@ -58,7 +58,7 @@ Verify paths: `node scripts/ai-writing-samples-check.mjs`
 
 | File | Why it's here |
 |------|---------------|
-| `content/english/notes/abide-in-me.md` | Scripture + first-person gloss without sermon tone |
+| `content/english/notes/abide-in-me.md` | First-person gloss then scripture, without sermon tone |
 
 ## Do not use as voice samples
 

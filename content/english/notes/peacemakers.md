@@ -3,9 +3,10 @@ title: "Peacemakers"
 meta_title: "Peacemakers - Matthew 5:9 Beatitude"
 description: "Pursue peace on purpose - repair, truth in love, de-escalation - not just staying quiet."
 key_concept: |
-  {{< bible "Matthew 5:9" >}}
-  
   - Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight.
+
+  {{< bible "Matthew 5:9" >}}
+
   - The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free Grace]] before I reconciled with anyone.
 level_1: "Peacemakers pursue reconciliation, truth in love, and de-escalation - not silence while wrong stays unaddressed."
 level_2: "Like fixing a broken fence with your neighbor instead of yelling from your yards - repair work, not comfort-keeping quiet."

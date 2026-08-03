@@ -3,9 +3,10 @@ title: "Follow Christ, Then Lead"
 meta_title: "Follow Christ, Then Lead - When the Seats Collide"
 description: "When leadership pressure and Christ command collide, follow Christ first - then lead from that footing."
 key_concept: |
-  {{< bible ref="Luke 9:23-24" emphasize="23" >}}
-  
   - When the captain's chair and Christ's command pull opposite ways, I deny the shortcut first.
+
+  {{< bible ref="Luke 9:23-24" emphasize="23" >}}
+
   - [[Take Up Your Cross]] before I set pace for the room.
   - [[Discipleship]] vs [[Leadership]] names two seats - upward allegiance and outward care.
   - [[God Centered Design]] asks who the plan ultimately serves before I optimize the slide.

@@ -3,9 +3,10 @@ title: "Words That Build Up"
 meta_title: "Words That Build Up - Speech That Gives Grace"
 description: "Paul tells believers to speak words that build up - edifying speech gives grace to hearers, not debris."
 key_concept: |
-  {{< bible ref="Ephesians 4:29" emphasize="29" >}}
-  
   - My words either deposit grace or debris - Paul forbids rotten speech and commands what builds the hearer up.
+
+  {{< bible ref="Ephesians 4:29" emphasize="29" >}}
+
   - Under [[Free Grace]], forgiven people can speak truth with [[Gentleness]] and make peace when the room is hot.
   - [[Give Useful Feedback]] carries the same move into work and home.
   - [[Listen Before Fixing]] keeps build-up from becoming unsolicited demolition.

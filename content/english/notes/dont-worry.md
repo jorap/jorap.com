@@ -3,9 +3,10 @@ title: "Don't Worry"
 meta_title: "Don't Worry - Trust Over Tomorrow"
 description: "Jesus told believers not to stack worry on food, clothes, or tomorrow - the Father already feeds birds."
 key_concept: |
-  {{< bible ref="Matthew 6:25-34" emphasize="33" >}}
-  
   - Worry cannot add an hour to your life - trust the Father who already feeds birds before you stack anxiety on tomorrow.
+
+  {{< bible ref="Matthew 6:25-34" emphasize="33" >}}
+
   - The antidote is not denial - it is priority: [[Seek the Kingdom First]], and let tomorrow carry its own trouble.
   - Trust is active dependence on a Father who already gave eternal life by [[Free Grace]] - [[Assurance]] rests on that promise, not anxiety about earning His care.
 level_1: "Do not worry is Jesus' command to trust the Father with food, clothes, and tomorrow instead of stacking anxiety on what you cannot add to life."

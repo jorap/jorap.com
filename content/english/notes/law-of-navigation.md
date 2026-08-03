@@ -7,12 +7,18 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 4 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: Energy without a map - the crew rows hard and still wrecks. See [[Steering Without Chart]].
   
-  {{< bible ref="Joshua 8:1-19" >}}
   - **Joshua's Plan of Attack** - After defeat at Ai, the second attempt followed an ambush plan. Anyone can charge; a leader charts the course before the next fight.
-  {{< bible ref="Nehemiah 4:7-23" >}}
+
+  {{< bible ref="Joshua 8:1-19" >}}
+
   - **Nehemiah Rallied His People to Rebuild and Defend** - Builders held a tool in one hand and a weapon in the other. Navigation meant charting wall and threat together so the work would not stall.
-  {{< bible ref="Luke 14:28-31" >}}
+
+  {{< bible ref="Nehemiah 4:7-23" >}}
+
   - **Jesus Taught His Disciples to Count the Cost** - Tower and king analogies. Chart the cost before you swear allegiance - steering without a course is not leading.
+
+  {{< bible ref="Luke 14:28-31" >}}
+
 level_1: "Someone has to chart the course before the crew rows."
 level_2: "Joshua laid an ambush plan before Ai; Nehemiah paired rebuild with weapons; Jesus told builders to count cost before breaking ground."
 level_3: "Write the risks and route on one page before you announce the march - no heroic improvisation as strategy."

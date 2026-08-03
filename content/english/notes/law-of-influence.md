@@ -7,12 +7,18 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 2 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: Badge on the door, nobody moves - you are managing paper, not leading. See [[Title Without Influence]].
   
-  {{< bible ref="Joshua 2:1-24" >}}
   - **Rahab's Influence** - No title in Jericho, yet her belief moved spies and saved her house. Leadership measured by who moved, not by rank on the wall.
-  {{< bible ref="1 Samuel 2:12-26" >}}
+
+  {{< bible ref="Joshua 2:1-24" >}}
+
   - **Eli, His Sons, and Samuel** - Corrupt priests held office and lost moral sway; Samuel grew in favor without a badge. Influence followed integrity, not the chair.
-  {{< bible ref="Acts 27:1-44" >}}
+
+  {{< bible ref="1 Samuel 2:12-26" >}}
+
   - **Paul: The Influential Prisoner** - Chained apostle calmed a storm-tossed crew. No rank, full followership when fear peaked - title optional, movement required.
+
+  {{< bible ref="Acts 27:1-44" >}}
+
 level_1: "Leadership is influence - title optional, movement required."
 level_2: "Rahab hid spies because she believed - no crown, real sway; Eli's sons corrupted worship while Samuel rose without a badge."
 level_3: "Before you claim the chair, check whether anyone would follow if the title vanished tomorrow."

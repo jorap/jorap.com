@@ -3,9 +3,10 @@ title: "Walk by the Spirit"
 meta_title: "Walk by the Spirit - Daily Dependence Over Willpower"
 description: "The Christian life runs on Spirit-led steps - not willpower sprints that collapse by Friday."
 key_concept: |
-  {{< bible ref="Galatians 5:16" emphasize="16" >}}
-  
   - Willpower alone cannot carry what God asked - walking by the Spirit is daily dependence, not a one-time decision badge.
+
+  {{< bible ref="Galatians 5:16" emphasize="16" >}}
+
   - [[Abide in Me]] is the vine picture; [[Follow the Rhythm]] carries the same daily dependence into habits.
   - [[Sanctification]] is slow becoming on this path - not a merit report card.
 level_1: "Walking by the Spirit is depending on the Spirit for each step of Christian obedience."

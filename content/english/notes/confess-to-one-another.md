@@ -3,9 +3,10 @@ title: "Confess to One Another"
 meta_title: "Confess to One Another - Honest Sin Brings Healing"
 description: "James calls believers to confess sins to each other - hidden failure rots; spoken failure finds prayer and repair."
 key_concept: |
-  {{< bible ref="James 5:16" emphasize="16" >}}
-  
   - Sin grows in the dark - confession to a trusted believer invites prayer and healing, not performance religion.
+
+  {{< bible ref="James 5:16" emphasize="16" >}}
+
   - Salvation stays settled while fellowship gets repaired through confession.
   - I confess because I am already His - not to re-earn standing.
   - [[Forgiveness]] toward others and vertical confession both unblock closeness with God and people.

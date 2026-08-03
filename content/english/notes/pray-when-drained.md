@@ -3,9 +3,10 @@ title: "Pray When Drained"
 meta_title: "Pray When Drained - After the Crowd, Not Instead of Rest"
 description: "Jesus prayed alone after feeding five thousand - exhaustion is a cue to pray, not skip it."
 key_concept: |
-  {{< bible ref="Matthew 14:23" emphasize="23" >}}
-  
   - After feeding five thousand, He dismissed the crowds and went up the mountain alone to pray - drained was the cue, not the excuse.
+
+  {{< bible ref="Matthew 14:23" emphasize="23" >}}
+
   - Mark 6:46 says the same move after that long day - service finished, then prayer, not collapse without God.
   - [[Do not Worry]] trusts provision; this names what to do when the day already emptied the tank.
   - Under [[Free Grace]], prayer when drained is not merit - it is the Son copying dependence on the Father after heavy work.

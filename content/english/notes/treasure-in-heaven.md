@@ -3,9 +3,10 @@ title: "Treasure in Heaven"
 meta_title: "Treasure in Heaven - Where Your Heart Follows"
 description: "Store up what lasts - generosity and obedience - not what rust, moth, and thieves can take."
 key_concept: |
-  {{< bible ref="Matthew 6:19-21" emphasize="21" >}}
-  
   - Earthly stuff rusts and gets stolen - where your treasure is, your heart follows; store what lasts.
+
+  {{< bible ref="Matthew 6:19-21" emphasize="21" >}}
+
   - Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation.
   - [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee.
   - The [[Judgment Seat]] evaluates what lasts - wood, hay, and stubble burn while gold lasts; [[Loss of Reward]] is when worthless treasure burns but you are still saved through fire.

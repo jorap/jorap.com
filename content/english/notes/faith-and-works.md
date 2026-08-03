@@ -3,9 +3,10 @@ title: "Faith and Works"
 meta_title: "Faith and Works - Works Answer Grace"
 description: "Faith alone saves; works answer grace already received, they do not buy heaven."
 key_concept: |
-  {{< bible ref="Matthew 7:24" label="Matthew 7:24-27" emphasize="24" >}}
-  
   - Hear Jesus and do - rock stands in the storm; hearing alone is sand.
+
+  {{< bible ref="Matthew 7:24" label="Matthew 7:24-27" emphasize="24" >}}
+
   - Paul answers how you are saved: trust Christ, not wages.
   - James answers what living faith looks like: Abraham offered Isaac - faith already counted him righteous before God, then action showed that faith before people.
   - Dead faith in James is inactive faith that sits unused - not fake faith that never saved.

@@ -3,9 +3,10 @@ title: "Many Parts One Body"
 meta_title: "Many Parts One Body - Different Gifts Same Christ"
 description: "The church is one body with many parts - different roles, same Head, no solo-body fantasy."
 key_concept: |
-  {{< bible ref="1 Corinthians 12:12" emphasize="12" >}}
-  
   - I am not the whole body - Paul names many parts under one Christ so comparison and solo-hero ministry both miss the design.
+
+  {{< bible ref="1 Corinthians 12:12" emphasize="12" >}}
+
   - [[Servant Leadership]] uses gifts to build others up - not to hoard every role because it feels holy.
 level_1: "Many parts one body means the church is one body with different gifts under one Head - no part covers every role alone."
 level_2: "Like a team where one kid guards and another scores, envy at another part is as silly as the foot wishing it were a hand."

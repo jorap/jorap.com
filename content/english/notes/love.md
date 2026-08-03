@@ -3,9 +3,10 @@ title: "Love"
 meta_title: "Love - Fruit the Spirit Grows"
 description: "Love is Spirit-grown care for God and neighbor - not performance affection that collapses when nobody is watching."
 key_concept: |
-  {{< bible ref="Romans 5:5" emphasize="5" >}}
-  
   - Love of God poured through the Holy Spirit - not performance affection I manufacture for an audience.
+
+  {{< bible ref="Romans 5:5" emphasize="5" >}}
+
   - Love is grown by walking in the Spirit, not manufactured for applause.
   - [[Abide in Me]] is the engine - branches bear fruit because they stay in the vine.
 level_1: "Biblical love is Spirit-grown care for God and neighbor, not performance affection manufactured for an audience."

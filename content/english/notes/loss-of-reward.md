@@ -3,11 +3,14 @@ title: "Loss of Reward"
 meta_title: "Loss of Reward - Saved Through Fire, Not Unsaved"
 description: "A saved believer can still lose reward - worthless works burn, eternal life stays secure on Christ."
 key_concept: |
-  {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
-  
   - Faithful use compounds; buried talent loses even what was given - reward can shrink without un-saving you.
-  {{< bible ref="1 Corinthians 3:12-15" emphasize="15" >}}
+
+  {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
+
   - Saved through fire with loss - two ledgers: eternal life on Christ, reward on what lasted.
+
+  {{< bible ref="1 Corinthians 3:12-15" emphasize="15" >}}
+
   - [[Free Grace]] and [[Justification]] settle eternal life at faith; [[Eternal Rewards]] and the [[Judgment Seat]] settle what gets repaid.
   - Losing reward is not losing salvation; [[Standing vs Fellowship]] keeps shame from collapsing broken closeness with revoked standing.
   - [[Faith and Works]] and [[The Narrow Way]] split false "Lord, Lord" from a believer who stumbled and repents.

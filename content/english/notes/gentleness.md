@@ -3,9 +3,10 @@ title: "Gentleness"
 meta_title: "Gentleness - Strength Under Control the Spirit Grows"
 description: "Gentleness fruit is strength held back on purpose, not weakness or loud correction that skips love."
 key_concept: |
-  {{< bible ref="Matthew 5:5" emphasize="5" >}}
-  
   - Blessed are the gentle - strength under control, not loud correction without love.
+
+  {{< bible ref="Matthew 5:5" emphasize="5" >}}
+
   - [[Humility and Service]] is the garden echo: greatness is serving, not being served; the Son washed feet the night before the cross.
   - [[Listen Before Fixing]] is gentleness in conversation - hear before you prescribe.
   - [[The Beatitudes]] bless the meek - strength without grasping for status.

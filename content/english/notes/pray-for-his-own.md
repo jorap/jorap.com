@@ -3,13 +3,15 @@ title: "Pray for His Own"
 meta_title: "Pray for His Own - High Priestly Prayer"
 description: "Jesus prayed the high priestly prayer for Himself, the twelve, and every future believer - unity, protection, and glory."
 key_concept: |
-  {{< bible ref="John 17:11" emphasize="11" >}}
-  
   - Jesus asks the Father to keep His own one - unity under the Father's name, not my grip alone.
-  
-  {{< bible ref="John 17:20-23" emphasize="20" >}}
+
+  {{< bible ref="John 17:11" emphasize="11" >}}
+
   
   - He extends the same prayer to everyone who will believe through their word - kept by the Father's name, not by my grip on Him.
+
+  {{< bible ref="John 17:20-23" emphasize="20" >}}
+
   - [[Invest in the Few]] names who He chose; this prayer names what He asks the Father to do for them after He leaves.
   - Under [[Free Grace]], I am in the "those who will believe" branch - kept by the Father's name, not by my grip on Him.
 level_1: "Pray for His own is the high priestly prayer - Jesus intercedes for Himself, the twelve, and every future believer in John 17."

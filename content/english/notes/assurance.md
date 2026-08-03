@@ -3,9 +3,10 @@ title: "Assurance"
 meta_title: "Assurance - Rest on Christ's Promise, Not This Week"
 description: "Assurance is resting on Christ's finished work when doubt hits - not the week's obedience score."
 key_concept: |
-  {{< bible ref="John 6:35-40" emphasize="37" >}}
-  
   - Believe and you have eternal life - rest on that promise when the week was ugly, not on your scorecard.
+
+  {{< bible ref="John 6:35-40" emphasize="37" >}}
+
   - [[Free Grace]] names the gift; [[Justification]] names the verdict; assurance names where I rest when doubt hits.
   - Primary ground is God's promise - fruit may back up a claim; it never grounds belonging, or tomorrow's fall would erase today's "proof."
   - Bad weeks, hidden sin, dread at the [[Judgment Seat]] - none of those re-open the case [[Justification]] closed.

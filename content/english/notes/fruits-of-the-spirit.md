@@ -4,9 +4,10 @@ title: "Fruits of the Spirit"
 meta_title: "Fruits of the Spirit - Character the Spirit Produces"
 description: "Paul's Galatians cluster grown by the Spirit - love through self-control, not a merit checklist."
 key_concept: |
-  {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
-  
   - Love through self-control is one Spirit-grown cluster - not nine separate badges you earn for heaven.
+
+  {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
+
   - I split each fruit into one-claim notes so I can link and drill them like the rest of the garden.
   - [[Walk by the Spirit]] is the daily lane; [[Abide in Me]] is the vine picture John gives - fruit grows from connection, not willpower theater.
   - Under [[Free Grace]], fruit answers grace already received - it may back up a life given by faith, but it never grounds belonging or assurance.

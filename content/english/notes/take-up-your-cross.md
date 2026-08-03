@@ -3,9 +3,10 @@ title: "Take Up Your Cross"
 meta_title: "Take Up Your Cross - Daily Discipleship"
 description: "Deny self and follow Christ daily - choosing his will over yours, not collecting suffering points."
 key_concept: |
-  {{< bible ref="Luke 9:23-24" emphasize="23" >}}
-  
   - Daily self-denial and follow - choosing God's will over mine, not collecting suffering points.
+
+  {{< bible ref="Luke 9:23-24" emphasize="23" >}}
+
   - The cross is not suffering for suffering's sake; it is choosing God's will over self-will each day.
   - [[Free Grace]] keeps the order: eternal life is received by faith, not earned by cross-bearing - but [[Discipleship]] costs something real.
   - Same road as [[The Narrow Way]], lived one day at a time.

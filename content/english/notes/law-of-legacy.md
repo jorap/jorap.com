@@ -7,14 +7,22 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 21 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: Nobody can carry the work after you - lasting value was never transferred. See [[No Successor Left]].
   
-  {{< bible ref="1 Kings 2:1-4" >}}
   - **David Establishes Solomon as His Successor** - Public coronation and deathbed charge. Lasting value measured by who sits next - succession secured the kingdom after the last win.
-  {{< bible ref="1 Kings 19:19-21" >}}
+
+  {{< bible ref="1 Kings 2:1-4" >}}
+
   - **Elijah Chooses Elisha** - Mantle passed; double portion requested. Prophetic work outlived the prophet because succession was intentional, not accidental.
-  {{< bible ref="Matthew 28:16-20" >}}
+
+  {{< bible ref="1 Kings 19:19-21" >}}
+
   - **Jesus' Plan of Succession** - Chose twelve after prayer; Great Commission extends to every generation. A leader's lasting value is disciples who make disciples.
-  {{< bible ref="Judges 2:7-10" >}}
+
+  {{< bible ref="Matthew 28:16-20" >}}
+
   - **No Successor Left** - After Joshua's generation, another arose that did not know the Lord or the work He had done. Lasting value dies when succession is never transferred.
+
+  {{< bible ref="Judges 2:7-10" >}}
+
 level_1: "Lasting value is measured by who carries the work after you."
 level_2: "David charged Solomon to walk in God's ways; Elijah threw his mantle on Elisha; Jesus chose twelve and sent them to all nations."
 level_3: "Name your successor in writing - skills, values, and one unfinished charge they should carry before you leave the role."

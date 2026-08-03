@@ -3,9 +3,10 @@ title: "The Beatitudes"
 meta_title: "The Beatitudes - Blessed Are the..."
 description: "Jesus opened the Sermon on the Mount with eight blessings - a picture of who the kingdom favors."
 key_concept: |
-  {{< bible "Matthew 5:3-12" >}}
-  
   - Eight blessings flip the scoreboard - kingdom favor for the spiritually needy, not the self-sufficient.
+
+  {{< bible "Matthew 5:3-12" >}}
+
   - "Beatitude" means supreme blessedness.
   - Poor in spirit - broke before God, receiving the kingdom as gift not wage.
   - Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly.

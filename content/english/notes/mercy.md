@@ -3,11 +3,14 @@ title: "Mercy"
 meta_title: "Mercy - Compassion on the Guilty"
 description: "Mercy withholds the punishment deserved and calls for the same compassion toward others."
 key_concept: |
-  {{< bible ref="Matthew 5:7" >}}
-  
   - Show mercy and you will receive mercy - the beatitude ties compassion out to compassion back in the walk and reward, not as the price of eternal life.
-  {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
+
+  {{< bible ref="Matthew 5:7" >}}
+
   - Paul keeps mercy and grace in one breath - rich in mercy, saved by grace while I was still dead in sin.
+
+  {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
+
   - [[Grace]] gives good I could not earn; mercy spares bad I had coming; [[Free Grace]] lands that pair on eternal life by faith.
   - [[Standing vs Fellowship]] keeps categories straight: mercy at the cross settles standing; showing mercy belongs to fellowship and [[Eternal Rewards]].
   - [[Forgiveness]] releases a debt because the King already cleared yours; [[The Beatitudes]] bless merciful character, not a wages ladder into heaven.

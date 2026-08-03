@@ -3,14 +3,22 @@ title: "Justification"
 meta_title: "Justification - Declared Righteous at Faith"
 description: "God declares the believer righteous at faith - before obedience catches up."
 key_concept: |
-  {{< bible ref="Luke 18:9-14" emphasize="14" >}}
   - The tax collector went home justified - humility before God, not self-promotion, is what Jesus commended.
-  {{< bible ref="Romans 3:21-26" emphasize="24" >}}
+
+  {{< bible ref="Luke 18:9-14" emphasize="14" >}}
+
   - Paul names the verdict - justified as a gift by grace, Christ's redemption, not my performance.
-  {{< bible ref="Romans 4:4-5" emphasize="5" >}}
+
+  {{< bible ref="Romans 3:21-26" emphasize="24" >}}
+
   - Faith credited as righteousness for the one who believes, not the one who works the room.
-  {{< bible ref="Romans 5:1-2" emphasize="1" >}}
+
+  {{< bible ref="Romans 4:4-5" emphasize="5" >}}
+
   - Justified by faith, peace with God - the case closed at trust, not at perfect obedience.
+
+  {{< bible ref="Romans 5:1-2" emphasize="1" >}}
+
   - [[Free Grace]] names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's record credited to me.
   - [[Standing vs Fellowship]] keeps the verdict separate from daily closeness - confession restores fellowship, it does not re-buy heaven.
   - [[Sanctification]] and [[Eternal Rewards]] come after - becoming holy over time, repayment for faithful living - neither re-opens the case.

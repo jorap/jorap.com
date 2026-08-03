@@ -7,12 +7,18 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 1 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: The team cannot rise above your ceiling - raise the lid or the load stalls. See [[Low Leadership Lid]].
   
-  {{< bible ref="Exodus 32:1-25" >}}
   - **Aaron and Moses** - Aaron caved when Israel demanded a calf; Moses returned and restored order. Same people, different ceiling - the lid is the leader's capacity, not the crowd's potential.
-  {{< bible ref="1 Samuel 17:32-52" >}}
+
+  {{< bible ref="Exodus 32:1-25" >}}
+
   - **David and Saul** - Saul hid in the tent while David stepped into the valley. The crown sat on a low lid; courage raised effectiveness beyond the title.
-  {{< bible ref="1 Kings 12:1-20" >}}
+
+  {{< bible ref="1 Samuel 17:32-52" >}}
+
   - **Rehoboam and the People** - A harsh answer split ten tribes. Low leadership lid shattered the unity he inherited - the people could not rise above the king's ceiling.
+
+  {{< bible ref="1 Kings 12:1-20" >}}
+
 level_1: "Your leadership ability is the ceiling on what your team can achieve."
 level_2: "Like a jar lid too small for the jar, low leadership limits output no matter how big the opportunity grows."
 level_3: "Before you blame the crew for missed targets, ask whether your own leadership level is the bottleneck."

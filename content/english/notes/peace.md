@@ -3,9 +3,10 @@ title: "Peace"
 meta_title: "Peace - Calm the Spirit Grows"
 description: "Peace is Spirit-grown calm in believers who trust the Father - not silence at any price."
 key_concept: |
-  {{< bible ref="John 14:27" emphasize="27" >}}
-  
   - Christ's peace - inner calm from God's reign, not denial at any price when trouble arrives.
+
+  {{< bible ref="John 14:27" emphasize="27" >}}
+
   - Stop borrowing tomorrow's trouble - the trust echo when anxiety replaces rest.
   - Pursue reconciliation where you can - peacemaking is the active echo, not silence only.
   - Order the week before anxiety sets the agenda - seek the kingdom first, then act.

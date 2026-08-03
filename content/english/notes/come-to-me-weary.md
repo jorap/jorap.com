@@ -3,9 +3,10 @@ title: "Come to Me Weary"
 meta_title: "Come to Me Weary - Rest for the Overloaded"
 description: "Jesus invites the weary to His rest - yoke with Him trades crushing solo labor for shared weight."
 key_concept: |
-  {{< bible ref="Matthew 11:28-30" emphasize="28" >}}
-  
   - I do not have to force through exhaustion by will alone - Jesus invites the weary to rest and a yoke that fits, not heavier religion.
+
+  {{< bible ref="Matthew 11:28-30" emphasize="28" >}}
+
   - Rest is an invitation, not a reward you must earn first.
   - His yoke is shared labor - not absence of work, but work with Him instead of performative burnout.
   - Calendar rest protects the soul the same way sleep protects judgment.

@@ -3,8 +3,10 @@ title: "Glorify Your Name"
 meta_title: "Glorify Your Name - John 12:28"
 description: "Facing the cross, Jesus asked the Father to glorify His name and the Father answered from heaven."
 key_concept: |
-  {{< bible ref="John 12:28" >}}
   - The hour had come - soul troubled, crowd listening - and Jesus asked the Father to glorify His name, not to skip the cup.
+
+  {{< bible ref="John 12:28" >}}
+
   - The Father answered from heaven: I have glorified it, and will glorify it again.
   - [[Not My Will]] repeats the same surrender in Gethsemane; here the glory of the Father's name is the point before the arrest.
   - Under [[Free Grace]], the cross is where the Father's name shines - not where I bargain my way out of cost.

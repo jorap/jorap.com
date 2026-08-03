@@ -3,9 +3,10 @@ title: "Not My Will"
 meta_title: "Not My Will - Gethsemane Prayer"
 description: "In Gethsemane Jesus prayed Abba, Father - then yielded His will to the Father."
 key_concept: |
-  {{< bible ref="Luke 22:42" >}}
-  
   - Jesus brought the dread out loud before He handed over the outcome - the honest ask and the yes came in one prayer.
+
+  {{< bible ref="Luke 22:42" >}}
+
   - Matthew and Mark record Him praying the same surrender three times; Luke notes an angel strengthening Him in the agony.
   - [[Glorify Your Name]] asked for the Father's glory at the hour; Gethsemane is where that glory met His human dread.
   - Under [[Free Grace]], this is not a template to earn favor - it is the Son showing how costly obedience sounds in prayer.

@@ -3,8 +3,10 @@ title: "Invest in the Few"
 meta_title: "Invest in the Few - Depth Before Crowds"
 description: "Jesus chose twelve and gave them disproportionate time - depth with a few, not only crowd teaching."
 key_concept: |
-  {{< bible ref="Mark 3:14" emphasize="14" >}}
   - He appointed twelve to be with Him and to send out - presence before platform, depth before scale.
+
+  {{< bible ref="Mark 3:14" emphasize="14" >}}
+
   - John 13:1-17 shows the same logic at the end - washed their feet in the room, not from a stage.
   - [[Great Commission]] pushes outward; [[Discipleship]] names daily following - this names the small circle that carries the message.
   - Under [[Free Grace]], investing in a few is not elitism - it is how the Teacher multiplied truth without hoarding it.

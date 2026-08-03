@@ -3,9 +3,10 @@ title: "Forgiveness"
 meta_title: "Forgiveness - As the Father Forgives You"
 description: "Extend the forgiveness already received, not ledger-keeping on debts Christ cleared."
 key_concept: |
-  {{< bible ref="Matthew 6:14-15" emphasize="15" >}}
-  
   - Forgive others or the Father will not forgive you - daily rhythm, not a one-time sermon nod.
+
+  {{< bible ref="Matthew 6:14-15" emphasize="15" >}}
+
   - Forgiveness extends the forgiveness already received, not ledger-keeping on debts Christ cleared.
   - The unforgiving servant - king forgave an unpayable debt; refusing a small debt exposed a heart out of step.
   - Seventy times seven ends ledger-keeping - stop counting how many times you have been wronged.

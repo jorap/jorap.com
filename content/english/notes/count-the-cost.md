@@ -3,9 +3,10 @@ title: "Count the Cost"
 meta_title: "Count the Cost - Decide Before You Build"
 description: "Jesus told builders to estimate before breaking ground - discipleship costs honesty, not surprise debt."
 key_concept: |
-  {{< bible ref="Luke 14:28-30" emphasize="28" >}}
-  
   - Following Christ is worth it - and Jesus refused bait-and-switch math; count the cost before you claim the tower is half built.
+
+  {{< bible ref="Luke 14:28-30" emphasize="28" >}}
+
   - The cost Jesus names is discipleship weight, not a price tag on heaven.
   - [[Discipleship]] without cost honesty breeds quitters who thought faith was a mood.
 level_1: "Counting the cost means naming what discipleship will require before making the commitment."

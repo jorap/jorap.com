@@ -3,9 +3,10 @@ title: "Pray Before You Choose"
 meta_title: "Pray Before You Choose - Night Before the Big Fork"
 description: "Jesus prayed all night before a major fork - prayer first, not after the announce."
 key_concept: |
-  {{< bible ref="Luke 6:12" emphasize="12" >}}
-  
   - The biggest calls deserve a night of prayer before a pros-and-cons list - He chose the twelve after praying, not after ranking them.
+
+  {{< bible ref="Luke 6:12" emphasize="12" >}}
+
   - Big forks deserve prayer before the announcement, not a prayer bolted on after the LinkedIn post.
   - [[Discern His Will Daily]] names testing God's will after renewal; this names the night-before-the-fork posture He modeled.
   - Under [[Free Grace]], prayer does not buy wisdom - it is dependence before I commit other people to my call.

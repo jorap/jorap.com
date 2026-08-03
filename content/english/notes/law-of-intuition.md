@@ -9,12 +9,18 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 8 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: You read only tasks and miss people, risk, and timing - the room pays for your blind spot. See [[Blind Leadership Calls]].
   
-  {{< bible ref="1 Samuel 25:2-35" >}}
   - **A Leader with Intuition Saves Lives** - Abigail intercepted David's anger before blood. Leadership bias saw the disaster coming and moved while others still slept.
-  {{< bible ref="1 Kings 3:16-28" >}}
+
+  {{< bible ref="1 Samuel 25:2-35" >}}
+
   - **The Wisdom of Solomon** - Two mothers, one living child - the sword threat revealed the true mother. Intuition read the heart when facts alone stalled.
-  {{< bible ref="Acts 9:19-30" >}}
+
+  {{< bible ref="1 Kings 3:16-28" >}}
+
   - **Barnabas Sees Paul's Potential** - Son of encouragement introduced a feared convert to the apostles. Leadership bias saw calling where others saw only threat.
+
+  {{< bible ref="Acts 9:19-30" >}}
+
 level_1: "Leaders read situations with a leadership lens."
 level_2: "Abigail stopped David's rash revenge - she read the room before blood spilled; Barnabas vouched for fresh-convert Paul when others flinched."
 level_3: "Pause the meeting when the room tone shifts - name what you sense before the agenda bulldozes it."

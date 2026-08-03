@@ -3,8 +3,10 @@ title: "Into Your Hands"
 meta_title: "Into Your Hands - Luke 23:46"
 description: "Jesus' last recorded prayer entrusted His spirit to the Father instead of clutching control at the end."
 key_concept: |
-  {{< bible ref="Luke 23:46" >}}
   - His last recorded words to the Father trust the outcome - Father, into Your hands I commit My spirit - echoing Psalm 31:5.
+
+  {{< bible ref="Luke 23:46" >}}
+
   - After forgiveness for enemies and the forsaken cry, death met as entrusting, not panic - release, not defeat.
   - [[Not My Will]] surrendered the cup in the garden; the cross ends with committing His spirit to the same Father.
   - Under [[Free Grace]], my death can mirror His posture - resting in the Father's hands because Jesus already opened the way, not earning heaven at the end.

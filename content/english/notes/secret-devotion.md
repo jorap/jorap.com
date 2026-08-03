@@ -3,17 +3,20 @@ title: "Secret Devotion"
 meta_title: "Secret Devotion - For the Father's Eyes Alone"
 description: "Give, pray, and fast for God to see - not for applause in the group chat."
 key_concept: |
-  {{< bible ref="Matthew 6:3-4" emphasize="4" >}}
-  
   - Give in secret - left hand does not know what the right is doing.
-  
-  {{< bible ref="Matthew 6:5-6" emphasize="6" >}}
+
+  {{< bible ref="Matthew 6:3-4" emphasize="4" >}}
+
   
   - Pray behind closed doors - the Father who sees in secret is the audience, not the feed.
-  
-  {{< bible ref="Matthew 6:17-18" emphasize="18" >}}
+
+  {{< bible ref="Matthew 6:5-6" emphasize="6" >}}
+
   
   - Fast without performing hunger - wash your face, live normal before the Father.
+
+  {{< bible ref="Matthew 6:17-18" emphasize="18" >}}
+
   - Piety for an audience is its own reward - give, pray, fast for the Father who sees in secret.
   - [[Ask Seek Knock]] names how to pray; this names who the audience is.
   - [[Let Your Light Shine]] is the public lane - not every act belongs there.

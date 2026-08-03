@@ -3,8 +3,10 @@ title: "Kingdom on the Road"
 meta_title: "Kingdom on the Road - Teach, Preach, Heal"
 description: "Jesus went town to town teaching, preaching, and healing - one integrated rhythm, not three separate hats."
 key_concept: |
-  {{< bible ref="Luke 4:43" emphasize="43" >}}
   - He said He must preach the kingdom to other cities - Matthew 9:35 sums the same road: teaching, preaching, healing in every town.
+
+  {{< bible ref="Luke 4:43" emphasize="43" >}}
+
   - Not three careers swapped by calendar - one kingdom rhythm carried through villages.
   - [[Seek the Kingdom First]] orders the week; [[Let Your Light Shine]] makes good visible - kingdom in front of new faces daily.
   - Under [[Free Grace]], the road is not earning the kingdom - it is announcing and embodying what He already came to give.

@@ -3,9 +3,10 @@ title: "Opened Scripture"
 meta_title: "Opened Scripture - Explain, Don't Drop Verses"
 description: "Jesus explained Moses and the Prophets on the Emmaus road - reading plus explanation, not verse-dropping."
 key_concept: |
-  {{< bible ref="Luke 24:27" emphasize="27" >}}
-  
   - On the Emmaus road He explained Moses and all the Prophets - not a citation dump, but opening what the text meant.
+
+  {{< bible ref="Luke 24:27" emphasize="27" >}}
+
   - Later He opened their minds to understand the Scriptures - same move: make the Book legible, not impressive.
   - [[Great Commission]] passes truth on; [[Discipleship]] learns and does - this names how He taught from the text Himself.
   - Under [[Free Grace]], explaining Scripture is not earning favor - it is how the risen Teacher still makes Himself known.

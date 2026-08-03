@@ -3,8 +3,10 @@ title: "God Centered Design"
 meta_title: "God Centered Design - Build for God's Glory First"
 description: "Design life and work around God glory first - not crowd applause, ego, or comfort."
 key_concept: |
-  {{< bible ref="Matthew 5:14-16" emphasize="16" >}}
   - Good works visible so the Father gets glory - build for His name, not my brand.
+
+  {{< bible ref="Matthew 5:14-16" emphasize="16" >}}
+
   - A calendar built for applause still feels empty on Monday.
   - [[Seek the Kingdom First]] is the priority filter; [[Love Your Neighbor]] keeps it from becoming selfish spirituality.
 level_1: "God-centered design builds and serves so people see God behind the work - good works visible so the Father gets glory, not my brand."

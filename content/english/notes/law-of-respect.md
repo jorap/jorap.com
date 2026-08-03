@@ -7,12 +7,18 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 7 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: You expect followership from title alone - people follow strength they respect, not volume. See [[Demanding Unearned Respect]].
   
-  {{< bible ref="Judges 4:1-16" >}}
   - **A Leader's Respect** - Barak would not move without Deborah. People followed the stronger leader into a coward's war - respect tracked strength, not the org chart.
-  {{< bible ref="1 Samuel 20:1-31" >}}
+
+  {{< bible ref="Judges 4:1-16" >}}
+
   - **The Prince's Loyalty** - Jonathan covenanted with David and bowed toward the anointed shepherd. A prince respected proven strength above his own throne claim.
-  {{< bible ref="Daniel 5:1-30" >}}
+
+  {{< bible ref="1 Samuel 20:1-31" >}}
+
   - **The Writing on the Wall** - Daniel read what terrified the king's sages. Respect followed proven wisdom into the banquet, not the party invitation.
+
+  {{< bible ref="Daniel 5:1-30" >}}
+
 level_1: "People follow strength they respect."
 level_2: "Deborah called Barak and he would not go without her; Jonathan pledged loyalty to David; Daniel stood before Belshazzar when the wise men failed."
 level_3: "Strengthen the lane you lead before you ask others to follow - competence earns the right to call the move."

@@ -3,9 +3,10 @@ title: "Patience"
 meta_title: "Patience - Slow Fuse the Spirit Grows"
 description: "Wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping."
 key_concept: |
-  {{< bible ref="James 5:7" emphasize="7" >}}
-  
   - Be patient until the Lord comes - the Spirit does not shortcut the wait; it changes what waiting does to you.
+
+  {{< bible ref="James 5:7" emphasize="7" >}}
+
   - Endurance under delay because you are connected to the vine, not performing virtue.
   - [[Slow the Moment]] is the garden echo: one beat before reaction buys the Spirit room to answer instead of the urge.
 level_1: "Patience as Spirit fruit means enduring delay without turning bitter - the wait stays; resentment does not calcify."

@@ -3,13 +3,15 @@ title: "Present a Living Sacrifice"
 meta_title: "Present a Living Sacrifice - Romans 12:1 Worship"
 description: "Offer the ordinary day to God first - thanks after mercy, not payment to earn grace."
 key_concept: |
-  {{< bible ref="Matthew 16:24-26" emphasize="26" >}}
-  
   - Following Jesus costs self-denial and a cross - not suffering theater, daily surrender of my will to His.
-  
-  {{< bible "Romans 12:1" >}}
+
+  {{< bible ref="Matthew 16:24-26" emphasize="26" >}}
+
   
   - Paul pictures the same move as worship that is alive - my Tuesday and my body offered after mercy received.
+
+  {{< bible "Romans 12:1" >}}
+
   - [[Mercy]] received first - by the mercies of God, present your bodies a living and holy sacrifice.
   - Acceptable to God - your spiritual service of worship - not a dead bull on an altar - my body, my Tuesday, my choices offered as worship that is alive.
   - [[Grateful Obedience]] names the motive: offer because Christ already saved me, not to buy the ticket.

@@ -3,14 +3,16 @@ title: "Ask Seek Knock"
 meta_title: "Ask Seek Knock - Persistent Prayer"
 description: "Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits."
 key_concept: |
-  {{< bible ref="Matthew 7:7" label="Matthew 7:7-11" emphasize="7" >}}
-  
   - Keep asking, seeking, knocking - God gives like a parent who gives bread, not a stone.
+
+  {{< bible ref="Matthew 7:7" label="Matthew 7:7-11" emphasize="7" >}}
+
   - Jesus compares God to a parent who gives bread, not a stone.
   
-  {{< bible ref="Matthew 6:9-13" emphasize="10" >}}
-  
   - Lord's Prayer order puts the Father's name, kingdom, and will first, then [[Trust God for Today]] and forgiveness.
+
+  {{< bible ref="Matthew 6:9-13" emphasize="10" >}}
+
   - [[Ask Seek Knock]] models that priority before daily needs.
   - Prayer is not bargaining for merit; under [[Free Grace]] it is the dependent posture of a child who already belongs to the household.
   - Same rhythm as [[Periodic Knowledge Review]] - keep showing up on schedule, not only in crisis.

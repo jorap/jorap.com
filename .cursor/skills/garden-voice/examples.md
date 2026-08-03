@@ -58,11 +58,11 @@ Not: pasting Ahrens chapter summaries or Luhmann biography into `key_concept`.
 
 Whole chapter dumps - pick the verses the note teaches (`John 17:11-12`, `John 17:20-23`).
 
-### ✅ EP shape (`abide-in-me.md`)
+### ✅ EP shape (gloss before verse)
 
-> [John 15:5 NASB 1995 verse paragraph]
->
 > Cut off from the vine, I produce nothing lasting - fruit comes from staying connected, not willpower theater.
+>
+> [John 15:5 NASB 1995 verse paragraph]
 >
 > Abiding is ongoing dependence, not a one-time conversion event.
 > [[Sanctification]] is the slow becoming that abiding produces over time.

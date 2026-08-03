@@ -7,14 +7,22 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 14 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: You push the vision before they trust you - people buy the leader first, then the plan. See [[Vision Without Trust]].
   
-  {{< bible ref="Judges 7:2-25" >}}
   - **A Test of Leadership Buy-In** - Three hundred followed Gideon's odd battle plan. They bought the leader before the trumpet strategy made sense - people buy the person, then the vision.
-  {{< bible ref="Nehemiah 2:1-18" >}}
+
+  {{< bible ref="Judges 7:2-25" >}}
+
   - **Buying into a Bold Vision** - Cupbearer's grief earned royal favor, then Jerusalem's wall vision landed. Trust in the man came before buy-in to the wall.
-  {{< bible ref="Hebrews 3:1-15" >}}
+
+  {{< bible ref="Nehemiah 2:1-18" >}}
+
   - **Remaining Confident in Christ** - Fix eyes on Christ; do not harden hearts like the wilderness generation. Buy-in to the Leader comes before endurance on the road.
-  {{< bible ref="Numbers 14:1-4" >}}
+
+  {{< bible ref="Hebrews 3:1-15" >}}
+
   - **Vision Without a Trusted Guide** - Israel wept and named a new captain back to Egypt. They rejected the leaders before they rejected the land - no buy-in, no march.
+
+  {{< bible ref="Numbers 14:1-4" >}}
+
 level_1: "People trust the leader before the vision."
 level_2: "Gideon's trimmed army followed his jar-and-torch plan - buy-in to him, then the tactic; Nehemiah wept and prayed before he asked the king."
 level_3: "Share the plan only after people have seen you carry load - trust the leader before the slide deck lands in the room."

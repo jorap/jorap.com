@@ -3,9 +3,10 @@ title: "Iron Sharpens Iron"
 meta_title: "Iron Sharpens Iron - Friends Who Refine You"
 description: "Proverbs says iron sharpens iron - believers grow through honest friction with friends who love the Lord and you."
 key_concept: |
-  {{< bible ref="Proverbs 27:17" emphasize="17" >}}
-  
   - Growth needs contact with someone who will push back - iron sharpens iron, not iron admiring iron from a safe distance.
+
+  {{< bible ref="Proverbs 27:17" emphasize="17" >}}
+
   - [[Accountability]] in the faith community is this picture with names and prayer; [[Sharpen Each Other's Work]] is peer review that makes the draft better, not the person smaller.
   - [[Discipleship]] in community needs at least one person who will ask the hard follow-up question.
 level_1: "Iron sharpens iron is growth through honest friction with someone who will push back - not admiration from a safe distance."

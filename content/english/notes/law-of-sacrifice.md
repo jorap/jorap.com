@@ -7,14 +7,22 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 18 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: You want to go up without giving up - the toll booth stops leaders who refuse the price. See [[Climb Without Cost]].
   
-  {{< bible ref="Numbers 6:1-21" >}}
   - **Choosing to Be Set Apart** - Nazirite separation surrendered hair, wine, and dead-body contact. Set apart means giving up comforts to go up in devotion - a leader must give up to go up.
-  {{< bible ref="1 Corinthians 9:1-23" >}}
+
+  {{< bible ref="Numbers 6:1-21" >}}
+
   - **Paul Declines to Employ His Privileges** - Apostle became all things to all men; rights laid down for reach. Sacrifice opened the gospel's travel lane.
-  {{< bible ref="1 Timothy 3:1-10" >}}
+
+  {{< bible ref="1 Corinthians 9:1-23" >}}
+
   - **Setting the Bar for Leadership** - Overseer qualifications - desire is noble, standard is costly. Leadership climbs by what you surrender, not what you grab.
-  {{< bible ref="Mark 10:37-40" >}}
+
+  {{< bible ref="1 Timothy 3:1-10" >}}
+
   - **Climb Without the Cup** - James and John asked for seats of honor; Jesus named the cup and baptism of suffering. Wanting up without giving up hits the toll booth.
+
+  {{< bible ref="Mark 10:37-40" >}}
+
 level_1: "Leaders give up to go up."
 level_2: "Nazirite vow set apart hair, wine, and comfort; Paul waived rights so gospel would spread; elder qualifications name the personal cost upfront."
 level_3: "Name one comfort you will lay down this month so the team can advance - make the cost visible early, not hidden until resentment builds."

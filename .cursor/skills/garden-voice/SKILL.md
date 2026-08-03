@@ -42,7 +42,7 @@ Blog posts use [jorap-voice](../jorap-voice/SKILL.md) and its **seven rewrite pa
 
 | Pass | Garden field | How it maps |
 |------|--------------|-------------|
-| 1 Lived-In | `examples`, faith gloss | Two scenes that feel different; first-person gloss after `{{< bible >}}` |
+| 1 Lived-In | `examples`, faith gloss | Two scenes that feel different; first-person gloss before `{{< bible >}}` |
 | 2 Strip AI Tells | All fields | Same as de-AI pass below + `pnpm lint:voice` |
 | 3 Show Thinking | `key_concept` only | Tradeoffs in the claim stack - not open questions in `shareable_thought` |
 | 4 One-Friend | Cards, note body | Frontmatter stays tighter: no contractions, third-person `description` |
@@ -168,7 +168,7 @@ Not: "Sanctification is the process whereby believers undergo moral transformati
 
 ### Faith notes need a Bible verse
 
-Every faith note's `key_concept` includes scripture. EP spine notes follow the scripture block rules below; other faith notes still open with verse + gloss before the claim stack.
+Every faith note's `key_concept` includes scripture. EP spine notes follow the scripture block rules below; other faith notes still open with gloss + verse before the claim stack.
 
 Doctrinal claims after the verse must pass the **Theological source** check above - GSOT free grace, not agent improvisation.
 
@@ -180,12 +180,12 @@ Doctrinal claims after the verse must pass the **Theological source** check abov
 
 **Verse refs, not whole chapters.** `ref` and `label` must name specific verses (`Matthew 7:24`, `John 15:5-8`) - never a chapter alone (`Matthew 5`, `John 17`) and never a full-chapter span (`John 17:1-26`). Quote only the verses the note teaches; use `emphasize` for the punchline. Inline citations in body text follow the same rule (`John 17:11`, not `John 17`).
 
-After each shortcode, add one **explanation bullet** in JoRap voice (first person where natural). Gloss text lives in `data/ep-verse-explanations.yaml`. Run `python3 scripts/archive/format-faith-bible-blocks.py` after bulk edits to restore shortcode + bullet shape.
+**Order (all faith notes going forward):** explanation bullet **before** the `{{< bible >}}` shortcode. Gloss first - then verse - then claim stack. One **explanation bullet** in JoRap voice (first person where natural) per shortcode. Gloss text lives in `data/ep-verse-explanations.yaml`.
 
 ```
-  {{< bible ref="John 15:1-11" emphasize="5" >}}
-
   - Cut off from the vine, I produce nothing lasting - fruit comes from staying connected, not willpower theater.
+
+  {{< bible ref="John 15:1-11" emphasize="5" >}}
 
   [Plain-English claim bullets - no wikilinks on line 1]
 ```
@@ -322,7 +322,7 @@ Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:s
 - [ ] `key_concept` post-level stack stays tight (wikilinks/distinctions) - do not bury levels there
 - [ ] Faith note includes a Bible verse in `key_concept` (skip when `Workplace` tag - workplace lane)
 - [ ] Faith note doctrine aligns with GSOT free grace (experienced Grace School of Theology theologian - not improvised)
-- [ ] EP scripture: `{{< bible >}}` shortcode with specific verses (not a whole chapter), explanation bullet in JoRap voice, then claim stack
+- [ ] EP scripture: explanation bullet in JoRap voice, then `{{< bible >}}` shortcode with specific verses (not a whole chapter), then claim stack
 - [ ] Two `examples`, one sentence each, scenes feel different
 - [ ] `shareable_thought` is exactly four complete thoughts, four different angles, each echoing `description`, `key_concept`, or `level_*` wording - no fragments
 - [ ] `relationships.reason` is a clause, not a paragraph; no bible verse citations (book chapter:verse or spoken chapter refs)

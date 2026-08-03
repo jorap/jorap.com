@@ -3,8 +3,10 @@ title: "Grateful Obedience"
 meta_title: "Grateful Obedience - Obey Because Grace Already Saved"
 description: "Obedience flows from thanks because Christ already saved - not to buy or re-earn eternal life."
 key_concept: |
-  {{< bible ref="John 14:15-17" emphasize="15" >}}
   - After salvation, love shows up as keeping His commands - thanks for a gift already received, not payment to earn standing.
+
+  {{< bible ref="John 14:15-17" emphasize="15" >}}
+
   - [[Discipleship]] is the daily walk; [[Sanctification]] is slow becoming.
   - [[Fruits of the Spirit]] is what shows up when the posture is real - love, patience, gentleness grown by the Spirit, not performed for credit.
   - Fruit may back up a claim; it never grounds [[Assurance]] or re-opens [[Justification]].

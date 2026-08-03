@@ -3,9 +3,10 @@ title: "Kindness"
 meta_title: "Kindness - Tender Regard the Spirit Grows"
 description: "Tender regard the Spirit grows for the person in front of you - not polite distance or performance niceness."
 key_concept: |
-  {{< bible ref="Ephesians 4:32" emphasize="32" >}}
-  
   - Be kind and tender-hearted - soft strength toward the person in front, not performance niceness for an audience.
+
+  {{< bible ref="Ephesians 4:32" emphasize="32" >}}
+
   - [[Mercy]] is the garden echo: compassion on the guilty, act for the hurt person, release the debt you are counting because the King cleared yours.
   - [[Love Your Neighbor]] and [[The Golden Rule]] turn kindness outward - tender regard for the person in front, not performance niceness for an audience.
   - Kindness at home counts - not only polite distance at the office.

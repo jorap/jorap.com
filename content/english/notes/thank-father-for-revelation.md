@@ -3,9 +3,10 @@ title: "Thank Father for Revelation"
 meta_title: "Thank Father for Revelation - Luke 10:21"
 description: "Jesus thanked the Father for hiding truth from the proud and revealing it to little children."
 key_concept: |
-  {{< bible ref="Luke 10:21" >}}
-  
   - The seventy-two came back thrilled; Jesus rejoiced in the Holy Spirit and thanked the Father - not for His own status, but for who gets let in.
+
+  {{< bible ref="Luke 10:21" >}}
+
   - He names the Father Lord of heaven and earth and praises the upside-down economy: hidden from the wise, revealed to little children.
   - [[Pray for His Own]] later asks the Father to keep and unify believers; this prayer celebrates that the Father chooses who sees.
   - Under [[Free Grace]], I did not crack the code by intellect - the Father revealed what I could not earn.

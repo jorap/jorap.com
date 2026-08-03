@@ -3,8 +3,10 @@ title: "Heart Righteousness"
 meta_title: "Heart Righteousness - Anger and Lust as Heart Sins"
 description: "Heart righteousness goes deeper than outward acts - anger is murder, lust is adultery, in the heart."
 key_concept: |
-  {{< bible ref="Matthew 5:21-30" emphasize="22,28" >}}
   - Angry with your brother - guilty before the court even if you smiled outwardly.
+
+  {{< bible ref="Matthew 5:21-30" emphasize="22,28" >}}
+
   - [[The Beatitudes]] and [[Judge Not]] both assume heart-level righteousness - external niceness is not the finish line.
   - Lust logged mentally - adultery in the heart though marriage looks fine outside.
   - "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination.

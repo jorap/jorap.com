@@ -3,9 +3,10 @@ title: "Father Forgive Them"
 meta_title: "Father Forgive Them - Luke 23:34"
 description: "From the cross Jesus prayed Father forgive them for they do not know what they do."
 key_concept: |
-  {{< bible ref="Luke 23:34" >}}
-  
   - Nailed and mocked, Jesus prayed for the people driving the nails - Father, forgive them, for they do not know what they do.
+
+  {{< bible ref="Luke 23:34" >}}
+
   - Mercy spoke before anyone apologized: intercession for enemies at maximum injustice - not a lecture after He won.
   - [[Moved with Compassion]] bent His calendar for hurting people; here mercy speaks when He had every right to condemn.
   - Under [[Free Grace]], I am among the forgiven who did not know the weight of what we rejected - His prayer bought space for [[Repent and Believe]] later.

@@ -8,12 +8,18 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 16 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: You push harder after Mo dies - effort multiplies friction instead of progress. See [[Fighting Dead Momentum]].
   
-  {{< bible ref="Deuteronomy 2:24-37" >}}
   - **Early Victories** - Sihon and Og fell in sequence. Obedience fed momentum that carried the next fight - wins stack when you keep moving.
-  {{< bible ref="2 Kings 13:14-19" >}}
+
+  {{< bible ref="Deuteronomy 2:24-37" >}}
+
   - **A Missed Opportunity for Momentum** - Joash struck three times, not six; the prophet grieved the unfinished rout. Momentum dies when the leader stops short.
-  {{< bible ref="Acts 2:29-47" >}}
+
+  {{< bible ref="2 Kings 13:14-19" >}}
+
   - **The Gospel Catches Fire** - Three thousand baptized in one day. Apostolic momentum multiplied what one sermon started - Big Mo is a leader's best friend once it catches.
+
+  {{< bible ref="Acts 2:29-47" >}}
+
 level_1: "Momentum multiplies effort - Big Mo turns small wins into easier next wins."
 level_2: "Israel's early conquests stacked wins; Elisha mourned half-hearted arrow strikes; Pentecost turned thousands in a day."
 level_3: "When momentum is hot, protect the next two quick wins - do not celebrate into complacency or strike the rock twice from boredom."

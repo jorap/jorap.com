@@ -7,12 +7,18 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 11 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: Your closest voices only cheer - potential dies in the room that never tells hard truth. See [[Weak Inner Circle]].
   
-  {{< bible ref="Genesis 24:1-27" >}}
   - **Abraham's Trusted Servant** - Sent to find Isaac's bride. The patriarch's potential rode on who was closest and trusted - inner circle extended the mission.
-  {{< bible ref="2 Samuel 17:1-16" >}}
+
+  {{< bible ref="Genesis 24:1-27" >}}
+
   - **Leveraging the Law of the Inner Circle** - Hushai's counsel foiled Ahithophel inside Absalom's tent. The people nearest the leader decided the kingdom's next move.
-  {{< bible ref="2 Samuel 12:1-13" >}}
+
+  {{< bible ref="2 Samuel 17:1-16" >}}
+
   - **A Hard Truth** - Nathan's parable broke David's denial. The closest voice had to risk wrath to save the leader - potential depends on who can tell you the truth.
+
+  {{< bible ref="2 Samuel 12:1-13" >}}
+
 level_1: "A leader's potential is determined by those closest to him."
 level_2: "Abraham's servant swore an oath with integrity; Hushai outwitted Ahithophel; Nathan confronted David when sin hardened."
 level_3: "Invite one person who will tell you the truth into your next hard decision - not only cheerleaders in the tent."

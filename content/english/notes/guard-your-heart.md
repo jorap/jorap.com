@@ -3,9 +3,10 @@ title: "Guard Your Heart"
 meta_title: "Guard Your Heart - Watch What You Let In"
 description: "Proverbs says guard your heart - what you feed the inner life shapes everything downstream."
 key_concept: |
-  {{< bible ref="Proverbs 4:23" emphasize="23" >}}
-  
   - Everything flows from the heart - I guard what enters through eyes, ears, and habits because worship and anger both start there.
+
+  {{< bible ref="Proverbs 4:23" emphasize="23" >}}
+
   - [[Gate What You Consume]] is the garden echo - the same filter for feeds, podcasts, and rage bait.
   - [[Heart Righteousness]] cares about motive inside, not performance outside - guarding protects the inside.
 level_1: "Guard your heart means watching what enters through eyes, ears, and habits - everything downstream flows from the inner life you feed."

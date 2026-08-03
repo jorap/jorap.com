@@ -3,9 +3,10 @@ title: "Christlikeness"
 meta_title: "Christlikeness - Shaped to Look and Love Like Jesus"
 description: "God keeps reshaping believers to look and love more like Jesus - growth after faith, not the entry fee."
 key_concept: |
-  {{< bible ref="Luke 6:39-40" emphasize="40" >}}
-  
   - Fully trained, like the teacher - the aim is not my old default self on display, it is looking more like Jesus over years.
+
+  {{< bible ref="Luke 6:39-40" emphasize="40" >}}
+
   - [[Free Grace]] settles where I spend forever; [[Justification]] already settled standing - I do not manufacture Christlikeness to earn it.
   - Christlikeness names who I become - more of His patience in traffic, more of His gentleness at dinner, less of my default self on display.
   - [[Sanctification]] is the slow process, [[Discipleship]] the daily walk, [[Abide in Me]] the engine; fruit may back up a claim, never grounds [[Assurance]].
