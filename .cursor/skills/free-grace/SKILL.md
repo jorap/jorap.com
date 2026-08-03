@@ -90,7 +90,9 @@ When the user wants to know if a note **complies** with Anderson, run this check
 
 ### Garden phrasing (notes)
 
-Prefer "works answer grace" / "fruit may back up" / "never grounds assurance." Avoid "works prove faith," "fruit confirms belonging," and "dead on inspection" — those read as fruit-grounds-election even when the rest of the note is Free Grace.
+Prefer "works answer grace" / "fruit may back up" / "never grounds assurance." Avoid "works prove faith," "real faith shows up in obedience," "fruit confirms belonging," and "dead on inspection" — those read as fruit-grounds-election even when the rest of the note is Free Grace.
+
+Entry metaphors (narrow gate, house on rock, vine) name **Christ received by faith** as the door; put cost, self-rule, and pruning on the walk after. Reward-loss language belongs to a stumbling believer, never to a false professor.
 
 ### Output format for audits
 

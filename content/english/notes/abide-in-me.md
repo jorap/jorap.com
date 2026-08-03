@@ -11,7 +11,7 @@ key_concept: |
   - Under [[Free Grace]], fruit does not earn the branch's place in the vine - the branch bears fruit because it is connected.
   - [[Fruits of the Spirit]] hub lists the cluster Galatians names - love through self-control - grown by walking in the Spirit, not sheer willpower.
   - [[Sanctification]] is the slow becoming that abiding produces over time.
-  - Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
+  - Self-powered "fruit" without abiding dries up - the Father prunes to serve fruit, never to revoke a branch's place - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
 level_1: "Abiding in Christ is staying connected to Jesus as the vine - fruit comes from attachment, not disconnected willpower."
 level_2: "Like a branch cut from a tree, disconnected effort dries up; like a kid pedaling only while Dad holds the bike, connection keeps the work alive."
 level_3: "Open Scripture and pray before forcing spiritual output - abiding means plugged-in dependence, not performance theater."

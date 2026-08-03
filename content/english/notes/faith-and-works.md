@@ -55,7 +55,7 @@ relationships:
     reason: "Inactive faith sits unused on the broad road - not fake from day one"
   - type: extends
     wikilink: "[[The Wise Builder]]"
-    reason: "Real faith hears Jesus and builds on rock by doing"
+    reason: "Faith that acts builds on rock - hearing alone is sand"
 slug: "faith-and-works"
 date: "2026-06-29 08:15:00+00:00"
 image: "/images/note.jpg"

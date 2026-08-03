@@ -59,7 +59,7 @@ Biography lane - what the Gospels show He did day to day. Hub: [[Jesus' Rhythms]
 - [[Don't Copy the Pattern]] - chosen out of the world, not of the world (John 15:19); refuse culture's default script (Romans 12:2)
 - [[Discern His Will Daily]] - teaching at the Feast, willing to do His will knows the doctrine (John 7:16-18); test and approve what God wants (Romans 12:2)
 - [[Christlikeness]] - fully trained disciple will be like the Teacher (Luke 6:39-40); the aim sanctification moves toward
-- [[Faith and Works]] - wise man hears Jesus' words and builds on the rock (Matthew 7:24-27); faith alone saves, real faith shows up in obedience
+- [[Faith and Works]] - wise man hears Jesus' words and builds on the rock (Matthew 7:24-27); faith alone saves, works answer the gift after
 - [[Repent and Believe]] - after John was arrested, Jesus proclaimed the kingdom at hand (Mark 1:14-15); turn and trust, don't wait until you're "ready"
 - [[Childlike Faith]] - let the children come, receive the kingdom like a child (Mark 10:13-16); stop negotiating merit before you enter
 - [[Abide in Me]] - vine and branches: apart from Me you can do nothing (John 15:1-11); fruit from staying connected, not self-generated effort alone
@@ -181,7 +181,7 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[Christlikeness]] | [[God Centered Design]] | Grow toward His likeness - design life for God's glory, not applause |
 | [[Change Takes Repetition]] | [[Process Over Outcomes]] | Transformation bends on repeated Tuesdays - not one heroic sprint |
 | [[Judgment Seat]] | [[Periodic Knowledge Review]] | Whole life reviewed for reward - not one heroic week as the whole report |
-| [[Faith and Works]] | [[The Wise Builder]] | Real faith hears Jesus and builds by doing |
+| [[Faith and Works]] | [[The Wise Builder]] | Faith saves; hearing Jesus and doing is the build after |
 | [[Loss of Reward]] | [[Failure as Feedback]] | Burned work is feedback on what to build - not proof you were never saved |
 | [[Standing vs Fellowship]] | [[Note Relationships]] | Standing vs fellowship is typed repair - don't collapse broken closeness with revoked verdict |
 | [[Assurance]] | [[Minimum Effective Dose]] | Faith is sufficient; assurance rests on Christ's promise, not a merit stack |

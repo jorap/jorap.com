@@ -3,19 +3,19 @@ title: "The Narrow Way"
 meta_title: "The Narrow Way - Enter by the Narrow Gate"
 description: "The road to life is narrow and hard - the easy broad path is the one most drift onto."
 key_concept: |
-  - Broad road is crowded and easy; narrow gate costs self-rule - few find it, but it is the one Jesus named.
+  - Broad road is crowded and easy; the narrow gate is Christ - few find it, but it is the one Jesus named.
 
   {{< bible ref="Matthew 7:13-14" emphasize="14" >}}
 
   - Not everyone who says Lord Lord enters - false profession vs believer who stumbles and may lose reward but stays saved.
   - In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the broad road of self-righteousness, religion-by-works, or moral performance as salvation.
-  - Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, Lord" enters - those are false professors who never truly believed, not believers who stumbled - [[Loss of Reward]] may apply, but they stay saved.
+  - Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, Lord" enters - those are false professors who never truly believed, and they are not believers who stumbled; a believer who stumbles keeps his standing and risks only [[Loss of Reward]].
   - [[Discipleship]] on the narrow path is costly - cross-bearing, enemy-love, truth-telling - but distinct from how eternal life is received: free, by faith, through grace.
   - The easy broad path is the one I would drift onto.
-  - Enter by the narrow gate - few find it because it costs self-rule, not because God hides the door.
-level_1: "The narrow way is the hard road to life Jesus named - entering by the narrow gate costs self-rule, not the broad easy path most drift onto."
-level_2: "Broad road is crowded and easy; narrow gate costs self-rule - few find it because surrender feels less safe than running your own life."
-level_3: "Ask which path you are building on today - the crowded broad road or the narrow gate that costs self-rule."
+  - Enter by the narrow gate - few find it because self-righteousness feels safer than trusting Christ, not because God hides the door.
+level_1: "The narrow way is the hard road to life Jesus named - the gate is Christ, and the road after it is not the broad easy path most drift onto."
+level_2: "Broad road is crowded and easy; the narrow gate is Christ - few find it because trusting someone else's promise feels less safe than running your own life."
+level_3: "Ask which road you are walking today - the crowded broad road or the narrow one that starts at Christ."
 level_4: "Storms later reveal which foundation held - profession without the narrow gate collapses when pressure hits."
 level_5: "In [[Free Grace]] terms, the narrow gate is faith in Christ - not the broad road of self-righteousness, religion-by-works, or moral performance as salvation."
 examples:
@@ -24,7 +24,7 @@ examples:
 shareable_thought:
   - "The road to life is narrow and hard."
   - "The easy broad path is the one most drift onto."
-  - "Broad road is crowded and easy; narrow gate costs self-rule."
+  - "Broad road is crowded and easy; the narrow gate is Christ."
   - "Few find it, but it is the one Jesus named."
 relationships:
   - type: alternative

@@ -30,7 +30,7 @@ shareable_thought:
 relationships:
   - type: contradicts
     wikilink: "[[Loss of Reward]]"
-    reason: "Sand foundation looks built until the storm - false profession loses reward"
+    reason: "Sand foundation looks built until the storm - false profession is not a believer losing reward"
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"
     reason: "Hearing without doing is hoarding blueprints - same empty foundation"
@@ -42,7 +42,7 @@ relationships:
     reason: "Hear and do - output that survives the storm"
   - type: extends
     wikilink: "[[Faith and Works]]"
-    reason: "Real faith hears and does - sand is hear-only religion"
+    reason: "Works answer grace by hearing and doing - sand is hear-only religion"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Faith saves you, but hearing Jesus without doing is the fool's house on sand"
