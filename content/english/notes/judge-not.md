@@ -12,7 +12,6 @@ key_concept: |
   - He does not forbid all moral discernment: the same sermon names fruit too.
   - Garden parallel: the [Issues](/notes/issues/) page lists broken wikilinks to fix - diagnose the graph, do not condemn the author.
   - [[Mercy]] and [[Free Grace]] remind me I stood on mercy first.
-  - I do not play final judge on souls - I pull my own plank before nitpicking someone's speck.
 level_1: "Judge not means you are not the final judge of anyone's soul - deal with your own fault before you pick at theirs."
 level_2: "Fix your own big faults before you nitpick someone's small ones - like clearing your windshield before criticizing another driver."
 level_3: "When you want to call out their speck, name your plank first."
@@ -24,8 +23,8 @@ examples:
 shareable_thought:
   - "Final judge on souls is not your job."
   - "Pull your own plank before nitpicking someone speck."
-  - "Do not play final judge on souls."
-  - "Pull your plank before you nitpick someone's speck."
+  - "Still judge fruit - outcomes over time tell you what is underneath the hype."
+  - "When you want to call out their speck, name your plank first."
 relationships:
   - type: contradicts
     wikilink: "[[Humility and Service]]"

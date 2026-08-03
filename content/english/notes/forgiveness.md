@@ -7,7 +7,6 @@ key_concept: |
   
   - Forgive others or the Father will not forgive you - daily rhythm, not a one-time sermon nod.
   - Forgiveness extends the forgiveness already received, not ledger-keeping on debts Christ cleared.
-  - Forgive others or the Father will not forgive you - daily rhythm, not a one-time sermon nod.
   - The unforgiving servant - king forgave an unpayable debt; refusing a small debt exposed a heart out of step.
   - Seventy times seven ends ledger-keeping - stop counting how many times you have been wronged.
   - The unforgiving servant parable makes the math plain: the king forgave an unpayable debt picture of [[Free Grace]] already given.
@@ -23,7 +22,7 @@ shareable_thought:
   - "Extend the forgiveness already received, not ledger-keeping on debts Christ cleared."
   - "Forgive others or the Father will not forgive you."
   - "Daily rhythm, not a one-time sermon nod."
-  - "Forgiveness extends the forgiveness already received, not ledger-keeping on debts Christ cleared."
+  - "Seventy times seven ends ledger-keeping - stop counting how many times you have been wronged."
 relationships:
   - type: contradicts
     wikilink: "[[Sunk Cost Fallacy]]"

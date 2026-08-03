@@ -13,7 +13,7 @@ key_concept: |
   - **An Entire Nation's Fate Rests on Her Timing** - For such a time - she approached when fasting and heaven aligned. Timing saved a people; the same move a day early or late would have failed.
   {{< bible ref="John 7:1-15" >}}
   - **Jesus Waited for the Right Time** - Avoided Judea until the Father's hour. Not fear - alignment. When to move mattered as much as where to go.
-level_1: "The law of timing is that the same action succeeds or fails depending on when you take it."
+level_1: "The same action succeeds or fails depending on when you take it."
 level_2: "Saul offered sacrifice early and lost the kingdom; Esther waited for the scepter; Jesus avoided Judea until His hour came."
 level_3: "Delay the public move one beat when the room is hot but the map is not ready yet."
 level_4: "Waiting is active navigation, not passive drift - impatience costs kingdoms while overcaution misses the window."
@@ -24,7 +24,7 @@ examples:
 shareable_thought:
   - "When to lead is as important as what to do and where to go."
   - "Right move, wrong clock, fails - timing is half of leadership."
-  - "The law of timing is that the same action succeeds or fails depending on when you take it."
+  - "The same action succeeds or fails depending on when you take it."
   - "Saul offered sacrifice early and lost the kingdom; Esther waited for the scepter; Jesus avoided Judea until His hour came."
 relationships:
   - type: contradicts

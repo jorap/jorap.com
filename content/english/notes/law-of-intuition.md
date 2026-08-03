@@ -15,7 +15,7 @@ key_concept: |
   - **The Wisdom of Solomon** - Two mothers, one living child - the sword threat revealed the true mother. Intuition read the heart when facts alone stalled.
   {{< bible ref="Acts 9:19-30" >}}
   - **Barnabas Sees Paul's Potential** - Son of encouragement introduced a feared convert to the apostles. Leadership bias saw calling where others saw only threat.
-level_1: "The law of intuition is that leaders read situations with a leadership lens."
+level_1: "Leaders read situations with a leadership lens."
 level_2: "Abigail stopped David's rash revenge - she read the room before blood spilled; Barnabas vouched for fresh-convert Paul when others flinched."
 level_3: "Pause the meeting when the room tone shifts - name what you sense before the agenda bulldozes it."
 level_4: "Intuition is pattern recognition under pressure, not mysticism - skip it and you bulldoze the room; worship it and you skip the map."
@@ -26,7 +26,7 @@ examples:
 shareable_thought:
   - "Leaders evaluate everything with a leadership bias."
   - "Pause the meeting when the room tone shifts - name what you sense before the agenda bulldozes it."
-  - "The law of intuition is that leaders read situations with a leadership lens - who moves, what breaks, what window opens."
+  - "Leaders read situations with a leadership lens - who moves, what breaks, what window opens."
   - "Abigail stopped David's rash revenge - she read the room before blood spilled."
 relationships:
   - type: contradicts

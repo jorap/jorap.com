@@ -17,8 +17,8 @@ examples:
 shareable_thought:
   - "Mind maps serve the messy first pass."
   - "Branches, bubbles, relationships - then export to atomic notes."
-  - "Mind maps are the messy first pass."
-  - "Branches and bubbles before linear notes."
+  - "The map shows relationships at a glance; atomic notes are what survive review and linking."
+  - "Export each branch to its own note after the shape is visible - not instead of writing notes."
 relationships:
   - type: contradicts
     wikilink: "[[Atomic Notes]]"

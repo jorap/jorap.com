@@ -4,7 +4,6 @@ meta_title: "The Law of Solid Ground - Trust is the foundation of leadership"
 description: "Trust is the foundation of leadership."
 key_concept: |
   - Trust is the foundation - character cracks sink leadership faster than bad strategy.
-  - Character cracks sink leadership faster than bad strategy.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 6 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: Character cracks sink the room faster than a bad plan - image cannot hold the weight. See [[Trust Already Cracked]].
   
@@ -14,7 +13,7 @@ key_concept: |
   - **Character Develops from the Inside Out** - Whitewashed tombs look clean outside and stay dead inside. Solid ground fails when the leader's inside is hollow.
   {{< bible ref="1 Peter 5:1-11" >}}
   - **Peter Gives Instruction** - Elders shepherd willingly, not for money - humble example, not lordship. Trust is the foundation; force spends it.
-level_1: "The law of solid ground is that trust is the foundation of leadership."
+level_1: "Trust is the foundation of leadership."
 level_2: "Solomon warned pride goes before a fall; Jesus exposed whitewashed tombs; Peter told elders to shepherd willingly, not for shameful gain."
 level_3: "Catch one small promise you broke this week and repair it before the team files it as pattern."
 level_4: "Public trust and hidden walk must both match - character cracks sink leadership faster than a bad slide deck."
@@ -25,7 +24,7 @@ examples:
 shareable_thought:
   - "Trust is the foundation of leadership."
   - "Catch one small promise you broke this week and repair it before the team files it as pattern."
-  - "The law of solid ground is that trust is the foundation - character cracks sink leadership faster than bad strategy."
+  - "Trust is the foundation - character cracks sink leadership faster than bad strategy."
   - "Solomon warned pride goes before a fall; Jesus exposed whitewashed tombs."
 relationships:
   - type: contradicts

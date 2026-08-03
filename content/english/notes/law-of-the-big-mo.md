@@ -14,7 +14,7 @@ key_concept: |
   - **A Missed Opportunity for Momentum** - Joash struck three times, not six; the prophet grieved the unfinished rout. Momentum dies when the leader stops short.
   {{< bible ref="Acts 2:29-47" >}}
   - **The Gospel Catches Fire** - Three thousand baptized in one day. Apostolic momentum multiplied what one sermon started - Big Mo is a leader's best friend once it catches.
-level_1: "The law of the big Mo is that momentum multiplies effort."
+level_1: "Momentum multiplies effort - Big Mo turns small wins into easier next wins."
 level_2: "Israel's early conquests stacked wins; Elisha mourned half-hearted arrow strikes; Pentecost turned thousands in a day."
 level_3: "When momentum is hot, protect the next two quick wins - do not celebrate into complacency or strike the rock twice from boredom."
 level_4: "Missed momentum costs more than slow starts - Mo leaks when you coast after the streak or strike twice from boredom."
@@ -25,7 +25,7 @@ examples:
 shareable_thought:
   - "Momentum is a leader's best friend."
   - "When momentum is hot, protect the next two quick wins - do not celebrate into complacency."
-  - "The law of the big Mo is that momentum multiplies effort - leaders protect it and grieve when it leaks."
+  - "Momentum multiplies effort - leaders protect it and grieve when it leaks."
   - "Israel's early conquests stacked wins; Elisha mourned half-hearted arrow strikes; Pentecost turned thousands in a day."
 relationships:
   - type: contradicts

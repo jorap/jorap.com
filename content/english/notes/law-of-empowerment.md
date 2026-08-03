@@ -4,7 +4,6 @@ meta_title: "The Law of Empowerment - Only secure leaders give power to others"
 description: "Only secure leaders give power to others."
 key_concept: |
   - Secure leaders delegate - insecure leaders hoard decisions until they break.
-  - Insecure leaders hoard decisions until they break.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 12 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: You keep every decision - the one-man band burns out and nobody else grows. See [[Hoarding All Power]].
   
@@ -14,7 +13,7 @@ key_concept: |
   - **Ezra Is Empowered to Lead** - King's letter gave authority, silver, and safe passage. Empowerment is real power handed over - not slogans about trust.
   {{< bible ref="Matthew 10:1-33" >}}
   - **Jesus Empowers and Warns** - Sent twelve with power and honest warning about rejection. Gave authority away before the mission scaled - only secure leaders release power.
-level_1: "The law of empowerment is that secure leaders delegate."
+level_1: "Secure leaders delegate."
 level_2: "Jethro told Moses to appoint judges - one-man band was unsustainable; Jesus sent twelve with authority and warned of cost."
 level_3: "Hand one recurring decision to someone you have trained - name the boundary, then leave the room."
 level_4: "Hoarding decisions chokes the whole body - [[Many Parts One Body]] needs many members carrying load; insecure control is the limit."
@@ -25,7 +24,7 @@ examples:
 shareable_thought:
   - "Only secure leaders give power to others."
   - "Hand one recurring decision to someone you have trained - name the boundary, then leave the room."
-  - "The law of empowerment is that secure leaders delegate - insecure leaders hoard decisions until they break."
+  - "Secure leaders delegate - insecure leaders hoard decisions until they break."
   - "Jethro told Moses to appoint judges - one-man band was unsustainable; Jesus sent twelve with authority and warned of cost."
 relationships:
   - type: contradicts

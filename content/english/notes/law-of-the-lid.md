@@ -13,7 +13,7 @@ key_concept: |
   - **David and Saul** - Saul hid in the tent while David stepped into the valley. The crown sat on a low lid; courage raised effectiveness beyond the title.
   {{< bible ref="1 Kings 12:1-20" >}}
   - **Rehoboam and the People** - A harsh answer split ten tribes. Low leadership lid shattered the unity he inherited - the people could not rise above the king's ceiling.
-level_1: "The law of the lid is the ceiling your leadership ability puts on what your team can achieve."
+level_1: "Your leadership ability is the ceiling on what your team can achieve."
 level_2: "Like a jar lid too small for the jar, low leadership limits output no matter how big the opportunity grows."
 level_3: "Before you blame the crew for missed targets, ask whether your own leadership level is the bottleneck."
 level_4: "The lid shows up before org charts - Aaron folded without Moses, David out-led Saul, Rehoboam split the kingdom; raise the lid or the load stalls."
@@ -24,7 +24,7 @@ examples:
 shareable_thought:
   - "Leadership ability determines a person's level of effectiveness."
   - "Your leadership lid caps how much good you can carry - raise the lid or the load stalls."
-  - "The law of the lid is the ceiling your leadership ability puts on what your team can achieve - you can name the cap."
+  - "Your leadership ability is the ceiling on what your team can achieve."
   - "Like a jar lid too small for the jar, low leadership limits output no matter how big the opportunity grows."
 relationships:
   - type: contradicts

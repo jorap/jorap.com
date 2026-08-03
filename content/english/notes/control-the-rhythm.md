@@ -17,8 +17,8 @@ examples:
   - "A dad texted for more reps before I had watched his kid play - control the rhythm was seeing Thursday's scrimmage first instead of doubling reps that bred a limp."
   - "A client wanted a complex quote answer in ten minutes - I sent numbers after lunch and kept the room from rushing a bad decision."
 shareable_thought:
-  - "Control the rhythm is taking back pace before urgency, conflict, or someone else sets it."
-  - "Control the rhythm means taking back pace before urgency, conflict, or someone else sets it."
+  - "Whoever sets the pace often steers the room."
+  - "Urgency is real - you still choose the pace you work at."
   - "Do not let urgency, conflict, emotion, or someone else's deadline dictate how fast you think and act."
   - "Take the tempo back when you can."
 relationships:

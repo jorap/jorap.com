@@ -4,7 +4,6 @@ meta_title: "The Law of Legacy - A leader's lasting value is measured by success
 description: "A leader's lasting value is measured by succession."
 key_concept: |
   - Legacy is who carries the work after you - succession is the final exam.
-  - Succession is the final exam.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 21 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: Nobody can carry the work after you - lasting value was never transferred. See [[No Successor Left]].
   
@@ -16,7 +15,7 @@ key_concept: |
   - **Jesus' Plan of Succession** - Chose twelve after prayer; Great Commission extends to every generation. A leader's lasting value is disciples who make disciples.
   {{< bible ref="Judges 2:7-10" >}}
   - **No Successor Left** - After Joshua's generation, another arose that did not know the Lord or the work He had done. Lasting value dies when succession is never transferred.
-level_1: "The law of legacy is that lasting value is measured by who carries the work after you."
+level_1: "Lasting value is measured by who carries the work after you."
 level_2: "David charged Solomon to walk in God's ways; Elijah threw his mantle on Elisha; Jesus chose twelve and sent them to all nations."
 level_3: "Name your successor in writing - skills, values, and one unfinished charge they should carry before you leave the role."
 level_4: "Legacy fails when the brand stays personal - the work dies with you unless succession is real."
@@ -27,7 +26,7 @@ examples:
 shareable_thought:
   - "A leader's lasting value is measured by succession."
   - "Legacy is who carries the work after you - succession is the final exam."
-  - "The law of legacy is that lasting value is measured by who carries the work after you - succession is the final exam."
+  - "Name your successor in writing - skills, values, and one unfinished charge they should carry."
   - "David charged Solomon to walk in God's ways; Elijah threw his mantle on Elisha; Jesus chose twelve and sent them to all nations."
 relationships:
   - type: contradicts

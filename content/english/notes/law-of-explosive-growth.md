@@ -15,7 +15,7 @@ key_concept: |
   - **Paul's Strategy for Growth** - Entrust truth to faithful people who will teach others also. Explosive growth is four generations deep, not one star.
   {{< bible ref="Exodus 18:17-23" >}}
   - **Jethro: Appoint Leaders** - Moses heard he would wear out alone; Jethro said appoint able men over thousands and tens. Addition of followers stalls; multiplication needs leaders who lead.
-level_1: "The law of explosive growth is that multiplication adds leaders who spawn leaders, not only more bodies."
+level_1: "Multiplication adds leaders who spawn leaders, not only more bodies."
 level_2: "Bezalel trained craftsmen who built the tabernacle; Jesus sent seventy with authority; Paul appointed elders and told Timothy to entrust truth to faithful men."
 level_3: "Teach one person your full playbook this quarter - not just a task dump, the judgment calls they will need when you are not in the room."
 level_4: "Headcount alone stalls when only one person can teach - addition grows bodies; multiplication needs leaders who spawn leaders."
@@ -26,7 +26,7 @@ examples:
 shareable_thought:
   - "To grow by addition, raise followers - to multiply, raise leaders."
   - "Addition adds bodies; multiplication adds leaders who spawn leaders."
-  - "The law of explosive growth is that addition adds bodies but multiplication adds leaders who spawn leaders."
+  - "Teach one person your full playbook this quarter - judgment calls included, not only task dumps."
   - "Bezalel trained craftsmen who built the tabernacle; Jesus sent seventy with authority."
 relationships:
   - type: contradicts

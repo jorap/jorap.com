@@ -18,7 +18,7 @@ shareable_thought:
   - "Steer pace, format, and who speaks when you cannot own the whole outcome."
   - "Situational control is using the levers available."
   - "Pace, venue, agenda, boundaries - when you cannot control everything."
-  - "I steer pace, format, and who speaks in the room when I cannot own the whole outcome."
+  - "The room notices who is steering even when nobody announced it."
 relationships:
   - type: contradicts
     wikilink: "[[Humility and Service]]"

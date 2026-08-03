@@ -19,7 +19,7 @@ shareable_thought:
   - "Slow one breath before answering."
   - "Urgency is real, but it should not pick the move."
   - "Pressure creates urgency, but urgency should not erase judgment."
-  - "I slow down one breath before I answer."
+  - "One deliberate breath buys room for a better second move."
 relationships:
   - type: alternative
     wikilink: "[[Break the Escalation Cycle]]"

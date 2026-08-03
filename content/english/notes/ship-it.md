@@ -18,7 +18,7 @@ shareable_thought:
   - "Ship the good-enough version live instead of polishing until the deadline owns the work."
   - "Feedback on a live, flawed version teaches more in a week than another month of internal debate."
   - "Ship the first client site before the three-tier pricing PDF exists."
-  - "Publish the good-enough version live instead of polishing until the deadline owns the work."
+  - "Perfect-in-private never meets reality - polish has diminishing returns once feedback could arrive from real users."
 relationships:
   - type: contradicts
     wikilink: "[[Attention to Detail]]"

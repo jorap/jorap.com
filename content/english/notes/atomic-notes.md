@@ -9,9 +9,6 @@ key_concept: |
   - Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing.
   - If I need headings inside one file, I probably need two notes.
   - Faith parallel: [[Let Your Yes Be Yes]] - say one plain thing; let your yes be yes.
-  - If a note needs three ands to make its point, I split it before I link it.
-  - One claim I would say out loud - if a note needs three ands, I split it before I link it.
-  - Too many ands in one note means I split it before I link it.
 level_1: "An atomic note holds one claim you would say out loud - too many ands means split the file."
 level_2: "Like one LEGO brick with one shape - \"call coach\" is one note; \"call coach and buy shoes and fix bike\" is three."
 level_3: "Before you save, ask what one sentence you would cite in conversation - mixed topics mean two notes, not one."
@@ -23,8 +20,8 @@ examples:
 shareable_thought:
   - "One clear claim per note."
   - "Split before the ands pile up."
-  - "One claim I would say out loud."
-  - "Too many ands, split it."
+  - "Small notes stack like Lego blocks - linked, not merged."
+  - "If I need headings inside one file, I probably need two notes."
 relationships:
   - type: alternative
     wikilink: "[[Mind Mapping]]"

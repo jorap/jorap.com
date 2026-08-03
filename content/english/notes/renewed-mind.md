@@ -16,7 +16,7 @@ key_concept: |
   - [[Abide in Me]] feeds it - His words dwell where I actually read.
   - [[Repent and Believe]] names the turn: change of mind and direction, not a down payment on salvation.
   - PKM mirror: [[Information Diet]] curates feeds; renewed mind goes deeper - Scripture and prayer reshape judgment, not just block noise.
-  - do not copy the world's default thinking.
+  - Do not copy the world's default thinking.
   - Let Scripture reshape how I see, choose, and obey.
 level_1: "A renewed mind is thinking reshaped by Scripture instead of running the world's default scripts."
 level_2: "Culture pushes hurry and outrage; staying in His word retrains how you see, choose, and obey."

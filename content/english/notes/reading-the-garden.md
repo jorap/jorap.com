@@ -18,7 +18,7 @@ examples:
   - "Kid asked why I forgive at work and I scrolled shareable thoughts until I found the line - should have drilled the card Tuesday so the move was already loaded."
 shareable_thought:
   - "Learn in two lanes - wiki for understanding, cards for recall when life shows up."
-  - "Learn from the garden in two lanes - wiki for understanding, cards for drill."
+  - "Question that matters: can I recall and use this when it matters?"
   - "Success is recall and use when it matters - retention, application, explanation - not tab count or review streak length."
   - "Drill lane: life cue on the card front, immediate move on the back - produce the answer before you flip."
 relationships:

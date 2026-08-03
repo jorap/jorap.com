@@ -6,7 +6,6 @@ key_concept: |
   {{< bible ref="Matthew 20:26-28" emphasize="28" >}}
   
   - Greatness is service - Son of Man came to serve; two seats, upward allegiance and outward care.
-  - Greatness is service - Son of Man came to serve; upward allegiance and outward care stay separate.
   - [[Discipleship]] answers upward; [[Leadership]] answers outward - direction, pace, and care when people look your way.
   - Swapping them is the failure: running a standup is not following Christ, and a promotion does not cancel private obedience.
   - [[Servant Leadership]] overlaps on horizontal care - but that is still not the vertical allegiance discipleship names.
@@ -21,7 +20,7 @@ examples:
 shareable_thought:
   - "Discipleship is who you follow upward; leadership is who looks to you for direction and care."
   - "Greatness is service - Son of Man came to serve; two seats, upward allegiance and outward care."
-  - "Greatness is service - Son of Man came to serve; upward allegiance and outward care stay separate."
+  - "Swapping them is the failure: running a standup is not following Christ."
   - "Discipleship answers upward; Leadership answers outward."
 relationships:
   - type: alternative

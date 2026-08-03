@@ -4,7 +4,6 @@ meta_title: "The Law of Priorities - Leaders understand that activity is not nec
 description: "Leaders understand that activity is not necessarily accomplishment."
 key_concept: |
   - Busy is not fruitful - leaders sort what matters from what merely moves.
-  - Leaders sort what matters from what merely moves.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 17 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: Busy hands replace numbered priorities - activity masquerades as accomplishment. See [[Activity Without Accomplishment]].
   
@@ -14,7 +13,7 @@ key_concept: |
   - **Two Sisters - Two Perspectives** - Mary sat at Jesus' feet; Martha spun in kitchen frenzy. The good portion outranks busy motion that only looks like service.
   {{< bible ref="Acts 6:1-7" >}}
   - **Acts 6 - Tables Served, Word Ministry Central** - Seven appointed to tables so [[Invest in the Few]] stayed on prayer and word. Priorities protect the few things that actually matter.
-level_1: "The law of priorities is that activity is not accomplishment."
+level_1: "Activity is not accomplishment."
 level_2: "Mary chose the good portion; Martha hustled plates; apostles appointed servers so word ministry stayed central."
 level_3: "List today's top three before you open the inbox - kingdom work gets numbered first, not last."
 level_4: "[[Seek the Kingdom First]] is the faith filter - busy motion without kingdom order is still noise."
@@ -25,7 +24,7 @@ examples:
 shareable_thought:
   - "Leaders understand that activity is not necessarily accomplishment."
   - "Busy is not fruitful - leaders sort what matters from what merely moves."
-  - "The law of priorities is that activity is not accomplishment - leaders sort what matters from what merely moves."
+  - "List today's top three before you open the inbox - kingdom work gets numbered first, not last."
   - "Mary chose the good portion; Martha hustled plates; apostles appointed servers so word ministry stayed central."
 relationships:
   - type: contradicts

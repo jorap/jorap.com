@@ -18,8 +18,8 @@ examples:
 shareable_thought:
   - "Frontmatter and folders shaped so future you and scripts need no fresh briefing every time."
   - "My personal API is not OAuth and microservices."
-  - "I shape frontmatter and folders so future me and my scripts do not need a fresh briefing every time."
   - "Frontmatter and folder shape are the contract between past me and future me."
+  - "Consistent slugs and fields let agents and scripts read the garden without a tour."
 relationships:
   - type: alternative
     wikilink: "[[Local-first Software]]"

@@ -15,7 +15,7 @@ key_concept: |
   - **Absalom Uses Connection for Self-Promotion** - Stole hearts with handshakes at the gate. Connection without integrity became a coup tool - the law still worked for the wrong end.
   {{< bible ref="Philemon 1:1-21" >}}
   - **Paul Connects Instead of Commanding** - Appeal on the basis of love, not apostolic hammer. Asked for the hand after he touched the heart.
-level_1: "The law of connection is that hearts move before hands do."
+level_1: "Hearts move before hands do."
 level_2: "Jacob sent gifts ahead to Esau - reconciliation before reunion; Paul appealed to Philemon as friend, not commander."
 level_3: "Ask how their week went before you ask for the favor - one human sentence before the hand request."
 level_4: "Absalom stole hearts with flattery - connection without truth rots; honest knowing costs more than charm."
@@ -26,7 +26,7 @@ examples:
 shareable_thought:
   - "Leaders touch a heart before they ask for a hand."
   - "Connection precedes the ask - hearts move before hands do."
-  - "The law of connection is that hearts move before hands do - know the person before you request the labor."
+  - "Hearts move before hands do - know the person before you request the labor."
   - "Jacob sent gifts ahead to Esau - reconciliation before reunion; Paul appealed to Philemon as friend, not commander."
 relationships:
   - type: contradicts

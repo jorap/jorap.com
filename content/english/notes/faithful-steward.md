@@ -12,7 +12,6 @@ key_concept: |
   - [[Eternal Rewards]] names the promise; [[Faithful Steward]] names the parable Jesus told for it.
   - [[Compounding]] is the PKM mirror: small faithful use over years, not one heroic week mistaken for a merit purchase on heaven.
   - [[Judgment Seat]] is where accounts get reviewed; [[Secret Devotion]] and [[Integrity Without an Audience]] are hidden lanes of faithful use nobody applauded.
-  - Free Grace settled where I spend forever - stewardship is what I do with what He entrusted after.
   - Quiet Tuesdays nobody applauded still count when the gift was used faithfully.
 level_1: "A faithful steward uses what God entrusted in steady small ways - not one flashy week mistaken for the whole report card."
 level_2: "Stewardship is measured in quiet Tuesdays - compound use over years, not one visible withdrawal everyone applauds."

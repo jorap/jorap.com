@@ -13,7 +13,7 @@ key_concept: |
   - **Jesus Gave a New Definition of Leadership** - Greatest serves. The Son of Man came to give His life, not grab thrones - addition is how greatness works, not a soft extra.
   {{< bible ref="Philippians 2:1-11" >}}
   - **Paul Encouraged Putting Others First** - Empty yourself like Christ. Putting others first adds the value an ego grab never will.
-level_1: "The law of addition is that leaders add value by serving others."
+level_1: "Leaders add value by serving others."
 level_2: "Abram let Lot pick first - generosity added peace, not loss; Jesus redefined greatness as service, Paul told Philippi to put others first like Christ."
 level_3: "Before the next promotion fight, name one cost you can absorb so someone else wins visibly - serve before you grab credit."
 level_4: "Addition without real cost becomes performance theater - serving only when the camera is on does not add value."
@@ -24,7 +24,7 @@ examples:
 shareable_thought:
   - "Leaders add value by serving others."
   - "Leaders add value by serving - the lot you give away may become the blessing lane."
-  - "The law of addition is that leaders add value by serving others - giving away advantage can become the blessing lane."
+  - "Before the next promotion fight, name one cost you can absorb so someone else wins visibly."
   - "Abram let Lot pick first - generosity added peace, not loss; Jesus redefined greatness as service."
 relationships:
   - type: contradicts

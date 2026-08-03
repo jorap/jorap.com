@@ -12,7 +12,6 @@ key_concept: |
   - [[Faith and Works]] names the order: works answer grace already received, they do not buy heaven.
   - Empty "Lord, Lord" without doing the Father's will is the fool's house - see [[The Narrow Way]] and [[Loss of Reward]] for false profession vs believer who stumbles.
   - PKM mirror: [[The Collector's Fallacy]] - hearing sermons and saving articles without [[Creative Output]] is sand; obedience and output are rock.
-  - Doing is not what saves - faith saves - but genuine hearing still produces action.
   - False profession and a stumbling believer are not the same thing.
 level_1: "The wise builder hears Jesus and does what He says - building on rock, not sand that looks fine until the storm."
 level_2: "Hear and do - rock in the storm; hearing sermons without obedience is sand that collapses when pressure hits."

@@ -19,7 +19,7 @@ examples:
 shareable_thought:
   - "Write the doc, do the pass-off, answer the junior question - hoarding know-how helps nobody."
   - "Pass on what you figured out."
-  - "Write the doc, do the pass-off, answer the junior's question - do not hoard know-how like private bookmarks."
+  - "Private mastery does not scale - hoarding know-how like secret bookmarks helps nobody on the team."
   - "A garden full of notes nobody reads is the same failure mode as a team where only one person holds the map."
 relationships:
   - type: contradicts

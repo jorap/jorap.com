@@ -13,7 +13,7 @@ key_concept: |
   - **Eli, His Sons, and Samuel** - Corrupt priests held office and lost moral sway; Samuel grew in favor without a badge. Influence followed integrity, not the chair.
   {{< bible ref="Acts 27:1-44" >}}
   - **Paul: The Influential Prisoner** - Chained apostle calmed a storm-tossed crew. No rank, full followership when fear peaked - title optional, movement required.
-level_1: "The law of influence is that leadership is influence - title optional, movement required."
+level_1: "Leadership is influence - title optional, movement required."
 level_2: "Rahab hid spies because she believed - no crown, real sway; Eli's sons corrupted worship while Samuel rose without a badge."
 level_3: "Before you claim the chair, check whether anyone would follow if the title vanished tomorrow."
 level_4: "Badge without followers is a solo walk - title optional, movement required; influence is what people grant, not what the org chart prints."
@@ -24,7 +24,7 @@ examples:
 shareable_thought:
   - "The true measure of leadership is influence - nothing more, nothing less."
   - "Before you claim the chair, check whether anyone would follow if the title vanished tomorrow."
-  - "The law of influence is that leadership is influence - title optional, movement required."
+  - "Leadership is influence - title optional, movement required."
   - "Rahab hid spies because she believed - no crown, real sway; Eli's sons corrupted worship while Samuel rose without a badge."
 relationships:
   - type: contradicts

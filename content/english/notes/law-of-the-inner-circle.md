@@ -4,7 +4,6 @@ meta_title: "The Law of Inner Circle - A leader's potential is determined by tho
 description: "A leader's potential is determined by those closest to him."
 key_concept: |
   - Your inner circle sets your ceiling - pick counselors who tell the truth.
-  - Pick counselors who tell the truth.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 11 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: Your closest voices only cheer - potential dies in the room that never tells hard truth. See [[Weak Inner Circle]].
   
@@ -14,7 +13,7 @@ key_concept: |
   - **Leveraging the Law of the Inner Circle** - Hushai's counsel foiled Ahithophel inside Absalom's tent. The people nearest the leader decided the kingdom's next move.
   {{< bible ref="2 Samuel 12:1-13" >}}
   - **A Hard Truth** - Nathan's parable broke David's denial. The closest voice had to risk wrath to save the leader - potential depends on who can tell you the truth.
-level_1: "The law of the inner circle is that a leader's potential is determined by those closest."
+level_1: "A leader's potential is determined by those closest to him."
 level_2: "Abraham's servant swore an oath with integrity; Hushai outwitted Ahithophel; Nathan confronted David when sin hardened."
 level_3: "Invite one person who will tell you the truth into your next hard decision - not only cheerleaders in the tent."
 level_4: "Proximity shapes judgment - yes-men raise the lid illusion while the flaw stays visible to everyone outside."
@@ -25,7 +24,7 @@ examples:
 shareable_thought:
   - "A leader's potential is determined by those closest to him."
   - "Your inner circle sets your ceiling - pick counselors who tell the truth."
-  - "The law of the inner circle is that a leader's potential is determined by those closest - pick counselors who tell the truth."
+  - "A leader's potential is determined by those closest - pick counselors who tell the truth."
   - "Abraham's servant swore an oath with integrity; Hushai outwitted Ahithophel; Nathan confronted David when sin hardened."
 relationships:
   - type: contradicts

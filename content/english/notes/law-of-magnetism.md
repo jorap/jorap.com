@@ -4,7 +4,6 @@ meta_title: "The Law of Magnetism - Who you are is who you attract"
 description: "Who you are is who you attract."
 key_concept: |
   - You attract who you are - character is a magnet, for mighty men or for Ahab's evil.
-  - Character is a magnet - for mighty men or for Ahab's evil.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 9 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: You keep attracting the same rot - the magnet is your character, not bad luck. See [[Toxic Magnet Pull]].
   
@@ -14,7 +13,7 @@ key_concept: |
   - **David's Mighty Men** - Warriors rallied to a shepherd-king. Courage drew courage; who you are is who shows up beside you.
   {{< bible ref="1 Kings 21:1-16" >}}
   - **Evil Follows Evil** - Ahab and Jezebel's Naboth plot drew wicked counsel. Magnetism works for evil as well as good - character attracts its match.
-level_1: "The law of magnetism is that you attract who you are."
+level_1: "You attract who you are."
 level_2: "Joshua stayed in Moses' tent; David drew warriors; Jezebel and Ahab collected schemers - like attracts like over years."
 level_3: "Audit who gravitates toward you after a stressful season - the orbit reveals your real tone, not the tone you perform in meetings."
 level_4: "[[Walk by the Spirit]] shapes who drifts into your orbit over time - complaining attracts complainers when the magnet is you, not the job description."
@@ -25,7 +24,7 @@ examples:
 shareable_thought:
   - "Who you are is who you attract."
   - "You attract who you are - character is a magnet, for mighty men or for Ahab's evil."
-  - "The law of magnetism is that you attract who you are - character is a magnet for mighty men or for Ahab's evil."
+  - "Audit who gravitates toward you after a stressful season - the orbit reveals your real tone."
   - "Joshua stayed in Moses' tent; David drew warriors; Jezebel and Ahab collected schemers - like attracts like over years."
 relationships:
   - type: contradicts

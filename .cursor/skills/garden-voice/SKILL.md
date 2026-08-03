@@ -212,6 +212,8 @@ Good pair (`capture.md`): wristband during cooldown + receipt on the jeepney.
 
 Each item must hit a **different angle** (definition, move, boundary, payoff) - not four fragments, not four restatements of the same line.
 
+`pnpm lint:garden` fails paraphrase near-matches (SequenceMatcher ≥ 0.80) inside `shareable_thought` and inside `key_concept` bullets - do not paste description twice with a pronoun swap.
+
 Every line must be **drawn from `description`, `key_concept`, or `level_1`…`level_5` wording** - lint accepts a line that contains, or sits inside, one of those clauses. Never open with not/and/or/but/then, "That's", "So", or a pointer like "See Note Title" or "Pairs with".
 
 Bad: `"Growth, not the ticket."` (fragment)
@@ -316,6 +318,7 @@ Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:s
 - [ ] `description` is third-person, one breath, ≤20 words, no `[[wikilinks]]`
 - [ ] `key_concept` line 1 is a plain claim you'd argue - **no wikilinks**
 - [ ] `level_1`…`level_5` present after `key_concept` - same claim at growing depth; no `Level N:` prefix; no Level bullets inside `key_concept`
+- [ ] Law notes: `level_1` states the claim ("Leaders add value by serving others") - never "The law of X is that…"
 - [ ] `key_concept` post-level stack stays tight (wikilinks/distinctions) - do not bury levels there
 - [ ] Faith note includes a Bible verse in `key_concept` (skip when `Workplace` tag - workplace lane)
 - [ ] Faith note doctrine aligns with GSOT free grace (experienced Grace School of Theology theologian - not improvised)

@@ -16,7 +16,7 @@ level_1: "The narrow way is the hard road to life Jesus named - entering by the 
 level_2: "Broad road is crowded and easy; narrow gate costs self-rule - few find it because surrender feels less safe than running your own life."
 level_3: "Ask which path you are building on today - the crowded broad road or the narrow gate that costs self-rule."
 level_4: "Storms later reveal which foundation held - profession without the narrow gate collapses when pressure hits."
-level_5: "In [[Free Grace]] terms, the narrow gate is faith in Christ - not the broad road of self-righteousness or empty profession without obedience."
+level_5: "In [[Free Grace]] terms, the narrow gate is faith in Christ - not the broad road of self-righteousness, religion-by-works, or moral performance as salvation."
 examples:
   - "Group chat gossip was \"just joking\" - narrow way was not forwarding the screenshot even when staying out made me the odd one."
   - "Everyone cheered the dirty play that won - the narrow way was passing it up when the ref did not see, even alone on the bench."

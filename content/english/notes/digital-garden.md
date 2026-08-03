@@ -3,7 +3,6 @@ title: "Digital Garden"
 meta_title: "Digital Garden - A Wiki You Can Walk Through"
 description: "A digital garden is where notes grow in public - linked, imperfect, alive on Hugo and Git."
 key_concept: |
-  - A digital garden is a personal site where notes grow in public.
   - Public, linked, imperfect notes beat a private hoard.
   - Update in public instead of hoarding drafts until they feel ready.
 level_1: "A digital garden is a personal site where linked notes grow in public - imperfect, revised, alive instead of hoarded until ready."
@@ -17,7 +16,7 @@ examples:
 shareable_thought:
   - "A digital garden is where notes grow in public."
   - "Linked, imperfect, alive on Hugo and Git."
-  - "A digital garden is a personal site where notes grow in public."
+  - "Update in public instead of hoarding drafts until they feel ready."
   - "Public, linked, imperfect notes beat a private hoard."
 relationships:
   - type: alternative

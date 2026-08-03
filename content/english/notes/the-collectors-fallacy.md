@@ -4,7 +4,6 @@ meta_title: "The Collector's Fallacy - Saving Isn't Learning"
 description: "Saving articles felt like progress until every save tied to an express deadline or got cut."
 key_concept: |
   - Collecting articles feels like progress - tie saves to express deadlines or cut them.
-  - Saving articles felt like progress until I tied every save to an express deadline or cut it.
   - Every save needs a ship date or a delete date.
 level_1: "The collector's fallacy is saving articles that feel like learning without ever using them - collecting is not learning."
 level_2: "Without a ship date or delete date, the pile becomes guilt with a bookmark icon - saves feel productive while nothing ships."
@@ -18,7 +17,7 @@ shareable_thought:
   - "Saving articles felt like progress until every save tied to an express deadline or got cut."
   - "Collecting articles feels like progress."
   - "Tie saves to express deadlines or cut them."
-  - "Saving articles felt like progress until I tied every save to an express deadline or cut it."
+  - "Every save needs a ship date or a delete date."
 relationships:
   - type: contradicts
     wikilink: "[[Capture]]"

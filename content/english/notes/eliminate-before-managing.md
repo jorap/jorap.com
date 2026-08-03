@@ -17,7 +17,7 @@ examples:
   - "We stopped storing cleaners under the sink and moved them up high - remove the hazard before we trust a do-not-touch lecture every time."
 shareable_thought:
   - "Remove unnecessary danger first instead of stacking procedures and gear on top of it."
-  - "Eliminate before managing removes unnecessary danger first instead of stacking procedures and gear on top."
+  - "Remove the hazard before you buy more gear to work around it."
   - "Safeguards can cut risk, but they still need correct human action every time."
   - "When a dangerous activity is not required, swap it for a safer alternative and the failure never gets a chance to happen."
 relationships:

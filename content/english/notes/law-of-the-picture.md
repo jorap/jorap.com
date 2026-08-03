@@ -15,7 +15,7 @@ key_concept: |
   - **The Higher the Leader, the More Important the Example** - Paul said imitate me - apostles set the visible pattern. Higher seat means louder example.
   {{< bible ref="Matthew 23:1-4" >}}
   - **Do As I Say, Not As I Do** - Pharisees piled heavy loads they would not lift. Mouth taught what feet refused - the team copies the picture, not the slogan.
-level_1: "The law of the picture is that people follow what leaders model in action, not only what they announce."
+level_1: "People follow what leaders model in action, not only what they announce."
 level_2: "Josiah tore down idols he read about; Jesus washed feet; Paul said imitate me - the walk out-teaches the speech."
 level_3: "Do the unglamorous task you keep assigning before you ask the team to carry it alone."
 level_4: "Visible example without hidden integrity is performance; hidden piety without any visible walk fails the team who never see the standard."
@@ -26,7 +26,7 @@ examples:
 shareable_thought:
   - "People copy the walk they watch, not the speech alone."
   - "People copy what they see - your example is the louder sermon."
-  - "The law of the picture is that people follow what leaders model in action, not only what they announce."
+  - "People follow what leaders model in action, not only what they announce."
   - "Josiah tore down idols he read about; Jesus washed feet; Paul said imitate me - the walk out-teaches the speech."
 relationships:
   - type: contradicts

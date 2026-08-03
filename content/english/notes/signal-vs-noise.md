@@ -20,7 +20,7 @@ shareable_thought:
   - "Save only what changes what you do or believe this month - most feeds are noise."
   - "Headline only when nothing would change this month."
   - "No mental slot, no save."
-  - "I save only what changes what I do or believe this month - most content is noise."
+  - "Admiring an article without a behavior change is entertainment, not signal."
 relationships:
   - type: alternative
     wikilink: "[[Active Knowledge Curation]]"

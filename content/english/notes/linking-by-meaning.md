@@ -4,9 +4,8 @@ meta_title: "Linking by Meaning - How Ideas Find Each Other"
 description: "Link notes so ideas meet in the graph without memorizing every folder path."
 key_concept: |
   - Folders sort files; links connect ideas.
-  - I link notes so ideas meet in the graph without me memorizing every folder path.
-  - Two typed links are enough for the garden to stay walkable six months later when the folder path is gone.
   - One link to what extends the thought, one to what pushes back.
+  - Two typed links are enough for the garden to stay walkable six months later when the folder path is gone.
 level_1: "Linking by meaning connects notes because one idea relates to another, not because they share a folder."
 level_2: "Folders put papers in separate drawers - links hook ideas like a string between pictures so you can follow the trail."
 level_3: "Link two notes when one extends or pushes back on the other - that is enough for the graph to stay walkable months later."
@@ -18,7 +17,7 @@ examples:
 shareable_thought:
   - "Link notes so ideas meet in the graph without memorizing every folder path."
   - "Folders sort files; links connect ideas."
-  - "I link notes so ideas meet in the graph without me memorizing every folder path."
+  - "One link to what extends the thought, one to what pushes back."
   - "Two typed links are enough for the garden to stay walkable six months later when the folder path is gone."
 relationships:
   - type: contradicts

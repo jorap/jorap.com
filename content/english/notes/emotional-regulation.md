@@ -18,7 +18,7 @@ examples:
   - "My kid's homework meltdown made my face hot; I took a kitchen walk before I answered."
 shareable_thought:
   - "Feel the spike without letting it pick the next sentence."
-  - "Emotional regulation feels the spike without letting it pick the next sentence."
+  - "One unchecked reply can feed a thread you did not mean to start."
   - "Feel the spike; do not mail it."
   - "Regulation is not numbness - it is the gap between heat and the next sentence."
 relationships:

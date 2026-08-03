@@ -150,6 +150,30 @@ def lint_description_in_key_concept(path: Path, fm: dict) -> list[str]:
     return [f"FAIL description in key_concept ({preview}): {path.name}"]
 
 
+def lint_key_concept_overlap(path: Path, fm: dict) -> list[str]:
+    """key_concept bullets must not restate the same claim twice."""
+    if fm.get("note_kind", "note") in {"meta", "index"}:
+        return []
+    kc = fm.get("key_concept")
+    if not isinstance(kc, str) or not kc.strip():
+        return []
+    bullets: list[str] = []
+    for line in kc.splitlines():
+        stripped = line.strip()
+        if not BULLET_RE.match(stripped):
+            continue
+        text = stripped.lstrip("- ").strip()
+        if BIBLE_RE.match(text) or len(text) < 20:
+            continue
+        bullets.append(text)
+    errs: list[str] = []
+    for i in range(len(bullets)):
+        for j in range(i + 1, len(bullets)):
+            if shareable_lines_overlap(bullets[i], bullets[j]):
+                errs.append(f"FAIL key_concept[{i}] overlaps [{j}]: {path.name}")
+    return errs
+
+
 def lint_levels(path: Path, fm: dict) -> list[str]:
     """Atomic notes need level_1..level_5 (no Level N: prefix in the value)."""
     if fm.get("note_kind", "note") in {"meta", "index"}:
@@ -216,6 +240,9 @@ def verify() -> int:
             print(msg)
             bad += 1
         for msg in lint_key_concept_bullets(path, fm):
+            print(msg)
+            bad += 1
+        for msg in lint_key_concept_overlap(path, fm):
             print(msg)
             bad += 1
         for msg in lint_levels(path, fm):

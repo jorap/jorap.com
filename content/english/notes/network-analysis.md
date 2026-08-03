@@ -7,7 +7,6 @@ key_concept: |
   - Bridges and orphans matter more than node count - the graph shows who carries traffic and what is stranded.
   - [[Linking by Meaning]] builds the graph; [[Maps of Content]] wins when a hand hub beats metrics.
   - Those hubs tell me where the garden actually lives.
-  - Network analysis means studying links and hubs in the graph - who connects whom, what is isolated.
   - Network analysis shows who connects whom in the graph - and which notes sit isolated without links.
 level_1: "Network analysis reads a note graph for hubs, bridges, and orphans - who connects whom and what sits isolated."
 level_2: "Like seeing which kids know everyone at recess and which stand by the fence, bridges and orphans matter more than node count."

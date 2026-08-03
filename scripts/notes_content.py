@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import difflib
 import re
 from typing import Any
 
@@ -488,7 +489,7 @@ def normalize_shareable_line(text: str) -> str:
     return text
 
 
-def shareable_lines_overlap(a: str, b: str) -> bool:
+def shareable_lines_exact_overlap(a: str, b: str) -> bool:
     """True when one line is the same claim or an obvious fragment of the other."""
     na, nb = normalize_shareable_line(a), normalize_shareable_line(b)
     if not na or not nb:
@@ -505,6 +506,20 @@ def shareable_lines_overlap(a: str, b: str) -> bool:
         if stem and (longer.startswith(stem) or stem in longer):
             return True
     return False
+
+
+def shareable_lines_overlap(a: str, b: str) -> bool:
+    """True when one line is the same claim or an obvious paraphrase of the other."""
+    if shareable_lines_exact_overlap(a, b):
+        return True
+    na, nb = normalize_shareable_line(a), normalize_shareable_line(b)
+    if not na or not nb or min(len(na), len(nb)) < 10:
+        return False
+    # ponytail: SequenceMatcher catches "Ship X"/"Publish X" and pronoun swaps;
+    # 0.80 held ~13 true dups in a garden dry-run with no obvious false positives.
+    # Upgrade path: token Jaccard if agent-style rewrites drift below 0.80.
+    # Do not use this path for description↔key_concept - first-person restatements are intentional.
+    return difflib.SequenceMatcher(None, na, nb).ratio() >= 0.80
 
 
 def principle_line_pool(fm: dict) -> list[str]:
@@ -706,7 +721,7 @@ def line_overlaps_description(desc: str, line: str) -> bool:
     if len(nk) < 10:
         return False
     for dp in description_clause_parts(desc):
-        if shareable_lines_overlap(dp, nk) or dp in nk or nk in dp:
+        if shareable_lines_exact_overlap(dp, nk) or dp in nk or nk in dp:
             return True
     return False
 
@@ -771,6 +786,18 @@ def _self_check() -> None:
     assert not gets_point_across("So you change the process, not only patch today's fire.")
     assert gets_point_across("Friction kills capture.")
     assert gets_point_across("The point isn't passivity toward all evil - it's refusing to become what hurt you.")
+    assert shareable_lines_overlap(
+        "Ship the good-enough version live instead of polishing until the deadline owns the work.",
+        "Publish the good-enough version live instead of polishing until the deadline owns the work.",
+    )
+    assert shareable_lines_overlap(
+        "What you do matches what you claim when applause, speed, or comfort are not watching.",
+        "What I do matches what I claim when applause, speed, or comfort are not watching.",
+    )
+    assert not shareable_lines_overlap(
+        "Folders sort files; links connect ideas.",
+        "Two typed links are enough for the garden to stay walkable six months later.",
+    )
     assert ensure_terminal_punct("Keep the goal") == "Keep the goal."
     assert bible_verse_ref_in_text("Romans 12:1 shape of obedience") == "Romans 12:1"
     assert bible_verse_ref_in_text("Galatians tender regard") is None

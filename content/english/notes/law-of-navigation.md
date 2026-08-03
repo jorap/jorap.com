@@ -4,7 +4,6 @@ meta_title: "The Law of Navigation - Anyone can steer the ship, but it takes a l
 description: "Anyone can steer the ship, but it takes a leader to chart the course."
 key_concept: |
   - Steering is not leading - someone has to chart the course before the crew rows.
-  - Steering is not leading - chart before the crew rows.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 4 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: Energy without a map - the crew rows hard and still wrecks. See [[Steering Without Chart]].
   
@@ -14,7 +13,7 @@ key_concept: |
   - **Nehemiah Rallied His People to Rebuild and Defend** - Builders held a tool in one hand and a weapon in the other. Navigation meant charting wall and threat together so the work would not stall.
   {{< bible ref="Luke 14:28-31" >}}
   - **Jesus Taught His Disciples to Count the Cost** - Tower and king analogies. Chart the cost before you swear allegiance - steering without a course is not leading.
-level_1: "The law of navigation is that someone has to chart the course before the crew rows."
+level_1: "Someone has to chart the course before the crew rows."
 level_2: "Joshua laid an ambush plan before Ai; Nehemiah paired rebuild with weapons; Jesus told builders to count cost before breaking ground."
 level_3: "Write the risks and route on one page before you announce the march - no heroic improvisation as strategy."
 level_4: "Honest map before public yes - threat and route belong on the same page; improvisation as strategy sinks the crew."
@@ -25,7 +24,7 @@ examples:
 shareable_thought:
   - "Anyone can steer the ship, but it takes a leader to chart the course."
   - "Write the risks and route on one page before you announce the march - no heroic improvisation as strategy."
-  - "The law of navigation is that steering is not leading - someone has to chart the course before the crew rows."
+  - "Steering is not leading - someone has to chart the course before the crew rows."
   - "Joshua laid an ambush plan before Ai; Nehemiah paired rebuild with weapons."
 relationships:
   - type: contradicts

@@ -4,7 +4,6 @@ meta_title: "The Law of Sacrifice - A leader must give up to go up"
 description: "A leader pays a personal toll to rise in influence."
 key_concept: |
   - Leaders give up to go up - sacrifice is the toll on the higher road.
-  - Sacrifice is the toll on the higher road.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 18 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   - When violated: You want to go up without giving up - the toll booth stops leaders who refuse the price. See [[Climb Without Cost]].
   
@@ -16,7 +15,7 @@ key_concept: |
   - **Setting the Bar for Leadership** - Overseer qualifications - desire is noble, standard is costly. Leadership climbs by what you surrender, not what you grab.
   {{< bible ref="Mark 10:37-40" >}}
   - **Climb Without the Cup** - James and John asked for seats of honor; Jesus named the cup and baptism of suffering. Wanting up without giving up hits the toll booth.
-level_1: "The law of sacrifice is that leaders give up to go up."
+level_1: "Leaders give up to go up."
 level_2: "Nazirite vow set apart hair, wine, and comfort; Paul waived rights so gospel would spread; elder qualifications name the personal cost upfront."
 level_3: "Name one comfort you will lay down this month so the team can advance - make the cost visible early, not hidden until resentment builds."
 level_4: "[[Take Up Your Cross]] - daily toll, not one-time heroics; sacrifice without [[Count the Cost]] becomes surprise resentment."
@@ -27,7 +26,7 @@ examples:
 shareable_thought:
   - "A leader pays a personal toll to rise in influence."
   - "Name one comfort you will lay down this month so the team can advance."
-  - "The law of sacrifice is that leaders give up to go up - sacrifice is the toll on the higher road."
+  - "Leaders give up to go up - sacrifice is the toll on the higher road."
   - "Nazirite vow set apart hair, wine, and comfort; Paul waived rights so gospel would spread."
 relationships:
   - type: contradicts

@@ -15,7 +15,7 @@ key_concept: |
   - **Remaining Confident in Christ** - Fix eyes on Christ; do not harden hearts like the wilderness generation. Buy-in to the Leader comes before endurance on the road.
   {{< bible ref="Numbers 14:1-4" >}}
   - **Vision Without a Trusted Guide** - Israel wept and named a new captain back to Egypt. They rejected the leaders before they rejected the land - no buy-in, no march.
-level_1: "The law of buy-in is that people trust the leader before the vision."
+level_1: "People trust the leader before the vision."
 level_2: "Gideon's trimmed army followed his jar-and-torch plan - buy-in to him, then the tactic; Nehemiah wept and prayed before he asked the king."
 level_3: "Share the plan only after people have seen you carry load - trust the leader before the slide deck lands in the room."
 level_4: "Vision without a trusted leader is a poster; a trusted leader without vision is a stroll - people need both guide and map."
@@ -26,7 +26,7 @@ examples:
 shareable_thought:
   - "People buy into the leader, then the vision."
   - "People buy the leader before the vision - trust the guide, then the map."
-  - "The law of buy-in is that people trust the leader before the vision - buy the guide, then the map."
+  - "Share the plan only after people have seen you carry load."
   - "Gideon's trimmed army followed his jar-and-torch plan - buy-in to him, then the tactic."
 relationships:
   - type: contradicts

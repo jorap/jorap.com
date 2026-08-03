@@ -5,7 +5,6 @@ description: "What you do matches what you claim when applause, speed, or comfor
 key_concept: |
   - What you do matches what you claim - especially when it costs applause, speed, or comfort.
   - [[Plain Commitments at Work]] and [[Integrity Without an Audience]] split public promises from private corners - both must match.
-  - What I do matches what I claim when applause, speed, or comfort are not watching.
   - Integrity is doing what you said matters when it costs something - not only when someone's watching.
 level_1: "Integrity is when your actions match what you claim - even when telling the truth slows you down or costs applause."
 level_2: "Behavior still matches your words when honesty costs speed or comfort - like keeping a promise when breaking it would be easier."
@@ -18,8 +17,8 @@ examples:
 shareable_thought:
   - "What you do matches what you claim when applause, speed, or comfort are not watching."
   - "Especially when it costs applause, speed, or comfort."
-  - "What I do matches what I claim when applause, speed, or comfort are not watching."
   - "Integrity is doing what you said matters when it costs something - not only when someone's watching."
+  - "Behavior still matches your words when honesty costs speed or comfort."
 relationships:
   - type: contradicts
     wikilink: "[[Drafting in Public]]"

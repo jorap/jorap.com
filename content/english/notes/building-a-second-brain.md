@@ -7,7 +7,6 @@ key_concept: |
   - Remember CODE: [[Capture]], organize, distill, express.
   - [[The Second Brain Workflow]] is how CODE and PARA run as one daily-to-weekly loop.
   - The system fails when any step is just for show.
-  - I review whether each step still earns its place every quarter.
   - I review quarterly whether each step still earns its place.
   - My head is for thinking, not storing - notes hold what I would otherwise lose.
   - Notes hold what I would otherwise lose - capture is how ideas survive the week.

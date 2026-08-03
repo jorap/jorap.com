@@ -4,7 +4,6 @@ meta_title: "Digital Serendipity - Stumbling on Your Own Ideas"
 description: "Old notes surprise on schedule because links were made on purpose, not by luck."
 key_concept: |
   - Serendipity is not luck - it is systems where old notes resurface at the right time.
-  - Old notes surprise on schedule because they were linked on purpose, not because someone got lucky.
   - Link notes on purpose so forgotten ideas surprise when a new problem rhymes.
   - A walkable graph beats hoping you will remember the right filename.
 level_1: "Digital serendipity is when old notes resurface at the right time because links were made on purpose - not luck or random search."
@@ -18,8 +17,8 @@ examples:
 shareable_thought:
   - "Old notes surprise on schedule because links were made on purpose, not by luck."
   - "Serendipity is not luck - it is systems where old notes resurface at the right time."
-  - "Old notes surprise on schedule because they were linked on purpose, not because someone got lucky."
   - "Link notes on purpose so forgotten ideas surprise when a new problem rhymes."
+  - "A walkable graph beats hoping you will remember the right filename."
 relationships:
   - type: contradicts
     wikilink: "[[Digital Minimalism]]"

@@ -29,8 +29,8 @@ examples:
 shareable_thought:
   - "Love others the way you would want care if roles flipped."
   - "Second command, paired with loving God."
-  - "Second command, paired with the first."
-  - "Love the person in front of you the way you would want care if roles flipped."
+  - "Debate over who counts as neighbor misses the command."
+  - "The Samaritan acted as neighbor - go and do the same, do not debate who counts."
 relationships:
   - type: contradicts
     wikilink: "[[Love Your Enemies]]"

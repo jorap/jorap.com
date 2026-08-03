@@ -10,7 +10,6 @@ key_concept: |
   
   {{< bible ref="Matthew 6:9-13" emphasize="10" >}}
   
-  - Lord's Prayer order - Father's name, kingdom, will first, then [[Trust God for Today]] and forgiveness.
   - Lord's Prayer order puts the Father's name, kingdom, and will first, then [[Trust God for Today]] and forgiveness.
   - [[Ask Seek Knock]] models that priority before daily needs.
   - Prayer is not bargaining for merit; under [[Free Grace]] it is the dependent posture of a child who already belongs to the household.
