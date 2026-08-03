@@ -30,11 +30,11 @@ shareable_thought:
   - "Samson's death toppled Philistines; Jonathan's climb sparked a rout; four friends tore a roof for healing."
 relationships:
   - type: contradicts
-    wikilink: "[[Settling for Loss]]"
-    reason: "Failure mode when leaders stop hunting a path to win"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[Settling for Loss]]"
+    reason: "Failure mode when leaders stop hunting a path to win"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 15 in the Bible leadership law series"

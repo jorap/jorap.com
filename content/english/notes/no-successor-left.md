@@ -4,8 +4,7 @@ meta_title: "No Successor Left - Influence That Dies With You"
 description: "No successor left means lasting value dies with you - legacy is measured by who carries the work after."
 key_concept: |
   - Build a personal brand with no baton and the work dies when you leave.
-  - Failure mode of [[Law of Legacy]] - you can violate the law and pay; you cannot repeal it.
-  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Failure mode of [[Law of Legacy]] - the work stops the week you leave because nobody ever held the baton.
   - Build [[Law of Legacy]] - name a successor and hand a real baton piece this quarter.
 level_1: "No successor left means the work has no one prepared to carry it when the leader steps away."
 level_2: "Like a shop that closes when the owner retires, skill lived in one head and never transferred."
@@ -27,9 +26,6 @@ relationships:
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Legacy"
-  - type: extends
-    wikilink: "[[Law of Legacy]]"
-    reason: "Named cost when that leadership law is ignored"
   - type: extends
     wikilink: "[[Followers Without Leaders]]"
     reason: "No leaders raised means no successor left either"

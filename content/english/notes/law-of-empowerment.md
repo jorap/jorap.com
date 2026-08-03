@@ -29,11 +29,11 @@ shareable_thought:
   - "Jethro told Moses to appoint judges - one-man band was unsustainable; Jesus sent twelve with authority and warned of cost."
 relationships:
   - type: contradicts
-    wikilink: "[[Hoarding All Power]]"
-    reason: "Failure mode when insecure leaders keep every decision"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[Hoarding All Power]]"
+    reason: "Failure mode when insecure leaders keep every decision"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 12 in the Bible leadership law series"

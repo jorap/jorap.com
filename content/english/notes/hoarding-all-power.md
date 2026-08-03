@@ -4,8 +4,7 @@ meta_title: "Hoarding All Power - Insecure Leaders Keep Every Decision"
 description: "Hoarding all power keeps every decision - insecure leaders bottleneck the work they fear to share."
 key_concept: |
   - Insecure leaders hoard power - only secure leaders give it away so the work multiplies.
-  - Failure mode of [[Law of Empowerment]] - you can violate the law and pay; you cannot repeal it.
-  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Failure mode of [[Law of Empowerment]] - every decision queues behind one person who calls the wait a standard.
   - Return to [[Law of Empowerment]] and [[Invest in the Few]] - give real authority, not fake errands.
 level_1: "Hoarding all power means keeping decisions that others could carry because sharing feels like a threat."
 level_2: "Like a one-man band on a stadium stage, volume is high and coverage is thin."
@@ -28,11 +27,11 @@ relationships:
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Empowerment"
   - type: extends
-    wikilink: "[[Law of Empowerment]]"
-    reason: "Named cost when that leadership law is ignored"
-  - type: extends
     wikilink: "[[Invest in the Few]]"
     reason: "Repair path - give real authority to people who can carry it"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal failure mode sits under the leadership stack"
   - type: extends
     wikilink: "[[Servant Leadership]]"
     reason: "Secure leaders serve by sharing power, not hoarding it"

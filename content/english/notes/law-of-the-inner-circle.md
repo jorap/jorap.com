@@ -29,11 +29,11 @@ shareable_thought:
   - "Abraham's servant swore an oath with integrity; Hushai outwitted Ahithophel; Nathan confronted David when sin hardened."
 relationships:
   - type: contradicts
-    wikilink: "[[Weak Inner Circle]]"
-    reason: "Failure mode when closest voices only cheer"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[Weak Inner Circle]]"
+    reason: "Failure mode when closest voices only cheer"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 11 in the Bible leadership law series"

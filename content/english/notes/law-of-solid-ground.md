@@ -29,11 +29,11 @@ shareable_thought:
   - "Solomon warned pride goes before a fall; Jesus exposed whitewashed tombs."
 relationships:
   - type: contradicts
-    wikilink: "[[Trust Already Cracked]]"
-    reason: "Failure mode when character cracks under the stage polish"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[Trust Already Cracked]]"
+    reason: "Failure mode when character cracks under the stage polish"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 6 in the Bible leadership law series"

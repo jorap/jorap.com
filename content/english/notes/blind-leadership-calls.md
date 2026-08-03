@@ -4,8 +4,7 @@ meta_title: "Blind Leadership Calls - No Leadership Lens on the Room"
 description: "Blind leadership calls miss the room - no leadership lens means danger walks past unnoticed."
 key_concept: |
   - Refuse the leadership lens and you call plays while the real threat walks past.
-  - Failure mode of [[Law of Intuition]] - you can violate the law and pay; you cannot repeal it.
-  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Failure mode of [[Law of Intuition]] - the read comes from pride instead of the room, so the call lands late.
   - Practice [[Law of Intuition]] with [[Surface Bad News Early]] - see people, risk, and timing before you lock the call.
 level_1: "Blind leadership calls happen when a leader evaluates everything except how people and risk will move."
 level_2: "Like driving with the headlights off, you still move - you just hit what a leadership bias would have seen."
@@ -27,9 +26,6 @@ relationships:
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Intuition"
-  - type: extends
-    wikilink: "[[Law of Intuition]]"
-    reason: "Named cost when that leadership law is ignored"
   - type: extends
     wikilink: "[[Leadership]]"
     reason: "Horizontal intuition failure sits under the leadership stack"

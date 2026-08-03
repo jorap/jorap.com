@@ -4,8 +4,7 @@ meta_title: "Leading by Subtraction - Grabbing Value Instead of Adding It"
 description: "Leading by subtraction grabs credit and advantage - the team shrinks while the leader looks bigger."
 key_concept: |
   - Grab the advantage and you subtract trust - addition is service, not a throne grab.
-  - Failure mode of [[Law of Addition]] - you can violate the law and pay; you cannot repeal it.
-  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Failure mode of [[Law of Addition]] - the seat gets claimed and the trust leaves quietly with it.
   - Flip back to [[Law of Addition]] and [[Servant Leadership]] - serve first; add value before you claim the seat.
 level_1: "Leading by subtraction means taking advantage and credit so the team ends smaller."
 level_2: "Like claiming the best seat at the table, the grab looks like winning and costs followership."
@@ -28,14 +27,11 @@ relationships:
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Addition"
   - type: extends
-    wikilink: "[[Law of Addition]]"
-    reason: "Named cost when that leadership law is ignored"
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal subtraction failure sits under the leadership stack"
   - type: extends
     wikilink: "[[Servant Leadership]]"
     reason: "Repair path - serve to add value instead of grab credit"
-  - type: extends
-    wikilink: "[[Leadership]]"
-    reason: "Horizontal subtraction failure sits under the leadership stack"
 slug: "leading-by-subtraction"
 date: "2026-08-02 18:40:00+08:00"
 image: "/images/note.jpg"

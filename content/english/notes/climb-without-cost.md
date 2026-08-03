@@ -4,8 +4,7 @@ meta_title: "Climb Without Cost - Wanting Up Without Giving Up"
 description: "Climb without cost wants the higher seat without paying the personal toll leadership requires."
 key_concept: |
   - Want to go up without giving up and the toll booth stops you - sacrifice is the price of the climb.
-  - Failure mode of [[Law of Sacrifice]] - you can violate the law and pay; you cannot repeal it.
-  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Failure mode of [[Law of Sacrifice]] - the seat stays out of reach while every comfort stays on the calendar.
   - Practice [[Law of Sacrifice]] - name the comfort you will lay down before you ask for the seat.
 level_1: "Climb without cost means wanting more influence while refusing the personal price that comes with it."
 level_2: "Like demanding a summit photo without the hike, the title request arrives with empty hands."
@@ -28,14 +27,11 @@ relationships:
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Sacrifice"
   - type: extends
-    wikilink: "[[Law of Sacrifice]]"
-    reason: "Named cost when that leadership law is ignored"
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal sacrifice failure sits under the leadership stack"
   - type: extends
     wikilink: "[[Servant Leadership]]"
     reason: "Repair path - pay the toll that serves the team upward"
-  - type: extends
-    wikilink: "[[Leadership]]"
-    reason: "Horizontal sacrifice failure sits under the leadership stack"
 slug: "climb-without-cost"
 date: "2026-08-02 18:40:00+08:00"
 image: "/images/note.jpg"

@@ -4,8 +4,7 @@ meta_title: "Hand Before Heart - Ask Before Connection"
 description: "Hand before heart asks for labor before any real connection - the ask feels like use, not leadership."
 key_concept: |
   - Lead with the request and skip the care - people stall because they feel used, not led.
-  - Failure mode of [[Law of Connection]] - you can violate the law and pay; you cannot repeal it.
-  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Failure mode of [[Law of Connection]] - the ask arrives before any deposit, so the hands stay slow.
   - Repair with [[Law of Connection]] - earn the heart before you ask for the hand.
 level_1: "Hand before heart means demanding labor before you have earned trust or care with the person."
 level_2: "Like a stranger asking for a kidney, the ask is not wrong - the missing relationship makes it feel like use."
@@ -28,14 +27,11 @@ relationships:
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Connection"
   - type: extends
-    wikilink: "[[Law of Connection]]"
-    reason: "Named cost when that leadership law is ignored"
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal connection failure sits under the leadership stack"
   - type: extends
     wikilink: "[[Servant Leadership]]"
     reason: "Repair path - care for people before you draft their hands"
-  - type: extends
-    wikilink: "[[Leadership]]"
-    reason: "Horizontal connection failure sits under the leadership stack"
 slug: "hand-before-heart"
 date: "2026-08-02 18:40:00+08:00"
 image: "/images/note.jpg"

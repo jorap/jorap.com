@@ -29,11 +29,11 @@ shareable_thought:
   - "Joshua laid an ambush plan before Ai; Nehemiah paired rebuild with weapons."
 relationships:
   - type: contradicts
-    wikilink: "[[Steering Without Chart]]"
-    reason: "Failure mode when motion replaces a charted course"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[Steering Without Chart]]"
+    reason: "Failure mode when motion replaces a charted course"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 4 in the Bible leadership law series"

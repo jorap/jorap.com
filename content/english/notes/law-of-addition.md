@@ -28,11 +28,11 @@ shareable_thought:
   - "Abram let Lot pick first - generosity added peace, not loss; Jesus redefined greatness as service."
 relationships:
   - type: contradicts
-    wikilink: "[[Leading by Subtraction]]"
-    reason: "Failure mode when leaders take value instead of adding it"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[Leading by Subtraction]]"
+    reason: "Failure mode when leaders take value instead of adding it"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 5 in the Bible leadership law series"

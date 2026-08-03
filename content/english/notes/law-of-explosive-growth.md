@@ -30,11 +30,11 @@ shareable_thought:
   - "Bezalel trained craftsmen who built the tabernacle; Jesus sent seventy with authority."
 relationships:
   - type: contradicts
-    wikilink: "[[Followers Without Leaders]]"
-    reason: "Failure mode when growth adds followers but not leaders"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[Followers Without Leaders]]"
+    reason: "Failure mode when growth adds followers but not leaders"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 20 in the Bible leadership law series"

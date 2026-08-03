@@ -28,11 +28,11 @@ shareable_thought:
   - "Like a jar lid too small for the jar, low leadership limits output no matter how big the opportunity grows."
 relationships:
   - type: contradicts
-    wikilink: "[[Low Leadership Lid]]"
-    reason: "Failure mode when the leader's ceiling caps the people"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[Low Leadership Lid]]"
+    reason: "Failure mode when the leader's ceiling caps the people"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 1 in the Bible leadership law series"

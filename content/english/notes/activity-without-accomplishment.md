@@ -4,8 +4,7 @@ meta_title: "Activity Without Accomplishment - Busy Hands, No Priorities"
 description: "Activity without accomplishment keeps hands busy while numbered priorities stay untouched."
 key_concept: |
   - Busy hands replace numbered priorities - activity masquerades as accomplishment.
-  - Failure mode of [[Law of Priorities]] - you can violate the law and pay; you cannot repeal it.
-  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Failure mode of [[Law of Priorities]] - motion gets counted while the few that matter keep sliding.
   - Return to [[Law of Priorities]] - name the few that matter; cut the rest.
 level_1: "Activity without accomplishment means filling the day while the real priorities never get a number."
 level_2: "Like rearranging chairs during a fire drill, motion looks useful and changes nothing that matters."
@@ -27,9 +26,6 @@ relationships:
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Priorities"
-  - type: extends
-    wikilink: "[[Law of Priorities]]"
-    reason: "Named cost when that leadership law is ignored"
   - type: extends
     wikilink: "[[Leadership]]"
     reason: "Horizontal priorities failure sits under the leadership stack"

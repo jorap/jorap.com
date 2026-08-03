@@ -30,11 +30,11 @@ shareable_thought:
   - "Josiah tore down idols he read about; Jesus washed feet; Paul said imitate me - the walk out-teaches the speech."
 relationships:
   - type: contradicts
-    wikilink: "[[Do As I Say]]"
-    reason: "Failure mode when speech and walk disagree"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[Do As I Say]]"
+    reason: "Failure mode when speech and walk disagree"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 13 in the Bible leadership law series"

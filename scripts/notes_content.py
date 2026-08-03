@@ -436,7 +436,9 @@ def dump_frontmatter(fm: dict[str, Any]) -> str:
                 lines.append(f'  - front: {yaml_quote(str(card.get("front", "")))}')
                 lines.append(f'    back: {yaml_quote(str(card.get("back", "")))}')
             return
-        if key in {"tags", "categories", "aliases", "card_sets"} and isinstance(value, list):
+        if key in {"tags", "categories", "aliases", "card_sets", "outputs"} and isinstance(
+            value, list
+        ):
             if not value:
                 return
             quoted = ", ".join(yaml_quote(str(item)) for item in value)

@@ -28,11 +28,11 @@ shareable_thought:
   - "Rahab hid spies because she believed - no crown, real sway; Eli's sons corrupted worship while Samuel rose without a badge."
 relationships:
   - type: contradicts
-    wikilink: "[[Title Without Influence]]"
-    reason: "Eli's sons had office - badge without movement is the failure mode"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[Title Without Influence]]"
+    reason: "Eli's sons had office - badge without movement is the failure mode"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 2 in the Bible leadership law series"

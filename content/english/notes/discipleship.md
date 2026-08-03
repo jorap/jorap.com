@@ -4,7 +4,7 @@ meta_title: "Discipleship - Following Jesus After Faith"
 description: "Discipleship is following Jesus daily - learning and doing what He said after faith, not buying eternal life."
 key_concept: |
   {{< bible ref="Luke 9:23-24" emphasize="23" >}}
-
+  
   - Daily cross - deny self and follow after faith, not to buy heaven but because grace already saved.
   - Under [[Free Grace]], calling Jesus Lord in the gospel means trusting who He is - dedication belongs to the walk after God frees you, not as the entry fee.
   - Discipleship is [[Grateful Obedience]] - grateful response, not payment; [[Sanctification]] is the slow becoming that walk produces.
@@ -69,6 +69,9 @@ relationships:
   - type: extends
     wikilink: "[[Law of Process]]"
     reason: "Peter and Moses prove leadership grows in hidden years"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal influence stack sits beside vertical following"
   - type: extends
     wikilink: "[[Loss of Reward]]"
     reason: "Lazy obedience may shrink reward - faith still saves"

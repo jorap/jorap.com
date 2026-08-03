@@ -4,7 +4,7 @@ meta_title: "Free Grace - Salvation by Faith Alone"
 description: "Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works."
 key_concept: |
   {{< bible ref="John 5:24-29" emphasize="24" >}}
-
+  
   - Hear Christ's word and believe - you have crossed from death to life; judgment is not hanging over your head.
   {{< bible ref="Ephesians 2:8-10" emphasize="8" >}}
   - Grace through faith - gift never earned; good works come after the gift, not to buy the ticket.

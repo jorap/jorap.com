@@ -4,8 +4,7 @@ meta_title: "Followers Without Leaders - Addition That Dies When You Leave"
 description: "Followers without leaders means you only add bodies - growth dies when you leave the room."
 key_concept: |
   - Only make followers and addition grows slowly - it dies when you leave the room.
-  - Failure mode of [[Law of Explosive Growth]] - you can violate the law and pay; you cannot repeal it.
-  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Failure mode of [[Law of Explosive Growth]] - headcount rises while every real call still waits on you.
   - Practice [[Law of Explosive Growth]] with [[Invest in the Few]] - raise leaders who raise leaders.
 level_1: "Followers without leaders means headcount grows while nobody else can teach, decide, or multiply."
 level_2: "Like a shop with one trained cook, lunch rushes stall the moment that person steps out."
@@ -28,14 +27,14 @@ relationships:
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Explosive Growth"
   - type: extends
-    wikilink: "[[Law of Explosive Growth]]"
-    reason: "Named cost when that leadership law is ignored"
+    wikilink: "[[Hoarding All Power]]"
+    reason: "Same bottleneck - power and teaching both stay with one person"
   - type: extends
     wikilink: "[[Invest in the Few]]"
     reason: "Repair path - depth first so multiplication has leaders to send"
   - type: extends
-    wikilink: "[[Hoarding All Power]]"
-    reason: "Same bottleneck - power and teaching both stay with one person"
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal failure mode sits under the leadership stack"
 slug: "followers-without-leaders"
 date: "2026-08-02 18:40:00+08:00"
 image: "/images/note.jpg"

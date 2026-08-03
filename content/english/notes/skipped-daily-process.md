@@ -4,8 +4,7 @@ meta_title: "Skipped Daily Process - Microwave Leadership That Cannot Hold"
 description: "Skipped daily process microwaves a lid that cannot hold the load when the stage arrives."
 key_concept: |
   - Skip the boring Tuesday reps and you microwave a leader who cannot hold the load.
-  - Failure mode of [[Law of Process]] - you can violate the law and pay; you cannot repeal it.
-  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Failure mode of [[Law of Process]] - the stage arrives before the reps, and the first real load finds the gap.
   - Repair path is [[Law of Process]] and [[Change Takes Repetition]] - stack reps before the visible stage.
 level_1: "Skipped daily process means grabbing the stage without the hidden years that forge a leader."
 level_2: "Like microwaving bread for a feast, overnight titles look done and fall apart under weight."
@@ -27,9 +26,6 @@ relationships:
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Process"
-  - type: extends
-    wikilink: "[[Law of Process]]"
-    reason: "Named cost when that leadership law is ignored"
   - type: extends
     wikilink: "[[Change Takes Repetition]]"
     reason: "Repair path - daily reps beat microwave titles"

@@ -4,7 +4,7 @@ meta_title: "Eternal Rewards - Faithfulness Repaid After Salvation"
 description: "Jesus promised believers the Father will repay faithful obedience after salvation, not as the price of eternal life."
 key_concept: |
   {{< bible ref="Matthew 6:1-4" emphasize="4" >}}
-
+  
   - Father who sees in secret repays - hidden devotion counted, not applause theater.
   - Son of Man repays deeds at His return - reward review for the saved life, not the price of eternal life.
   - [[Free Grace]] settles where I spend forever by faith alone; eternal rewards settle what the Father pays the saved life for walking faithfully.

@@ -4,8 +4,7 @@ meta_title: "Toxic Magnet Pull - Character That Attracts the Same Rot"
 description: "Toxic magnet pull keeps attracting the same rot - the magnet is your character, not bad luck."
 key_concept: |
   - Keep attracting the same rot and the magnet is you - character draws what it is.
-  - Failure mode of [[Law of Magnetism]] - you can violate the law and pay; you cannot repeal it.
-  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Failure mode of [[Law of Magnetism]] - you keep hiring the same problem and calling it bad luck.
   - Repair through [[Law of Magnetism]] and [[Ethical Leadership]] - change what you reward and who stays close.
 level_1: "Toxic magnet pull means your character keeps drawing the same harmful people and habits into the room."
 level_2: "Like a fridge magnet stuck on rust, you keep collecting what matches your field - not random bad luck."
@@ -27,9 +26,6 @@ relationships:
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Magnetism"
-  - type: extends
-    wikilink: "[[Law of Magnetism]]"
-    reason: "Named cost when that leadership law is ignored"
   - type: extends
     wikilink: "[[Ethical Leadership]]"
     reason: "What you reward and protect becomes the next magnet"

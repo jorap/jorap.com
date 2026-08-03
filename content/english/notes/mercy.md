@@ -4,7 +4,7 @@ meta_title: "Mercy - Compassion on the Guilty"
 description: "Mercy withholds the punishment deserved and calls for the same compassion toward others."
 key_concept: |
   {{< bible ref="Matthew 5:7" >}}
-
+  
   - Show mercy and you will receive mercy - the beatitude ties compassion out to compassion back in the walk and reward, not as the price of eternal life.
   {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
   - Paul keeps mercy and grace in one breath - rich in mercy, saved by grace while I was still dead in sin.
@@ -30,11 +30,11 @@ relationships:
     wikilink: "[[Sunk Cost Fallacy]]"
     reason: "when I treat old hurt as debt I am owed forever"
   - type: extends
-    wikilink: "[[Forgiveness]]"
-    reason: "Mercy is the posture; forgiveness is releasing the debt"
-  - type: extends
     wikilink: "[[Eternal Rewards]]"
     reason: "Merciful character is repaid in the walk - not wages for the gift"
+  - type: extends
+    wikilink: "[[Forgiveness]]"
+    reason: "Mercy is the posture; forgiveness is releasing the debt"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Mercy spares wrath; grace gives eternal life - same rescue, two angles"

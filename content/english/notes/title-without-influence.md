@@ -4,8 +4,7 @@ meta_title: "Title Without Influence - Badge Without Followers"
 description: "A title borrows authority; if nobody moves when you speak, you are managing paperwork, not leading."
 key_concept: |
   - Leadership Is Influence flips the test: leadership is not the walk you take alone - it is whether anyone follows.
-  - Failure mode of [[Law of Influence]] - you can violate the law and pay; you cannot repeal it.
-  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Failure mode of [[Law of Influence]] - the badge says lead while the following sits with someone else.
   - This note is the hollow version: org-chart authority without earned trust.
   - Meetings that change nothing.
   - Directives the crew waits out until the senior tech returns.
@@ -26,18 +25,18 @@ shareable_thought:
   - "It is whether anyone follows."
   - "Ethical Leadership still applies - what you tolerate becomes their standard even when they are only complying on paper."
 relationships:
-  - type: contradicts
-    wikilink: "[[Law of Influence]]"
-    reason: "Badge without movement - failure mode of the influence law"
-  - type: extends
-    wikilink: "[[21 Laws of Leadership in the Bible]]"
-    reason: "Violation partner for Law of Influence"
   - type: alternative
     wikilink: "[[Influence Without Title]]"
     reason: "Hollow badge vs earned followership - opposite sides of the same test"
   - type: contradicts
+    wikilink: "[[Law of Influence]]"
+    reason: "Badge without movement - failure mode of the influence law"
+  - type: contradicts
     wikilink: "[[Leadership Is Influence]]"
     reason: "Taking a walk alone - badge without followers fails the influence test"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Influence"
   - type: extends
     wikilink: "[[Ethical Leadership]]"
     reason: "Paper compliance still spreads what you tolerate in the open"

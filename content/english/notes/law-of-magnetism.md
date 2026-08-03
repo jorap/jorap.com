@@ -9,7 +9,7 @@ key_concept: |
   - When violated: You keep attracting the same rot - the magnet is your character, not bad luck. See [[Toxic Magnet Pull]].
   
   {{< bible ref="Numbers 27:15-23" >}}
-  - **Joshua Succeeds Moses** - Young aide in the tent became national leader. Faithfulness attracted the succession call - who he was drew the role he received.
+  - **Joshua Succeeds Moses** - Young aide in the tent became national leader. [[Faithfulness]] attracted the succession call - who he was drew the role he received.
   {{< bible ref="1 Chronicles 11:10-25" >}}
   - **David's Mighty Men** - Warriors rallied to a shepherd-king. Courage drew courage; who you are is who shows up beside you.
   {{< bible ref="1 Kings 21:1-16" >}}
@@ -29,11 +29,11 @@ shareable_thought:
   - "Joshua stayed in Moses' tent; David drew warriors; Jezebel and Ahab collected schemers - like attracts like over years."
 relationships:
   - type: contradicts
-    wikilink: "[[Toxic Magnet Pull]]"
-    reason: "Failure mode when character attracts matching rot"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[Toxic Magnet Pull]]"
+    reason: "Failure mode when character attracts matching rot"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 9 in the Bible leadership law series"

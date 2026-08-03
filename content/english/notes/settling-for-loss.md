@@ -4,8 +4,7 @@ meta_title: "Settling for Loss - Leaders Who Stop Looking for a Way"
 description: "Settling for loss stops hunting a path to win - the team inherits the leader's surrender."
 key_concept: |
   - Stop hunting a path to win and the team inherits your surrender as normal.
-  - Failure mode of [[Law of Victory]] - you can violate the law and pay; you cannot repeal it.
-  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Failure mode of [[Law of Victory]] - the search for a path stops early and the team files quitting as normal.
   - Practice [[Law of Victory]] - find a way; early surrender becomes the culture.
 level_1: "Settling for loss means accepting defeat while a path to win still exists for the team."
 level_2: "Like quitting at half-time while time remains, the scoreboard freezes because the leader does."
@@ -27,9 +26,6 @@ relationships:
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Victory"
-  - type: extends
-    wikilink: "[[Law of Victory]]"
-    reason: "Named cost when that leadership law is ignored"
   - type: extends
     wikilink: "[[Leadership]]"
     reason: "Horizontal victory failure sits under the leadership stack"

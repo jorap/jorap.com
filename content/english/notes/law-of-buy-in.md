@@ -30,11 +30,11 @@ shareable_thought:
   - "Gideon's trimmed army followed his jar-and-torch plan - buy-in to him, then the tactic."
 relationships:
   - type: contradicts
-    wikilink: "[[Vision Without Trust]]"
-    reason: "Failure mode when vision outruns trust in the leader"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[Vision Without Trust]]"
+    reason: "Failure mode when vision outruns trust in the leader"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 14 in the Bible leadership law series"

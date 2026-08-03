@@ -4,8 +4,7 @@ meta_title: "Vision Without Trust - Pitch Before the Leader Is Credible"
 description: "Vision without trust sells the dream before people trust the dreamer - the pitch dies early."
 key_concept: |
   - Pitch the vision before you have trust and the room hears a slide, not a leader.
-  - Failure mode of [[Law of Buy-In]] - you can violate the law and pay; you cannot repeal it.
-  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Failure mode of [[Law of Buy-In]] - the room turns down the leader first, so the plan never gets a fair read.
   - Earn [[Law of Buy-In]] through [[Law of Connection]] first - trust then vision.
 level_1: "Vision without trust means selling a future before people have bought into the person casting it."
 level_2: "Like a stranger pitching a relocation, the slides can be perfect and the yes still missing."
@@ -28,14 +27,14 @@ relationships:
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Buy-In"
   - type: extends
-    wikilink: "[[Law of Buy-In]]"
-    reason: "Named cost when that leadership law is ignored"
-  - type: extends
     wikilink: "[[Law of Connection]]"
     reason: "Repair path - earn the heart before you pitch the map"
   - type: extends
     wikilink: "[[Leadership Is Influence]]"
     reason: "People buy the leader first - influence before the vision deck"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal failure mode sits under the leadership stack"
 slug: "vision-without-trust"
 date: "2026-08-02 18:40:00+08:00"
 image: "/images/note.jpg"

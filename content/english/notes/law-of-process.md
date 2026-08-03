@@ -31,11 +31,11 @@ shareable_thought:
   - "Joseph went slave to prime minister through prisons; Moses spent forty years off-stage before the bush."
 relationships:
   - type: contradicts
-    wikilink: "[[Skipped Daily Process]]"
-    reason: "Failure mode when urgency skips the hidden years"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[Skipped Daily Process]]"
+    reason: "Failure mode when urgency skips the hidden years"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 3 in the Bible leadership law series"

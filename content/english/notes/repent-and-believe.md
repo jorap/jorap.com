@@ -4,7 +4,7 @@ meta_title: "Repent and Believe - Jesus' First Command"
 description: "Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand."
 key_concept: |
   {{< bible ref="Mark 1:14-15" emphasize="15" >}}
-
+  
   - Kingdom's here now - turn from self-rule and trust the gospel today, not when habits look respectable.
   - Belief is reliance on Christ's promise - that trust receives eternal life; it is not mere intellectual agreement.
   - Repentance turns from sin for fellowship - not the price of receiving eternal life.

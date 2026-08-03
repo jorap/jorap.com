@@ -28,11 +28,11 @@ shareable_thought:
   - "Saul offered sacrifice early and lost the kingdom; Esther waited for the scepter; Jesus avoided Judea until His hour came."
 relationships:
   - type: contradicts
-    wikilink: "[[Right Move Wrong Time]]"
-    reason: "Failure mode when correct action hits the wrong clock"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[Right Move Wrong Time]]"
+    reason: "Failure mode when correct action hits the wrong clock"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 19 in the Bible leadership law series"

@@ -4,8 +4,7 @@ meta_title: "Low Leadership Lid - Ceiling That Caps the Team"
 description: "A low leadership lid caps the team - raise capacity or the load stalls under you."
 key_concept: |
   - Your lid is the bottleneck - blame the crew while you stay small and the load stalls.
-  - Failure mode of [[Law of the Lid]] - you can violate the law and pay; you cannot repeal it.
-  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Failure mode of [[Law of the Lid]] - the team stalls at your ceiling while the blame goes to the crew.
   - Repair path is [[Law of the Lid]] plus [[Servant Leadership]] - raise capacity; stop hoarding every call.
 level_1: "Low leadership lid means your capacity caps how far the people under you can go."
 level_2: "Like a jar lid too small for the jar, low leadership limits output no matter how gifted the crew is."
@@ -28,14 +27,11 @@ relationships:
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of the Lid"
   - type: extends
-    wikilink: "[[Law of the Lid]]"
-    reason: "Named cost when that leadership law is ignored"
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal lid problem sits under the leadership stack"
   - type: extends
     wikilink: "[[Servant Leadership]]"
     reason: "Repair path - raise capacity by serving and delegating"
-  - type: extends
-    wikilink: "[[Leadership]]"
-    reason: "Horizontal lid problem sits under the leadership stack"
 slug: "low-leadership-lid"
 date: "2026-08-02 18:40:00+08:00"
 image: "/images/note.jpg"

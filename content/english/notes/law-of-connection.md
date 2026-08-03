@@ -30,11 +30,11 @@ shareable_thought:
   - "Jacob sent gifts ahead to Esau - reconciliation before reunion; Paul appealed to Philemon as friend, not commander."
 relationships:
   - type: contradicts
-    wikilink: "[[Hand Before Heart]]"
-    reason: "Failure mode when the ask lands before care"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[Hand Before Heart]]"
+    reason: "Failure mode when the ask lands before care"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 10 in the Bible leadership law series"

@@ -4,7 +4,7 @@ meta_title: "Sanctification - Becoming Holy After Faith"
 description: "After God declares a believer righteous, He keeps shaping habits and heart - growth, not the ticket in."
 key_concept: |
   {{< bible ref="John 17:17-19" emphasize="17" >}}
-
+  
   - Jesus asks the Father to make us holy through truth - Scripture shapes the slow becoming, not one heroic week.
   - In Christ I am already set apart; on earth the walk is still in process - position settled, condition catching up.
   - [[Christlikeness]] names the aim; sanctification names the slow walk after standing was settled at faith.

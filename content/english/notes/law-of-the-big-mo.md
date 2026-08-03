@@ -29,11 +29,11 @@ shareable_thought:
   - "Israel's early conquests stacked wins; Elisha mourned half-hearted arrow strikes; Pentecost turned thousands in a day."
 relationships:
   - type: contradicts
-    wikilink: "[[Fighting Dead Momentum]]"
-    reason: "Failure mode when effort fights a dead flywheel"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[Fighting Dead Momentum]]"
+    reason: "Failure mode when effort fights a dead flywheel"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 16 in the Bible leadership law series"

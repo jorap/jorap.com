@@ -4,8 +4,7 @@ meta_title: "Demanding Unearned Respect - Rank Without Strength Worth Following"
 description: "Demanding unearned respect pulls rank when people see no strength worth following."
 key_concept: |
   - Pull rank without respected strength and you get compliance theater, not followership.
-  - Failure mode of [[Law of Respect]] - you can violate the law and pay; you cannot repeal it.
-  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Failure mode of [[Law of Respect]] - rank buys nods inside the room and nothing once people leave it.
   - Build toward [[Law of Respect]] and [[Ethical Leadership]] - earn followership; title alone is not strength.
 level_1: "Demanding unearned respect means expecting people to follow because of rank, not because they see strength worth trusting."
 level_2: "Like shouting orders from a cardboard throne, volume rises while respect falls."
@@ -28,11 +27,11 @@ relationships:
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Respect"
   - type: extends
-    wikilink: "[[Law of Respect]]"
-    reason: "Named cost when that leadership law is ignored"
-  - type: extends
     wikilink: "[[Ethical Leadership]]"
     reason: "Earn followership - title without strength is compliance theater"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal failure mode sits under the leadership stack"
   - type: extends
     wikilink: "[[Title Without Influence]]"
     reason: "Same hollow badge problem from the respect angle"

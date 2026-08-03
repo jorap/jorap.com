@@ -4,8 +4,7 @@ meta_title: "Weak Inner Circle - Closest Voices Only Cheer"
 description: "A weak inner circle only cheers - potential dies in the room that never tells hard truth."
 key_concept: |
   - Closest voices that only cheer shrink your potential - hard truth belongs in the inner room.
-  - Failure mode of [[Law of Inner Circle]] - you can violate the law and pay; you cannot repeal it.
-  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
+  - Failure mode of [[Law of Inner Circle]] - the closest voices agree, so the risk reaches you late or never.
   - Rebuild with [[Law of Inner Circle]] - put truth-tellers closest, not only fans.
 level_1: "Weak inner circle means the people closest to you only affirm, so blind spots never get named."
 level_2: "Like a mirror that only flatters, the room feels safe and the decisions stay soft."
@@ -27,9 +26,6 @@ relationships:
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Inner Circle"
-  - type: extends
-    wikilink: "[[Law of Inner Circle]]"
-    reason: "Named cost when that leadership law is ignored"
   - type: extends
     wikilink: "[[Leadership]]"
     reason: "Horizontal inner-circle failure sits under the leadership stack"

@@ -31,11 +31,11 @@ shareable_thought:
   - "David charged Solomon to walk in God's ways; Elijah threw his mantle on Elisha; Jesus chose twelve and sent them to all nations."
 relationships:
   - type: contradicts
-    wikilink: "[[No Successor Left]]"
-    reason: "Failure mode when nobody carries the work after you"
-  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
+  - type: contradicts
+    wikilink: "[[No Successor Left]]"
+    reason: "Failure mode when nobody carries the work after you"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 21 in the Bible leadership law series"
