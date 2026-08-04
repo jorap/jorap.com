@@ -15,7 +15,7 @@ related_notes:
 level_depth: 1
 featured: false
 draft: false
-lastmod: "2026-08-04T11:25:00Z"
+lastmod: "2026-08-05T04:40:00Z"
 ---
 
 I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime, and I'm glad I started keeping notes when I did. This page is my running scrapbook for it. I update it when something happens worth pinning, not on a schedule.
@@ -203,8 +203,6 @@ Slams are in the section above. This is the week-to-week grind where the ranking
     - Quarterfinals, d. Magda Linette 6-3, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS006) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-m-linette-2026-01-08)
     - Round of 16, d. Petra Marcinko 6-0, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS013) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-p-marcinko-2026-01-08)
     - Round of 32, d. Donna Vekić 4-6, 6-4, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS027) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/d-vekic-vs-a-eala-2026-01-06)
-
-{{< youtube 6j0r-o9cwrw >}}
 
 {{< youtube gQZqBwfpXro >}}
 
@@ -612,6 +610,55 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - **2025 Rome (Clay)** - Round of 128, LOSS, 0-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LS070) | [tennis.com](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/m-kostyuk-vs-a-eala-2025-05-07)
 
+---
+
+### Magda Linette
+
+- [WTA Profile](https://www.wtatennis.com/players/315130/magda-linette)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/315130)
+- **Career High Singles:** No. 19
+
+**Matches:**
+
+- **2026 Miami Open (Hard)** - Round of 32, WIN, 6-3, 7-6(2) | [wtatennis.com](https://www.wtatennis.com/tournaments/miami-open/scores/LS031) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-m-linette-2026-03-21)
+- **2026 Auckland (Hard)** - Quarterfinals, WIN, 6-3, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS006) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-m-linette-2026-01-08)
+
+{{< youtube 6j0r-o9cwrw >}}
+
+- **2025 Nottingham (Grass)** - Round of 32, LOSS, 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1080/nottingham/2025/scores/LS028) | [tennis.com](https://www.tennis.com/tournaments/lexus-nottingham-open/matches/m-linette-vs-a-eala-2025-06-17)
+- **2024 Abu Dhabi (Hard)** - Round of 32, LOSS, 6-7(4), 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2024/scores/LS029) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/m-linette-vs-a-eala-2024-02-06)
+
+---
+
+### Victoria Mboko
+
+- [WTA Profile](https://www.wtatennis.com/players/331006/victoria-mboko)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/331006)
+- **Career High Singles:** No. 9
+
+**Matches:**
+
+- **2025 Hong Kong (Hard)** - Round of 16, LOSS, 6-3, 3-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1074/hong-kong/2025/scores/LS013) | [tennis.com](https://www.tennis.com/tournaments/prudential-hong-kong-tennis-open/matches/v-mboko-vs-a-eala-2025-10-30)
+
+---
+
+### Elise Mertens
+
+- [WTA Profile](https://www.wtatennis.com/players/317964/elise-mertens)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/317964)
+- **Career High Singles:** No. 12
+
+**Matches:**
+
+- **2026 Bad Homburg (Grass)** - Round of 32, LOSS, 3-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2017/bad-homburg/2026/scores/LS029) | [tennis.com](https://www.tennis.com/tournaments/bad-homburg-open-presented-by-engel-volkers/matches/a-eala-vs-e-mertens-2026-06-22)
+
+{{< youtube YcRjqt5tF34 >}}
+
+- **2026 Madrid (Clay)** - Round of 64, LOSS, 2-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1038/madrid/2026/scores/LS058) | [tennis.com](https://www.tennis.com/tournaments/mutua-madrid-open/matches/e-mertens-vs-a-eala-2026-04-24)
+- **2023 Monastir (Hard)** - Round of 32, LOSS, 5-7, 0-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2072/monastir/2023/scores/LS031) | [tennis.com](https://www.tennis.com/tournaments/jasmin-open-monastir/matches/e-mertens-vs-a-eala-2023-10-17)
+
+---
+
 ### Karolina Muchova
 
 - [WTA Profile](https://www.wtatennis.com/players/322191/karolina-muchova)
@@ -643,6 +690,18 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 - **2026 Dubai (Hard)** - Round of 32, WIN, 6-1, 7-6(5) | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS023) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/a-eala-vs-j-paolini-2026-02-17)
 
 {{< youtube eUCpH8JRkg4 >}}
+
+---
+
+### Anastasia Pavlyuchenkova
+
+- [WTA Profile](https://www.wtatennis.com/players/313796/anastasia-pavlyuchenkova)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/313796)
+- **Career High Singles:** No. 11
+
+**Matches:**
+
+- **2026 Madrid (Clay)** - Round of 128, WIN, 6-3, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/1038/madrid/2026/scores/LS117) | [tennis.com](https://www.tennis.com/tournaments/mutua-madrid-open/matches/a-eala-vs-a-pavlyuchenkova-2026-04-22)
 
 ---
 
@@ -699,6 +758,19 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 {{< youtube JRCuP2U5Alk >}}
 
 {{< youtube SJnld0b0bvY >}}
+
+---
+
+### Donna Vekić
+
+- [WTA Profile](https://www.wtatennis.com/players/318516/donna-vekic)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/318516)
+- **Career High Singles:** No. 17
+
+**Matches:**
+
+- **2026 Berlin (Grass)** - Round of 32, WIN, 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS030) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/d-vekic-vs-a-eala-2026-06-17)
+- **2026 Auckland (Hard)** - Round of 32, WIN, 4-6, 6-4, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS027) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/d-vekic-vs-a-eala-2026-01-06)
 
 ---
 
