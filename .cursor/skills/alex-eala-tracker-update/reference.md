@@ -27,10 +27,10 @@ H2H base: `https://www.wtatennis.com/head-to-head/330332/[OPPONENT_ID]`
 ```markdown
 ## At a glance
 
-- **Career highs:** No. 29 singles · No. 88 doubles
-- **WTA titles:** 2 (Guadalajara 125, Birmingham 125)
-- **Best Slam (singles):** US Open 2025 - Round of 2
-- **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina in the WTA top 100
+- **Career highs:** No. 20 singles · No. 88 doubles
+- **WTA titles:** 3 (Guadalajara 125, Birmingham 125, Washington 500)
+- **Best Slam (singles):** Wimbledon 2026 - Round of 16
+- **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina to reach a Grand Slam fourth round in the Open era (Wimbledon 2026); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina to win a WTA 500 title (Washington 2026); first Filipina in the WTA top 20; first Filipina in the WTA top 100
 ```
 
 Update all four lines when any underlying milestone changes.
@@ -91,7 +91,7 @@ A **walkover** (`w/o`, opponent withdrew before the match was played) is **not a
     - Round of 16, d. Sorana Cîrstea 7-5, 6-4 | [wtatennis.com](https://...) | [tennis.com](https://...)
 ```
 
-Embed at most **two** videos for opponents **not** in either H2H section (last two such matches in the run). Omit embeds when deep rounds were all vs H2H opponents.
+Embed at most **three** videos for opponents **not** in either H2H section (last three such matches in the run). Omit embeds when deep rounds were all vs H2H opponents.
 
 Title run:
 
@@ -153,7 +153,7 @@ Same dual-link pattern as singles; include partner on the tournament line:
 {{< youtube VIDEO_ID >}}
 ```
 
-Add embeds when verified official/broadcaster doubles footage exists - one per round if available, otherwise omit.
+Add embeds when verified official/broadcaster footage exists - every non-H2H round (no cap); omit H2H-opponent rounds (those live in H2H sections).
 
 ### H2H section (Grand Slam champion)
 
@@ -217,12 +217,14 @@ Current order (as of last update):
 | Order | Player | Titles | Latest |
 | --- | --- | ---: | --- |
 | 1 | Iga Swiatek | 6 | Wimbledon 2025 |
-| 2 | Elena Rybakina | 2 | Australian Open 2026 |
-| 3 | Coco Gauff | 2 | French Open 2025 |
-| 4 | Barbora Krejcikova | 2 | Wimbledon 2024 |
-| 5 | Madison Keys | 1 | Australian Open 2025 |
-| 6 | Marketa Vondrousova | 1 | Wimbledon 2023 |
-| 7 | Jelena Ostapenko | 1 | French Open 2017 |
+| 2 | Naomi Osaka | 4 | Australian Open 2021 |
+| 3 | Elena Rybakina | 2 | Australian Open 2026 |
+| 4 | Coco Gauff | 2 | French Open 2025 |
+| 5 | Barbora Krejcikova | 2 | Wimbledon 2024 |
+| 6 | Linda Noskova | 1 | Wimbledon 2026 |
+| 7 | Madison Keys | 1 | Australian Open 2025 |
+| 8 | Marketa Vondrousova | 1 | Wimbledon 2023 |
+| 9 | Jelena Ostapenko | 1 | French Open 2017 |
 
 Recompute this table whenever a new Slam champion block is added or an opponent wins another major.
 
@@ -245,7 +247,7 @@ Use when promoting to H2H or building watch-list links:
 | --- | --- | --- |
 | Amanda Anisimova | 326384 | 2025 Wimbledon semifinalist |
 | Bianca Andreescu | 320962 | 2019 US Open |
-| Mirra Andreeva | 331809 | Junior US Open 2022 context |
+| Mirra Andreeva | 331809 | 2026 French Open Winner; Junior US Open 2022 context |
 | Paula Badosa | 320124 | Former world No. 2; no pro H2H yet (Miami 2025 walkover only) |
 | Belinda Bencic | 319001 | Olympic gold; 2026 Rome SF |
 | Sofia Kenin | 320942 | 2020 Australian Open |
@@ -258,13 +260,13 @@ Use when promoting to H2H or building watch-list links:
 
 ## Existing H2H opponents (do not duplicate sections)
 
-**Grand Slam Champions** (sorted by Slam titles): Iga Swiatek (326408), Elena Rybakina (324166), Coco Gauff (328560), Barbora Krejcikova (318314), Linda Noskova (329668), Madison Keys (316959), Marketa Vondrousova (323027), Jelena Ostapenko (319939)
+**Grand Slam Champions** (sorted by Slam titles): Iga Swiatek (326408), Naomi Osaka (319998), Elena Rybakina (324166), Coco Gauff (328560), Barbora Krejcikova (318314), Linda Noskova (329668), Madison Keys (316959), Marketa Vondrousova (323027), Jelena Ostapenko (319939)
 
-**Other Top 20** (alphabetical by last name): Ekaterina Alexandrova (319007), Leylah Fernandez (326735), Iva Jovic (332285), Marta Kostyuk (326482), Karolina Muchova (322191), Jasmine Paolini (319280), Jessica Pegula (316956), Elina Svitolina (316738), Clara Tauson (327793)
+**Other Top 20** (alphabetical by last name): Ekaterina Alexandrova (319007), Leylah Fernandez (326735), Iva Jovic (332285), Marta Kostyuk (326482), Karolina Muchova (322191), Jasmine Paolini (319280), Jessica Pegula (316956), Elina Svitolina (316738), Clara Tauson (327793), Qinwen Zheng (328120)
 
 Sort **Other Top 20** and **Matches to Watch Out For** alphabetically by **last name** when adding or reordering entries.
 
-**Paolini (319280):** French Open 2024 **singles** champion, but Eala's only meeting is the Rome 2025 **doubles** QF vs Paolini/Errani - keep in **Other Top 20** until a singles H2H exists. Do **not** promote on doubles-Slam titles alone.
+**Paolini (319280):** French Open / Wimbledon 2024 singles finalist (no Slam singles title); FO 2025 doubles champion with Errani. Singles H2H with Eala exists (Dubai 2026, Wimbledon 2026) - stay in **Other Top 20**. Do **not** promote on doubles-Slam titles alone.
 
 ## Surface labels
 
@@ -296,10 +298,10 @@ A `VIDEO_ID` appears in **one** section only. Higher priority wins.
 
 1. **Matches Against Grand Slam Champions** - **every** verified video for **all** completed singles meetings; place under the matching match line when possible
 2. **Matches Against Other Top 20 Players** - **every** verified video for **all** completed meetings; place under the matching **Matches:** line when possible
-3. **Best Performances in WTA Tournaments (singles and doubles)** - at most **two** embeds per run, **only** for opponents **not** in either H2H section; **last two** such matches in the run, earlier round first. Zero embeds when all deep rounds were vs H2H opponents (e.g. Miami 2025)
-4. **Grand Slam Main Draw Results (singles and doubles)** - one per round when separate verified uploads exist; deduplicate against H2H when the opponent is in an H2H section
+3. **Grand Slam Main Draw Results** (singles and doubles) - **every** verified video for rounds vs opponents **not** in either H2H section; **no per-run cap**. Zero embeds when all rounds were vs H2H opponents
+4. **Best Performances in WTA Tournaments** (singles and doubles) - at most **three** embeds per run, **only** for opponents **not** in either H2H section; **last three** such matches in the run, earlier round first. Zero embeds when all deep rounds were vs H2H opponents (e.g. Miami 2025, Washington 2026)
 
-**Duplicate embeds:** H2H sections win over Best Performances and Grand Slam blocks. Tournament entries may have **no embeds** after dedup.
+**Duplicate embeds:** H2H sections win over Grand Slam and Best Performances. Those sections may have **no embeds** after dedup.
 
 Search in this order until a verified match video is found:
 

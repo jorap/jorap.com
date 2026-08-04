@@ -18,7 +18,7 @@ featured: false
 draft: true
 ---
 
-The lesson hit me on rented PHP hosting, not on Facebook. Client left, bill stayed, files sat on a server I didn't really control. When that setup died, a chunk of my work went with it. Same gut punch people describe when a platform pivots or throttles reach - just smaller and personal.
+The lesson hit me on rented PHP hosting, not on Facebook. Client left, bill stayed, files sat on a server I didn't really control. When that setup died, a chunk of my work went with it. Same gut punch people describe when a platform pivots or throttles reach - just smaller and personal. Glad that loss pushed me toward a landlord seat.
 
 I still post on social. I still get the "why not just use Facebook?" question. Fair.
 
@@ -84,4 +84,4 @@ This frame doesn't replace setup steps. It's the sort I run before I write.
 - **Habit and stack** → [sustainable online publishing](/blog/sustainable-online-publishing/)
 - **Build walkthrough** → [how I built JoRap Notes](/blog/how-i-built-jorap-notes/)
 
-Start small if bucket three is new: one domain, one repo, one post you'd hate to lose. The megaphone can wait.
+Start small if bucket three is new: one domain, one repo, one post you'd hate to lose. The megaphone can wait. Glad I started with the post I'd hate to lose.

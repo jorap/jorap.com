@@ -17,7 +17,7 @@ featured: false
 draft: false
 ---
 
-**Davis** has his own phone now. Not a hand-me-down flagship - a **dedicated kids handset** in **kids mode**, locked down so he can't wander into my banking apps or the open internet.
+**Davis** has his own phone now. Not a hand-me-down flagship - a **dedicated kids handset** in **kids mode**, locked down so he can't wander into my banking apps or the open internet. Glad that fence exists.
 
 He asks for two kinds of screen time. One is the quiz games I built - timer, randomizer cards, math he still calls **hard** but will grind if it feels like a race. The other is **Toca Boca World**. No score. No chat. No feed. He opens a city and runs it like a six-year-old director - chase scenes, hideouts, weird experiments in the hospital wing, then he's done.
 
@@ -125,4 +125,4 @@ If your kid likes building scenarios - cars, cops-and-robbers, hospital chaos, w
 
 Put it on a **locked kids phone**, not your daily driver. Try the free map. Watch whether he invents stories or only chases unlocks. You'll know in a week.
 
-I'll keep the quiz games for math reps. He can keep Toca for the part of his brain that isn't being graded. He's not on my board game shelf yet. He's on a city where **nobody keeps score** - and I'd rather that than the apps every other kid is screaming about in the back seat.
+I'll keep the quiz games for math reps. He can keep Toca for the part of his brain that isn't being graded. Glad he landed on a city where **nobody keeps score** - I'd rather that than the apps every other kid is screaming about in the back seat.

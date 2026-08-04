@@ -17,7 +17,7 @@ featured: false
 draft: true
 ---
 
-Neither story is about a dumb tool. Both are **stack mismatches** that should have been obvious before the first commit.
+Neither story is about a dumb tool. Both are **stack mismatches** that should have been obvious before the first commit. Glad I learned them the hard way once.
 
 I run [jorap.com](/) on Hugo. I still send people to WordPress when that's the honest answer. For the full fit check - static vs CMS definitions, git-based CMS bridge, five questions, publish paths - read [static site or CMS? how I pick the stack](/blog/static-site-vs-cms/). This post is the cautionary tales I tell in the first call.
 
@@ -81,4 +81,4 @@ The mistake is forcing Hugo where WordPress was honest, or forcing WordPress whe
 
 If you're hiring: bring the hard questions in the first call. If you're building: match Tuesday afternoon's workflow, not the stack argument on Reddit.
 
-The goal is a site that still works six months after launch - without surprise invoices or a repo nobody can touch.
+The goal is a site that still works six months after launch - without surprise invoices or a repo nobody can touch. Glad that's still the bar I sell.

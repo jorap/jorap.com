@@ -18,7 +18,7 @@ featured: false
 draft: false
 ---
 
-I still get the itch sometimes. Three locations, six turns, snap on turn four - my brain knows the rhythm even months after I stopped opening the app.
+I still get the itch sometimes. Three locations, six turns, snap on turn four - my brain knows the rhythm even months after I stopped opening the app. Glad I quit while the itch was still optional.
 
 **Marvel Snap** was the best "one more match" game I'd played in years. It was also the game that finally made me ask: *why am I googling deck lists after a bad match instead of just closing the app?*
 
@@ -112,4 +112,4 @@ The game didn't get worse. **My relationship to it did.** What started as a quic
 
 I still think Snap is well-designed. The match length, the snap tension, the production value - all top-tier. I just don't want to live inside its treadmill anymore.
 
-If you're still playing and loving it: snap responsibly, filter by what you actually own, and retreat when it stops being fun. That last part isn't weakness. It's the whole point of a game.
+If you're still playing and loving it: snap responsibly, filter by what you actually own, and retreat when it stops being fun. That last part isn't weakness. It's the whole point of a game - and I'm glad board games took the evenings back.

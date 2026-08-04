@@ -20,7 +20,7 @@ featured: false
 draft: false
 ---
 
-If you've ever spent a Saturday "just browsing" Hugo themes, you already know the trap. Every one of them looks gorgeous on a landing page. Half of them haven't been touched in two years. The other half are tied to a styling system you'll spend a month fighting before you can change a button color.
+If you've ever spent a Saturday "just browsing" Hugo themes, you already know the trap. Every one of them looks gorgeous on a landing page. Half of them haven't been touched in two years. The other half are tied to a styling system you'll spend a month fighting before you can change a button color. Glad I stopped browsing after one weekend.
 
 I gave myself one weekend to pick a theme for this site. I ended up on [HugoPlate](https://github.com/zeon-studio/hugoplate), and a year later I still haven't replaced it.
 
@@ -368,4 +368,4 @@ The thing I'd say about HugoPlate that I can't really say about most free themes
 
 If you want to try it: [HugoPlate on GitHub](https://github.com/zeon-studio/hugoplate). Pair it with the [JoRap Notes setup guide](/blog/how-i-built-jorap-notes) if you want the full Hugo + GitHub + Cloudflare Pages flow. Total cost to be online: a domain name, if you want one. Otherwise, nothing.
 
-Hard to argue with that.
+A year later I still haven't replaced it, and I'm glad. Hard to argue with that.

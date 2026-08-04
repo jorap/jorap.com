@@ -15,7 +15,7 @@ featured: false
 draft: true
 ---
 
-Flip to page 251 of John Maxwell's *Everyone Communicates, Few Connect* and you'll find a wall of names. **Jon Rapusas** is on it. Not because I ghostwrote a chapter or spoke at one of his events. I left comments on his blog when he was still drafting the book online.
+Flip to page 251 of John Maxwell's *Everyone Communicates, Few Connect* and you'll find a wall of names. **Jon Rapusas** is on it. Not because I ghostwrote a chapter or spoke at one of his events. Glad I left comments on his blog when he was still drafting the book online.
 
 That's the part I still like telling people. The manuscript wasn't locked in a publisher's vault. Maxwell posted chapter by chapter on **JohnMaxwellonLeadership.com** for eleven weeks in 2009. Readers could push back, share stories, and argue with the draft while it was still wet. More than a hundred thousand views. Dozens of reader quotes made the final cut. Nearly a hundred edits came from the comment threads. Everyone who showed up in a meaningful way got listed in the back.
 
@@ -73,4 +73,4 @@ I'm not running Maxwell's empire. I'm a freelancer with a Hugo site and a notes 
 
 Read the contributors page when you're done. Hundreds of names from an experiment in open drafting. Mine's in the R's, right next to people I'll never meet, all linked by the odd fact that we commented on the same manuscript before it was a book.
 
-That's the special thing about this copy on my shelf. It's not autographed. It's **crowdsourced** - and my name is proof I was in the room.
+That's the special thing about this copy on my shelf. It's not autographed. It's **crowdsourced** - and my name is proof I was in the room. Glad that page still exists.

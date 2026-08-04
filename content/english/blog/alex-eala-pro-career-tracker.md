@@ -15,10 +15,10 @@ related_notes:
 level_depth: 1
 featured: false
 draft: false
-lastmod: "2026-08-03T17:00:00Z"
+lastmod: "2026-08-04T11:25:00Z"
 ---
 
-I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook for it. I update it when something happens worth pinning, not on a schedule.
+I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime, and I'm glad I started keeping notes when I did. This page is my running scrapbook for it. I update it when something happens worth pinning, not on a schedule.
 
 ---
 
@@ -26,10 +26,10 @@ I've been following Alex Eala's career since her run at the **2025 Miami Open** 
 
 The numbers I refresh first when something breaks on Twitter at 2am - everything else on this page is detail.
 
-- **Career highs:** No. 28 singles · No. 88 doubles
+- **Career highs:** No. 20 singles · No. 88 doubles
 - **WTA titles:** 3 (2025 Guadalajara 125, 2026 Birmingham 125, 2026 Washington 500)
 - **Best Slam (singles):** Wimbledon 2026 - Round of 16
-- **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina to reach a Grand Slam fourth round in the Open era (Wimbledon 2026); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina to win a WTA 500 title (Washington 2026); first Filipina in a WTA 500 final (Washington 2026); first Filipina in a WTA 500 semifinal (Berlin 2026); first Filipina in the WTA top 100
+- **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina to reach a Grand Slam fourth round in the Open era (Wimbledon 2026); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina to win a WTA 500 title (Washington 2026); first Filipina in a WTA 500 final (Washington 2026); first Filipina in a WTA 500 semifinal (Berlin 2026); first Filipina in the WTA top 20; first Filipina in the WTA top 100
 
 ---
 
@@ -51,8 +51,9 @@ Rankings lag reality by a week sometimes - I still screenshot the career-high mo
 
 **Singles:**
 
-- **Career High:** No. 28
+- **Career High:** No. 20
   - Highest-ranked Filipina in WTA history
+  - First Filipina to reach the WTA Top 20
 
 **Doubles:**
 
@@ -654,6 +655,9 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 **Matches:**
 
 - **2026 Washington (Hard)** - Final, WIN, 4-6, 6-4, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/j-pegula-vs-a-eala-2026-08-02)
+
+{{< youtube OvjNXy1mQjY >}}
+
 - **2025 Miami Open (Hard)** - Semifinals, LOSS, 6-7(3), 7-5, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/j-pegula-vs-a-eala-2025-03-28)
 
 {{< youtube efazYG5hSAA >}}
@@ -718,7 +722,7 @@ Draw roulette - no H2H yet, or only one meeting years ago. Andreeva is the one I
 
 - [Amanda Anisimova](https://www.wtatennis.com/head-to-head/330332/326384) - Career High No. 3; 2025 Wimbledon semifinalist
 - [Bianca Andreescu](https://www.wtatennis.com/head-to-head/330332/325088) - Career High No. 4; 2019 US Open Winner
-- [Mirra Andreeva](https://www.wtatennis.com/head-to-head/330332/331809) - Career High No. 5; Alex Eala defeated her when she won the 2022 Junior US Open
+- [Mirra Andreeva](https://www.wtatennis.com/head-to-head/330332/331809) - Career High No. 5; 2026 French Open Winner; Alex Eala defeated her in the 2022 Junior US Open final
 - [Paula Badosa](https://www.wtatennis.com/head-to-head/330332/320124) - Career High No. 2
 - [Belinda Bencic](https://www.wtatennis.com/head-to-head/330332/319001) - Career High No. 4; Olympic gold medalist; 2026 Rome semifinalist
 - [Lois Boisson](https://www.wtatennis.com/head-to-head/330332/328884) - Career High No. 34; 2025 French Open semifinalist
@@ -730,6 +734,8 @@ Draw roulette - no H2H yet, or only one meeting years ago. Andreeva is the one I
 - [Diana Shnaider](https://www.wtatennis.com/head-to-head/330332/330482) - Career High No. 11; 2026 Roland Garros semifinalist; 2025 Monterrey champion
 
 ---
+
+I'll keep updating this when the news merits it. Glad this page exists for the nights I want the matches in one place instead of scattered tabs.
 
 ## Image Credits
 

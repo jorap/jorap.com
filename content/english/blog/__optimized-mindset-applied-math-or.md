@@ -18,7 +18,7 @@ featured: false
 draft: true
 ---
 
-I'll say the quiet part out loud: I didn't walk into **Applied Mathematics** at UP Los Baños because I had a burning love for Operations Research.
+I'll say the quiet part out loud: I didn't walk into **Applied Mathematics** at UP Los Baños because I had a burning love for Operations Research. Glad that accidental door still opened something useful.
 
 I wanted **Computer Science**. CS was the crowded door - quota, long waitlists, the program everyone in my batch was aiming at. Applied Math with an **Operations Research** track was the side entrance. Still math-heavy. Still quantitative. Fewer people fighting for the same slot.
 
@@ -121,4 +121,4 @@ You don't need to love every course. Fortran at midnight will not be the highlig
 
 If you're already in a major that feels like a compromise, mine it for transferable shape. The widget factory on the exam might be fiction. The habit of asking "what are we maximizing, and what's actually fixed?" is not.
 
-The CS quota was the push. The mindset was the pull I didn't know I was buying.
+The CS quota was the push. The mindset was the pull I didn't know I was buying - thankful for both, even the awkward one.

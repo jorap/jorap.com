@@ -18,7 +18,7 @@ draft: false
 lastmod: "2026-08-02T16:35:00Z"
 ---
 
-If you sing **DNPAP** in church or stream it on Spotify, the links below are still the page I keep bookmarked. I keep the page itself for a different reason.
+If you sing **DNPAP** in church or stream it on Spotify, the links below are still the page I keep bookmarked - I'm glad I never took it down. I keep the page itself for a different reason.
 
 My wife **Pia** sings the studio vocal. Destiny Music wrote and released the song. Pia tracked her part at home during COVID while my mother-in-law watched our son in the next room. I was there for that session. Every time the Spotify version comes on, I still hear that afternoon more than the mix.
 
@@ -96,4 +96,4 @@ Same links as above, in table form for copy-paste. Spotify embeds break sometime
 | Music Video (YouTube) | [Watch Here](https://youtu.be/8sSm0pBeX6U) |
 | Lyric Video (YouTube) | [Watch Here](https://youtu.be/wc5eNg5DDSs) |
 
-I am keeping this URL. The song resources stay. The archive reason is the room next door during COVID - Pia on the mic, family holding the house still long enough for one take.
+I am keeping this URL. The song resources stay. Glad for that afternoon: Pia on the mic, family holding the house still long enough for one take.

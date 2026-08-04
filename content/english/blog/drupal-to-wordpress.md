@@ -17,7 +17,7 @@ draft: false
 
 ## I went looking for the best open-source CMS
 
-If you're picking a CMS for paid work, the clean architecture diagram matters less than whether clients and job posts exist in your city. I learned that the hard way.
+If you're picking a CMS for paid work, the clean architecture diagram matters less than whether clients and job posts exist in your city. I learned that the hard way - and I'm glad the market pushed me before I dug in deeper.
 
 At some point I stopped treating "pick a CMS" as a weekend decision and actually went hunting. Joomla, WordPress, Drupal, a few smaller names I don't even remember now. I read docs. I set up local installs. I built the same small site three different ways to see which one I'd want to live in for years.
 
@@ -87,4 +87,4 @@ Drupal still wins on paper for certain enterprise builds with dedicated teams an
 
 I don't regret learning Drupal. It made me picky about content modeling, and that carries over no matter the CMS. But I needed work, smoother updates, and a bigger bench of tools and people. WordPress gave me that. WordCamp in Manila just made the choice feel less lonely.
 
-If you're stuck between the two: be honest about your market, your tolerance for upgrade weekends, and whether you need a plugin shelf or a perfectly clean architecture diagram. I chose the shelf. It's still in my kitchen.
+If you're stuck between the two: be honest about your market, your tolerance for upgrade weekends, and whether you need a plugin shelf or a perfectly clean architecture diagram. I chose the shelf. Glad it's still in my kitchen.

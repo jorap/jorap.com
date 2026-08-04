@@ -20,7 +20,7 @@ featured: false
 draft: true
 ---
 
-For a year I ran **two homes** for the same ideas: a private wiki app for thinking, Hugo for the public site. Same topics, two places to maintain, and a Sunday every month where I'd copy a polished paragraph from one into the other and wonder why I hadn't just written it once.
+For a year I ran **two homes** for the same ideas: a private wiki app for thinking, Hugo for the public site. Same topics, two places to maintain, and a Sunday every month where I'd copy a polished paragraph from one into the other and wonder why I hadn't just written it once. Glad I stopped paying that tax.
 
 I don't do that anymore. **JoRap Notes** is the public garden on this Hugo build. Private stuff stays in [the garage](/notes/the-garage-concept/) - drafts, offline captures, half-baked opinions - not a parallel vault I have to sync.
 
@@ -60,4 +60,4 @@ I don't paste vault-style `[[wikilinks]]` into Hugo blog content unless the buil
 
 The garage can stay messy. The garden is what I'd hand a stranger. Same markdown, different bar.
 
-Think private, ship public. The Markdown middle stays the same; the room you publish in picks the rules.
+Think private, ship public. Glad the Markdown middle stays the same; the room you publish in picks the rules.

@@ -17,7 +17,7 @@ featured: false
 draft: true
 ---
 
-I got tired of fighting our TV's built-in apps - slow menus, updates the manufacturer stopped years ago. Press Netflix and you'd consider making popcorn before the icon highlighted.
+I got tired of fighting our TV's built-in apps - slow menus, updates the manufacturer stopped years ago. Press Netflix and you'd consider making popcorn before the icon highlighted. Glad a cheap box fixed that without replacing the TV.
 
 The **Xiaomi Mi Box S** was the cheap fix: a small Android TV box that plugs into HDMI and turns any display into something you can actually use. Not perfect. Not premium. But good enough that it earned a permanent spot behind the TV.
 
@@ -67,4 +67,4 @@ If the TV has multiple HDMI inputs, **label the input "Mi Box"** so nobody has t
 
 The Mi Box S is not the best streaming device money can buy. It's one of the better **value** picks - a practical Android TV box that makes a dumb TV feel modern without pretending to be a home theater PC.
 
-For our living room, that's exactly the job I bought it to do. Monday: if your TV apps lag, grab a cheap box and install the four apps you actually watch. Disable the promo row. Stop fighting the built-in OS.
+For our living room, that's exactly the job I bought it to do - glad it still does. Monday: if your TV apps lag, grab a cheap box and install the four apps you actually watch. Disable the promo row. Stop fighting the built-in OS.

@@ -18,7 +18,7 @@ featured: false
 draft: true
 ---
 
-Every time I open Shopee, the app tries to keep me scrolling. Flash sales, coins, vouchers, live streams, seventeen banners telling me I'm missing a once-in-a-lifetime deal that somehow repeats every week.
+Every time I open Shopee, the app tries to keep me scrolling. Flash sales, coins, vouchers, live streams, seventeen banners telling me I'm missing a once-in-a-lifetime deal that somehow repeats every week. Glad I learned to close it when the cart is done.
 
 I've bought plenty of good stuff there. I've also bought junk because the algorithm wore me down - once a "premium" USB hub that arrived lighter than the packaging suggested and died in a week. These are the habits that tilt the odds back in my favor.
 
@@ -73,4 +73,4 @@ On the big events (3.3, 6.6, 11.11) real discounts do exist, but I pre-load the 
 
 Shopee rewards patience and punishes impulse. Local sellers, bundled shipping, and reviews with photos beat any flashy banner.
 
-Before your next order: filter local first, read reviews with photos, and close the app when the cart is done - not when the banner says one more deal.
+Before your next order: filter local first, read reviews with photos, and close the app when the cart is done - not when the banner says one more deal. Glad that rule still saves me impulse buys.

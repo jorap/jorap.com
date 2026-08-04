@@ -18,7 +18,7 @@ featured: false
 draft: true
 ---
 
-The first time Git saved my skin, I wasn't thinking about open source history. I was on a client WordPress build, halfway through a theme tweak, and I realized I'd fallen back into an old habit: editing the live site like it was still 2009.
+The first time Git saved my skin, I wasn't thinking about open source history. I was on a client WordPress build, halfway through a theme tweak, and I realized I'd fallen back into an old habit: editing the live site like it was still 2009. Glad Git was already there when I needed the undo.
 
 `git checkout -- .` and I was back to the last commit. No phone call to the host. No digging through cPanel backups that might be from Tuesday. Just undo.
 
@@ -126,4 +126,4 @@ I'd be back to fearing the one bad deploy with no rollback, the client who asks 
 
 Git didn't invent backups, branching, or collaboration. It packaged them for a distributed world and gave open source a shared dialect. Linux needed it. GitHub rode it. My little Hugo blog runs on it every time I push.
 
-That's why I rank it among the greatest things open source ever shipped. Not as shrine-worthy lore. As **the thing I reach for when I want to try something risky and still sleep**.
+That's why I rank it among the greatest things open source ever shipped. Not as shrine-worthy lore. As **the thing I reach for when I want to try something risky and still sleep** - thankful every time.

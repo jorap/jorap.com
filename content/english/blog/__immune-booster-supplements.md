@@ -25,7 +25,7 @@ draft: true
 
 ## Why I bother at all
 
-Last rainy season I caught three colds in eight weeks - jeepney commute, school pickup, one kid bringing home whatever went around. I can't sterilize the city. What I can control is **sleep, food, movement, and a modest supplement stack** when baseline habits slip.
+Last rainy season I caught three colds in eight weeks - jeepney commute, school pickup, one kid bringing home whatever went around. I can't sterilize the city. Glad I can still control **sleep, food, movement, and a modest supplement stack** when baseline habits slip.
 
 I almost bought a "complete immune" bundle off a Shopee listing with twenty ingredients I couldn't pronounce. Put it back. If I can't name why each bottle is there, it's shopping, not a stack.
 
@@ -69,4 +69,4 @@ I still get sick. The stack doesn't make me invincible. It makes me feel like I 
 
 Monday: fix sleep before you buy bottles. If you still want a stack after that, ask your clinician which two supplements matter - not the twenty-ingredient Shopee bundle.
 
-I'm not optimizing for invincibility. I'm stacking boring margin on boring habits - sleep, food, wash hands - and reaching for a bottle when the jeepney season wins anyway.
+I'm not optimizing for invincibility. Glad I'm stacking boring margin on boring habits - sleep, food, wash hands - and reaching for a bottle when the jeepney season wins anyway.

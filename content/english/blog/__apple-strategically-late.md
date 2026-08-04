@@ -17,7 +17,7 @@ featured: false
 draft: true
 ---
 
-I don't sit through Apple keynotes. I still keep up with what they're shipping - headlines, recap threads, the two-minute clips that show up in my feed. I already own a **MacBook Pro M4** and an **11th-gen iPad**. I'm not shopping. I'm tracking a company whose hardware I use and whose stage show I mostly skip.
+I don't sit through Apple keynotes. I still keep up with what they're shipping - headlines, recap threads, the two-minute clips that show up in my feed. Glad I already own a **MacBook Pro M4** and an **11th-gen iPad** without sitting through the show. I'm not shopping. I'm tracking a company whose hardware I use and whose stage show I mostly skip.
 
 Usually the announcement isn't the invention.
 
@@ -271,4 +271,4 @@ Execution. Refinement. Scheduling. Sometimes innovation - not always invention.
 
 Apple studies the future while others bleed, ships on its tier map, and walks in like the room was early.
 
-That's the trick worth naming honestly - not that Apple never innovates, but that **schedule** is often the real product.
+That's the trick worth naming honestly - not that Apple never innovates, but that **schedule** is often the real product. Glad I learned to wait for the boring revision.

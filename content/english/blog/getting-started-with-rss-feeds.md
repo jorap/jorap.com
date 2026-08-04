@@ -21,7 +21,7 @@ featured: false
 draft: false
 ---
 
-For a long time I had this routine: open browser, check tech blog, check news site, check forum, check another blog, find nothing new, repeat in two hours. Anyone who's ever been into a niche corner of the internet probably knows the feeling - the constant, low-key checking, just in case.
+For a long time I had this routine: open browser, check tech blog, check news site, check forum, check another blog, find nothing new, repeat in two hours. Anyone who's ever been into a niche corner of the internet probably knows the feeling - the constant, low-key checking, just in case. Glad a friend laughed me into RSS before I burned more mornings on it.
 
 A friend asked me one day why I wasn't just using RSS. I told him I figured RSS had quietly died sometime around 2010. He laughed and pointed out that it never actually did. It just stopped being trendy.
 
@@ -121,4 +121,4 @@ RSS is not exciting. It will not get you likes. It's older than most of the apps
 
 But it works, and it's been quietly working for over twenty years. I stopped checking Twitter for news I could have pulled from fifteen feeds I picked myself.
 
-Start with five feeds and three folders. I still open Inoreader with my morning coffee, and Instagram isn't on my home screen anymore.
+Start with five feeds and three folders. I still open Inoreader with my morning coffee, and I'm glad Instagram isn't on my home screen anymore.

@@ -20,7 +20,7 @@ featured: false
 draft: true
 ---
 
-I don't need another motivational poster about discipline. I need **systems that make the right thing the default** - especially on tired weekdays when willpower clocks out early.
+I don't need another motivational poster about discipline. Glad I finally wanted **systems that make the right thing the default** - especially on tired weekdays when willpower clocks out early.
 
 James Clear's *Atomic Habits* gave me language that stuck. I don't quote the book at dinner. I use four moves when something keeps not happening.
 
@@ -67,4 +67,4 @@ Clear's line I keep in my notes: optimize for outcome, you win once. Optimize fo
 
 Good habits aren't character tests. They're **design problems** - cue, friction, reward.
 
-Start with one habit you'd actually keep if everything else stayed messy. Fix that environment first. Character tests fail on tired Wednesdays. Design problems you can solve on a Sunday afternoon.
+Start with one habit you'd actually keep if everything else stayed messy. Fix that environment first. Character tests fail on tired Wednesdays. Design problems you can solve on a Sunday afternoon - glad that's still the frame I trust.

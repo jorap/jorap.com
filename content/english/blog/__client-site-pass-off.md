@@ -21,7 +21,7 @@ featured: false
 draft: true
 ---
 
-> **TL;DR**: Pick exactly one publish path before deposit - not "we'll figure it out at launch." I hand off a one-page doc with repo URL, deploy settings, DNS, and who to call when the build fails. The goal is a site you can run without me in the loop for every comma.
+> **TL;DR**: Pick exactly one publish path before deposit - not "we'll figure it out at launch." I hand off a one-page doc with repo URL, deploy settings, DNS, and who to call when the build fails. Glad when the client can run the site without me in the loop for every comma.
 
 ## Launch day is when the real job starts
 
@@ -120,4 +120,4 @@ Anyone can make a pretty homepage. The hireable part is whether the site **keeps
 
 Clients don't remember your build pipeline. They remember whether Tuesday's announcement went live without a crisis. They remember whether the pass-off doc existed when your phone was off.
 
-I'd rather lose a job than promise a publish path I won't support. I'd rather price training honestly than absorb unlimited "small tweaks" until I resent the client.
+I'd rather lose a job than promise a publish path I won't support. I'd rather price training honestly than absorb unlimited "small tweaks" until I resent the client. Glad the honest path still feels like the right one.

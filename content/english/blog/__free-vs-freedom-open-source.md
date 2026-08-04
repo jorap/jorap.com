@@ -17,7 +17,7 @@ featured: false
 draft: true
 ---
 
-When I got serious about web work, "open source" wasn't a conference sticker. It was the shelf I could afford.
+When I got serious about web work, "open source" wasn't a conference sticker. It was the shelf I could afford - and I'm still glad that shelf was there.
 
 Proprietary CMS licenses, boxed design software, monthly platform fees - fine if someone else pays. When you're learning, freelancing, or teaching students scraping together a laptop, **no license fee** is the difference between trying the thing this week or putting it off for a year.
 
@@ -71,6 +71,6 @@ Need client work next quarter? Go where job posts are - WordPress for a long tim
 
 Need to trust a tool with secrets? Open source plus a real security track record, not marketing copy.
 
-I pick for **freedom, ownership, and community depth**, not just "is it free." The freedom was worth the months. Still is.
+I pick for **freedom, ownership, and community depth**, not just "is it free." Glad the freedom was worth the months. Still is.
 
 Career context and stack detail: [why I focused on open source technologies](/blog/why-i-focused-on-open-source/).

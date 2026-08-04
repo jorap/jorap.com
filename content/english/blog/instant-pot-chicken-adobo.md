@@ -18,7 +18,7 @@ featured: false
 draft: false
 ---
 
-Adobo used to mean standing at the stove for an hour and a half, poking at it. I got tired of that on a Wednesday and moved the whole thing to the Instant Pot.
+Adobo used to mean standing at the stove for an hour and a half, poking at it. Glad I got tired of that on a Wednesday and moved the whole thing to the Instant Pot.
 
 I make it in a bigger batch, about 2 kg of bone-in thighs, and the numbers here are tuned for an 8-quart. Enough liquid to pressure-cook without a burn notice, not so much that you're waiting forever for the glaze.
 
@@ -150,4 +150,4 @@ Return the chicken to the sauce before serving.
 
 ---
 
-I make this most weeks - rice on the side, extra sauce spooned over, kalamansi if I have it. Bone-in thighs hold up to leftovers better than breast ever did for me. Same pot, same ten-minute pressure, no babysitting. That's the version I actually cook, not the stovetop one I save for when I have a whole afternoon.
+I make this most weeks - rice on the side, extra sauce spooned over, kalamansi if I have it. Bone-in thighs hold up to leftovers better than breast ever did for me. Same pot, same ten-minute pressure, no babysitting. Glad this is the version I actually cook - not the stovetop one I save for when I have a whole afternoon.

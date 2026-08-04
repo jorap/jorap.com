@@ -17,7 +17,7 @@ featured: false
 draft: false
 ---
 
-There's no smooth way to start this story, so I'll just say it: on May 8, 2020, my wife Pia and I found out she was pregnant and gave birth to our son Isaiah David on the same day. That sentence still doesn't feel real, even years later.
+There's no smooth way to start this story, so I'll just say it: on May 8, 2020, my wife Pia and I found out she was pregnant and gave birth to our son Isaiah David on the same day. That sentence still doesn't feel real, even years later - and I'm still thankful we got to live it.
 
 It happened in the middle of the strict ECQ lockdown in the Philippines. What started as a regular morning at home - Pia in abdominal pain we thought was a bad case of dysmenorrhea - ended with us holding a healthy baby boy at 4:46 in the afternoon. The whole day was about ten hours long. Our entire transition into parenthood happened inside one of those.
 
@@ -124,6 +124,6 @@ That part still surprises me. We didn't set out to inspire anyone. We just wrote
 
 ---
 
-Isaiah is six now. He runs into rooms like he owns them. May 8, 2020 still doesn't feel like a normal Friday when I think about it - ten hours from "maybe pregnant" to holding a son, in the middle of ECQ, with a wrong gender announcement in between. You don't get to prepare for days like that. You just live them.
+Isaiah is six now. He runs into rooms like he owns them. Glad he's here to make that noise. May 8, 2020 still doesn't feel like a normal Friday when I think about it - ten hours from "maybe pregnant" to holding a son, in the middle of ECQ, with a wrong gender announcement in between. You don't get to prepare for days like that. You just live them - and thank God afterward.
 
 [Facebook video - 7 million views](https://www.facebook.com/watch/?v=325783961750143)

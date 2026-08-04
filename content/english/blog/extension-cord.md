@@ -17,7 +17,7 @@ featured: false
 draft: false
 ---
 
-The thing I reach for most from my laptop bag isn't a dongle or a power bank. It's a **short extension cord**.
+The thing I reach for most from my laptop bag isn't a dongle or a power bank. It's a **short extension cord** - glad I finally stopped treating it as optional.
 
 Sounds ridiculous until you're in a hotel room where the only outlet is behind the bed, across the room from the desk. Or an internet café where someone's **huge Apple charger** blocks the socket beside it - looks open from across the room, won't take your plug. Or a meeting room where the power strip is full and your charger cable is half a metre too short.
 
@@ -72,4 +72,4 @@ One **2-metre cord** with a flat plug, coiled with a velcro strap, living in the
 - **Replace** anything with cracked plastic, bent prongs, or a warm smell
 - **Don't treat it as a doorstop** - foot traffic kills the outer jacket over time
 
-For a laptop, a short extension cord is boring gear that actually gets used. About **2 metres**, flat plug, leave it in the bag - and stop crawling to the outlet behind the bed.
+For a laptop, a short extension cord is boring gear that actually gets used. About **2 metres**, flat plug, leave it in the bag. Still the first thing I grab when the only outlet is behind the bed - boring gear that earned its keep.

@@ -5,6 +5,9 @@
 **Opening with personal history:**
 > I've been through a lot of wireless earphones. True wireless buds, neckbands, sport clips, over-ears, the cheap ones from the checkout aisle, the not-so-cheap ones I felt guilty about. Most of them ended up in a drawer within a month.
 
+**Opening with gratitude (inside the hook):**
+> I'm glad I kept the boring neckband. The flashy buds looked better in the product shot and died in a drawer by week three.
+
 **Plain opinion:**
 > Give me physical buttons for power, volume, and play/pause. I can feel them. They click. They do exactly what I expect. That's the whole bar.
 
@@ -20,8 +23,8 @@
 **Grounded context:**
 > Hearing my kid call from another part of the house. Hearing the doorbell. Hearing the jeepney coming up behind me on a walk.
 
-**Closing with a real pick:**
-> It's not the flashiest pick. It's just the one that quietly wins on the list above and disappears around my neck for the rest of the day.
+**Closing with a real pick (and gratitude):**
+> It's not the flashiest pick. It's just the one that quietly wins on the list above and disappears around my neck for the rest of the day. Glad I stopped chasing the prettier option.
 
 **Connecting (not just communicating):**
 > I grabbed the indoor-rated cord for the patio run because it was cheaper. One rainy week later I was re-running the whole thing with outdoor sheathing. Start with where you actually plug in - not the spec sheet fantasy.

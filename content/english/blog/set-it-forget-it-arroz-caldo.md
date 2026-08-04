@@ -18,7 +18,7 @@ featured: false
 draft: false
 ---
 
-I used to make **Arroz Caldo** most Friday nights this way - prep it, hit the rice cooker's congee button, go to bed. Saturday morning the kitchen already smelled like ginger before I was fully awake.
+I used to make **Arroz Caldo** most Friday nights this way - prep it, hit the rice cooker's congee button, go to bed. Glad those mornings started with ginger before I was fully awake.
 
 I don't do it anymore. I switched to an [Instant Pot version](/blog/instant-pot-arroz-caldo/) - bigger batch, faster, and my supermarket stopped carrying boneless thigh fillets reliably. This post is still here if you've got a congee rice cooker and want the smaller-batch method.
 
@@ -97,4 +97,4 @@ I originally learned this watching **[Panlasang Pinoy's version](https://panlasa
 
 {{< youtube_time id="7lka80ZAays" start="14" end="388" >}}
 
-Anyway, that was my Friday night ritual for a while. Five minutes of chopping, then the kitchen did the rest. These days it's the Instant Pot - same ginger smell, less guessing at chicken availability.
+Anyway, that was my Friday night ritual for a while. Five minutes of chopping, then the kitchen did the rest. Glad the Instant Pot kept the same ginger smell with less guessing at chicken availability.

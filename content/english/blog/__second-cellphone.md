@@ -17,7 +17,7 @@ featured: false
 draft: true
 ---
 
-For years I thought a second cellphone was a luxury for influencers and people with too many SIM cards. Then I kept handing my daily phone to my kid for games, maps, and photos - and realized my **banking apps were on the same screen** as everything else.
+For years I thought a second cellphone was a luxury for influencers and people with too many SIM cards. Then I kept handing my daily phone to my kid for games, maps, and photos - and realized my **banking apps were on the same screen** as everything else. Glad that scare showed up before a real mess.
 
 Now I keep a **second handset** on purpose. Not the latest flagship. An older, underpowered phone that is hidden in my bag and stays out of daily rotation.
 
@@ -72,4 +72,4 @@ I still like the **instant swap** - SIM out, SIM in, back online in ten minutes 
 
 A second cellphone isn't about having more gadgets. For me it's about **separating daily-driver chaos from the apps I don't want on that screen** - and having a swap-ready phone in the bag if the main one dies.
 
-Cheap Android, older iPhone, whatever fits your ecosystem - the model matters less than knowing which phone holds what, and charging it before you forget it exists.
+Cheap Android, older iPhone, whatever fits your ecosystem - the model matters less than knowing which phone holds what, and charging it before you forget it exists. Glad the boring second phone earned its keep.

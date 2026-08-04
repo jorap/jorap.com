@@ -18,7 +18,7 @@ featured: false
 draft: true
 ---
 
-I wanted local AI on the machines I already own - not a cloud bill for every sidebar question, not another subscription. I have three boxes in rotation: a **Linux Mint desktop** with a Ryzen 5 8500G and Radeon 740M, a **Windows laptop** (WebFX-G15, i5-13450HX, **6 GB VRAM**, **16 GB RAM**), and a **MacBook Pro M4 with 24 GB RAM** for client work. Same question on all of them: how much memory can the GPU actually use?
+I wanted local AI on the machines I already own - not a cloud bill for every sidebar question, not another subscription. Glad I already had three boxes in rotation: a **Linux Mint desktop** with a Ryzen 5 8500G and Radeon 740M, a **Windows laptop** (WebFX-G15, i5-13450HX, **6 GB VRAM**, **16 GB RAM**), and a **MacBook Pro M4 with 24 GB RAM** for client work. Same question on all of them: how much memory can the GPU actually use?
 
 Short answer: it depends which machine. The Windows laptop has **real dedicated VRAM** - just not much of it. The Mac shares one clean pool. The Linux box borrows from system RAM through GTT, with a rougher driver path. All three need a **conservative budget** before you pull a model, because the OS, the browser, and Cursor all want their cut first.
 
@@ -290,7 +290,7 @@ This is the meaningful pair - both machines have headroom above the G15. I use t
 
 **Windows laptop** - offline chat on the road, LM Studio when someone hands me a GGUF file, small-model tests before I pull the same build on the Mac. Tier 0 is the ceiling for daily use. **Bonsai** when I want a taste of Tier 2 without lugging the MacBook.
 
-I still use cloud models for heavy client work. Local AI on these three boxes is a **privacy and offline cushion**, not a full replacement. Signal Coders' tier map plus conservative GPU numbers stopped me from downloading a Tier 2 32B file on the wrong machine and wondering why the fan spun for ten minutes before nothing happened.
+I still use cloud models for heavy client work. Local AI on these three boxes is a **privacy and offline cushion**, not a full replacement - glad that cushion exists. Signal Coders' tier map plus conservative GPU numbers stopped me from downloading a Tier 2 32B file on the wrong machine and wondering why the fan spun for ten minutes before nothing happened.
 
 **Check your own numbers before you trust a YouTube thumbnail:**
 
@@ -306,3 +306,5 @@ Divide by 1024 three times for gibibytes. Then shave off a few gigabytes for the
 - **Windows** - Task Manager → Performance → GPU. Note **Dedicated GPU memory** (mine says **6 GB**) and **Memory** (mine says **16 GB**). If dedicated VRAM is under 8 GB, start at Tier 0 no matter what the CPU sticker says.
 
 - **Mac** - Activity Monitor → Memory. You have one pool; plan **~16 GB** for the model with apps open, **~22 GB** if you close everything.
+
+Glad those three boxes already cover privacy, road trips, and desk work without another subscription.

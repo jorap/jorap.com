@@ -18,7 +18,7 @@ featured: false
 draft: true
 ---
 
-HugoPlate's docs still show a Netlify tab. Fair - that's where a lot of Hugo themes point you first. I started there too.
+HugoPlate's docs still show a Netlify tab. Fair - that's where a lot of Hugo themes point you first. I started there too - glad I moved when the math changed.
 
 Months later, [jorap.com](/) builds on **Cloudflare Pages**. Same repo. Same `git push` habit. The site still goes live in about ninety seconds. What changed was everything *around* Hugo: build command, where redirects live, how the CMS logs in, and how picky I got about burning deploys.
 
@@ -144,4 +144,4 @@ You don't *have* to move. Free Netlify is fine for a personal blog that deploys 
 
 Move when you have a concrete reason: DNS already on Cloudflare, build-minute pressure, OAuth on Pages, client sites you want on one account. Not because a blog post said Netlify is dead.
 
-If you do move, treat it as a **hosting config migration**. Same Hugo site. New dashboard fields. One evening of curl tests. Then delete the old project so future-you doesn't wonder which green checkmark is real.
+If you do move, treat it as a **hosting config migration**. Same Hugo site. New dashboard fields. One evening of curl tests. Then delete the old project so future-you doesn't wonder which green checkmark is real. Glad Cloudflare still earns that checkmark.

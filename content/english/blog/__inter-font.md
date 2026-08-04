@@ -17,7 +17,7 @@ featured: false
 draft: true
 ---
 
-I didn't go looking for a font. I found **Inter** in [*Refactoring UI*](https://www.refactoringui.com/) - Adam Wathan and Steve Schoger's book on making interfaces look good without a design degree.
+I didn't go looking for a font. Glad I found **Inter** in [*Refactoring UI*](https://www.refactoringui.com/) - Adam Wathan and Steve Schoger's book on making interfaces look good without a design degree.
 
 I was reading it for spacing, color, and hierarchy. The type section pointed at Inter as a solid screen default. I dropped it into a side project, then the next one, then this site. I wasn't comparing twenty specimens. I was trying to ship something that didn't look like a Bootstrap leftover.
 
@@ -109,4 +109,4 @@ If you're on the fence: set **Inter at 16px**, write three real paragraphs you a
 
 If your eyes keep leaving the content to stare at the letterforms, try something else. If you forget the font exists, keep it and go write.
 
-That's where I landed - same pick since *Refactoring UI*, one family, four weights, self-hosted, back to work.
+That's where I landed - same pick since *Refactoring UI*, one family, four weights, self-hosted, back to work. Glad I never swapped it for fashion.

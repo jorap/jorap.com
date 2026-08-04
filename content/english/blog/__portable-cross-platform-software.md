@@ -22,7 +22,7 @@ featured: false
 draft: true
 ---
 
-For years I only cared about **Windows** - and what I wanted was simpler than a manifesto: a folder I could copy from one PC to another without fighting the machine.
+For years I only cared about **Windows** - and what I wanted was simpler than a manifesto: a folder I could copy from one PC to another without fighting the machine. Glad that boring need existed.
 
 Portable got me there. Cross-platform became important **later**, when Linux and Mac stopped being someone else's hobby and turned into machines I actually used. Treating both as one ideal from day one would be rewriting history.
 
@@ -135,4 +135,4 @@ Games and one-off creative tools are where I cheat. Windows-only is fine for a g
 
 I'm not asking you to run three operating systems. Most people shouldn't. If you're still on one Windows box, portable alone might be the whole lesson - copy the folder, keep working. Cross-platform becomes urgent the day you inherit a Mac from work or install Linux on a spare drive and realize your favorite utility didn't come with you.
 
-Start where I started. If you're still Windows-only, grab the [PortableApps.com Platform](https://portableapps.com/download), point it at a folder you own, and build from their catalog before you hunt random zips. For a dev stack, XAMPP portable still works. Sit at a locked-down PC and make progress anyway. The cross-platform lecture can wait until you actually own a second OS.
+Start where I started. If you're still Windows-only, grab the [PortableApps.com Platform](https://portableapps.com/download), point it at a folder you own, and build from their catalog before you hunt random zips. For a dev stack, XAMPP portable still works. Sit at a locked-down PC and make progress anyway. Glad that folder habit still travels. The cross-platform lecture can wait until you actually own a second OS.

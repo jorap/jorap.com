@@ -17,7 +17,7 @@ featured: false
 draft: false
 ---
 
-I get the pitch. Apple hardware feels polished. The **whole ecosystem** - iMessage, iCloud, AirDrop, the App Store, the watch on your wrist - talks to itself in ways that look effortless on a demo table. I own some of that hardware. I still don't live inside the Apple ecosystem.
+I get the pitch. Apple hardware feels polished. The **whole ecosystem** - iMessage, iCloud, AirDrop, the App Store, the watch on your wrist - talks to itself in ways that look effortless on a demo table. I own some of that hardware. Glad I still don't have to live inside the whole Apple ecosystem to get work done.
 
 I'm still on the Google side of the fence. Not because I hate Apple. I run a **MacBook Pro M4** for paid work and an **11th-gen iPad** for reading and couch browsing. Both are excellent machines. I still sign into **Gmail, Chrome, Drive, and Meet** on them like everywhere else.
 
@@ -157,4 +157,4 @@ Phones: an Android daily driver plus a cheap Android in the bag for banking, bur
 
 Living room: an Android TV box with Chromecast and YouTube signed in. Calls run through Meet on the open-ear pair I wear all day because I need to hear the doorbell between them. Drive picks up whatever Git isn't the right tool for.
 
-That's what I run: one Google account across mixed hardware, no iPhone, no watch. If you're choosing this week, sign into Gmail and Drive on the screens you already own before you buy the rest of Apple's set. Finish the job with services, not a matching receipt pile.
+That's what I run: one Google account across mixed hardware, no iPhone, no watch. Glad the mixed pile still talks through one login. If you're choosing this week, sign into Gmail and Drive on the screens you already own before you buy the rest of Apple's set. Finish the job with services, not a matching receipt pile.

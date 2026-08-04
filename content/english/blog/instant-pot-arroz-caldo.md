@@ -18,7 +18,7 @@ featured: false
 draft: false
 ---
 
-I used to make arroz caldo in a Hanabishi rice cooker - congee button, dump everything in, walk away. That worked for a while. I don't do it anymore. This is the version I actually make now: **10-12 bowls** from an 8-quart Instant Pot in about 45 minutes.
+I used to make arroz caldo in a Hanabishi rice cooker - congee button, dump everything in, walk away. That worked for a while, and I'm glad it taught me the dish before I outgrew the pot. This is the version I actually make now: **10-12 bowls** from an 8-quart Instant Pot in about 45 minutes.
 
 Bone-in drumsticks instead of thigh fillets. More ginger, more garlic, more malagkit. Same toppings.
 
@@ -113,3 +113,5 @@ Serve with **4-6 kalamansi** (or **1-2 lemons**), **45-60 ml crispy garlic (abou
 - Start with the full **2.4 L water (about 10 cups)** if you're unsure. You can always thin it out at the end, but it's harder to thicken it back up.
 - Thin it **240 ml (about 1 cup) at a time**. I dumped three cups in at once once and washed out the seasoning I'd just fixed.
 - Don't skip the toppings. Kalamansi and crispy garlic turn a plain bowl into the good version.
+
+Glad this is the Friday-night version I kept. Same ginger smell, bigger batch, less guessing.

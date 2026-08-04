@@ -20,7 +20,7 @@ featured: false
 draft: true
 ---
 
-**Hugo taxonomies** group content at build time. List every post tagged `hugo`, get `/tags/hugo/`. Same for categories. Native means it's in the core - frontmatter lists drive URLs, theme templates render them.
+**Hugo taxonomies** group content at build time. List every post tagged `hugo`, get `/tags/hugo/`. Same for categories. Glad native means it's in the core - frontmatter lists drive URLs, theme templates render them.
 
 JoRap uses **categories** for broad buckets (Gear, Worship, Technology) and **tags** for specificity (Hugo, Instant Pot, Alex Eala). That's site structure for readers and search - not my private notes graph.
 
@@ -79,4 +79,4 @@ Native Hugo taxonomies organize the **public** site. My private wiki can be mess
 
 I'll keep categories under a dozen and tags short. Hugo makes grouping free; I still have to curate what ships. When in doubt, fewer tags. Readers and future-me win.
 
-Before I publish a post I scan the tag list the same way I scan a messy Downloads folder - delete the synonym, keep the one I'd actually click.
+Before I publish a post I scan the tag list the same way I scan a messy Downloads folder - delete the synonym, keep the one I'd actually click. Glad that five-second pass still saves me synonyms.

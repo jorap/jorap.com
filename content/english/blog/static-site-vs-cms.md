@@ -19,7 +19,7 @@ featured: false
 draft: false
 ---
 
-Someone is about to pick a stack for a site that has to stay editable after launch. The forum thread will not answer that. The useful question is **what has to change after launch, and who does the changing**.
+Someone is about to pick a stack for a site that has to stay editable after launch. The forum thread will not answer that. Glad I learned to ask the useful question first: **what has to change after launch, and who does the changing**.
 
 ## The wrong question is "which is better"
 
@@ -135,4 +135,4 @@ If you're building for a team that expects an admin panel, or you need accounts 
 
 And if you're hiring someone: bring the hard questions in the first call. Who publishes? Anything behind login? What breaks if they're gone for a month? Those answers pick the stack more reliably than any "Hugo vs WordPress" thread.
 
-Run the five questions on paper before you commit. Two yes answers on the dynamic list means stop stretching static - pick WordPress, Shopify, or whatever matches how your people actually publish on a Tuesday afternoon.
+Run the five questions on paper before you commit. Two yes answers on the dynamic list means stop stretching static - pick WordPress, Shopify, or whatever matches how your people actually publish on a Tuesday afternoon. I ask those before I promise a stack now - thankful the hard questions showed up early.

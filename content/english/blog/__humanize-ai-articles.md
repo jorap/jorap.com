@@ -21,7 +21,7 @@ featured: false
 draft: true
 ---
 
-AI-generated articles often fail the vibe check before the fact check. Not because the model is useless - because the output is **too smooth, too even, too same-length every sentence.**
+AI-generated articles often fail the vibe check before the fact check. Not because the model is useless - because the output is **too smooth, too even, too same-length every sentence.** Glad I learned to catch that before publish.
 
 Humans don't write like that. We burst. We shorten. We take a weird detour and come back.
 
@@ -101,4 +101,4 @@ Blog posts get the full pass. Slack summaries to a client get burstiness in the 
 
 Don't ask AI to sound human in the abstract. Ask for **burstiness and perplexity**, then add the parts only you have - experience, taste, and facts.
 
-The goal isn't to fool readers. It's to **start further down the page** so your editing time goes to substance, not untangling robot rhythm.
+The goal isn't to fool readers. It's to **start further down the page** so your editing time goes to substance, not untangling robot rhythm. Glad that edit pass still earns its keep.

@@ -21,7 +21,7 @@ featured: false
 draft: true
 ---
 
-**Hugo shortcodes** are mini templates you call from Markdown:
+**Hugo shortcodes** are mini templates you call from Markdown - glad they exist for the bits I repeat:
 
 ```markdown
 {{</* image src="images/example.jpg" alt="..." */>}}
@@ -86,4 +86,4 @@ Alert boxes, button links, responsive embeds, author bios - anything that might 
 
 Shortcodes are the DRY layer between "I write posts" and "I maintain a theme." I didn't build many custom ones - Hugoplate shipped the heavy lifting. The few I added paid for themselves the first time an embed format changed.
 
-Extract what repeats. Leave one-off prose alone. And don't paste "just this once" - future-you will find that iframe.
+Extract what repeats. Leave one-off prose alone. And don't paste "just this once" - future-you will find that iframe. Glad shortcodes catch the repeats before I do.

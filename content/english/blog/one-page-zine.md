@@ -19,7 +19,7 @@ featured: false
 draft: false
 ---
 
-If you have ever tried to fit a full teach onto one reference card, you know the wall. I hit it writing rules for a two-player card game: a full rulebook felt like overkill for a 15-minute game, but one card could not hold setup, scoring, and four different actions without turning into unreadable microtype.
+If you have ever tried to fit a full teach onto one reference card, you know the wall. Glad I hit it writing rules for a two-player card game instead of printing a booklet I didn't need. A full rulebook felt like overkill for a 15-minute game, but one card could not hold setup, scoring, and four different actions without turning into unreadable microtype.
 
 What I wanted was a **small booklet** that still fit in the box, printed on **one sheet** at home, folded by hand, no binding, no staples poking through the shrink wrap.
 
@@ -92,4 +92,4 @@ And if you are pitching a boxed game to a publisher, they will want proper compo
 
 For game rules specifically, I treat the **cover and back cover as the in-play reference** - win condition, turn order, action names, scoring. That is what you see when the rulebook sits in its sleeve beside the deck. **Setup and the full teach live inside** - open it once at the table, then close it and leave it there.
 
-If you need a booklet and you do not need a binding, the 1-page zine is the fastest honest answer. One sheet, one cut, eight pages. Print one on cheap paper this week, fold it, and see if eight panels hold your rules before you commit to a saddle-stitched booklet.
+If you need a booklet and you do not need a binding, the 1-page zine is the fastest honest answer. One sheet, one cut, eight pages. Glad that format still fits the games I teach. Print one on cheap paper this week, fold it, and see if eight panels hold your rules before you commit to a saddle-stitched booklet.

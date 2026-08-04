@@ -17,7 +17,7 @@ featured: false
 draft: true
 ---
 
-I gave my son a choice: **Kumon math or Kumon reading.**
+I gave my son a choice: **Kumon math or Kumon reading.** Glad he got to pick.
 
 He picked reading. No drama. He already **reads well** - chapter books at six, not struggling through each line. Kumon math looked like a lot of sitting still with a pencil. The reading track won.
 
@@ -308,4 +308,4 @@ That's useful data. Don't treat the "no" subject like a problem to fix with more
 - **Build the better layer at home.** If math feels hard, lead with games - not harder worksheets. Kumon won't make him own his handwriting either. Different format, his words, stop early.
 - **Start tiny.** One "beat dad" round on the tablet. Skip the math line if he's done. Add a sheet when he asks.
 
-He's six weeks into Kumon reading and we're early on the tablet-and-printer routine. He still says math is **hard**. He also asks for the quiz sometimes. That's enough for now. Kumon for reps at the center. **Math games on the tablet, handwriting on paper he keeps** - sneak the hard part in after the win.
+He's six weeks into Kumon reading and we're early on the tablet-and-printer routine. He still says math is **hard**. He also asks for the quiz sometimes. That's enough for now - and I'm thankful for that. Kumon for reps at the center. **Math games on the tablet, handwriting on paper he keeps** - sneak the hard part in after the win.

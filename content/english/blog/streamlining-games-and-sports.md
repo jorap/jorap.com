@@ -17,7 +17,7 @@ featured: false
 draft: true
 ---
 
-I've watched the same move in sports and on my shelf: shrink the package, and **different people show up**.
+I've watched the same move in sports and on my shelf: shrink the package, and **different people show up**. Glad I finally noticed who walks in.
 
 **T20** and the **IPL** brought in millions who would never block five days for a Test draw.
 
@@ -300,4 +300,4 @@ The kid who quits full-field soccer. The retiree who gave up tennis. The family 
 
 If you're designing, ask who bounces off the uncut version and which move opens the door.
 
-If you're buying or playing, same question. You might not dislike sports or board games. You might just be the crowd the **uncut** package never built for.
+If you're buying or playing, same question. You might not dislike sports or board games. You might just be the crowd the **uncut** package never built for - thankful the smaller packages exist.

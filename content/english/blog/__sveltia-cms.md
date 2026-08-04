@@ -15,7 +15,7 @@ featured: false
 draft: true
 ---
 
-**Sveltia CMS** is a lightweight, Git-backed editor for static sites. Svelte UI in the browser. Changes commit to your repo. Hugo still builds on push.
+**Sveltia CMS** is a lightweight, Git-backed editor for static sites. Svelte UI in the browser. Changes commit to your repo. Hugo still builds on push. Glad that pass-off path exists.
 
 I don't draft my own posts in Sveltia - I write Markdown in the editor and push. This site still ships a `/admin/` panel backed by Sveltia for when buttons beat Git lessons. I keep it in the toolbox for **clients who won't open VS Code** but still fit a static stack.
 
@@ -68,4 +68,4 @@ Also skip when the job needs real CMS features - member areas, ecommerce, comple
 
 You might not need it. Your collaborator might. Know it exists before defaulting to WordPress again - or before forcing Git on someone who'll never use it.
 
-I'd rather configure a git CMS once than rebuild the same brochure on a LAMP stack because pass-off failed.
+I'd rather configure a git CMS once than rebuild the same brochure on a LAMP stack because pass-off failed. Glad that trade still feels obvious.

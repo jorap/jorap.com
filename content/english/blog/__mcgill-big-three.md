@@ -18,7 +18,7 @@ featured: false
 draft: true
 ---
 
-I'm not a physiotherapist. I sit for work. My back gets stiff after long WordPress build weeks where I skip lunch breaks and work from the couch with the laptop in my lap.
+I'm not a physiotherapist. I sit for work. My back gets stiff after long WordPress build weeks where I skip lunch breaks and work from the couch with the laptop in my lap. Glad I found a short circuit before I pretended that was fine forever.
 
 **Stuart McGill's "Big Three"** - curl-up, side plank, bird dog - is the low-back routine I keep **bookmarked**, not one I've turned into a daily habit yet. Simple. No gym. Three moves that don't grind the spine the way my old crunch habit did.
 
@@ -92,4 +92,4 @@ I keep the three YouTube demos in a phone folder labeled "back" next to the kitc
 
 Low back care doesn't need fancy equipment. **Curl-up, side plank, bird dog** - form over heroics, short holds over saggy minutes.
 
-Bookmark the demos. Run the circuit. Sit down again with a slightly more honest spine. That's the whole playbook until I turn the bookmark into a habit.
+Bookmark the demos. Run the circuit. Sit down again with a slightly more honest spine. Glad that playbook exists until I turn the bookmark into a habit.

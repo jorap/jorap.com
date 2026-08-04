@@ -86,6 +86,31 @@ Faith lanes stay straight - no dry humor in gloss or commentary.
 >
 > On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet.
 
+### ❌ Complaint-only (no earned keep)
+
+> I lost the idea again because I trusted my memory on the walk home.
+> Another meeting ate the note I meant to file.
+
+### ✅ Friction plus gratitude (glad the catch held)
+
+> I almost trusted memory on the walk home - glad the wristband caught the play tweak before locker-room noise ate it.
+>
+> Meeting noise almost buried the tip; glad the receipt in my pocket still had the scribble when I got to the desk.
+
+---
+
+## Attitude of gratitude - earned, not theater
+
+### ❌ Fake thanks banner
+
+> I am so grateful for the principle of capture and the opportunity to share this note.
+
+### ✅ Quiet gladness inside a real beat
+
+> Glad I kept the boring inbox habit - the clever multi-folder scheme died in a week.
+>
+> (Faith gloss shape) Grace already settled standing - I obey from thanks, not to re-earn the gift.
+
 ---
 
 ## `shareable_thought` - four angles, not fragments

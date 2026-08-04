@@ -20,7 +20,7 @@ featured: false
 draft: true
 ---
 
-"Write me a blog post about productivity" is a coin flip. I tried that once for a client newsletter and got three paragraphs of oatmeal with a "In conclusion" footer. Soft advice. No specifics. Nothing the client could send. Never again without a shape.
+"Write me a blog post about productivity" is a coin flip. I tried that once for a client newsletter and got three paragraphs of oatmeal with a "In conclusion" footer. Soft advice. No specifics. Nothing the client could send. Glad that mess pushed me into a shape I still use.
 
 The prompts I keep in my notes share a structure. I call it **CRAFT** - Context, Role, Action, Format, Target Audience. Not my invention. The acronym I actually use before I hit enter.
 
@@ -92,4 +92,4 @@ Reuse beats reinvention. I keep three CRAFT skeletons in a notes file - client e
 
 ---
 
-CRAFT isn't bureaucracy. It's **kindness to future-you** - and to the model.
+CRAFT isn't bureaucracy. It's **kindness to future-you** - and to the model. Glad I wrote the shape down once.

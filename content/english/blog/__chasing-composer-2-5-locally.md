@@ -16,7 +16,7 @@ featured: false
 draft: true
 ---
 
-I don't need Cursor the product. I need what Cursor *does* - chat that knows the repo, inline edits, an agent that reads files and shows a diff before it applies anything. And I want that loop running against a model on my MacBook Pro M4, not against a cloud bill for every sidebar question.
+I don't need Cursor the product. I need what Cursor *does* - chat that knows the repo, inline edits, an agent that reads files and shows a diff before it applies anything. Glad I can chase that loop on my MacBook Pro M4 instead of paying a cloud bill for every sidebar question.
 
 Composer 2.5 is the first model that made that feel worth chasing offline. Then I watched [a video about running a 26B model in about 2 GB of RAM on Apple Silicon](https://www.youtube.com/watch?v=vHhephsP6vU) - TurboFieldfare streaming MoE experts from SSD - and the target shifted. Not "clone Composer." Get Cursor-like features in an IDE, with a local brain big enough to be useful.
 
@@ -258,6 +258,6 @@ Split the job:
 
 Both videos point at the same move from different ends: stop treating unified memory as the only place model data can live. TurboFieldfare pages **weights** off the SSD. oMLX pages **context** off the SSD. On a 24 GB laptop, that reframe does more for me than any benchmark table, and only one of the two needs an OS I don't have.
 
-I went into this sure that 24 GB was the constraint. It wasn't. The first blocker was a version string in About This Mac, and the thing that got me unstuck was reading one more requirements line instead of assuming the newest tool was the only one. Check the OS and framework requirements before you budget RAM. They're faster to read and they fail harder.
+I went into this sure that 24 GB was the constraint. It wasn't. The first blocker was a version string in About This Mac, and the thing that got me unstuck was reading one more requirements line instead of assuming the newest tool was the only one. Glad that boring line was there. Check the OS and framework requirements before you budget RAM. They're faster to read and they fail harder.
 
 Sources: [Introducing Composer 2.5](https://cursor.com/blog/composer-2-5) - Cursor. [Kimi-K2.5 model card](https://huggingface.co/moonshotai/Kimi-K2.5) - Moonshot AI. [TurboFieldfare](https://github.com/drumih/turbo-fieldfare) and [Local AI On Apple Silicon uses 7X Less RAM](https://www.youtube.com/watch?v=vHhephsP6vU). [oMLX](https://github.com/jundot/omlx) and [Finally, The CORRECT Way to Run Local AI on a Mac](https://www.youtube.com/watch?v=JpJaEPGzPF4). [Rapid-MLX](https://rapidmlx.com/). [Flash-MoE](https://github.com/tayoun/flash-moe). [Run a local LLM with Cursor?](https://forum.cursor.com/t/run-a-local-llm-model-with-cursor/156489/3) - Cursor forum.

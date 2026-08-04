@@ -7,8 +7,9 @@ description: >-
   relationships.reason on content/english/notes/, Eternal Principles scripture notes,
   PKM notes aligned with Ahrens slip-box (permanent vs fleeting, literature notes),
   or when garden prose sounds generic, dictionary-ish, or AI-generated.
-  Runs de-AI pass and likability lens before finish. For flashcard word choice, use with flashcards skill.
-  For blog posts, use jorap-voice instead.
+  Runs de-AI pass, likability lens, and attitude of gratitude before finish
+  (understated, earned - not performative thanks). For flashcard word choice, use with
+  flashcards skill. For blog posts, use jorap-voice instead.
 ---
 
 # Garden Voice
@@ -16,6 +17,8 @@ description: >-
 Keep notes garden frontmatter sounding like JoRap wrote them - practical, personal, and plain-spoken. **Vocabulary:** plain words only. Every word should land on first read.
 
 **Primary test:** Would a reader think a real person typed this after living the thing? If it reads like a summary of what a good note *should* say, rewrite it.
+
+**Attitude of gratitude:** the note is glad for what worked, who helped, what you still have, or what the mess taught - quiet and specific. Same posture as [jorap-voice](../jorap-voice/SKILL.md); garden has no essay open/close, so gratitude lives in fields that allow first-person (examples, faith gloss, shareable payoff). Not a thank-you banner.
 
 **Blog posts** use [jorap-voice](../jorap-voice/SKILL.md), not this skill. Personal facts (Pia, Davis, stack, Philippines) live in [jorap-voice author-context](../jorap-voice/author-context.md) - match those when grounding notes.
 
@@ -50,8 +53,9 @@ Blog posts use [jorap-voice](../jorap-voice/SKILL.md) and its **seven rewrite pa
 | 6 Credible | `examples`, `key_concept` | Skeptical-reader test - specific scene or failure, not "good practice" |
 | 7 Top-Editor | All fields | Voice check below - **cut** for density, do not lengthen for flow |
 | Likability | All fields (whole note) | Useful, honest, human, respectful - see **Likability lens** below |
+| Gratitude | Whole note (`examples`, gloss, shareable payoff) | Earned thanks for what held, who helped, or what failure taught - see **Attitude of gratitude** below |
 
-**Minimum on any garden edit:** pass **#2**, **#5** on `key_concept` line 1, **likability lens**, **#7** (voice check). Even one-line `relationships.reason` fixes get the de-AI pass.
+**Minimum on any garden edit:** pass **#2**, **#5** on `key_concept` line 1, **likability lens**, **gratitude posture**, **#7** (voice check). Even one-line `relationships.reason` fixes get the de-AI pass.
 
 **Conflicts to respect:** pass #3 (reflective, open questions) and #4 (conversational) apply most to cards and body - not permission to ramble in `description`, `shareable_thought`, or `relationships.reason`.
 
@@ -68,9 +72,10 @@ Blog posts use [jorap-voice](../jorap-voice/SKILL.md) and its **seven rewrite pa
 3. **Score before and after** — `pnpm slop:score path/to/note.md` before the de-AI pass; rerun after. The per100w score should drop.
 4. **Run the de-AI pass** (below) - mandatory, even on one-line fixes.
 5. **Run the likability lens** (below) - mandatory before finishing.
-6. **Run the voice check** (below) before finishing.
-7. Before/after samples: [examples.md](examples.md).
-8. Do **not** commit or push unless the user explicitly asks.
+6. **Run the attitude of gratitude check** (below) - mandatory before finishing.
+7. **Run the voice check** (below) before finishing.
+8. Before/after samples: [examples.md](examples.md).
+9. Do **not** commit or push unless the user explicitly asks.
 
 ## Two registers
 
@@ -90,7 +95,7 @@ Wiki prose in `key_concept` can be tighter than cards, but still plain. Cards ar
 
 **Local context** (Shopee, jeepney, sideline) - only when the scene is actually from that life. Never forced.
 
-**Faith / EP lanes** - straight tone in commentary. No dry humor in verse glosses or faith `key_concept`.
+**Faith / EP lanes** - straight tone in commentary. No dry humor in verse glosses or faith `key_concept`. Gratitude here is often gift-shaped (thanks for what Christ already gave) - still understated, never curtain-call piety.
 
 ## PKM lane (Ahrens)
 
@@ -206,6 +211,8 @@ Two scenes that **feel** different - same move, different surfaces. **One senten
 
 Good pair (`capture.md`): wristband during cooldown + receipt on the jeepney.
 
+At least one scene should carry an earned gladness beat when natural (glad the catch held, glad rollback saved Sunday) - friction is fine; complaint-only pairs fail gratitude posture.
+
 ## `shareable_thought`
 
 **Exactly four** items. Each is a **complete thought** a reader understands alone - paste-ready for Slack or slides.
@@ -267,6 +274,7 @@ Even on a one-line `relationships.reason` fix. For each field ask:
 5. Any word you'd pause to define? → swap for the plain word you'd say out loud.
 6. `key_concept` line 1 - is it a claim you'd argue, with no wikilinks?
 7. `shareable_thought` - four complete thoughts, four different angles?
+8. Does the note land grateful somewhere earned (what held, who helped, what the mess taught) - or only complain?
 
 If a field still feels generated, rewrite from one real scene - don't polish AI slop.
 
@@ -297,6 +305,26 @@ Not every field needs all four every time; the **note** should feel useful, hone
 4. Would I **respect** a friend's time if I sent them this note cold?
 
 If yes to all four, you're in the zone - even when the tone stays cool and direct.
+
+## Attitude of gratitude (whole note)
+
+Same posture as [jorap-voice](../jorap-voice/SKILL.md): glad something still works, glad you learned, glad someone helped, or glad the failure taught. **Attitude, not a thank-you banner.** Garden notes have no essay open/close - gratitude shows in the fields that allow first-person and payoff.
+
+| Field | How gratitude shows |
+|-------|---------------------|
+| `examples` | At least one scene lands glad for the catch, the rollback, the person, or the lesson - friction is fine; entitlement-only is not |
+| Faith gloss / `key_concept` | Gift-shaped thanks when the claim is about grace or obedience from thanks - quiet, specific |
+| `shareable_thought` | Payoff angle can carry the gladness (what you'd keep) without saying "grateful" |
+| `description` | Stays third-person definition - do **not** force thanks wording here |
+
+**What it is not:** "I'm so grateful for this principle…", curtain-call blessings, or padding every field with "thankful." Complaint-only examples with no earned keep fail the check.
+
+**Quick check (whole note):**
+
+1. Is there one earned beat of thanks (what held / who helped / what the mess taught)?
+2. Would a skeptical reader feel gladness, not performance?
+
+If yes, posture is in. Cool and direct still counts.
 
 ## Slop gate (structural)
 
@@ -330,6 +358,7 @@ Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:s
 - [ ] Theology/PKM term glossed in plain English before the wikilink stack
 - [ ] No contractions in frontmatter (body/cards OK)
 - [ ] Likability lens: useful claim/move, honest friction, human specific, respectful tone (not performative warmth)
+- [ ] Attitude of gratitude: one earned beat (what held / who helped / what the mess taught) - not performative thanks
 - [ ] `pnpm lint:voice` clean (dashes + AI-tell words)
 - [ ] `pnpm lint:slop --notes-only` clean (structural slop)
 - [ ] `pnpm slop:score` per100w dropped after de-AI pass (or ≤2.0 on final note)
@@ -346,3 +375,4 @@ Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:s
 - Write `shareable_thought` fragments or four near-duplicates
 - Force Philippines/local color when the scene isn't local
 - Paste book chapters into frontmatter - distill claims; anchor the method on `[[Take Smart Notes]]`
+- Fake gratitude theater ("I'm so grateful for this principle…", curtain-call blessings) - gratitude is attitude in examples/gloss/payoff, not a banner

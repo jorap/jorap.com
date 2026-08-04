@@ -20,7 +20,7 @@ featured: false
 draft: false
 ---
 
-If you're still stuck on *why* own a site at all, start with [why I still run my own website](/blog/why-run-your-own-website/). That post is the argument.
+If you're still stuck on *why* own a site at all, start with [why I still run my own website](/blog/why-run-your-own-website/). Glad that argument still holds - this post is the habit.
 
 This one assumes you're already sold - or close enough - and just need the **habit**: write it on your domain first, then share the link.
 
@@ -64,4 +64,4 @@ My first push was one page and a broken favicon. I owned the URL before I owned 
 
 You don't need the full stack on day one. Domain, Git, static hosting is enough.
 
-Buy the domain first. Push one page to Git before you polish the design. Share the link on Facebook instead of writing the essay in the text box - that is the whole habit.
+Buy the domain first. Push one page to Git before you polish the design. Share the link on Facebook instead of writing the essay in the text box - that is the whole habit, and I'm glad it's still the one I keep.

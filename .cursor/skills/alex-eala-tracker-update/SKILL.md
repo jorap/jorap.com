@@ -109,7 +109,7 @@ Page section order (do not reorder):
 
 In **WTA Rankings**, update only if verified on WTA:
 
-- **Career High** singles (currently No. 29) - update number and keep the "Highest-ranked Filipina in WTA history" note when still true
+- **Career High** singles (currently No. 20) - update number and keep the "Highest-ranked Filipina in WTA history" note when still true
 - **Career High** doubles (currently No. 88)
 
 Do not add current live ranking unless the user explicitly asks; this page tracks career highs and milestones.
@@ -185,7 +185,7 @@ Section: **Grand Slam Main Draw Results**
 - **Doubles:** every tournament line includes `(with Partner Name)` - same pattern as Best Performances doubles
 - WTA doubles scores URLs use `LD…` IDs; singles use `LS…`
 - Note special context (e.g. Centre Court, first Filipina in main draw) as sub-bullets
-- Add YouTube embeds below the tournament block when verified match footage exists (see Step 6) - **singles and doubles**
+- Add YouTube embeds below the tournament block when verified match footage exists (see Step 6) - **singles and doubles**; every non-H2H round (no per-run cap)
 
 ### Step 5 - Head-to-head sections
 
@@ -238,9 +238,10 @@ Apply in this order. A `VIDEO_ID` lives in **one** section only - higher-priorit
 
 1. **Matches Against Grand Slam Champions** - embed **every** verified video for **all** completed singles meetings (one or more per match line, directly under the matching line when possible).
 2. **Matches Against Other Top 20 Players** - embed **every** verified video for **all** completed meetings (singles; doubles when that is the only documented H2H); place under the matching **Matches:** line when possible.
-3. **Best Performances in WTA Tournaments** - at most **two** embeds per tournament run, **only** for matches vs opponents **not** in either H2H section. Use the **last two** such matches in the run, chronological order (earlier round first). **Never** embed H2H-opponent footage here - it belongs in H2H only. A run may have **zero** tournament embeds when every deep round was vs an H2H opponent.
+3. **Grand Slam Main Draw Results** (singles and doubles) - embed **every** verified video for rounds vs opponents **not** in either H2H section. No per-run cap. Place below the tournament block (or under the round when clear). **Never** embed H2H-opponent footage here - it belongs in H2H only. A Slam run may have **zero** embeds when every round was vs an H2H opponent.
+4. **Best Performances in WTA Tournaments** (singles and doubles) - at most **three** embeds per tournament run, **only** for matches vs opponents **not** in either H2H section. Use the **last three** such matches in the run, chronological order (earlier round first). **Never** embed H2H-opponent footage here. A run may have **zero** embeds when every deep round was vs an H2H opponent.
 
-**Grand Slam Main Draw Results** (singles and doubles): search for verified footage for **each round played**. Embed below the tournament block - one shortcode per round when separate uploads exist; otherwise one embed for the run. **Deduplicate** against H2H when the same `VIDEO_ID` covers an H2H opponent (H2H wins).
+Same `VIDEO_ID` must not also appear in an H2H section (H2H wins).
 
 ### Step 7 - Verify
 
@@ -252,7 +253,7 @@ Apply in this order. A `VIDEO_ID` lives in **one** section only - higher-priorit
 - No Slam singles title-holder left in Other Top 20 (promote if found)
 - **At a glance** matches WTA Rankings and latest milestones
 - YouTube embeds from official/broadcaster channels only - no fan reuploads
-- Video embed priority followed: H2H sections have all opponent match videos; Best Performances has ≤2 embeds and only for non-H2H opponents
+- Video embed priority followed: H2H sections have all opponent match videos; Grand Slam embeds every non-H2H round (no cap); Best Performances ≤3 non-H2H only
 - No duplicate `VIDEO_ID` across sections (H2H wins over Best Performances and Grand Slam)
 - Exit-round tournament links point to the deepest round played
 - Scores list Eala's games first in every set and match tiebreak
@@ -323,7 +324,7 @@ Run during every full refresh and whenever a known Other Top 20 opponent wins a 
 
 **Doubles-only context:** if the only documented meeting is doubles (e.g. a Rome QF loss to a Slam-winning pair), keep the opponent in **Other Top 20** until a singles H2H exists, unless the user asks to promote on doubles alone. **Doubles-Slam titles do not trigger promotion** - e.g. Paolini (French Open 2024 singles + Rome 2025 doubles QF only) stays in Other Top 20.
 
-**Duplicate YouTube embeds:** when the same video appears in a tournament entry and an H2H section, keep it in **H2H only** (see [Video embed priority](#video-embed-priority-mandatory)); tournament blocks retain at most two non-H2H embeds only.
+**Duplicate YouTube embeds:** when the same video appears in a tournament entry and an H2H section, keep it in **H2H only** (see [Video embed priority](#video-embed-priority-mandatory)); tournament blocks retain at most three non-H2H embeds only.
 
 ## Watch-list workflow
 

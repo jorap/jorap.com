@@ -20,7 +20,7 @@ featured: false
 draft: true
 ---
 
-Most of my blog posts are a flat file: `extension-cord.md`, hero image in `/images/extension-cord.jpg`, done. That works until you publish something with six screenshots, a PDF handout, and a diagram that only makes sense next to that one post.
+Most of my blog posts are a flat file: `extension-cord.md`, hero image in `/images/extension-cord.jpg`, done. Glad that stays the default. It only breaks when you publish something with six screenshots, a PDF handout, and a diagram that only makes sense next to that one post.
 
 Then you start naming things `fb-desktop-feed-v2-final.jpg` in a shared folder and hate yourself.
 
@@ -84,4 +84,4 @@ Bundles add a folder to navigate in the editor. Worth it when colocation saves c
 
 I haven't moved the whole blog over - most posts are still one file. The next post with a pile of screenshots won't be.
 
-When you migrate an old post, bundle it then. Moving six loose images into a folder takes ten minutes. Hunting them across `/static` in a year takes longer. I've paid that tax once. Once was enough.
+When you migrate an old post, bundle it then. Moving six loose images into a folder takes ten minutes. Hunting them across `/static` in a year takes longer. I've paid that tax once - glad once was enough.

@@ -21,7 +21,7 @@ featured: false
 draft: false
 ---
 
-Every time I tell someone I run my own website, the reaction is the same: "Why? Just post on Facebook."
+Every time I tell someone I run my own website, the reaction is the same: "Why? Just post on Facebook." Glad I kept the boring answer anyway.
 
 Fair. Social media is easy. The audience is already there.
 
@@ -97,4 +97,4 @@ I still post on social for reach. The site holds what I want findable in five ye
 
 I'm not asking you to quit Facebook. I sleep better with a backup I control. If that already sounds true and you just need the Monday habit - domain, Git, push, share the link - I wrote that as [sustainable online publishing](/blog/sustainable-online-publishing/).
 
-Otherwise start with one thing you'd miss if the app disappeared tomorrow - a recipe, a project write-up, whatever you'd actually go looking for again.
+Otherwise start with one thing you'd miss if the app disappeared tomorrow - a recipe, a project write-up, whatever you'd actually go looking for again. Glad this site still holds those.

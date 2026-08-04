@@ -20,7 +20,7 @@ featured: false
 draft: true
 ---
 
-Markdown formatting is **structure you type**, not buttons in a toolbar. I use the same habits in Hugo blog posts and wiki captures: break early, heading every scroll, code fences for commands.
+Markdown formatting is **structure you type**, not buttons in a toolbar. Glad I use the same habits in Hugo blog posts and wiki captures: break early, heading every scroll, code fences for commands.
 
 Bad formatting buries good ideas behind a wall of text. I've published both versions. The formatted one gets read. The wall-of-text one gets skimmed for thirty seconds and closed.
 
@@ -68,4 +68,4 @@ One **bold phrase** per section for the line I'd quote if I summarized the post 
 
 Backticks for commands and filenames, fences for multi-line code. I mark what's copy-pasteable so nobody has to guess - including me at 11 PM trying to remember how I fixed a Hugo build.
 
-**Format while you write**, not in a panic before publish. Future readers include that person. Make it easy on them.
+**Format while you write**, not in a panic before publish. Future readers include that person. Glad when I make it easy on them - and on future-me.

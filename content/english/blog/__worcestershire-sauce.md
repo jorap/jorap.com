@@ -17,7 +17,7 @@ featured: false
 draft: true
 ---
 
-Most pantry items earn their spot slowly. **Lee & Perrins Worcestershire sauce** was immediate - first splash in a soy-garlic adobo marinade and the pot smelled like I'd been simmering twice as long.
+Most pantry items earn their spot slowly. **Lee & Perrins Worcestershire sauce** was immediate - first splash in a soy-garlic adobo marinade and the pot smelled like I'd been simmering twice as long. Glad that bottle never left the pantry.
 
 I'd been making adobo the same way for years - soy, vinegar, garlic, bay. Pia suggested a splash of Worcestershire on a whim. Not enough to taste "British," just enough that the kitchen smelled like we'd been at it longer. That bottle never left the pantry after.
 
@@ -69,4 +69,4 @@ There's no perfect 1:1 swap. Close-ish options:
 
 None of them are Lee & Perrins. That's why I restock before the bottle rattles empty.
 
-If your cooking has a recurring problem - "it's fine but kind of flat" - Worcestershire is a cheap fix with a long shelf life. Lee & Perrins is the bottle I trust to taste the same every time.
+If your cooking has a recurring problem - "it's fine but kind of flat" - Worcestershire is a cheap fix with a long shelf life. Lee & Perrins is the bottle I trust to taste the same every time - glad it earned that trust.

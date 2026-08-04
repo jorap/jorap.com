@@ -20,7 +20,7 @@ featured: false
 draft: true
 ---
 
-I knew I should use unique passwords long before I actually did. The blocker wasn't ignorance - it was **fifty logins and no afternoon to burn**.
+I knew I should use unique passwords long before I actually did. The blocker wasn't ignorance - it was **fifty logins and no afternoon to burn**. Glad I finally burned one afternoon.
 
 Eventually I stopped waiting for the perfect weekend and moved the important accounts first.
 
@@ -75,4 +75,4 @@ I still forget passwords sometimes - I forget which *account* I'm in, not the st
 
 If you've been putting off a password manager because migration sounds like a weekend project, pick one this week, move email and bank first, and stop pretending your brain is a spreadsheet.
 
-The master password is the one string you actually have to remember. Make it long and sayable. Everything else can be random because the vault holds it.
+The master password is the one string you actually have to remember. Make it long and sayable. Everything else can be random because the vault holds it - glad Bitwarden still holds mine.

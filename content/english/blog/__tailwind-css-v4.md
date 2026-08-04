@@ -19,7 +19,7 @@ featured: false
 draft: true
 ---
 
-**Tailwind CSS v4** wasn't a npm bump and forget for this site. Config moved into CSS. The engine changed. Build tooling shifted toward Vite/Oxide. If you maintain a Hugo theme that ships Tailwind, **upgrade is infrastructure work** - readers won't notice, developers will.
+**Tailwind CSS v4** wasn't a npm bump and forget for this site. Config moved into CSS. The engine changed. Build tooling shifted toward Vite/Oxide. If you maintain a Hugo theme that ships Tailwind, **upgrade is infrastructure work** - readers won't notice, developers will. Glad I did the boring upgrade once.
 
 I ride [Hugoplate](/blog/hugoplate-theme-review/) upstream and try not to fork CSS blindly. v4 was the test of that habit.
 
@@ -72,4 +72,4 @@ Tailwind v4 is maintainers' work, not writers'. I let Hugoplate carry most of it
 
 If you forked a theme years ago and cherry-pick nothing, upgrades hurt. If you stay close to upstream, v4 is a manageable merge - annoying, not catastrophic.
 
-I don't enjoy CSS infrastructure weeks. I do enjoy not maintaining a fork that drifts every time Tailwind ships a point release.
+I don't enjoy CSS infrastructure weeks. Glad I don't maintain a fork that drifts every time Tailwind ships a point release.

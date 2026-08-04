@@ -20,7 +20,7 @@ featured: false
 draft: true
 ---
 
-I've watched teams add features because the competitor has them, because an engineer is excited, or because a persona deck said "Sarah, 34, likes yoga." None of that guarantees anyone will **hire** the product when it ships.
+I've watched teams add features because the competitor has them, because an engineer is excited, or because a persona deck said "Sarah, 34, likes yoga." None of that guarantees anyone will **hire** the product when it ships. Glad JTBD gave me a better question.
 
 **Jobs to Be Done (JTBD)** flips the question: what progress is the customer trying to make, in what situation, and what are they reaching for to get there?
 
@@ -90,4 +90,4 @@ One more, and it's the sneaky one: JTBD isn't permission to never ship. It's per
 
 Next time you're speccing a feature or writing a landing page, ask one question first:
 
-*What job would someone hire this for - and what would they fire instead?*
+*What job would someone hire this for - and what would they fire instead?* Glad I still ask that before I build.

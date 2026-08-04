@@ -18,7 +18,7 @@ featured: false
 draft: false
 ---
 
-When someone says they don't like board games, I usually know what they mean. They mean the aisle at the toy store - **Monopoly**, **Scrabble**, **Boggle**, the same boxes that have been there since we were kids.
+When someone says they don't like board games, I usually know what they mean. They mean the aisle at the toy store - **Monopoly**, **Scrabble**, **Boggle**, the same boxes that have been there since we were kids. Glad I found the other shelf before I gave up on the whole idea.
 
 That aisle never worked for me. I **hated Monopoly** because I never managed to finish a game - not once. Someone would quit, or we'd call it at midnight, or the trades would stall until nobody cared who won. **Scrabble** and **Boggle** are fine if you're a walking dictionary. I'm not, and watching someone rack up obscure two-letter words isn't my idea of fun.
 
@@ -126,4 +126,4 @@ That's fine for the rest of the shelf. I'm already picking boxes with a kid in m
 
 When he's ready, I want him to learn on **decisions**, not dice. I want his first memories of board games to be building a route, bluffing badly on purpose, or groaning when someone picks the wrong pile - not going bankrupt because he landed on Park Place. **Monopoly Deal** might be the first Monopoly he ever finishes.
 
-If you've only ever met board games through the toy-store aisle, I get the skepticism. Look for a play-time number around thirty minutes on the box. Try **Sushi Go!**, **Monopoly Deal**, a small-map **Ticket to Ride**, or **Dixit** before you buy the big heavy thing. Teach it in ten. Play twice. If the table wants a third round and you're still under an hour, you found the right one.
+If you've only ever met board games through the toy-store aisle, I get the skepticism. Look for a play-time number around thirty minutes on the box. Try **Sushi Go!**, **Monopoly Deal**, a small-map **Ticket to Ride**, or **Dixit** before you buy the big heavy thing. Teach it in ten. Play twice. If the table wants a third round and you're still under an hour, you found the right one - glad those are still the boxes I reach for.

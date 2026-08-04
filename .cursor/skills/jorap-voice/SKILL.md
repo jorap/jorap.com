@@ -7,7 +7,8 @@ description: >-
   content/english/blog/, writing blog meta_title and description, matching JoRap's
   writing style, or when posts sound generic, SEO-ish, stiff, or AI-generated.
   Runs seven rewrite passes (lived-in, de-AI, thinking, friend-flow, POV, credible,
-  editor) plus likability and connection lenses before publish. Craft backbone: Zinsser
+  editor) plus likability and connection lenses before publish. Posts always open and close
+  from an attitude of gratitude (understated, earned - not performative thanks). Craft backbone: Zinsser
   On Writing Well (zinsser.md) and Writing to Learn (writing-to-learn.md). Read author-context.md
   and the facts ledger before personal posts. For notes garden frontmatter, use garden-voice instead.
 ---
@@ -61,6 +62,7 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 | **Reflective** | Show how you actually thought it through - tradeoffs you weighed, the option you almost picked, what you're still watching. Then land the take. |
 | **Grounded** | Real context - family, commute, home office, Philippines (Shopee, jeepney, local sellers) when relevant. Not forced, just natural. |
 | **Understated humor** | Dry asides, not jokes-for-the-sake-of-jokes. "The most boring possible reason to spend an hour debugging." |
+| **Grateful** | Open and close from thanks - for what worked, who helped, what you still have, or the lesson the mess taught. Attitude, not a thank-you banner. |
 | **Plain words** | No college jargon, no thesaurus swaps. If a simpler word works, use it. |
 
 ## Vocabulary
@@ -254,17 +256,21 @@ Vocabulary is `pnpm lint:voice` (`data/voice-words.yaml`). Structure is `pnpm li
 - **Direct address** when giving advice: "Be honest with yourself before you start."
 - **Conversational but edited** - sounds like someone talking, but sentences are tight. No filler paragraphs.
 - **Confident, not preachy** - share what works for you; don't lecture.
+- **Attitude of gratitude** - every post **starts and ends** from thanks. Friction hooks are fine; entitlement and complaint-only openers are not. Close the same way: appreciate what earned its keep, who tipped you, or what the failure taught. Quiet and specific - never a curtain-call thank-you.
 
 ## Structure patterns
 
 ### Opening
 
-Hook with a relatable situation, frustration, or small story - not a dictionary definition or "In today's world…"
+Hook with a relatable situation, frustration, or small story - not a dictionary definition or "In today's world…" **and** land the first beat in gratitude (even when the scene is messy).
 
 Good patterns:
 - Personal history that narrows to the point ("I've been through a lot of wireless earphones…")
 - A problem everyone recognizes ("Every couple of years someone tells me they're going mobile-only…")
 - A near-miss or turning point ("I almost deleted Facebook…")
+- Grateful frame inside the hook ("I'm glad I kept the boring pair - the flashy ones died in a drawer.")
+
+Gratitude here means posture: glad something still works, glad you learned, glad someone helped. Not "I'm so grateful for the opportunity to share…"
 
 ### Body
 
@@ -276,7 +282,7 @@ Good patterns:
 
 ### Closing
 
-Land on what you actually use, what you'd buy again, or a plain recommendation. No "happy reading" or "hope this helps."
+Land on what you actually use, what you'd buy again, or a plain recommendation - **and** end from gratitude for that pick, lesson, or person. No "happy reading", "hope this helps", or "thanks for reading".
 
 ### Frontmatter
 
@@ -325,6 +331,8 @@ Models invent confident liquid ratios. The style doc cuts shape drift - author s
 ## Voice check
 
 - [ ] Opens with experience or a concrete problem, not a generic intro
+- [ ] Opening carries an attitude of gratitude (earned, specific - not performative thanks)
+- [ ] Closing lands the same gratitude posture (what you'd keep / who helped / what the mess taught)
 - [ ] Uses "I" and real scenarios, not "users" and "one might"
 - [ ] At least one specific detail per section (number, name, place, mistake) - not currency
 - [ ] Shows thinking somewhere - a tradeoff, near-miss, or honest doubt - then lands a take
@@ -358,6 +366,7 @@ Models invent confident liquid ratios. The style doc cuts shape drift - author s
 - Write listicle intros that promise "10 game-changing tips"
 - Turn personal gear picks into affiliate-marketing tone
 - Mention currency values (dollar amounts, peso, "what I paid") - use relative cost instead
+- Fake gratitude theater ("I'm so grateful for the opportunity…", "Thanks for reading!", curtain-call blessings) - gratitude is attitude in the open and close, not a banner
 
 ## Expanding outlines
 

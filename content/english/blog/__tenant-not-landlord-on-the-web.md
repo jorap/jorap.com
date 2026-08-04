@@ -17,7 +17,7 @@ featured: false
 draft: true
 ---
 
-"Why not just post on Facebook?"
+"Why not just post on Facebook?" Glad I kept asking myself the other way around.
 
 I get it every time I mention this site. Social is easy. The audience is already there. I still use Facebook for Messenger and a trimmed Favorites feed.
 
@@ -71,4 +71,4 @@ I post on social for reach. The site holds what I want findable in five years.
 
 I'm not asking you to quit Facebook. I sleep better knowing the deed is in a repo I can clone. If the tenant metaphor lands, start with one post you'd miss if the app disappeared tomorrow - then put the real copy on your own plot.
 
-More: [three places your words can live](/blog/three-places-your-words-can-live/) (sorting frame) · [sustainable online publishing](/blog/sustainable-online-publishing/) (habit).
+Glad I still own the URL. More: [three places your words can live](/blog/three-places-your-words-can-live/) (sorting frame) · [sustainable online publishing](/blog/sustainable-online-publishing/) (habit).

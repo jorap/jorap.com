@@ -18,7 +18,7 @@ featured: false
 draft: false
 ---
 
-I love leading worship with just my acoustic guitar. There's an intimacy to it that a full band can't quite reach. But anyone who's actually stood at the front of a room with just six strings and a microphone knows the other side of that - the silence between songs feels enormous, the guitar can sound thin in a big space, and you spend half the set worrying you're not filling the room well enough.
+I love leading worship with just my acoustic guitar - glad that setting still feels like home. There's an intimacy to it that a full band can't quite reach. But anyone who's actually stood at the front of a room with just six strings and a microphone knows the other side of that - the silence between songs feels enormous, the guitar can sound thin in a big space, and you spend half the set worrying you're not filling the room well enough.
 
 For a long time I just lived with it. Then somebody put on a pad track underneath me during practice one night, and the whole room felt different. That's what this post is about.
 
@@ -134,4 +134,4 @@ I waited way too long to try this. If you've ever stood up there with a guitar a
 
 Pads fill that space without taking it over. The point isn't to sound more professional, or more like the album. The point is to give yourself, and the people you're leading, a little more room to breathe and worship.
 
-One pad in C, one Sunday. That's enough to know whether this is for you.
+One pad in C, one Sunday. That's enough to know whether this is for you - glad someone put a pad under me in practice before I kept living with the empty space.

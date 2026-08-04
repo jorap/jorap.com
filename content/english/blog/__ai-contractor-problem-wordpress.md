@@ -16,7 +16,7 @@ featured: false
 draft: true
 ---
 
-Month one with AI on WordPress builds: thrilled. Month two: annoyed. Month three: I finally named the problem.
+Month one with AI on WordPress builds: thrilled. Month two: annoyed. Month three: I finally named the problem - glad I stuck around long enough to name it.
 
 Every new chat is **day one for a fast hire** - skilled, opinionated, and blind to what yesterday's contractor built. That's not a model quality issue. It's a **consistency** issue.
 
@@ -82,6 +82,6 @@ I still get caught when a client invents a new ACF field label with a typo in it
 
 **Stop asking AI to build features. Ask it to build the layer that makes every feature match.**
 
-The hour on `helpers.php` paid for itself the first time I didn't read a whole block file to know what was inside. Consistency mattered more than raw speed - and I wasn't expecting to care that much.
+The hour on `helpers.php` paid for itself the first time I didn't read a whole block file to know what was inside. Consistency mattered more than raw speed - glad I learned to care that much.
 
 Step-by-step setup: [consistent AI output for WordPress builds](/blog/consistent-ai-output-wordpress-builds/).

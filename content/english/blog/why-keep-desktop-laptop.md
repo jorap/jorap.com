@@ -21,7 +21,7 @@ featured: false
 draft: false
 ---
 
-Every couple of years someone tells me they're "going mobile-only." A tablet, a phone, maybe a foldable. I get the appeal. I still keep a laptop because that's where I actually get work done - sitting upright, full keyboard, big screen, the real version of the software.
+Every couple of years someone tells me they're "going mobile-only." A tablet, a phone, maybe a foldable. I get the appeal. Glad I still keep a laptop - that's where I actually get work done, sitting upright, full keyboard, big screen, the real version of the software.
 
 I'm not anti-mobile. My phone handles short, in-between moments fine. But when I need more than ten focused minutes, nothing beats a real computer at a desk or table. I don't lend mine out. I use it all day.
 
@@ -109,4 +109,4 @@ I won't play a real game on a phone either, not when a proper screen, keyboard, 
 
 Phone for quick hits. Laptop for anything that needs a keyboard, a big screen, or more than ten focused minutes.
 
-I've watched people go tablet-only and scramble when payroll or a long outline won't fit on a phone keyboard. That's fine if it fits their life. I just know I'm faster and more comfortable on a laptop - and I'd rather not pretend the phone is a substitute when the real tool is right here.
+I've watched people go tablet-only and scramble when payroll or a long outline won't fit on a phone keyboard. That's fine if it fits their life. The real tool is still right here, and I'm thankful for that desk. I'm faster on a laptop, and I'd rather not pretend the phone is a substitute.

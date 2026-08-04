@@ -19,7 +19,7 @@ featured: false
 draft: true
 ---
 
-A **static site generator** pre-builds HTML when you deploy - not when someone visits. No database on the server. No PHP cron jobs. No "why is admin slow at 2 AM."
+A **static site generator** pre-builds HTML when you deploy - not when someone visits. No database on the server. No PHP cron jobs. Glad I don't ask "why is admin slow at 2 AM" anymore.
 
 **Hugo** is one of those generators: single Go binary, stupid fast builds, Markdown in, HTML out.
 
@@ -75,4 +75,4 @@ For those, WordPress, Shopify, or a hosted tool wins. [Static vs CMS](/blog/stat
 
 For a blog, portfolio, brochure site, sermon archive, or docs that change occasionally - Hugo is hard to beat on cost and calm.
 
-It doesn't fit every job. When it fits, the workflow is push and forget. That's the feature I sell - including to myself.
+It doesn't fit every job. When it fits, the workflow is push and forget. Glad that's still the feature I sell - including to myself.

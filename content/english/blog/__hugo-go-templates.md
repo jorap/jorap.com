@@ -20,7 +20,7 @@ featured: false
 draft: true
 ---
 
-Hugo builds HTML from **Go templates** - `.html` files full of `{{ }}` actions. Partials, layouts, shortcodes - same language everywhere. The docs read like a reference manual. I learned by breaking something visible, then fixing it with the theme's existing files open beside me.
+Hugo builds HTML from **Go templates** - `.html` files full of `{{ }}` actions. Partials, layouts, shortcodes - same language everywhere. The docs read like a reference manual. Glad I learned by breaking something visible, then fixing it with the theme's existing files open beside me.
 
 Still my best teacher.
 
@@ -80,4 +80,4 @@ When I need something weirder, I grep the theme for a working example. Hugoplate
 
 Hugo Go templates reward small experiments on a local build. **Don't start from the official docs cover to cover.** Break one page you care about, fix it with the theme's partials as a cheat sheet.
 
-Most of JoRap is assembled from patterns Hugoplate already had. My edits are tweaks, not a from-scratch framework. That's the lazy path, and it held for a year.
+Most of JoRap is assembled from patterns Hugoplate already had. My edits are tweaks, not a from-scratch framework. Glad the lazy path held for a year.

@@ -20,7 +20,7 @@ featured: false
 draft: true
 ---
 
-Remote work isn't only meetings and wifi. It's whether your neck hurts by lunch and whether you remembered the one cable that makes the laptop alive.
+Remote work isn't only meetings and wifi. It's whether your neck hurts by lunch and whether you remembered the one cable that makes the laptop alive. Glad a checklist catches that before the jeepney does.
 
 I learned that the hard way at a café in Biñan - laptop at 4%, outlet behind a booth I couldn't reach, trackpad for a two-hour spreadsheet block. Never again. This is the bag checklist I run before I walk out now.
 
@@ -76,4 +76,4 @@ The standing desk stays home too. A laptop stand plus external keyboard gets me 
 
 I still forget things. Last month I left the mouse mat and used a notebook under the sensor like a caveman. The checklist doesn't make me perfect - it makes "forgot the cord" rare instead of monthly.
 
-Print it, pin it, or keep it in your notes app. Whatever means you'll actually run it before the jeepney leaves without you.
+Print it, pin it, or keep it in your notes app. Whatever means you'll actually run it before the jeepney leaves without you - glad mine still lives where I can see it.

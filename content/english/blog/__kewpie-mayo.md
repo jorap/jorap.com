@@ -16,7 +16,7 @@ featured: false
 draft: true
 ---
 
-The first time someone handed me **Kewpie mayo**, I thought it was a gimmick - different bottle, cute logo, internet hype. Then I put it on a sandwich and understood why people act like this is a separate food group.
+The first time someone handed me **Kewpie mayo**, I thought it was a gimmick - different bottle, cute logo, internet hype. Glad I put it on a sandwich anyway - then I understood why people act like this is a separate food group.
 
 Pia had picked it up at an Asian grocery for sushi night. I reached for the Hellmann's out of habit. She said just try it once. Egg sandwich, toasted bread, nothing else fancy. Richer than I expected - almost buttery without being sweet.
 
@@ -66,4 +66,4 @@ If you only mayo twice a year at picnics, probably not. If you make sandwiches, 
 
 I still keep regular mayo for recipes that expect neutral flavor. Kewpie is the one I reach for when I want the mayo to actually taste like something.
 
-Hellmann's still wins for potato salad where you want background creaminess. Kewpie wins when the mayo is half the point - egg sandwiches, spicy drizzle, anything that should taste like something happened.
+Hellmann's still wins for potato salad where you want background creaminess. Kewpie wins when the mayo is half the point - egg sandwiches, spicy drizzle, anything that should taste like something happened. Glad both bottles earned a shelf spot.

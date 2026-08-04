@@ -20,7 +20,7 @@ featured: false
 draft: true
 ---
 
-I watched [Justin Sung rank eight popular study techniques](https://www.youtube.com/watch?v=Uf_DUtzHFsU) from F to S in about eighteen minutes. The punchline isn't a new app. It's this: **the methods that feel easy are popular because they're easy - not because they work.**
+I watched [Justin Sung rank eight popular study techniques](https://www.youtube.com/watch?v=Uf_DUtzHFsU) from F to S in about eighteen minutes. The punchline isn't a new app. It's this: **the methods that feel easy are popular because they're easy - not because they work.** Glad someone ranked them that bluntly.
 
 That matches what I've seen in classrooms and in my own habits. Yellow highlighter across a page. Reread until it feels familiar. Call it studying. Then freeze when someone asks you to use the idea.
 
@@ -93,6 +93,6 @@ What I'd actually do after watching:
 3. Prefer teach-back and side-by-side comparison over another neat summary page.
 4. When a method can be D or S depending on execution, assume I'm currently on the D path until the page feels uncomfortable.
 
-Uncomfortable is the point. If it feels smooth and familiar, you're probably recognizing, not learning.
+Uncomfortable is the point. If it feels smooth and familiar, you're probably recognizing, not learning. Glad that line stuck.
 
 Source: [Every Study Technique Explained in 18 Minutes](https://www.youtube.com/watch?v=Uf_DUtzHFsU) - Justin Sung.

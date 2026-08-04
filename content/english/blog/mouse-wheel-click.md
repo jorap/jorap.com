@@ -20,7 +20,7 @@ featured: false
 draft: false
 ---
 
-If you still open links with right-click → "Open link in new tab," there's a faster button right under your finger and most people never use it.
+If you still open links with right-click → "Open link in new tab," there's a faster button right under your finger and most people never use it. Glad someone showed me before I wore out another right-click habit.
 
 The mouse wheel click - that little press of the scroll wheel - is one of the most underused buttons on the most-used input device in the world. And the best part: the most useful things it does work the *exact same way* on Windows, Mac, and Linux. No settings to change. No software to install. It just works.
 
@@ -102,4 +102,4 @@ It's also one of those rare workflow upgrades that costs you nothing. No app to 
 
 If you take one thing away from this post: next time you're about to right-click a link to open it in a new tab - don't. Press the wheel. Then do it again. By the third or fourth time you won't even think about it, and the right-click menu will start to feel slow.
 
-It's a small thing. It just happens to be a small thing you do a thousand times a week.
+It's a small thing. Glad it's still the one I use a thousand times a week.

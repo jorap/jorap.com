@@ -18,7 +18,7 @@ draft: false
 lastmod: "2026-07-15T11:45:00Z"
 ---
 
-I love *Hanamikoji* for the mechanics. The retail game has gorgeous art - colorful geisha portraits, illustrated performance items, a table presence that pulls you in. I kept playing for the **I split, you choose** puzzle: how you bundle cards, what you force your rival to take, when to burn a Trade-off. The theme is atmosphere. The split is the game.
+I love *Hanamikoji* for the mechanics - glad the published game exists so I had something worth retheming at all. The retail box has gorgeous art - colorful geisha portraits, illustrated performance items, a table presence that pulls you in. I kept playing for the **I split, you choose** puzzle: how you bundle cards, what you force your rival to take, when to burn a Trade-off. The theme is atmosphere. The split is the game.
 
 For a **personal copy only** I went the other way on purpose. **Duopoly** - two firms, seven country flags, almost no illustration. Not because the original art is bad. Because I wanted to **strip the table down** and see if the mechanics alone still pull people in. Plain flags get out of the way. You read counts and colors, not characters. The mental load goes to the offers on the table, not the artwork on the card.
 
@@ -168,4 +168,4 @@ Rules stay in the zine so this post does not duplicate them. The mapping table a
 
 I want to stay on the right side of copyright and trademark law. I'm not a lawyer and I don't know every rule in every country. What I do know is what I'm willing to do: keep the deck private, credit *Hanamikoji*, and point anyone who wants to play toward the published box.
 
-If you already own *Hanamikoji*, you don't need this. You have the real thing, art and all. If you don't, buy it from the publisher. This post is my private build log: flags, business nouns, one sleeve, fewer bits in the box, not permission to reproduce someone else's game.
+If you already own *Hanamikoji*, you don't need this. You have the real thing, art and all - glad that version is still what I'd tell a friend to buy. If you don't, buy it from the publisher. This post is my private build log: flags, business nouns, one sleeve, fewer bits in the box, not permission to reproduce someone else's game.

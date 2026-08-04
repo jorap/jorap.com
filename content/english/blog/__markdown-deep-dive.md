@@ -20,7 +20,7 @@ featured: false
 draft: true
 ---
 
-**Markdown** is lightweight markup: `#` for headings, `*` for emphasis, `[text](url)` for links. Hugo, GitHub, Obsidian, TiddlyWiki (with plugins) - variants everywhere.
+**Markdown** is lightweight markup: `#` for headings, `*` for emphasis, `[text](url)` for links. Hugo, GitHub, Obsidian, TiddlyWiki (with plugins) - variants everywhere. Glad one plain format still carries most of my writing.
 
 I learned it the boring way: copy-pasting forum posts into a PHP blog years ago and wondering why my bold text showed literal asterisks. Once the muscle memory clicked, every tool after that felt like the same language with a different accent.
 
@@ -78,4 +78,4 @@ When [I lost PHP hosting](/blog/how-i-built-jorap-notes/), the posts I could rec
 
 Plain text diffs cleanly in Git so I can see exactly what changed line by line, moves hosts without export-wizard grief, and stays readable in twenty years without a proprietary app.
 
-If you're building on Hugo, learn frontmatter and shortcodes next. If you're capturing notes, learn your app's link syntax. The boring basics and code fences are the whole middle, and they don't change.
+If you're building on Hugo, learn frontmatter and shortcodes next. If you're capturing notes, learn your app's link syntax. Glad the boring basics and code fences are still the whole middle - and they don't change.

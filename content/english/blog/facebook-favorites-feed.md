@@ -22,7 +22,7 @@ draft: false
 lastmod: "2026-08-02T16:26:00Z"
 ---
 
-I can't quit Facebook entirely - **Messenger** is how too many people in my life actually reach me. What I did quit, mostly, was scrolling the main feed.
+I can't quit Facebook entirely - **Messenger** is how too many people in my life actually reach me, and I'm glad that part still works. What I did quit, mostly, was scrolling the main feed.
 
 It had become a mess. Random sponsored posts. Distant cousins arguing about politics. People I went to high school with pitching essential oils. Somehow almost nothing from the friends I actually wanted to keep up with.
 
@@ -90,4 +90,4 @@ Facebook gets a lot wrong, but this one feature is genuinely good - it just does
 
 Your favorited friends won't know. The regular home feed stays the same - Favorites is just another tab.
 
-Open Feeds, tap Favorites, add ten people tonight, and use that feed instead of Home for one week. Messenger stays. The infinite scroll mostly does not.
+Open Feeds, tap Favorites, add ten people tonight, and use that feed instead of Home for one week. Messenger stays, and I'm thankful for that. The infinite scroll mostly does not.

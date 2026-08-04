@@ -15,7 +15,7 @@ featured: false
 draft: true
 ---
 
-There was a drawer in our house that was basically a battery graveyard - half-dead AAs, the wrong size, maybe one that leaked years ago and nobody wanted to touch. Every few months I'd buy another blister pack at the checkout and tell myself this was normal.
+There was a drawer in our house that was basically a battery graveyard - half-dead AAs, the wrong size, maybe one that leaked years ago and nobody wanted to touch. Every few months I'd buy another blister pack at the checkout and tell myself this was normal. Glad I finally stopped calling that normal.
 
 The breaking point was a talking toy at 9 PM on a school night - dead batteries, no spares, one very unhappy kid. I drove to a convenience store for alkalines I knew I'd throw away in a month. That was the last blister pack.
 
@@ -77,4 +77,4 @@ Smoke detectors and true emergency flashlights stay on alkalines in our house. T
 
 And I don't chase the absolute highest capacity numbers on the label. Consistent performance and low self-discharge beat bragging rights.
 
-If your house eats AAs like snacks, rechargeables are the most boring, sensible upgrade available. One good charger, two sets of cells, a simple swap habit - and that checkout-aisle battery tax mostly disappears.
+If your house eats AAs like snacks, rechargeables are the most boring, sensible upgrade available. One good charger, two sets of cells, a simple swap habit - and that checkout-aisle battery tax mostly disappears. Glad the boring upgrade stuck.

@@ -20,7 +20,7 @@ featured: false
 draft: true
 ---
 
-I've told myself I have a bad memory more times than I can count. Names at church. A tip from a video I watched the same morning. Something I nodded at in a doc, then blanked when I needed it at the keyboard.
+I've told myself I have a bad memory more times than I can count. Names at church. A tip from a video I watched the same morning. Something I nodded at in a doc, then blanked when I needed it at the keyboard. Glad I finally stopped treating that as a fixed trait.
 
 I'm not keen on memorizing for its own sake. Rote lists feel like homework I didn't sign up for. What I *am* keen on is learning how learning works - partly for my own work, and partly because I want Davis to inherit better habits than "read it again until it feels familiar."
 
@@ -95,6 +95,6 @@ What I'd pass on, in kid language:
 
 I still have to practice this myself. The point of watching Sung isn't to collect another technique name. It's to stop calling the empty workbench a character flaw - and to have something better ready when Davis hits real school pressure.
 
-I'm not memorizing for sport. I'm learning how learning works so the next generation in this house doesn't inherit my shrug.
+I'm not memorizing for sport. Glad I'm learning how learning works so the next generation in this house doesn't inherit my shrug.
 
 Source: [If You Have A Bad Memory, I'll Help You Fix It In 28 Minutes](https://www.youtube.com/watch?v=UyiKBkUZ2xc) - Justin Sung.

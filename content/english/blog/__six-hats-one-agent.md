@@ -20,7 +20,7 @@ draft: true
 lastmod: "2026-08-03T01:16:00Z"
 ---
 
-Ask one AI one question and you get one answer. That answer might be sharp. It might be flattery dressed as help. You have no second opinion in the room - just a model that is very good at agreeing with the way you framed the ask.
+Ask one AI one question and you get one answer. That answer might be sharp. It might be flattery dressed as help. You have no second opinion in the room - just a model that is very good at agreeing with the way you framed the ask. Glad the hats force a second look.
 
 I don't want yes-men. Not from people. Not from tools. If I actually want the truth, I need friction on purpose.
 
@@ -111,4 +111,4 @@ The hats gave me the vocabulary. The council gave me a stress test on real posts
 
 Say `hats this` when you want friction without a war room. Keep the full council for decisions where being wrong is expensive.
 
-If you only steal one thing, steal the refusal. Don't ask an AI whether your idea is good. Ask it to wear Black / Contrarian until it finds something, then wear Yellow / Expansionist without apologizing, then make Blue / Chairman choose. And if the frame was wrong - say so and run the hats again. Same room. Different hats. No applause track.
+If you only steal one thing, steal the refusal. Don't ask an AI whether your idea is good. Ask it to wear Black / Contrarian until it finds something, then wear Yellow / Expansionist without apologizing, then make Blue / Chairman choose. And if the frame was wrong - say so and run the hats again. Same room. Different hats. No applause track. Glad that sequence still catches soft answers.

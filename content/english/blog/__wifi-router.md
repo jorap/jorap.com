@@ -15,7 +15,7 @@ featured: false
 draft: true
 ---
 
-I used to treat wifi routers like printer ink - buy whatever's on sale, plug it in, forget about it until something breaks. Then the video call drops during a meeting, the kid's homework tab spins forever, and suddenly the cheapest router on the shelf doesn't feel like such a smart save.
+I used to treat wifi routers like printer ink - buy whatever's on sale, plug it in, forget about it until something breaks. Then the video call drops during a meeting, the kid's homework tab spins forever, and suddenly the cheapest router on the shelf doesn't feel like such a smart save. Glad I stopped buying on sale alone.
 
 Our last cheap router needed a weekly reboot ritual - unplug, count to ten, pray. That's when I wrote this checklist.
 
@@ -75,4 +75,4 @@ I'm not loyal to one mesh brand - I just want nodes that are easy to add and don
 
 ## What I'd do right now
 
-If my router died tomorrow, I'd sketch the floor plan first - bedroom, kitchen, home office - check what's still getting security updates, and buy for **coverage and calm** rather than the biggest number on the box. The internet coming into the house is only as good as the wifi that actually reaches your chair. Monday: mark where you actually sit with a laptop, then move the router up and central before you buy anything new.
+If my router died tomorrow, I'd sketch the floor plan first - bedroom, kitchen, home office - check what's still getting security updates, and buy for **coverage and calm** rather than the biggest number on the box. Glad calm beats the biggest number on the box. The internet coming into the house is only as good as the wifi that actually reaches your chair. Monday: mark where you actually sit with a laptop, then move the router up and central before you buy anything new.

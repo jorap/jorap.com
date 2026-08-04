@@ -17,7 +17,7 @@ featured: false
 draft: true
 ---
 
-Open Shopee for a phone charger and you'll scroll past three Xiaomi listings before you find the cable you actually wanted. Walk into a mall phone shop and there's a Redmi Note on the wall next to Samsung and Oppo. Plug a streaming box behind our TV and it's a **Mi Box S** - not because I'm a fanboy, because it was the cheap fix that worked.
+Open Shopee for a phone charger and you'll scroll past three Xiaomi listings before you find the cable you actually wanted. Walk into a mall phone shop and there's a Redmi Note on the wall next to Samsung and Oppo. Plug a streaming box behind our TV and it's a **Mi Box S** - not because I'm a fanboy, because it was the cheap fix that worked. Glad that cheap fix still works.
 
 That pattern used to be Huawei.
 
@@ -111,4 +111,4 @@ I'm not switching ecosystems over a hot take. I like [Google's glue across my mi
 
 Huawei taught the market that a Chinese brand could feel premium. Sanctions taught the market that geopolitics can delete your app store. Xiaomi is the company currently running that lesson at scale - phones in every shop, gadgets in every room, an EV on billboards, and still, for now, Gmail when you set the thing up.
 
-That's the new Huawei. Same ambition. Different scars. Cheaper entrance fee.
+That's the new Huawei. Same ambition. Different scars. Cheaper entrance fee. Glad I learned to buy the useful bits without buying the whole identity.

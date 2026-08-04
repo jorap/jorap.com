@@ -30,7 +30,7 @@ draft: false
 lastmod: "2026-07-29T20:38:00Z"
 ---
 
-If you're learning on a student budget, the wall isn't "which stack is best." It's whether you can install anything on the machine you actually have. That's where I was before I knew what a "stack" was.
+If you're learning on a student budget, the wall isn't "which stack is best." It's whether you can install anything on the machine you actually have. That's where I was before I knew what a "stack" was - and I'm glad open tools were what I could actually run.
 
 I learned ASP from someone, then went looking for real software built with it - sites I could study, tools I could run locally, something that wasn't just tutorial code in a book.
 
@@ -228,4 +228,4 @@ I wouldn't start with a manifesto. I'd start with the problem in front of me.
 
 I pick for **freedom, ownership, and community depth**, not just "is it free." I skip tools that only let me work inside their garden, unless the garden is genuinely worth the rent. And I budget time to learn, because there's no shortcut past that part.
 
-This week: install one open stack on the machine you actually have and break something on purpose. Follow the job posts where you live, not the cleanest architecture diagram. Budget the evenings. That's the trade I'd make again.
+This week: install one open stack on the machine you actually have and break something on purpose. Follow the job posts where you live, not the cleanest architecture diagram. Budget the evenings. That's still the trade I'd make again - thankful the open path was there when I needed it.

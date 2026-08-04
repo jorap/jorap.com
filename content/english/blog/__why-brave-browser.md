@@ -17,7 +17,7 @@ featured: false
 draft: true
 ---
 
-I've installed enough browsers to fill a short blog post on its own. Chrome because everything "just works." Firefox because I wanted to feel noble about privacy. Edge because it shipped on a Windows laptop and I was too tired to uninstall it on day one.
+I've installed enough browsers to fill a short blog post on its own. Chrome because everything "just works." Firefox because I wanted to feel noble about privacy. Edge because it shipped on a Windows laptop and I was too tired to uninstall it on day one. Glad Brave finally settled the fight.
 
 **Brave** is the one that stuck for personal browsing. Not because it's perfect. Because it does the boring job I actually care about - **keep the junk off my screen without turning browser setup into a hobby** - and it's still Chromium enough that the web doesn't fight me.
 
@@ -149,4 +149,4 @@ And if Brave-the-company does something I hate tomorrow, I can move. Bookmarks e
 
 **Everything else:** Terminal, Hugo, the apps that need a real computer - same laptop post I already wrote about.
 
-That's the setup: **Brave for my tabs, Chrome for everyone else's reality.** Not the most ideological answer. Just the one that stopped me from fighting the web on my own time.
+That's the setup: **Brave for my tabs, Chrome for everyone else's reality.** Not the most ideological answer. Just the one that stopped me from fighting the web on my own time - glad it stuck.

@@ -21,7 +21,7 @@ draft: false
 lastmod: "2026-08-02T16:32:00Z"
 ---
 
-Still paying shared hosting for a personal blog one person publishes? I was too, until the client who split the bill moved on and the math stopped making sense.
+Still paying shared hosting for a personal blog one person publishes? I was too, until the client who split the bill moved on and the math stopped making sense. Glad that bill forced the switch.
 
 **As of August 2026:** the three-piece stack is the same. The repo shape is not. What follows is how I got online in 2024. For what this site runs now - forked theme, `pnpm` build, pinned versions - skip to [Where this site is now](#where-this-site-is-now-august-2026), or read [the HugoPlate review](/blog/hugoplate-theme-review/).
 
@@ -288,7 +288,7 @@ Compared to the old PHP setup, this one is faster, more reliable, and simpler to
 
 Block one evening. Install Hugo, write down the version number, push one page to Cloudflare Pages, and fix a typo live a minute later. That is the whole test - decide then if you miss the WordPress dashboard.
 
-You're reading the result right now.
+You're reading the result right now - glad this stack still earns its keep every time I push a page.
 
 ## A couple of useful links
 

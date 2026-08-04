@@ -29,4 +29,598 @@ _**Agent (auto-smart)**_
 ```bash
 find .cursor -type f \( -name "*.mdc" -o -name "SKILL.md" -o -name "*.md" -o -name "*.json" \) -exec wc -l {} + | sort -n
 ```
+
+```
+    16 .cursor/skills/hugo-template-guidance/references/preflight-checks.md
+    17 .cursor/rules/session-close.mdc
+    18 .cursor/rules/git-commits.mdc
+    25 .cursor/skills/hugo-template-guidance/references/page-configuration.md
+    26 .cursor/rules/deploy-commits.mdc
+    29 .cursor/rules/agent-config-sync.mdc
+    30 .cursor/rules/ponytail.mdc
+    32 .cursor/skills/find-skills/SKILL.md
+    33 .cursor/skills/hugo-template-guidance/SKILL.md
+    35 .cursor/skills/hugo-template-guidance/references/detect-mode.md
+    35 .cursor/skills/hugo-template-guidance/references/hugo-modules.md
+    38 .cursor/rules/self-improvement.mdc
+    40 .cursor/skills/hugo-template-guidance/references/i18n-guidance.md
+    41 .cursor/skills/ponytail-audit/SKILL.md
+    44 .cursor/skills/ponytail-debt/SKILL.md
+    48 .cursor/skills/ai-writing-system/style-priorities.md
+    50 .cursor/skills/ponytail-gain/SKILL.md
+    50 .cursor/skills/ponytail-help/SKILL.md
+    51 .cursor/skills/hugo-template-guidance/references/content-management.md
+    53 .cursor/skills/hugo-template-guidance/references/script-usage.md
+    54 .cursor/skills/hugo-template-guidance/references/component-usage.md
+    54 .cursor/skills/hugo-template-guidance/references/project-architecture.md
+    57 .cursor/skills/ai-writing-system/feedback-loop.md
+    57 .cursor/skills/ponytail-review/SKILL.md
+    62 .cursor/skills/garden-maintenance/SKILL.md
+    63 .cursor/rules/caveman.mdc
+    63 .cursor/skills/jorap-voice/author-context.md
+    69 .cursor/skills/free-grace/contrasts.md
+    73 .cursor/skills/hugo-template-guidance/references/styling-and-theming.md
+    77 .cursor/rules/safe-filenames.mdc
+    80 .cursor/rules/anti-slop.mdc
+    82 .cursor/skills/ai-writing-system/writing-samples.md
+    93 .cursor/skills/jorap-voice/recipe-style.md
+    99 .cursor/skills/changelog-update/SKILL.md
+   101 .cursor/skills/ponytail/SKILL.md
+   104 .cursor/skills/jorap-voice/writing-to-learn.md
+   110 .cursor/skills/ai-writing-system/SKILL.md
+   111 .curso
+… (output truncated)
+```
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I need to load all the rules and skills files to understand what's available. Most of the rules are already documented in the system prompt, but I'm missing the anti-slop rule file. I'll need to read the frontmatter from each rule and skill to get their descriptions and configuration details, then use parallel reads to fetch everything efficiently.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: for f in .cursor/rules/*.mdc; do echo &#34;=== $f&#34;; sed -n &#39;1,8p&#39; &#34;$f&#34;; done</summary>
+```bash
+for f in .cursor/rules/*.mdc; do echo "=== $f"; sed -n '1,8p' "$f"; done
+```
+
+```
+=== .cursor/rules/agent-config-sync.mdc
+---
+description: Keep Cursor and Kilo Code agent rules/skills in sync — single canonical .cursor/ tree, no duplicates
+alwaysApply: true
+---
+
+# Agent config sync (Cursor + Kilo Code)
+
+Rules and skills have **one canonical home**: `.cursor/rules/` and `.cursor/skills/`. Kilo Code reads the same paths via root `kilo.jsonc`; do not copy or symlink into `.kilo/` or `.kilocode/`.
+=== .cursor/rules/anti-slop.mdc
+---
+description: Anti-AI-slop rules for blog posts and notes garden. Use when drafting, rewriting, or publishing content under content/english/blog/ or content/english/notes/.
+globs:
+  - content/english/blog/**
+  - content/english/notes/**
+---
+
+# Anti-slop (blog + notes)
+=== .cursor/rules/caveman.mdc
+---
+description: >-
+  Caveman speak — ultra-compressed replies (default full). Drop fluff, keep
+  technical accuracy. Source: JuliusBrussee/caveman.
+alwaysApply: true
+---
+
+# Caveman
+=== .cursor/rules/deploy-commits.mdc
+---
+description: Cloudflare Pages deploy discipline - skip builds for non-site commits
+alwaysApply: true
+---
+
+# Deploy commits
+
+Cloudflare Pages free tier budgets ~500 builds/month per account. Every `git push` to the production branch triggers a build unless the commit is skipped.
+=== .cursor/rules/git-commits.mdc
+---
+description: Never commit or push unless the user explicitly asks in that turn
+alwaysApply: true
+---
+
+# Git commits
+
+Do **not** `git commit`, `git push`, or stage files for commit unless the user explicitly asks in that turn.
+=== .cursor/rules/ponytail.mdc
+---
+description: Ponytail, lazy senior dev mode. Always pick the simplest solution that works.
+globs:
+alwaysApply: true
+---
+
+# Ponytail, lazy senior dev mode
+
+=== .cursor/rules/safe-filenames.mdc
+---
+description: Cross-platform safe filenames on Windows, Linux, and macOS
+alwaysApply: true
+---
+
+# Safe filenames
+
+When creating, renaming, or suggesting file paths, use names that work on all three OSes.
+=== .cursor/rules/self-improvement.mdc
+---
+descri
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/rules/anti-slop.mdc</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm going to batch read the SKILL.md files from the 19 skill directories in parallel to gather all the skill information.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls -la .cursor/skills/ &amp;&amp; echo &#34;---FRONTMATTER---&#34; &amp;&amp; for f in .cursor/skills/*/SKILL.md; do echo &#34;=== $f&#34;; awk &#39;/^---$/{c++; next} c==1&#39; &#34;$f&#34;; done</summary>
+```bash
+ls -la .cursor/skills/ && echo "---FRONTMATTER---" && for f in .cursor/skills/*/SKILL.md; do echo "=== $f"; awk '/^---$/{c++; next} c==1' "$f"; done
+```
+
+```
+total 92
+drwxr-xr-x 22 root root 4096 Aug  3 00:55 .
+drwxr-xr-x  4 root root 4096 Jun 21 22:58 ..
+drwxrwxr-x  2 root root 4096 Jul 29 18:27 ai-writing-system
+drwxr-xr-x  2 root root 4096 Jun 19 10:01 alex-eala-tracker-update
+drwxrwxr-x  2 root root 4096 Jun 22 11:23 changelog-update
+drwxr-xr-x  2 root root 4096 Jun 20 10:39 find-skills
+drwxrwxr-x  2 root root 4096 Jun 22 10:07 flashcards
+drwxrwxr-x  2 root root 4096 Aug  2 18:01 free-grace
+drwxrwxr-x  2 root root 4096 Jul 25 18:14 garden-maintenance
+drwxrwxr-x  2 root root 4096 Jul 10 14:14 garden-voice
+drwxr-xr-x  3 root root 4096 Jun 20 10:39 hugo-template-guidance
+lrwxrwxrwx  1 root root   60 Jun 20 10:48 impeccable -> ../../../impeccable/dist/universal/.cursor/skills/impeccable
+drwxrwxr-x  2 root root 4096 Jul 30 09:31 jorap-voice
+drwxrwxr-x  2 root root 4096 Aug  3 00:05 llm-council
+drwxrwxr-x  2 root root 4096 Jul 29 19:10 personal-context-management
+drwxr-xr-x  2 root root 4096 Jun 21 22:58 ponytail
+drwxr-xr-x  2 root root 4096 Jun 21 22:58 ponytail-audit
+drwxr-xr-x  2 root root 4096 Jun 21 22:58 ponytail-debt
+drwxr-xr-x  2 root root 4096 Jun 21 22:58 ponytail-gain
+drwxr-xr-x  2 root root 4096 Jun 21 22:58 ponytail-help
+drwxr-xr-x  2 root root 4096 Jun 21 22:58 ponytail-review
+drwxrwxr-x  2 root root 4096 Aug  3 00:55 six-hats
+drwxr-xr-x  2 root root 4096 Jun 21 22:58 sync-upstreams
+---FRONTMATTER---
+=== .cursor/skills/ai-writing-system/SKILL.md
+name: ai-writing-system
+description: >-
+  JoRap's AI writing system (Tiago Forte model): interview for ideas, draft in voice,
+  polish with lint. Use when starting a new blog post or note from scratch, expanding
+  an outline, running a writing session, or when the user says "AI writing system",
+  "write like me", or "draft from my notes". Routes to jorap-voice (blog) or
+  garden-voice (notes). Style guide already lives in those skills — this skill runs
+  the implementation guide and feedback loop.
+=== .cursor/skills/alex-eala-tracker-update/SKILL.md
+name: alex-eala-tr
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm going to batch read the skill bodies, starting with the most substantive ones like jorap-voice, garden-voice, flashcards, and several others that seem important to the system.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/free-grace/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I need to go through the remaining skills and batch them together, then check for any conflicts—like garden-voice and free-grace both claiming GSOT but with different restrictions. I also notice the flashcards skill uses npm while everything else relies on pnpm, which could be a compatibility issue to flag.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/llm-council/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/six-hats/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I've got a batch of remaining items to work through: ai-writing-system, changelog-update, find-skills, garden-maintenance, hugo-template-guidance, personal-context-management, and the ponytail family group with six entries. Let me start reading through these.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ai-writing-system/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/personal-context-management/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/hugo-template-guidance/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-maintenance/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/changelog-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/find-skills/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Now I'm moving on to the ponytail family files and need to validate cross-references while running the lint checks to catch any configuration issues.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail-review/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail-gain/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail-help/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail-audit/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ponytail-debt/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I need to verify a bunch of things—checking for broken cross-references, making sure referenced scripts and files actually exist, confirming that the pnpm scripts mentioned in skills are defined in package.json, and running the lint:agent-config check to make sure everything passes.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node -e &#34;const p=require(&#39;./package.json&#39;);console.log(Object.keys(p.scripts).join(&#39;\n&#39;))&#34; &amp;&amp; echo &#34;--- sync-upstreams files ---&#34; &amp;&amp; ls .cursor/skills/sync-upstreams/ &amp;&amp; echo &#34;--- referenced scripts exist? ---&#34; &amp;&amp; for f in scripts/ai-writing-samples-check.mjs scripts/lint-filenames.mjs scripts/sync-note-relationships.py scripts/archive/fix-flashcard-lengths.py scripts/archive/apply-nasb-quotes.py data/voice-words.yaml data/slop-rules.yaml data/ep-verse-explanations.yaml data/scripture-nasb1995.json; do [ -e &#34;$f&#34; ] &amp;&amp; echo &#34;OK  $f&#34; || echo &#34;MISSING  $f&#34;; done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node -e "const p=require('./package.json');console.log(Object.keys(p.scripts).join('\n'))" && echo "--- sync-upstreams files ---" && ls .cursor/skills/sync-upstreams/ && echo "--- referenced scripts exist? ---" && for f in scripts/ai-writing-samples-check.mjs scripts/lint-filenames.mjs scripts/sync-note-relationships.py scripts/archive/fix-flashcard-lengths.py scripts/archive/apply-nasb-quotes.py data/voice-words.yaml data/slop-rules.yaml data/ep-verse-explanations.yaml data/scripture-nasb1995.json; do [ -e "$f" ] && echo "OK  $f" || echo "MISSING  $f"; done
+```
+
+```
+dev
+build
+deploy
+serve
+preview:prod
+local
+hugo:prod-server
+preview
+watch
+update-modules
+format
+export:anki
+export:okf
+export:okf-blog
+import:obsidian
+lint:notes
+lint:frontmatter
+lint:cards
+audit:cards
+garden:health
+lint:garden
+lint:voice
+lint:blog
+lint:slop
+slop:scan
+slop:score
+lint:garden-voice
+garden-voice:scan
+voice:scan
+lint:utility-links
+lint:randomizer
+lint:filenames
+test:filenames
+lint:agent-config
+test:agent-config
+test:writing-samples
+test:search
+setup:hooks
+postinstall
+--- sync-upstreams files ---
+hugoplate-rsync-excludes.txt
+preserve-lists.md
+SKILL.md
+triage-hugoplate.sh
+--- referenced scripts exist? ---
+OK  scripts/ai-writing-samples-check.mjs
+OK  scripts/lint-filenames.mjs
+OK  scripts/sync-note-relationships.py
+MISSING  scripts/archive/fix-flashcard-lengths.py
+MISSING  scripts/archive/apply-nasb-quotes.py
+OK  data/voice-words.yaml
+OK  data/slop-rules.yaml
+OK  data/ep-verse-explanations.yaml
+OK  data/scripture-nasb1995.json
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:agent-config 2&gt;&amp;1 | tail -30</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:agent-config 2>&1 | tail -30
+```
+
+```
+$ node scripts/lint-agent-config.mjs
+agent config OK: 20 skill(s), 9 rule(s), Kilo → .cursor/skills
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm finding several issues in the documentation. The `scripts/archive/` directory was removed but flashcards and garden-voice still reference scripts that no longer exist—those are real defects. There's also a minor inconsistency where flashcards uses npm commands while the repo uses pnpm, and garden-maintenance references another script that appears to be cut off.
+
+I need to verify whether `normalize-notes-format.py` exists, check if the `benchmarks/` directory is actually in the repo (likely not, since it's an upstream skill), and confirm the `council/` directory. I'm also noticing some redundancy: ponytail appears both as a rule and a skill, and there's duplication across user and workspace scopes with `~/.cursor/rules/ponytail.mdc` and the workspace version being nearly identical—that's wasting tokens in the system prompt. Same issue with ponytail-related skills appearing in both `~/.cursor/skills` and the workspace `.cursor/skills`. Let me verify the remaining file paths to get a complete picture.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in scripts/normalize-notes-format.py benchmarks council content/english/blog/__interesting-facts-about-jorap.md content/english/blog/__six-hats-one-agent.md content/english/notes/flashcards.md content/english/notes/spaced-repetition.md content/english/blog/what-i-look-for-in-wireless-earphones.md content/english/blog/how-i-built-jorap-notes.md content/english/blog/mouse-wheel-click.md content/english/blog/why-i-stopped-playing-marvel-snap.md content/english/blog/miracle-isaiah-david.md content/english/notes/capture.md content/english/notes/rollback-principle.md content/english/notes/abide-in-me.md content/english/notes/take-smart-notes.md content/english/blog/__modified-atk-recipe-style-guide-rules.md docs/PRODUCT.md docs/DESIGN.md; do [ -e &#34;$f&#34; ] &amp;&amp; echo &#34;OK  $f&#34; || echo &#34;MISSING  $f&#34;; done; echo &#34;--- dup rules ---&#34;; diff -q ~/.cursor/rules/ponytail.mdc .cursor/rules/ponytail.mdc; ls ~/.cursor/skills/</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in scripts/normalize-notes-format.py benchmarks council content/english/blog/__interesting-facts-about-jorap.md content/english/blog/__six-hats-one-agent.md content/english/notes/flashcards.md content/english/notes/spaced-repetition.md content/english/blog/what-i-look-for-in-wireless-earphones.md content/english/blog/how-i-built-jorap-notes.md content/english/blog/mouse-wheel-click.md content/english/blog/why-i-stopped-playing-marvel-snap.md content/english/blog/miracle-isaiah-david.md content/english/notes/capture.md content/english/notes/rollback-principle.md content/english/notes/abide-in-me.md content/english/notes/take-smart-notes.md content/english/blog/__modified-atk-recipe-style-guide-rules.md docs/PRODUCT.md docs/DESIGN.md; do [ -e "$f" ] && echo "OK  $f" || echo "MISSING  $f"; done; echo "--- dup rules ---"; diff -q ~/.cursor/rules/ponytail.mdc .cursor/rules/ponytail.mdc; ls ~/.cursor/skills/
+```
+
+```
+OK  scripts/normalize-notes-format.py
+MISSING  benchmarks
+OK  council
+OK  content/english/blog/__interesting-facts-about-jorap.md
+OK  content/english/blog/__six-hats-one-agent.md
+OK  content/english/notes/flashcards.md
+OK  content/english/notes/spaced-repetition.md
+OK  content/english/blog/what-i-look-for-in-wireless-earphones.md
+OK  content/english/blog/how-i-built-jorap-notes.md
+OK  content/english/blog/mouse-wheel-click.md
+OK  content/english/blog/why-i-stopped-playing-marvel-snap.md
+OK  content/english/blog/miracle-isaiah-david.md
+OK  content/english/notes/capture.md
+OK  content/english/notes/rollback-principle.md
+OK  content/english/notes/abide-in-me.md
+OK  content/english/notes/take-smart-notes.md
+OK  content/english/blog/__modified-atk-recipe-style-guide-rules.md
+OK  docs/PRODUCT.md
+OK  docs/DESIGN.md
+--- dup rules ---
+Files /home/jorap/.cursor/rules/ponytail.mdc and .cursor/rules/ponytail.mdc differ
+impeccable
+ponytail
+ponytail-audit
+ponytail-debt
+ponytail-gain
+ponytail-help
+ponytail-review
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm seeing duplicate skill definitions across the global and workspace `.cursor` directories—ponytail, impeccable, and several ponytail-* variants appear in both locations and got included in the system prompt, creating visible duplication. The ponytail.mdc file also exists in both global user rules and workspace rules but with different content, where the global version has additional rungs that the workspace version lacks, causing conflicting ladder numbering since both are always applied. There's also a caveman entry to check.
+
+Since caveman mode is active, I need to keep this analysis terse. The caveman rule allows data tables but not decorative ones, so a ratings table should be fine. I'm also noting that there's no tool-call narration needed per the caveman rule, and since no repo files were actually edited, I can skip the session-close block. Looking at the always-applied token load across 8 workspace rules plus 1 global rule—roughly 360 lines always on—which is notable but acceptable. I should verify that the impeccable symlink resolves correctly and check the hugoplate reference.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; ls .cursor/skills/impeccable/ 2&gt;&amp;1 | head -5; echo &#34;--- caveman/ponytail overlap ---&#34;; wc -l .cursor/rules/*.mdc AGENTS.md | tail -1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && ls .cursor/skills/impeccable/ 2>&1 | head -5; echo "--- caveman/ponytail overlap ---"; wc -l .cursor/rules/*.mdc AGENTS.md | tail -1
+```
+
+```
+reference
+scripts
+SKILL.md
+--- caveman/ponytail overlap ---
+  407 total
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm putting together a report in straightforward terms with ratings from 1 to 10. Looking at three items: safe-filenames scores a 9 for being concrete and enforced by lint, though it's slightly verbose; ponytail.mdc gets a 6 because it duplicates the ponytail skill and conflicts with the global rules file, creating potential triple-application issues; and deploy-commits rates a 9.
+
+Continuing through the rest: agent-config-sync earns a 9 with lint enforcement, git-commits hits a perfect 10 for being short and unambiguous, session-close is a 7 since it's useful but adds always-on overhead with mostly "none" results and overlaps with self-improvement, self-improvement itself is an 8 with solid triggers and routing, caveman as a rule is a 6 because 63 lines of always-applied style preference creates significant overhead and conflicts with the harness's own guidance, and anti-slop is an 8 but has heavy duplication with jorap-voice and garden-voice.
+
+For the skills, jorap-voice and garden-voice both rate 9s with extremely detailed, verified content and references, though they carry significant bloat risk with 370+ lines and extensive ceremony across multiple passes and lenses.
+
+Flashcards is an 8 with strong domain rules but has some internal contradictions around whether subtle hint questions and pure cue-only formats are acceptable versus required. Free-grace is a 9 — the tightest audit skill here with a single source and clear pass/fail checklist. Alex-eala-tracker-update is a 9 despite being lengthy because it's genuinely intricate, though hardcoded facts like career highs risk rotting. Sync-upstreams is a 9 with excellent triage-before-apply logic and a never-auto-apply safelist. LLM-council is a 7 and well-specified.
+
+LLM-council is expensive though — it spins up five subagents on each side plus an HTML report just for a personal blog repo, and the trigger list is greedy with overlapping prompts like "what would you do" that also overlap with six-hats. Six-hats is an 8 and cheaper with clearer routing and hard anti-yes-man rules, so the existence of both creates redundancy. AI-writing-system is a 7 but mostly a routing table over existing voice rules, with the real value in the interview loop and the risk that voice rules now live in four places. Personal-context-management is a 6 — it reads more like conceptual notes about Forte videos than an actionable skill, though the "don't duplicate, link" principle is solid.
+
+Hugo-template-guidance is a 9 with a tight 33-line router and good progressive disclosure, though it asks to verify Tailwind vs Bootstrap when this repo already uses Tailwind v4. Garden-maintenance is a 9 — short, measurable, with exit codes and capped at 15 issues. Changelog-update is an 8 with precise formatting and clear include/skip lists. Find-skills is a 6 and mostly generic CLI work that's already superseded by built-in discovery. Ponytail as a skill is a 7 with good content but it triples with the existing rules. Ponytail-review is a 9 — tight format with tags, examples, scoring, and explicit out-of-scope boundaries.
+
+Ponytail-audit is an 8, essentially a thinner copy of review with repo-wide scope. Ponytail-debt is an 8 with concrete grep patterns and a no-trigger flag. Ponytail-gain is a 4 because it displays benchmark numbers from a benchmarks directory that doesn't exist here — the whole skill is unverifiable marketing, though the honesty boundary section is solid. Ponytail-help is a 6 as a menu when discovery is already automatic, but the JoRap defaults section excluding pixi.js has some repo value. Impeccable is vendored upstream at 3.9.1 with a working symlink, so I'd rate it an 8 even though it wasn't authored here.
+
+The overall score lands around 8. The main issues are duplicates everywhere — ponytail rules exist both globally and in the workspace with different ratings, plus there's a ponytail skill on top of that. Same problem with impeccable and other skills in both locations, all surfaced in the agent's list. There are dead script references, flashcards needs to switch from npm to pnpm, and ponytail-gain should either be deleted or point to real benchmarks. The anti-slop overlap with the two voice skills needs consolidation into one canonical list. I'm counting 9 rules and 20 skills total.
+
+I'll present this as two rating tables followed by prose on the defects — the ratings are factual data, not decoration, so tables work here. Also noting that ponytail.mdc has an empty globs key, which is harmless.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Read all 9 rules and 20 skills, plus checked every path, script, and pnpm task they reference. Config lint passes (`agent config OK: 20 skill(s), 9 rule(s)`). Overall quality is high — **8/10** — dragged down by one duplication problem and a handful of dead references.
+
+## Rules
+
+| Rule | Rating | Note |
+|---|---|---|
+| `git-commits` | 10 | Short, unambiguous, high stakes. Model rule. |
+| `deploy-commits` | 9 | Names exact skip/no-skip paths, backed by a real git hook. |
+| `agent-config-sync` | 9 | Enforced by `pnpm lint:agent-config`, which passes. |
+| `safe-filenames` | 9 | Concrete, has a lint, covers the Hugo alias edge case others miss. |
+| `self-improvement` | 8 | Clear encode triggers plus a "do not encode" section. |
+| `anti-slop` | 8 | Correctly globbed to content paths. Heavy overlap with the two voice skills. |
+| `session-close` | 7 | Useful, but always-on ceremony whose "Encode" line is nearly always `none`. |
+| `caveman` | 6 | Well-built for what it is, but 63 always-applied lines for a prose preference — the single biggest always-on tax. |
+| `ponytail` | 5 | Triplicated. See below. |
+
+## Skills
+
+| Skill | Rating | Note |
+|---|---|---|
+| `free-grace` | 9 | Single named source, numbered fail list, fixed audit output format. Tightest audit skill in the repo. |
+| `sync-upstreams` | 9 | Triage-before-apply, real classifier script, explicit never-auto-apply list. |
+| `hugo-template-guidance` | 9 | 33-line router over 11 reference files. Best progressive disclosure here. |
+| `garden-maintenance` | 9 | Measure/fix/encode/verify, exit codes, 15-issue cap. |
+| `alex-eala-tracker-update` | 9 | Fetch budgets and a real verification list. Long, but the task genuinely is. |
+| `ponytail-review` | 9 | Five tags, examples, one scoring line, explicit out-of-scope. |
+| `jorap-voice` | 9 | Deep and verified; every reference post exists. Ceremony is heavy (7 passes + 2 lenses + 2 books). |
+| `garden-voice` | 8 | Same quality, minus a dead script reference. |
+| `flashcards` | 8 | Strong domain rules, but three defects below. |
+| `changelog-update` | 8 | Exact format spec plus include/skip path lists. |
+| `six-hats` | 8 | Clear cheap-vs-expensive routing against `llm-council`. |
+| `ponytail-debt` | 8 | Real grep, defined row format, `no-trigger` rot flag. |
+| `ponytail-audit` | 8 | Mostly `ponytail-review` restated repo-wide. |
+| `impeccable` | 8 | Vendored upstream 3.9.1; symlink resolves. Not authored here. |
+| `ai-writing-system` | 7 | Thin router over the two voice skills; the interview loop is the real value. |
+| `llm-council` | 7 | Well specified but expensive (10 subagents + HTML report), and its trigger list grabs broadly. |
+| `ponytail` | 7 | Good content, wrong number of copies. |
+| `find-skills` | 6 | Generic, external CLI, little repo-specific value. |
+| `ponytail-help` | 6 | A menu for skills the agent already discovers. Only the "exclude from audits" line is repo-specific. |
+| `personal-context-management` | 6 | Reads like a note that became a skill — conceptual video summaries, low in-repo actionability. It warns against duplication while being it. |
+| `ponytail-gain` | 4 | Its entire payload is benchmark medians sourced from a `benchmarks/` directory that does not exist in this repo. |
+
+## What to fix first
+
+**Ponytail is loaded three times, and two copies disagree.** `~/.cursor/rules/ponytail.mdc` and `.cursor/rules/ponytail.mdc` are both `alwaysApply: true` and differ — the global one has a 7-rung ladder that adds "does it already exist in this codebase" and a root-cause bug-fix clause, the workspace one has 6 rungs. The `ponytail` skill is a third copy. Same for skills: `ponytail`, the five `ponytail-*`, and `impeccable` all exist in both `~/.cursor/skills/` and `.cursor/skills/`, so they show up twice in the agent's skill list. Keep the project copies, drop the global ones.
+
+**Two dead script references.** `scripts/archive/` was deliberately removed (`sync-upstreams` says so explicitly), but `flashcards` still points at `python3 scripts/archive/fix-flashcard-lengths.py` and `garden-voice` at `python3 scripts/archive/apply-nasb-quotes.py`.
+
+**`flashcards` contradicts itself on hint questions.** The Retention section says "Subtle hint questions are OK", the Card design rules table says "required on every front", and the Subtle hint section says "Pure cue-only is not enough". Optional or mandatory — pick one. It also calls `npm run lint:cards` while the repo is pnpm everywhere else.
+
+**The de-AI rules live in three places.** `anti-slop.mdc`, `jorap-voice`, and `garden-voice` each carry their own version of the AI-tell list. One canonical list, two pointers.
+
+Smaller items: `hugo-template-guidance` still hedges "Tailwind v4, Bootstrap 5, or hybrid — verify which" when this repo already knows the answer; `alex-eala-tracker-update` hardcodes career highs (No. 29 / No. 88) that will rot; `garden-voice` sources faith doctrine from "GSOT free grace" generally while the `free-grace` skill insists on Anderson only.

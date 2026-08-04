@@ -21,7 +21,7 @@ featured: false
 draft: true
 ---
 
-> **TL;DR**: Same Hugo site as the blog. `/notes/` is a linked garden of one-claim pages - I built the hosting stack first, and the graph, flashcards, and copy buttons grew on top once I had somewhere to put atomic notes in public. The blog is for long essays. The garden is for ideas I want to walk through and reuse.
+> **TL;DR**: Same Hugo site as the blog. `/notes/` is a linked garden of one-claim pages - glad I built the hosting stack first, and the graph, flashcards, and copy buttons grew on top once I had somewhere to put atomic notes in public. The blog is for long essays. The garden is for ideas I want to walk through and reuse.
 
 ## Two surfaces, one site
 
@@ -269,4 +269,4 @@ I am not selling JoRap Notes as a product. It is my corner of the internet, docu
 
 Walk [/notes/](/notes/) if you want to see it, or read [Getting Started](/notes/getting-started/) for the rules I hold myself to. The hosting and deploy side is [its own post](/blog/how-i-built-jorap-notes/).
 
-If you build something similar, start with one claim per file and working wikilinks. Add shareable thoughts, the graph, flashcards, and agent export after you have twenty notes worth linking - not before.
+If you build something similar, start with one claim per file and working wikilinks. Add shareable thoughts, the graph, flashcards, and agent export after you have twenty notes worth linking - not before. Glad the garden grew in that order.

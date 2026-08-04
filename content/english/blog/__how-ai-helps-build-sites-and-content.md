@@ -21,7 +21,7 @@ featured: false
 draft: true
 ---
 
-People keep asking whether AI will replace web developers and writers. My honest answer from the last year on jorap.com: **it replaced a lot of typing, not a lot of thinking.**
+People keep asking whether AI will replace web developers and writers. My honest answer from the last year on jorap.com: **it replaced a lot of typing, not a lot of thinking.** Glad the thinking part still needs me.
 
 The site you're reading is Hugo on Cloudflare Pages - graph view, flashcard review, typed note relationships, voice lint scripts, OKF export, the whole notes garden. Roughly **295 atomic notes**, **about 1,660 flashcards**, **77 blog posts** (live and draft), and a pile of Python lint scripts that encode what "sounds like me" before I ship.
 
@@ -128,4 +128,4 @@ Put house rules where the agent will read them - skills, rules files, a short `d
 
 Use AI for **throughput on shaped work** - first drafts, batch refactors, grep-the-whole-repo fixes, "run lint and show me what failed." Keep **taste, theology, and publish** on you.
 
-The multiplier is real on content and editorial loops. It's modest on architecture. The site still needs a person who knows what Thursday dinner is supposed to taste like - and which notes are worth linking before deadline week.
+The multiplier is real on content and editorial loops. It's modest on architecture. Glad the site still needs a person who knows what Thursday dinner is supposed to taste like - and which notes are worth linking before deadline week.

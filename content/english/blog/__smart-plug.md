@@ -15,7 +15,7 @@ featured: false
 draft: true
 ---
 
-I didn't get into smart plugs because I wanted a "smart home." I got into them because I kept walking upstairs to turn off a lamp I'd already left behind, or wondering whether the fan was still running.
+I didn't get into smart plugs because I wanted a "smart home." I got into them because I kept walking upstairs to turn off a lamp I'd already left behind, or wondering whether the fan was still running. Glad a small plug fixed a small annoyance.
 
 First plug I bought dropped offline every night because I stuck it behind a metal TV stand in a wifi dead zone. I blamed the brand, moved it six inches, and suddenly "smart home" meant something again.
 
@@ -89,4 +89,4 @@ If I can't answer yes to the first three, I skip it.
 
 Smart plugs are boring technology in the best way. They don't impress anyone at a party. They just quietly remove small daily friction - lights, fans, worry - for budget-tier money.
 
-Monday: put one plug on the lamp that's annoying to reach, name it by room, and skip the rest until that habit sticks.
+Monday: put one plug on the lamp that's annoying to reach, name it by room, and skip the rest until that habit sticks. Glad one plug was enough to start.

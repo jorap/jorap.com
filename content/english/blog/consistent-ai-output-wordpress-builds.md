@@ -20,7 +20,7 @@ featured: false
 draft: false
 ---
 
-Ask the same AI for the same WordPress feature on Tuesday and Thursday and you'll get two versions that both work and neither match. That's the problem nobody warns you about.
+Ask the same AI for the same WordPress feature on Tuesday and Thursday and you'll get two versions that both work and neither match. That's the problem nobody warns you about - and I'm glad I hit it early enough to write the rules down.
 
 ## The thing nobody warns you about
 
@@ -157,4 +157,4 @@ These days I open a chat with one line: use the helper, mirror `card.php`, follo
 
 I still get caught out. When a client invents a new ACF field label with a typo in it, nothing in the rules doc covers that, and I find the unescaped output the hard way. That's the 20% doing what the 20% does.
 
-Not faster. *Consistent.* That's the part I wasn't expecting to care about this much.
+Not faster. *Consistent.* That's the part I wasn't expecting to care about this much - and the part I'm glad I finally learned to protect.

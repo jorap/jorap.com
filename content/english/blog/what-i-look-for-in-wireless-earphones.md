@@ -17,7 +17,7 @@ featured: false
 draft: false
 ---
 
-I've been through a lot of wireless earphones. True wireless buds, neckbands, sport clips, over-ears, the cheap ones from the checkout aisle, the not-so-cheap ones I felt guilty about. Most of them ended up in a drawer within a month.
+I've been through a lot of wireless earphones. True wireless buds, neckbands, sport clips, over-ears, the cheap ones from the checkout aisle, the not-so-cheap ones I felt guilty about. Most of them ended up in a drawer within a month - glad the boring pair that stayed out of the drawer taught me what to keep.
 
 Over time, the list of things I actually care about has gotten shorter and pickier. Specs stopped mattering. Brand stopped mattering. What mattered was whether I'd still be wearing them at the end of the day.
 
@@ -119,4 +119,4 @@ Seven things. Almost nothing on the market hits all of them.
 
 The pair that currently checks every one of those boxes for me is the **Soundpeats RunFree.** Open-ear neckband design, all-day comfort even with glasses, a mic that holds up in actual meetings, physical buttons, USB-C charging, hard to lose around my neck - and priced like budget gear, not premium.
 
-It's not the flashiest pick. It's just the one that quietly wins on the list above and disappears around my neck for the rest of the day. If something better comes along on the same checklist, I'll switch. Until then, this is the pair I keep reaching for.
+It's not the flashiest pick. It's just the one that quietly wins on the list above and disappears around my neck for the rest of the day. Glad I still reach for it. If something better comes along on the same checklist, I'll switch. Until then, this is the pair that earned its keep.
