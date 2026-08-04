@@ -11,7 +11,7 @@ level_3: "Mirror what they said in one sentence, pause, then respond - playback 
 level_4: "Prescribing before the other person feels heard lands like correction - advice without playback feels like dismissal, and trust spends down."
 level_5: "Extend the order into [[Follow Their Lead]] and [[Gentleness]] - [[Safety Comes First]] is the exception when delay would let harm continue."
 examples:
-  - "A younger player kept explaining why he missed the free throw - I almost jumped in with form tips."
+  - "A younger player kept explaining why he missed the free throw - glad I almost jumped in with form tips and stopped to hear him first."
   - "My kid told me about a fight at school - I caught myself lining up a lecture and stopped."
 shareable_thought:
   - "Listen before fixing - repeat what you heard, then respond."

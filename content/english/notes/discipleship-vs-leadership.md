@@ -16,7 +16,7 @@ level_3: "Name which seat a decision serves before you act - upward to Christ or
 level_4: "[[Discipleship]] answers upward; [[Leadership]] answers outward - [[Servant Leadership]] overlaps on horizontal care but does not replace vertical allegiance."
 level_5: "Create a two-seat decision check that names what obedience to Christ requires and what care the people following you need."
 examples:
-  - "I ran the youth program like a CEO and skipped morning prayer for a month - leadership filled the calendar; discipleship is who I follow when nobody's watching."
+  - "I ran the youth program like a CEO and skipped morning prayer for a month - glad discipleship pulled me back to who I follow when nobody is watching."
   - "Promotion meant calm direction in the outage, but I still had to confess the shortcut I took on the report - leadership is who looks to me; discipleship is who I answer to."
 shareable_thought:
   - "Discipleship is who you follow upward; leadership is who looks to you for direction and care."

@@ -18,7 +18,7 @@ level_3: "Open the word after a fruitless week - treat lagging growth as lagging
 level_4: "Because standing was settled at belief, sanctification changes the walk, not the verdict - position already holy in Christ; condition still catching up."
 level_5: "Aim at [[Christlikeness]] through [[Abide in Me]] - Scripture retrains the habit loop; [[Grateful Obedience]] grows from thanks, not to earn acceptance."
 examples:
-  - "I knew the verse on anger and still lost it at dinner - sanctification is slow; my standing was settled at faith, and I am still being changed."
+  - "I knew the verse on anger and still lost it at dinner - glad sanctification is slow; my standing was settled at faith, and I am still being changed."
   - "I treated my quiet-time streak like proof God accepts me - faith saves; sanctification grows me after, it does not re-open the verdict."
 shareable_thought:
   - "After God declares a believer righteous, He keeps shaping habits and heart - growth, not the ticket in."

@@ -18,7 +18,7 @@ level_3: "Open Scripture and pray before forcing spiritual output - abiding mean
 level_4: "Fruit comes from attachment before grind; pruning hurts but serves yield over time under [[Free Grace]]."
 level_5: "Build a daily rhythm of Scripture, prayer, and obedience that keeps work attached to Christ, then use its fruit and pruning to refine the rhythm over time."
 examples:
-  - "I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went - abiding is opening the Bible before the news feed wins again."
+  - "I snapped at my kid after a week with almost no prayer or Scripture - glad opening the Bible before the news feed still reconnects me when willpower theater fails."
   - "I checked email three times before I prayed this morning and wondered why God felt far away - staying connected is the daily choice, not the badge from conversion day."
 shareable_thought:
   - "Fruit comes from staying connected to Christ, not from forcing growth by willpower alone."

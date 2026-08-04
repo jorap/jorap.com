@@ -13,7 +13,7 @@ level_3: "Move the space heater off the rug before lecturing the kids again abou
 level_4: "Because residual risk misleads when the hazard still exists, removal beats a likelihood matrix on paper."
 level_5: "Wire [[Hierarchy of Controls]] and [[Staged Rollout]] into the stack - limit exposure before you bet the whole lane."
 examples:
-  - "We moved the space heater off the rug before lecturing the kids again about not touching it."
+  - "We moved the space heater off the rug before lecturing the kids again about not touching it - glad the hazard move beat another warning speech."
   - "We moved the hot oil station away from the walk lane before buying more warning signs."
 shareable_thought:
   - "Name what can go wrong, how likely, how bad - then choose controls in order of strength."

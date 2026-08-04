@@ -25,7 +25,7 @@ level_3: "Audit who gravitates toward you after a stressful season - the orbit r
 level_4: "[[Walk by the Spirit]] shapes who drifts into your orbit over time - complaining attracts complainers when the magnet is you, not the job description."
 level_5: "Extend the magnet toward [[Christlikeness]] over years; audit the pull with [[By Their Fruits]]."
 examples:
-  - "My complaining attracted more complainers on the team - the magnet was me, not HR."
+  - "My complaining attracted more complainers on the team - glad I saw the magnet was me, not HR."
   - "David's cave gathered fighters - like attracted like courage."
 shareable_thought:
   - "Who you are is who you attract."

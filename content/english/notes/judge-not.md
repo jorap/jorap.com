@@ -22,7 +22,7 @@ level_3: "When you want to call out their speck, name your plank first."
 level_4: "Playing final judge skips your own plank and misreads their speck - [[Heart Righteousness]] keeps the standard inward, not a performance for bystanders."
 level_5: "Extend discernment without playing God - [[Heart Righteousness]] keeps the standard inward; [[By Their Fruits]] reads evidence without replacing His seat."
 examples:
-  - "I spotted my teammate's travel in five seconds and missed my own lazy dribble - judge not starts with the log in my eye."
+  - "I spotted my teammate's travel in five seconds and missed my own lazy dribble - glad judge not started with the log in my eye."
   - "I spotted a coworker's missed step in five seconds and missed my own plank for a month - Jesus was not saying ignore sin; He was saying remove your plank first."
 shareable_thought:
   - "Final judge on souls is not your job."

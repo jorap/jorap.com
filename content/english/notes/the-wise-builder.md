@@ -20,7 +20,7 @@ level_3: "Match one heard command to one done action this week - rock is obedien
 level_4: "Storms reveal foundation because profession without practice collapses - Lord Lord without doing the Father's will is empty profession, not a stumbled believer who repents."
 level_5: "Under [[Free Grace]], doing is not what saves - faith saves - but genuine hearing produces action; [[Faith and Works]] names the order storms reveal."
 examples:
-  - "We heard the coach's lecture on discipline and still skipped film study Tuesday - hearing without doing is sand; storms show which builder you are."
+  - "We heard the coach's lecture on discipline and still skipped film study Tuesday - glad the storm showed hearing without doing is sand."
   - "Safety training Monday, same shortcut Wednesday - wise builder hears and does; fool hears and nods."
 shareable_thought:
   - "Hearing the words is not enough."

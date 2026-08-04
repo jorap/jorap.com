@@ -16,7 +16,7 @@ level_3: "Take the kingdom to the next town this quarter - teach, proclaim, heal
 level_4: "Static stage hoarding keeps the kingdom in one room - mobile ministry costs travel and continuity, but people meet the kingdom where they live."
 level_5: "Extend the road pattern into [[Great Commission]] sends - this note is the Gospel biography of kingdom service in motion."
 examples:
-  - "I separated Sunday preaching from weekday integrity and wondered why nobody listened - kingdom on the road is word and deed in the same Tuesday."
+  - "I separated Sunday preaching from weekday integrity and wondered why nobody listened - glad kingdom on the road kept word and deed in the same Tuesday."
   - "I planned a big conference but ignored the neighbor on my street - Jesus moved village to village with teaching and touch in one bag."
 shareable_thought:
   - "Jesus went town to town teaching, preaching, and healing - one integrated rhythm, not three separate hats."

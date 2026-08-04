@@ -14,7 +14,7 @@ level_3: "Before you pick a side in a feud, ask what repair would require - then
 level_4: "Matthew 5:9 blesses those who do the reconciling work - avoiding conflict to keep comfort is not peacemaking."
 level_5: "Create a repair practice that mirrors the Father's [[Free Grace]]: name the wrong, speak truth without heat, and make one concrete move toward reconciliation."
 examples:
-  - "Two teammates were feuding in the locker room - I did not pick a side, I asked what it would take to fix it before the next game."
+  - "Two teammates were feuding in the locker room - glad I did not pick a side; I asked what it would take to fix it before the next game."
   - "Two coworkers wanted me to pick a side over lunch - I called the one I wronged first and asked what it would take to actually fix things."
 shareable_thought:
   - "Pursue peace on purpose - repair, truth in love, de-escalation - not just staying quiet."

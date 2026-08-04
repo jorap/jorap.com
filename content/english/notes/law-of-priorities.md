@@ -25,7 +25,7 @@ level_3: "List today's top three before you open the inbox - kingdom work gets n
 level_4: "[[Seek the Kingdom First]] is the faith filter - busy motion without kingdom order is still noise."
 level_5: "Extend the filter with [[Priorities Before the Inbox]] and [[Signal vs Noise]] - workplace order Acts 6 and Mary already named."
 examples:
-  - "I answered fifty Slack pings and never touched the sermon draft - activity masqueraded as accomplishment."
+  - "I answered fifty Slack pings and never touched the sermon draft - glad I finally saw activity masquerading as accomplishment."
   - "Martha's kitchen was loud; Mary's chair was the priority Jesus named."
 shareable_thought:
   - "Leaders understand that activity is not necessarily accomplishment."

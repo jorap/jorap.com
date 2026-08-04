@@ -12,7 +12,7 @@ level_3: "Publish the rough note or prototype, watch reaction, iterate - months 
 level_4: "The smallest release must still test demand: too little scope gives a false signal, while too much delays the learning that [[Drafting in Public]] makes possible."
 level_5: "Create a [[Lean Startup]] test, [[Ship It]] to real users, and extend what earns attention into [[Evergreen Notes]] or a fuller product."
 examples:
-  - "I sat on a half-planned birthday party for three months - we ordered pizza, one banner, kids had a blast, learned more than another month of Pinterest."
+  - "Glad ordering pizza, one banner, and calling it done beat three months of half-planned birthday party - kids had a blast, learned more than another month of Pinterest."
   - "We ran one new play in scrimmage before printing playbooks for the whole league - learned more in forty minutes than another week of polish."
 shareable_thought:
   - "Ship the smallest version that proves someone actually wants this - polish comes after proof."

@@ -13,7 +13,7 @@ level_3: "Cap active tags at five you would actually pick - if tagging takes lon
 level_4: "Frontmatter is publish metadata; the body is the writing - YAML breaks the build, Markdown typos rarely do."
 level_5: "Design the smallest tags-and-aliases scheme that makes [[PARA Method]] buckets searchable, then extend it toward [[Building a Personal API]] only when a real lookup needs more structure."
 examples:
-  - "I tagged every note with twelve labels and used none on search - cut to five I would actually pick."
+  - "Glad cutting to five tags I would actually pick beat twelve labels I never used on search."
   - "The team wiki had forty categories; new hires filed everything under Misc within a week."
 shareable_thought:
   - "If tagging a note takes longer than writing it, the system is fighting the writer."

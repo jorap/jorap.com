@@ -12,7 +12,7 @@ level_3: "Write one ugly paragraph about yesterday's customer call before collec
 level_4: "More capture can deepen the block when inventory replaces shipping, but empty input can also be real; diagnose whether the bottleneck is material, fear, or time."
 level_5: "Create a smallest-ship routine that turns one saved spark into a draft, then improve the routine from where it stalls."
 examples:
-  - "My kid stared at a blank training log for twenty minutes - I told her to write one messy line about today's warmup and the block lifted once something existed on the paper."
+  - "Glad telling her to write one messy line about today's warmup lifted the block - my kid had stared at a blank training log for twenty minutes."
   - "The new hire could not start the report - I said write one ugly paragraph about yesterday's customer call and the rest followed."
 shareable_thought:
   - "Thousands of notes and the page stays blank."

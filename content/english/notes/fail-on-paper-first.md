@@ -11,7 +11,7 @@ level_3: "The room assumes the project died - list causes, then patch the plan b
 level_4: "Pairs with [[Reversibility]] and [[Rollback Principle]] - failing on paper first asks what triggers the revert before users feel pain."
 level_5: "Build a premortem that names likely failure paths, early signals, owners, and rollback triggers before the launch makes each fix expensive."
 examples:
-  - "Before we passed the static site to the client we listed three ways they would call angry - fixed DNS docs and scope line before go-live, not after."
+  - "Before we passed the static site to the client we listed three ways they would call angry - glad fixed DNS docs and scope line went out before go-live, not after."
   - "Team assumed the tournament format failed - whiteboard showed scheduling was the killer; we moved pools before registration opened."
 shareable_thought:
   - "Before you commit, imagine the launch failed - name why, then fix the plan while rollback is cheap."

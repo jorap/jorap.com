@@ -11,7 +11,7 @@ level_3: "I took every client firefight until deploys slipped - knowing my lane 
 level_4: "[[Many Parts One Body]] is the faith picture - one Christ, many gifts; lane clarity is humility in practice, and hero coverage hides missing owners."
 level_5: "Extend lane clarity with [[Pareto Principle]] on where your slice matters and [[Invest in the Few]] for depth instead of thin coverage of every gap."
 examples:
-  - "I took every client firefight until deploys slipped - knowing my lane was architecture docs, not every support ticket."
+  - "I took every client firefight until deploys slipped - glad the slipped deploy taught me my lane was architecture docs, not every support ticket."
   - "Assistant coach tried calling plays and managing stats - lane clarity put him on defense drills where the team actually needed him."
 shareable_thought:
   - "Clarity on your role beats hero coverage of every gap - know the lane you actually run."

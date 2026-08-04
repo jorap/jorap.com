@@ -12,7 +12,7 @@ level_3: "Before you open the inbox, write the top three outcomes for the day - 
 level_4: "Many tasks with no first thing leave the better portion untouched - busyness is not the win."
 level_5: "Return to [[Law of Priorities]] - number what matters; protect the few against the flood of busy."
 examples:
-  - "I closed forty tickets and missed the one client save - activity looked like a win on the dashboard."
+  - "I closed forty tickets and missed the one client save - glad the save call that week taught me a busy dashboard is not accomplishment."
   - "All-day Slack while the launch checklist sat - busy hands, empty accomplishment."
 shareable_thought:
   - "Activity without accomplishment keeps hands busy while numbered priorities stay untouched."

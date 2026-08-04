@@ -12,7 +12,7 @@ level_3: "Teach one person your full playbook this quarter - judgment calls incl
 level_4: "A one-person bottleneck is addition theater - multiplication needs leaders who spawn leaders."
 level_5: "Practice [[Law of Explosive Growth]] with [[Invest in the Few]] - raise leaders; stop being the only teacher."
 examples:
-  - "I mentored nobody and hired six - when I took leave, the queue froze."
+  - "I mentored nobody and hired six - glad leave week froze the queue and taught me followers grow faster than leaders when I hoard the how."
   - "Every decision still needed me on Slack - followers grew, leaders did not."
 shareable_thought:
   - "Followers without leaders means you only add bodies - growth dies when you leave the room."

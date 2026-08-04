@@ -14,7 +14,7 @@ level_3: "Enter one topic, review the returned claim and scenes, then save the l
 level_4: "A fixed prompt improves consistency but can flatten voice or choose the wrong atom; human review still owns scope, truth, and fit."
 level_5: "Extend the prompt with a proven garden rule, test the output on several topics, and keep only the change that improves the notes."
 examples:
-  - "Topic was habit stacking - the prompt returned one claim, two scenes, and four shareable lines ready to paste into a new note file."
+  - "Glad the topic prompt returned one claim, two scenes, and four shareable lines ready to paste into a new note file when the topic was habit stacking."
   - "Topic was rollback principle - the prompt narrowed a broad DevOps idea to one deploy-window claim with examples from a client site pass-off."
 shareable_thought:
   - "Enter a topic; the prompt picks one atomic claim and asks for actionable examples in garden format."

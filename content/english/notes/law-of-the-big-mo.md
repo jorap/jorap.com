@@ -26,7 +26,7 @@ level_3: "When momentum is hot, protect the next two quick wins - do not celebra
 level_4: "Missed momentum costs more than slow starts - Mo leaks when you coast after the streak or strike twice from boredom."
 level_5: "Extend Mo protection with [[Compounding]] and [[Steward After the Win]] so the streak does not leak into coasting."
 examples:
-  - "We shipped three quick wins in January and the backlog shrank itself - March dithering killed the streak."
+  - "We shipped three quick wins in January and the backlog shrank itself - glad March dithering showed me what killed the streak."
   - "Joash hit the ground three times when he should have emptied the quiver - momentum left on the field."
 shareable_thought:
   - "Momentum is a leader's best friend."

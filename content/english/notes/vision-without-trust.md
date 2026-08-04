@@ -12,7 +12,7 @@ level_3: "Before the big vision talk, check whether they would follow you on a s
 level_4: "When the room wants a new captain more than your map, buy-in failed at the leader before the plan mattered."
 level_5: "Earn [[Law of Buy-In]] through [[Law of Connection]] first - trust then vision; slides cannot replace deposits."
 examples:
-  - "I unveiled the year plan and got polite silence - I had skipped months of smaller trust deposits."
+  - "I unveiled the year plan and got polite silence - glad that silence showed me I had skipped months of smaller trust deposits."
   - "Day-one roadmap from a new lead landed flat - they had not seen her carry load yet."
 shareable_thought:
   - "Vision without trust sells the dream before people trust the dreamer - the pitch dies early."

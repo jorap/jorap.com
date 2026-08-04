@@ -15,7 +15,7 @@ level_3: "Before the hard meeting or easy scroll, ask the Spirit for the next ob
 level_4: "[[Fruits of the Spirit]] show the walk over time, but fruit is not a performance score; under [[Free Grace]], obedience follows salvation and never buys it."
 level_5: "Build a daily pause before known temptations, then shape it into a rhythm that helps others choose one Spirit-led step at a time."
 examples:
-  - "I white-knuckled patience until Thursday then snapped - Galatians walking means asking the Spirit before the meeting, not performing virtue until I crack."
+  - "I white-knuckled patience until Thursday then snapped - glad Galatians walking means asking the Spirit before the meeting, not performing virtue until I crack."
   - "Temptation hit on a travel week and my phone was the easy exit - walking by the Spirit was one prayed no before the scroll won."
 shareable_thought:
   - "The Christian life runs on Spirit-led steps - not willpower sprints that collapse by Friday."

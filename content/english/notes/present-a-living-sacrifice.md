@@ -24,7 +24,7 @@ level_3: "On an ordinary Tuesday, surrender self-will in one concrete choice - w
 level_4: "Because mercy came first, the body offered is grateful worship - not payment to earn what [[Free Grace]] already gave."
 level_5: "Build an ordinary-Tuesday rule from [[Mercy]], [[Grateful Obedience]], and [[Renewed Mind]]: offer one concrete choice without turning the act into proof of worth."
 examples:
-  - "I stacked volunteer hours to feel acceptable again after a bad week - Romans 12:1 is living sacrifice from mercy already received, not a down payment on salvation."
+  - "I stacked volunteer hours to feel acceptable again after a bad week - glad Romans 12:1 is living sacrifice from mercy already received, not a down payment on salvation."
   - "The player taped her wrist before warm-up like the game was an offering, not a tryout for worth - same move at the desk: this Tuesday is worship, not a performance review with God."
 shareable_thought:
   - "Offer the ordinary day to God first."

@@ -13,7 +13,7 @@ level_3: "Before you run a hard drill, ask what skill it builds and what injury 
 level_4: "Intensity theater survives when purpose is weak - develop skill, do not endanger people to prove the session was hard."
 level_5: "Design a challenge that trains the real skill, removes avoidable harm, and increases difficulty only when the safer version no longer develops the person."
 examples:
-  - "The clinic can drill fire evacuation with a walk-through - not by blocking the only exit and hoping everyone stays calm."
+  - "The clinic can drill fire evacuation with a walk-through - glad we never blocked the only exit and hoped everyone stayed calm."
   - "A conditioning set can build endurance - an uncontrolled water exercise adds lethal risk without improving sport-specific performance; pick the drill that develops the skill."
 shareable_thought:
   - "People grow through drills that build skill without pain or risk replacing the actual skill."

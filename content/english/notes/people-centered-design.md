@@ -12,7 +12,7 @@ level_3: "Pilot with the people who must live in the rule - if they invent a byp
 level_4: "Official process and lived process diverge into [[Normalization of Deviance]] - you cannot design for people you did not hear."
 level_5: "Build a people-centered pilot: [[Listen Before Fixing]], make speaking up safe with [[Psychological Safety]], then use [[Staged Rollout]] to learn before scaling."
 examples:
-  - "The clinic rolled out a new chart template nobody could finish during a shift - people-centered design was watching one nurse chart for twenty minutes, then cutting three fields."
+  - "The clinic rolled out a new chart template nobody could finish during a shift - glad watching one nurse chart for twenty minutes cut three fields the flowchart defended."
   - "Our checkout 'improvement' added steps customers hated - people-centered design was shadowing three checkouts and removing the extra tap, not defending the flowchart."
 shareable_thought:
   - "Design for real human needs first."

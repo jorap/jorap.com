@@ -13,7 +13,7 @@ level_3: "Drain something from the queue every week - without a processing habit
 level_4: "Because capture feels like progress, unread queues inflate - [[The Collector's Fallacy]] names hoarding; review is the drain that saves the queue."
 level_5: "[[Capture]] is intake; [[The Trusted Inbox]] is the weekly drain - wire a habit so parking lot links leave the queue or get deleted."
 examples:
-  - "I saved forty highlight reels and watched twelve - the queue was guilt storage, not training."
+  - "Glad saving forty highlight reels and watching twelve finally showed the queue was guilt storage, not training."
   - "Four hundred saved articles on my phone and I would read twelve - parking lot, not reading."
 shareable_thought:
   - "Save for later is fine until the queue turns into a guilt pile never touched."

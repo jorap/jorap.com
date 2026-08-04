@@ -16,7 +16,7 @@ level_3: "Delete the sarcastic group-chat reply, listen first, then name one tru
 level_4: "Building up is not flattery or silence about harm; it joins truth, timing, and [[Gentleness]] so correction helps instead of becoming demolition."
 level_5: "Create a feedback habit that begins with listening, names useful truth, and checks whether the hearer left with something solid to build on."
 examples:
-  - "I almost sent the sarcastic group-chat reply - Ephesians 4 meant deleting it and naming one true thing my teammate did right."
+  - "I almost sent the sarcastic group-chat reply - glad Ephesians 4 meant deleting it and naming one true thing my teammate did right."
   - "Correction to my kid landed because we built up first at dinner - rotten speech would have shut his ears before the lesson."
 shareable_thought:
   - "Paul tells believers to speak words that build up - edifying speech gives grace to hearers, not debris."

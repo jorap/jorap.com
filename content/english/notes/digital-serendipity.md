@@ -12,7 +12,7 @@ level_3: "Link each new note to two neighbors so forgotten ideas can surprise yo
 level_4: "A walkable graph beats hoping you remember the right filename - [[Periodic Knowledge Review]] surfaces what links already connected before the crisis hits."
 level_5: "Create a linking rule and review path that turn forgotten notes into new claims when an old idea matches today's problem."
 examples:
-  - "A random note resurfaced a wikilink I had forgotten - it led to a blog post I had stalled."
+  - "Glad a random note resurfaced a wikilink I had forgotten - it led to a blog post I had stalled."
   - "The graph view showed an orphan I had written two years ago - perfect intro for today's draft."
 shareable_thought:
   - "Old notes surprise on schedule because links were made on purpose, not by luck."

@@ -12,7 +12,7 @@ level_3: "Before you blame the crew for stalled targets, ask whether your own le
 level_4: "A harsh answer after a promotion can split a room you inherited whole - the team cannot rise above the leader's lid."
 level_5: "Repair path is [[Law of the Lid]] plus [[Servant Leadership]] - raise capacity; delegate real decisions instead of protecting the ceiling."
 examples:
-  - "I kept every call myself after the promotion - the lid was my insecurity, not the org chart."
+  - "I kept every call myself after the promotion - glad the backlog month taught me the lid was my insecurity, not the org chart."
   - "New director answered every pushback with volume - half the squad routed around him within a month."
 shareable_thought:
   - "A low leadership lid caps the team - raise capacity or the load stalls under you."

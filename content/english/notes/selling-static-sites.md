@@ -20,7 +20,7 @@ level_3: "Quote discovery and scope yes/no before you touch a theme repo - domai
 level_4: "Because bundled fog hides labor behind server rent, pass-off models need [[Plain Commitments at Work]] clarity upfront."
 level_5: "Productize delivery and care as the offer - [[Client Site Pass-Off]] and [[Static Site Client Scope]] extend the labor-margin model past reseller hosting."
 examples:
-  - "Neighbor asked for a portfolio - quoted build, domain, and a modest hosting line; no mystery monthly package."
+  - "Glad the neighbor portfolio quote named build, domain, and a modest hosting line - no mystery monthly package."
   - "Pastor wanted a sermon archive - static fit; said no to member login and scoped brochure plus archive pages only."
 shareable_thought:
   - "Charge for the build and pass-off; hosting is a clear line item, not a mystery bundle."

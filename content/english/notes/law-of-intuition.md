@@ -27,7 +27,7 @@ level_3: "Pause the meeting when the room tone shifts - name what you sense befo
 level_4: "Intuition is pattern recognition under pressure, not mysticism - skip it and you bulldoze the room; worship it and you skip the map."
 level_5: "[[Surface Bad News Early]] and [[Decision Quality]] are workplace echoes when intuition must become a named call."
 examples:
-  - "I saw the meeting turning toxic and called a break before someone quit - intuition beat the agenda."
+  - "I saw the meeting turning toxic and called a break before someone quit - glad intuition beat the agenda."
   - "Barnabas risked reputation on Saul - he read potential others missed."
 shareable_thought:
   - "Leaders evaluate everything with a leadership bias."

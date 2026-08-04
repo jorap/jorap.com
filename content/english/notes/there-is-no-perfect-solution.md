@@ -11,7 +11,7 @@ level_3: "Compare real choices against each other, not against a perfect option 
 level_4: "Perfect solutions are imaginary comparators - [[Reversibility]] asks which mistake you can undo when every real choice has tradeoffs."
 level_5: "Extend the same move as [[Accept the Starting Line]] when waiting to feel ready blocks the good-enough move."
 examples:
-  - "I spent a week comparing strollers instead of walking with the baby we already had - picked the lighter one, went out tired that afternoon."
+  - "Glad picking the lighter stroller and going out tired that afternoon beat a week comparing models - I had spent a week instead of walking with the baby we already had."
   - "I stopped comparing note apps and shipped with the one that works on my phone tired - no perfect tool, only what I actually use."
 shareable_thought:
   - "There is no perfect solution - pick what works tired and ship instead of waiting for the ideal."

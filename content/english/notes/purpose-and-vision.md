@@ -14,7 +14,7 @@ level_3: "Write one sentence on the whiteboard - reduce checkout friction by hal
 level_4: "Because attention follows declared aim, vague direction makes noise masquerade as priority all at once."
 level_5: "Build a planning stack: name the outcome, review it through [[Quarterly Planning]], and protect it each morning with [[Priorities Before the Inbox]]."
 examples:
-  - "The team kept shipping random fixes until we wrote one sentence on the whiteboard - reduce checkout friction by half - and suddenly the backlog had a sort order."
+  - "The team kept shipping random fixes until we wrote one sentence on the whiteboard - reduce checkout friction by half - glad the backlog finally had a sort order."
   - "I kept saying yes to every sideline until I named the one outcome for the year - finish the notes garden, not grow six half-built projects."
 shareable_thought:
   - "A clear outcome anchors daily choices."

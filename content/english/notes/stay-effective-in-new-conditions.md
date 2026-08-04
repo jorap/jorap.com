@@ -13,7 +13,7 @@ level_3: "Walk the new counter before lunch rush instead of defending last month
 level_4: "Because nobody warns you the room changed, test one move from the new context before you scale the old playbook."
 level_5: "Swap methods through [[Adaptability]] - learn the new room's rules before imported certainty becomes the trap."
 examples:
-  - "I walked the new counter before the lunch rush instead of defending last month's habits when the line got long."
+  - "I walked the new counter before the lunch rush instead of defending last month's habits when the line got long - glad the walk beat habit when the floor changed."
   - "Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week - staying effective means adjusting footwork, not defending yesterday's surface."
 shareable_thought:
   - "The habit that worked in the last role can flop in the next room - retune instead of clinging."

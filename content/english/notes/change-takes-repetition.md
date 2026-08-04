@@ -14,7 +14,7 @@ level_4: "Repetition builds change only when the move is sound and feedback stay
 level_5: "Create a repeatable practice loop, measure where it stalls, and refine the move without abandoning the reps."
 examples:
   - "The inbound play only worked after six weeks of the same rep at practice - change takes repetition, not the inspirational speech before the tournament."
-  - "My capture habit finally held after months of the same ten-minute jeepney block - change takes repetition, not the weekend I reorganized every app."
+  - "My capture habit finally held after months of the same ten-minute jeepney block; glad repetition beat the weekend I reorganized every app."
 shareable_thought:
   - "Real change is the same moves on repeat, not one breakthrough weekend."
   - "Change takes repetition when the same levers run many times."

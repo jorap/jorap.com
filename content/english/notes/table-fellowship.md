@@ -16,7 +16,7 @@ level_3: "Invite one real meal with someone outside your polished circle before 
 level_4: "Under [[Free Grace]], eating with sinners is not endorsing sin - it is the Physician with the sick; [[Judge Not]] fails when you refuse the table."
 level_5: "[[Humility and Service]] washes feet; [[Love Your Neighbor]] loves the person in front - table fellowship is ministry at a meal, not a stage."
 examples:
-  - "I invited only the polished families to dinner and called it fellowship - Jesus ate with tax collectors while religious people grumbled from the doorway."
+  - "I invited only the polished families to dinner and called it fellowship - glad Jesus ate with tax collectors while religious people grumbled from the doorway."
   - "I posted about community over coffee but never sat with the awkward guy at lunch - table fellowship is one real meal, not a branded event."
 shareable_thought:
   - "Jesus ate with disciples and sinners - presence at the table was ministry, not a program slot."

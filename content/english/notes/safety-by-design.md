@@ -12,7 +12,7 @@ level_3: "Move the hot oil station off the walk lane before buying more warning 
 level_4: "Because loud failures happen, systems that assume rollback recover faster than heroics - [[Staged Rollout]] limits who hits before the hazard is proven safe."
 level_5: "Architect [[Reversibility]] at design time - make the dangerous move hard by default, not forbidden on paper only."
 examples:
-  - "We moved the hot oil station off the walk lane before buying more warning signs."
+  - "We moved the hot oil station off the walk lane before buying more warning signs - glad design beat another lecture."
   - "The playground gate opens toward the fence, not the street - design beat another lecture."
 shareable_thought:
   - "Build workflows so the dangerous move is hard - not just a warning label and good intentions."

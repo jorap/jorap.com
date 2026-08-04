@@ -16,7 +16,7 @@ level_3: "When struck, choose not to return the same cruelty - neighbor's passiv
 level_4: "Refusing to escalate works like [[Sunk Cost Fallacy]] on anger - stop throwing more rage after sunk hurt; [[Free Grace]] frees me to absorb cost without keeping score for heaven."
 level_5: "Goes further than [[The Golden Rule]] and pairs with [[Love Your Enemies]] - refuse to become what hurt you, not mirror evil back."
 examples:
-  - "Neighbor's passive-aggressive note about parking - I did not post a rebuttal on the group chat; stop throwing anger after sunk hurt."
+  - "Neighbor's passive-aggressive note about parking - glad I did not post a rebuttal on the group chat; stop throwing anger after sunk hurt."
   - "Someone snapped at me in the school pickup line and I spent the drive home drafting the comeback - turning the cheek is not pretending it did not hurt; it is not mirroring evil."
 shareable_thought:
   - "When someone hits or insults you, do not hand back the same."

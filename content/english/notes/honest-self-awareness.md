@@ -16,7 +16,7 @@ level_4: "When the plan assumes a person you are not, the first stressful week c
 level_5: "Create a realistic change plan from an honest inventory of strengths, gaps, time, and capacity, then revise the plan when new evidence changes the baseline."
 examples:
   - "I told the coach I cannot guard the quick point yet - honest self-awareness meant drills on foot speed, not pretending I would magically lock him up game night."
-  - "The capture system failed because I kept pretending I would review fifty notes a week - honest self-awareness was ten minutes on the jeepney, not another app I would abandon."
+  - "The capture system failed because I kept pretending I would review fifty notes a week; glad honest self-awareness meant ten minutes on the jeepney, not another app I would abandon."
 shareable_thought:
   - "Name strengths, gaps, and limits plainly so change targets stay realistic."
   - "Honest self-awareness is a plain inventory."

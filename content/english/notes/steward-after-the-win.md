@@ -15,7 +15,7 @@ level_3: "Ship three more notes while the traffic window is warm instead of stop
 level_4: "Because victory laps burn the gift, schedule tending moves - sharing, serving, maintenance - before the spike fades."
 level_5: "[[Success is Stewardship]] names the master entrusting the win; [[Faithful Steward]] names the long game over one viral week."
 examples:
-  - "Promotion email landed Monday and by Thursday I was delegating the messy work and grabbing the visible wins - the title was for their good, not a trophy to coast on."
+  - "Promotion email landed Monday and by Thursday I was delegating the messy work and grabbing the visible wins - glad steward after the win meant the title was for their good, not a trophy to coast on."
   - "Site traffic spiked after one post hit and I stopped publishing for two weeks - steward after the win meant three more notes shipped while the window was warm."
 shareable_thought:
   - "An early win comes entrusted, not as a license to coast."

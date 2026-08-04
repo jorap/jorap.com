@@ -29,7 +29,7 @@ level_3: "Block one hour weekly for skill you cannot microwave - leadership reps
 level_4: "Skip the hidden years and you microwave a lid that cannot hold the load - process compounds in boring Tuesdays first."
 level_5: "[[Change Takes Repetition]] and [[Discipleship]] extend the same long game - build reps before the visible stage."
 examples:
-  - "I wanted to lead the ministry team after one good talk - the gap was years of showing up when nobody clapped."
+  - "I wanted to lead the ministry team after one good talk - glad the gap was years of showing up when nobody clapped."
   - "Moses at eighty finally returned - the process outlasted Pharaoh's urgency."
 shareable_thought:
   - "Leadership develops daily, not in a day."

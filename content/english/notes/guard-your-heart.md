@@ -15,7 +15,7 @@ level_3: "Mute the feed that leaves you hollow before morning prayer - gate inta
 level_4: "[[Renewed Mind]] needs clean fuel; under [[Free Grace]], guarding is discipleship wisdom - not a scorecard that buys heaven."
 level_5: "Create a guarding rule for the inputs that shape your inner life, then extend it when a new habit starts feeding anger, fear, or hollow worship."
 examples:
-  - "I knew the political rage thread was rotting my patience with my kids - Proverbs guarding meant mute and Scripture before scroll."
+  - "I knew the political rage thread was rotting my patience with my kids - glad Proverbs guarding meant mute and Scripture before scroll."
   - "Late-night shows left me hollow before morning prayer - guarding the heart was a hard stop at ten, not willpower at sunrise."
 shareable_thought:
   - "Proverbs says guard your heart - what you feed the inner life shapes everything downstream."

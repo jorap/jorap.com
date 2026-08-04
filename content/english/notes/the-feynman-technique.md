@@ -12,7 +12,7 @@ level_3: "Write one paragraph with no jargon before you file the note - mark eve
 level_4: "Teach-back stress-tests [[Depth of Understanding]] at Definition and Explanation - it does not replace Application, Systems, or Generative depth."
 level_5: "The stumble is the syllabus before you publish or link - same honesty check as [[Synthesis as a Goal]]; pairs with [[Deliberate Practice]] on the weak slice."
 examples:
-  - "My kid asked how the fuse box works and I waved vaguely - explaining it simply showed I did not understand it well enough to fix anything."
+  - "Glad my kid asking how the fuse box works showed I did not understand it well enough to fix anything - explaining it simply beat waving vaguely."
   - "The new hire asked why we batch invoices that way and I stumbled mid-sentence."
 shareable_thought:
   - "Teach the idea out loud to the blank page."

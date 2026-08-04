@@ -12,7 +12,7 @@ level_3: "Before you force the launch, ask what must be true this week for the s
 level_4: "Urgency that jumps the wait can cost the lasting trust the right clock would have kept."
 level_5: "Practice [[Law of Timing]] - check the clock before you lock the move; right action still needs the season."
 examples:
-  - "We shipped the feature during the freeze window - right code, wrong week."
+  - "We shipped the feature during the freeze window - glad the rollback was clean even though right code met wrong week."
   - "I forced the reorg the week after layoffs - the move was planned, the timing spent the room."
 shareable_thought:
   - "Right move wrong time means the action was sound and the clock was wrong - timing turns success into loss."

@@ -25,7 +25,7 @@ level_3: "Before the next promotion fight, name one cost you can absorb so someo
 level_4: "Addition without real cost becomes performance theater - serving only when the camera is on does not add value."
 level_5: "Wire addition into the leadership stack - [[Law of Sacrifice]] names the toll; [[Servant Leadership]] is the workplace frame for serving before credit."
 examples:
-  - "I let the junior pick the easier shift and the team trust jumped - addition looked like subtraction on my calendar."
+  - "I let the junior pick the easier shift and the team trust jumped - glad addition looked like subtraction on my calendar."
   - "Mark 10 - James and John wanted thrones; Jesus named the cup of service."
 shareable_thought:
   - "Leaders add value by serving others."

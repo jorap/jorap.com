@@ -15,7 +15,7 @@ level_3: "Before you promise, check capacity - if you need hype to sound credibl
 level_4: "Plain answers build trust only when capacity and scope are honest - a crisp yes still fails when the deadline or owner is fiction."
 level_5: "Create a commitment template from [[Let Your Yes Be Yes]] and [[Integrity]]: one owner, one deadline, one scope, and one early no when capacity is gone."
 examples:
-  - "I said yes to Friday delivery in the meeting and meant it - no silent scope creep over Slack that night."
+  - "I said yes to Friday delivery in the meeting and meant it - glad plain yes held with no silent scope creep over Slack that night."
   - "The coach promised equal minutes and tracked them on the whiteboard - parents stopped guessing."
 shareable_thought:
   - "Say yes or no clearly - no stack of qualifiers so people trust a weak promise."

@@ -11,7 +11,7 @@ level_3: "Name the next physical action that finishes the decision and do it bef
 level_4: "Execution turns a decision into finished work - the standard is done, not discussed; pairs with [[Getting Things Done]] next-action clarity when the gap is task capture, not intent."
 level_5: "Build an execution handoff that names the owner, next physical action, deadline, and proof of done so the decision can land without another meeting."
 examples:
-  - "Our block cleanup had a group chat full of enthusiasm and no bags until one neighbor showed up with gloves and a start time."
+  - "Glad one neighbor showed up with gloves and a start time - our block cleanup had a group chat full of enthusiasm and no bags until then."
   - "The coach drew a beautiful play on the whiteboard - execution started when players were on the field and someone named who cuts where on the first whistle."
 shareable_thought:
   - "A decision earns nothing until finished work lands, not when the slide deck or the intention is done."

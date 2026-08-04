@@ -13,7 +13,7 @@ level_3: "Set this month's pace by what you can repeat next month without cuttin
 level_4: "Burnout and corner-cutting both show up on the lagging indicator - [[Energy Protects Judgment]] when nobody is watching is the same lane."
 level_5: "Build recovery into the plan before the sprint - same intensity question as [[The 12 Week Year]] when quarterly push skips rest."
 examples:
-  - "I cannot sprint bedtime-and-homework heroics five nights a row - sustainable performance is an earlier lights-out one night so Thursday does not blow up."
+  - "I cannot sprint bedtime-and-homework heroics five nights a row - glad an earlier lights-out one night kept Thursday from blowing up."
   - "The kitchen ran Friday pace five nights straight and quality slid by Wednesday - sustainable performance would have cut a night off instead of mortgaging next week's tickets."
 shareable_thought:
   - "Aim for a pace you can hold next month without burning out or cutting safety corners."

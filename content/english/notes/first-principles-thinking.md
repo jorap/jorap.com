@@ -13,7 +13,7 @@ level_3: "Explain the idea on a blank page without citing the source - the stumb
 level_4: "Because borrowed language hides gaps, rebuilding exposes what you actually understand versus what you only bookmarked."
 level_5: "Rebuild the claim from its smallest defensible parts, then extend it to a new case and show where the original source no longer carries the reasoning."
 examples:
-  - "I kept quoting parenting advice from a podcast until I wrote what I actually believe about bedtime - first principles was my own claim, not someone else's quote."
+  - "Glad I kept quoting parenting advice from a podcast until I wrote what I actually believe about bedtime - first principles was my own claim, not someone else's quote."
   - "The HOA kept adding signs about parking until a neighbor asked why people park wrong - turns out we needed one marked loading zone, not five new rules."
 shareable_thought:
   - "Rebuild from what you actually believe, not a quote filed as someone else line."

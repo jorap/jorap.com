@@ -19,7 +19,7 @@ level_3: "Ask which road you are walking today - the crowded broad road or the n
 level_4: "Storms later reveal which foundation held - profession without the narrow gate collapses when pressure hits."
 level_5: "In [[Free Grace]] terms, the narrow gate is faith in Christ - not the broad road of self-righteousness, religion-by-works, or moral performance as salvation."
 examples:
-  - "Group chat gossip was \"just joking\" - narrow way was not forwarding the screenshot even when staying out made me the odd one."
+  - "Group chat gossip was labeled just joking - glad the narrow way meant not forwarding the screenshot even when staying out made me the odd one."
   - "Everyone cheered the dirty play that won - the narrow way was passing it up when the ref did not see, even alone on the bench."
 shareable_thought:
   - "The road to life is narrow and hard."

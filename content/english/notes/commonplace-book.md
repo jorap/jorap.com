@@ -12,7 +12,7 @@ level_3: "Copy the sermon line or recipe into one book you actually reopen, with
 level_4: "Curation saves retrieval time but can strip context or become a dead quote pile; [[Literature Notes]] add your own words before reuse."
 level_5: "Build a commonplace collection around a live project, then turn one saved line into a linked note or finished piece."
 examples:
-  - "Coach's old basketball playbook of sets and halftime talks - same job as my [[Capture]] file, paper instead of wikilinks."
+  - "Glad the coach's old basketball playbook of sets and halftime talks still does the same job as my [[Capture]] file - paper instead of wikilinks."
   - "Grandpa's notebook of sermon lines and recipes - quotes worth keeping before anyone had a [[digital garden]]."
 shareable_thought:
   - "Before linked notes, quotes and ideas lived in one book worth reopening."

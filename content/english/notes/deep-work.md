@@ -12,7 +12,7 @@ level_3: "Block ninety minutes with phone in the gym bag before the drill breakd
 level_4: "[[Capture]] takes the interruption so the block survives - deep work fails when the spark gets sorted mid-thought instead of landing in [[The Trusted Inbox]]."
 level_5: "Design a protected-work system with a hard boundary, a capture path for interruptions, and a shutdown rule that preserves the next block."
 examples:
-  - "Phone in the drawer while I help with math - one problem set actually finished instead of three distracted false starts."
+  - "Glad the phone in the drawer let one problem set actually finish instead of three distracted false starts while I helped with math."
   - "Phone in the gym bag for ninety minutes - one drill breakdown written that had been almost done for weeks."
 shareable_thought:
   - "Hard thinking earns uninterrupted blocks; capture catches what tries to interrupt."

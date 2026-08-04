@@ -16,7 +16,7 @@ level_3: "Five minutes in the parking lot with the co-worker who still has somet
 level_4: "Because mercy received demands mercy extended, the initiative sits on the one who knows there is a breach - fellowship restored, not salvation re-earned under [[Free Grace]]."
 level_5: "Create a repair-before-ceremony checklist: name the breach, go first like [[Peacemakers]], listen, make amends, then return to worship."
 examples:
-  - "I warmed up ready to compete while my teammate still had something against me from Wednesday - fix it courtside, then play."
+  - "I warmed up ready to compete while my teammate still had something against me from Wednesday - glad fixing it courtside came before play."
   - "I walked into the volunteer shift ready to serve while my co-worker still had something against me - five minutes in the parking lot first."
 shareable_thought:
   - "Fix the breach with your brother before the offering."

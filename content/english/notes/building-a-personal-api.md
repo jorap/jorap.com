@@ -13,7 +13,7 @@ level_3: "Choose one slug pattern and frontmatter shape, then use them on every 
 level_4: "Consistency improves reuse but adds rules to maintain; change the contract carefully because old notes and scripts may depend on it."
 level_5: "Extend the contract with one useful field, migrate existing notes, and prove a script can use it without special cases."
 examples:
-  - "Our pantry uses the same rule - snacks, baking, breakfast - my wife finds the rice without me re-explaining where everything lives."
+  - "Glad our pantry uses the same rule - snacks, baking, breakfast - my wife finds the rice without me re-explaining where everything lives."
   - "Our team names drills the same way every season - level, skill, variation - so a sub can run practice without a twenty-minute briefing."
 shareable_thought:
   - "Frontmatter and folders shaped so future you and scripts need no fresh briefing every time."

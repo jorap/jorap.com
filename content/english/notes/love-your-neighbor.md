@@ -27,7 +27,7 @@ level_3: "Before you decide who deserves help, ask what you would want if you we
 level_4: "Love your neighbor is active, not abstract - the command stays after [[Free Grace]] lands because the gift frees you to love without keeping score for salvation."
 level_5: "Extend neighbor-love into [[Mercy]] in the body - bandage, ride, cost covered - paired with loving God as the two commands Jesus ranked highest."
 examples:
-  - "The parent I would rather avoid sits on my side every game - I moved my chair over and asked how his kid's ankle was healing."
+  - "The parent I would rather avoid sits on my side every game - glad I moved my chair over and asked how his kid's ankle was healing."
   - "The neighbor I would rather avoid lives two doors down and his trash bins are always in my way - Jesus asked whether I am acting like a neighbor, the way I would want if I were stuck."
 shareable_thought:
   - "Love others the way you would want care if roles flipped."

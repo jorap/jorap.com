@@ -12,7 +12,7 @@ level_3: "Before you announce the march, write risks and route on one page - no 
 level_4: "Public yes without a cost count leaves a stump - unfinished work spends the crew's trust."
 level_5: "Repair with [[Law of Navigation]] - chart first; planning is the work of a [[Faithful Steward]] for the crew, not theater."
 examples:
-  - "We had launch energy and no phased plan - the whiteboard was empty while Slack was loud."
+  - "We had launch energy and no phased plan - glad the first blocker week taught me an empty whiteboard with loud Slack is steering without a chart."
   - "Kickoff slides promised Q3 without a risk page - the first blocker made the stump public."
 shareable_thought:
   - "Steering without a chart is busy motion that sinks the crew when the first storm hits."

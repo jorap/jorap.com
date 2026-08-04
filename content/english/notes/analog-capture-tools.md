@@ -12,7 +12,7 @@ level_3: "Scribble on whatever is handy, then copy into your trusted inbox the s
 level_4: "Paper works without power or permission, but it adds a transfer step - the tool stays useful only when scraps reach the trusted inbox before memory fades."
 level_5: "Build an analog fallback that names the paper surface, the trusted inbox, and the same-day transfer trigger for moments when screens fail."
 examples:
-  - "The phone dies mid-sermon and I scribble Philippians references in the margin - I copy them into my study Bible at the kitchen table Sunday night."
+  - "Glad the margin scribble survived when the phone died mid-sermon - I copied Philippians references into my study Bible at the kitchen table Sunday night."
   - "Stuck in a dead-zone meeting, I jot the action items on the back of the agenda instead of pretending I will remember them at the car."
 shareable_thought:
   - "Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule."

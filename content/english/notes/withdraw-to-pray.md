@@ -16,7 +16,7 @@ level_3: "Before the group chat takes over breakfast, close the door, put down t
 level_4: "Withdrawal can become avoidance, but Jesus returned to serve; under [[Free Grace]], the practice does not earn favor but trains dependence when demand rises."
 level_5: "Create a protected prayer rhythm before predictable pressure points, then adjust its time and place until solitude feeds faithful service."
 examples:
-  - "The group chat blew up before breakfast and I almost replied in bed - withdraw to pray is door closed, phone down, five minutes with the Father before I serve the day."
+  - "The group chat blew up before breakfast and I almost replied in bed - glad withdraw to pray meant door closed, phone down, five minutes with the Father before I serve the day."
   - "Back-to-back meetings all afternoon and I snapped at the last one - Jesus slipped away when drained; I skipped prayer and brought empty fumes to the room."
 shareable_thought:
   - "Jesus rose early and prayed alone before crowds pressed in - solitude refuels service, not escape."

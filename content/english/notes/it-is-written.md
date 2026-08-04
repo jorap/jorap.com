@@ -17,7 +17,7 @@ level_3: "Load the verse before the group chat bait arrives - Scripture ready be
 level_4: "Temptation meets pre-loaded Scripture or scrambling loses - [[Renewed Mind]] reshapes judgment; [[Abide in Me]] names staying in His words as the reflex under pressure."
 level_5: "Build a Scripture response for a recurring temptation by choosing the verse now, rehearsing it in context, and extending it into the decision you will make under pressure."
 examples:
-  - "The group chat baited me to fire back and I almost typed a sermon - Scripture was already loaded before the adrenaline hit."
+  - "The group chat baited me to fire back and I almost typed a sermon - glad Scripture was already loaded before the adrenaline hit."
   - "Tempted to pad the expense report because nobody would know - no new argument invented in the moment, just what God already said about honesty."
 shareable_thought:
   - "Jesus answered temptation with Scripture already in Him - not improvised slogans under pressure."

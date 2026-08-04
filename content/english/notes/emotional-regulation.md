@@ -15,7 +15,7 @@ level_4: "Regulation is not numbness - it is the gap between heat and the next s
 level_5: "Build a pause practice that catches the spike, names it, delays the first draft, and gives the next sentence a calmer path."
 examples:
   - "A customer snapped at the cashier and she kept her voice level - regulation is not numbness, it is not mailing the first draft."
-  - "My kid's homework meltdown made my face hot; I took a kitchen walk before I answered."
+  - "My kid's homework meltdown made my face hot; glad the kitchen walk held before I mailed the first draft of an answer."
 shareable_thought:
   - "Feel the spike without letting it pick the next sentence."
   - "One unchecked reply can feed a thread you did not mean to start."

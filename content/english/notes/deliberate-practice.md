@@ -12,7 +12,7 @@ level_4: "Comfortable reps signal drift - stay on what breaks until it holds, ev
 level_5: "Design a drill around the weak slice - set the rep, feedback, correction, and harder variation that extends the skill once it holds."
 examples:
   - "The new cashier drills voids and returns ten times, not the whole shift on autopilot - feedback, correction, repeat on what breaks."
-  - "My kid's recital died in the bridges between songs - deliberate practice was running only those transitions ten times; the rest she already knew."
+  - "My kid's recital died in the bridges between songs; glad deliberate practice on those transitions ten times saved the rest she already knew."
 shareable_thought:
   - "Train the weak slice on purpose."
   - "Feedback, correction, repeat - not the part already nailed."

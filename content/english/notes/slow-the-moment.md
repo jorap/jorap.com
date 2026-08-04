@@ -13,7 +13,7 @@ level_3: "One breath before the free throw with the game on the line - buy the r
 level_4: "Because reflex beats judgment when voices stack up, the pause is not paralysis - hard calls still need an answer after the beat."
 level_5: "Pair with [[Composure]] and [[Decision Quality]] - slow one breath to choose well, not to dodge what must be decided."
 examples:
-  - "Cut off in traffic, my first instinct matched horn for horn - slow the moment was one breath before I became the driver I hate."
+  - "Cut off in traffic, my first instinct matched horn for horn - glad one breath before I became the driver I hate."
   - "Before the free throw with the game on the line, the shooter took one breath - slow the moment bought the routine instead of the panic heave."
 shareable_thought:
   - "Slow one breath before answering."

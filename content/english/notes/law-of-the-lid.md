@@ -25,7 +25,7 @@ level_3: "Before you blame the crew for missed targets, ask whether your own lea
 level_4: "The lid shows up before org charts - Aaron folded without Moses, David out-led Saul, Rehoboam split the kingdom; raise the lid or the load stalls."
 level_5: "Raise the lid through [[Servant Leadership]]; under [[Free Grace]] growth is discipleship fruit, not a merit badge for heaven."
 examples:
-  - "I took a team lead role but kept making every call myself - the lid was my insecurity, not the org chart."
+  - "I took a team lead role but kept making every call myself - glad I saw the lid was my insecurity, not the org chart."
   - "Saul stayed in the tent while David faced Goliath - the anointed king's lid was fear; the shepherd's was courage."
 shareable_thought:
   - "Leadership ability determines a person's level of effectiveness."

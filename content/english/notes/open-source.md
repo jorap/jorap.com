@@ -10,7 +10,7 @@ level_3: "Before adopting a project, read its license and confirm that it grants
 level_4: "License rights do not guarantee quality, maintenance, easy exits, or zero cost - [[Open Not Maintained]] and stacks you cannot move can still consume evenings, hosting, and security work."
 level_5: "Fork or contribute to an open project under its license, document what you changed, and publish the extension without crossing into [[Say No to Nulled]]."
 examples:
-  - "ASP tutorial sites hid behind licenses on a student budget - PHP shipped as a zip I could run that weekend without a product key."
+  - "Glad PHP shipped as a zip I could run that weekend without a product key when ASP tutorial sites hid behind licenses on a student budget."
   - "XOOPS theme files were plain PHP in a folder I could edit - the license let me learn by breaking templates, not by begging for a demo account."
 shareable_thought:
   - "Open source is a license that lets you install, read, fork, and ship the code without a product key."

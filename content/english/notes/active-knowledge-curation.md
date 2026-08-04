@@ -12,7 +12,7 @@ level_3: "Block one monthly review to trash links nobody would act on today and 
 level_4: "Curation turns captures into a garden, but endless pruning can replace making - keep notes that support current thinking and cut the rest before the pile becomes hoarding."
 level_5: "Build a monthly curation rule that decides what to delete, connect, rewrite, or promote into work worth sharing."
 examples:
-  - "A first-Sunday idea pile review trashes saved links nobody would act on today and finally links half-finished thoughts."
+  - "Glad the first-Sunday idea pile review trashes saved links nobody would act on today and finally links half-finished thoughts."
   - "Our trainer reviews the drill library monthly and cuts what nobody runs anymore - same job as pruning notes that would not make today's practice plan."
 shareable_thought:
   - "A folder of unread saves is not a garden."

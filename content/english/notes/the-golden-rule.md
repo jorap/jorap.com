@@ -17,7 +17,7 @@ level_3: "Run the experiential check before the hard conversation - pause before
 level_4: "The experiential check fails when you only avoid harm - [[Love Your Neighbor]] is the person in front, not a principle on a slide."
 level_5: "[[Free Grace]] keeps it from becoming a merit system - I treat others well because Christ treated me well first, not to earn standing."
 examples:
-  - "My thumb was on the post button with a critique that was probably true and definitely cruel - pause: how would I want someone to say that to me?"
+  - "My thumb was on the post button with a critique that was probably true and definitely cruel - glad the pause asked how I would want someone to say that to me."
   - "Before I barked at the ref in front of the kids, I asked how I would want a coach to talk to me after a bad call - the Golden Rule changed the volume."
 shareable_thought:
   - "Treat people how you want to be treated."

@@ -13,7 +13,7 @@ level_3: "Read the quote line-by-line against walk-through notes before you appr
 level_4: "A second look costs time before shipping but less than a customer-facing fix; the right depth depends on the harm a missed detail can cause."
 level_5: "Build a risk-based preflight checklist from past misses, assign the checks that matter most, and revise it when a new edge case escapes."
 examples:
-  - "We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical - the second read of the court map caught it."
+  - "We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical - glad the second read of the court map caught it."
   - "The contractor's quote had two rooms swapped in the floor plan - I caught it comparing the invoice line-by-line against the walk-through notes, not by trusting the PDF looked right."
 shareable_thought:
   - "Catch the typo and the edge case before they become an incident or a dumb customer email."

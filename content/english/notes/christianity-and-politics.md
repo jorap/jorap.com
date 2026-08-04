@@ -21,7 +21,7 @@ level_3: "Pay what is lawfully owed, serve your neighbor across party lines, and
 level_4: "Civic action can serve neighbors, but party loyalty can capture witness; [[Seek the Kingdom First]] keeps every movement below God's reign."
 level_5: "Build a public-life practice that tests policies by fruit, protects neighbor love, and keeps the gospel free from one party's flag."
 examples:
-  - "Tax bill landed and part of me wanted to treat paying it like betraying the kingdom - [[Render Unto Caesar]]: lawful duty and ultimate worship stay distinct."
+  - "Tax bill landed and part of me wanted to treat paying it like betraying the kingdom - glad [[Render Unto Caesar]] kept lawful duty and ultimate worship distinct."
   - "Group chat turned tribal after the election and my thumb hovered on a dunk - bless the neighbor, do not baptize the rage."
 shareable_thought:
   - "Caesar gets what Caesar is owed and God gets what is His."

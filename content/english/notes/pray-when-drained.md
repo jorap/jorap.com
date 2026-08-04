@@ -16,7 +16,7 @@ level_3: "After hosting Sunday school, go pray when the crowd leaves - do not co
 level_4: "Because exhaustion followed heavy service, prayer was [[Energy Protects Judgment]] - drained is the cue to meet God, not to numb out."
 level_5: "Build a post-service rhythm from Mark 6:46 and [[Jesus' Rhythms]]: dismiss the crowd, find solitude, pray, then rest without borrowing tomorrow's trouble."
 examples:
-  - "I collapsed on the couch after hosting Sunday school and skipped prayer - Jesus went up the mountain when the crowd finally left."
+  - "I collapsed on the couch after hosting Sunday school and skipped prayer - glad Jesus went up the mountain when the crowd finally left."
   - "The project shipped at midnight and I scrolled until 2am - drained was my cue to pray, not to numb out."
 shareable_thought:
   - "Jesus prayed alone after feeding five thousand - exhaustion is a cue to pray, not skip it."

@@ -15,7 +15,7 @@ level_3: "Seek today's kingdom work first and leave tomorrow's trouble for tomor
 level_4: "The antidote is not denial - it is priority - [[Seek the Kingdom First]], and let tomorrow carry its own trouble without stacking anxiety tonight."
 level_5: "Build a daily trust practice that names today's kingdom work, releases tomorrow's trouble, and points worry back to the Father's care."
 examples:
-  - "I thumb-refresh the news about tomorrow's meeting instead of sleeping - worry cannot add a single hour to life, and tomorrow can carry its own trouble."
+  - "I thumb-refresh the news about tomorrow's meeting instead of sleeping - glad trust reminded me worry cannot add a single hour to life."
   - "My kid asked what if the school fee goes up next year and I started spiraling at bedtime - trust is active dependence on a Father who already gave what I cannot earn."
 shareable_thought:
   - "Jesus told believers not to stack worry on food, clothes, or tomorrow."

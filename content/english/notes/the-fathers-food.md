@@ -16,7 +16,7 @@ level_3: "When duty and comfort collide, ask what the Sender's will is before yo
 level_4: "Under [[Free Grace]], the Father's will is not a wage for eternal life - it is the meal that nourishes a life already His."
 level_5: "[[Grateful Obedience]] obeys from thanks; [[Take Up Your Cross]] denies self daily - this names what filled Him when bread did not."
 examples:
-  - "I treated obedience like homework after the fun stuff - the Father's food means the hard conversation was the main course, not dessert I might skip."
+  - "I treated obedience like homework after the fun stuff - glad the Father's food meant the hard conversation was the main course, not dessert I might skip."
   - "Skipped the awkward apology because I was hungry and tired - Jesus finished the Samaritan woman's story before lunch because the Father's errand was food."
 shareable_thought:
   - "Jesus said His food was doing the Father's will - obedience was sustenance, not a side task."

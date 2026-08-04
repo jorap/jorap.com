@@ -17,7 +17,7 @@ level_3: "Before you post about leadership, name one person you helped this week
 level_4: "Worldly rank climbs upward; kingdom greatness bends downward - opposite directions mean opposite rewards, and [[Free Grace]] keeps service from becoming a salvation scorecard."
 level_5: "Build a leadership practice that gives away credit, takes the low task, and helps someone else become able to serve without you."
 examples:
-  - "I helped a neighbor move and waited for credit in the group chat - greatness is serving, not being served."
+  - "I helped a neighbor move and waited for credit in the group chat - glad greatness is serving, not being served."
   - "I organized snacks for my kid's basketball team on Sunday and came home expecting my family to serve me back - wash feet here too, not only where people can see you."
 shareable_thought:
   - "Jesus taught greatness through service."

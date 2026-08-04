@@ -12,7 +12,7 @@ level_3: "Export your notes this month and open them in another tool - if you ca
 level_4: "Hosts and apps shut down - portable formats survive when the platform you trusted disappears without warning."
 level_5: "Build a portable knowledge stack, test its export in another tool, and document the move so the next platform failure becomes a switch, not a rescue."
 examples:
-  - "Our family contacts list is plain text on the fridge backup folder - I copy it twice a year so future-proof is not just a vibe."
+  - "Glad our family contacts list is plain text on the fridge backup folder - I copy it twice a year so future-proof is not just a vibe."
   - "Old PHP hosting died and the posts were trapped - markdown in git meant I could point the repo somewhere else, not pray for an export."
 shareable_thought:
   - "Future-proof notes with plain text, open tools, and exports tested before a vendor locks you in."

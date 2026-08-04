@@ -25,7 +25,7 @@ level_3: "Hand one recurring decision to someone you have trained - name the bou
 level_4: "Hoarding decisions chokes the whole body - [[Many Parts One Body]] needs many members carrying load; insecure control is the limit."
 level_5: "[[Invest in the Few]] names who gets authority first; extend with [[Share What You Learn]] so empowerment does not become abdication theater."
 examples:
-  - "I finally trained two leads to run standup without me - the team got faster the week I let go."
+  - "I finally trained two leads to run standup without me - glad the team got faster the week I let go."
   - "Moses stood from morning to night judging alone until Jethro intervened."
 shareable_thought:
   - "Only secure leaders give power to others."

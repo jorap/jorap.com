@@ -12,7 +12,7 @@ level_3: "Run capture daily and one express output weekly before you add another
 level_4: "Because capture and organize cannot close the loop alone, express weekly is the limit that turns a second brain into more than an archive."
 level_5: "[[Building a Second Brain]] names the stack - daily capture plus weekly express, or the second brain becomes an archive."
 examples:
-  - "Links land in one inbox all week; weekly review empties it and ships one note - one loop, not separate capture and organize rituals I quit."
+  - "Glad links land in one inbox all week and weekly review empties it into one shipped note - one loop, not separate capture and organize rituals I quit."
   - "Friday night is capture everything in one jar; Sunday is sort, toss, and file what is worth keeping."
 shareable_thought:
   - "Capture to inbox, organize by project, distill on reuse, express weekly."

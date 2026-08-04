@@ -11,7 +11,7 @@ level_3: "Mark three vague paragraphs before publish - ten minutes of friction s
 level_4: "[[Deliberate Practice]] needs outside eyes - solo polish misses what peer friction catches."
 level_5: "Deliver through [[Give Useful Feedback]] - sharpening fails when the tone eats the truth; [[Iron Sharpens Iron]] is the faith name; invite early when [[Drafting in Public]] and [[Rollback Principle]] are still cheap."
 examples:
-  - "Teammate marked three vague paragraphs before publish - ten minutes of friction saved an hour of reader confusion."
+  - "Glad a teammate marked three vague paragraphs before publish - ten minutes of friction saved an hour of reader confusion."
   - "Code review caught the env var gap before Friday deploy - iron sharpening was the comment thread, not a blame DM."
 shareable_thought:
   - "Peer review should make the draft better - friction with care, not performance theater or silent approval."

@@ -13,7 +13,7 @@ level_3: "Open the graph view and fix orphan notes and overloaded hubs before th
 level_4: "Orphans and over-linked hubs skew the whole garden - spot them early or maintenance chases symptoms instead of causes."
 level_5: "Create a graph-health routine that turns orphan and hub counts into specific link repairs, then extend the checks when a new failure pattern appears."
 examples:
-  - "I laid out the shift-change chart and three tasks had zero arrows to an owner - the orphan list was my fix-this-week, not a pretty poster."
+  - "Glad the shift-change chart showed three tasks with zero arrows to an owner - the orphan list was my fix-this-week, not a pretty poster."
   - "Five notes in the graph had no inbound links - I linked three and archived two before closing the tab."
 shareable_thought:
   - "Graph view analytics reads the link map for orphans, over-connected hubs, and forgotten gaps."

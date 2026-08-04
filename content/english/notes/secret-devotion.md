@@ -27,7 +27,7 @@ level_3: "Pray with the kids before bed with the door closed - no photo, no capt
 level_4: "Because applause rewires motive, hidden lanes keep worship aimed at the Father, not the feed - [[Free Grace]] means hidden prayer is not the price of acceptance."
 level_5: "Pair with [[Let Your Light Shine]] for the public lane - give, pray, fast for One audience; left hand does not know what the right is doing."
 examples:
-  - "I pray with the kids before bed with the door closed - no photo, no caption, just the Father who already knows we are here."
+  - "I pray with the kids before bed with the door closed - glad no photo or caption is needed; the Father already knows we are here."
   - "The player trains at five am without live-streaming shootarounds - the game is the point, not the Strava badge."
 shareable_thought:
   - "Give, pray, and fast for God to see - not for applause in the group chat."

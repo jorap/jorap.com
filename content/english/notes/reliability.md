@@ -12,7 +12,7 @@ level_3: "Send the Friday update Thursday without being chased - that is reliabi
 level_4: "Because trust accrues from repeated proof, one missed loop after a long streak weighs heavier than the first miss."
 level_5: "Install backup alarms and default openers so reliability runs without willpower - others plan around you because the loop closes itself."
 examples:
-  - "The backup alarm texts if the freezer warms - I do not discover thawed meat at breakfast."
+  - "The backup alarm texts if the freezer warms - glad I do not discover thawed meat at breakfast."
   - "Same opener on the gate every morning - neighbors trust it without calling to check."
 shareable_thought:
   - "Reliability is closing loops on time often enough that people stop asking twice."

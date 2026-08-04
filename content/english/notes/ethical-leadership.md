@@ -13,7 +13,7 @@ level_3: "Call out the small slip in front of the team before it becomes the cul
 level_4: "Visible tolerance scales faster than a written rule - correcting a small slip costs trust now, but silence makes the later culture repair harder."
 level_5: "Create a team standard with a visible example, a clear stop line, and a correction leaders will apply even when the shortcut gets results."
 examples:
-  - "I stopped the backyard wrestling match when someone was about to get hurt - same fun goal, safer path, even though the kids wanted the rougher version."
+  - "I stopped the backyard wrestling match when someone was about to get hurt - glad the safer path still landed the same fun goal."
   - "The coach killed the unsafe trust-fall drill when a safer team exercise achieved the same bonding goal - authority used to protect people, not to win at their expense."
 shareable_thought:
   - "What gets let slide in front of the team becomes their real standard, not the poster."

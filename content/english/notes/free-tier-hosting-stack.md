@@ -15,7 +15,7 @@ level_3: "Batch commits, pin HUGO_VERSION, and count builds before you add anoth
 level_4: "Fat repos and frequent pushes burn the budget faster than bandwidth - one account hosting many clients burns fast."
 level_5: "Design a shared hosting policy that budgets builds per client, batches pushes, pins Hugo, and names when a site must leave the free account."
 examples:
-  - "Twelve client sites on one free account - hit 500 builds mid-month and Friday deploys started queuing."
+  - "Glad Hugo was pinned after the build failed - env var on every new project template now, and that failure still counted against the cap when twelve client sites hit 500 builds mid-month."
   - "Build failed until Hugo was pinned - env var on every new project template now, and that failure still counted against the cap."
 shareable_thought:
   - "Hugo, GitHub, and Cloudflare Pages ship static sites for $0."

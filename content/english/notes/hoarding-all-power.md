@@ -12,7 +12,7 @@ level_3: "Delegate one real decision this week with authority attached - not a f
 level_4: "An endless personal queue means you never shared judging - empowerment is secure leadership, not abdication theater."
 level_5: "Return to [[Law of Empowerment]] and [[Invest in the Few]] - give power; sharing authority grows leaders instead of burning one."
 examples:
-  - "I redid every task I had passed on at midnight - the hoard was fear dressed as standards."
+  - "I redid every task I had passed on at midnight - glad the burnout week taught me the hoard was fear dressed as standards."
   - "Every approval still routed through me - the team waited while I wore out."
 shareable_thought:
   - "Hoarding all power keeps every decision - insecure leaders bottleneck the work they fear to share."

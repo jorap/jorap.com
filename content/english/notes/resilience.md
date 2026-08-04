@@ -13,7 +13,7 @@ level_3: "Leave earlier Thursday after three late commutes instead of cursing tr
 level_4: "Because denial wastes learning and collapse wastes capacity, composure without honesty is brittle."
 level_5: "Run an honest huddle after a blown Saturday rush - quiet week, smaller menu - convert the hit into a system fix with [[Convert Pain Into Learning]]."
 examples:
-  - "Commute delays wrecked my morning three days straight - I left earlier Thursday instead of cursing the traffic and showing up late again."
+  - "Commute delays wrecked my morning three days straight; glad leaving earlier Thursday beat cursing the traffic and showing up late again."
   - "Our Saturday rush blew up - honest huddle, quiet week, smaller menu, not acting like Friday never happened."
 shareable_thought:
   - "Bend without lying that the hit did not cost anything."

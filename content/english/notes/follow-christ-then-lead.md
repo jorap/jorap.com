@@ -20,7 +20,7 @@ level_3: "Before you lead the room on a compromise, ask which seat the move serv
 level_4: "Visible leadership without private obedience is sand - upward allegiance before outward care."
 level_5: "Create a leadership rule that tests the plan against Christ's command, the people under your care, and the shortcut you would refuse in private."
 examples:
-  - "Finance wanted the numbers softened and my team was watching - follow Christ, then lead was refuse the edit, explain why calmly, and own the fallout together."
+  - "Finance wanted the numbers softened and my team was watching - glad follow Christ, then lead meant refuse the edit, explain why calmly, and own the fallout together."
   - "Sunday school asked me to skip the hard verse because parents might leave - I taught it plain anyway, then stayed after to answer questions - follow first, lead the room second."
 shareable_thought:
   - "When leadership pressure and Christ command collide, follow Christ first - then lead from that footing."

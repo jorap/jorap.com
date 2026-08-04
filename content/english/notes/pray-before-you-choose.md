@@ -16,7 +16,7 @@ level_3: "Two job offers on the table - stop ranking pros and cons for a week wi
 level_4: "Kingdom-weight choices need dependence before commitment - naming people before prayer would have been self-led hiring."
 level_5: "Build a major-choice rule: pray before the shortlist, test the choice with [[Discern His Will Daily]], then name whom you will [[Invest in the Few]]."
 examples:
-  - "I announced the new team lead in the meeting and prayed about it driving home - Jesus prayed all night before He named [[Invest in the Few]]."
+  - "I announced the new team lead in the meeting and prayed about it driving home - glad Jesus prayed all night before He named [[Invest in the Few]]."
   - "Two job offers on the table and I ranked pros and cons for a week without stopping - the fork needed prayer before the signature, not after."
 shareable_thought:
   - "Jesus prayed all night before a major fork - prayer first, not after the announce."

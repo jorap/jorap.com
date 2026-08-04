@@ -16,7 +16,7 @@ level_3: "Same knee drive and up-and-under a hundred times in practice - not inv
 level_4: "Because domain labels do not prove the abstraction travels, the same move must hold on two unrelated surfaces or it is still local habit."
 level_5: "Drill [[Build a Reliable Default]] before the moment - rehearse the go-to answer until you reach for it without thinking."
 examples:
-  - "Down two with seconds left my player does not invent a new finish - same knee drive and up-and-under she has made a hundred times in practice, because pressure shrinks the menu."
+  - "Glad my player does not invent a new finish down two with seconds left - same knee drive and up-and-under she has made a hundred times in practice, because pressure shrinks the menu."
   - "Drafting a capture note I did not quote Ahrens twice - wristband scribble mid-cooldown and jeepney receipt before the spark died, same one-inbox move in rooms that do not share a folder."
 shareable_thought:
   - "The one practiced answer you reach for when the moment speeds up."

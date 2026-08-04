@@ -29,7 +29,7 @@ level_3: "Define winning for the team in one sentence, then remove one blocker t
 level_4: "Victory is not comfort - it is clearing the path even when the cost lands on the leader first; comfort-first leadership stalls the team."
 level_5: "Extend victory past the highlight reel with [[Finish Strong]] and [[Steward After the Win]]."
 examples:
-  - "We missed the deadline until someone rerouted testing to parallel lanes - leadership was the workaround, not the speech."
+  - "We missed the deadline until someone rerouted testing to parallel lanes - glad leadership was the workaround, not the speech."
   - "Friends lowered the paralytic through the roof - victory looked like vandalism for a minute."
 shareable_thought:
   - "Leaders find a way for the team to win."

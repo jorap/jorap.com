@@ -12,7 +12,7 @@ level_3: "Before you sign off on a risk, ask what protection you would expect if
 level_4: "Stop serious harm first - reasonable protection is not optional just because paperwork allows less; [[Ethical Leadership]] makes the visible floor match what you would accept reversed."
 level_5: "Build a care standard the team can run without guesswork - name the protection, owner, check, and stop-work line before harm tests it."
 examples:
-  - "The clinic keeps a crash cart checked every shift - staff assuming risk does not erase the charge nurse's job of reasonable protection."
+  - "The clinic keeps a crash cart checked every shift - glad reasonable protection still matters when staff assume risk on the floor."
   - "We do not leave the toddler pool gate open because the kids know not to run - duty of care is watching even when signs say be careful."
 shareable_thought:
   - "If roles flipped, reasonable protection from harm is the bar owed to people under you."

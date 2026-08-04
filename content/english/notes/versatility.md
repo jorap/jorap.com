@@ -14,7 +14,7 @@ level_4: "Versatility improves coverage, but chasing every lane can weaken the c
 level_5: "Build a small skill stack around your strongest lane, test it in real gaps, and teach the handoffs that let the team shift without faking expertise."
 examples:
   - "The rush hit and I jumped on dishes while the line cook called tickets - versatile without pretending I suddenly ran the grill."
-  - "Sick day meant I became lunch packer, tutor, and IT help - versatility is more than one lane when the day shifts."
+  - "Sick day meant I became lunch packer, tutor, and IT help; glad versatility meant more than one lane when the day shifted."
 shareable_thought:
   - "Plug into more than one lane when the team or the client needs a shift."
   - "Nobody schedules the sick day or the rush."

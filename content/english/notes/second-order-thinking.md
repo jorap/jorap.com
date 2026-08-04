@@ -14,7 +14,7 @@ level_4: "Because systems adapt to your move, the second wave often erodes the f
 level_5: "Pair with [[Strategic Foresight]] and [[Expect the Counter]] - install one move before the lag catches up."
 examples:
   - "Free pizza after games pulled families in - then the parking lot jammed and refs quit early - I asked what happens after the first rush."
-  - "I offered unlimited screen time on sick days - then bedtime fights lasted a week after they recovered."
+  - "I offered unlimited screen time on sick days; glad second-order thinking caught the bedtime fights that lasted a week after they recovered."
 shareable_thought:
   - "Second-order thinking asks what the clever fix triggers next - copycats, shortcuts, unplanned incentives."
   - "Ask what happens after the first win - incentives shift, copycats arrive, shortcuts compound."

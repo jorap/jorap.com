@@ -12,7 +12,7 @@ level_3: "Before the next hard call, name one people-risk and one timing-risk ou
 level_4: "Pride-only reads miss the coming collision - intuition is a leadership bias that protects the house."
 level_5: "Practice [[Law of Intuition]] with [[Surface Bad News Early]] - see early; wise calls protect the team you lead."
 examples:
-  - "I greenlit the date without asking who was burned out - the blind call was calendar math, not leadership."
+  - "I greenlit the date without asking who was burned out - glad the outage that week taught me calendar math is not leadership."
   - "I dismissed the warning email as noise - the outage proved the room had already seen what I missed."
 shareable_thought:
   - "Blind leadership calls miss the room - no leadership lens means danger walks past unnoticed."

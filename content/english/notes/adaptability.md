@@ -13,7 +13,7 @@ level_3: "When the plan breaks, name the target again before picking a new route
 level_4: "Adaptability protects the aim when conditions change, but constant pivoting trades trust for convenience and can quietly replace the commitment itself."
 level_5: "Design fallback routes for the same goal, name the signal that triggers each switch, and revise the options when a real counter exposes a weak plan."
 examples:
-  - "Rain canceled our outdoor run and we moved practice to the covered court - same goal of getting reps in, different floor when the weather shifted."
+  - "Rain canceled our outdoor run; glad the covered court held the same reps when the weather shifted."
   - "The school bus was late so we walked - same deadline for drop-off, different route when the morning plan broke."
 shareable_thought:
   - "Adaptability swaps the method when conditions shift - same aim, different plan."

@@ -13,7 +13,7 @@ level_3: "When an idea re-enters a project, polish it then - archive the spark t
 level_4: "Lifecycle thinking saves effort because polishing every spark burns time notes never repay - [[Note Maturity]] names the stages this lifecycle tracks."
 level_5: "Spend effort on polish only when an idea is in reuse - not when it is still raw capture; [[Evergreen Notes]] is what survives a second read."
 examples:
-  - "The new set play lives in \"learning\" for three weeks, graduates to \"game plan,\" then gets archived when we change offense."
+  - "Glad the new set play lives in \"learning\" for three weeks, graduates to \"game plan,\" then gets archived when we change offense."
   - "The school FAQ note started as a fleeting capture, got updated all semester, then moved to archive when the kid changed schools."
 shareable_thought:
   - "Ideas move through capture, use, polish, fade, and archive."

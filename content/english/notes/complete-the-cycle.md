@@ -14,7 +14,7 @@ level_3: "Before the meeting ends, write the action, owner, due date, and how th
 level_4: "More tracking adds overhead, but too little lets work disappear; match verification to the cost of the miss."
 level_5: "Create a follow-through template and improve it until another team can close decisions without a separate reminder chase."
 examples:
-  - "Halftime talk ended with a vague press fix promise - I wrote the one drill on the whiteboard before anyone left the gym."
+  - "Halftime talk ended with a vague press fix promise - glad I wrote the one drill on the whiteboard before anyone left the gym."
   - "I will look into it without a date is how school projects die after the group chat goes quiet - the recap with owners and dates went out before anyone left the parking lot."
 shareable_thought:
   - "The meeting is not done until recap, owners, dates, and verification close the loop."

@@ -21,7 +21,7 @@ level_3: "Rest on the promise today when the week was ugly - assurance is not a 
 level_4: "Good works answer grace - they may back up a claim, never purchase the ticket or ground assurance by performance anxiety."
 level_5: "Build a plain teaching map that keeps [[Justification]] free, places [[Sanctification]] and [[Discipleship]] after the gift, grounds [[Assurance]] in Christ's promise, and keeps [[Eternal Rewards]] off the destiny ledger."
 examples:
-  - "A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season."
+  - "A teammate listed every good deed this month like it was his ticket to heaven - glad I trust Christ's promise for eternal life, not my report card from the season."
   - "My kid thinks he has to be extra good the week before his birthday to deserve presents - grace does not work that way with God either; the gift is already decided before the behavior."
 shareable_thought:
   - "Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works."

@@ -12,7 +12,7 @@ level_3: "Keep capture and experiments in the garage pipe; ship only what belong
 level_4: "Because visitors treat workshop mess as finished work, mixing lanes burns trust - one capture habit, one publish pipe."
 level_5: "Client pass-off uses the same split - workshop drafts in my garage; client deliverables via [[Client Site Pass-Off]] and [[Free Tier Hosting Stack]]."
 examples:
-  - "The practice film library is messy; the highlight reel for parents is one clean cut - I almost sent raw film once and the coach pulled me back."
+  - "Glad the coach pulled me back when I almost sent raw film - the practice library is messy; the highlight reel for parents is one clean cut."
   - "The garage holds half-finished projects and sawdust; the front porch shows the one bench I would invite a neighbor to sit on."
 shareable_thought:
   - "The vault is the garage for scraps and experiments."

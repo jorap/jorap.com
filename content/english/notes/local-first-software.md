@@ -12,7 +12,7 @@ level_3: "Pick tools that work offline with full features - sync is insurance, n
 level_4: "If the service vanishes, your notes survive on the device - cloud-only stacks fail when the tenant changes the rules or the network drops."
 level_5: "Extend local-first into [[Building a Personal API]] and [[Digital Minimalism]] - read and write without begging a server."
 examples:
-  - "If the phone dies mid-grocery run, the list on the fridge still works."
+  - "Glad the list on the fridge still works if the phone dies mid-grocery run."
   - "Grandma's recipe cards live in the kitchen drawer - not an app that might vanish."
 shareable_thought:
   - "Local-first means my device holds the truth; sync is optional icing."

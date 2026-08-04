@@ -12,7 +12,7 @@ level_3: "Before the next promotion fight, name one cost you can absorb so someo
 level_4: "Seat requests without towels are subtraction dressed as ambition - greatness adds by giving, not by seating."
 level_5: "Flip back to [[Law of Addition]] and [[Servant Leadership]] - serve first; addition rebuilds what the grab spent."
 examples:
-  - "I kept the easier shift and watched trust drop - subtraction looked like self-care on my calendar."
+  - "I kept the easier shift and watched trust drop - glad subtraction on my calendar showed me what self-care cost the room."
   - "I took the spotlight slot and left the grunt work to juniors - the room got quieter around me."
 shareable_thought:
   - "Leading by subtraction grabs credit and advantage - the team shrinks while the leader looks bigger."

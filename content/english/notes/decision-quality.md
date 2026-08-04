@@ -13,7 +13,7 @@ level_4: "Pairs with [[Control the Rhythm]] when urgency pushes a fast yes - qua
 level_5: "Build a decision check that gathers one outside fact, waits through the excitement, prices the real cost, and records what would change the choice."
 examples:
   - "Signing a year-long club fee on one trial session is how people miss the schedule clash - decision quality was one call to a current member before we paid."
-  - "We almost picked the school on one sunny open house - one neighbor call about the flood-prone pickup lane changed our call before we signed."
+  - "We almost picked the school on one sunny open house; glad one neighbor call about the flood-prone pickup lane changed our call before we signed."
 shareable_thought:
   - "Choices are judged by whether they hold after sleep, new facts, and the real bill - not the meeting high."
   - "Decision quality is how often choices hold up after information, time, and energy are factored in."

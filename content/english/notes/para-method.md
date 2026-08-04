@@ -12,7 +12,7 @@ level_3: "When filing, ask who acts on this and when it closes - if neither appl
 level_4: "PARA stays useful only while buckets follow action and responsibility - too many Resources recreate topic soup, and stale Projects should become Archives."
 level_5: "Build a four-bucket filing rule that keeps tasks in [[Getting Things Done]], knowledge in PARA, and [[Metadata Strategy]] light enough to maintain."
 examples:
-  - "Tournament folder on the bench with a deadline; off-season conditioning notes in the filing cabinet with no end date."
+  - "Glad the tournament folder on the bench carries a deadline while off-season conditioning notes live in the filing cabinet with no end date."
   - "I once filed immunization records under 'health' and could not find them at enrollment - owner and deadline beat topic tags."
 shareable_thought:
   - "PARA sorts notes into Projects, Areas, Resources, and Archives."

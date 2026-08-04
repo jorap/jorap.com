@@ -12,7 +12,7 @@ level_3: "Run the fresh-start test before the next deposit of time or money - if
 level_4: "Loss feels louder than opportunity, so the fallacy distorts decisions - [[Behavioral Economics]] names the bias cluster this trap belongs to."
 level_5: "[[Forgiveness]] runs the same play on relational debt; [[Turn the Other Cheek]] adds stopping more anger after sunk hurt."
 examples:
-  - "I kept running a set play that lost four straight because we would drilled it all preseason - sunk cost is asking whether I keep it because it cost time, not because it still works."
+  - "Glad sunk cost finally named why I kept a set play that lost four straight - we had drilled it all preseason, but the question is whether it still works, not what it cost."
   - "The shop kept the broken POS because they would paid the install fee - forward question only: would I buy this system fresh today?"
 shareable_thought:
   - "Drop the bad tool or project when it stops earning its place."

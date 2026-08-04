@@ -13,7 +13,7 @@ level_3: "Before the meeting ends, name one owner, what happens if it slips, and
 level_4: "One owner prevents shared vagueness, but ownership needs enough authority to act and a blameless review when the system helped cause the miss."
 level_5: "Build an ownership agreement that names the result, owner, authority, slip response, and review loop before work starts."
 examples:
-  - "The condo board did not say \"someone should fix the gate\" - they named a contact and a deadline in the group chat before anyone drove off."
+  - "The condo board did not say \"someone should fix the gate\" - glad they named a contact and a deadline in the group chat before anyone drove off."
   - "After a patient mix-up, the charge nurse named who ran the code cart and who documented before the shift ended."
 shareable_thought:
   - "Accountability is naming who owns the result - and what happens when it slips."

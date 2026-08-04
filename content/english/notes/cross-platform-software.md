@@ -13,7 +13,7 @@ level_3: "Open the same Hugo repository and run the same build on Linux, macOS, 
 level_4: "Portability reduces lock-in, but feature gaps, native behavior, and testing cost can make one-platform tools better for specialized work."
 level_5: "Build and document a workflow that survives a move to another operating system, then test it on the next machine."
 examples:
-  - "Hugo site in git on Linux Mint desktop, MacBook, and Windows travel laptop - same markdown folder, same build command, different logo on the boot screen."
+  - "Glad the same markdown folder and build command held across Linux Mint desktop, MacBook, and Windows travel laptop - same Hugo site in git, different logo on the boot screen."
   - "Client theme diff between my Mac and their Windows host - Beyond Compare earned the invoice because the keyboard shortcuts matched on both sides."
 shareable_thought:
   - "Cross-platform tools run on Mac, Windows, and Linux so one skill travels across your machines."

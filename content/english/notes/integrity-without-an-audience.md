@@ -15,7 +15,7 @@ level_3: "Run the real spelling check on the homework when your kid is not looki
 level_4: "When integrity only shows up on stage, private corners still rot - character is what you do unseen, not what you perform for the standup."
 level_5: "Create a private quality check for work nobody reviews, then use it to make hidden effort match the standard you claim in public."
 examples:
-  - "The market scale stays honest when the seller steps away to take a call - I could have scooped light on the last bag of rice; instead I re-weighed it before the customer came back."
+  - "The market scale stays honest when the seller steps away to take a call - glad I re-weighed the last bag of rice before the customer came back instead of scooping light."
   - "I ran the real spelling check on the homework when my kid was not looking over my shoulder."
 shareable_thought:
   - "Do the honest work when there is no audience."

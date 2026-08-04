@@ -14,7 +14,7 @@ level_3: "Say no to ministry slots that are not your part so the actual teachers
 level_4: "Under [[Free Grace]], every believer belongs - [[Faithful Steward]] work, not a popularity contest for standing."
 level_5: "Build a ministry team that uses [[Know Your Lane]] to name each part and [[Servant Leadership]] to equip missing gifts instead of hoarding every role."
 examples:
-  - "I volunteered for every ministry slot until burnout - 1 Corinthians body truth was saying no so the actual teachers could teach."
+  - "I volunteered for every ministry slot until burnout - glad 1 Corinthians body truth meant saying no so the actual teachers could teach."
   - "Envy at someone's platform gift stole my joy serving kids - my part was faithful in the classroom, not their microphone."
 shareable_thought:
   - "The church is one body with many parts - different roles, same Head, no solo-body fantasy."

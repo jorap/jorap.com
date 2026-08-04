@@ -16,7 +16,7 @@ level_3: "Tell a trusted believer about the anger streak and ask for prayer befo
 level_4: "Under [[Free Grace]], confession repairs fellowship rather than re-earns standing; trust, privacy, and wise boundaries keep honesty from becoming gossip."
 level_5: "Build a small-group practice for safe confession, prayer, follow-up, and repair without turning failure into performance."
 examples:
-  - "I told my accountability brother about the anger streak before it ate the marriage - James confession was prayer that night, not a shame podcast."
+  - "I told my accountability brother about the anger streak before it ate the marriage - glad James confession turned into prayer that night, not a shame podcast."
   - "Hidden bitterness toward a teammate poisoned every huddle - one honest coffee confession cleared air the silent grudge never would."
 shareable_thought:
   - "James calls believers to confess sins to each other - hidden failure rots; spoken failure finds prayer and repair."

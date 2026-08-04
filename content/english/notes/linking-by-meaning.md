@@ -12,7 +12,7 @@ level_3: "Link two notes when one extends or pushes back on the other - that is 
 level_4: "Ideas cross topics - links carry the relationship, not the drawer label, so the garden survives when you forget the folder path."
 level_5: "Extend the graph with [[Atomic Notes]] plus typed links - two meaningful links per note often outlast whatever [[PARA Method]] folder path you forgot."
 examples:
-  - "I linked \"jeepney delay\" to \"leave earlier\" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing."
+  - "Glad I linked \"jeepney delay\" to \"leave earlier\" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing."
   - "The playbook card links \"late press\" to \"[[Slow the Moment]]\" - I find the counter without memorizing every filename in the binder."
 shareable_thought:
   - "Link notes so ideas meet in the graph without memorizing every folder path."

@@ -17,7 +17,7 @@ level_3: "When dread hits on Monday, return to the promise you believed at faith
 level_4: "Assurance separates standing from fellowship and salvation from reward - fruit may back up; it never grounds belonging."
 level_5: "Write a doubt response that returns to Christ's promise, names any broken fellowship honestly, and chooses the next faithful step without reopening salvation."
 examples:
-  - "Bad week and dread God changed His mind - assurance rests on Christ's promise, not my obedience streak."
+  - "Bad week and dread God changed His mind - glad assurance rests on Christ's promise, not my obedience streak."
   - "I pictured the judgment seat and panicked like heaven might get revoked - salvation settled at faith; works get reviewed for reward after."
 shareable_thought:
   - "Assurance is resting on Christ's finished work when doubt hits - not the week's obedience score."

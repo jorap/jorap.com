@@ -11,7 +11,7 @@ level_3: "After an incident, write what broke on the team board and leave it the
 level_4: "Hidden failures repeat - burying the miss guarantees the same miss returns because nobody decided to fix or accept it."
 level_5: "Extend the line with [[Incident Investigation]] feeding it and [[Continuous Improvement]] closing it - system repair, not blame."
 examples:
-  - "After every tournament they kept one \"what broke\" line on the whiteboard until it was fixed or accepted."
+  - "After every tournament they kept one \"what broke\" line on the whiteboard until it was fixed or accepted - glad that habit beat another postgame vent with no change."
   - "After every messy school morning we kept one \"what broke\" sticky on the fridge until the routine changed or we accepted the tradeoff."
 shareable_thought:
   - "Teams that change process after mistakes instead of burying them."

@@ -16,7 +16,7 @@ level_3: "Block weekly time with two people you are forming - not only crowd tea
 level_4: "Mass platform without presence produces spectators; time with a few produces sendable people - depth scales through people, not headcount alone."
 level_5: "Build a small circle that can carry the teaching onward: give them presence, practice, and responsibility until they can invest in others."
 examples:
-  - "I chased a bigger audience and neglected the three people who actually showed up weekly - Jesus named twelve before He sent anyone."
+  - "I chased a bigger audience and neglected the three people who actually showed up weekly - glad Jesus named twelve before He sent anyone."
   - "I taught the whole team once a quarter but never ate with the core four - invest in the few is disproportionate time, not favoritism theater."
 shareable_thought:
   - "Jesus chose twelve and gave them disproportionate time."

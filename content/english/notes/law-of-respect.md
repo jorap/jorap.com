@@ -25,7 +25,7 @@ level_3: "Strengthen the lane you lead before you ask others to follow - compete
 level_4: "Respect is earned competence plus courage, not bullying - strength without integrity invites fear, not followership."
 level_5: "Extend respect through [[Ethical Leadership]] and [[Iron Sharpens Iron]] - build integrity others will follow, not intimidation."
 examples:
-  - "The captain who trained with us earned respect - the one who only quoted policy did not."
+  - "The captain who trained with us earned respect - glad the one who only quoted policy did not."
   - "Jonathan gave David his armor - loyalty to a stronger future king."
 shareable_thought:
   - "People naturally follow leaders stronger than themselves."

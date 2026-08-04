@@ -12,7 +12,7 @@ level_3: "Name your succession person this quarter and give them one real baton 
 level_4: "When knowledge dies with the leader, lasting value was never transferred - legacy is succession, not a monument."
 level_5: "Build [[Law of Legacy]] - pass the work on; succession is the final exam, not a farewell speech."
 examples:
-  - "I left the role and nothing moved - no successor left because I had never handed the baton."
+  - "I left the role and nothing moved - glad the empty handoff taught me no successor left because I had never handed the baton."
   - "The runbook lived only in my head - the next lead spent a month rediscovering what I never taught."
 shareable_thought:
   - "No successor left means lasting value dies with you - legacy is measured by who carries the work after."

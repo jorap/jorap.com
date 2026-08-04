@@ -15,7 +15,7 @@ level_3: "List three steps in your control before you escalate - if you never tr
 level_4: "Stale processes survive when everyone waits upstream - headquarters moves slow; your corner moves when you do."
 level_5: "Redesign one local pass-off with [[People-Centered Design]], test it through [[Continuous Improvement]], and share the result so the fix can spread beyond your lane."
 examples:
-  - "The shared drive was chaos for months until one teammate renamed folders and posted a one-page map - own your part, not another ticket to IT."
+  - "The shared drive was chaos for months until one teammate renamed folders and posted a one-page map - glad own your part beat another ticket to IT."
   - "I stopped waiting for the coach to fix my defense and asked for ten minutes of footwork after practice - my gap, my rep request."
 shareable_thought:
   - "Change your slice of the problem."

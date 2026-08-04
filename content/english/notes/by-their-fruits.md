@@ -17,7 +17,7 @@ level_3: "Before following a teacher, watch what the teaching produces in people
 level_4: "Fruit supports discernment, not a verdict on someone's soul; time, context, and [[Judge Not]] limit snap conclusions."
 level_5: "Create a fair fruit check that tracks teaching, outcomes, and time, then use it to improve what you follow or teach."
 examples:
-  - "The youth coach talks smooth on day one but his players look stressed and bitter by month three - fruit told me more than any clinic title ever could."
+  - "The youth coach talks smooth on day one but his players look stressed and bitter by month three - glad fruit told me more than any clinic title ever could."
   - "A trending productivity guru's followers still drown in inbox chaos - grapes from grapevines, thorns from thistles, time and results tell."
 shareable_thought:
   - "Teachers are checked by what their teaching produces, not by how polished the talk sounds."

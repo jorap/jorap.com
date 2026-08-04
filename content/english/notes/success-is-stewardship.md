@@ -19,7 +19,7 @@ level_3: "Tend the garden and share what landed after a traffic spike instead of
 level_4: "Because [[Free Grace]] settled eternity, stewardship settles what you do with gifts after - influence growth asks what faithful use looks like this quarter."
 level_5: "Use the platform for [[Servant Leadership]], [[Share What You Learn]], [[Integrity Without an Audience]] - notes hoarded in bookmarks bury the talent."
 examples:
-  - "Site traffic spiked after a post hit and I caught myself acting like I would built a kingdom - success is stewardship: tend the garden, share what landed, do not confuse reach with ownership."
+  - "Site traffic spiked after a post hit and I caught myself acting like I had built a kingdom - glad success is stewardship: tend the garden, share what landed, do not confuse reach with ownership."
   - "Promotion email landed and I started treating my team like support staff - the title was entrusted for their good, not a trophy I earned to keep."
 shareable_thought:
   - "Treat success as borrowed - account for how gifts get used, not entitlement to keep them forever."

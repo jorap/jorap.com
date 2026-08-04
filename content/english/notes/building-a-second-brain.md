@@ -16,7 +16,7 @@ level_3: "Capture one useful idea in a trusted inbox, process it later, and use 
 level_4: "CODE and PARA can reduce memory load, but the system fails when upkeep costs more than reuse or when capture never becomes output."
 level_5: "Build a complete workflow from capture to expression, then remove or revise any step that does not earn its place."
 examples:
-  - "A play idea hits during warm-ups and I voice-memo it before the gym noise eats it - my head is for having ideas, the inbox is for storing them until review."
+  - "Glad the voice memo caught the play idea during warm-ups before gym noise ate it - my head is for having ideas, the inbox is for storing them until review."
   - "A sermon line lands mid-shift and I scribble it on a receipt - one [[trusted inbox]], no sorting yet, process it Sunday when the spark is safe."
 shareable_thought:
   - "The head is for thinking, not storing."

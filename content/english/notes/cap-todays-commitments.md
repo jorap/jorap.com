@@ -13,7 +13,7 @@ level_3: "Choose the three tasks that fit today's energy and leave the rest for 
 level_4: "A cap protects [[Energy Protects Judgment]], but emergencies and uneven tasks change capacity; it must include rest and room for the unexpected."
 level_5: "Build a daily capacity rule, test it for a week, and adjust the cap from what actually finished."
 examples:
-  - "I wrote twelve todos before coffee and finished two - capping at three after breakfast meant [[Inbox Zero]] on email instead of shame at midnight."
+  - "Glad capping at three after breakfast meant [[Inbox Zero]] on email instead of shame at midnight - I had written twelve todos before coffee and finished two."
   - "Coach cut practice drills to what legs could absorb Tuesday - same players, better reps, because the list matched the day."
 shareable_thought:
   - "Today's list should fit today's energy - three real wins beat twelve borrowed from tomorrow's fuel."

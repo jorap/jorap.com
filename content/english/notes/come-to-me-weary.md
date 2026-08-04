@@ -17,7 +17,7 @@ level_3: "When exhaustion turns prayer into another scorecard, come honestly, sh
 level_4: "Rest under [[Free Grace]] is not wages for a good week, while a fitting yoke is not the absence of work; mercy and obedience stay together."
 level_5: "Build a rhythm of prayer, limits, and recovery that helps weary people work with Christ instead of performing through burnout."
 examples:
-  - "I tried to outserve my burnout until Sunday collapsed - Matthew 11 rest was admitting weary and opening the Bible without the hero badge."
+  - "I tried to outserve my burnout until Sunday collapsed - glad Matthew 11 rest came when I admitted weary and opened the Bible without the hero badge."
   - "Ministry week left me hollow - Jesus' yoke meant one honest nap and a shorter yes list, not another guilt sermon to myself."
 shareable_thought:
   - "Jesus invites the weary to His rest - yoke with Him trades crushing solo labor for shared weight."

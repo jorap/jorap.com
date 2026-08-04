@@ -12,7 +12,7 @@ level_3: "After the failed presentation, name one weak transition, rehearse it, 
 level_4: "[[Blameless After-Action Review]] helps separate useful correction from blame, but not every hurt needs a full process overhaul."
 level_5: "Turn the lesson into a repeatable process change that another person can run and improve."
 examples:
-  - "I bombed a client presentation and stewed for a week - convert pain into learning was one page on weak transitions, rehearsed bridges ten times, and two fewer slides."
+  - "I bombed a client presentation and stewed for a week - glad one page on weak transitions and ten rehearsed bridges cut two slides from the next deck."
   - "I missed the turn twice on the new commute - one note on where the sign hides, tested next Monday, because stewing without change would have been just suffering."
 shareable_thought:
   - "Convert pain into learning means failure must produce correction, not stewing without change."

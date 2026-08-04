@@ -16,7 +16,7 @@ level_3: "Pay the lawful tax bill when it lands; give Caesar the coin and give G
 level_4: "Because the state and the kingdom differ, tax obedience is not idolatry and tax refusal is not piety."
 level_5: "Teach the distinction in a family budget talk - earthly duty and worship stay separate lanes; [[Seek the Kingdom First]] ranks the kingdom above every earthly master without dodging civic duty."
 examples:
-  - "The tax bill landed and I paid what was lawful - give Caesar the coin, give God myself."
+  - "The tax bill landed and I paid what was lawful - glad give Caesar the coin, give God myself held without mixing the two."
   - "School activity fees go in the envelope on Monday even when I would rather spend it on something fun - earthly duty and worship stay distinct."
 shareable_thought:
   - "Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone."

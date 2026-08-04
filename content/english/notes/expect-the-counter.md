@@ -13,7 +13,7 @@ level_3: "Write your opening move and the two most likely counters before you en
 level_4: "Write the countermove before the meeting - do not cling to a tactic because it worked once; [[Second Order Thinking]] keeps the adaptation loop open."
 level_5: "Build an adaptation tree with the opening move, likely counters, signals that each counter arrived, and the second move already assigned."
 examples:
-  - "I offered extra screen time for chores and my kid negotiated harder tasks by day three - I should have asked what happens after they adapt, not only rehearsed the opening bribe."
+  - "I offered extra screen time for chores and my kid negotiated harder tasks by day three - glad that counter taught me to ask what happens after they adapt."
   - "A restaurant drops lunch prices and the place across the street matches by Friday - the first move is not the game; we built regulars before the copy arrived."
 shareable_thought:
   - "Plan what happens after the other side adapts, not just how the opening move looks on paper."

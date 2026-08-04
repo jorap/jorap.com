@@ -13,7 +13,7 @@ level_4: "When you change everything at once, snap-back is predictable - small t
 level_5: "Design one cheap experiment with a [[Minimum Effective Dose]], repeat it through [[Deliberate Practice]], and use [[Failure as Feedback]] to keep, change, or drop it."
 examples:
   - "Instead of rebuilding the whole practice plan, we ran one new inbound play for two weeks - kept it when turnovers dropped, dropped it when they did not."
-  - "I did not migrate every note to a new app - I tried one capture lane by the door for ten days and only expanded after it survived a busy week."
+  - "I did not migrate every note to a new app; glad one capture lane by the door for ten days survived a busy week before I expanded."
 shareable_thought:
   - "Repeat the move, run tiny tests, learn fast."
   - "Durable change beats one big rollout."

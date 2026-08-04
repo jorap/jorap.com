@@ -16,7 +16,7 @@ level_3: "When someone slanders you, pray before you reply."
 level_4: "Enemy-love does not erase harm or dress retaliation as justice - the limit is blessing without pretending."
 level_5: "Extend enemy-love from the Father's [[Free Grace]] pattern - [[Turn the Other Cheek]] for personal insult; this note for sustained opposition."
 examples:
-  - "Someone slandered me in a group chat and my thumb hovered over a reply - I prayed for them, not because they deserve it, because that is what the Father does with people like me."
+  - "Someone slandered me in a group chat and my thumb hovered over a reply - glad I prayed for them because that is what the Father does with people like me."
   - "My neighbor's honking got under my skin and I almost left a nasty note - I baked cookies instead and asked if everything was okay."
 shareable_thought:
   - "Love your enemies - bless, pray, reflect the Father who sends rain on just and unjust alike."

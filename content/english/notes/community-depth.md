@@ -14,7 +14,7 @@ level_3: "When two tools fit, compare recent fixes, local job posts, plugins, an
 level_4: "Popularity can hide poor fit, while a small community may still be strong; weigh depth against maintenance quality and [[Open Not Maintained]]."
 level_5: "Create a stack scorecard that measures fresh support, hiring depth, and maintenance, then use it to guide a real tool choice."
 examples:
-  - "Drupal upgrades ate weekends and I could not find paid work with it in Manila - WordPress had the plugin shelf and the job board density."
+  - "Glad WordPress had the plugin shelf and the job board density when Drupal upgrades ate weekends and I could not find paid work with it in Manila."
   - "Hugo theme bug at midnight - GitHub issue from last month had the nil-check pattern; a thin static-generator bench would have been solo archaeology."
 shareable_thought:
   - "Thick communities save weeks on fixes and hiring; thin open-source benches cost evenings with no backup."

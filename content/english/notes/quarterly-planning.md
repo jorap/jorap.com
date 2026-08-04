@@ -12,7 +12,7 @@ level_3: "First Sunday of the quarter, pick three outcomes - not twenty wishes t
 level_4: "Because urgent tasks compound daily, a calendar block reclaims the year from the inbox - slipping stays visible before it is too late."
 level_5: "Build a thirteen-week cycle: name three outcomes with [[Purpose and Vision]], review progress weekly, and close with a [[Periodic Knowledge Review]]."
 examples:
-  - "First Sunday of the quarter we picked three outcomes - not twenty wishes that drowned the month."
+  - "Glad first Sunday of the quarter picked three outcomes, not twenty wishes that drowned the month."
   - "The clinic's ninety-day huddle moved one backlog project to done instead of adding a fourth starter."
 shareable_thought:
   - "Set goals and review on a thirteen-week rhythm."

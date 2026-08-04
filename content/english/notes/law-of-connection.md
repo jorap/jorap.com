@@ -27,7 +27,7 @@ level_3: "Ask how their week went before you ask for the favor - one human sente
 level_4: "Absalom stole hearts with flattery - connection without truth rots; honest knowing costs more than charm."
 level_5: "Extend connection into [[Reconciliation Before Worship]] on the faith lane and [[People-Centered Design]] when the ask still feels transactional."
 examples:
-  - "I asked for overtime before I asked how their mom's surgery went - the hand refused what the heart never got."
+  - "I asked for overtime before I asked how their mom's surgery went - glad I learned the hand refuses what the heart never got."
   - "Paul called Onesimus a son - connection carried the hard ask about a runaway slave."
 shareable_thought:
   - "Leaders touch a heart before they ask for a hand."

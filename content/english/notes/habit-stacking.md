@@ -13,7 +13,7 @@ level_3: "After your stable daily anchor, attach one tiny new step - do not bolt
 level_4: "Fighting for a fresh cue you might forget fails when the anchor already fires daily - stacking borrows an existing beat."
 level_5: "Build a new stack by pairing one tiny move with a proven daily anchor, then extend it only after the added move also runs on autopilot."
 examples:
-  - "After I clock in, I scan the shift-change sheet - the clock-in is the anchor, the scan piggybacked; no new time slot, just a chain."
+  - "Glad after I clock in, I scan the shift-change sheet - the clock-in is the anchor, the scan piggybacked; no new time slot, just a chain."
   - "After I pour the first coffee, I open the pocket notebook - habit stacking attaches the new move to one that already runs on autopilot."
 shareable_thought:
   - "Piggyback a new tiny habit onto one that already runs without thinking, like notebook after coffee."

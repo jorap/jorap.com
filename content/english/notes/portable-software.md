@@ -11,7 +11,7 @@ level_3: "On locked Windows images, portable XAMPP lets you practice on lunch br
 level_4: "Own the folder first, OS second - when Linux and Mac joined the desk, portable habits carried over to [[Cross-Platform Software]]."
 level_5: "Package a toolchain that runs from one owned folder, then extend it with [[Cross-Platform Software]] checks so the same work survives the next machine."
 examples:
-  - "Corporate desktop with no installer rights - XAMPP portable in my user folder, break a CMS install on lunch without asking IT why sales needs Apache."
+  - "Glad XAMPP portable in my user folder ran a CMS install on lunch without asking IT - corporate desktop with no installer rights."
   - "PortableApps launcher on a USB stick - Firefox and Notepad++ on a locked work PC, unplug the drive and Add/Remove Programs stays clean"
 shareable_thought:
   - "Portable builds run from a folder you own."

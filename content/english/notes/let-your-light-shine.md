@@ -20,7 +20,7 @@ level_3: "Before you post about the good deed, ask whether observers will glorif
 level_4: "Visible good works aim glory at the Father - when the audience applauds you instead, the light pointed the wrong way."
 level_5: "Extend visible good works through [[God Centered Design]]; keep private obedience on the ledger with [[Secret Devotion]]."
 examples:
-  - "I brought extra water for the whole bench and almost posted about it - the light is not for my brand; it is so someone sees good work and thinks God is real."
+  - "I brought extra water for the whole bench and almost posted about it - glad the light is not for my brand; it is so someone sees good work and thinks God is real."
   - "I covered a coworker's shift quietly and almost made it a LinkedIn moment - let your light shine so the Father gets credit, not my personal brand."
 shareable_thought:
   - "Good works are not for hiding."

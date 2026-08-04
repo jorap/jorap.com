@@ -25,7 +25,7 @@ level_3: "Delay the public move one beat when the room is hot but the map is not
 level_4: "Waiting is active navigation, not passive drift - impatience costs kingdoms while overcaution misses the window."
 level_5: "Extend timing into [[Pray Before You Choose]] on the faith lane and [[Strategic Foresight]] so the clock is part of the plan, not luck."
 examples:
-  - "I announced the reorg before the board approved - right vision, fatal clock."
+  - "I announced the reorg before the board approved - glad I learned right vision can still have a fatal clock."
   - "Esther fasted three days before she entered the throne room - timing saved a nation."
 shareable_thought:
   - "When to lead is as important as what to do and where to go."

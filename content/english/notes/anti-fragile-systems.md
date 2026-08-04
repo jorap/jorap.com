@@ -13,7 +13,7 @@ level_3: "Export to plain text or markdown quarterly and open the backup file on
 level_4: "Boring files trade app-only features for portability; backups help only when another tool can open them, and restore drills expose that limit before a shutdown."
 level_5: "Build a migration drill that exports the notes, opens them outside the main app, records what broke, and strengthens the next backup."
 examples:
-  - "When the gym's booking app shut down for good, my paper training log still had every set - I photocopy it once a quarter so I am not rebuilding history from memory."
+  - "Glad the paper training log still had every set when the gym booking app shut down for good - I photocopy it once a quarter so I am not rebuilding history from memory."
   - "The shop switched POS systems twice and the owner kept a plain spreadsheet backup - exports she actually opens, not trust in the vendor forever."
 shareable_thought:
   - "Note systems survive app shutdowns when built on plain files, open formats, and tested backups."

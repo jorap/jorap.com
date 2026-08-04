@@ -17,7 +17,7 @@ level_3: "When a teammate is buried, take one real task off the pile instead of 
 level_4: "Help must fit the burden and the person's limits; support is not control, gossip, or earning standing under [[Free Grace]]."
 level_5: "Create a repeatable way for your group to spot heavy loads, assign practical help, and follow up without shaming anyone."
 examples:
-  - "A teammate buried under elder-care stress got my Tuesday errand run, not a sermon about time management - bearing meant one less crate on her back."
+  - "A teammate buried under elder-care stress got my Tuesday errand run, not a sermon about time management - glad bearing meant one less crate on her back."
   - "My small group stopped praying about his job loss and showed up with resume edits - Galatians bearing is hands on the burden, not comments from the pew."
 shareable_thought:
   - "Believers carry each other's heavy loads - bearing is shared weight, not solo heroics or gossip."

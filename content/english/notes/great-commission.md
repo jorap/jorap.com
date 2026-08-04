@@ -17,7 +17,7 @@ level_3: "Go where people are, welcome believers, and teach them to obey - bapti
 level_4: "The commission is make disciples under Christ's presence - not recruitment zeal without teaching obedience."
 level_5: "Build a disciple-making path that goes, welcomes believers through baptism, and keeps teaching obedience through close presence rather than one-time recruitment."
 examples:
-  - "My kid asked a friend what church is and I almost deflected - great commission is go and make disciples, starting with plain answers at the kitchen table."
+  - "My kid asked a friend what church is and I almost deflected - glad the great commission gave me plain answers at the kitchen table."
   - "A neighbor asked what we do on Sunday mornings and I almost changed the subject - Jesus said go, baptize, teach, and He is with you while you do it."
 shareable_thought:
   - "Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age."

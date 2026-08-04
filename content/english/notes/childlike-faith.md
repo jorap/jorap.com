@@ -16,7 +16,7 @@ level_3: "Come to prayer as someone who belongs, without waiting for a respectab
 level_4: "Childlike trust does not reject growth or discernment; under [[Free Grace]], receiving the gift and learning obedience belong to different lanes."
 level_5: "Help a new believer practice trust without a merit scoreboard, then build habits that grow from assurance rather than fear."
 examples:
-  - "My daughter asked for water at practice without calculating whether she had earned it - I caught myself running a merit scoreboard with God before I would even say good morning."
+  - "My daughter asked for water at practice without calculating whether she had earned it - glad I caught myself running a merit scoreboard with God before I would even say good morning."
   - "I delay prayer until my week looks respectable - childlike faith means coming like a kid who already belongs, not a contractor negotiating terms."
 shareable_thought:
   - "The kingdom is received like a child receives care, not negotiated on a merit ladder."

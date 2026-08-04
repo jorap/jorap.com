@@ -14,7 +14,7 @@ level_4: "The applause was never reliable fuel - [[Habit Formation]] and systems
 level_5: "Design a routine that keeps the commitment after motivation leaves - fix the cue, smallest rep, and fallback for the days nobody claps."
 examples:
   - "The baker opens at 4am whether she is inspired or not - discipline is the shift she committed to when motivation was not there."
-  - "Discipline is loading the dishwasher when I would rather scroll - same as brushing teeth when you are already late."
+  - "Discipline is loading the dishwasher when I would rather scroll; glad the boring routine beat another scroll hole when I was already late."
 shareable_thought:
   - "Keep the promise when nobody is clapping and motivation walked out."
   - "Discipline keeps the commitment when the feeling that started it left."

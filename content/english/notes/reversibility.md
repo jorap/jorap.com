@@ -11,7 +11,7 @@ level_3: "Try the new play in scrimmage before running it in the championship - 
 level_4: "Because irreversible choices compound regret, ship only when the path back is spelled out and tested."
 level_5: "Design [[Staged Rollout]] so blast radius stays small - rollback is architecture, not panic invention."
 examples:
-  - "I took the longer route with an exit every mile before trying the new shortcut through construction."
+  - "I took the longer route with an exit every mile before trying the new shortcut through construction - glad reversible rehearsal beat a trapped U-turn."
   - "Try the new play in scrimmage before running it in the championship - reversible rehearsal, higher bar for the irreversible call."
 shareable_thought:
   - "Prefer choices you can undo."

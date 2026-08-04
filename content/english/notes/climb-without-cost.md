@@ -12,7 +12,7 @@ level_3: "Before you ask for the next level, name one comfort you will lay down 
 level_4: "Seats of honor without the cup of cost hit the toll booth - up requires a down payment."
 level_5: "Practice [[Law of Sacrifice]] - give up to go up; the climb is real only when the cost is paid."
 examples:
-  - "I wanted the director title and kept every Friday golf block - the climb stalled at the cost I refused."
+  - "I wanted the director title and kept every Friday golf block - glad the stalled climb taught me the cost I refused to pay."
   - "I asked for the lead role and would not drop the side projects - up without a down payment."
 shareable_thought:
   - "Climb without cost wants the higher seat without paying the personal toll leadership requires."

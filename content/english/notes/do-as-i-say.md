@@ -12,7 +12,7 @@ level_3: "Before you announce a new standard, name one visible way you will go f
 level_4: "Heavy loads for others with idle fingers teach more than the sermon - the picture outruns the speech."
 level_5: "Live [[Law of the Picture]] with [[Integrity]] - model first; example beats slogans every time."
 examples:
-  - "I preached [[Inbox Zero]] and answered Slack at midnight - the team copied the midnight picture."
+  - "I preached [[Inbox Zero]] and answered Slack at midnight - glad a junior copied the midnight picture and showed me what the team actually learned."
   - "I banned weekend work and mailed the deck Sunday night - they copied the Sunday send."
 shareable_thought:
   - "Slogan-only leadership fails when the walk contradicts the speech - people copy what they see."

@@ -12,7 +12,7 @@ level_3: "Block a recurring slot to walk the garden - prune stale links and refr
 level_4: "Orphans and drift compound when review waits for embarrassment - inbox, projects, and evergreens need the clock."
 level_5: "Create a review calendar: use [[Spaced Repetition]] for cards, a weekly [[Maintenance Window]] for active notes, and quarterly [[Active Knowledge Curation]] for the graph."
 examples:
-  - "First Sunday I reconcile the budget - not only when the card gets declined mid-commute."
+  - "Glad first Sunday budget reconcile beats waiting for the card to get declined mid-commute."
   - "The clinic reviews charts every Friday at four - not only when a complaint lands."
 shareable_thought:
   - "Notes rot without revisit - calendar weekly and quarterly passes like bills."

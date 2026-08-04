@@ -11,7 +11,7 @@ level_3: "Before a frozen plugin owns a critical path, budget a swap or fork pla
 level_4: "An open license preserves the right to fork, but thin [[Community Depth]] shifts patching, security, and exit costs onto you - inspection alone does not make the stack safe."
 level_5: "Create a fork-or-swap plan that uses [[Inspectable Stack]] to test move paths and [[Community Depth]] to name who will answer when the next patch is yours."
 examples:
-  - "Client site ran a open-source gallery plugin frozen since 2019 - I replaced it before PHP 8 turned the fatal into a Friday outage."
+  - "Glad I replaced the frozen gallery plugin before PHP 8 turned the fatal into a Friday outage - client site ran open-source code unmaintained since 2019."
   - "Hugo theme with one maintainer and forty open issues - I forked in-repo because waiting on upstream was slower than owning the nil check."
 shareable_thought:
   - "An open license does not mean maintained code."

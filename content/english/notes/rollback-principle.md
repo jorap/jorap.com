@@ -13,8 +13,8 @@ level_3: "Revert the bad Friday deploy in standup, say your call, fix Monday - r
 level_4: "Because production surprises are guaranteed, rollback clarity is readiness, not pessimism."
 level_5: "Pair with [[Reversibility]] and [[Safety by Design]] - rehearse the undo drill before milestone pride blocks the revert."
 examples:
-  - "Bad Friday deploy - I reverted in standup, said my call, fixed Monday."
-  - "The point guard ran Tuesday's inbound at halftime when the new play bled points - rollback was the drill they would already walked, not a whiteboard invention."
+  - "Bad Friday deploy - glad I reverted in standup before pride kept the broken build live; said my call, fixed Monday."
+  - "The point guard ran Tuesday's inbound at half when the new play bled points - glad the old drill was already walked, not a whiteboard invention under pressure."
 shareable_thought:
   - "Restore the last good state before you push."
   - "When the new state breaks, revert first, debug second."

@@ -19,7 +19,7 @@ level_3: "Before you adopt a teaching, ask whether you would obey it if it cost 
 level_4: "Obedience-first posture is the filter - without it, clever teaching can sound like God while serving self; [[Renewed Mind]] is the engine this enables at the fork."
 level_5: "Build a discernment rule for real forks - test the teaching by Scripture, willingness to obey, kingdom aim, and the self-interest that could bend judgment."
 examples:
-  - "Two job offers and I was polling the group chat for vibes - discernment came after a renewed mind: which role serves the kingdom, not which title feeds my ego."
+  - "Two job offers and I was polling the group chat for vibes - glad discernment came after a renewed mind: which role serves the kingdom, not which title feeds my ego."
   - "The coach had three plays for the last possession - film and prayer beat the crowd's panic script; test and approve which move fits the game plan, not the hot hand."
 shareable_thought:
   - "A renewed mind can test what God wants."

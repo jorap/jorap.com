@@ -12,7 +12,7 @@ level_3: "Cut tags until five remain that you would actually click this month - 
 level_4: "[[Metadata Strategy]] plans tags; taxonomy is the short list you would actually use - tidy folders for their own sake do not help retrieval."
 level_5: "Link by meaning when tags fail - keep the filter list short enough to click under pressure."
 examples:
-  - "Five tags I actually filter by beat thirty I never click."
+  - "Glad five tags I actually filter by beat thirty I never click."
   - "I filed immunization records under 'health' and could not find them at enrollment - three drawers with obvious owners beat alphabet soup."
 shareable_thought:
   - "Tags, folders, and types help find notes later."

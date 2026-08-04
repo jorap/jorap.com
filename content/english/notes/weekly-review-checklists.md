@@ -13,7 +13,7 @@ level_3: "Every Sunday, empty the inbox, scan the calendar, check projects, and 
 level_4: "The fixed schedule builds trust, but the checklist must stay short enough to survive low-energy and travel weeks - shorten it rather than skip it."
 level_5: "Build a weekly checklist from the few steps that restore trust, then test and trim it until it still runs on a bad week."
 examples:
-  - "Inbox, calendar, projects, one express action - twenty minutes beats skipping review because this week's \"different.\""
+  - "Glad inbox, calendar, projects, and one express action in twenty minutes beat skipping review because this week was \"different.\""
   - "Sunday checklist: bowl by the door, calendar, kid forms, one family thing to finish - same steps even on travel weeks, shortened not skipped."
 shareable_thought:
   - "Weekly review works when the same short checklist runs every Sunday on purpose."

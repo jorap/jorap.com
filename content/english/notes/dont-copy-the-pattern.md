@@ -16,7 +16,7 @@ level_3: "Pause before you react to outrage online and ask whether this response
 level_4: "Do not conform - refuse the default before renewal reshapes how I react; pairs with [[Present a Living Sacrifice]] on the same Romans passage."
 level_5: "Design a refusal habit that catches one cultural script, replaces its cue with Scripture, and trains a renewed response before the next reaction."
 examples:
-  - "I knew the verse on patience and still snapped at dinner - my mind was running the world's hurry-and-react script until I stopped copying the pattern and opened the Bible before the group chat."
+  - "I knew the verse on patience and still snapped at dinner - glad opening the Bible before the group chat broke the world's hurry-and-react script."
   - "The team copied the league's trash-talk culture after one bad call - same data, old habit loop; refusing the pattern means film study on composure, not one inspirational speech."
 shareable_thought:
   - "Culture default script is not neutral."

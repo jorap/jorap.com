@@ -16,7 +16,7 @@ level_3: "When the audience leaves and circumstances swing - look for gladness t
 level_4: "Manufactured gladness for church credit is not Spirit fruit - joy rooted in God survives bad weeks; circumstance cannot kill what connection grows."
 level_5: "Grow joy beside [[Peace]] and [[Love]] in [[Fruits of the Spirit]] - write Spirit fruit into ordinary Tuesdays, not stage smiles."
 examples:
-  - "Good week at work and I felt spiritually qualified - Galatians joy rests on Christ's promise, not the streak."
+  - "Good week at work and I felt spiritually qualified - glad Galatians joy rests on Christ's promise, not the streak."
   - "Performing joy at church while empty at home told me I was manufacturing fruit - abide first, then gladness shows up."
 shareable_thought:
   - "Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance."

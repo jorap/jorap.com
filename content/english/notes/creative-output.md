@@ -12,7 +12,7 @@ level_3: "Turn three saved sparks into one finished piece and ship it Friday eve
 level_4: "[[Deep Work]] protects production time, while deadlines fight perfectionism; shipping too early still risks work that is unclear or unsafe."
 level_5: "Create and publish a useful piece from the note pile, then use feedback to extend the next version."
 examples:
-  - "Friday film day means everyone shows one clip, rough or not - I do the same with my note pile, three sparks become one finished piece even if the cut is rough."
+  - "Glad Friday film day means everyone shows one clip, rough or not - I do the same with my note pile, three sparks become one finished piece even if the cut is rough."
   - "We do not wait for perfect dinner photos - we ship the meal and fix the recipe next time."
 shareable_thought:
   - "Notes are inventory - posts, sermons, code, and dinner experiments are the point."

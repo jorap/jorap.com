@@ -12,7 +12,7 @@ level_3: "Before scroll, ask what mood this input will leave in your body - gate
 level_4: "[[Guard Your Heart]] is the faith name - Proverbs intake valve before worship and anger downstream."
 level_5: "Build a set of default gates for feeds, notifications, and late-night viewing, then extend the filter when a new source starts shaping your mood."
 examples:
-  - "I unfollowed three outrage accounts and my commute patience doubled - gating was mute, not a lecture to myself about discipline."
+  - "Glad unfollowing three outrage accounts doubled my commute patience - gating was mute, not a lecture to myself about discipline."
   - "News notification off during deep work block - the gate was one toggle, not heroic focus while the banner still flashed."
 shareable_thought:
   - "What you read and watch becomes raw material for judgment - gate intake before output rots."

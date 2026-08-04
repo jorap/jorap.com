@@ -29,7 +29,7 @@ level_3: "Name your successor in writing - skills, values, and one unfinished ch
 level_4: "Legacy fails when the brand stays personal - the work dies with you unless succession is real."
 level_5: "[[Faithful Steward]] names the well-done; extend the baton through [[Great Commission]] truth passed on, not a personal brand."
 examples:
-  - "My best project win mattered less than the two juniors who can run it without me - that is legacy."
+  - "My best project win mattered less than the two juniors who can run it without me - glad that is legacy."
   - "Elisha asked for a double portion - succession hunger, not empire hunger."
 shareable_thought:
   - "A leader's lasting value is measured by succession."

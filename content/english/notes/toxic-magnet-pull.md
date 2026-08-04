@@ -12,7 +12,7 @@ level_3: "Name the last three hires or allies who burned the team - ask what in 
 level_4: "Who you protect and praise becomes the magnet - rot repeats until the character field changes."
 level_5: "Repair through [[Law of Magnetism]] and [[Ethical Leadership]] - change what you reward so the next pull is healthier."
 examples:
-  - "Every reorg I landed the same yes-people - the magnet was my hunger for agreement, not the market."
+  - "Every reorg I landed the same yes-people - glad the third bad hire taught me the magnet was my hunger for agreement, not the market."
   - "I kept the sharp tongue that closed deals and wondered why the next wave cut corners the same way."
 shareable_thought:
   - "Toxic magnet pull keeps attracting the same rot - the magnet is your character, not bad luck."

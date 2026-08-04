@@ -21,7 +21,7 @@ level_3: "Before you play judge, remember you needed mercy first - then act towa
 level_4: "Grace gives good you could not earn; mercy spares bad you had coming - [[Free Grace]] lands the pair on eternal life at faith; the beatitude belongs to walk and reward."
 level_5: "Create a merciful response that draws from [[Grace]], releases the debt through [[Forgiveness]], refuses final judgment through [[Judge Not]], and extends compassion toward [[Love Your Enemies]]."
 examples:
-  - "I cut someone off in the group chat after they forgot my birthday - mercy is compassion I would want when I am the one who dropped the ball, not payback dressed as justice."
+  - "I cut someone off in the group chat after they forgot my birthday - glad mercy held as compassion I would want when I am the one who dropped the ball."
   - "A coworker apologized again for the same mistake - mercy forgives from the heart; boundaries stay where trust still rebuilds."
 shareable_thought:
   - "Mercy withholds the punishment deserved and calls for the same compassion toward others."

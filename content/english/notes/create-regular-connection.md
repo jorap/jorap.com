@@ -11,7 +11,7 @@ level_4: "Rituals protect connection but can become empty or burdensome; adjust 
 level_5: "Design a connection ritual others can sustain, then extend it as trust and needs change."
 examples:
   - "I block fifteen minutes after standup to walk with one teammate - not a performance review, just the same loop every Tuesday."
-  - "My parents and I call every Sunday after lunch in the same window even when there is nothing big to report."
+  - "My parents and I call every Sunday after lunch in the same window; glad the ritual held even when there was nothing big to report."
 shareable_thought:
   - "Connection grows from small repeated rituals."
   - "One walk, one check-in - not one big gesture after a dry month."

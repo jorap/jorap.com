@@ -14,7 +14,7 @@ level_3: "Hit five spelling words while rice cooks instead of cramming the night
 level_4: "Because bookmark counts mislead, drill spine notes you actually use - separate wiki prose from cards on a timer."
 level_5: "Opt spine notes in with review true; export to Anki for phone sync - same drill lane as [[Ask Seek Knock]] on rhythm."
 examples:
-  - "I do the same with note cards on capture and gospel lines - review on a schedule before I forget, not one marathon session."
+  - "Glad note cards on capture and gospel lines review on a schedule before I forget - same little doses beat one marathon session."
   - "My kid's spelling list lives on the fridge; we hit five words while rice cooks - same little doses beat cramming the night before the quiz."
 shareable_thought:
   - "Review on a schedule so ideas stick."

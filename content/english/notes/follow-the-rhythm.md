@@ -12,7 +12,7 @@ level_3: "Schedule the weekly review on Friday whether you feel inspired - the b
 level_4: "[[Process Over Outcomes]] trusts the repeat; [[Habit Formation]] wires the beat until panic is not the only fuel."
 level_5: "Build a cadence that survives an ordinary Tuesday - cap the load, fix the cue, and add a restart rule for the week the rhythm breaks."
 examples:
-  - "I shipped nothing for two weeks then pulled an all-nighter - the blog post that stuck came from thirty quiet minutes every morning, not the crash."
+  - "Glad I shipped nothing for two weeks then pulled an all-nighter - the blog post that stuck came from thirty quiet minutes every morning, not the crash."
   - "Youth practice drills the same footwork every Tuesday - game day works because the rhythm was already in the legs."
 shareable_thought:
   - "Reliable cadence beats sporadic heroics - the same small moves on schedule outperform panic sprints."

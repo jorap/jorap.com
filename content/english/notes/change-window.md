@@ -14,7 +14,7 @@ level_3: "Deploy Tuesday morning, freeze before holidays, and keep the old build
 level_4: "Windows reduce unattended risk but delay changes and require shared rollback skill; urgency does not erase the need for coverage."
 level_5: "Design a change-window policy with risk tiers, rollback owners, and a review that improves the next window."
 examples:
-  - "We stopped Friday-night client deploys after the bad release - Tuesday standup owns rollback if it goes loud."
+  - "We stopped Friday-night client deploys after the bad release - glad Tuesday standup owns rollback if it goes loud."
   - "Wedding weekend freeze: marketing edits queue, no Hugo version bumps until Monday."
 shareable_thought:
   - "Risky changes ship when someone awake can roll back, not Friday night when everyone is offline."

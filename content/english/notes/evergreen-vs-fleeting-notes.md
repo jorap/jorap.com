@@ -13,7 +13,7 @@ level_3: "[[Capture]] fast in fleeting; promote only when you would trust the cl
 level_4: "[[Note Maturity]] is the path between - fleeting catches what might vanish this week; evergreen holds what you would cite next year after promotion earns it."
 level_5: "Build one promotion rule that moves repeated sparks into trusted claims, adds their links, and leaves short-lived fragments in the fleeting lane."
 examples:
-  - "I promoted a hot take about last night's game into the garden and winced rereading it six months later - sparks belong on the fridge, not in permanence."
+  - "Glad I promoted a hot take about last night's game into the garden and winced rereading it six months later - sparks belong on the fridge, not in permanence."
   - "The shift manager's scribble about today's rush stays on the clipboard; the safety rule we cite in training every quarter lives in the binder."
 shareable_thought:
   - "Sparks belong in fleeting notes; trusted claims belong in evergreen, with a clear path between them."

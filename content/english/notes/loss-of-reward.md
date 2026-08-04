@@ -20,7 +20,7 @@ level_3: "Serve with what you have now - wasted seasons may cost reward at the [
 level_4: "Worthless works burn at the judgment seat - eternal life stays on faith alone, but wood hay and stubble do not earn repayment."
 level_5: "Build for the reward ledger without reopening standing - [[Free Grace]] settles life at faith; [[Eternal Rewards]] and [[Standing vs Fellowship]] keep shame from collapsing the categories."
 examples:
-  - "Wasted years of selfish living and terror I am not saved - reward may burn at the judgment seat; my standing was settled when I trusted Christ."
+  - "Wasted years of selfish living and terror I am not saved - glad my standing was settled when I trusted Christ; reward may burn at the judgment seat."
   - "Hidden sin exposed and shame screamed heaven access revoked - confess, restore fellowship, keep walking; justification on Christ does not get re-opened by a bad season."
 shareable_thought:
   - "A saved believer can still lose reward."

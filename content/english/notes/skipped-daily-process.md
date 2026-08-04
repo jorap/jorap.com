@@ -12,7 +12,7 @@ level_3: "When you want the lead after one good meeting, keep the weekly skill h
 level_4: "Urgency that skips the wait costs lasting trust - process skipped for the stage cracks under real load."
 level_5: "Return to [[Law of Process]] and [[Change Takes Repetition]] - stack reps; titles do not replace the long forge."
 examples:
-  - "I wanted the team lead after one strong meeting - I had skipped months of quiet ownership."
+  - "I wanted the team lead after one strong meeting - glad the next outage showed I had skipped months of quiet ownership."
   - "We promoted on a hero week - the next outage showed the skipped Tuesday reps."
 shareable_thought:
   - "Skipped daily process microwaves a lid that cannot hold the load when the stage arrives."

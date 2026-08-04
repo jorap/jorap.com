@@ -12,7 +12,7 @@ level_3: "Run skim, mark, and summarize passes on the same chapter before you cl
 level_4: "One pass cannot hold structure, evidence, and your vocabulary at once - each layer costs time and buys depth the previous skim missed."
 level_5: "Extend the last pass with [[The Feynman Technique]] teach-it-back and [[Active Reading]] so highlights do not die in the margin."
 examples:
-  - "First pass on the coaching manual marked three sections; second pass only those got sentences in my own words."
+  - "Glad the first pass on the coaching manual marked three sections - second pass only those got sentences in my own words."
   - "My kid skims the chapter for gist first, then rereads only the confusing paragraph a second time so she can actually explain it back to me."
 shareable_thought:
   - "One pass through a book is not absorption."

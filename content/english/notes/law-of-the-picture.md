@@ -29,7 +29,7 @@ level_3: "Do the unglamorous task you keep assigning before you ask the team to 
 level_4: "Visible example without hidden integrity is performance; hidden piety without any visible walk fails the team who never see the standard."
 level_5: "Extend the model into [[Let Your Light Shine]] for visible works and [[Integrity Without an Audience]] for the private ledger."
 examples:
-  - "Kids mirrored my phone-at-dinner habit before they mirrored my prayer - the picture beat the lecture."
+  - "Kids mirrored my phone-at-dinner habit before they mirrored my prayer - glad the picture beat the lecture."
   - "Jesus tied a towel - leadership smelled like a servant's basin."
 shareable_thought:
   - "People copy the walk they watch, not the speech alone."

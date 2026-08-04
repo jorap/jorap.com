@@ -16,7 +16,7 @@ level_3: "In the next review, name three contributions the team owned, not yours
 level_4: "Because the corporate ladder rewards visibility, this principle runs the other way - wash feet in the sprint, not only in the all-hands speech."
 level_5: "[[Humility and Service]] is gospel depth you can explain in a leadership book club - serve first, do not demand service."
 examples:
-  - "I had the title at home but noticed I was hoarding easy wins - servant leadership meant the messy bedtime shift while my partner got the break."
+  - "I had the title at home but noticed I was hoarding easy wins - glad servant leadership meant the messy bedtime shift while my partner got the break."
   - "I got promoted and realized I had been grabbing credit for work the team carried - servant leadership was my name off the slide and hers on the praise email."
 shareable_thought:
   - "Servant leaders unblock the team, coach through mess, take blame up, and pass credit down."

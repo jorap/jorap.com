@@ -14,7 +14,7 @@ level_3: "Pray give us today before you spin at two in the morning about next ye
 level_4: "Under [[Free Grace]], eternal life is settled - daily bread is fellowship provision, not a wage I earn by worrying harder; [[Seek the Kingdom First]] orders priorities."
 level_5: "[[Cap Today's Commitments]] is the garden echo - honest capacity for today, not a fantasy list borrowed from tomorrow's energy."
 examples:
-  - "I spun at two in the morning about next year's tuition instead of sleeping - Matthew 6 bread is enough for today's shift, not every future bill at once."
+  - "I spun at two in the morning about next year's tuition instead of sleeping - glad Matthew 6 bread is enough for today's shift, not every future bill at once."
   - "Pantry looked thin on a lean month and I still prayed give us today - groceries showed up one day at a time, not in one heroic grocery run in my head."
 shareable_thought:
   - "Jesus taught asking for today's bread - enough grace for this day, not stockpiled anxiety about tomorrow."

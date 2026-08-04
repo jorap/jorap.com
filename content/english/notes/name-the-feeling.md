@@ -16,7 +16,7 @@ level_3: "One sentence of empathy buys permission for the fix - skip the label a
 level_4: "Name-the-feeling validates emotion before prescription - otherwise advice lands like dismissal even when the fix is right."
 level_5: "Create a response pattern that starts with [[Listen Before Fixing]], names the emotion, and extends into [[Emotional Regulation]] or a practical fix only after the label lands."
 examples:
-  - "A player slumped on the bench after a bad quarter - I said \"you look wiped\" before I drew up the next play."
+  - "A player slumped on the bench after a bad quarter - glad I said \"you look wiped\" before I drew up the next play."
   - "My kid came home furious about homework and naming the unfair feeling beat jumping straight to just do it."
 shareable_thought:
   - "That sounds frustrating lands before the fix plan."

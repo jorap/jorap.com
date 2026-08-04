@@ -11,7 +11,7 @@ level_3: "Split primary and secondary on-call before midnight instead of one eng
 level_4: "Because hiding weight guarantees a late explosion, pair with [[Psychological Safety]] so people admit the load before they snap."
 level_5: "[[Bear Each Other's Burdens]] is the faith lane name; [[Accountability]] names who owns the outcome while sharing names who shares the drag."
 examples:
-  - "The on-call engineer was three pages deep alone until we split primary and secondary before midnight - shared lift beat the middle-of-the-night meltdown."
+  - "The on-call engineer was three pages deep alone until we split primary and secondary before midnight - glad shared lift beat the middle-of-the-night meltdown."
   - "Mom's hospital week meant my sister took school pickup and I took bills - one person doing all of it would have broken by Thursday."
 shareable_thought:
   - "When work crushes one person, split the load early - shared weight beats late heroics."

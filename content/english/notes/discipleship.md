@@ -17,7 +17,7 @@ level_3: "Pick one want to deny today and one step of obedience that follows Chr
 level_4: "The cross is daily because self returns daily - [[Free Grace]] already paid; [[Grateful Obedience]] is response, not currency for heaven."
 level_5: "Build a daily discipleship rule that turns one teaching of Jesus into a denied want, an obedient step, and a truth you pass to someone else."
 examples:
-  - "I knew the basketball handbook cold and still yelled at the ref - discipleship is not memorizing policy, it is doing what the coach actually taught today."
+  - "I knew the basketball handbook cold and still yelled at the ref - glad the coach's actual lesson landed: discipleship is doing what he taught today, not memorizing policy."
   - "I taught my kid the memory verse and still snapped over spilled milk - discipleship is not a badge from one emotional Sunday, it is doing what Jesus said today."
 shareable_thought:
   - "Discipleship is following Jesus daily - learning and doing what He said after faith, not buying eternal life."

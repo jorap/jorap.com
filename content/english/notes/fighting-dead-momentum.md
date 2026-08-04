@@ -12,7 +12,7 @@ level_3: "When wins stop stacking, cut scope to one visible win this week before
 level_4: "Half-hearted strikes after Mo dies waste the remaining arrows - rebuild momentum before the big swing."
 level_5: "Return to [[Law of Big Mo]] - stack small wins first; dead Mo does not revive under louder urgency."
 examples:
-  - "I stacked three all-hands after the product stall - noise rose, Mo stayed dead."
+  - "I stacked three all-hands after the product stall - glad the dead Mo graph finally showed me noise is not a restart."
   - "We pushed a second launch week with the same broken funnel - effort without a restart."
 shareable_thought:
   - "Fighting dead momentum pushes harder after Mo dies - effort multiplies friction instead of progress."

@@ -13,7 +13,7 @@ level_3: "Hand a client markdown in git they keep - open tools let you exit when
 level_4: "Budget time to learn - [[Open Source]] skips the license, not the skill curve; WordPress took months before I trusted a live site."
 level_5: "Design a handoff that includes the files, source, export test, and exit steps so a client can leave the tool without losing the work."
 examples:
-  - "XAMPP portable on a school lab PC that blocked installers - free zip, freedom to run PHP that afternoon without an IT ticket."
+  - "Glad XAMPP portable on a school lab PC that blocked installers ran PHP that afternoon - free zip, freedom to build without an IT ticket."
   - "Shared hosting bill doubled when the client left - freedom meant markdown in git, not a dashboard export I had to negotiate."
 shareable_thought:
   - "No license fee opens the gate; freedom to install, inspect, and move files is what you buy with the evenings."

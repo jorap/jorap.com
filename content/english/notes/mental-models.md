@@ -14,7 +14,7 @@ level_3: "After a hard call, name which frame helped - if none did, you are coll
 level_4: "A model nobody reaches for is shelf decoration - recall under pressure is the value, not the bookmark count."
 level_5: "Build a small decision kit from [[Behavioral Economics]], [[Pareto Principle]], and [[Minimum Effective Dose]], then keep only the models that improve [[Decision Quality]] in repeated choices."
 examples:
-  - "The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest."
+  - "Glad I picked the two menu tweaks that actually cut ticket times from twelve on the whiteboard - shelved the rest."
   - "Waze showed four commute routes - I stuck to the one that saves gas on the Tuesday school run, not the scenic detour."
 shareable_thought:
   - "Mental models are thinking shortcuts kept when they survive real decisions."

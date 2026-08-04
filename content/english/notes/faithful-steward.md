@@ -20,7 +20,7 @@ level_3: "Use what He entrusted today in a small faithful way nobody will applau
 level_4: "Gift came first; repayment for faithfulness follows - steady obedience over time, not one week that tries to buy a seat already gifted."
 level_5: "Create a stewardship rhythm that names what God entrusted, the next faithful use, and how small obedience will compound without becoming a claim on heaven."
 examples:
-  - "I organized snacks for my kid's team and wanted credit all week - faithful steward means using what He gave, not burying it or performing for applause."
+  - "I organized snacks for my kid's team and wanted credit all week - glad faithful steward means using what He gave, not burying it or performing for applause."
   - "One mission trip in my head as my whole eternal report card - the master reviews faithful use over years, including quiet Tuesdays nobody clapped for."
 shareable_thought:
   - "After salvation is settled, stewardship is about faithful use of what God entrusted, not buying heaven with busy weeks."

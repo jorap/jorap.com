@@ -12,7 +12,7 @@ level_3: "Before the next fix, map one input and one feedback path that could be
 level_4: "Delays hide cause from effect - trace feedback before you celebrate a quiet week; [[Normalization of Deviance]] when the loop still runs."
 level_5: "Change the process that keeps producing the fire - same lens as [[Incident Investigation]] when the restaurant runs out of rice on busy Fridays."
 examples:
-  - "We lost every third possession on turnovers - systems thinking traced it to the warmup drill, not \"focus harder tonight.\""
+  - "We lost every third possession on turnovers; glad systems thinking traced it to the warmup drill, not another focus harder tonight speech."
   - "The restaurant ran out of rice on a busy Friday - systems thinking traced it to prep checklist and par levels, not \"cook faster tonight.\""
 shareable_thought:
   - "Trace the loop behind the fire."

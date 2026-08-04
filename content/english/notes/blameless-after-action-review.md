@@ -13,7 +13,7 @@ level_3: "After rollback, trace the missing check, name each decision, and updat
 level_4: "[[Rollback Principle]] restores service first; review follows later, while [[Own the Error]] keeps accountability without punishment theater."
 level_5: "Turn the findings into a safer runbook, test the new guard, and share the lesson so another team can avoid the same miss."
 examples:
-  - "Bad Friday deploy reverted by lunch - Monday after-action review traced the missing env var check, not which intern merged."
+  - "Bad Friday deploy reverted by lunch - glad Monday after-action review traced the missing env var check, not which intern merged."
   - "After the equipment cart tipped twice we changed storage layout - debrief named the hazard, not \"trainer was clumsy.\""
 shareable_thought:
   - "After rollback restores service, the team learns what broke in the system - not who to punish for pushing deploy."

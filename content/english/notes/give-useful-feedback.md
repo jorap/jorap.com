@@ -12,7 +12,7 @@ level_3: "Before you critique, name one move they can try tomorrow - concrete be
 level_4: "[[Words That Build Up]] is the faith name - Ephesians speech that gives grace to hearers; [[Iron Sharpens Iron]] needs useful delivery or friction becomes cruelty."
 level_5: "Create a feedback loop that listens for context, names one change, and checks the next attempt so truth becomes improvement rather than a verdict."
 examples:
-  - "Instead of you always miss deadlines I said the Tuesday draft needs buffer day - useful feedback was one change, not a character verdict."
+  - "Instead of you always miss deadlines I said the Tuesday draft needs buffer day - glad one change landed where a character verdict would have shut him down."
   - "Player heard foot placement not you are slow - one cue he could fix next rep, same respect, better second half."
 shareable_thought:
   - "Useful feedback names what to change and how - truth the hearer can act on, not performance scoring."

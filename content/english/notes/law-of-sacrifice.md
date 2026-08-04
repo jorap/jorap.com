@@ -29,7 +29,7 @@ level_3: "Name one comfort you will lay down this month so the team can advance 
 level_4: "[[Take Up Your Cross]] - daily toll, not one-time heroics; sacrifice without [[Count the Cost]] becomes surprise resentment."
 level_5: "[[Take Up Your Cross]] is daily; extend with [[Count the Cost]] as the pre-commitment audit before you say yes publicly."
 examples:
-  - "I gave up Saturday golf for two years of seminary nights - the up required a down payment."
+  - "I gave up Saturday golf for two years of seminary nights - glad the up required a down payment."
   - "Paul refused support he could claim - sacrifice bought hearing for the gospel."
 shareable_thought:
   - "A leader pays a personal toll to rise in influence."

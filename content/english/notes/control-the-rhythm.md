@@ -14,7 +14,7 @@ level_3: "When a complex quote is demanded in ten minutes, set a later answer ti
 level_4: "Slowing down protects judgment but can break trust when it ignores real deadlines or [[Plain Commitments at Work]]; pace must fit the stakes."
 level_5: "Create a team rhythm for urgent requests that sets response times, decision pauses, and clear exceptions."
 examples:
-  - "A dad texted for more reps before I had watched his kid play - control the rhythm was seeing Thursday's scrimmage first instead of doubling reps that bred a limp."
+  - "A dad texted for more reps before I had watched his kid play - glad I saw Thursday scrimmage first instead of doubling reps that bred a limp."
   - "A client wanted a complex quote answer in ten minutes - I sent numbers after lunch and kept the room from rushing a bad decision."
 shareable_thought:
   - "Whoever sets the pace often steers the room."

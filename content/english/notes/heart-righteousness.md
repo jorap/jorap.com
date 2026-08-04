@@ -18,7 +18,7 @@ level_3: "Treat anger and lust in the heart as guilt before God - polish on the 
 level_4: "Heart murder and heart adultery count before God - visible acts alone are not the finish line."
 level_5: "Create a heart-level check that names the anger or lust beneath outward polish, then extend repentance to the motive before it becomes an act."
 examples:
-  - "I smiled through the bad call and nursed the anger the whole ride home - heart righteousness is polite outside, poison inside; God cares about the inner life."
+  - "I smiled through the bad call and nursed the anger the whole ride home - glad heart righteousness exposed polite outside, poison inside; God cares about the inner life."
   - "I sent a cold reply that sounded professional while resentment ran inside - Jesus moves righteousness from courtroom compliance to motive."
 shareable_thought:
   - "Heart righteousness goes deeper than outward acts."

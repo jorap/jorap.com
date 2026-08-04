@@ -12,7 +12,7 @@ level_3: "Before the meeting ends, say what broke, what you did, and what change
 level_4: "Near-miss reports need a named owner - shame and scattered blame both hide the data the team needs."
 level_5: "Create a repair loop that names the owner, runs a [[Blameless After-Action Review]], uses [[Complete the Cycle]] to fix the process, and lets [[Forgiveness at Work]] close the miss."
 examples:
-  - "I sent the wrong attachment and named it in the reply thread before anyone else had to."
+  - "I sent the wrong attachment and named it in the reply thread before anyone else had to - glad owning it early kept the thread from spinning."
   - "The point guard called the bad pass out loud in the huddle - next play trusted faster."
 shareable_thought:
   - "Owning the error is naming the miss clearly so failure becomes information, not blame theater."

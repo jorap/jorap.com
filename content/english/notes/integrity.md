@@ -12,7 +12,7 @@ level_3: "When the ref looked away I could have counted a late hit as legal - in
 level_4: "When convenience bends the story, integrity breaks - alignment costs something every time, and shortcuts show up in the gap between claim and deed."
 level_5: "Create a standard that makes public promises and private work match, then add a check that still holds when honesty costs time or credit."
 examples:
-  - "I could have counted a late hit as legal when the ref looked away - integrity is the same call whether anyone's watching or not."
+  - "I could have counted a late hit as legal when the ref looked away - glad the same call held whether anyone was watching or not."
   - "I could have scooped light on flour when the rush got loud - integrity is what you do matches what you claim, especially when it costs comfort."
 shareable_thought:
   - "What you do matches what you claim when applause, speed, or comfort are not watching."

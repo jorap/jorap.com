@@ -12,7 +12,7 @@ level_3: "Log the near miss the first time - [[Heed Every Near-Miss]] before the
 level_4: "By the fourth or fifth time, the shortcut is just how things are done here - close calls stop getting recorded and [[Failure as Feedback]] dies."
 level_5: "Create a near-miss rule that triggers [[Blameless After-Action Review]] before an accident, then extend it whenever a repeated shortcut starts disappearing into normal work."
 examples:
-  - "Third time someone ran the red light in the parking lot and nobody wrote it up - until the fender bender."
+  - "Third time someone ran the red light in the parking lot and nobody wrote it up - glad the fender bender finally broke the drift before someone got hurt worse."
   - "Third time we let the ladder stay on the stairs and nobody moved it - until someone tripped carrying laundry."
 shareable_thought:
   - "Repeated close calls slowly redefine 'normal' until disaster feels surprising but was predictable."

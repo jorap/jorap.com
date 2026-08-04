@@ -17,7 +17,7 @@ level_3: "When you snap at dinner, apologize and practice the patience you want 
 level_4: "[[Free Grace]] settles standing while [[Sanctification]] names growth; confusing them turns fruit into a price for [[Justification]]."
 level_5: "Build a rule of life around [[Abide in Me]], then help others practice the visible fruit of becoming more like Christ."
 examples:
-  - "I lost my temper at dinner and apologized slower than I used to snap - Christlikeness is slow; faith settled standing, and God still reshapes me."
+  - "I lost my temper at dinner and apologized slower than I used to snap - glad faith settled standing while God still reshapes me; Christlikeness is slow."
   - "I performed kindness at church and was sharp with the cashier an hour later - Christlikeness is not a badge from one emotional Sunday, it is looking more like Jesus on ordinary Tuesdays."
 shareable_thought:
   - "God keeps reshaping believers to look and love more like Jesus - growth after faith, not the entry fee."

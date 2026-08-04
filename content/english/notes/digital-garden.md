@@ -11,7 +11,7 @@ level_3: "Post the rough note, link two neighbors, and revise in public - waitin
 level_4: "Public, linked, imperfect notes beat a private hoard - [[Evergreen Notes]] can still mature in public without pretending the first draft was final."
 level_5: "Build a public garden where rough notes link to neighbors, show revision, and invite feedback that can grow the ideas into new claims."
 examples:
-  - "Our team playbook wiki still has last season's sets beside this year's - I replace a drill when I learn better, not when the first version was supposed to be final."
+  - "Glad our team playbook wiki still has last season's sets beside this year's - I replace a drill when I learn better, not when the first version was supposed to be final."
   - "My garden posts stay linked and imperfect - notes grow in public instead of rotting in a folder until they are ready."
 shareable_thought:
   - "A digital garden is where notes grow in public."

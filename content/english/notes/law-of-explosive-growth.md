@@ -29,7 +29,7 @@ level_3: "Teach one person your full playbook this quarter - not just a task dum
 level_4: "Headcount alone stalls when only one person can teach - addition grows bodies; multiplication needs leaders who spawn leaders."
 level_5: "[[Invest in the Few]] builds depth first so [[Great Commission]] multiplication has leaders to send - disciples who make disciples beat headcount alone."
 examples:
-  - "I mentored two leads who each mentored two more - growth exploded when I stopped being the only teacher."
+  - "I mentored two leads who each mentored two more - glad growth exploded when I stopped being the only teacher."
   - "Paul left Titus to appoint elders - multiplication beat one-man planting."
 shareable_thought:
   - "To grow by addition, raise followers - to multiply, raise leaders."

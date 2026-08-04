@@ -17,7 +17,7 @@ level_3: "When the alarm trips and the crew looks your way before the manager ar
 level_4: "Title grants authority on org charts; influence moves behavior - waiting for a badge before you help others win wastes the trust deposits already compounding."
 level_5: "Build influence before the badge by creating a repeatable way to steady the room, unblock others, and pass credit down."
 examples:
-  - "Our line cook never got named manager; when the hood alarm tripped everyone looked at her for who goes where - influence without a title, earned in every prior shift."
+  - "Our line cook never got named manager; when the hood alarm tripped everyone looked at her for who goes where - glad prior shifts earned that influence without a title."
   - "The blackout hit our block and one neighbor set pace - who checks elders, who runs the generator - nobody voted, they just followed the person who would shown up last typhoon."
 shareable_thought:
   - "People follow the one who showed up in the crisis - not always the name on the org chart."

@@ -11,7 +11,7 @@ level_3: "Save the article with a note such as \"for Q3 budget slide\" while the
 level_4: "Extra context improves retrieval but adds capture friction; record only enough why to make the item useful later."
 level_5: "Design a capture prompt that adds the smallest useful context, then test whether future you can act on saved items without guessing."
 examples:
-  - "Voice memo in the parking lot after the meeting - I almost saved just the link and caught myself; context was still in my head."
+  - "Glad the parking-lot voice memo caught the meeting context - I almost saved just the link and caught myself while it was still in my head."
   - "Photo of the whiteboard before they erased it - capture matched where the idea lived."
 shareable_thought:
   - "A saved link is a mystery six weeks later unless the why is jotted while memory is fresh."

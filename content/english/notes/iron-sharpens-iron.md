@@ -15,7 +15,7 @@ level_3: "When my brother asked if my temper matched my Bible reading - Proverbs
 level_4: "Under [[Free Grace]], sharpening is discipleship fruit - not proof I earned God's favor this week, and avoiding the hard question leaves you dull."
 level_5: "Create a sharpening relationship with permission to ask hard questions, prayer after friction, and a next step that helps both people grow."
 examples:
-  - "My brother asked if my temper matched my Bible reading - Proverbs sharpening hurt that night and saved the marriage argument next week."
+  - "My brother asked if my temper matched my Bible reading - glad Proverbs sharpening hurt that night and saved the marriage argument next week."
   - "Small group friend pushed on my spending story after I bragged about the sale - iron friction was love, not jealousy."
 shareable_thought:
   - "Proverbs says iron sharpens iron - believers grow through honest friction with friends who love the Lord and you."

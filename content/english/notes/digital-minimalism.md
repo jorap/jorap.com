@@ -13,7 +13,7 @@ level_3: "Count what you babysit weekly and cut one before you add another - few
 level_4: "Every new app is a pipe you babysit - [[Minimum Effective Dose]] trades some [[Digital Serendipity]] for fewer leaks and fewer pings pulling you off the note you were writing."
 level_5: "Design the smallest note system that still catches, finds, and exports ideas - then write the rule that blocks a new tool until one leaves."
 examples:
-  - "We dropped the second gym bag and the backup jump rope - fewer things means I actually know where the one working pair of shoes lives."
+  - "Glad we dropped the second gym bag and the backup jump rope - fewer things means I actually know where the one working pair of shoes lives."
   - "The front desk runs one scheduling app, not four - fewer sync layers means fewer places patient reminders get lost."
 shareable_thought:
   - "Notes sharpen when extra apps, sync layers, and unused notifications drop away."

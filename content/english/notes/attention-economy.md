@@ -15,7 +15,7 @@ level_3: "Turn off push alerts before installing another focus app - guard the f
 level_4: "Free access trades money for attention and data - a tidy inbox cannot fix a feed designed to keep you engaged with low-value content."
 level_5: "Build an [[Information Diet]] that removes one engagement hook, names the signal worth keeping, and reviews the feed before adding another focus tool."
 examples:
-  - "I turned off push alerts before trying a new focus app - the pipe was the leak."
+  - "Glad I turned off push alerts before trying a new focus app - the pipe was the leak."
   - "My kid's group chat pinged through homework; airplane mode for forty minutes beat another planner."
 shareable_thought:
   - "Platforms sell user attention - guard the feed pipe before optimizing the inbox."

@@ -16,7 +16,7 @@ level_3: "When anxiety spikes at 2am, pray first then act on what you can change
 level_4: "Galatians lists peace beside love and joy - stuffing emotion is not peace; trusting sovereignty is."
 level_5: "Build a response rhythm from [[Fruits of the Spirit]], [[Patience]], and [[Gentleness]]: trust God, name the truth, and pursue repair without performing calm to earn standing."
 examples:
-  - "I thumb-refreshed the news at 2am instead of sleeping - peace fruit was pray first, then act on what I can actually change."
+  - "I thumb-refreshed the news at 2am instead of sleeping - glad peace fruit meant pray first, then act on what I can actually change."
   - "Two coworkers wanted me to pick a side - peace was not avoiding them; it was asking what it would take to fix things."
 shareable_thought:
   - "Peace is Spirit-grown calm in believers who trust the Father - not silence at any price."

@@ -12,7 +12,7 @@ level_3: "Empty the inbox on the same day each week - trust is built by schedule
 level_4: "Trust rebuilds on time because emptying on schedule proves the system will hold what you offload - hope is not a processing strategy."
 level_5: "Same lane as [[Inbox Zero]] - one bowl by the door beats two bowls that make you hold things in your head instead."
 examples:
-  - "We kept one bowl by the door for keys, papers, receipts - two bowls meant I would hold things in my head instead."
+  - "Glad one bowl by the door for keys, papers, receipts held - two bowls meant I would hold things in my head instead."
   - "One notebook on the bench for every substitute tweak - if we do not review it after the match, nobody trusts writing in it next week."
 shareable_thought:
   - "One capture pipe emptied every week."

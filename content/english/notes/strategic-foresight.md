@@ -11,7 +11,7 @@ level_3: "Sign the young backup keeper before the starter's contract year - fore
 level_4: "Because reactive teams win the night and lose the season, the board six months out matters more than tonight's score."
 level_5: "Install one move before the lag catches up - pair with [[Second-Order Thinking]] when copycats and counters erode the first gain."
 examples:
-  - "The club signed a young backup keeper before the starter's contract year - foresight looks past this Saturday's win to next season's roster crunch."
+  - "The club signed a young backup keeper before the starter's contract year - glad foresight looked past this Saturday win to next season roster crunch."
   - "You do not buy a two-seat car the year before twins arrive - the board after everyone reacts to your life, not just today's trunk test."
 shareable_thought:
   - "Look past today's win to what happens after everyone reacts."

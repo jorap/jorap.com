@@ -12,7 +12,7 @@ level_3: "When you link two notes, pick one relationship type - that edge beats 
 level_4: "Typed edges add direction and tradeoffs that tags cannot show, but a forced type can overstate a weak link - use them where the relationship changes how the notes are read."
 level_5: "Extend [[Linking by Meaning]] by creating typed edges between [[Atomic Notes]], then add or revise a relationship type when the four choices cannot name a real connection."
 examples:
-  - "I am updating the family chore chart and add \"feeds into: Saturday yard work\" next to \"take out trash\" plus \"conflicts with: bedtime when done late\" before I tape it to the fridge."
+  - "Glad I add \"feeds into: Saturday yard work\" next to \"take out trash\" plus \"conflicts with: bedtime when done late\" before I tape the chore chart to the fridge."
   - "The coach's whiteboard lists \"feeds into: secondary break\" beside each drill - players see how today's reps connect before they leave the gym."
 shareable_thought:
   - "The graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word."

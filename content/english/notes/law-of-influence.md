@@ -25,7 +25,7 @@ level_3: "Before you claim the chair, check whether anyone would follow if the t
 level_4: "Badge without followers is a solo walk - title optional, movement required; influence is what people grant, not what the org chart prints."
 level_5: "Extend the split into practice - [[Influence Without Title]] leads without a badge; [[Title Without Influence]] warns when the org chart moves nobody."
 examples:
-  - "No title on the project but people waited for my read before they moved - that was influence, not the empty manager slot."
+  - "No title on the project but people waited for my read before they moved - glad that was influence, not the empty manager slot."
   - "The elder who prayed over our street during the flood had no office - everyone still did what she asked."
 shareable_thought:
   - "The true measure of leadership is influence - nothing more, nothing less."

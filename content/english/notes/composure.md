@@ -12,7 +12,7 @@ level_3: "Wait one beat, lower your voice, and ask one clear question before rep
 level_4: "Visible calm can steady a room but can also look detached; composure must pair with honest concern, boundaries, and [[Situational Control]]."
 level_5: "Create and rehearse a reset routine that helps your team keep judgment when conflict raises the volume."
 examples:
-  - "The neighbor argument on the group chat heated up and I waited one beat before replying - people read calm as competence even when the issue is real."
+  - "The neighbor argument on the group chat heated up and I waited one beat before replying - glad one pause kept calm on the thread."
   - "I used the same move in a heated parent meeting - slower speech, one clarifying question, no matching their volume."
 shareable_thought:
   - "Composure is steady voice and pace when the room is not."

@@ -12,7 +12,7 @@ level_3: "Refuse the dangerous drill or cleanse even when the participant agreed
 level_4: "Protection must respect autonomy without hiding behind consent; weigh benefit, risk, power, and safer alternatives through [[Duty of Care]]."
 level_5: "Create a safety review for drills that states the benefit, risk, stop rule, and safer option before anyone participates."
 examples:
-  - "The coach who said \"they signed the waiver\" after a near-drown was not coaching - he dodged [[Duty of Care]] when the drill was unsafe and pointless."
+  - "The coach who said \"they signed the waiver\" after a near-drown was not coaching - glad the parent complaint that week named what [[Duty of Care]] actually owed."
   - "The gym sold a dangerous cleanse because customers clicked agree - coaching ethics means you still owe reasonable protection to people under your influence."
 shareable_thought:
   - "Develop the person without hiding behind consent when the drill is unsafe or pointless."

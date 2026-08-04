@@ -12,7 +12,7 @@ level_3: "Run the new inbound on scrimmage Tuesday before Friday's game - previe
 level_4: "Because blast radius sets undo cost, [[Reversibility]] stays real when harm hits fewer people first."
 level_5: "Architect [[Safety by Design]] at release time - one table section, one scrimmage night, then commit the whole lane."
 examples:
-  - "Cloudflare preview branch caught the broken layout before main - rollback was not touching production."
+  - "Cloudflare preview branch caught the broken layout before main - glad rollback was not touching production."
   - "New inbound play ran in scrimmage Tuesday before Friday's game - point guard reverted to last week's call at halftime without reinventing."
 shareable_thought:
   - "Ship to a small slice first so rollback stays cheap if the new state bleeds."

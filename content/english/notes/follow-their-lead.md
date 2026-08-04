@@ -13,7 +13,7 @@ level_3: "Listen, run their version once, then offer your fix - the redirect lan
 level_4: "Because connection precedes correction, critique before understanding kills trust even when the fix is right."
 level_5: "Create a feedback sequence that starts with their version, proves what you heard, and earns the right to offer a redirect they can shape."
 examples:
-  - "My teammate wanted to run a inbound play I would never seen - I ran it once before I told him how I would do it."
+  - "My teammate wanted to run a inbound play I would never seen - glad I ran it once before I told him how I would do it."
   - "A coworker walked me through how she tracks patient callbacks - I watched the whole spreadsheet before I offered to reorder her columns."
 shareable_thought:
   - "Join their world - topic, pace, starting point - before trying to steer."

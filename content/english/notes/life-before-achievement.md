@@ -12,7 +12,7 @@ level_3: "Before you chase the metric, ask whether the route protects people - i
 level_4: "A win that costs someone their health or trust is borrowed time until someone pays - achievement without safety is not a real win."
 level_5: "[[Safety by Design]] and [[Duty of Care]] sit upstream - design the route so achievement never borrows against irreversible harm."
 examples:
-  - "I said no to the backyard rope swing over concrete when a low tree branch and mat did the same fun with softer landings."
+  - "I said no to the backyard rope swing over concrete when a low tree branch and mat did the same fun with softer landings - glad life beat achievement on that call."
   - "The school canceled the cliff-jump field trip when the park picnic hit the same bonding goal without a credible risk of a broken leg."
 shareable_thought:
   - "Human life is non-negotiable - even when the goal is a championship or a reputation for toughness."

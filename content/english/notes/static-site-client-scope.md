@@ -24,7 +24,7 @@ level_3: "Ask who updates content and how often on the first sales call - two or
 level_4: "Because saying no after deposit wastes leverage, filter bad fits in the room while you can still walk away."
 level_5: "Redirect honestly to Shopify or WordPress when needed - [[Plain Commitments at Work]] says no face to face; [[Outcomes Over Pitch Decks]] picks by fruit."
 examples:
-  - "Cafe owner wanted online ordering - out of scope; menu page plus link to existing delivery app."
+  - "Glad cafe owner got menu page plus link to existing delivery app when online ordering was out of scope."
   - "Gym wanted class schedule from booking SaaS - embed the vendor widget; static shell around it was fine."
 shareable_thought:
   - "Static sites fit text and images on git push - not live databases or mystery WordPress admins."

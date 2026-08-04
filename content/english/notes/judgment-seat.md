@@ -20,7 +20,7 @@ level_3: "When fire tests come, keep categories separate - the bema weighs works
 level_4: "Wood, hay, and straw burn; gold, silver, and precious stones last - some work burns and you are still saved through fire; worthless work shrinks reward, not standing."
 level_5: "Keep two ledgers in practice - [[Justification]] already settled standing; build reward habits under [[Loss of Reward]] and [[Eternal Rewards]] without reopening heaven."
 examples:
-  - "I pictured standing before Christ and panicked like heaven might get revoked - the judgment seat evaluates works for reward; salvation was settled at faith."
+  - "I pictured standing before Christ and panicked like heaven might get revoked - glad the judgment seat evaluates works for reward; salvation was settled at faith."
   - "Years of church service felt like my ticket in - what gets weighed is faithful obedience after salvation, not a re-trial on who gets eternal life."
 shareable_thought:
   - "Believers stand before Christ after salvation to have works evaluated for reward."

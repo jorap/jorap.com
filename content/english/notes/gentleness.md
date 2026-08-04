@@ -17,7 +17,7 @@ level_3: "Pause and listen before you prescribe - correction without love fails 
 level_4: "Unrestrained strength intimidates instead of serves - loud fixes without hearing are not Spirit-grown gentleness."
 level_5: "Create a correction pattern that listens first, names one needed change, and keeps enough strength in reserve to serve rather than intimidate."
 examples:
-  - "Correction with my kid turned sharp - volume up, gentleness gone - Galatians gentleness is strength under control, not force."
+  - "Correction with my kid turned sharp - volume up, gentleness gone - glad Galatians gentleness held as strength under control, not force."
   - "I helped a neighbor move and waited for credit in the group chat - gentleness fruit serves without grasping for status."
 shareable_thought:
   - "Gentleness fruit is strength held back on purpose, not weakness or loud correction that skips love."

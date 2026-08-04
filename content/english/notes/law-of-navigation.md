@@ -25,7 +25,7 @@ level_3: "Write the risks and route on one page before you announce the march - 
 level_4: "Honest map before public yes - threat and route belong on the same page; improvisation as strategy sinks the crew."
 level_5: "[[Count the Cost]] is the faith navigation move; [[Strategic Foresight]] extends the same chart into the workplace plan."
 examples:
-  - "We had energy for the launch but no phased plan - navigation was the missing whiteboard, not motivation."
+  - "We had energy for the launch but no phased plan - glad navigation was the missing whiteboard, not motivation."
   - "Nehemiah's half-built wall with spears in hand - course included defense, not just bricks."
 shareable_thought:
   - "Anyone can steer the ship, but it takes a leader to chart the course."

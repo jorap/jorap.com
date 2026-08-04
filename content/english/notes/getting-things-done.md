@@ -13,7 +13,7 @@ level_3: "Capture everything on your mind today, clarify the next action for eac
 level_4: "Open loops drain attention - separate tasks from notes when [[PARA Method]] owns the reference layer."
 level_5: "Build a trusted task system with one capture path, clear next actions, and a weekly review, then connect reference material to [[PARA Method]] without mixing the two lanes."
 examples:
-  - "Tournament week and the brain is not a filing cabinet - GTD is one trusted inbox and a weekly review so open loops live on paper, not at 2am."
+  - "Glad GTD keeps one trusted inbox and a weekly review during tournament week - the brain is not a filing cabinet, so open loops live on paper, not at 2am."
   - "Commute errands and neighbor requests hit one pocket notebook - each item gets a next action so nothing rots as background worry."
 shareable_thought:
   - "David Allen's capture-clarify-organize loop turns scattered tasks into one trusted inbox with weekly review."

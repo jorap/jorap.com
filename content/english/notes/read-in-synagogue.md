@@ -16,7 +16,7 @@ level_3: "Show up where the congregation hears Scripture together - private read
 level_4: "Because the gathering expected aloud reading, His authority came from text in community - not private quotes dropped without context."
 level_5: "Build a weekly Scripture rhythm with both lanes: private [[Abide in Me]] reading and public reading with God's people, neither used to earn what [[Free Grace]] gives."
 examples:
-  - "I streamed a sermon in pajamas for a month and wondered why Scripture felt thin - Jesus had a custom of reading aloud with the congregation."
+  - "I streamed a sermon in pajamas for a month and wondered why Scripture felt thin - glad Jesus had a custom of reading aloud with the congregation."
   - "Kids memorized verses at home but rarely heard the church read the text together - gathered reading was His rhythm, not a solo hobby."
 shareable_thought:
   - "Jesus read Scripture aloud in synagogue as His custom - private reading and gathered worship both matter."

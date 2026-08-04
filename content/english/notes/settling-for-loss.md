@@ -12,7 +12,7 @@ level_3: "When the room goes quiet after a setback, name one next experiment bef
 level_4: "Fear treated as final freezes the camp - victory starts when a leader refuses early surrender."
 level_5: "Practice [[Law of Victory]] - find a way; the team copies whether you hunt or settle."
 examples:
-  - "We missed one sprint and I called the quarter lost - the team stopped looking for a path."
+  - "We missed one sprint and I called the quarter lost - glad the quiet room after taught me settling teaches them to quit early."
   - "After the first customer no, I cancelled the chase - settling taught them to quit early."
 shareable_thought:
   - "Settling for loss stops hunting a path to win - the team inherits the leader's surrender."

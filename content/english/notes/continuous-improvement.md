@@ -11,7 +11,7 @@ level_3: "After a miss, change one line in the checklist and test it on the next
 level_4: "Small fixes reduce risk but can optimize the wrong system; use [[Blameless After-Action Review]] to know when a local tweak or larger redesign is needed."
 level_5: "Build a feedback loop that captures misses, ships one tested change, and shares the improved process with others."
 examples:
-  - "I tweak one line in my weekly review checklist after each miss - steady small upgrades beat the heroic overhaul I never schedule."
+  - "I tweak one line in my weekly review checklist after each miss; glad small upgrades beat the heroic overhaul I never schedule."
   - "The barista changed one milk-steaming step after every burned latte - kaizen in the steam wand, not a grand retraining day that never happens."
 shareable_thought:
   - "Each miss becomes one tweak to the process, not a lecture about trying harder."

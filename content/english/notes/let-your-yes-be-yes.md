@@ -16,7 +16,7 @@ level_3: "At work and home, say yes or no plainly without stacking extra oaths."
 level_4: "Padded oaths paper over broken follow-through - the limit is trust earned by ordinary yes, not louder swearing."
 level_5: "[[Integrity]] of speech is [[Heart Righteousness]], not performance - padded oaths mirror [[Atomic Notes]] stuffed with prose instead of one plain claim."
 examples:
-  - "I told the coach I would have my kid there \"God willing, absolutely, cross my heart\" when a plain yes would have been enough."
+  - "I told the coach I would have my kid there with a pile of assurances when a plain yes would have been enough - glad let your yes be yes held without spin."
   - "I padded a deadline promise with extra assurances so they would believe me - if my word needs spin to sound believable, the problem is not the schedule, it is me."
 shareable_thought:
   - "Speak plainly - no swearing oaths to make people trust you; let your word stand on its own."

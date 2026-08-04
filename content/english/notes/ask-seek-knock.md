@@ -22,7 +22,7 @@ level_3: "Pray on the same rhythm you review your week - dependence before daily
 level_4: "Persistence builds dependence without turning prayer into merit or leverage - under [[Free Grace]], the child keeps asking because he already belongs."
 level_5: "Build a prayer rhythm around asking, seeking, and knocking, then extend it with a review that notices answers, delays, and needs that changed."
 examples:
-  - "I thumb-refresh the news about tomorrow's meeting instead of asking - prayer is dependence, not bargaining for merit I already have under grace."
+  - "I thumb-refresh the news about tomorrow's meeting instead of asking - glad asking first held when panic hit; prayer is dependence, not bargaining for merit I already have under grace."
   - "The clinic chaplain rounds every floor on a schedule, not only when someone codes - ask, seek, knock is keep showing up, not one crisis visit."
 shareable_thought:
   - "Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits."

@@ -13,7 +13,7 @@ level_3: "Run the inbound play every Thursday whether you need it or not - docum
 level_4: "Because emergencies compress decisions, prep moves choices upstream - tested runbooks fail less than heroics when margin disappears."
 level_5: "Use [[Build a Reliable Default]] to write one runbook, rehearse it inside a [[Change Window]], and revise the step that fails before the real alarm."
 examples:
-  - "We ran our inbound play every Thursday whether we needed it or not - schools run fire drills on sunny Tuesdays so kids are not learning exits during smoke."
+  - "We ran our inbound play every Thursday whether we needed it or not - glad Friday game was boring because everyone had already walked it in scrimmage."
   - "Our restaurant ran the closing checklist on a slow Tuesday; Saturday night's rush was boring because everyone had already walked it once."
 shareable_thought:
   - "Run the fire drill bored rather than improvise when the alarm is real."

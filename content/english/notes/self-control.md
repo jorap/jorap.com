@@ -16,7 +16,7 @@ level_3: "Close the app and answer when you are not drunk on cortisol - not the 
 level_4: "Because autopilot favors the loudest impulse, deliberate selection beats suppression theater."
 level_5: "Extend the same restraint across surfaces - [[Fruits of the Spirit]] holds the faith lane; this note is the general skill you can run anywhere."
 examples:
-  - "My thumb hovered over a snarky reply in the pickup-line group chat - self-control was close the app and answer when I was not drunk on cortisol."
+  - "My thumb hovered over a snarky reply in the pickup-line group chat; glad self-control meant closing the app until I was not drunk on cortisol."
   - "The point guard feels the pull to hero-ball on a bad stretch - self-control is the scripted pass they drilled, not the urge."
 shareable_thought:
   - "Self-control picks the next move on purpose."

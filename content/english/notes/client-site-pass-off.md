@@ -16,7 +16,7 @@ level_3: "Choose a Git lesson, retainer batch, showroom branch, or [[Git-Based C
 level_4: "Client control, skill, update frequency, and support cost shape the model; the easiest handoff for you may be wrong for them."
 level_5: "Create a pass-off kit for the chosen model and test whether the client can publish one safe update without you taking over."
 examples:
-  - "Neighbor chose Git lesson - twenty minutes on edit, commit, push; she broke build once, fixed typo same night."
+  - "Glad the neighbor chose the Git lesson - twenty minutes on edit, commit, push; she broke build once, fixed typo same night."
   - "Pastor emails bulletin PDF every Friday - retainer batch, one push, no CMS layer needed."
 shareable_thought:
   - "Before deposit, name who publishes next and price the pass-off so launch is not a guessing game."

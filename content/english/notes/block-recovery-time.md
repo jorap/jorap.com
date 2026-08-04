@@ -12,7 +12,7 @@ level_3: "Book the nap, walk, or off night before the week fills, then treat it 
 level_4: "Recovery supports [[Energy Protects Judgment]], but the right amount changes with workload, health, and season; a block is a boundary, not a cure."
 level_5: "Design a weekly rhythm that protects recovery, watch whether energy returns, and adjust the blocks that do not work."
 examples:
-  - "I blocked Wednesday noon walks before Q4 crunch - the weeks I kept them, bedtime arguments dropped; the weeks I skipped, everyone paid."
+  - "Glad I blocked Wednesday noon walks before Q4 crunch - the weeks I kept them, bedtime arguments dropped; the weeks I skipped, everyone paid."
   - "Team put no-meeting Friday afternoons on the calendar - recovery block beat the culture that wore badges for empty weekends."
 shareable_thought:
   - "Recovery belongs on the calendar like practice - unblocked rest becomes the thing that always slips."

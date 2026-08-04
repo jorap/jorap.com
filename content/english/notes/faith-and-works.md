@@ -18,7 +18,7 @@ level_3: "Pick one command you heard this week and do it before you add another 
 level_4: "Rock and sand split on doing, not hearing alone - works may back up faith before people; they never purchase heaven or ground assurance."
 level_5: "Create a teaching that keeps Paul's answer about salvation and James's answer about living faith distinct, then apply both without making works the price of heaven."
 examples:
-  - "A coworker quoted James like you need faith plus works to get in - one sentence: faith alone opens the door; works answer the gift, they do not buy it."
+  - "A coworker quoted James like you need faith plus works to get in - glad one sentence held: faith alone opens the door; works answer the gift, they do not buy it."
   - "Confident I am saved but the same selfish pattern untouched - James is not saying try harder to earn heaven; he is asking whether faith sits unused."
 shareable_thought:
   - "Faith alone saves; works answer grace already received, they do not buy heaven."

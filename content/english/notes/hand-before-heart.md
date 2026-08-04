@@ -12,7 +12,7 @@ level_3: "Before the next big ask, spend one real conversation on their load - c
 level_4: "Charm that only shows up when you need volunteers is connection theater - hearts close and hands slow."
 level_5: "Repair with [[Law of Connection]] - touch the heart first; followership grows after care, not after the pitch."
 examples:
-  - "I pinged the whole channel for weekend help without asking how anyone was - hands stayed dark."
+  - "I pinged the whole channel for weekend help without asking how anyone was - glad the empty replies taught me hands stay dark when heart never shows."
   - "I led with the deadline slide and skipped the check-in - the room complied once, then ghosted the next ask."
 shareable_thought:
   - "Hand before heart asks for labor before any real connection - the ask feels like use, not leadership."

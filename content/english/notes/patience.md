@@ -15,7 +15,7 @@ level_3: "One breath before reaction when cut off in traffic - buy the Spirit ro
 level_4: "Galatians lists patience beside gentleness and self-control - endurance under providence from the vine, not performed virtue."
 level_5: "Build a delay practice around [[Abide in Me]]: pause, name the urge, choose the gentle response, and let [[Sanctification]] deepen the habit over years."
 examples:
-  - "I snapped at my kid after a week with almost no prayer - Galatians patience comes from [[Walk by the Spirit]], not forcing virtue until Friday."
+  - "I snapped at my kid after a week with almost no prayer - glad Galatians patience comes from [[Walk by the Spirit]], not forcing virtue until Friday."
   - "Cut off in traffic, my first instinct matched horn for horn - patience fruit was one breath before I became the driver I hate."
 shareable_thought:
   - "Wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping."

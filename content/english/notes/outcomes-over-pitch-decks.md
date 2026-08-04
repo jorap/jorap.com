@@ -16,7 +16,7 @@ level_3: "Before you hire or partner, ask for three past outcomes with names att
 level_4: "Downstream stress, turnover, and delivery health tell you more than charisma - read outcomes, not vibes alone."
 level_5: "Build a proof process that uses [[People-Centered Design]] to choose outcomes, [[Staged Rollout]] to test them, and [[Own the Error]] to revise the idea when the fruit is poor."
 examples:
-  - "The trainer's Instagram was polished - I asked two parents who finished the program about injuries and consistency."
+  - "The trainer's Instagram was polished - glad I asked two parents who finished the program about injuries and consistency."
   - "The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile."
 shareable_thought:
   - "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."

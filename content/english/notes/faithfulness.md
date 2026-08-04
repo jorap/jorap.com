@@ -15,7 +15,7 @@ level_3: "Do the small entrusted task today with the same care you would bring t
 level_4: "Grace already secured salvation - steady obedience responds to the gift; performance cannot replace the entry fee."
 level_5: "Build a quiet faithfulness rhythm around what God entrusted - name the small use, repeat it over time, and teach it without turning reward into the ticket."
 examples:
-  - "One mission trip in my head as my whole eternal report card - faithfulness fruit is steady use over years, including Tuesdays nobody clapped for."
+  - "One mission trip in my head as my whole eternal report card - glad faithfulness fruit is steady use over years, including Tuesdays nobody clapped for."
   - "I organized snacks for my kid's team and wanted credit all week - the master reviews faithful use, not buried gifts or performance."
 shareable_thought:
   - "The Spirit grows steady follow-through with what God entrusted, not one heroic sprint mistaken for earned salvation."

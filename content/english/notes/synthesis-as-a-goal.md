@@ -12,7 +12,7 @@ level_3: "Merge three coaches' clips into one drill you actually run Tuesday - p
 level_4: "The wiki can hold borrowed lines; synthesis is when learning starts - [[The Collector's Fallacy]] is the hoard without it."
 level_5: "One claim you would ship, not a pile of quotes - same honesty check as [[The Feynman Technique]] before you link the note."
 examples:
-  - "Three coaches' clips on our press sat in my folder until I merged them into one drill we actually ran Tuesday."
+  - "Glad three coaches' clips on our press merged into one drill we actually ran Tuesday - they had sat in my folder until synthesis happened."
   - "Five parenting articles became one rule on the fridge - merged into what we believe about screens, not a quote collection."
 shareable_thought:
   - "Merge sources into what you believe and can defend."

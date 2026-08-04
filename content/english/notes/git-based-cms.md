@@ -13,7 +13,7 @@ level_3: "Use Git publish for solo sites; offer a CMS when the client will never
 level_4: "Git stays source of truth - the CMS is another commit path, not a second database that forks reality."
 level_5: "Design the smallest publishing path for each site: direct Git for authors who can use it, or a narrow CMS that creates the same commits for clients."
 examples:
-  - "Church volunteer will not open a terminal - Sveltia on the repo, she edits announcements, Cloudflare rebuilds on save."
+  - "Glad Sveltia on the repo let the church volunteer edit announcements without a terminal - Cloudflare rebuilds on save."
   - "I added Decap for a client who insisted on WordPress-like editing - honest scope: blog posts only, not plugins; still cheaper than hosted WordPress long term."
 shareable_thought:
   - "A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs."

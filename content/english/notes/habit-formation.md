@@ -13,7 +13,7 @@ level_3: "Pick one small habit, decide once, and repeat until autopilot carries 
 level_4: "The goal is not motivation - it is wiring default so stressful weeks do not reopen the same debate you already settled."
 level_5: "Design a habit loop with a clear cue and a small repeatable move, then extend it with [[Habit Stacking]] only after the first behavior runs automatically."
 examples:
-  - "Same gym bag, same water bottle, same pre-game stretch - after thirty days I stop debating warm-up; the shoes by the door beat the habit app I never opened."
+  - "Glad the same gym bag, same water bottle, same pre-game stretch held after thirty days - I stop debating warm-up; the shoes by the door beat the habit app I never opened."
   - "Same door, same notebook, same pocket - after thirty days I stop debating capture; the pad by the keys beat the fancy app I never opened."
 shareable_thought:
   - "Repeat one small move until it runs on autopilot instead of re-debating it every morning."

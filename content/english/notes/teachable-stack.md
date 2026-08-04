@@ -11,7 +11,7 @@ level_3: "Before the workshop, install the stack yourself on a blank guest accou
 level_4: "Because trials and corporate cards fail the borrow test, Dreamweaver and closed CMS demos waste the afternoon on slide-deck theory."
 level_5: "[[Portable Software]] solves locked PCs; [[Freedom Over Free]] names why permission beats a serial number; [[Learn Hireable Stacks]] points career advice at job boards."
 examples:
-  - "Seminar room with mixed laptops - XAMPP portable let half the class start Apache while the rest fought expired Dreamweaver trials."
+  - "Glad XAMPP portable let half the class start Apache in the seminar room with mixed laptops while the rest fought expired Dreamweaver trials."
   - "Student shared one old laptop with a sibling - fourteen-day CMS trial died before they found the publish button; open zip stack kept working."
 shareable_thought:
   - "A teachable stack installs tonight on a borrowed laptop."

@@ -28,7 +28,7 @@ level_3: "When guilt says you need one more good week before you are right with 
 level_4: "Boasting about deeds did not buy the verdict - merging justification with the walk after brings panic when performance wobbles."
 level_5: "Teach the verdict as gift first - then extend into [[Sanctification]] and [[Eternal Rewards]] without reopening the case [[Free Grace]] closed."
 examples:
-  - "My kid asked if God likes him yet - I said God already declared him righteous the moment he trusted Christ, not when his room got clean."
+  - "My kid asked if God likes him yet - glad I could say God already declared him righteous the moment he trusted Christ, not when his room got clean."
   - "I snapped at the cashier and felt like I was back on probation with God - justification means my standing was settled at faith; confession restores fellowship, it does not re-buy heaven."
 shareable_thought:
   - "God declares the believer righteous at faith - before obedience catches up."

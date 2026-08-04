@@ -12,7 +12,7 @@ level_3: "Pick one inbox, one organize pass, one express habit - swap tools only
 level_4: "Output beats tuning the system alone - perfectionism about stack is procrastination dressed as research."
 level_5: "Build one complete PKM loop: capture with CODE, organize with [[PARA Method]], then turn one saved idea into work someone can use."
 examples:
-  - "The team manager keeps a card file sorted by what she actually uses on game day - she deleted half of it last spring after a loss reminded her what she never opened."
+  - "Glad the team manager's card file sorted by what she actually uses on game day survived last spring's prune - she deleted half after a loss reminded her what she never opened."
   - "I screenshotted forty recipes last year and cooked four - the Notes app only keeps what survived a second cook."
 shareable_thought:
   - "PKM saves, organizes, and reuses what you learn - not a hobby of collecting apps."

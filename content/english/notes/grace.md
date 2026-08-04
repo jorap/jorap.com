@@ -21,7 +21,7 @@ level_3: "Receive eternal life by trusting Christ's promise - not by climbing a 
 level_4: "God gave His Son so belief decides eternal life - unbelief is the only rejection; works follow the gift, not purchase it."
 level_5: "Build a clear gospel explanation that separates Christ's free gift of eternal life from the grateful walk and good works that follow it."
 examples:
-  - "A teammate listed every good deed this month like it was his ticket to heaven - grace is the gift through faith, not the report card from the season."
+  - "A teammate listed every good deed this month like it was his ticket to heaven - glad grace is the gift through faith, not the report card from the season."
   - "I know grace settled standing, but guilt still treats every bad week like a revoked passport - the walk is a different category."
 shareable_thought:
   - "Grace is gift never earned - salvation first, then the walk after - not wages that could be stacked."

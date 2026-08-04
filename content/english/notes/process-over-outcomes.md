@@ -14,7 +14,7 @@ level_3: "Protect the loop on the weeks you have no spark - same proofing steps 
 level_4: "Because outcomes swing with weather and luck, the system you can run tired beats the peak that does not compound."
 level_5: "Design a loop that survives a bad week, then use [[Change Takes Repetition]] and [[Notice the Good]] to strengthen the behavior until [[Compounding]] can work."
 examples:
-  - "The baker follows the same proofing steps whether it is a slow Tuesday or wedding weekend."
+  - "Glad the baker follows the same proofing steps whether it is a slow Tuesday or wedding weekend."
   - "The JV squad runs the same warmup whether the bleachers are empty or full."
 shareable_thought:
   - "One heroic sprint does not beat a routine you can rerun when motivation dips."

@@ -12,7 +12,7 @@ level_3: "Post the closing routine on the locker-room whiteboard - ice, tape, lo
 level_4: "Because the first emergency is the wrong rehearsal, undocumented recurring work turns every fire into improvisation - short written steps beat heroic memory."
 level_5: "Share defaults through [[Build a Reliable Default]] and [[Preparedness]] - rehearse the evacuation route on quiet shifts so the alarm trip is not the first run."
 examples:
-  - "The closing routine after every match - ice, tape, log the injury - lives on the locker-room whiteboard so nobody improvises when everyone's exhausted."
+  - "The closing routine after every match lives on the locker-room whiteboard; glad ice, tape, and injury logging stayed written when everyone was exhausted."
   - "The building guard walks the posted evacuation route he practiced on quiet shifts - written steps when the alarm trips loud."
 shareable_thought:
   - "Short written steps for deploys and incidents so nobody improvises when the clock is loud."

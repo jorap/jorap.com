@@ -25,7 +25,7 @@ level_3: "Catch one small promise you broke this week and repair it before the t
 level_4: "Public trust and hidden walk must both match - character cracks sink leadership faster than a bad slide deck."
 level_5: "[[Integrity]] and [[Integrity Without an Audience]] extend the audit - build the hidden walk that holds public trust up."
 examples:
-  - "The manager who padded expense reports lost the room before the audit did - trust evaporated on one lie."
+  - "The manager who padded expense reports lost the room before the audit did - glad one lie taught me trust evaporates without solid ground."
   - "Pharisees looked holy on stage - Jesus named the rot inside."
 shareable_thought:
   - "Trust is the foundation of leadership."

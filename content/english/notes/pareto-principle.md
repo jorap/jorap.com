@@ -14,7 +14,7 @@ level_3: "List your top three outputs last month - find which inputs produced th
 level_4: "The ratio is a heuristic, not a law - cutting the long tail can kill compounding habits that matter later."
 level_5: "Create an 80/20 filter with [[Low Hanging Fruit]] and [[Minimum Effective Dose]]: protect the few inputs that drive results without cutting slow gains that compound."
 examples:
-  - "The kids' activity list had six things and we skipped three nights - I trimmed to basketball and piano and we actually showed up."
+  - "Glad trimming to basketball and piano meant we actually showed up - the kids' activity list had six things and we skipped three nights."
   - "My reading pile had forty tabs - the five that moved work got Sunday morning, the rest got deleted."
 shareable_thought:
   - "The Pareto principle is the 80/20 rule."

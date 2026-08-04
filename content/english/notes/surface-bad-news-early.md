@@ -11,7 +11,7 @@ level_3: "Tell the client the migration will slip Tuesday instead of Friday sile
 level_4: "[[Blameless After-Action Review]] needs the miss named first - punishment theater guarantees late surprises and kills [[Psychological Safety]]."
 level_5: "[[Own the Error]] names your call; [[Confess to One Another]] is the faith lane - same honesty before rot sets in."
 examples:
-  - "I told the client the migration would slip Tuesday instead of Friday silence - ugly early truth kept the relationship; late surprise would have killed it."
+  - "I told the client the migration would slip Tuesday instead of Friday silence - glad ugly early truth kept the relationship; late surprise would have killed it."
   - "Assistant coach flagged the lineup error at halftime instead of postgame - surfacing early meant we still had quarters to adjust."
 shareable_thought:
   - "Name the slip while rollback is cheap - late surprises cost trust more than early ugly truth."

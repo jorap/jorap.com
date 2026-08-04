@@ -13,7 +13,7 @@ level_3: "Block ninety minutes weekly for garden hygiene - broken links and stal
 level_4: "When you skip two slots in a row, the orphan list tells you before any feeling does - skipped rhythm is how decay enters the stack."
 level_5: "Build a maintenance rhythm that uses [[Periodic Knowledge Review]] for the pass and [[Maps of Content]] for the route, then add an alert before skipped slots become [[Normalization of Deviance]]."
 examples:
-  - "First Sunday I swap the car fluids and rotate tires - not waiting for the check-engine light."
+  - "Glad first Sunday car fluid swap and tire rotation beat waiting for the check-engine light."
   - "Saturday morning is toy-bin purge and mending - not panicked cleaning when guests are at the door."
 shareable_thought:
   - "Block garden time on the calendar so broken links do not ambush on a random Sunday."

@@ -12,7 +12,7 @@ level_3: "Drop a fourth side project to finish one book draft this quarter - dep
 level_4: "Because attention is finite, parallel WIP taxes finish rate - a full calendar can hide the one build that never ships."
 level_5: "Trade looking productive for work you can ship - same lane as [[Deep Work]] and [[Minimum Effective Dose]] on project count."
 examples:
-  - "I dropped a fourth side project to finish one book draft - depth beat breadth this quarter."
+  - "Glad dropping a fourth side project let one book draft finish - depth beat breadth this quarter."
   - "One deep client build this month beat three half-started sites on the portfolio."
 shareable_thought:
   - "Slow productivity is fewer active projects so work finishes deep instead of piling as guilt."

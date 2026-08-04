@@ -14,7 +14,7 @@ level_3: "Headline only the trade-rumor thread; save the one injury note that ac
 level_4: "Because intake outruns application, curation is a filter on action, not archive vanity - would you act or cite this within thirty days?"
 level_5: "Run [[Information Diet]] upstream - save what moves behavior or belief soon."
 examples:
-  - "The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired and skipped."
+  - "Glad the one injury note cut through the loud trade-rumor thread - signal changed our lineup; the rest I admired and skipped."
   - "The dentist waiting room had a stack of magazines - if it will not change what I do this month, headline only, no mental slot."
 shareable_thought:
   - "Save only what changes what you do or believe this month - most feeds are noise."

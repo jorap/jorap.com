@@ -12,7 +12,7 @@ level_3: "Write one triage sheet, rehearse it while calm, and run it when the cl
 level_4: "Defaults reduce panic and decision load, but they fail when conditions change; pair them with an override and regular review."
 level_5: "Build, rehearse, and revise a default that another person can run without your help."
 examples:
-  - "The clinic front desk runs the laminated triage sheet taped by the phone when three walk-ins arrive - one script, no guessing."
+  - "The clinic front desk runs the laminated triage sheet taped by the phone when three walk-ins arrive - glad one script beats guessing when the lobby fills."
   - "Our family fire plan is one fridge page: two exits, meeting spot, who grabs the baby - last blackout, my kid ran it half-asleep."
 shareable_thought:
   - "A reliable default is the simple rehearsed move that runs when thinking is thin."

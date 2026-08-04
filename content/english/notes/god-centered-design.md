@@ -15,7 +15,7 @@ level_3: "Before you publish or plan, ask whether the work makes the Father visi
 level_4: "When visible good works aim glory upward, design drifted off course if people thank you instead of God."
 level_5: "Create a design brief that names how the work serves a neighbor and points glory to God, then cut any feature built mainly to grow your name."
 examples:
-  - "The youth event looked great in parent photos but nobody prayed afterward - God-centered design meant cutting one performance block for small groups and Scripture."
+  - "The youth event looked great in parent photos but nobody prayed afterward - glad God-centered design meant cutting one performance block for small groups and Scripture."
   - "My notes garden started chasing traffic instead of clarity - God-centered design was one question before publish: does this help someone know Christ or live like Him, or is it just my brand?"
 shareable_thought:
   - "Design life and work around God glory first - not crowd applause, ego, or comfort."

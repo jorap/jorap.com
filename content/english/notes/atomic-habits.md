@@ -13,7 +13,7 @@ level_3: "Pick one cue, one tiny action, one immediate reward - stack on anchors
 level_4: "Tiny reps lower the cost of starting, but they only shape identity when they still serve the goal - easy repetition can become motion without progress."
 level_5: "Design a habit loop with a cue, tiny rep, reward, and bad-day floor, then raise the dose only after the loop repeats without heroic effort."
 examples:
-  - "I wanted a morning journal habit - one sentence after coffee beat three pages I never opened twice."
+  - "Glad one sentence after coffee beat three pages I never opened twice when I wanted a morning journal habit."
   - "The coach added one footwork rep before buying new shoes - small dose, daily reps, feet learned faster than gear."
 shareable_thought:
   - "Shrink the first rep until it repeats daily, then let identity and environment carry the loop."

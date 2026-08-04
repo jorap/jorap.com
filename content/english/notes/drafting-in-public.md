@@ -12,7 +12,7 @@ level_3: "Post the unfinished version and let one reader poke a hole before you 
 level_4: "Public feedback exposes gaps early, but rough work can confuse readers - share enough context to invite correction without pretending the draft is settled."
 level_5: "Build a public drafting loop - post the rough claim, ask for one kind of feedback, revise in view, and leave the change trail useful to others."
 examples:
-  - "I shared a draft SOP with the team before it was polished - silence would have let me pretend I understood the pass-off."
+  - "Glad I shared a draft SOP with the team before it was polished - silence would have let me pretend I understood the pass-off."
   - "I posted a rough footwork clip before I had nailed the cue words - a teammate's comment fixed the line I had been dodging in private notes."
 shareable_thought:
   - "Drafting in public keeps the garden honest with rough posts and feedback instead of private hoarding."

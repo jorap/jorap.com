@@ -11,7 +11,7 @@ level_3: "Before you invest six months in a framework, count how many local list
 level_4: "Because [[Open Source]] gives choice, [[Community Depth]] picks which open option earns evenings - diagram charm is not a paycheck."
 level_5: "Extend the filter with [[Teachable Stack]] in class and [[Selling Static Sites]] plus client WordPress as income lanes that followed."
 examples:
-  - "Compared Drupal, Joomla, and WordPress side by side - Drupal architecture made sense until upgrades ate weekends and Manila job posts did not say Drupal."
+  - "Glad compared Drupal, Joomla, and WordPress side by side - Drupal architecture made sense until upgrades ate weekends and Manila job posts did not say Drupal."
   - "Student asked whether to specialize in a clever static framework - I pulled the local job board and counted WordPress vs everything else."
 shareable_thought:
   - "Learn stacks employers actually hire for."

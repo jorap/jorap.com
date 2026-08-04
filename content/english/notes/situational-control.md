@@ -12,7 +12,7 @@ level_3: "Call a timeout you do not need at halftime to slow the game when you a
 level_4: "Because the room notices who is steering even when nobody announced it, [[Composure]] keeps the move calm."
 level_5: "Pair with [[Control the Rhythm]] and [[Slow the Moment]] - pick one lever before you react in a tense room."
 examples:
-  - "My sister and I were fighting past the kids' bedtime - situational control was a fifteen-minute break and a promise to pick it up tomorrow."
+  - "My sister and I were fighting past the kids' bedtime - glad a fifteen-minute break and a promise to pick it up tomorrow kept situational control in the house."
   - "Down twelve at halftime, our captain called a timeout she did not need - situational control was slowing the game, not surrendering to their pace."
 shareable_thought:
   - "Steer pace, format, and who speaks when you cannot own the whole outcome."

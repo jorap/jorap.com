@@ -14,7 +14,7 @@ level_3: "Open the graph view, list the top three hubs and three orphans - fix o
 level_4: "Traffic carriers and stranded notes tell you where to maintain - the graph shows who carries links and what is forgotten without folder memory."
 level_5: "Build a maintenance view from [[Linking by Meaning]] that flags hubs and orphans, then create [[Maps of Content]] where human judgment can extend what the metrics reveal."
 examples:
-  - "The playbook diagram showed one motion offense linking twelve other sets - that was the doorway I would simplify first."
+  - "Glad the playbook diagram showed one motion offense linking twelve other sets - that was the doorway I would simplify first."
   - "The chore chart showed one kid linking every task - that is the bottleneck we fixed first."
 shareable_thought:
   - "Look at which notes connect everything else."

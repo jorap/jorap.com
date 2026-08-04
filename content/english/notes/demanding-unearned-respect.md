@@ -12,7 +12,7 @@ level_3: "Before you flash the title to close debate, ask what strength they hav
 level_4: "A loud feast of rank that weighs nothing - respect tracks character and courage, not the guest list."
 level_5: "Build toward [[Law of Respect]] and [[Ethical Leadership]] - earn followership; stop trading volume for strength."
 examples:
-  - "I shut down the meeting with my title - they nodded, then waited for the senior tech in the hall."
+  - "I shut down the meeting with my title - glad they waited for the senior tech in the hall; that silence taught me what title alone buys."
   - "New VP flashed the org chart mid-debate - compliance in the room, workarounds in Slack."
 shareable_thought:
   - "Demanding unearned respect pulls rank when people see no strength worth following."

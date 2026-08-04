@@ -12,7 +12,7 @@ level_3: "Under deadline pressure, name one person on your team and confirm they
 level_4: "When people feel invisible under load, trust erodes and output follows - care under pressure is the limit that keeps deliverables from hollowing out the team."
 level_5: "Extend care under pressure through [[Servant Leadership]] and [[Duty of Care]] - protection they should feel when roles flip."
 examples:
-  - "Our line cook never got named manager; leadership was calm voice, who goes where, and nobody blaming while the extinguishers were still out."
+  - "Our line cook never got named manager; leadership was calm voice, who goes where, and nobody blaming while the extinguishers were still out - glad the hood alarm night showed direction and care when people look to you."
   - "The blackout hit our block and one neighbor set pace - who checks on elders, who handles the generator - direction and care when people look to you."
 shareable_thought:
   - "Leadership is owning direction, pace, and care when people look to you - title optional."

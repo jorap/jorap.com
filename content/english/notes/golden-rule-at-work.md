@@ -12,7 +12,7 @@ level_3: "Ask what you would want if roles flipped - then do that helpful move i
 level_4: "Passive fairness leaves people stuck - because you would want someone to act for you, the rule pushes you to act."
 level_5: "Create a team norm for feedback, credit, and tedious work by writing the treatment you would want when roles reverse."
 examples:
-  - "My draft reply to the new team manager was technically right and needlessly harsh - I paused, asked how I would want that correction on my worst game day, and rewrote it."
+  - "My draft reply to the new team manager was technically right and needlessly harsh - glad I paused, asked how I would want that correction on my worst game day, and rewrote it."
   - "The group chat pile-on about the neighbor's messy yard - I asked how I would want feedback if my lawn looked that way, then said nothing mean."
 shareable_thought:
   - "Treat colleagues the way you want to be treated."

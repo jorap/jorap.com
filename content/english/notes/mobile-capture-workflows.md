@@ -13,7 +13,7 @@ level_3: "Audit your capture path on the phone you actually carry - if it needs 
 level_4: "Mobile capture fails when friction exceeds impulse - one gesture to inbox or the idea evaporates before you sort it."
 level_5: "Build a one-gesture path into [[The Trusted Inbox]], extend it with [[Context Aware Capture]] only when context saves work, and design an [[Analog Capture Tools]] fallback for moments when the phone is slower."
 examples:
-  - "Halftime idea on the bench - I voice-memo'd it before the third quarter wiped it."
+  - "Glad the halftime voice memo caught the idea before the third quarter wiped it."
   - "Jeepney stop, blog idea hits - one tap to notes before the next ride shakes it out of my head."
 shareable_thought:
   - "Mobile capture is one tap to save the spark before scrolling away - share sheet to inbox."

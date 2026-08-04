@@ -14,7 +14,7 @@ level_3: "Log every near miss and act before injury proves you should have liste
 level_4: "Ignoring near misses trains the system to wait for blood before it changes - the hazard was already present when luck blocked injury."
 level_5: "Build a near-miss loop that records the close call, investigates the system, and removes or controls the hazard before the activity runs again."
 examples:
-  - "A swimmer needed rescue during the same open-water drill last month - that is a warning to stop, not proof the safety boat can handle it forever."
+  - "A swimmer needed rescue during the same open-water drill last month - glad that near-miss stopped the drill before the safety boat became proof we could handle it forever."
   - "The toddler almost fell off the same chair twice - survival does not prove the setup is safe; fix the hazard before the third time."
 shareable_thought:
   - "A close call means the system nearly failed, not that we got proof the activity was safe because nobody died."

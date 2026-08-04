@@ -13,7 +13,7 @@ level_3: "Tape the coach's article title under the quote in the playbook - futur
 level_4: "Unsourced notes become guesses - a link or citation turns a half-remembered line back into evidence you can defend in conversation."
 level_5: "Build a sourcing practice that captures the original, records the exact claim, and lets a later reader retrace or challenge your synthesis."
 examples:
-  - "I taped the coach's article title under the quote in our playbook so six months later we know if the source still says what we thought."
+  - "Glad I taped the coach's article title under the quote in our playbook - six months later we know if the source still says what we thought."
   - "My sermon notes app just says 'trust me, great quote' with no reference - six months later I cannot tell if I am misquoting the pastor or making it up."
 shareable_thought:
   - "Cite sources in notes to trust synthesis and find the original later."

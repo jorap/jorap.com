@@ -25,7 +25,7 @@ level_3: "Invite one person who will tell you the truth into your next hard deci
 level_4: "Proximity shapes judgment - yes-men raise the lid illusion while the flaw stays visible to everyone outside."
 level_5: "[[Iron Sharpens Iron]] and [[Accountability]] extend the circle - build counselors who tell truth, not only cheer."
 examples:
-  - "My yes-men inner circle missed the product flaw everyone outside saw - ceiling was the room I chose."
+  - "My yes-men inner circle missed the product flaw everyone outside saw - glad the ceiling was the room I chose."
   - "Nathan's you are the man cracked David's denial - inner circle courage."
 shareable_thought:
   - "A leader's potential is determined by those closest to him."

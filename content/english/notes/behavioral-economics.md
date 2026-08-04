@@ -12,7 +12,7 @@ level_3: "Put the good option at eye level or make it the default before writing
 level_4: "Nudges can help without lectures, but they can also manipulate; good design keeps choice visible and checks who benefits."
 level_5: "Design and test a better default, then use the results to improve how the choice is offered."
 examples:
-  - "The cafeteria put fruit at eye level and salad sales jumped - no sermon required."
+  - "The cafeteria put fruit at eye level and salad sales jumped; glad the layout change worked without another wellness sermon."
   - "Default opt-in to save made more people enroll than the bonus email campaign."
 shareable_thought:
   - "People choose what default and friction make easy, not what a neat lecture said they should pick."

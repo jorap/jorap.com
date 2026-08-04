@@ -15,7 +15,7 @@ level_3: "Friday triage every team inbox item to a next action or archive - Mond
 level_4: "Undeclared messages become a todo graveyard - each pass must touch every item once or dread returns every Monday and the capture system loses trust."
 level_5: "Design an inbox process that gives every item a decision and date, then adjust the review rhythm until the inbox stays trusted without daily theater."
 examples:
-  - "Friday I triaged the team inbox to zero - Monday practice started from decisions made, not dread about who forgot what."
+  - "Glad Friday triage to zero on the team inbox meant Monday practice started from decisions made, not dread about who forgot what."
   - "Sunday night we emptied the kitchen catch-all tray - each slip got a decision so school week did not start with mystery piles."
 shareable_thought:
   - "Process the inbox to empty each week - decide, do not hoard."

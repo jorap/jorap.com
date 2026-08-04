@@ -13,7 +13,7 @@ level_3: "Skim first, mark second, extract third - one pass cannot hold structur
 level_4: "Marking slows the read but saves useful ideas; without extraction and review, even careful highlights become a private archive nobody can use."
 level_5: "Build a reading workflow that separates skimming, marking, extraction, and teach-back, then turn the strongest take into a linked note in your own words."
 examples:
-  - "First pass on the coaching manual marked three sections; second pass only those got sentences in my own words."
+  - "Glad the first pass on the coaching manual marked three sections - second pass only those got sentences in my own words."
   - "My kid underlined one confusing paragraph and explained it back to me - the mark survived because she had to say it out loud."
 shareable_thought:
   - "Read with a pencil in hand - mark, question, and extract before highlights die in the book."

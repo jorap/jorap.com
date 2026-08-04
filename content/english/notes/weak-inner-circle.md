@@ -12,7 +12,7 @@ level_3: "Invite one person who will disagree into the next private decision - r
 level_4: "Cheer-only counsel protects ego and sinks plans - potential dies where truth never enters."
 level_5: "Rebuild with [[Law of Inner Circle]] - put truth-tellers closest; fans can stay in the wider circle."
 examples:
-  - "My kitchen cabinet never pushed back - the bad hire was my idea and their silence."
+  - "My kitchen cabinet never pushed back - glad the bad hire I owned taught me their silence was my idea too."
   - "I filled the standup with people who nodded - the risk sat in a quiet Slack thread I never saw."
 shareable_thought:
   - "A weak inner circle only cheers - potential dies in the room that never tells hard truth."

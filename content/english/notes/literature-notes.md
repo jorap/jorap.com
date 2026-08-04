@@ -12,7 +12,7 @@ level_3: "After you read, write one page in your words - if it reads like the hi
 level_4: "Literature notes sit between reading and evergreen writing - skip the translation step and you link quotes you never owned."
 level_5: "Grow [[Atomic Notes]] from literature notes when one claim earns its own page - [[Layered Reading]] feeds the stack without a highlight dump."
 examples:
-  - "I wrote one paragraph on the coach's chapter about zone defense, not yellow highlights on every page."
+  - "Glad I wrote one paragraph on the coach's chapter about zone defense, not yellow highlights on every page."
   - "The PTA recap was what I actually remembered from the meeting, not a transcript of every speaker."
 shareable_thought:
   - "After reading a source, write what stuck in your own words - not a pile of copied highlights."

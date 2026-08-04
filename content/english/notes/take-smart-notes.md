@@ -14,7 +14,7 @@ level_3: "Read with a pen, turn sparks into permanent notes in full sentences, t
 level_4: "Three buckets only - fleeting trash, permanent slip-box, project folder - mixing them turns the box into a junk drawer."
 level_5: "[[Getting Things Done]] owns task closure; Ahrens owns insight - same holistic workflow idea, but writing needs open ends until the argument shows itself in the links."
 examples:
-  - "Thesis week I opened a cluster of linked garden notes instead of a blank doc - assembly took three days, not three weeks of rescue reading."
+  - "Glad thesis week opened a cluster of linked garden notes instead of a blank doc - assembly took three days, not three weeks of rescue reading."
   - "Ahrens chapter done as one paragraph in my words, not forty yellow highlights I would never reopen when the footnote hunt started."
 shareable_thought:
   - "Ahrens treats writing as the work itself - linked permanent notes beat a panic draft at deadline."

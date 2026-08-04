@@ -14,7 +14,7 @@ level_3: "Write actual limits this quarter before setting targets - pick goals f
 level_4: "[[Honest Self-Awareness]] inventories limits; under [[Grace]], standing is settled and [[Sanctification]] grows from where you are."
 level_5: "Build targets from real bandwidth and skill - stop pretending you arrived and extend growth plans from honest inventory."
 examples:
-  - "I wanted fifty notes reviewed weekly and burned out in ten days - accept the starting line was ten minutes on the jeepney, then build from there."
+  - "I wanted fifty notes reviewed weekly and burned out in ten days; glad ten minutes on the jeepney became the starting line I could actually keep."
   - "The team wanted a full platform migration by Q2 with one engineer - accept the starting line meant one service moved, not a slide deck pretending we had three hires."
 shareable_thought:
   - "Growth starts from the real starting line, not from a fantasy baseline."

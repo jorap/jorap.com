@@ -14,7 +14,7 @@ level_3: "Protect sleep and scheduled rest the way you protect workout days - ju
 level_4: "Program rest like training - the elite athlete's recovery day is not optional padding; [[Sustainable Performance]] trades heroic weeks for calls that hold on day three."
 level_5: "Design a recovery rule that protects tomorrow's judgment - set the stop time, warning signs, and work to cut before fatigue picks the next call."
 examples:
-  - "I snapped at my kid over a spilled cup after a brutal week; at breakfast it would have been two calm sentences - she was not the problem, I was."
+  - "I snapped at my kid over a spilled cup after a brutal week; at breakfast it would have been two calm sentences - glad stopping at ten instead of a fourth heroic hour protected everyone next morning."
   - "Three late nights made me snap at bedtime - stopping at ten instead of a fourth heroic hour protected everyone at breakfast."
 shareable_thought:
   - "Sleep and recovery protect judgment."

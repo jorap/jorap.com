@@ -11,7 +11,7 @@ level_3: "Drop two commute podcasts that only make you angry at strangers - cura
 level_4: "Passive scrolling trains attention and mood; curated intake shapes what feels normal by Friday - input becomes your inner weather whether you notice or not."
 level_5: "Design an information diet with named sources, fixed intake windows, and a rule for cutting feeds that leave attention or mood worse."
 examples:
-  - "I dropped two commute podcasts that only made me angry at strangers - information diet is curating inputs, not swallowing whatever the algorithm serves."
+  - "Glad dropping two commute podcasts that only made me angry at strangers cleared the feed - information diet is curating inputs, not swallowing whatever the algorithm serves."
   - "I unfollowed three outrage sports accounts and pre-game was not ruined before warm-up."
 shareable_thought:
   - "Choose feeds on purpose because algorithm defaults are not neutral."

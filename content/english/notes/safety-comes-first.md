@@ -12,7 +12,7 @@ level_3: "Get the trainer when a teammate wants to play through a head hit - do 
 level_4: "Because safety interrupts before nuance, the choice they lose is narrow and temporary - which risk, not whether to be safe at all."
 level_5: "Pair with [[Duty of Care]] and [[Eliminate Before Managing]] - remove the dangerous option before debating how to supervise it."
 examples:
-  - "A teammate wanted to play through a head hit - I did not \"support his call\"; I got the trainer."
+  - "A teammate wanted to play through a head hit - glad I got the trainer instead of \"supporting his call.\""
   - "My kid wanted to ride in the truck bed on a bumpy road - \"your choice\" ended at the seatbelt."
 shareable_thought:
   - "Stop the unsafe thing first, then restore choice when the situation is stable."

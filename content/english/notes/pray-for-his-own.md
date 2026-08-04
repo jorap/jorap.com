@@ -20,7 +20,7 @@ level_3: "When church drama makes you want to quit, read John 17:11-23 - Jesus a
 level_4: "Because He is leaving, He asks the Father to keep what He bought - sanctify in truth, guard in the Father's name, make them one."
 level_5: "Build an intercession pattern from John 17: pray for God's glory, the keeping and unity of present disciples, and future believers reached through their word."
 examples:
-  - "Church drama had me ready to quit - John 17:11-23 says Jesus asked the Father to keep and unify people like us, not that we would never fray."
+  - "Church drama had me ready to quit - glad John 17:11-23 says Jesus asked the Father to keep and unify people like us, not that we would never fray."
   - "I prayed for my kids' faith and realized He already prayed for every future believer to see His glory - my parenting joins His intercession, not replaces it."
 shareable_thought:
   - "Jesus prayed the high priestly prayer for Himself, the twelve, and every future believer - unity, protection, and glory."

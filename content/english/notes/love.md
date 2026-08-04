@@ -15,7 +15,7 @@ level_3: "Ask whether your care costs something real - love that never inconveni
 level_4: "Manufactured affection for church credit is not Spirit fruit - love outlasts the audience because [[Abide in Me]] is the engine."
 level_5: "Extend love into [[Love God]] and [[Love Your Neighbor]] - [[Fruits of the Spirit]] lists love first because every other fruit flows from it."
 examples:
-  - "I was polite at church and sharp at home - Galatians love costs something when nobody is clapping."
+  - "I was polite at church and sharp at home - glad Galatians love costs something when nobody is clapping."
   - "The neighbor needed a ride at an inconvenient hour - love fruit showed up as inconvenience, not a sermon about caring."
 shareable_thought:
   - "Love is Spirit-grown care for God and neighbor - not performance affection that collapses when nobody is watching."

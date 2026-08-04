@@ -12,7 +12,7 @@ level_3: "Stand behind the counter for three lunch rushes before redrawing check
 level_4: "Committee templates before observation are decoration - stale diagrams train new hires into workarounds when reality diverges."
 level_5: "Build a living map: [[Shadow the Work]], draw the real handoffs, test it with the people inside the process, and update it when reality changes."
 examples:
-  - "The shift-change chart had three tasks with zero arrows to an owner - mapping from the whiteboard, not memory, showed the gap in one pass."
+  - "The shift-change chart had three tasks with zero arrows to an owner - glad mapping from the whiteboard, not memory, showed the gap in one pass."
   - "I stood behind the counter for three lunch rushes before we redrew checkout - the slide had one tap, reality had four stalls."
 shareable_thought:
   - "Map the real workflow before you redesign it - start on the floor, not the slide."

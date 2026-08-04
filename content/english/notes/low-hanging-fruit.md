@@ -12,7 +12,7 @@ level_3: "Do the two-minute fix first - save [[Deep Work]] for problems that act
 level_4: "Spend peak focus on hard fights and the easy wins starve the week - clear noise first so [[Deep Work]] is not wasted on two-minute fixes."
 level_5: "Extend the instinct with [[Pareto Principle]] and [[Minimum Effective Dose]] - spend hero energy only where the return earns it."
 examples:
-  - "I spent twenty minutes redesigning our training plan when the actual problem was three cones not put away - I put them back in four minutes and had energy for drills."
+  - "Glad putting three cones back in four minutes saved twenty minutes of redesigning our training plan - I had energy for drills after the easy fix."
   - "I spent an hour sketching a whole spring-cleaning plan when the actual problem was three dishes in the sink - washed them in ten minutes and had energy for the garage after lunch."
 shareable_thought:
   - "The easy win available now."

@@ -17,7 +17,7 @@ level_3: "Confess after snapping at your kid - standing was settled at faith; wa
 level_4: "Because a bad week does not re-open justification, distinguish settled place in Christ from closeness that needs confession."
 level_5: "[[Free Grace]] secured eternal life once; [[Repent and Believe]] and confession restore fellowship without a new salvation transaction."
 examples:
-  - "I snapped at my kid and dread hit like God revoked my heaven ticket - standing was settled at faith; I confessed and walked the closeness back."
+  - "I snapped at my kid and dread hit like God revoked my heaven ticket - glad standing was settled at faith; I confessed and walked the closeness back."
   - "Hidden sin exposed and shame screamed I am not saved - justified on Christ already; fellowship needed repair, not a new salvation transaction."
 shareable_thought:
   - "Standing with God is settled at faith; fellowship breaks with sin and restores with confession."

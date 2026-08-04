@@ -13,7 +13,7 @@ level_3: "Ask whether the activity is required - if not, swap it for a safer alt
 level_4: "[[Hierarchy of Controls]] puts elimination above PPE stacks - remove the hazard before you buy gear to work around it permanently."
 level_5: "Redesign the work so the hazard cannot enter the normal path, then use procedures and gear only for the risk that remains."
 examples:
-  - "Swap the wobbly ladder for a stable step stool - eliminate the fall hazard instead of adding three warning stickers and hoping someone reads them."
+  - "Swap the wobbly ladder for a stable step stool - glad we eliminated the fall hazard instead of adding three warning stickers."
   - "We stopped storing cleaners under the sink and moved them up high - remove the hazard before we trust a do-not-touch lecture every time."
 shareable_thought:
   - "Remove unnecessary danger first instead of stacking procedures and gear on top of it."

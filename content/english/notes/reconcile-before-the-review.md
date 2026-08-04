@@ -13,7 +13,7 @@ level_3: "Text your business partner after a blowup over a missed invoice - ten 
 level_4: "Because unresolved hurt poisons feedback, reconciliation precedes evaluation - the scorecard cannot substitute for peace or process without repair."
 level_5: "Build a pre-review breach check from [[Reconciliation Before Worship]]: the person who knows there is a rift owns it, repairs it, then opens the scorecard."
 examples:
-  - "Strong stats for the scout meeting but my assistant coach was still cold from Tuesday - fifteen minutes with him before we sat with the scout beat hoping charts would smooth it."
+  - "Strong stats for the scout meeting but my assistant coach was still cold from Tuesday - glad fifteen minutes with him came first instead of hoping charts would smooth it."
   - "The client renewal call was booked but my business partner and I had not spoken since our blowup over a missed invoice - I texted him first, we talked ten minutes, then got on the call together."
 shareable_thought:
   - "Reconcile before the review - fix the relationship before OKRs, demos, or reorg meetings."

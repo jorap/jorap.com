@@ -16,7 +16,7 @@ level_3: "Serve in secret today without performing for the room - the Father who
 level_4: "[[Free Grace]] settles where I spend forever; eternal rewards settle what the Father pays the saved life for walking faithfully including [[Secret Devotion]]."
 level_5: "Build a hidden-service practice that removes the need for credit, keeps the work faithful, and points reward back to the Father who sees."
 examples:
-  - "I stayed late to help reset the gym alone and immediately wanted to mention it at the next practice - the Father already saw it, and He is the one who pays, not the team chat."
+  - "I stayed late to help reset the gym alone and immediately wanted to mention it at the next practice - glad the Father already saw it; He pays, not the team chat."
   - "I covered a coworker's shift without telling anyone and caught myself fishing for credit in the break room - gift first, repayment for faithfulness second, not a merit down payment on heaven."
 shareable_thought:
   - "Jesus promised believers the Father will repay faithful obedience after salvation, not as the price of eternal life."

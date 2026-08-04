@@ -15,7 +15,7 @@ level_3: "Before accepting the role, list the weekly time, travel, and tradeoffs
 level_4: "Under [[Free Grace]], eternal life is a gift while discipleship carries cost; mixing those lanes puts a price tag on heaven."
 level_5: "Create a cost check for major commitments and use it to shape a faithful yes, no, or smaller first step."
 examples:
-  - "I said yes to leading small group without counting Thursday nights against travel season - Jesus' builder image was me stopping mid-wall in March."
+  - "I said yes to leading small group without counting Thursday nights against travel season - glad Jesus' builder image stopped me mid-wall in March."
   - "The kid who wanted to follow everywhere until he heard no spare bed - Luke 14 cost counting is love that refuses fake sales pitches."
 shareable_thought:
   - "Jesus told builders to estimate before breaking ground - discipleship costs honesty, not surprise debt."

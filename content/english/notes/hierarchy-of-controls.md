@@ -13,7 +13,7 @@ level_3: "Ask whether you can eliminate or engineer out the hazard before you bu
 level_4: "PPE is last because it depends on human compliance - elimination removes risk at the root before anyone has to remember gear."
 level_5: "Build a control plan from each near miss: remove the hazard where possible, then add engineering, admin, and PPE layers for what remains."
 examples:
-  - "We removed the wet patch on the court instead of adding \"slow down\" signs - guard rails beat warnings; removing the hazard beats both."
+  - "We removed the wet patch on the court instead of adding \"slow down\" signs - glad guard rails beat warnings and removing the hazard beat both."
   - "We taped down the rug corner instead of yelling \"watch your step\" every night - hierarchy of controls: eliminate first, then engineer, admin, PPE last."
 shareable_thought:
   - "Remove the hazard first, then substitute, engineer, admin, PPE - in that order."

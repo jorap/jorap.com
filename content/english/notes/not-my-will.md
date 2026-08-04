@@ -16,7 +16,7 @@ level_3: "When the diagnosis will not change, pray the honest ask first, then re
 level_4: "Because surrender without honesty is performance, bring real dread to God before you release the result."
 level_5: "Write an honest surrender prayer from this pattern: name the cup, ask plainly, yield the outcome through [[Free Grace]], and choose the next obedient step that will [[Glorify Your Name]]."
 examples:
-  - "I wanted the diagnosis to be wrong and prayed for a different outcome, then had to say not my will - Gethsemane is where faith stops bargaining and starts surrender."
+  - "I wanted the diagnosis to be wrong and prayed for a different outcome - glad Gethsemane taught me faith stops bargaining and starts surrender."
   - "Leading a team meant a conversation that could cost me friends - I delayed a week; Jesus prayed three times the same yes before the arrest."
 shareable_thought:
   - "In Gethsemane Jesus prayed Abba, Father - then yielded His will to the Father."

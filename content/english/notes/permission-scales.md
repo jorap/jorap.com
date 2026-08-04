@@ -11,7 +11,7 @@ level_3: "A student in UPLB learns on the same WordPress zip as one in Californi
 level_4: "Open permission removes the product-key gate, not weak bandwidth, old hardware, English barriers, or a thin local job market."
 level_5: "Publish a [[Teachable Stack]] that anyone can download, then pair the global tools with [[Learn Hireable Stacks]] so local job demand shapes what students practice."
 examples:
-  - "Teaching seminars outside Manila - students downloaded the same XAMPP portable and WordPress zip I used in the capital, no regional license server."
+  - "Glad students downloaded the same XAMPP portable and WordPress zip I used in the capital when teaching seminars outside Manila - no regional license server."
   - "Friedman book mid-2000s - flattener four gave me words for why PHP beat ASP on a student budget before I had Silicon Valley on speed dial."
 shareable_thought:
   - "Open permission scales globally - same WordPress zip in Manila and California, not different gates by geography."

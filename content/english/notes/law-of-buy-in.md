@@ -29,7 +29,7 @@ level_3: "Share the plan only after people have seen you carry load - trust the 
 level_4: "Vision without a trusted leader is a poster; a trusted leader without vision is a stroll - people need both guide and map."
 level_5: "[[Law of Connection]] earns the heart first; extend buy-in until [[Leadership Is Influence]] shows someone followed after the pitch."
 examples:
-  - "The reorg failed until they trusted the new director - buy-in to her, then the roadmap."
+  - "The reorg failed until they trusted the new director - glad buy-in to her came before the roadmap."
   - "Nehemiah's face showed grief before his mouth asked for leave - leader first, blueprint second."
 shareable_thought:
   - "People buy into the leader, then the vision."

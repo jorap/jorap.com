@@ -15,7 +15,7 @@ level_3: "Practice ten minutes every Tuesday and track whether the skill improve
 level_4: "Compounding needs time, consistency, and a positive return; repeated bad habits compound too, and interruptions flatten the curve."
 level_5: "Design a small practice that improves its own next repetition, then extend it into a system that keeps growing without heroic weeks."
 examples:
-  - "Ten minutes of free throws every Tuesday looked pointless for months - then the percentage bent without me noticing the curve."
+  - "Glad ten minutes of free throws every Tuesday looked pointless for months - then the percentage bent without me noticing the curve."
   - "My kid's piano practice looked pointless for a year - three songs a week, same scales, then year two the pieces started linking and suddenly she was playing music."
 shareable_thought:
   - "Compounding is small gains stacked over time."

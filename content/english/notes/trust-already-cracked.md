@@ -12,7 +12,7 @@ level_3: "Catch one small promise you broke this week and repair it before the t
 level_4: "Public trust and hidden walk must both hold - cracks show when pressure hits, not when slides look sharp."
 level_5: "Return to [[Law of Solid Ground]] and [[Integrity]] - rebuild the hidden walk; polish cannot carry cracked character."
 examples:
-  - "I shaded one number in the update - the room went quiet long before any audit."
+  - "I shaded one number in the update - glad the quiet room long before any audit taught me trust was already cracked."
   - "Status looked green while I knew the risk - the first miss made the whitewash obvious."
 shareable_thought:
   - "Trust already cracked means character failed under the surface while the stage still looked clean."

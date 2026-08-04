@@ -16,7 +16,7 @@ level_3: "Open Scripture before the day's noise sets the agenda on a loud Tuesda
 level_4: "Because serving two masters fails, kingdom-first sorts inbox urgency behind allegiance - same job as [[Signal vs Noise]] in the PKM stack."
 level_5: "Tie daily practice to [[Discern His Will Daily]] and [[Treasure in Heaven]] - God's reign orders priorities today, not escape from earth."
 examples:
-  - "Tuesday at 7am the house was loud and my Bible was still closed - seek the kingdom first is Scripture before the day's noise sets the agenda."
+  - "Tuesday at 7am the house was loud and my Bible was still closed - glad seek the kingdom first meant Scripture before the day's noise set the agenda."
   - "Anxiety had me scrolling finances before I prayed - kingdom first meant pray, then act on the bills."
 shareable_thought:
   - "Put God's rule first and let food, status, and tomorrow's worry sort behind that."

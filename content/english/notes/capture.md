@@ -13,8 +13,8 @@ level_3: "Scribble the idea now in one inbox, then process it during the weekly 
 level_4: "Capture preserves sparks but creates clutter when nothing useful will follow; filter by likely action or citation and keep sorting separate."
 level_5: "Design a capture path that works across your devices, then shorten it until a spark can survive the trip."
 examples:
-  - "A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it - one inbox, file it Sunday when the spark is safe."
-  - "On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet."
+  - "I almost trusted memory on the walk home - glad the wristband caught the play tweak before locker-room noise ate it."
+  - "Meeting noise almost buried the tip; glad the receipt in my pocket still had the scribble when I got to the desk."
 shareable_thought:
   - "Saves what resonates into one trusted inbox, then empties weekly."
   - "Friction kills capture when saving takes more than one quick move."

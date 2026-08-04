@@ -18,7 +18,7 @@ level_3: "Do the right thing in a way that makes people notice God behind it - n
 level_4: "[[Fruits of the Spirit]] pairs goodness with kindness - when goodness becomes a personal brand, the fruit rots into performance."
 level_5: "Create a good work that meets a real need and points beyond your name, then choose whether visibility or quiet service best gives God the credit."
 examples:
-  - "I brought extra water for the whole bench and almost posted about it - goodness fruit shines so someone thinks God is real, not so my brand grows."
+  - "I brought extra water for the whole bench and almost posted about it - glad goodness fruit shines so someone thinks God is real, not so my brand grows."
   - "I covered a coworker's shift quietly and almost made it a LinkedIn moment - let the Father get credit, not my personal brand."
 shareable_thought:
   - "Goodness fruit is upright action that points to God, not hidden virtue or good deeds performed for applause."

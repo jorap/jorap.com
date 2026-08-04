@@ -13,7 +13,7 @@ level_3: "Post where you rent for discovery, but keep canonical work on domain a
 level_4: "Reach throttles, rules change, accounts get restricted - audience you built can vanish when the algorithm shifts."
 level_5: "Build an exit path: publish canonical work in a [[Digital Garden]], keep an [OKF Export](/notes/okf-export/), and use borrowed reach only to point home."
 examples:
-  - "Organic reach on my business page dropped from double digits to a trickle overnight - I would been posting only there for three years; the canonical posts lived on their servers, not mine."
+  - "Glad organic reach dropping on my business page finally pushed posts I own - I had been posting only there for three years; the canonical posts lived on their servers, not mine."
   - "A post spiked on X and I caught myself refreshing likes like I would built a kingdom - borrowed reach, not an audience I own."
 shareable_thought:
   - "Followers and algorithm reach are rented."

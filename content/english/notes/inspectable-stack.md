@@ -13,7 +13,7 @@ level_3: "Hugo build failed on a theme path - I opened the theme file, found a n
 level_4: "Open license alone does not mean maintained - [[Open Not Maintained]] and [[Say No to Nulled]] fail inspectable even when view source is technically true."
 level_5: "Design a stack test that proves you can inspect a failure, move your files, and find human help before the tool becomes critical."
 examples:
-  - "WordPress plugin fatal on a client site - commented out one bad line until a maintained fork showed up; closed SaaS would have been a support form and a prayer."
+  - "Glad commenting out one bad line on the client site held until a maintained fork showed up - WordPress plugin fatal; closed SaaS would have been a support form and a prayer."
   - "Hugo build failed on a theme path case mismatch - Linux wanted hugoplate, folder said HugoPlate; fixable in ten minutes because the whole stack is files I can read."
 shareable_thought:
   - "Pick tools you can inspect, move, and get help on."

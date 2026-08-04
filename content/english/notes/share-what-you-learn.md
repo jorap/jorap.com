@@ -14,7 +14,7 @@ level_3: "Leave the sticky note on the fridge so your spouse does not start from
 level_4: "Because a garden full of notes nobody reads is the same failure as one person holding the map, sharing turns individual learning into team capacity."
 level_5: "Ship the one-page [[Client Site Pass-Off]] doc - repo, branch, DNS, env vars - not launch-and-vanish; [[Creative Output]] is truth shared, not stockpiled."
 examples:
-  - "I would figured out the clinic's parking trick after three visits - I told the next parent in line instead of hoarding the shortcut."
+  - "I had figured out the clinic's parking trick after three visits - glad I told the next parent in line instead of hoarding the shortcut."
   - "I almost moved on after a week wrestling school forms - share what you learn was the sticky note on the fridge so my spouse did not start from zero."
 shareable_thought:
   - "Write the doc, do the pass-off, answer the junior question - hoarding know-how helps nobody."

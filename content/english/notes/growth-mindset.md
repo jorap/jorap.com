@@ -15,7 +15,7 @@ level_3: "Replace I am bad at this with I missed three - then train the slice th
 level_4: "When one rough outing becomes identity, you stop collecting reps - verdicts block the training loop before deliberate practice can start."
 level_5: "Turn a miss into a new practice drill: name the failed slice, change one variable, and use the next result to extend the training plan."
 examples:
-  - "I missed three free throws in a row at clinic."
+  - "I missed three free throws in a row at clinic; glad the coach treated it as reps to fix, not proof I cannot shoot."
   - "The new barista burned three lattes on the steam wand - skill is not fixed."
 shareable_thought:
   - "Growth mindset treats ability as trainable."

@@ -11,7 +11,7 @@ level_3: "Say no on client builds when they ask to skip the Envato fee - quote t
 level_4: "View source on a nulled zip tells you nothing about who tampered with it before upload - [[Open Source]] on the CMS does not excuse pirated premium extensions."
 level_5: "Choose [[Inspectable Stack]] paths with clean chains - [[Open Not Maintained]] is the legal-open cousin; nulled is the dishonest one."
 examples:
-  - "Client asked for a nulled slider plugin to skip the Envato fee - I said no and quoted the real license or a maintained free fork."
+  - "Glad I said no to a nulled slider plugin and quoted the real license or a maintained free fork when the client asked to skip the Envato fee."
   - "Freelance forum post bragged about cracked themes - six months later the site redirected to pharmacy spam from a theme backdoor"
 shareable_thought:
   - "Nulled premium plugins and cracked themes skip the license and import malware."

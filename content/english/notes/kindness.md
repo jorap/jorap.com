@@ -16,7 +16,7 @@ level_3: "Move your chair toward the parent you would rather avoid and ask how h
 level_4: "Generic niceness performs for observers; kindness meets the person with soft strength - audience credit is the wrong scoreboard."
 level_5: "Extend kindness with [[Goodness]] in [[Fruits of the Spirit]] - turn tender regard outward through [[Love Your Neighbor]] and [[The Golden Rule]]."
 examples:
-  - "The parent I would rather avoid sits on my side every game - kindness fruit was moving my chair over and asking how his kid's ankle was healing."
+  - "The parent I would rather avoid sits on my side every game - glad kindness fruit moved my chair over and asked how his kid's ankle was healing."
   - "I was polite in the office and sharp with my family at dinner - Galatians kindness is tender regard at home too, not performance for an audience."
 shareable_thought:
   - "Tender regard the Spirit grows for the person in front of you - not polite distance or performance niceness."

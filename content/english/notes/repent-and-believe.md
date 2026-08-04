@@ -17,7 +17,7 @@ level_3: "Trust the coach's system today, messy as you are - do not wait until y
 level_4: "Because the kingdom arrived in Christ, delay is another form of self-leadership - belief today receives the gift; turn keeps fellowship warm."
 level_5: "Preach the pair with [[Free Grace]] order straight - faith receives eternal life; repentance serves fellowship and the thank-you walk."
 examples:
-  - "I kept telling myself I would trust the coach's system once my form looked respectable - faith receives the gift today, messy as you are."
+  - "I kept telling myself I would trust the coach's system once my form looked respectable - glad faith receives the gift today, messy as you are."
   - "I kept telling myself I would trust Jesus once my habits looked respectable - eternal life is not a finish line when you are fixed."
 shareable_thought:
   - "Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand."

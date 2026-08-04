@@ -13,7 +13,7 @@ level_3: "List the last commitment still open and finish it before you start the
 level_4: "Teams that measure launch confuse motion with completion - energy fades while the last mile stays open."
 level_5: "Create a finish rule that names the final commitment, proof of complete, and who closes it before the team is allowed to chase the next start."
 examples:
-  - "We led at halftime and coasted the third quarter - finish strong was closing the last set, not celebrating after the first fast lap."
+  - "We led at halftime and coasted the third quarter - glad the loss taught that finish strong is closing the last set, not celebrating after the first fast lap."
   - "I shipped the feature page and left the README empty - finish strong was the last commit that made the handoff usable."
 shareable_thought:
   - "Launch day excitement does not count."

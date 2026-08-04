@@ -15,7 +15,7 @@ level_3: "Write the first page of the report before opening Slack - game film du
 level_4: "Because reactive mornings rewrite the day, sequence matters - my work before their urgency, not vice versa."
 level_5: "Build a morning guardrail: choose the priority from [[Purpose and Vision]], protect one [[Deep Work]] block, then use [[Signal vs Noise]] on the inbox."
 examples:
-  - "Game film due Friday - I cut it before answering every parent group chat ping."
+  - "Game film due Friday - glad I cut it before answering every parent group chat ping."
   - "The report was due at noon - I wrote the first page before opening Slack."
 shareable_thought:
   - "Put the real priority first before email, Slack, and everyone else's urgency rewrite the morning."

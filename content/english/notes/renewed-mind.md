@@ -26,7 +26,7 @@ level_3: "Open the Bible before the group chat when patience fails at dinner - r
 level_4: "Because unrenewed minds run borrowed scripts, truth frees what conformity locked - pairs with [[Sanctification]], not [[Justification]] payment."
 level_5: "Curate an [[Information Diet]] upstream and dwell in His words downstream - build judgment that culture cannot overwrite in one outrage cycle."
 examples:
-  - "I knew the verse on patience and still snapped at dinner - my standing was settled at faith, but my mind was still running the world's hurry-and-react script until I opened the Bible before the group chat."
+  - "I knew the verse on patience and still snapped at dinner - glad opening the Bible before the group chat bent my mind off the world's hurry-and-react script."
   - "The point guard kept forcing hero shots after film study showed the open man - same data, old habit loop; renewal is reps that bend the default, not one inspirational speech."
 shareable_thought:
   - "Refuse the world default thinking."

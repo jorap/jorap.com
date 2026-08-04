@@ -15,7 +15,7 @@ level_3: "Delete the matching draft, answer the fact, and offer the next clear s
 level_4: "De-escalation is not passivity; it can name harm and set limits, but it gives up the short-term thrill of winning by volume."
 level_5: "Create a response pattern your family or team can use to pause, name facts, set a boundary, and reopen the conversation."
 examples:
-  - "A parent emailed the principal with a snarky line about our field trip delay - I deleted my matching draft, answered the fact, offered the new date, and broke the reply-all war before it started."
+  - "A parent emailed the principal with a snarky line about our field trip delay - I deleted my matching draft, answered the fact, offered the new date - glad the quiet reply stopped the reply-all war before it started."
   - "My kid snapped first at dinner and I almost matched the volume - I named what happened, lowered my voice, and refused to pour fuel on it."
 shareable_thought:
   - "Break the escalation cycle."

@@ -11,7 +11,7 @@ level_3: "Tie every new save to an express deadline or delete it the same week -
 level_4: "The fallacy persists because saves mimic progress - express deadlines force use or cut before the pile becomes a hobby pretending to be work."
 level_5: "[[Creative Output]] is the express lane saves skip - cut or ship; same trap as [[Capture]] when you skip the spark you will actually ship from."
 examples:
-  - "My recipe folder had forty saved dinners and we still ordered takeout three nights a week until I tied every save to one cooked meal."
+  - "Glad tying every recipe save to one cooked meal broke the forty-saved-dinners, three-takeout-nights pattern."
   - "My folder had forty highlight reels and we still ran the same broken play - saving felt like improving; it was not until one clip became Tuesday's drill."
 shareable_thought:
   - "Saving articles felt like progress until every save tied to an express deadline or got cut."

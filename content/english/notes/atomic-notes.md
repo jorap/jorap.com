@@ -15,8 +15,8 @@ level_3: "Before you save, ask what one sentence you would cite in conversation 
 level_4: "Small files create more links and upkeep, but mixed claims hide relationships and make reuse harder - split when a heading or another and marks a second idea."
 level_5: "Split a broad draft into single-claim notes, link the claims with `[[wikilinks]]`, and add a [[Maps of Content]] hub only when the cluster needs a doorway."
 examples:
-  - "\"Why my basketball shoes live by the door\" is one claim - I would say it alone at carpool."
-  - "\"Where we meet if the elevator is out\" is one claim; \"elevator outage and parking-gate codes\" is two - split and wikilink."
+  - "Why my basketball shoes live by the door stays one claim I would say alone at carpool - glad I split it before the ands piled up."
+  - "Where we meet if the elevator is out is one claim; elevator outage and parking-gate codes is two - split and wikilink."
 shareable_thought:
   - "One clear claim per note."
   - "Split before the ands pile up."

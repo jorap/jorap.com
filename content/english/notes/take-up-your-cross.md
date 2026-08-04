@@ -17,7 +17,7 @@ level_3: "Name one self-will move you will deny today in favor of obedience - no
 level_4: "Under [[Free Grace]], eternal life is received by faith, not earned by cross-bearing - but daily surrender still costs something real."
 level_5: "[[Discipleship]] on the same road as [[The Narrow Way]] - lived one day at a time; [[Process Over Outcomes]] beats a one-time hero sprint."
 examples:
-  - "I had one big surrender moment last year and went back to the same comfortable sin - Jesus said daily: pick it up again today."
+  - "I had one big surrender moment last year and went back to the same comfortable sin - glad Jesus said daily: pick it up again today."
   - "The veteran skips the post-game party to drive a rookie home - daily cross is the costly obedience when comfort is right there."
 shareable_thought:
   - "Deny self and follow Christ daily."
