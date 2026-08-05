@@ -1948,4 +1948,1215 @@ Reviewing the pasted WTA match results to identify missing head-to-head entries.
 Additional missing head-to-head entries identified across recent WTA tournaments. Notable opponents flagged include Iga Swiatek, Maya Joint, Renata Zarazua, Linda Noskova, Elena Rybakina, Donna Vekic, Iva Jovic, Xinyu Wang, Magdalena Frech, Elise Mertens, Anastasia Pavlyuchenkova, Jelena Ostapenko, Karolina Muchova, Magda Linette, and Laura Siegemund.
 
 More missing head-to-head entries identified across additional tournaments. Notable opponents flagged include Coco Gauff, Sorana Cirstea, Hailey Baptiste, Camila Osorio, Victoria Mboko, Cristina Bucsa, Clara Tauson, Marketa Vondrousova, Barbora Krejcikova, and Iga Swiatek.
+
+Eala won the Washington DC WTA 500 Final against Jessica Pegula. This is her third WTA singles title. Her career high rank is No. 20. The current tracker may only list one YTD title. I will read the tracker and reference files to update the head-to-head records.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+Checking tracker H2H vs pasted WTA results for missing Slam winners and Top 20 meetings.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "^### |^## Matches|Career High|Washington|Pegula|Osaka|Zheng|Svitolina|Rybakina|Ostapenko|Vondrousova|Krejcikova|Muchova|Alexandrova|Mboko|Tauson|Mertens|Pavlyuchenkova|Noskova|Jovic|Gauff|Paolini|Swiatek|Keys|Fernandez|lastmod|At a glance|WTA titles"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "^### |^## Matches|Career High|Washington|Pegula|Osaka|Zheng|Svitolina|Rybakina|Ostapenko|Vondrousova|Krejcikova|Muchova|Alexandrova|Mboko|Tauson|Mertens|Pavlyuchenkova|Noskova|Jovic|Gauff|Paolini|Swiatek|Keys|Fernandez|lastmod|At a glance|WTA titles",
+  "topFiles": [
+    {
+      "matchCount": 100,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 100
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Comparing the paste against the tracker to identify missing head-to-head records for the top 20 and grand slam winners.
+
+Qinwen Zheng won the 2024 Australian Open and should be promoted to Grand Slam Champions. Linda Noskova likely lacks a Grand Slam title and may belong in Other Top 20 instead. I am reviewing the full H2H sections and reference data to confirm these placements.
+
+Victoria Mboko appears to be missing from the H2H records entirely. Anastasia Pavlyuchenkova has no verified Grand Slam singles title despite being a Madrid finalist.
+
+Elise Mertens and Magda Linette likely belong in Other Top 20 based on their career highs. Victoria Mboko may also need a placement review.
+
+Elise Mertens reached No. 12 in singles and lost to Victoria Mboko in Hong Kong. Anastasia Pavlyuchenkova reached No. 11 and was a French Open finalist. Magda Linette reached No. 19. These players likely belong in Other Top 20.
+
+Dayana Yastremska and Camila Osorio appear borderline for the Top 20 list. Jasmine Paolini won the 2024 French Open and qualifies as a Grand Slam champion.
+
+Paolini's status conflicts with the promotion rule. The skill example keeps her in Other Top 20 despite winning the 2024 French Open singles. Doubles-only context should not prevent promotion. This contradiction needs clarification.
+
+Paolini should be promoted to Grand Slam Champions. She has a verified French Open singles title and existing singles H2H records. The skill example likely applies only when the only meeting was doubles.
+
+Mirra Andreeva is correctly kept on the watch list as a 2026 French Open winner without a professional H2H record. I will now examine the full H2H blocks and reference player IDs to locate missing opponents such as Mertens, Pavlyuchenkova, Mboko, Linette, and Yastremska.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Reading full H2H sections and reference IDs; checking Slam-winner promotions (Zheng, Paolini) and missing Top 20 blocks.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Qinwen Zheng Grand Slam titles WTA career high singles"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Zheng Qinwen career statistics](https://en.wikipedia.org/wiki/Zheng_Qinwen_career_statistics)\n2. [Zheng Qinwen](https://en.wikipedia.org/wiki/Zheng_Qinwen)\n3. [Qinwen Zheng | Player Stats \u0026 More – WTA Official](https://www.wtatennis.com/players/328120/-)\n4. [Zheng Qinwen](https://en.wikipedia.org/wiki/Qinwen_Zheng)\n5. [Qinwen Zheng | Grand Slams | Activity \u0026 More – WTA Official](https://www.wtatennis.com/players/328120/qinwen-zheng/record)\n\nSynthesis:\nQinwen Zheng has not won any Grand Slam singles titles [1][2]. She reached the final of the 2024 Australian Open [3][1]. Her career-high singles ranking is world number 4, which she achieved on June 16, 2025 [4][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eZheng Qinwen career statistics\u003c/title\u003e\n\u003curl\u003ehttps://en.wikipedia.org/wiki/Zheng_Qinwen_career_statistics\u003c/url\u003e\n\u003ccontent\u003e| Discipline | Type | Won | Lost | Total |\n| --- | --- | --- | --- | --- |\n| Singles | Grand Slam | 0 | 1 | 1 |\n| WTA Finals | 0 | 1 | 1 |\n| WTA Elite | 0 | 1 | 1 |\n| WTA 1000 | 0 | 1 | 1 |\n| WTA 500 | 2 | 1 | 3 |\n| WTA 250 | 2 | 0 | 2 |\n| Olympics | 1 | 0 | 1 |\n| Total | 5 | 5 | 10 |\n| Doubles | Grand Slam | – | – | – |\n| WTA Finals | – | – | – |\n| WTA Elite | – | – | – |\n| WTA 1000 | – | – | – |\n| WTA 500 | – | – | – |\n| WTA 250 | – | – | – |\n| Olympics | – | – | – |\n| Total | – | – | – |\n...\n--- | --- | ---\n...\nGrand Slam tournaments\n...\n3R | Q\n...\n10–3\n...\n| Win–loss\n...\n0–0 | 8–4 | 6–4 | 12–4 |\n...\n5–3 | 0–2 | 0 /\n...\n17 | 31–17 |\n...\n| WTA\n...\n0 / 1\n...\n100% |\n...\n0 /\n...\n3–1 |\n...\n0 /\n...\n50% |\n...\nA | 0 /\n...\n3–\n...\n| 2–\n...\n| Career statistics |\n| 2021 | 2022 | 2023 | 2024 | 2025 | 2026 | SR | W–L | Win % |\n| Tournaments | 3 | 17 | 22 | 20 | 12 | 5 | Career total: 77 |\n| Titles | 0 | 0 | 2 | 3 | 0 | 0 | Career total: 5 |\n| Finals | 
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Qinwen Zheng has no Grand Slam singles title. She reached the 2024 Australian Open final.
+
+Zheng's player ID in Reference.md is incorrect. Linda Noskova is listed as the 2026 Wimbledon winner, but Eala lost to Paolini in the round of sixteen. The actual 2026 champion needs verification.
+
+Paolini correctly remains in Other Top 20. Her 2024 French Open singles final was her only major title.
+
+Elise Mertens, Magda Linette, and Victoria Mboko may be missing from the Top 20 H2H list.
+
+Anastasia Pavlyuchenkova reached a career high of No. 11. Donna Vekic may have peaked at No. 17. Their career highs need verification.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Zheng stays Other Top 20 (no Slam title). Verifying Noskova Wimbledon 2026 claim and scanning paste for missing Top 20 H2H.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Linda Noskova Wimbledon 2026 winner champion"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [At 21, Noskova caps a brilliant fortnight to become youngest Wimbledon champion in 15 years](https://www.wtatennis.com/news/4533700/at-21-linda-noskova-caps-brilliant-fortnight-to-become-youngest-wimbledon-champion-in-15-years-defeats-karolina-muchova)\n2. [Noskova and Muchova prove the continued dominance of Czech tennis - ESPN](https://www.espn.com/tennis/story/_/id/49335129/wimbledon-women-final-title-linda-noskova-karolina-muchova)\n3. [Wimbledon 2026: Sinner Dominates, Noskova Wins All-Czech Women's Final](https://www.sportico.com/leagues/tennis/2026/wimbledon-results-2026-jannik-sinner-linda-noskova-1234938669/)\n4. [Linda Noskova recovers from 2nd-set meltdown to beat Karolina Muchova for Wimbledon title | AP News](https://apnews.com/article/wimbledon-final-muchova-noskova-c896211caa1dd2ba717b0d97aa6b1284)\n5. [Karolina Muchova - Linda Noskova: Meeting protocol 11-07-2026](https://escore.com/en/en/game/karolina-muchova-linda-noskova/561595/summary)\n\nSynthesis:\nYes, Linda Noskova is the 2026 Wimbledon women's singles champion [1][2][3]. She defeated fellow Czech player Karolina Muchova 6-2, 5-7, 6-3 in the final on July 11, 2026 [4][5][6]. At 21 years old, she became the youngest woman to win the title since Petra Kvitova in 2011 [1][7][8]. This victory marked Noskova's first career Grand Slam title [1][9][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAt 21, Noskova caps a brilliant fortnight to become youngest Wimbledon champion in 15 years\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4533700/at-21-linda-noskova-caps-brilliant-fortnight-to-become-youngest-wimbledon-champion-in-15-years-defeats-karolina-muchova\u003c/url\u003e\n\u003ccontent\u003eAt 21, Noskova caps a brilliant fortnight to become youngest Wimbledon champion in 15 years\n...\nAt 21, Noskova caps a brilliant fortnight to become youngest Wimbledon champion in 15 years\n...\nWIMBLED
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Elise Mertens Magda Linette Victoria Mboko Anastasia Pavlyuchenkova Donna Vekic WTA career high singles ranking"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Elise Mertens WTA Ranking, Stats \u0026 Match Record | TennisDB](https://tennis-db.com/wta/players/balldontlie_wta:61/elise-mertens)\n2. [Elise Mertens - Wikipedia](https://en.wikipedia.org/wiki/Elise_Mertens)\n3. [Elise Mertens | Player  | BNP Paribas Open](https://bnpparibasopen.com/players/detail/elise-mertens)\n4. [Highest Peak Ranking Points – All-Time WTA Leaders (Modern Era) | TennisDB](https://tennis-db.com/wta/leaders/ranking-points/career)\n5. [Live WTA Ranking](https://live-tennis.eu/en/wta-live-ranking)\n\nSynthesis:\nThe WTA career-high singles rankings for these players are as follows:\n\nElise Mertens reached world No. 12 on November 26, 2018 [1][2][3].\nMagda Linette achieved a career-high ranking of world No. 19 in March 2023.\nVictoria Mboko has a career-high ranking of world No. 12, achieved in 2026 [4][5].\nAnastasia Pavlyuchenkova reached a career-high of world No. 11 in November 2021 [1].\nDonna Vekic attained a career-high ranking of world No. 19 in August 2024.\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eElise Mertens WTA Ranking, Stats \u0026 Match Record | TennisDB\u003c/title\u003e\n\u003curl\u003ehttps://tennis-db.com/wta/players/balldontlie_wta:61/elise-mertens\u003c/url\u003e\n\u003ccontent\u003e12 (Nov 26, 2018)\n...\n--- | ---\n...\n125\n...\n| 2018\n...\n22 | WTA |\n...\n43 |\n...\n19 |\n...\n62 |\n...\n12 |\n|\n...\n23 | WTA | 33 |\n...\n12 | 17\n...\n20 | 24 | WTA\n...\n32\n...\n45\n...\n17 | 20 |\n| 2021 | 25 | WTA | 33 | 18 | 51 | 64.7% | 20 | 21 |\n| 2022 | 26 | WTA | 28 | 21 | 49 | 57.1% | 21 | 29 |\n| 2023 | 27 | Qualifying Q | 3 | 0 | 3 | 100.0% | — | — |\n| 2023 | 27 | WTA | 26 | 21 | 47 | 55.3% | 29 | 29 |\n| 2024 | 28 | WTA | 27 | 25 | 52 | 51.9% | 30 | 34 |\n| 2025 | 29 | WTA | 36 | 20 | 56 | 64.3% | 34 | 20 |\n| 2026 | 30 | WTA | 19 | 12 | 31 | 61.3% | 20 | 27 |\n| Career | — | 310 | 198 | 508 | 61.0% | — | — |\n...\n— | —\n...\n12
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "Mertens|Linette|Mboko|Pavlyuchenkova|Vekic|Vekić|Yastremska"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "Mertens|Linette|Mboko|Pavlyuchenkova|Vekic|Vekić|Yastremska",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Several top 20 opponents still lack H2H records against Eala. These include players whose career high was 20 or better.
+
+Elise Mertens, Magda Linette, Victoria Mboko, Anastasia Pavlyuchenkova, and Donna Vekić all lack H2H records against Eala. Sorana Cirstea may also qualify as a top 20 opponent despite her historical career high of 21.
+
+Sorana Cirstea's career high is 18, confirming she qualifies as a top 20 opponent. Victoria Mboko's Hong Kong R16 result does not meet the QF threshold for Best Performances, yet it still counts for the Top 20 H2H section. Next steps are to verify career highs on WTA, locate match URLs from existing Best Performances, and gather WTA IDs and match links.
+
+The Other Top 20 list will be sorted alphabetically. reference.md will be updated and its last modified date bumped. YouTube embeds will be checked for missing verified videos, though new searches will be limited by budget. Existing tournament entries are being reviewed for match links and WTA IDs.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Missing Other Top 20 H2H: Mertens, Linette, Mboko, Pavlyuchenkova, Vekić. Gathering WTA IDs and match links.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "site:wtatennis.com/players Elise Mertens Magda Linette Victoria Mboko Anastasia Pavlyuchenkova Donna Vekic Sorana Cirstea"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Elise Mertens | Player Stats \u0026 More – WTA Official](https://www.wtatennis.com/players/317964/elise-mertens)\n2. [Magda Linette | Player Stats \u0026 More – WTA Official](https://www.wtatennis.com/players/315130/magda-linette)\n3. [Donna Vekic | Player Stats \u0026 More – WTA Official](https://www.wtatennis.com/players/318516/-donna-vekic-)\n4. [Sorana Cirstea | Player Stats \u0026 More – WTA Official](https://www.wtatennis.com/players/312469/sorana-cirstea)\n5. [Anastasia Pavlyuchenkova | Player Stats \u0026 More – WTA Official](https://www.wtatennis.com/players/313796/anastasia-pavlyuchenkova/)\n\nSynthesis:\nThese individuals are professional tennis players who compete on the WTA Tour [1][2][3][4][5]. Their careers have intersected through various match play and partnership history [2][3][4][5]. For example, Sorana Cirstea and Anastasia Pavlyuchenkova won a doubles title together in 2008 [4][5], while Cirstea defeated Elise Mertens in the 2021 Istanbul final [4]. Additionally, Donna Vekic defeated Anastasia Pavlyuchenkova in the 2025 Australian Open round of 16 [3]. Victoria Mboko is also a professional player active on the circuit.\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eElise Mertens | Player Stats \u0026 More – WTA Official\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/players/317964/elise-mertens\u003c/url\u003e\n\u003ccontent\u003eElise Mertens\n...\n(w/Schuurs), Istanbul (w/\n...\n) WTA 125 TITLES AND FINALS DOU\n...\nLES Winner (1\n...\nvonareva\n...\n022 ranked\n...\ned seventh WTA title\n...\nat 2022 Monastir (d. Cornet in F\n...\nin doubles alongside partner V.Kudermetova won Dubai and WTA Finals, as well as finished R-Up at Wimbledon\n...\ned a productive\n...\nto 2021\n...\nin Melbourne, triumphing at the Gippsland Trophy\n...\nd. Kanepi in F\n...\ncareer Grand Slam\n...\n) and Linz\n...\nvictory over Kalinina\n...\n20\n...\nhighlights in\n
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "Mertens|Linette|Mboko|Pavlyuchenkova|Vekic|Cirstea|Cîrstea|Hong Kong|Bad Homburg|Madrid"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "Mertens|Linette|Mboko|Pavlyuchenkova|Vekic|Cirstea|Cîrstea|Hong Kong|Bad Homburg|Madrid",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Cîrstea's career high is No. 21. That places her just outside the Top 20.
+
+Yastremska likely falls outside the Top 20 threshold too. I am checking whether the Miami Linette match appears in the Best Performances section.
+
+Miami 2026 is missing from the Best Performances list. The Linette Miami R32 match needs to be added to her H2H record with links. The Nottingham R32 loss is excluded from Best Performances but still counts for H2H.
+
+I am focusing strictly on H2H blocks. I need match links for Mertens Bad Homburg and Madrid, Pavlyuchenkova Madrid, Mboko Hong Kong, and Linette Miami and Nottingham. Vekić’s Berlin and Auckland links are already present. I will search for Mboko’s WTA ID and match URLs, then verify career highs from a WTA profile.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Victoria Mboko wtatennis.com/players Alexandra Eala Hong Kong 2025"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Eala vs. Mboko | Round of 16 Prudential Hong Kong Tennis Open 2025 | WTA Official](https://www.wtatennis.com/tournaments/1074/hong-kong/2025/scores/LS013)\n2. [Tennis, Hong Kong Tennis Open: Victoria Mboko comes back to beat Alexandra Eala in thrilling maiden meeting](https://www.olympics.com/en/news/hong-kong-tennis-open-victoria-mboko-alexandra-eala-second-round-results)\n3. [Mboko pulls off comeback against bubble tea partner Eala in Hong Kong](https://www.wtatennis.com/news/4393561/mboko-pulls-off-comeback-against-bubble-tea-partner-eala-in-hong-kong)\n4. [Victoria Mboko eyes Top 20 debut after battling past gal pal Alexandra Eala in Hong Kong | Tennis.com](https://www.tennis.com/news/articles/victoria-mboko-eyes-top-20-debut-edges-gal-pal-alexandra-eala-hong-kong)\n5. [Victoria Mboko Wins Thriller Against Eala To Progress In Hong Kong - UBITENNIS](https://www.ubitennis.net/2025/10/victoria-mboko-wins-thriller-against-eala-to-progress-in-hong-kong/)\n\nSynthesis:\nIn the second round of the 2025 Prudential Hong Kong Tennis Open, Victoria Mboko defeated Alexandra Eala 3-6, 6-3, 6-4 [1][2]. The match, held on October 30, 2025, marked their first professional meeting [3][2]. Mboko overcame a 4-1 deficit in the final set to win the match in two hours and 27 minutes [3][2][4]. The two players are known to be close friends who frequently spend time together off the court [3][5][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala vs. Mboko | Round of 16 Prudential Hong Kong Tennis Open 2025 | WTA Official\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/tournaments/1074/hong-kong/2025/scores/LS013\u003c/url\u003e\n\u003ccontent\u003eEala vs. Mboko | Round of 16 Prudential Hong Kong Tennis Open 2025 | WTA Official\n\nGo back to the home page\n\n-\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eTennis, Hong Kong Tennis Open: Vic
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Eala Mertens Bad Homburg 2026 wtatennis scores OR tennis.com"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Eala, Alexandra vs Mertens, Elise · Round 1 · WTA Bad Homburg](https://www.tennis.com/tournaments/bad-homburg-open-presented-by-engel-volkers/matches/a-eala-vs-e-mertens-2026-06-22)\n2. [Alexandra Eala - Elise Mertens: Meeting protocol 22-06-2026](https://escore.com/en/en/game/alexandra-eala-elise-mertens/558365/summary)\n3. [Alexandra Eala vs. Elise Mertens | 2026 Bad Homburg Round 1 | WTA Match Highlights](https://www.youtube.com/watch?v=YcRjqt5tF34)\n4. [Elise Mertens def. Alexandra Eala, 2026 Bad Homburg Third Round | TennisDB](https://tennis-db.com/wta/matches/balldontlie_wta:10804850/elise-mertens-vs-alexandra-eala)\n5. [Eala vs. Mertens | Round of 32 Bad Homburg Open powered by Solarwatt  2026 | WTA Official](https://www.wtatennis.com/tournaments/2017/bad-homburg/2026/scores/LS029)\n\nSynthesis:\nElise Mertens defeated Alexandra Eala in the first round of the 2026 Bad Homburg Open on June 22, 2026 [1][2]. The final score was 6-3, 6-3 [3][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala, Alexandra vs Mertens, Elise · Round 1 · WTA Bad Homburg\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/tournaments/bad-homburg-open-presented-by-engel-volkers/matches/a-eala-vs-e-mertens-2026-06-22\u003c/url\u003e\n\u003ccontent\u003eEala, Alexandra vs Mertens, Elise · Round 1 · WTA Bad Homburg\n\n[![Tennis.com](https://www.tennis.com/logos/tennis-com.svg)](https://www.tennis.com/)\n[Watch now](https://www.tennischannel.com)\nEala, Alexandra vs Mertens, Elise · Round 1 · WTA Bad Homburg\n[](https://www.tennis.com/tournaments/bad-homburg-open-presented-by-engel-volkers/matches/a-eala-vs-e-mertens-2026-06-22)\nWomen's Singles·Round 1\nUpcoming\n[Watch](https://www.tennischannel.com/en-us/video/eala-alexandra-mertens-elise/2182543?utm_source=tennisdotcom\u0026utm_medium=website\u0026utm_campaign=new)\n![PHL](https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=3840\u002
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Donna Vekic WTA career high singles No."
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Donna Vekic | Player Stats \u0026 More – WTA Official](https://www.wtatennis.com/players/318516/donna-vekic)\n2. [Donna Vekić](https://en.wikipedia.org/wiki/Donna_Veki%C4%87)\n3. [Tennis Abstract: Donna Vekic Match Results, Splits, and Analysis](https://www.tennisabstract.com/cgi-bin/wplayer.cgi?p=202499%2FDonna-Vekic)\n4. [Donna Vekic Rankings \u0026 Ranking History - TennisStats.com](https://tennisstats.com/players/donna-vekic/rankings)\n5. [Donna Vekic - WTA Tennis Stats, Ranking, Career History, Analysis](https://www.tennisratio.com/players/DonnaVekic.html)\n\nSynthesis:\nDonna Vekic achieved a career-high singles ranking of world No. 17 on January 27, 2025 [1][2][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eDonna Vekic | Player Stats \u0026 More – WTA Official\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/players/318516/donna-vekic\u003c/url\u003e\n\u003ccontent\u003eCurrent Singles Rank\n...\n## Career High\n...\nIn 2025, hit new career-high ranking of No.17 on January 27, after R16 run at Australian Open (l. Pavlyuchenkova); also made Chennai QF (l. eventual R-Up Birrell) and posted R16 finishes at WTA 1000 events in Indian Wells and Madrid (l. Keys at both)\n...\nGrand Slam result reaching SF\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eDonna Vekić\u003c/title\u003e\n\u003curl\u003ehttps://en.wikipedia.org/wiki/Donna_Veki%C4%87\u003c/url\u003e\n\u003ccontent\u003eDonna Vekić (Croatian pronunciation: [ʋěːkitɕ]; born 28 June 1996) is a Croatian professional tennis player. She achieved a career-high singles ranking of world No. 17 on 27 January 2025. Her best performance at a major is reaching the semifinals at the 2024 Wimbledon Championships, which she lost against Jasmine Paolini in the longest women's semifinal match in the history of the tournament. Vekić is also an Olympic silver medalist, in singles at t
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+More URLs are needed for the Madrid head-to-head between Mertens and Pavlyuchenkova.
+
+Miami and Nottingham Linette URLs are needed. Mboko's WTA ID and tennis.com profile for Hong Kong must be found. Mboko's career high rank needs verification. TennisDB shows Mertens leads Mertens H2H 2-0. Mboko lost to Eala 6-3, 3-6, 4-6. The Bad Homburg Mertens highlight is confirmed.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Eala Mertens Madrid 2026 wtatennis scores LS Pavlyuchenkova"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Mertens drops only three games vs. Eala; will next face Pliskova in Madrid](https://www.wtatennis.com/news/4492740/mertens-cruises-past-eala-will-face-pliskova-in-madrid)\n2. [Elise Mertens def. Alexandra Eala – Madrid R64 | TennisDB](https://tennis-db.com/wta/matches/balldontlie_wta:5653861/elise-mertens-vs-alexandra-eala)\n3. [Elise Mertens vs. Alexandra Eala 24.04.2026 - Mutua Madrid Open - Madrid | TennisLive.com](https://www.tennislive.net/wta/match/elise-mertens-VS-alexandra-eala/mutua-madrid-open-madrid-2026/)\n4. [Alexandra Eala def. Anastasia Pavlyuchenkova, 2026 Madrid First Round | TennisDB](https://tennis-db.com/wta/matches/balldontlie_wta:5381492/alexandra-eala-vs-anastasia-pavlyuchenkova)\n5. [SportsPlus Ph - Eala, Mertens Clash at Madrid Open 🎾\n\nAlex... | Facebook](https://www.facebook.com/SPlusPH/posts/eala-mertens-clash-at-madrid-open-alex-eala-takes-down-former-world-no-11-anasta/961102746676405/)\n\nSynthesis:\nElise Mertens defeated Alexandra Eala with a score of 6-2, 6-1 in the second round (Round of 64) of the 2026 Mutua Madrid Open on April 24, 2026 [1][2][3]. Before this match, Eala had reached the second round by defeating Anastasia Pavlyuchenkova 6-3, 6-3 in the first round (Round of 128) [4][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eMertens drops only three games vs. Eala; will next face Pliskova in Madrid\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4492740/mertens-cruises-past-eala-will-face-pliskova-in-madrid\u003c/url\u003e\n\u003ccontent\u003eMertens drops only three games vs. Eala; will next face Pliskova in Madrid\n...\n# Mertens drops only three games vs. Eala; will next face Pliskova in Madrid\n...\nElise Mertens defeated Alexandra Eala in straight sets at the Mutua Madrid Open, setting up a third-round showdown with Karolina Pliskova. Mertens dominated the match, breaking Eala multiple times and winning 6-2, 6-1.
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "wtatennis.com/players Victoria Mboko ID tennis.com eala mboko hong kong"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Victoria Mboko | Player Stats \u0026 More – WTA Official](https://www.wtatennis.com/players/331006/-)\n2. [Victoria Mboko | Player Stats \u0026 More – WTA Official](https://www.wtatennis.com/players/331006/victoria-mboko)\n3. [Victoria Mboko eyes Top 20 debut after battling past gal pal Alexandra Eala in Hong Kong | Tennis.com](https://www.tennis.com/news/articles/victoria-mboko-eyes-top-20-debut-edges-gal-pal-alexandra-eala-hong-kong)\n4. [Tennis, Hong Kong Tennis Open: Victoria Mboko comes back to beat Alexandra Eala in thrilling maiden meeting](https://www.olympics.com/en/news/hong-kong-tennis-open-victoria-mboko-alexandra-eala-second-round-results)\n5. [2025 Hong Kong F: Victoria Mboko vs Cristina Bucsa Detailed Stats | Tennis Abstract](https://www.tennisabstract.com/charting/20251102-W-Hong_Kong-F-Victoria_Mboko-Cristina_Bucsa.html)\n\nSynthesis:\nVictoria Mboko is a professional tennis player who won the 2025 WTA 250 tournament in Hong Kong [1][2]. During that event, she defeated Alexandra Eala in the second round [3][4] and ultimately won the title by defeating Cristina Bucsa in the final [5][6]. Her official WTA profile can be found at wtatennis.com/players/331006/victoria-mboko [2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eVictoria Mboko | Player Stats \u0026 More – WTA Official\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/players/331006/-\u003c/url\u003e\n\u003ccontent\u003eVictoria Mboko | Player Stats \u0026 More – WTA Official\n...\nVictoria Mboko | Player Stats \u0026 More – WTA Official\n...\n![CAN](/resources/v7.50.25/i/elements/flags/can.svg)\n...\n5' 11\" (1\n...\n80)\n...\nby Wim Fisset\n...\nBorn in North Carolina in United States, but moved to Toronto as a small child\n...\nSobeys Stadium\n...\n## Career Highlights\n...\nWinner (2): 2025 - Hong Kong, Montreal\n...\nA breakthrough season in 2025 saw her lift her first WTA title during a fa
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Eala Linette Miami 2026 wtatennis scores OR tennis.com Nottingham 2025"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Alexandra Eala def. Magda Linette, 2026 Miami Third Round | TennisDB](https://tennis-db.com/wta/matches/balldontlie_wta:3952211/alexandra-eala-vs-magda-linette)\n2. [2026 Miami R32: Alexandra Eala vs Magda Linette Detailed Stats | Tennis Abstract](https://www.tennisabstract.com/charting/20260321-W-Miami-R32-Alexandra_Eala-Magda_Linette.html)\n3. [Alexandra Eala vs. Magda Linette 21.03.2026 - Miami Open - Miami | TennisLive.com](https://www.tennislive.net/wta/match/alexandra-eala-VS-magda-linette/miami-open-miami-2026/)\n4. [Linette vs. Eala | Round of 32 Lexus Nottingham Open 2025 | WTA Official](https://www.wtatennis.com/tournaments/1080/nottingham/2025/scores/LS028)\n5. [Linette seals fifth match point to quell Eala in Nottingham first round](https://www.wtatennis.com/videos/4288987/linette-seals-fifth-match-point-to-quell-eala-in-nottingham-first-round)\n\nSynthesis:\nAt the 2026 Miami Open, Alexandra Eala defeated Magda Linette in the third round with a score of 6-3, 7-6(2) on March 21, 2026 [1][2][3]. Regarding their previous encounter, Magda Linette defeated Alexandra Eala at the 2025 Lexus Nottingham Open in the round of 32 [4][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala def. Magda Linette, 2026 Miami Third Round | TennisDB\u003c/title\u003e\n\u003curl\u003ehttps://tennis-db.com/wta/matches/balldontlie_wta:3952211/alexandra-eala-vs-magda-linette\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala def. Magda Linette, 2026 Miami Third Round | TennisDB\n\nSite data updated: 2026-06-12 04:30 UTC\n\n# Alexandra Eala#29 def. Magda Linette#50\n\n6-3 7-6(2)\n\n## Match Information\n\n| Date | Mar 21, 2026 |\n| --- | --- |\n| Tournament | Miami |\n| Category | WTA 1000 |\n| Surface | Hard |\n| Round | R32 |\n| Winner | Alexandra Eala |\n| Score | 6-3 7-6(2) |\n| Loser | Magda Linette |\n\nNo match stats are available for this match.\n\n## Pre-match Comparison\n
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+TennisLive confirms Linette's head-to-head record includes the 2024 Abu Dhabi tournament.
+
+TennisDB indicates additional H2H meetings beyond those already recorded. Mertens actually has three meetings with Eala, including a 2023 Monastir match. Eala's head-to-head now includes four completed singles meetings. WTA score URLs for Madrid still need to be retrieved.
+
+Madrid score URLs follow a known WTA pattern. A targeted fetch will retrieve Mboko's career high. Mertens' video oembed is also needed. Career highs are confirmed: Mertens No. 12, Linette No. 19. The 2024 Abu Dhabi Linette match likely lacks Best Performances status.
+
+Mboko's live ranking needs verification; Montreal's win likely pushed her into the top ten. Pavlyuchenkova is No. 11 and Vekić is No. 17. The 2024 Abu Dhabi Linette match is absent from the tracker's H2H section. Madrid WTA score URLs will be located via search.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "site:wtatennis.com/tournaments madrid 2026 scores Eala Mertens OR Pavlyuchenkova"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Pavlyuchenkova vs. Eala | Round of 128 Mutua Madrid Open 2026 | WTA Official](https://www.wtatennis.com/tournaments/1038/madrid/2026/scores/LS117)\n2. [Pavlyuchenkova vs. Eala | Round of 128 Mutua Madrid Open 2026 | WTA Official](https://www.wtatennis.com/tournaments/madrid-open/scores/LS117)\n3. [Mertens vs. Eala | Round of 64 Mutua Madrid Open 2026 | WTA Official](https://www.wtatennis.com/tournaments/1038/madrid/2026/scores/LS058)\n4. [Mutua Madrid Open 2026 Scores | Latest Scores \u0026 Live Updates – WTA Official](https://www.wtatennis.com/tournaments/1038/madrid/2026/scores)\n5. [Mertens vs. Pliskova | Round of 32 Mutua Madrid Open 2026 | WTA Official](https://www.wtatennis.com/tournaments/1038/madrid/2026/scores/LS029)\n\nSynthesis:\nAt the 2026 Mutua Madrid Open, Alexandra Eala competed against Anastasia Pavlyuchenkova in the Round of 128 [1][2] and Elise Mertens in the Round of 64 [3]. Specific match scorelines were not provided in the available records for these 2026 encounters [1][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003ePavlyuchenkova vs. Eala | Round of 128 Mutua Madrid Open 2026 | WTA Official\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/tournaments/1038/madrid/2026/scores/LS117\u003c/url\u003e\n\u003ccontent\u003ePavlyuchenkova vs. Eala | Round of 128 Mutua Madrid Open 2026 | WTA Official\n\nGo back to the home page\n\n-\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003ePavlyuchenkova vs. Eala | Round of 128 Mutua Madrid Open 2026 | WTA Official\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/tournaments/madrid-open/scores/LS117\u003c/url\u003e\n\u003ccontent\u003ePavlyuchenkova vs. Eala | Round of 128 Mutua Madrid Open 2026 | WTA Official\n\nGo back to the home page\n\n-\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eMertens vs. Eala | Round of 6
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "tennis.com tournaments eala mboko hong-kong OR mertens madrid 2026 OR linette miami"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Prudential Hong Kong Tennis Open Tournaments | Tennis.com](https://www.tennis.com/tournaments/sr-tournament-11109-wta-hong-kong-hong-kong/)\n2. [Prudential Hong Kong Tennis Open 2026 Overview | WTA Official](https://www.wtatennis.com/tournaments/1074/hong-kong/2026)\n3. [Prudential Hong Kong Tennis Open 2026 Draws | WTA Official](https://www.wtatennis.com/tournaments/1074/hong-kong/2026/draws)\n4. [Madrid Open 2026: Elise Mertens advances to third round with straight-sets win over Alexandra Eala](https://www.olympics.com/en/news/madrid-open-2026-elise-mertens-alexandra-eala-round-two-tennis-results)\n5. [Mboko, Andreeva set for trilogy as Eala edges out Linette in Miami](https://www.wtatennis.com/news/4474006/victoria-mboko-mirra-andreeva-set-for-trilogy-in-miami-while-alexandra-eala-edges-out-magda-linette)\n\nSynthesis:\nVictoria Mboko won the 2025 Prudential Hong Kong Tennis Open by defeating Cristina Bucsa [1][2]. The 2026 edition of this WTA 250 tournament is scheduled for November 2 to November 8, 2026 [2][3]. In other 2026 results, Elise Mertens defeated Alexandra Eala at the Madrid Open [4], while Eala recorded a straight-sets victory over Magda Linette at the 2026 Miami Open [5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003ePrudential Hong Kong Tennis Open Tournaments | Tennis.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/tournaments/sr-tournament-11109-wta-hong-kong-hong-kong/\u003c/url\u003e\n\u003ccontent\u003ePrudential Hong Kong Tennis Open Tournaments | Tennis.com\n\n## Advertising\n\n## Prudential Hong Kong Tennis Open\n\n2026202520242023202020182017201620152014\n\nHong Kong Hong Kong, China\n\nSurface Hardcourt outdoor\n\n2 more live tournaments\n\n- Mutua Madrid Open\n- Davis Cup\n- See all tournaments \u003e\n\n2026202520242023202020182017201620152014\n\n## HIGHLIGHTS: Victoria Mboko captures second WTA title in thriller | 2025 Hong Kong F\n
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Victoria Mboko career high singles ranking No. WTA 2026"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Victoria Mboko [CAN] | AO](https://ausopen.com/players/canada/victoria-mboko)\n2. [Tennis Abstract: Victoria Mboko Match Results, Splits, and Analysis](https://www.tennisabstract.com/cgi-bin/wplayer-more.cgi?p=239475%2FVictoria-Mboko\u0026table=pbp-stats)\n3. [Victoria Mboko](https://en.wikipedia.org/wiki/Victoria_Mboko)\n4. [Victoria Mboko · Rankings, Stats, and News](https://atrtennis.com/page.php?page=players_single\u0026player_name=Victoria+Mboko)\n5. [Victoria Mboko • WTA 12 • Ranking • TennisTemple](https://en.tennistemple.com/player/victoria-mboko/9622/rankings)\n\nSynthesis:\nVictoria Mboko has a career-high singles ranking of world No. 9 [1][2][3]. She first achieved this ranking on March 16, 2026 [4][2][3][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eVictoria Mboko [CAN] | AO\u003c/title\u003e\n\u003curl\u003ehttps://ausopen.com/players/canada/victoria-mboko\u003c/url\u003e\n\u003ccontent\u003eVictoria Mboko [CAN] | AO\n\nVictoria\n\n# Mboko\n\nCanada\n\n## Ranking\n\n| Singles Ranking | 12 |\n| --- | --- |\n| Doubles Ranking | 112 |\n\nUpdated: 22/07/2026 Melbourne time\n\n## Personal Details\n\n| Age | 19 years |\n| --- | --- |\n| Born | Canada |\n| Playing Hand | Right Handed |\n\n## At the Australian Open\n\n| Best Singles Result |\n| --- |\n| 4th round |\n| 2026 |\n\n| Best Doubles Result |\n| --- |\n| 2nd round |\n| 2026 |\n\n| Number of AO’s played | 1 |\n| --- | --- |\n| Competing in | Women's Singles, Women's Doubles |\n\n## Tour Year to Date\n\n| YTD Win-Loss | 24-10 |\n| --- | --- |\n| YTD Prize Money for Singles | $1,715,606.00 USD |\n\n## Career Overview\n\n| Best Singles Ranking | 9 |\n| --- | --- |\n| Best Doubles Ranking | 112 |\n| Number of Singles Titles | 2 |\n| Career Win-Loss | 46-21 |\n| Career Earnings | $3,307,577.00 USD |\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eTennis Abstract: Victoria Mbo
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Enough data has been gathered to build the H2H blocks.
+
+Most H2H entries already have WTA and tennis.com links. A few still need tennis.com URLs. The WTA-only links will be used where exact URLs are unavailable.
+
+Monastir 2023 and Abu Dhabi 2024 Linette matches will be added if verified. All Linette meetings will be included for completeness. Fetch budget will be spot-checked for new WTA URLs and video oembeds.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "site:wtatennis.com OR site:tennis.com Eala Linette miami 2026 scores LS OR matches"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Eala vs. Linette | Round of 32 Miami Open presented by Itaú 2026 | WTA Official](https://www.wtatennis.com/tournaments/miami-open/scores/LS031)\n2. [MATCH NOTES](https://wtafiles.wtatennis.com/pdf/matchnotes/2026/902_5.pdf)\n3. [Linette vs. Eala | Quarterfinals ASB Classic 2026 | WTA Official](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS006)\n4. [Linette vs. Gracheva | Round of 128 Miami Open presented by Itaú 2026 | WTA Official](https://www.wtatennis.com/tournaments/miami-open/scores/LS126)\n5. [Muchova vs. Eala | Round of 16 Miami Open presented by Itaú 2026 | WTA Official](https://www.wtatennis.com/tournaments/902/miami/2026/scores/LS015)\n\nSynthesis:\nAlexandra Eala and Magda Linette were scheduled to face each other in the Round of 32 at the 2026 Miami Open [1]. Although the match was listed in the tournament draw, the official records do not report a final score for this specific matchup at the 2026 Miami Open, and they did not play each other in the final tournament bracket [1][2]. They previously met earlier this season at the 2026 ASB Classic in Auckland, where Eala defeated Linette 6-3, 6-2 [3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala vs. Linette | Round of 32 Miami Open presented by Itaú 2026 | WTA Official\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/tournaments/miami-open/scores/LS031\u003c/url\u003e\n\u003ccontent\u003eEala vs. Linette | Round of 32 Miami Open presented by Itaú 2026 | WTA Official\n\nGo back to the home page\n\n-\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eMATCH NOTES\u003c/title\u003e\n\u003curl\u003ehttps://wtafiles.wtatennis.com/pdf/matchnotes/2026/902_5.pdf\u003c/url\u003e\n\u003ccontent\u003e[31] Alexandra Eala (PHI #29) vs. Magda Linette (POL #50) Linette leads 2-1 Eala:\n\n• Making 4th main draw appearance at Miami \n• Last year at this event, she
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: sleep 2; curl -sS &#34;https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=YcRjqt5tF34&amp;format=json&#34; | head -c 500; echo; sleep 2; curl -sS &#34;https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=PLACEHOLDER&amp;format=json&#34; 2&gt;/dev/null | head -c 50; sleep 2; curl -sS -A &#34;Mozilla/5.0&#34; &#34;https://www.wtatennis.com/players/331006/victoria-mboko&#34; | rg -i &#34;Career High|career-high|No\.&#34; | head -20</summary>
+```bash
+sleep 2; curl -sS "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=YcRjqt5tF34&format=json" | head -c 500; echo; sleep 2; curl -sS "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=PLACEHOLDER&format=json" 2>/dev/null | head -c 50; sleep 2; curl -sS -A "Mozilla/5.0" "https://www.wtatennis.com/players/331006/victoria-mboko" | rg -i "Career High|career-high|No\." | head -20
+```
+
+```
+curl: (56) Recv failure: Connection reset by peer
+
+curl: (56) Recv failure: Connection reset by peer
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Full network access is needed for oEmbed. YouTube videos and tennis.com URLs must also be searched.
+
+Monastir will be included only if a WTA link is found. Eala’s head-to-head record before Miami was 1-2, then 2-2 after winning Miami. WTA-only links will be used where tennis.com is unavailable.
+
+Guessing tennis.com URLs for Miami, Hong Kong, and Madrid is risky. WTA-only links will be used instead of unverified tennis.com entries. One more search will verify available tennis.com URLs.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: sleep 2; curl -sS &#34;https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=YcRjqt5tF34&amp;format=json&#34;; echo; sleep 2; curl -sS &#34;https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=PLACEHOLDER&amp;format=json&#34; 2&gt;&amp;1 | head -c 80</summary>
+```bash
+sleep 2; curl -sS "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=YcRjqt5tF34&format=json"; echo; sleep 2; curl -sS "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=PLACEHOLDER&format=json" 2>&1 | head -c 80
+```
+
+```
+{"title":"Alexandra Eala vs. Elise Mertens | 2026 Bad Homburg Round 1 | WTA Match Highlights","author_name":"WTA","author_url":"https://www.youtube.com/@WTA","type":"video","height":113,"width":200,"version":"1.0","provider_name":"YouTube","provider_url":"https://www.youtube.com/","thumbnail_height":360,"thumbnail_width":480,"thumbnail_url":"https://i.ytimg.com/vi/YcRjqt5tF34/hqdefault.jpg","html":"\u003ciframe width=\u0022200\u0022 height=\u0022113\u0022 src=\u0022https://www.youtube.com/embed/YcRjqt5tF34?feature=oembed\u0022 frameborder=\u00220\u0022 allow=\u0022accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\u0022 referrerpolicy=\u0022strict-origin-when-cross-origin\u0022 allowfullscreen title=\u0022Alexandra Eala vs. Elise Mertens | 2026 Bad Homburg Round 1 | WTA Match Highlights\u0022\u003e\u003c/iframe\u003e"}
+Bad Request
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "YouTube WTA Match Highlights Eala Mboko Hong Kong OR Eala Vekic Berlin OR Eala Linette Miami OR Eala Pavlyuchenkova Madrid"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Eala knocks out Queen's champion Vekic in Berlin first round](https://www.wtatennis.com/videos/4520796/eala-knocks-out-queens-champion-vekic-in-berlin-first-round)\n2. [Mboko escapes Eala from 4-1 down in third set to make Hong Kong quarters](https://www.wtatennis.com/videos/4393448/mboko-escapes-eala-from-4-1-down-in-third-set-to-make-hong-kong-quarters)\n\nSynthesis:\nYou can find official WTA match highlights for these Alexandra Eala matches on the WTA YouTube channel and the WTA website [1][2][3][4]. The highlights include:\n\nVictoria Mboko vs. Alexandra Eala at the 2025 Hong Kong Open [5][6][7]\nDonna Vekic vs. Alexandra Eala at the 2026 Berlin Tennis Open [8][2]\nMagda Linette vs. Alexandra Eala at the 2025 Miami Open [9]\nAnastasia Pavlyuchenkova vs. Alexandra Eala at the 2026 Madrid Open [3][10]\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala knocks out Queen's champion Vekic in Berlin first round\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/videos/4520796/eala-knocks-out-queens-champion-vekic-in-berlin-first-round\u003c/url\u003e\n\u003ccontent\u003eEala knocks out Queen's champion Vekic in Berlin first round\n...\nEala knocks out Queen's champion Vekic in Berlin first round\n...\n[\n![WTA_Web_Quick-Links_Tiles-Video_288x288](https://photoresources.wtatennis.com/photo-resources/2025/07/24/530dc648-a1be-4e05-b3d3-448af7a569b6/WTA_Web_Quick-Links_Tiles-Video_288x288.png?width=142\u0026height=142)\n...\nHighlights\n](/videos/highlights)\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eMboko escapes Eala from 4-1 down in third set to make Hong Kong quarters\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/videos/4393448/mboko-escapes-eala-from-4-1-down-in-third-set-to-make-hong-kong-quarters\u003c/url\u003e\n\u003ccontent\u003eMboko escapes Eala from 4-1 down in third set to make Hong Kong quarters\n\nGo
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I need to extract YouTube video IDs from the WTA videos.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "site:youtube.com WTA \"Mboko\" \"Eala\" Hong Kong Match Highlights"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Victoria Mboko vs Leylah Fernandez | WTA Strasbourg 2026 Quarter-Final | Preview \u0026 Prediction](https://www.youtube.com/watch?v=QMNfH_zlsEA)\n\nSynthesis:\nVictoria Mboko and Alexandra Eala played in the round of 16 at the 2025 WTA Hong Kong Open [1][2]. You can find highlights of this match by searching for the official WTA YouTube channel or tennis highlight aggregators using the keywords Victoria Mboko vs Alexandra Eala Hong Kong 2025 highlights [1][3][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eVictoria Mboko vs Leylah Fernandez | WTA Strasbourg 2026 Quarter-Final | Preview \u0026 Prediction\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=QMNfH_zlsEA\u003c/url\u003e\n\u003ccontent\u003eAll right. So, Andreescu against Leylah, it was a match you highlighted. In fact, I wasn't aware that they were about to clash in Strasbourg.\n...\nYes, so you mentioned that they did face each other um Hong Kong, yeah. And that was yeah, last year in Hong Kong.\n...\n\u003e\u003e yeah. I think she beat Leylah did she beat Eala on route, right?\n...\n\u003e\u003e obviously a bit different now, and yeah, and maybe I agree that it probably favors Fernandez this time because I think Fernandez as well she hadn't cuz she hadn't had been having a great year to start off, but then since clay she's picked up a few wins and seems to be you know, you know, building up a bit of momentum again and obviously here in Strasbourg probably feels a bit of a an opportunity building and certainly she's going to be fired up for this match against Victoria.\n...\npretty competitive as well\n...\nsuper close and probably\n...\nconditions that might well have favored and Boco slightly especially in terms of hard courts. I mean Leylah's great on the hard courts,\n...\nadvantage that I\n...\nshe has on\n...\nnatural surfaces will claim particular sort of goes away. Uh but the other thing wit
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "site:youtube.com WTA \"Eala\" \"Vekic\" Berlin Match Highlights 2026"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Alex Eala bests Donna Vekic in Berlin Tennis Open first round - YouTube](https://www.youtube.com/shorts/BvMGEpvrRv4)\n2. [Alex Eala vs. Donna Vekic - Preview - Berlin Open 2026](https://www.youtube.com/watch?v=clp_i5rvMtY)\n3. [SHOCKING! Alex Eala STUNS Donna Vekic at Berlin Open — Tennis World Left SPEECHLESS! - YouTube](https://www.youtube.com/watch?v=KReutfm51nA)\n\nSynthesis:\nAlex Eala and Donna Vekic faced each other in the first round of the 2026 Berlin Open [1][2][3]. Although match previews noted Vekic was in strong form following her run at the Queen's Club tournament [4], Eala defeated Vekic in the opening round of the Berlin event [1][5]. Match highlights of their encounter are available on various tennis coverage channels [6][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala bests Donna Vekic in Berlin Tennis Open first round - YouTube\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/shorts/BvMGEpvrRv4\u003c/url\u003e\n\u003ccontent\u003eAlex Eala bests Donna Vekic in Berlin Tennis Open first round - YouTube\n\nAlex Eala bests Donna Vekic in Berlin Tennis Open first round - YouTube\n[](https://www.youtube.com/)[](https://www.youtube.com/)\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](https://www.youtube.com/t/contact_us/)[Creators](https://www.youtube.com/creators/)[Advertise](https://www.youtube.com/ads/)[Developers](https://developers.google.com/youtube)[Terms](https://www.youtube.com/t/terms)[Privacy](https://www.youtube.com/t/privacy)[Policy \u0026 Safety](https://www.youtube.com/about/policies/)[How YouTube works](https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen\u0026utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_content=txt\u0026u=https://www.youtube.com/howyoutubeworks?utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_campaign
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "tennis.com matches eala mboko OR eala mertens madrid OR eala linette miami-open OR monastir mertens eala"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Mertens drops only three games vs. Eala; will next face Pliskova in Madrid](https://www.wtatennis.com/news/4492740/mertens-cruises-past-eala-will-face-pliskova-in-madrid)\n2. [Elise Mertens vs. Alexandra Eala 24.04.2026 - Mutua Madrid Open - Madrid | TennisLive.com](https://www.tennislive.net/wta/match/elise-mertens-VS-alexandra-eala/mutua-madrid-open-madrid-2026/)\n3. [Eala vs. Mertens | Round of 32 Jasmin Open Monastir 2023 | WTA Official](https://www.wtatennis.com/tournaments/2072/monastir/2023/scores/LS031)\n4. [Alex Eala suffers second round defeat to Elise Mertens at Mutua Madrid Open - ESPN](https://www.espn.com/tennis/story/_/id/48579925/alex-eala-suffers-second-round-defeat-elise-mertens-mutua-madrid-open)\n5. [Elise Mertens 2 - 0 Alexandra Eala  (04/24) - Match Report](https://www.365scores.com/tennis/match/madrid-open-442/alexandra-eala-elise-mertens-24666-68734-442)\n\nSynthesis:\nElise Mertens and Alexandra Eala have faced each other twice on the WTA Tour, with Mertens winning both meetings [1][2]. Mertens defeated Eala 7-5, 6-0 at the 2023 Jasmin Open in Monastir [3][2]. Most recently, Mertens defeated Eala 6-2, 6-1 in the second round of the 2026 Mutua Madrid Open on April 24, 2026 [4][2][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eMertens drops only three games vs. Eala; will next face Pliskova in Madrid\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4492740/mertens-cruises-past-eala-will-face-pliskova-in-madrid\u003c/url\u003e\n\u003ccontent\u003eMertens drops only three games vs. Eala; will next face Pliskova in Madrid\n...\n# Mertens drops only three games vs. Eala; will next face Pliskova in Madrid\n...\nElise Mertens defeated Alexandra Eala in straight sets at the Mutua Madrid Open, setting up a third-round showdown with Karolina Pliskova. Mertens dominated the match, breaking Eala multiple times and winning 6-2, 6-1. Pliskova also ad
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Mertens' H2H against Monastir and Madrid appears correct. The Bad Homburg match is dated June, after Madrid in April, so it belongs in the H2H record.
+
+Eala's score against Monastir is 5-7, 0-6. The Bad Homburg match should be included as the third H2H meeting, bringing the record to 3-0. The tennis.com URL uses Engel & Volkers branding, while the user's paste shows Solarwatt for 2026.
+
+WTA and tennis.com will both be used where available. For Hong Kong matches, WTA alone suffices since tennis.com lacks exact URLs. Existing tennis.com links for Auckland Linette and Berlin Vekić remain. A HEAD check via curl will verify the Miami Linette URL.
+
+Auckland's Vekić embeds may need to move from Best Performances to H2H. The video clips must be checked to confirm they are against Vekić rather than Linette or others. Berlin currently has no Vekić embeds under its tournament block.
+
+Dubai's video vToI4CcaOo8 is fine if it is against Cirstea rather than an H2H opponent. Paolini and Gauff are H2H matches and should be moved. The oembed endpoint will be queried to identify which match each Auckland video represents. Mboko's YouTube search will also be refined.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: sleep 2; for id in 6j0r-o9cwrw gQZqBwfpXro YcRjqt5tF34; do echo &#34;=== $id ===&#34;; curl -sS &#34;https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&amp;format=json&#34; | python3 -c &#34;import sys,json; d=json.load(sys.stdin); print(d.get(&#39;author_name&#39;),&#39;|&#39;,d.get(&#39;title&#39;))&#34;; sleep 2; done
+# try find Mboko video via yt search page is hard; check common WTA video page patterns
+sleep 2; curl -sS -L -A &#34;Mozilla/5.0&#34; &#34;https://www.wtatennis.com/videos/4393448/mboko-escapes-eala-from-4-1-down-in-third-set-to-make-hong-kong-quarters&#34; | rg -o &#39;youtube.com/(embed|watch\?v=)[A-Za-z0-9_-]+|youtu\.be/[A-Za-z0-9_-]+|&#34;videoId&#34;:&#34;[^&#34;]+&#34;&#39; | head -20
+sleep 2; curl -sS -L -A &#34;Mozilla/5.0&#34; &#34;https://www.wtatennis.com/videos/4520796/eala-knocks-out-queens-champion-vekic-in-berlin-first-round&#34; | rg -o &#39;youtube.com/(embed|watch\?v=)[A-Za-z0-9_-]+|youtu\.be/[A-Za-z0-9_-]+|&#34;videoId&#34;:&#34;[^&#34;]+&#34;&#39; | head -20
+</summary>
+```bash
+sleep 2; for id in 6j0r-o9cwrw gQZqBwfpXro YcRjqt5tF34; do echo "=== $id ==="; curl -sS "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('author_name'),'|',d.get('title'))"; sleep 2; done
+# try find Mboko video via yt search page is hard; check common WTA video page patterns
+sleep 2; curl -sS -L -A "Mozilla/5.0" "https://www.wtatennis.com/videos/4393448/mboko-escapes-eala-from-4-1-down-in-third-set-to-make-hong-kong-quarters" | rg -o 'youtube.com/(embed|watch\?v=)[A-Za-z0-9_-]+|youtu\.be/[A-Za-z0-9_-]+|"videoId":"[^"]+"' | head -20
+sleep 2; curl -sS -L -A "Mozilla/5.0" "https://www.wtatennis.com/videos/4520796/eala-knocks-out-queens-champion-vekic-in-berlin-first-round" | rg -o 'youtube.com/(embed|watch\?v=)[A-Za-z0-9_-]+|youtu\.be/[A-Za-z0-9_-]+|"videoId":"[^"]+"' | head -20
+
+```
+
+```
+=== 6j0r-o9cwrw ===
+WTA | Alexandra Eala vs. Magda Linette | 2026 Auckland Quarterfinals | WTA Match Highlights
+=== gQZqBwfpXro ===
+WTA | Alexandra Eala vs. Xinyu Wang | 2026 Auckland Semifinals | WTA Match Highlights
+=== YcRjqt5tF34 ===
+WTA | Alexandra Eala vs. Elise Mertens | 2026 Bad Homburg Round 1 | WTA Match Highlights
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The Auckland Linette video must be moved to Linette's H2H when added.
+
+Xinyu Wang remains in Best Performances since her career high was around No. 32. The WTA video page scrape failed, leaving video gaps for Mboko, Vekić, Pavlyuchenkova, and Madrid Mertens. I will search YouTube for exact WTA titles to find the missing IDs.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "\"Victoria Mboko vs. Alexandra Eala\" OR \"Alexandra Eala vs. Victoria Mboko\" \"WTA Match Highlights\" youtube"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Eala vs. Mboko | Round of 16 Prudential Hong Kong Tennis Open 2025 | WTA Official](https://www.wtatennis.com/tournaments/1074/hong-kong/2025/scores/LS013)\n2. [Victoria Mboko conquers Eala in the 2nd round to set up a battle vs Kalinskaya. HIGHLIGHTS - HONG KONG RESULTS - Tennis Tonic - News, Predictions, H2H, Live Scores, stats](https://tennistonic.com/tennis-news/933486/victoria-mboko-conquers-eala-in-the-2nd-round-to-set-up-a-battle-vs-kalinskaya-highlights-hong-kong-results/)\n3. [Mboko pulls off comeback against bubble tea partner Eala in Hong Kong](https://www.wtatennis.com/news/4393561/mboko-pulls-off-comeback-against-bubble-tea-partner-eala-in-hong-kong)\n4. [HIGHLIGHTS: Victoria Mboko bounces back to top Alexandra Eala | 2025 Hong Kong 2R | Tennis.com](https://www.tennis.com/news/videos/highlights-victoria-mboko-bounces-back-to-top-alexandra-eala-2025-hong-kong-2r)\n\nSynthesis:\nYou can watch the match highlights of Victoria Mboko versus Alexandra Eala from the 2025 Prudential Hong Kong Tennis Open on the official WTA website or the WTA YouTube channel [1][2]. Victoria Mboko won the second-round encounter with a score of 3-6, 6-3, 6-4 [3][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala vs. Mboko | Round of 16 Prudential Hong Kong Tennis Open 2025 | WTA Official\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/tournaments/1074/hong-kong/2025/scores/LS013\u003c/url\u003e\n\u003ccontent\u003eEala vs. Mboko | Round of 16 Prudential Hong Kong Tennis Open 2025 | WTA Official\n\nGo back to the home page\n\n-\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eVictoria Mboko conquers Eala in the 2nd round to set up a battle vs Kalinskaya. HIGHLIGHTS - HONG KONG RESULTS - Tennis Tonic - News, Predictions, H2H, Live Scores, stats\u003c/title\u003e\n\u003curl\u003ehttps://tennistonic.com/tennis-news/933486/victoria-mboko-con
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "\"Donna Vekic\" Eala \"WTA Match Highlights\" OR \"Magda Linette\" Eala Miami OR Nottingham youtube.com/watch"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Donna Vekic vs. Alexandra Eala | 2026 Berlin Round 1 | WTA Match Highlights | Spot Sports](https://www.spotsports.com/videos/e7967256db)\n2. [Stream Alexandra Eala - Donna Vekic - die Highlights | WTA Berlin online bei WOW.](https://www.wowtv.de/streamen/alexandra-eala-donna-vekic-die-highlights--wta-berlin/CB13554966)\n3. [Video : Alexandra Eala defeats Donna Vekic at Berlin 2026 – Round 1 • TennisTemple](https://en.tennistemple.com/video/alexandra-eala-defeats-donna-vekic-at-berlin-2026/OYggE)\n4. [BLOCKBUSTER Day 3 in Miami featuring Eala, Andreeva, Stephens and more | WTA Match Highlights](https://www.youtube.com/watch?v=avqOQD0ubmc)\n\nSynthesis:\nHighlights for the 2026 Berlin Open match between Alexandra Eala and Donna Vekic can be found on the official WTA YouTube channel [1][2]. In this first-round match, Eala defeated Vekic in straight sets, 7-5, 6-4 [3][4]. There is no official record of a match between these two players in Miami or Nottingham; Eala's notable Miami appearance included a match against Laura Siegemund [5], while Magda Linette also competed in the Miami tournament [6][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eDonna Vekic vs. Alexandra Eala | 2026 Berlin Round 1 | WTA Match Highlights | Spot Sports\u003c/title\u003e\n\u003curl\u003ehttps://www.spotsports.com/videos/e7967256db\u003c/url\u003e\n\u003ccontent\u003eDonna Vekic vs. Alexandra Eala | 2026 Berlin Round 1 | WTA Match Highlights | Spot Sports\n\nVideo\n\nDonna Vekic vs. Alexandra Eala | 2026 Berlin Round 1 | WTA Match Highlights\n\n5:09\n\n5.4K\n\nFollow\n\nWatch in the app\n\nPerson context\n\n## Follow the athletes from this clip.\n\nOpen athlete profiles or related sport coverage without starting a new search.\n\n### Mentioned in this video\n\nDVDonna Vekic AEAlexandra Eala\n\nWatch the Match Highlights from Donna Vekic vs. Alexandra Eala at the Berlin Tennis Open.\n\n.youtube.com/subscr
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+H2H blocks will be added without new YouTube embeds where video IDs are unverified. The Mertens Bad Homburg and Linette Auckland matches are exceptions.
+
+Flagged video gaps remain. The Linette Abu Dhabi 2024 match will be included despite a difficult URL search. All three Mertens Bad Homburg sets will be added. Donna Vekić will use the accented spelling. The Other Top 20 section is being sorted alphabetically by last name.
+
+The Other Top 20 list is now fully alphabetized. Linette, Mboko, Mertens, Pavlyuchenkova, and Vekić were inserted between their respective neighbors. A blank line was added before Muchova to fix a formatting gap. Linette's 2026 Miami R32 win over Muchova will be listed first.
+
+Linette's 2026 Auckland quarterfinal win will use embed 6j0r-o9cwrw. Her 2025 Nottingham round-of-32 loss is also confirmed. The 2024 Abu Dhabi match still needs a verified WTA URL. A HEAD request will check the tennis.com Miami Linette URL.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: sleep 2
+# spot-check candidate tennis.com URLs
+for u in \
+  &#34;https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-m-linette-2026-03-21&#34; \
+  &#34;https://www.tennis.com/tournaments/lexus-nottingham-open/matches/m-linette-vs-a-eala-2025-06-17&#34; \
+  &#34;https://www.tennis.com/tournaments/prudential-hong-kong-tennis-open/matches/v-mboko-vs-a-eala-2025-10-30&#34; \
+  &#34;https://www.tennis.com/tournaments/mutua-madrid-open/matches/e-mertens-vs-a-eala-2026-04-24&#34; \
+  &#34;https://www.tennis.com/tournaments/bad-homburg-open-presented-by-engel-volkers/matches/a-eala-vs-e-mertens-2026-06-22&#34;
+ do
+  code=$(curl -sS -o /dev/null -w &#34;%{http_code}&#34; -L -A &#34;Mozilla/5.0&#34; &#34;$u&#34;)
+  echo &#34;$code $u&#34;
+  sleep 2
+done
+</summary>
+```bash
+sleep 2
+# spot-check candidate tennis.com URLs
+for u in \
+  "https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-m-linette-2026-03-21" \
+  "https://www.tennis.com/tournaments/lexus-nottingham-open/matches/m-linette-vs-a-eala-2025-06-17" \
+  "https://www.tennis.com/tournaments/prudential-hong-kong-tennis-open/matches/v-mboko-vs-a-eala-2025-10-30" \
+  "https://www.tennis.com/tournaments/mutua-madrid-open/matches/e-mertens-vs-a-eala-2026-04-24" \
+  "https://www.tennis.com/tournaments/bad-homburg-open-presented-by-engel-volkers/matches/a-eala-vs-e-mertens-2026-06-22"
+ do
+  code=$(curl -sS -o /dev/null -w "%{http_code}" -L -A "Mozilla/5.0" "$u")
+  echo "$code $u"
+  sleep 2
+done
+
+```
+
+```
+200 https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-m-linette-2026-03-21
+200 https://www.tennis.com/tournaments/lexus-nottingham-open/matches/m-linette-vs-a-eala-2025-06-17
+200 https://www.tennis.com/tournaments/prudential-hong-kong-tennis-open/matches/v-mboko-vs-a-eala-2025-10-30
+200 https://www.tennis.com/tournaments/mutua-madrid-open/matches/e-mertens-vs-a-eala-2026-04-24
+200 https://www.tennis.com/tournaments/bad-homburg-open-presented-by-engel-volkers/matches/a-eala-vs-e-mertens-2026-06-22
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Linette Eala Abu Dhabi 2024 wtatennis.com scores LS"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [WTA Abu Open: Linette beats wildcard Eala - Tennis Majors](https://www.tennismajors.com/wta-tour-news/wta-abu-open-linette-beats-wildcard-eala-to-reach-second-round-741719.html)\n2. [Alexandra Eala - Magda Linette: Meeting protocol 06-02-2024](https://escore.com/gr/en/game/alexandra-eala-magda-linette/73869/summary)\n3. [Magda Linette def. Alexandra Eala, 2024 Abu Dhabi Third Round | TennisDB](https://tennis-db.com/wta/matches/sackmann_wta:6034c79b3e894fde3b6cbb82f96b0a8fbebd9a227dd5a1aa5ef76c4f97c2b430/magda-linette-vs-alexandra-eala)\n4. [Eala vs. Linette | Round of 32 Mubadala Abu Dhabi Open 2024 | WTA Official](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2024/scores/LS029)\n5. [Mubadala Abu Dhabi Open 2024 Scores | Latest Scores \u0026 Live Updates – WTA Official](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2024/scores)\n\nSynthesis:\nMagda Linette defeated Alexandra Eala in the first round of the 2024 Mubadala Abu Dhabi Open on February 6, 2024 [1][2]. The final score was 7-6(4), 6-1 [1][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eWTA Abu Open: Linette beats wildcard Eala - Tennis Majors\u003c/title\u003e\n\u003curl\u003ehttps://www.tennismajors.com/wta-tour-news/wta-abu-open-linette-beats-wildcard-eala-to-reach-second-round-741719.html\u003c/url\u003e\n\u003ccontent\u003eWTA Abu Open: Linette beats wildcard Eala - Tennis Majors\n...\n# WTA Abu Dhabi Open: Linette beats wildcard Eala to end four-match losing streak\n...\nMagda Linette defeated Alexandra Eala 7-6 (4), 6-1 on Tuesday. She’ll play Brazilian Beatriz Haddad Maia, the No 6 seed, in the next round\n...\nTennis Majors February 6, 2024\n...\nMubadala Abu Dhabi Open 2024 Women's Singles •Third round • Completed\n...\nPole Magda Linette advanced to the second round of the Mubadala Abu Dhabi Open by defeating Filipino wildcard Alexandra Eala 7-6 (4), 6-1 at the International Tennis Centre, Zayed
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Need to pull H2H data from tennis.com for Pavlyuchenkova's Madrid match, Linette's Abu Dhabi match, and the Monastir tournament.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: sleep 2
+for u in \
+  &#34;https://www.tennis.com/tournaments/mutua-madrid-open/matches/a-eala-vs-a-pavlyuchenkova-2026-04-22&#34; \
+  &#34;https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/m-linette-vs-a-eala-2024-02-06&#34; \
+  &#34;https://www.tennis.com/tournaments/jasmin-open-monastir/matches/e-mertens-vs-a-eala-2023-10-17&#34; \
+  &#34;https://www.tennis.com/tournaments/asb-classic/matches/d-vekic-vs-a-eala-2026-01-06&#34;
+ do
+  code=$(curl -sS -o /dev/null -w &#34;%{http_code}&#34; -L -A &#34;Mozilla/5.0&#34; &#34;$u&#34;)
+  echo &#34;$code $u&#34;
+  sleep 2
+done
+</summary>
+```bash
+sleep 2
+for u in \
+  "https://www.tennis.com/tournaments/mutua-madrid-open/matches/a-eala-vs-a-pavlyuchenkova-2026-04-22" \
+  "https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/m-linette-vs-a-eala-2024-02-06" \
+  "https://www.tennis.com/tournaments/jasmin-open-monastir/matches/e-mertens-vs-a-eala-2023-10-17" \
+  "https://www.tennis.com/tournaments/asb-classic/matches/d-vekic-vs-a-eala-2026-01-06"
+ do
+  code=$(curl -sS -o /dev/null -w "%{http_code}" -L -A "Mozilla/5.0" "$u")
+  echo "$code $u"
+  sleep 2
+done
+
+```
+
+```
+200 https://www.tennis.com/tournaments/mutua-madrid-open/matches/a-eala-vs-a-pavlyuchenkova-2026-04-22
+200 https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/m-linette-vs-a-eala-2024-02-06
+200 https://www.tennis.com/tournaments/jasmin-open-monastir/matches/e-mertens-vs-a-eala-2023-10-17
+200 https://www.tennis.com/tournaments/asb-classic/matches/d-vekic-vs-a-eala-2026-01-06
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+tennis.com may return 200 status codes without providing valid match pages, so soft 404s are a concern.
+
+WTA primary data is sufficient. Madrid Mertens tennis.com already returns 200. Donna Vekić's WTA profile is available at player 318516. TennisLive shows Mertens won Monastir and Madrid against Kostyuk. The plan is to bump lastmod. Move Linette Auckland from Best Performances to H2H. Insert new H2H blocks alphabetically. Update reference.md. Fix Kostyuk's blank line.
+
+Cîrstea and Yastremska are excluded because neither is a Top 20 career high nor a grand slam winner. The Other Top 20 section will receive a large StrReplace edit. The lastmod timestamp will be set to 2026-08-04T16:40:00Z.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Adding five missing Other Top 20 H2H blocks; moving Linette Auckland embed into H2H.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Adding Pavlyuchenkova and Vekić H2H blocks.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying header order and confirming Zheng and Paolini remain correctly placed.
+
+Confirmed all top 20 and grand slam winners are accounted for. Zheng and Paolini correctly appear under Other Top 20. Now verifying alphabetical order.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "^### "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "^### ",
+  "topFiles": [
+    {
+      "matchCount": 28,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 28
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: # quick sanity: Linette embed only once; Mertens video once
+rg -n &#34;6j0r-o9cwrw|YcRjqt5tF34|### Magda Linette|### Victoria Mboko|### Elise Mertens|### Anastasia Pavlyuchenkova|### Donna Vek&#34; content/english/blog/alex-eala-pro-career-tracker.md
+</summary>
+```bash
+# quick sanity: Linette embed only once; Mertens video once
+rg -n "6j0r-o9cwrw|YcRjqt5tF34|### Magda Linette|### Victoria Mboko|### Elise Mertens|### Anastasia Pavlyuchenkova|### Donna Vek" content/english/blog/alex-eala-pro-career-tracker.md
+
+```
+
+```
+615:### Magda Linette
+626:{{< youtube 6j0r-o9cwrw >}}
+633:### Victoria Mboko
+645:### Elise Mertens
+655:{{< youtube YcRjqt5tF34 >}}
+696:### Anastasia Pavlyuchenkova
+764:### Donna Vekić
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The alphabetical order appears correct.
+
+YouTube embeds are missing for Mboko, Vekić, Pavlyuchenkova, Mertens, and Linette. Cîrstea at No. 21 was excluded because she is outside the Top 20. Zheng and Paolini correctly remain Other Top 20 without slam titles. A session close is needed after editing files.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+H2H audit vs your WTA matches dump: **Grand Slam Champions already complete**. Gap was **Other Top 20** — five career-high top-20 opponents with real meetings, no `###` blocks.
+
+### Added (Other Top 20, A–Z by last name)
+| Opponent | Career high | Meetings logged |
+| --- | --- | --- |
+| **Magda Linette** | No. 19 | Miami 2026 W, Auckland 2026 W, Nottingham 2025 L, Abu Dhabi 2024 L |
+| **Victoria Mboko** | No. 9 | Hong Kong 2025 L |
+| **Elise Mertens** | No. 12 | Bad Homburg 2026 L, Madrid 2026 L, Monastir 2023 L |
+| **Anastasia Pavlyuchenkova** | No. 11 | Madrid 2026 W |
+| **Donna Vekić** | No. 17 | Berlin 2026 W, Auckland 2026 W |
+
+### Also
+- Moved Auckland Linette highlights (`6j0r-o9cwrw`) into Linette H2H (H2H wins over Best Performances)
+- Added Bad Homburg Mertens WTA embed (`YcRjqt5tF34`)
+- Bumped `lastmod`; updated `reference.md` IDs (fixed Zheng ID note)
+
+### Left alone (correct)
+- **Zheng / Paolini** stay Other Top 20 — no Slam *singles* titles
+- **Noskova** stays Grand Slam Champions — Wimbledon 2026 confirmed
+- **Sorana Cîrstea** (career high No. 21) — outside Top 20 bar
+
+### Unverified gaps
+Official YouTube IDs not locked for: Mboko Hong Kong, both Vekić wins, Pavlyuchenkova Madrid, Mertens Madrid/Monastir, Linette Miami/Nottingham/Abu Dhabi. Match lines + score links are in; embeds can land next pass.
+
+## Session close
+- Fixed: Added five missing Other Top 20 H2H blocks from WTA match list; deduped Linette Auckland embed.
+- Encode: none
+- Open: YouTube gaps on new H2H meetings listed above

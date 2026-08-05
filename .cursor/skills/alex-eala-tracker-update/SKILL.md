@@ -174,6 +174,7 @@ Every **result line** in **Grand Slam Main Draw Results**, **Best Performances**
 - **Spelling:** copy from the opponent's WTA profile. Keep diacritics when WTA uses them (`Donna Vekić`, `Sorana Cîrstea`, `Zeynep Sönmez`). Normalize `Świątek` to `Iga Swiatek` for consistency with her `###` block.
 - **H2H `###` headers** and **Matches to Watch Out For** links already use full names - do not shorten those either.
 - **Prose** (intro notes, milestone bullets) may use surname alone when it reads naturally (`Swiatek on Centre Court`) - result lines never do.
+- **In-page H2H links (singles only):** In **Grand Slam Main Draw Results → Singles** and **Best Performances → Singles**, when an opponent already has a `###` block under Grand Slam Champions or Other Top 20, wrap their full name as `[First Last](#hugo-anchor)` on result lines and milestone bullets that use the full name. Anchor = Hugo heading id (lowercase, spaces to `-`, keep diacritics: `Donna Vekić` → `#donna-vekić`). Do **not** link doubles pairs, surname-only prose, or opponents without an H2H block. When adding a new H2H section, backfill links on existing singles lines for that name.
 
 ### Step 4 - Grand Slam results
 
@@ -258,6 +259,7 @@ Same `VIDEO_ID` must not also appear in an H2H section (H2H wins).
 - Exit-round tournament links point to the deepest round played
 - Scores list Eala's games first in every set and match tiebreak
 - Opponent names on result lines use **full names** (singles and doubles pairs) - see [Opponent naming rules](#opponent-naming-rules)
+- Singles result lines (and full-name milestone bullets) link to in-page H2H anchors when a `###` block exists; doubles and no-H2H opponents stay plain text
 - Tournament names are **brand-free** and include `(WTA 125|250|500|1000)` on every WTA tour line; Grand Slams use the four major names only
 - H2H match lines use brand-free tournament names
 - Every H2H `###` block in **Grand Slam Champions** and **Other Top 20** has **Career High Singles** after the H2H link (WTA-verified)

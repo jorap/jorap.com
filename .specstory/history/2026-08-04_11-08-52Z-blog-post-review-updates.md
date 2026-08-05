@@ -3546,3 +3546,1676 @@ Also checking streamlining-games-and-sports and other draft files missing the __
 _**Agent (auto-smart)**_
 
 Pulling exact open/close text for all drafts, including non-`__` drafts.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt;&#39;PY&#39;
+import re, json
+from pathlib import Path
+ROOT=Path(&#39;content/english/blog&#39;)
+SKIP={
+  &#39;__interesting-facts-about-jorap.md&#39;,
+  &#39;__modified-atk-recipe-style-guide-rules.md&#39;,
+  &#39;__blog-template.md&#39;,
+  &#39;__how-to-create-a-blog-template.md&#39;,  # pointer stub, not a real post
+}
+
+def get_drafts():
+    out=[]
+    for p in sorted(ROOT.glob(&#39;*.md&#39;)):
+        if p.name==&#39;_index.md&#39;: continue
+        text=p.read_text()
+        if not text.startswith(&#39;---&#39;): continue
+        fm,body=text.split(&#39;---&#39;,2)[1], text.split(&#39;---&#39;,2)[2]
+        is_draft = p.name.startswith(&#39;__&#39;) or bool(re.search(r&#39;^draft:\s*true\b&#39;, fm, re.M))
+        if not is_draft: continue
+        if p.name in SKIP: continue
+        # skip live-looking without draft if not __
+        out.append(p)
+    return out
+
+def blocks(body):
+    out=[]
+    for b in re.split(r&#39;\n\s*\n&#39;, body.strip()):
+        b=b.strip()
+        if not b or b==&#39;---&#39;: continue
+        if re.match(r&#39;^#+\s&#39;, b) and &#39;\n&#39; not in b: continue
+        # skip HTML comment-only anti-slop blocks as &#34;first&#34; - find first real prose
+        out.append(b)
+    return out
+
+def first_prose(bl):
+    for b in bl:
+        if b.startswith(&#39;&lt;!--&#39;): continue
+        if b.startswith(&#39;[ ]&#39;) or b.startswith(&#39;ANTI-SLOP&#39;): continue
+        return b
+    return bl[0] if bl else &#39;&#39;
+
+def last_prose(bl):
+    for b in reversed(bl):
+        if b.startswith(&#39;Source:&#39;) or b.startswith(&#39;Sources:&#39;): 
+            # use previous if exists
+            continue
+        if b.startswith(&#39;|&#39;) and &#39;Publication&#39; in b: continue
+        return b
+    return bl[-1] if bl else &#39;&#39;
+
+drafts=get_drafts()
+print(&#39;count&#39;, len(drafts))
+for p in drafts:
+    body=p.read_text().split(&#39;---&#39;,2)[2]
+    bl=blocks(body)
+    f=first_prose(bl)
+    # for last: prefer last non-source when source is last
+    last=bl[-1]
+    # if last is Sources/Source, use second last for edit target but report both
+    print(&#39;====&#39;, p.name)
+    print(&#39;FIRST:&#39;, repr(f[:350]))
+    print(&#39;LAST:&#39;, repr(last[:350]))
+    if last.startswith(&#39;Source&#39;) and len(bl)&gt;=2:
+        print(&#39;PENULT:&#39;, repr(bl[-2][:350]))
+    print()
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
+import re, json
+from pathlib import Path
+ROOT=Path('content/english/blog')
+SKIP={
+  '__interesting-facts-about-jorap.md',
+  '__modified-atk-recipe-style-guide-rules.md',
+  '__blog-template.md',
+  '__how-to-create-a-blog-template.md',  # pointer stub, not a real post
+}
+
+def get_drafts():
+    out=[]
+    for p in sorted(ROOT.glob('*.md')):
+        if p.name=='_index.md': continue
+        text=p.read_text()
+        if not text.startswith('---'): continue
+        fm,body=text.split('---',2)[1], text.split('---',2)[2]
+        is_draft = p.name.startswith('__') or bool(re.search(r'^draft:\s*true\b', fm, re.M))
+        if not is_draft: continue
+        if p.name in SKIP: continue
+        # skip live-looking without draft if not __
+        out.append(p)
+    return out
+
+def blocks(body):
+    out=[]
+    for b in re.split(r'\n\s*\n', body.strip()):
+        b=b.strip()
+        if not b or b=='---': continue
+        if re.match(r'^#+\s', b) and '\n' not in b: continue
+        # skip HTML comment-only anti-slop blocks as "first" - find first real prose
+        out.append(b)
+    return out
+
+def first_prose(bl):
+    for b in bl:
+        if b.startswith('<!--'): continue
+        if b.startswith('[ ]') or b.startswith('ANTI-SLOP'): continue
+        return b
+    return bl[0] if bl else ''
+
+def last_prose(bl):
+    for b in reversed(bl):
+        if b.startswith('Source:') or b.startswith('Sources:'): 
+            # use previous if exists
+            continue
+        if b.startswith('|') and 'Publication' in b: continue
+        return b
+    return bl[-1] if bl else ''
+
+drafts=get_drafts()
+print('count', len(drafts))
+for p in drafts:
+    body=p.read_text().split('---',2)[2]
+    bl=blocks(body)
+    f=first_prose(bl)
+    # for last: prefer last non-source when source is last
+    last=bl[-1]
+    # if last is Sources/Source, use second last for edit target but report both
+    print('====', p.name)
+    print('FIRST:', repr(f[:350]))
+    print('LAST:', repr(last[:350]))
+    if last.startswith('Source') and len(bl)>=2:
+        print('PENULT:', repr(bl[-2][:350]))
+    print()
+PY
+```
+
+```
+count 53
+==== __ai-contractor-problem-wordpress.md
+FIRST: 'Month one with AI on WordPress builds: thrilled. Month two: annoyed. Month three: I finally named the problem.'
+LAST: 'Step-by-step setup: [consistent AI output for WordPress builds](/blog/consistent-ai-output-wordpress-builds/).'
+
+==== __apple-strategically-late.md
+FIRST: "I don't sit through Apple keynotes. I still keep up with what they're shipping - headlines, recap threads, the two-minute clips that show up in my feed. I already own a **MacBook Pro M4** and an **11th-gen iPad**. I'm not shopping. I'm tracking a company whose hardware I use and whose stage show I mostly skip."
+LAST: "That's the trick worth naming honestly - not that Apple never innovates, but that **schedule** is often the real product."
+
+==== __build-your-own-trait-quiz.md
+FIRST: 'I love preference quizzes. Still do. (I grew up calling them personality tests. Same itch. Different word for what I actually mean now.)'
+LAST: 'The reader takeaway I want stuck in your head: **do not reuse their questions or labels.** Build yours. Own the gap you care about - for me, Urgency as a fifth preference that turns sixteen calm stacks into thirty-two under fire, with no winner between Wait and Go - and leave the clone aisle alone.'
+
+==== __canon-g3000.md
+FIRST: 'I\'ve owned enough printers to know where technology goes to disappoint adults. Cartridge printers especially - cheap hardware, expensive ink, and that specific rage when the machine reports "low cyan" while you\'re trying to print a black-and-white school form.'
+LAST: "Buy it if you'll use it often enough to justify the space and the occasional head-cleaning ritual. Otherwise, the print shop counter might still be cheaper peace of mind. Monday: if you print weekly, compare bottle math against your last cartridge bill. If you print twice a year, skip the hardware."
+
+==== __chasing-composer-2-5-locally.md
+FIRST: "I don't need Cursor the product. I need what Cursor *does* - chat that knows the 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Writing a Python script to handle all 53 drafts, applying open and close replacements across each one.
+
+Mapping out exact insertion points for gratitude and source edits. Gratitude will go after TL;DR blocks or in the first prose paragraph. Source edits will target the penultimate paragraph. To prevent failures, I will dump the full first and last paragraphs into a file and use exact strings for the edits list.
+
+The script will apply edits from a dictionary. Each file will be read to extract its current first and last lines. Templates based on those exact lines will generate the 106 replacements programmatically.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Building exact replacements from file text, then applying in one pass.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt;&#39;PY&#39;
+import re, json
+from pathlib import Path
+ROOT=Path(&#39;content/english/blog&#39;)
+SKIP={
+  &#39;__interesting-facts-about-jorap.md&#39;,
+  &#39;__modified-atk-recipe-style-guide-rules.md&#39;,
+  &#39;__blog-template.md&#39;,
+  &#39;__how-to-create-a-blog-template.md&#39;,
+}
+
+def drafts():
+    out=[]
+    for p in sorted(ROOT.glob(&#39;*.md&#39;)):
+        if p.name==&#39;_index.md&#39; or p.name in SKIP: continue
+        text=p.read_text()
+        if not text.startswith(&#39;---&#39;): continue
+        fm,body=text.split(&#39;---&#39;,2)[1], text.split(&#39;---&#39;,2)[2]
+        if p.name.startswith(&#39;__&#39;) or re.search(r&#39;^draft:\s*true\b&#39;, fm, re.M):
+            # exclude live published that aren&#39;t draft
+            if not p.name.startswith(&#39;__&#39;) and not re.search(r&#39;^draft:\s*true\b&#39;, fm, re.M):
+                continue
+            out.append((p, body))
+    return out
+
+def blocks(body):
+    out=[]
+    for b in re.split(r&#39;\n\s*\n&#39;, body.strip()):
+        b=b.strip()
+        if not b or b==&#39;---&#39;: continue
+        if re.match(r&#39;^#+\s&#39;, b) and &#39;\n&#39; not in b: continue
+        out.append(b)
+    return out
+
+def first_idx(bl):
+    for i,b in enumerate(bl):
+        if b.startswith(&#39;&lt;!--&#39;): continue
+        return i
+    return 0
+
+def close_idx(bl):
+    # prefer last non-Source block
+    for i in range(len(bl)-1, -1, -1):
+        if bl[i].startswith(&#39;Source:&#39;) or bl[i].startswith(&#39;Sources:&#39;):
+            continue
+        # skip bare &#34;More: link&#34; only if there&#39;s prior - still editable
+        return i
+    return len(bl)-1
+
+data={}
+for p, body in drafts():
+    bl=blocks(body)
+    fi, ci = first_idx(bl), close_idx(bl)
+    data[p.name]={&#39;first&#39;: bl[fi], &#39;close&#39;: bl[ci], &#39;fi&#39;: fi, &#39;ci&#39;: ci}
+Path(&#39;/tmp/draft-oc.json&#39;).write_text(json.dumps(data, indent=2, ensure_ascii=False))
+print(len(data), &#39;drafts&#39;)
+print(&#39;streamlining&#39; in data, &#39;__build&#39; in str(data.keys()))
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
+import re, json
+from pathlib import Path
+ROOT=Path('content/english/blog')
+SKIP={
+  '__interesting-facts-about-jorap.md',
+  '__modified-atk-recipe-style-guide-rules.md',
+  '__blog-template.md',
+  '__how-to-create-a-blog-template.md',
+}
+
+def drafts():
+    out=[]
+    for p in sorted(ROOT.glob('*.md')):
+        if p.name=='_index.md' or p.name in SKIP: continue
+        text=p.read_text()
+        if not text.startswith('---'): continue
+        fm,body=text.split('---',2)[1], text.split('---',2)[2]
+        if p.name.startswith('__') or re.search(r'^draft:\s*true\b', fm, re.M):
+            # exclude live published that aren't draft
+            if not p.name.startswith('__') and not re.search(r'^draft:\s*true\b', fm, re.M):
+                continue
+            out.append((p, body))
+    return out
+
+def blocks(body):
+    out=[]
+    for b in re.split(r'\n\s*\n', body.strip()):
+        b=b.strip()
+        if not b or b=='---': continue
+        if re.match(r'^#+\s', b) and '\n' not in b: continue
+        out.append(b)
+    return out
+
+def first_idx(bl):
+    for i,b in enumerate(bl):
+        if b.startswith('<!--'): continue
+        return i
+    return 0
+
+def close_idx(bl):
+    # prefer last non-Source block
+    for i in range(len(bl)-1, -1, -1):
+        if bl[i].startswith('Source:') or bl[i].startswith('Sources:'):
+            continue
+        # skip bare "More: link" only if there's prior - still editable
+        return i
+    return len(bl)-1
+
+data={}
+for p, body in drafts():
+    bl=blocks(body)
+    fi, ci = first_idx(bl), close_idx(bl)
+    data[p.name]={'first': bl[fi], 'close': bl[ci], 'fi': fi, 'ci': ci}
+Path('/tmp/draft-oc.json').write_text(json.dumps(data, indent=2, ensure_ascii=False))
+print(len(data), 'drafts')
+print('streamlining' in data, '__build' in str(data.keys()))
+PY
+```
+
+```
+53 drafts
+False True
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The 'streamlining' key did not match the data. The full name may be required.
+
+The exact key is `streamlining-games-and-sports.md`. A comprehensive edit script will be written to process all drafts by reading their JSON.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /tmp/draft-oc.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'll write a Python file containing all the replacements.
+
+I'm handcrafting open/close targets for each draft. Disclaimers and TL;DRs will be woven into their first blocks. Penultimate prose will be targeted for tip-list endings. I still need to read the rest of the JSON and locate the penultimate paragraph for local-ai.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /tmp/draft-oc.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md",
+  "pattern": "^## |^I |^That's |^For "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md",
+  "pattern": "^## |^I |^That's |^For ",
+  "topFiles": [
+    {
+      "matchCount": 13,
+      "uri": "content/english/blog/__local-ai-my-machines.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 13
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__immune-booster-supplements.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__free-vs-freedom-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__ai-contractor-problem-wordpress.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The penultimate paragraph of the free-vs-freedom draft already contains gratitude language.
+
+All drafts need edits. The open line stays untouched. The close line gets revised in free-vs-freedom, ai-contractor, and local-ai. A second paragraph is needed for tenant-not-landlord. The first prose paragraph in immune needs editing. A single Python script will handle all replacements.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Writing and applying all draft gratitude edits.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+
+ROOT = Path(&#39;content/english/blog&#39;)
+
+# (file, old, new) — open then close pairs; some files use non-first block
+edits = []
+
+def a(name, old, new):
+    edits.append((name, old, new))
+
+# --- ai contractor ---
+a(&#39;__ai-contractor-problem-wordpress.md&#39;,
+&#34;Month one with AI on WordPress builds: thrilled. Month two: annoyed. Month three: I finally named the problem.&#34;,
+&#34;Month one with AI on WordPress builds: thrilled. Month two: annoyed. Month three: I finally named the problem - glad I stuck around long enough to name it.&#34;)
+a(&#39;__ai-contractor-problem-wordpress.md&#39;,
+&#34;The hour on `helpers.php` paid for itself the first time I didn&#39;t read a whole block file to know what was inside. Consistency mattered more than raw speed - and I wasn&#39;t expecting to care that much.&#34;,
+&#34;The hour on `helpers.php` paid for itself the first time I didn&#39;t read a whole block file to know what was inside. Consistency mattered more than raw speed - glad I learned to care that much.&#34;)
+
+# --- apple late ---
+a(&#39;__apple-strategically-late.md&#39;,
+&#34;I don&#39;t sit through Apple keynotes. I still keep up with what they&#39;re shipping - headlines, recap threads, the two-minute clips that show up in my feed. I already own a **MacBook Pro M4** and an **11th-gen iPad**. I&#39;m not shopping. I&#39;m tracking a company whose hardware I use and whose stage show I mostly skip.&#34;,
+&#34;I don&#39;t sit through Apple keynotes. I still keep up with what they&#39;re shipping - headlines, recap threads, the two-minute clips that show up in my feed. Glad I already own a **MacBook Pro M4** and an **11th-gen iPad** without sitting through the show. I&#39;m not shopping. I&#39;m tracking a company whose hardware I use and whose stage show I mostly skip.&#34;)
+a(&#39;__apple-strategically-late.md&#39;,
+&#34;That&#39;s the trick worth naming honestly - not that Apple never innovates, but that **schedule** is often the real product.&#34;,
+&#34;That&#39;s the trick worth naming honestly - not that Apple never innovates, but that **schedule** is often the real product. Glad I learned to wait for the boring revision.&#34;)
+
+# --- trait quiz ---
+a(&#39;__build-your-own-trait-quiz.md&#39;,
+&#34;I love preference quizzes. Still do. (I grew up calling them personality tests. Same itch. Different word for what I actually mean now.)&#34;,
+&#34;I love preference quizzes. Still do - glad that itch never fully went away. (I grew up calling them personality tests. Same itch. Different word for what I actually mean now.)&#34;)
+a(&#39;__build-your-own-trait-quiz.md&#39;,
+&#34;The reader takeaway I want stuck in your head: **do not reuse their questions or labels.** Build yours. Own the gap you care about - for me, Urgency as a fifth preference that turns sixteen calm stacks into thirty-two under fire, with no winner between Wait and Go - and leave the clone aisle alone.&#34;,
+&#34;The reader takeaway I want stuck in your head: **do not reuse their questions or labels.** Build yours. Own the gap you care about - for me, Urgency as a fifth preference that turns sixteen calm stacks into thirty-two under fire, with no winner between Wait and Go - and leave the clone aisle alone. Glad I built one that fits the gap I actually care about.&#34;)
+
+# --- canon ---
+a(&#39;__canon-g3000.md&#39;,
+&#39;&#39;&#39;I&#39;ve owned enough printers to know where technology goes to disappoint adults. Cartridge printers especially - cheap hardware, expensive ink, and that specific rage when the machine reports &#34;low cyan&#34; while you&#39;re trying to print a black-and-white school form.&#39;&#39;&#39;,
+&#39;&#39;&#39;I&#39;ve owned enough printers to know where technology goes to disappoint adults. Cartridge printers especially - cheap hardware, expensive ink, and that specific rage when the machine reports &#34;low cyan&#34; while you&#39;re trying to print a black-and-white school form. Glad I finally switched to a tank model that stopped that ritual.&#39;&#39;&#39;)
+a(&#39;__canon-g3000.md&#39;,
+&#34;Buy it if you&#39;ll use it often enough to justify the space and the occasional head-cleaning ritual. Otherwise, the print shop counter might still be cheaper peace of mind. Monday: if you print weekly, compare bottle math against your last cartridge bill. If you print twice a year, skip the hardware.&#34;,
+&#34;Buy it if you&#39;ll use it often enough to justify the space and the occasional head-cleaning ritual. Otherwise, the print shop counter might still be cheaper peace of mind. Glad this one earned its keep for weekly prints - Monday: if you print weekly, compare bottle math against your last cartridge bill. If you print twice a year, skip the hardware.&#34;)
+
+# --- composer ---
+a(&#39;__chasing-composer-2-5-locally.md&#39;,
+&#34;I don&#39;t need Cursor the product. I need what Cursor *does* - chat that knows the repo, inline edits, an agent that reads files and shows a diff before it applies anything. And I want that loop running against a model on my MacBook Pro M4, not against a cloud bill for every sidebar question.&#34;,
+&#34;I don&#39;t need Cursor the product. I need what Cursor *does* - chat that knows the repo, inline edits, an agent that reads files and shows a diff before it applies anything. Glad I can chase that loop on my MacBook Pro M4 instead of paying a cloud bill for every sidebar question.&#34;)
+a(&#39;__chasing-composer-2-5-locally.md&#39;,
+&#34;I went into this sure that 24 GB was the constraint. It wasn&#39;t. The first blocker was a version string in About This Mac, and the thing that got me unstuck was reading one more requirements line instead of assuming the newest tool was the only one. Check the OS and framework requirements before you budget RAM. They&#39;re faster to read and they fail harder.&#34;,
+&#34;I went into this sure that 24 GB was the constraint. It wasn&#39;t. The first blocker was a version string in About This Mac, and the thing that got me unstuck was reading one more requirements line instead of assuming the newest tool was the only one. Glad that boring line was there. Check the OS and framework requirements before you budget RAM. They&#39;re faster to read and they fail harder.&#34;)
+
+# --- client pass-off ---
+a(&#39;__client-site-pass-off.md&#39;,
+&#39;&#39;&#39;&gt; **TL;DR**: Pick exactly one publish path before deposit - not &#34;we&#39;ll figure it out at launch.&#34; I hand off a one-page doc with repo URL, deploy settings, DNS, and who to call when the build fails. The goal is a site you can run without me in the loop for every comma.&#39;&#39;&#39;,
+&#39;&#39;&#39;&gt; **TL;DR**: Pick exactly one publish path before deposit - not &#34;we&#39;ll figure it out at launch.&#34; I hand off a one-page doc with repo URL, deploy settings, DNS, and who to call when the build fails. Glad when the client can run the site without me in the loop for every comma.&#39;&#39;&#39;)
+a(&#39;__client-site-pass-off.md&#39;,
+&#39;&#39;&#39;I&#39;d rather lose a job than promise a publish path I won&#39;t support. I&#39;d rather price training honestly than absorb unlimited &#34;small tweaks&#34; until I resent the client.&#39;&#39;&#39;,
+&#39;&#39;&#39;I&#39;d rather lose a job than promise a publish path I won&#39;t support. I&#39;d rather price training honestly than absorb unlimited &#34;small tweaks&#34; until I resent the client. Glad the honest path still feels like the right one.&#39;&#39;&#39;)
+
+# --- craft ---
+a(&#39;__craft-prompt-framework.md&#39;,
+&#39;&#39;&#39;&#34;Write me a blog post about productivity&#34; is a coin flip. I tried that once for a client newsletter and got three paragraphs of oatmeal with a &#34;In conclusion&#34; footer. Soft advice. No specifics. Nothing the client could send. Never again without a shape.&#39;&#39;&#39;,
+&#39;&#39;&#39;&#34;Write me a blog post about productivity&#34; is a coin flip. I tried that once for a client newsletter and got three paragraphs of oatmeal with a &#34;In conclusion&#34; footer. Soft advice. No specifics. Nothing the client could send. Glad that mess pushed me into a shape I still use.&#39;&#39;&#39;)
+a(&#39;__craft-prompt-framework.md&#39;,
+&#34;CRAFT isn&#39;t bureaucracy. It&#39;s **kindness to future-you** - and to the model.&#34;,
+&#34;CRAFT isn&#39;t bureaucracy. It&#39;s **kindness to future-you** - and to the model. Glad I wrote the shape down once.&#34;)
+
+# --- everyone communicates ---
+a(&#39;__everyone-communicates-few-connect.md&#39;,
+&#34;Flip to page 251 of John Maxwell&#39;s *Everyone Communicates, Few Connect* and you&#39;ll find a wall of names. **Jon Rapusas** is on it. Not because I ghostwrote a chapter or spoke at one of his events. I left comments on his blog when he was still drafting the book online.&#34;,
+&#34;Flip to page 251 of John Maxwell&#39;s *Everyone Communicates, Few Connect* and you&#39;ll find a wall of names. **Jon Rapusas** is on it. Not because I ghostwrote a chapter or spoke at one of his events. Glad I left comments on his blog when he was still drafting the book online.&#34;)
+a(&#39;__everyone-communicates-few-connect.md&#39;,
+&#34;That&#39;s the special thing about this copy on my shelf. It&#39;s not autographed. It&#39;s **crowdsourced** - and my name is proof I was in the room.&#34;,
+&#34;That&#39;s the special thing about this copy on my shelf. It&#39;s not autographed. It&#39;s **crowdsourced** - and my name is proof I was in the room. Glad that page still exists.&#34;)
+
+# --- free vs freedom ---
+a(&#39;__free-vs-freedom-open-source.md&#39;,
+&#39;&#39;&#39;When I got serious about web work, &#34;open source&#34; wasn&#39;t a conference sticker. It was the shelf I could afford.&#39;&#39;&#39;,
+&#39;&#39;&#39;When I got serious about web work, &#34;open source&#34; wasn&#39;t a conference sticker. It was the shelf I could afford - and I&#39;m still glad that shelf was there.&#39;&#39;&#39;)
+a(&#39;__free-vs-freedom-open-source.md&#39;,
+&#39;&#39;&#39;I pick for **freedom, ownership, and community depth**, not just &#34;is it free.&#34; The freedom was worth the months. Still is.&#39;&#39;&#39;,
+&#39;&#39;&#39;I pick for **freedom, ownership, and community depth**, not just &#34;is it free.&#34; Glad the freedom was worth the months. Still is.&#39;&#39;&#39;)
+
+# --- grade 1 ---
+a(&#39;__grade-1-better-than-kumon.md&#39;,
+&#34;I gave my son a choice: **Kumon math or Kumon reading.**&#34;,
+&#34;I gave my son a choice: **Kumon math or Kumon reading.** Glad he got to pick.&#34;)
+a(&#39;__grade-1-better-than-kumon.md&#39;,
+&#34;He&#39;s six weeks into Kumon reading and we&#39;re early on the tablet-and-printer routine. He still says math is **hard**. He also asks for the quiz sometimes. That&#39;s enough for now. Kumon for reps at the center. **Math games on the tablet, handwriting on paper he keeps** - sneak the hard part in after the win.&#34;,
+&#34;He&#39;s six weeks into Kumon reading and we&#39;re early on the tablet-and-printer routine. He still says math is **hard**. He also asks for the quiz sometimes. That&#39;s enough for now - and I&#39;m thankful for that. Kumon for reps at the center. **Math games on the tablet, handwriting on paper he keeps** - sneak the hard part in after the win.&#34;)
+
+# --- how ai helps ---
+a(&#39;__how-ai-helps-build-sites-and-content.md&#39;,
+&#34;People keep asking whether AI will replace web developers and writers. My honest answer from the last year on jorap.com: **it replaced a lot of typing, not a lot of thinking.**&#34;,
+&#34;People keep asking whether AI will replace web developers and writers. My honest answer from the last year on jorap.com: **it replaced a lot of typing, not a lot of thinking.** Glad the thinking part still needs me.&#34;)
+a(&#39;__how-ai-helps-build-sites-and-content.md&#39;,
+&#34;The multiplier is real on content and editorial loops. It&#39;s modest on architecture. The site still needs a person who knows what Thursday dinner is supposed to taste like - and which notes are worth linking before deadline week.&#34;,
+&#34;The multiplier is real on content and editorial loops. It&#39;s modest on architecture. Glad the site still needs a person who knows what Thursday dinner is supposed to taste like - and which notes are worth linking before deadline week.&#34;)
+
+# --- good habit ---
+a(&#39;__how-to-create-a-good-habit.md&#39;,
+&#34;I don&#39;t need another motivational poster about discipline. I need **systems that make the right thing the default** - especially on tired weekdays when willpower clocks out early.&#34;,
+&#34;I don&#39;t need another motivational poster about discipline. Glad I finally wanted **systems that make the right thing the default** - especially on tired weekdays when willpower clocks out early.&#34;)
+a(&#39;__how-to-create-a-good-habit.md&#39;,
+&#34;Start with one habit you&#39;d actually keep if everything else stayed messy. Fix that environment first. Character tests fail on tired Wednesdays. Design problems you can solve on a Sunday afternoon.&#34;,
+&#34;Start with one habit you&#39;d actually keep if everything else stayed messy. Fix that environment first. Character tests fail on tired Wednesdays. Design problems you can solve on a Sunday afternoon - glad that&#39;s still the frame I trust.&#34;)
+
+# --- hugo go templates ---
+a(&#39;__hugo-go-templates.md&#39;,
+&#34;Hugo builds HTML from **Go templates** - `.html` files full of `{{ }}` actions. Partials, layouts, shortcodes - same language everywhere. The docs read like a reference manual. I learned by breaking something visible, then fixing it with the theme&#39;s existing files open beside me.&#34;,
+&#34;Hugo builds HTML from **Go templates** - `.html` files full of `{{ }}` actions. Partials, layouts, shortcodes - same language everywhere. The docs read like a reference manual. Glad I learned by breaking something visible, then fixing it with the theme&#39;s existing files open beside me.&#34;)
+a(&#39;__hugo-go-templates.md&#39;,
+&#34;Most of JoRap is assembled from patterns Hugoplate already had. My edits are tweaks, not a from-scratch framework. That&#39;s the lazy path, and it held for a year.&#34;,
+&#34;Most of JoRap is assembled from patterns Hugoplate already had. My edits are tweaks, not a from-scratch framework. Glad the lazy path held for a year.&#34;)
+
+# --- page bundles ---
+a(&#39;__hugo-page-bundles.md&#39;,
+&#34;Most of my blog posts are a flat file: `extension-cord.md`, hero image in `/images/extension-cord.jpg`, done. That works until you publish something with six screenshots, a PDF handout, and a diagram that only makes sense next to that one post.&#34;,
+&#34;Most of my blog posts are a flat file: `extension-cord.md`, hero image in `/images/extension-cord.jpg`, done. Glad that stays the default. It only breaks when you publish something with six screenshots, a PDF handout, and a diagram that only makes sense next to that one post.&#34;)
+a(&#39;__hugo-page-bundles.md&#39;,
+&#34;When you migrate an old post, bundle it then. Moving six loose images into a folder takes ten minutes. Hunting them across `/static` in a year takes longer. I&#39;ve paid that tax once. Once was enough.&#34;,
+&#34;When you migrate an old post, bundle it then. Moving six loose images into a folder takes ten minutes. Hunting them across `/static` in a year takes longer. I&#39;ve paid that tax once - glad once was enough.&#34;)
+
+# --- shortcodes ---
+a(&#39;__hugo-shortcodes.md&#39;,
+&#34;**Hugo shortcodes** are mini templates you call from Markdown:&#34;,
+&#34;**Hugo shortcodes** are mini templates you call from Markdown - glad they exist for the bits I repeat:&#34;)
+a(&#39;__hugo-shortcodes.md&#39;,
+&#39;&#39;&#39;Extract what repeats. Leave one-off prose alone. And don&#39;t paste &#34;just this once&#34; - future-you will find that iframe.&#39;&#39;&#39;,
+&#39;&#39;&#39;Extract what repeats. Leave one-off prose alone. And don&#39;t paste &#34;just this once&#34; - future-you will find that iframe. Glad shortcodes catch the repeats before I do.&#39;&#39;&#39;)
+
+# --- static site gen ---
+a(&#39;__hugo-static-site-generator.md&#39;,
+&#39;&#39;&#39;A **static site generator** pre-builds HTML when you deploy - not when someone visits. No database on the server. No PHP cron jobs. No &#34;why is admin slow at 2 AM.&#34;&#39;&#39;&#39;,
+&#39;&#39;&#39;A **static site generator** pre-builds HTML when you deploy - not when someone visits. No database on the server. No PHP cron jobs. Glad I don&#39;t ask &#34;why is admin slow at 2 AM&#34; anymore.&#39;&#39;&#39;)
+a(&#39;__hugo-static-site-generator.md&#39;,
+&#34;It doesn&#39;t fit every job. When it fits, the workflow is push and forget. That&#39;s the feature I sell - including to myself.&#34;,
+&#34;It doesn&#39;t fit every job. When it fits, the workflow is push and forget. Glad that&#39;s still the feature I sell - including to myself.&#34;)
+
+# --- humanize ---
+a(&#39;__humanize-ai-articles.md&#39;,
+&#34;AI-generated articles often fail the vibe check before the fact check. Not because the model is useless - because the output is **too smooth, too even, too same-length every sentence.**&#34;,
+&#34;AI-generated articles often fail the vibe check before the fact check. Not because the model is useless - because the output is **too smooth, too even, too same-length every sentence.** Glad I learned to catch that before publish.&#34;)
+a(&#39;__humanize-ai-articles.md&#39;,
+&#34;The goal isn&#39;t to fool readers. It&#39;s to **start further down the page** so your editing time goes to substance, not untangling robot rhythm.&#34;,
+&#34;The goal isn&#39;t to fool readers. It&#39;s to **start further down the page** so your editing time goes to substance, not untangling robot rhythm. Glad that edit pass still earns its keep.&#34;)
+
+# --- bad memory ---
+a(&#39;__i-dont-have-a-bad-memory.md&#39;,
+&#34;I&#39;ve told myself I have a bad memory more times than I can count. Names at church. A tip from a video I watched the same morning. Something I nodded at in a doc, then blanked when I needed it at the keyboard.&#34;,
+&#34;I&#39;ve told myself I have a bad memory more times than I can count. Names at church. A tip from a video I watched the same morning. Something I nodded at in a doc, then blanked when I needed it at the keyboard. Glad I finally stopped treating that as a fixed trait.&#34;)
+a(&#39;__i-dont-have-a-bad-memory.md&#39;,
+&#34;I&#39;m not memorizing for sport. I&#39;m learning how learning works so the next generation in this house doesn&#39;t inherit my shrug.&#34;,
+&#34;I&#39;m not memorizing for sport. Glad I&#39;m learning how learning works so the next generation in this house doesn&#39;t inherit my shrug.&#34;)
+
+# --- immune: second prose block ---
+a(&#39;__immune-booster-supplements.md&#39;,
+&#34;Last rainy season I caught three colds in eight weeks - jeepney commute, school pickup, one kid bringing home whatever went around. I can&#39;t sterilize the city. What I can control is **sleep, food, movement, and a modest supplement stack** when baseline habits slip.&#34;,
+&#34;Last rainy season I caught three colds in eight weeks - jeepney commute, school pickup, one kid bringing home whatever went around. I can&#39;t sterilize the city. Glad I can still control **sleep, food, movement, and a modest supplement stack** when baseline habits slip.&#34;)
+a(&#39;__immune-booster-supplements.md&#39;,
+&#34;I&#39;m not optimizing for invincibility. I&#39;m stacking boring margin on boring habits - sleep, food, wash hands - and reaching for a bottle when the jeepney season wins anyway.&#34;,
+&#34;I&#39;m not optimizing for invincibility. Glad I&#39;m stacking boring margin on boring habits - sleep, food, wash hands - and reaching for a bottle when the jeepney season wins anyway.&#34;)
+
+# --- inter ---
+a(&#39;__inter-font.md&#39;,
+&#34;I didn&#39;t go looking for a font. I found **Inter** in [*Refactoring UI*](https://www.refactoringui.com/) - Adam Wathan and Steve Schoger&#39;s book on making interfaces look good without a design degree.&#34;,
+&#34;I didn&#39;t go looking for a font. Glad I found **Inter** in [*Refactoring UI*](https://www.refactoringui.com/) - Adam Wathan and Steve Schoger&#39;s book on making interfaces look good without a design degree.&#34;)
+a(&#39;__inter-font.md&#39;,
+&#34;That&#39;s where I landed - same pick since *Refactoring UI*, one family, four weights, self-hosted, back to work.&#34;,
+&#34;That&#39;s where I landed - same pick since *Refactoring UI*, one family, four weights, self-hosted, back to work. Glad I never swapped it for fashion.&#34;)
+
+# --- JTBD ---
+a(&#39;__jobs-to-be-done-framework.md&#39;,
+&#39;&#39;&#39;I&#39;ve watched teams add features because the competitor has them, because an engineer is excited, or because a persona deck said &#34;Sarah, 34, likes yoga.&#34; None of that guarantees anyone will **hire** the product when it ships.&#39;&#39;&#39;,
+&#39;&#39;&#39;I&#39;ve watched teams add features because the competitor has them, because an engineer is excited, or because a persona deck said &#34;Sarah, 34, likes yoga.&#34; None of that guarantees anyone will **hire** the product when it ships. Glad JTBD gave me a better question.&#39;&#39;&#39;)
+a(&#39;__jobs-to-be-done-framework.md&#39;,
+&#34;*What job would someone hire this for - and what would they fire instead?*&#34;,
+&#34;*What job would someone hire this for - and what would they fire instead?* Glad I still ask that before I build.&#34;)
+
+# --- jorap notes features ---
+a(&#39;__jorap-notes-features.md&#39;,
+&#34;&gt; **TL;DR**: Same Hugo site as the blog. `/notes/` is a linked garden of one-claim pages - I built the hosting stack first, and the graph, flashcards, and copy buttons grew on top once I had somewhere to put atomic notes in public. The blog is for long essays. The garden is for ideas I want to walk through and reuse.&#34;,
+&#34;&gt; **TL;DR**: Same Hugo site as the blog. `/notes/` is a linked garden of one-claim pages - glad I built the hosting stack first, and the graph, flashcards, and copy buttons grew on top once I had somewhere to put atomic notes in public. The blog is for long essays. The garden is for ideas I want to walk through and reuse.&#34;)
+a(&#39;__jorap-notes-features.md&#39;,
+&#34;If you build something similar, start with one claim per file and working wikilinks. Add shareable thoughts, the graph, flashcards, and agent export after you have twenty notes worth linking - not before.&#34;,
+&#34;If you build something similar, start with one claim per file and working wikilinks. Add shareable thoughts, the graph, flashcards, and agent export after you have twenty notes worth linking - not before. Glad the garden grew in that order.&#34;)
+
+# --- kewpie ---
+a(&#39;__kewpie-mayo.md&#39;,
+&#34;The first time someone handed me **Kewpie mayo**, I thought it was a gimmick - different bottle, cute logo, internet hype. Then I put it on a sandwich and understood why people act like this is a separate food group.&#34;,
+&#34;The first time someone handed me **Kewpie mayo**, I thought it was a gimmick - different bottle, cute logo, internet hype. Glad I put it on a sandwich anyway - then I understood why people act like this is a separate food group.&#34;)
+a(&#39;__kewpie-mayo.md&#39;,
+&#34;Hellmann&#39;s still wins for potato salad where you want background creaminess. Kewpie wins when the mayo is half the point - egg sandwiches, spicy drizzle, anything that should taste like something happened.&#34;,
+&#34;Hellmann&#39;s still wins for potato salad where you want background creaminess. Kewpie wins when the mayo is half the point - egg sandwiches, spicy drizzle, anything that should taste like something happened. Glad both bottles earned a shelf spot.&#34;)
+
+# --- local ai ---
+a(&#39;__local-ai-my-machines.md&#39;,
+&#34;I wanted local AI on the machines I already own - not a cloud bill for every sidebar question, not another subscription. I have three boxes in rotation: a **Linux Mint desktop** with a Ryzen 5 8500G and Radeon 740M, a **Windows laptop** (WebFX-G15, i5-13450HX, **6 GB VRAM**, **16 GB RAM**), and a **MacBook Pro M4 with 24 GB RAM** for client work. Same question on all of them: how much memory can the GPU actually use?&#34;,
+&#34;I wanted local AI on the machines I already own - not a cloud bill for every sidebar question, not another subscription. Glad I already had three boxes in rotation: a **Linux Mint desktop** with a Ryzen 5 8500G and Radeon 740M, a **Windows laptop** (WebFX-G15, i5-13450HX, **6 GB VRAM**, **16 GB RAM**), and a **MacBook Pro M4 with 24 GB RAM** for client work. Same question on all of them: how much memory can the GPU actually use?&#34;)
+a(&#39;__local-ai-my-machines.md&#39;,
+&#34;I still use cloud models for heavy client work. Local AI on these three boxes is a **privacy and offline cushion**, not a full replacement. Signal Coders&#39; tier map plus conservative GPU numbers stopped me from downloading a Tier 2 32B file on the wrong machine and wondering why the fan spun for ten minutes before nothing happened.&#34;,
+&#34;I still use cloud models for heavy client work. Local AI on these three boxes is a **privacy and offline cushion**, not a full replacement - glad that cushion exists. Signal Coders&#39; tier map plus conservative GPU numbers stopped me from downloading a Tier 2 32B file on the wrong machine and wondering why the fan spun for ten minutes before nothing happened.&#34;)
+
+# --- markdown deep ---
+a(&#39;__markdown-deep-dive.md&#39;,
+&#34;**Markdown** is lightweight markup: `#` for headings, `*` for emphasis, `[text](url)` for links. Hugo, GitHub, Obsidian, TiddlyWiki (with plugins) - variants everywhere.&#34;,
+&#34;**Markdown** is lightweight markup: `#` for headings, `*` for emphasis, `[text](url)` for links. Hugo, GitHub, Obsidian, TiddlyWiki (with plugins) - variants everywhere. Glad one plain format still carries most of my writing.&#34;)
+a(&#39;__markdown-deep-dive.md&#39;,
+&#34;If you&#39;re building on Hugo, learn frontmatter and shortcodes next. If you&#39;re capturing notes, learn your app&#39;s link syntax. The boring basics and code fences are the whole middle, and they don&#39;t change.&#34;,
+&#34;If you&#39;re building on Hugo, learn frontmatter and shortcodes next. If you&#39;re capturing notes, learn your app&#39;s link syntax. Glad the boring basics and code fences are still the whole middle - and they don&#39;t change.&#34;)
+
+# --- markdown formatting ---
+a(&#39;__markdown-formatting.md&#39;,
+&#34;Markdown formatting is **structure you type**, not buttons in a toolbar. I use the same habits in Hugo blog posts and wiki captures: break early, heading every scroll, code fences for commands.&#34;,
+&#34;Markdown formatting is **structure you type**, not buttons in a toolbar. Glad I use the same habits in Hugo blog posts and wiki captures: break early, heading every scroll, code fences for commands.&#34;)
+a(&#39;__markdown-formatting.md&#39;,
+&#34;**Format while you write**, not in a panic before publish. Future readers include that person. Make it easy on them.&#34;,
+&#34;**Format while you write**, not in a panic before publish. Future readers include that person. Glad when I make it easy on them - and on future-me.&#34;)
+
+# --- mcgill ---
+a(&#39;__mcgill-big-three.md&#39;,
+&#34;I&#39;m not a physiotherapist. I sit for work. My back gets stiff after long WordPress build weeks where I skip lunch breaks and work from the couch with the laptop in my lap.&#34;,
+&#34;I&#39;m not a physiotherapist. I sit for work. My back gets stiff after long WordPress build weeks where I skip lunch breaks and work from the couch with the laptop in my lap. Glad I found a short circuit before I pretended that was fine forever.&#34;)
+a(&#39;__mcgill-big-three.md&#39;,
+&#34;Bookmark the demos. Run the circuit. Sit down again with a slightly more honest spine. That&#39;s the whole playbook until I turn the bookmark into a habit.&#34;,
+&#34;Bookmark the demos. Run the circuit. Sit down again with a slightly more honest spine. Glad that playbook exists until I turn the bookmark into a habit.&#34;)
+
+# --- mi box ---
+a(&#39;__mi-box-s.md&#39;,
+&#34;I got tired of fighting our TV&#39;s built-in apps - slow menus, updates the manufacturer stopped years ago. Press Netflix and you&#39;d consider making popcorn before the icon highlighted.&#34;,
+&#34;I got tired of fighting our TV&#39;s built-in apps - slow menus, updates the manufacturer stopped years ago. Press Netflix and you&#39;d consider making popcorn before the icon highlighted. Glad a cheap box fixed that without replacing the TV.&#34;)
+a(&#39;__mi-box-s.md&#39;,
+&#34;For our living room, that&#39;s exactly the job I bought it to do. Monday: if your TV apps lag, grab a cheap box and install the four apps you actually watch. Disable the promo row. Stop fighting the built-in OS.&#34;,
+&#34;For our living room, that&#39;s exactly the job I bought it to do - glad it still does. Monday: if your TV apps lag, grab a cheap box and install the four apps you actually watch. Disable the promo row. Stop fighting the built-in OS.&#34;)
+
+# --- taxonomies ---
+a(&#39;__native-hugo-taxonomies.md&#39;,
+&#34;**Hugo taxonomies** group content at build time. List every post tagged `hugo`, get `/tags/hugo/`. Same for categories. Native means it&#39;s in the core - frontmatter lists drive URLs, theme templates render them.&#34;,
+&#34;**Hugo taxonomies** group content at build time. List every post tagged `hugo`, get `/tags/hugo/`. Same for categories. Glad native means it&#39;s in the core - frontmatter lists drive URLs, theme templates render them.&#34;)
+a(&#39;__native-hugo-taxonomies.md&#39;,
+&#34;Before I publish a post I scan the tag list the same way I scan a messy Downloads folder - delete the synonym, keep the one I&#39;d actually click.&#34;,
+&#34;Before I publish a post I scan the tag list the same way I scan a messy Downloads folder - delete the synonym, keep the one I&#39;d actually click. Glad that five-second pass still saves me synonyms.&#34;)
+
+# --- netlify ---
+a(&#39;__netlify-to-cloudflare-pages.md&#39;,
+&#34;HugoPlate&#39;s docs still show a Netlify tab. Fair - that&#39;s where a lot of Hugo themes point you first. I started there too.&#34;,
+&#34;HugoPlate&#39;s docs still show a Netlify tab. Fair - that&#39;s where a lot of Hugo themes point you first. I started there too - glad I moved when the math changed.&#34;)
+a(&#39;__netlify-to-cloudflare-pages.md&#39;,
+&#34;If you do move, treat it as a **hosting config migration**. Same Hugo site. New dashboard fields. One evening of curl tests. Then delete the old project so future-you doesn&#39;t wonder which green checkmark is real.&#34;,
+&#34;If you do move, treat it as a **hosting config migration**. Same Hugo site. New dashboard fields. One evening of curl tests. Then delete the old project so future-you doesn&#39;t wonder which green checkmark is real. Glad Cloudflare still earns that checkmark.&#34;)
+
+# --- obsidian ---
+a(&#39;__obsidian-vs-hugo.md&#39;,
+&#34;For a year I ran **two homes** for the same ideas: a private wiki app for thinking, Hugo for the public site. Same topics, two places to maintain, and a Sunday every month where I&#39;d copy a polished paragraph from one into the other and wonder why I hadn&#39;t just written it once.&#34;,
+&#34;For a year I ran **two homes** for the same ideas: a private wiki app for thinking, Hugo for the public site. Same topics, two places to maintain, and a Sunday every month where I&#39;d copy a polished paragraph from one into the other and wonder why I hadn&#39;t just written it once. Glad I stopped paying that tax.&#34;)
+a(&#39;__obsidian-vs-hugo.md&#39;,
+&#34;Think private, ship public. The Markdown middle stays the same; the room you publish in picks the rules.&#34;,
+&#34;Think private, ship public. Glad the Markdown middle stays the same; the room you publish in picks the rules.&#34;)
+
+# --- OR mindset ---
+a(&#39;__optimized-mindset-applied-math-or.md&#39;,
+&#34;I&#39;ll say the quiet part out loud: I didn&#39;t walk into **Applied Mathematics** at UP Los Baños because I had a burning love for Operations Research.&#34;,
+&#34;I&#39;ll say the quiet part out loud: I didn&#39;t walk into **Applied Mathematics** at UP Los Baños because I had a burning love for Operations Research. Glad that accidental door still opened something useful.&#34;)
+a(&#39;__optimized-mindset-applied-math-or.md&#39;,
+&#34;The CS quota was the push. The mindset was the pull I didn&#39;t know I was buying.&#34;,
+&#34;The CS quota was the push. The mindset was the pull I didn&#39;t know I was buying - thankful for both, even the awkward one.&#34;)
+
+# --- password ---
+a(&#39;__password-managers.md&#39;,
+&#34;I knew I should use unique passwords long before I actually did. The blocker wasn&#39;t ignorance - it was **fifty logins and no afternoon to burn**.&#34;,
+&#34;I knew I should use unique passwords long before I actually did. The blocker wasn&#39;t ignorance - it was **fifty logins and no afternoon to burn**. Glad I finally burned one afternoon.&#34;)
+a(&#39;__password-managers.md&#39;,
+&#34;The master password is the one string you actually have to remember. Make it long and sayable. Everything else can be random because the vault holds it.&#34;,
+&#34;The master password is the one string you actually have to remember. Make it long and sayable. Everything else can be random because the vault holds it - glad Bitwarden still holds mine.&#34;)
+
+# --- portable ---
+a(&#39;__portable-cross-platform-software.md&#39;,
+&#34;For years I only cared about **Windows** - and what I wanted was simpler than a manifesto: a folder I could copy from one PC to another without fighting the machine.&#34;,
+&#34;For years I only cared about **Windows** - and what I wanted was simpler than a manifesto: a folder I could copy from one PC to another without fighting the machine. Glad that boring need existed.&#34;)
+a(&#39;__portable-cross-platform-software.md&#39;,
+&#34;Start where I started. If you&#39;re still Windows-only, grab the [PortableApps.com Platform](https://portableapps.com/download), point it at a folder you own, and build from their catalog before you hunt random zips. For a dev stack, XAMPP portable still works. Sit at a locked-down PC and make progress anyway. The cross-platform lecture can wait until you actually own a second OS.&#34;,
+&#34;Start where I started. If you&#39;re still Windows-only, grab the [PortableApps.com Platform](https://portableapps.com/download), point it at a folder you own, and build from their catalog before you hunt random zips. For a dev stack, XAMPP portable still works. Sit at a locked-down PC and make progress anyway. Glad that folder habit still travels. The cross-platform lecture can wait until you actually own a second OS.&#34;)
+
+# --- rechargeable ---
+a(&#39;__rechargeable-batteries.md&#39;,
+&#34;There was a drawer in our house that was basically a battery graveyard - half-dead AAs, the wrong size, maybe one that leaked years ago and nobody wanted to touch. Every few months I&#39;d buy another blister pack at the checkout and tell myself this was normal.&#34;,
+&#34;There was a drawer in our house that was basically a battery graveyard - half-dead AAs, the wrong size, maybe one that leaked years ago and nobody wanted to touch. Every few months I&#39;d buy another blister pack at the checkout and tell myself this was normal. Glad I finally stopped calling that normal.&#34;)
+a(&#39;__rechargeable-batteries.md&#39;,
+&#34;If your house eats AAs like snacks, rechargeables are the most boring, sensible upgrade available. One good charger, two sets of cells, a simple swap habit - and that checkout-aisle battery tax mostly disappears.&#34;,
+&#34;If your house eats AAs like snacks, rechargeables are the most boring, sensible upgrade available. One good charger, two sets of cells, a simple swap habit - and that checkout-aisle battery tax mostly disappears. Glad the boring upgrade stuck.&#34;)
+
+# --- remote ---
+a(&#39;__remote-work-checklist.md&#39;,
+&#34;Remote work isn&#39;t only meetings and wifi. It&#39;s whether your neck hurts by lunch and whether you remembered the one cable that makes the laptop alive.&#34;,
+&#34;Remote work isn&#39;t only meetings and wifi. It&#39;s whether your neck hurts by lunch and whether you remembered the one cable that makes the laptop alive. Glad a checklist catches that before the jeepney does.&#34;)
+a(&#39;__remote-work-checklist.md&#39;,
+&#34;Print it, pin it, or keep it in your notes app. Whatever means you&#39;ll actually run it before the jeepney leaves without you.&#34;,
+&#34;Print it, pin it, or keep it in your notes app. Whatever means you&#39;ll actually run it before the jeepney leaves without you - glad mine still lives where I can see it.&#34;)
+
+# --- second phone ---
+a(&#39;__second-cellphone.md&#39;,
+&#34;For years I thought a second cellphone was a luxury for influencers and people with too many SIM cards. Then I kept handing my daily phone to my kid for games, maps, and photos - and realized my **banking apps were on the same screen** as everything else.&#34;,
+&#34;For years I thought a second cellphone was a luxury for influencers and people with too many SIM cards. Then I kept handing my daily phone to my kid for games, maps, and photos - and realized my **banking apps were on the same screen** as everything else. Glad that scare showed up before a real mess.&#34;)
+a(&#39;__second-cellphone.md&#39;,
+&#34;Cheap Android, older iPhone, whatever fits your ecosystem - the model matters less than knowing which phone holds what, and charging it before you forget it exists.&#34;,
+&#34;Cheap Android, older iPhone, whatever fits your ecosystem - the model matters less than knowing which phone holds what, and charging it before you forget it exists. Glad the boring second phone earned its keep.&#34;)
+
+# --- selling static ---
+a(&#39;__selling-static-sites.md&#39;,
+&#39;&gt; **TL;DR**: I quote discovery, build, migration, pass-off, and hosting as separate line items. You see what labor costs and what infrastructure costs - no bundled monthly &#34;maintenance&#34; line that hides half the bill in mystery server rent.&#39;,
+&#39;&gt; **TL;DR**: I quote discovery, build, migration, pass-off, and hosting as separate line items. You see what labor costs and what infrastructure costs - glad there\&#39;s no bundled monthly &#34;maintenance&#34; line that hides half the bill in mystery server rent.&#39;)
+a(&#39;__selling-static-sites.md&#39;,
+&#34;I charge for work that actually ships and hosting that&#39;s priced to match the job - not a padded monthly line left over from when every brochure needed cheap PHP hosting. That&#39;s the whole pitch - and I&#39;d rather lose a job than hide what&#39;s in the quote.&#34;,
+&#34;I charge for work that actually ships and hosting that&#39;s priced to match the job - not a padded monthly line left over from when every brochure needed cheap PHP hosting. That&#39;s the whole pitch - glad I&#39;d rather lose a job than hide what&#39;s in the quote.&#34;)
+
+# --- shopee ---
+a(&#39;__shopee-tips.md&#39;,
+&#34;Every time I open Shopee, the app tries to keep me scrolling. Flash sales, coins, vouchers, live streams, seventeen banners telling me I&#39;m missing a once-in-a-lifetime deal that somehow repeats every week.&#34;,
+&#34;Every time I open Shopee, the app tries to keep me scrolling. Flash sales, coins, vouchers, live streams, seventeen banners telling me I&#39;m missing a once-in-a-lifetime deal that somehow repeats every week. Glad I learned to close it when the cart is done.&#34;)
+a(&#39;__shopee-tips.md&#39;,
+&#34;Before your next order: filter local first, read reviews with photos, and close the app when the cart is done - not when the banner says one more deal.&#34;,
+&#34;Before your next order: filter local first, read reviews with photos, and close the app when the cart is done - not when the banner says one more deal. Glad that rule still saves me impulse buys.&#34;)
+
+# --- six hats ---
+a(&#39;__six-hats-one-agent.md&#39;,
+&#34;Ask one AI one question and you get one answer. That answer might be sharp. It might be flattery dressed as help. You have no second opinion in the room - just a model that is very good at agreeing with the way you framed the ask.&#34;,
+&#34;Ask one AI one question and you get one answer. That answer might be sharp. It might be flattery dressed as help. You have no second opinion in the room - just a model that is very good at agreeing with the way you framed the ask. Glad the hats force a second look.&#34;)
+a(&#39;__six-hats-one-agent.md&#39;,
+&#34;If you only steal one thing, steal the refusal. Don&#39;t ask an AI whether your idea is good. Ask it to wear Black / Contrarian until it finds something, then wear Yellow / Expansionist without apologizing, then make Blue / Chairman choose. And if the frame was wrong - say so and run the hats again. Same room. Different hats. No applause track.&#34;,
+&#34;If you only steal one thing, steal the refusal. Don&#39;t ask an AI whether your idea is good. Ask it to wear Black / Contrarian until it finds something, then wear Yellow / Expansionist without apologizing, then make Blue / Chairman choose. And if the frame was wrong - say so and run the hats again. Same room. Different hats. No applause track. Glad that sequence still catches soft answers.&#34;)
+
+# --- smart plug ---
+a(&#39;__smart-plug.md&#39;,
+&#39;&#39;&#39;I didn&#39;t get into smart plugs because I wanted a &#34;smart home.&#34; I got into them because I kept walking upstairs to turn off a lamp I&#39;d already left behind, or wondering whether the fan was still running.&#39;&#39;&#39;,
+&#39;&#39;&#39;I didn&#39;t get into smart plugs because I wanted a &#34;smart home.&#34; I got into them because I kept walking upstairs to turn off a lamp I&#39;d already left behind, or wondering whether the fan was still running. Glad a small plug fixed a small annoyance.&#39;&#39;&#39;)
+a(&#39;__smart-plug.md&#39;,
+&#34;Monday: put one plug on the lamp that&#39;s annoying to reach, name it by room, and skip the rest until that habit sticks.&#34;,
+&#34;Monday: put one plug on the lamp that&#39;s annoying to reach, name it by room, and skip the rest until that habit sticks. Glad one plug was enough to start.&#34;)
+
+# --- stack mismatch ---
+a(&#39;__stack-mismatch-stories.md&#39;,
+&#34;Neither story is about a dumb tool. Both are **stack mismatches** that should have been obvious before the first commit.&#34;,
+&#34;Neither story is about a dumb tool. Both are **stack mismatches** that should have been obvious before the first commit. Glad I learned them the hard way once.&#34;)
+a(&#39;__stack-mismatch-stories.md&#39;,
+&#34;The goal is a site that still works six months after launch - without surprise invoices or a repo nobody can touch.&#34;,
+&#34;The goal is a site that still works six months after launch - without surprise invoices or a repo nobody can touch. Glad that&#39;s still the bar I sell.&#34;)
+
+# --- study techniques ---
+a(&#39;__study-techniques-worth-your-time.md&#39;,
+&#34;I watched [Justin Sung rank eight popular study techniques](https://www.youtube.com/watch?v=Uf_DUtzHFsU) from F to S in about eighteen minutes. The punchline isn&#39;t a new app. It&#39;s this: **the methods that feel easy are popular because they&#39;re easy - not because they work.**&#34;,
+&#34;I watched [Justin Sung rank eight popular study techniques](https://www.youtube.com/watch?v=Uf_DUtzHFsU) from F to S in about eighteen minutes. The punchline isn&#39;t a new app. It&#39;s this: **the methods that feel easy are popular because they&#39;re easy - not because they work.** Glad someone ranked them that bluntly.&#34;)
+a(&#39;__study-techniques-worth-your-time.md&#39;,
+&#34;Uncomfortable is the point. If it feels smooth and familiar, you&#39;re probably recognizing, not learning.&#34;,
+&#34;Uncomfortable is the point. If it feels smooth and familiar, you&#39;re probably recognizing, not learning. Glad that line stuck.&#34;)
+
+# --- sveltia ---
+a(&#39;__sveltia-cms.md&#39;,
+&#34;**Sveltia CMS** is a lightweight, Git-backed editor for static sites. Svelte UI in the browser. Changes commit to your repo. Hugo still builds on push.&#34;,
+&#34;**Sveltia CMS** is a lightweight, Git-backed editor for static sites. Svelte UI in the browser. Changes commit to your repo. Hugo still builds on push. Glad that pass-off path exists.&#34;)
+a(&#39;__sveltia-cms.md&#39;,
+&#34;I&#39;d rather configure a git CMS once than rebuild the same brochure on a LAMP stack because pass-off failed.&#34;,
+&#34;I&#39;d rather configure a git CMS once than rebuild the same brochure on a LAMP stack because pass-off failed. Glad that trade still feels obvious.&#34;)
+
+# --- tailwind ---
+a(&#39;__tailwind-css-v4.md&#39;,
+&#34;**Tailwind CSS v4** wasn&#39;t a npm bump and forget for this site. Config moved into CSS. The engine changed. Build tooling shifted toward Vite/Oxide. If you maintain a Hugo theme that ships Tailwind, **upgrade is infrastructure work** - readers won&#39;t notice, developers will.&#34;,
+&#34;**Tailwind CSS v4** wasn&#39;t a npm bump and forget for this site. Config moved into CSS. The engine changed. Build tooling shifted toward Vite/Oxide. If you maintain a Hugo theme that ships Tailwind, **upgrade is infrastructure work** - readers won&#39;t notice, developers will. Glad I did the boring upgrade once.&#34;)
+a(&#39;__tailwind-css-v4.md&#39;,
+&#34;I don&#39;t enjoy CSS infrastructure weeks. I do enjoy not maintaining a fork that drifts every time Tailwind ships a point release.&#34;,
+&#34;I don&#39;t enjoy CSS infrastructure weeks. Glad I don&#39;t maintain a fork that drifts every time Tailwind ships a point release.&#34;)
+
+# --- tenant ---
+a(&#39;__tenant-not-landlord-on-the-web.md&#39;,
+&#39;&#34;Why not just post on Facebook?&#34;&#39;,
+&#39;&#34;Why not just post on Facebook?&#34; Glad I kept asking myself the other way around.&#39;)
+a(&#39;__tenant-not-landlord-on-the-web.md&#39;,
+# need penultimate - read file for better close. Use More: line and prepend gratitude paragraph before it by replacing the More line&#39;s previous - actually edit More line&#39;s preceding prose
+# From earlier dump, close IS the More: links. Find previous prose in file via known pattern.
+&#34;More: [three places your words can live](/blog/three-places-your-words-can-live/) (sorting frame) · [sustainable online publishing](/blog/sustainable-online-publishing/) (habit).&#34;,
+&#34;Glad I still own the URL. More: [three places your words can live](/blog/three-places-your-words-can-live/) (sorting frame) · [sustainable online publishing](/blog/sustainable-online-publishing/) (habit).&#34;)
+
+# --- three places ---
+a(&#39;__three-places-your-words-can-live.md&#39;,
+&#34;The lesson hit me on rented PHP hosting, not on Facebook. Client left, bill stayed, files sat on a server I didn&#39;t really control. When that setup died, a chunk of my work went with it. Same gut punch people describe when a platform pivots or throttles reach - just smaller and personal.&#34;,
+&#34;The lesson hit me on rented PHP hosting, not on Facebook. Client left, bill stayed, files sat on a server I didn&#39;t really control. When that setup died, a chunk of my work went with it. Same gut punch people describe when a platform pivots or throttles reach - just smaller and personal. Glad that loss pushed me toward a landlord seat.&#34;)
+a(&#39;__three-places-your-words-can-live.md&#39;,
+&#34;Start small if bucket three is new: one domain, one repo, one post you&#39;d hate to lose. The megaphone can wait.&#34;,
+&#34;Start small if bucket three is new: one domain, one repo, one post you&#39;d hate to lose. The megaphone can wait. Glad I started with the post I&#39;d hate to lose.&#34;)
+
+# --- brave ---
+a(&#39;__why-brave-browser.md&#39;,
+&#39;&#39;&#39;I&#39;ve installed enough browsers to fill a short blog post on its own. Chrome because everything &#34;just works.&#34; Firefox because I wanted to feel noble about privacy. Edge because it shipped on a Windows laptop and I was too tired to uninstall it on day one.&#39;&#39;&#39;,
+&#39;&#39;&#39;I&#39;ve installed enough browsers to fill a short blog post on its own. Chrome because everything &#34;just works.&#34; Firefox because I wanted to feel noble about privacy. Edge because it shipped on a Windows laptop and I was too tired to uninstall it on day one. Glad Brave finally settled the fight.&#39;&#39;&#39;)
+a(&#39;__why-brave-browser.md&#39;,
+&#34;That&#39;s the setup: **Brave for my tabs, Chrome for everyone else&#39;s reality.** Not the most ideological answer. Just the one that stopped me from fighting the web on my own time.&#34;,
+&#34;That&#39;s the setup: **Brave for my tabs, Chrome for everyone else&#39;s reality.** Not the most ideological answer. Just the one that stopped me from fighting the web on my own time - glad it stuck.&#34;)
+
+# --- git ---
+a(&#39;__why-git-greatest-open-source-innovation.md&#39;,
+&#34;The first time Git saved my skin, I wasn&#39;t thinking about open source history. I was on a client WordPress build, halfway through a theme tweak, and I realized I&#39;d fallen back into an old habit: editing the live site like it was still 2009.&#34;,
+&#34;The first time Git saved my skin, I wasn&#39;t thinking about open source history. I was on a client WordPress build, halfway through a theme tweak, and I realized I&#39;d fallen back into an old habit: editing the live site like it was still 2009. Glad Git was already there when I needed the undo.&#34;)
+a(&#39;__why-git-greatest-open-source-innovation.md&#39;,
+&#34;That&#39;s why I rank it among the greatest things open source ever shipped. Not as shrine-worthy lore. As **the thing I reach for when I want to try something risky and still sleep**.&#34;,
+&#34;That&#39;s why I rank it among the greatest things open source ever shipped. Not as shrine-worthy lore. As **the thing I reach for when I want to try something risky and still sleep** - thankful every time.&#34;)
+
+# --- wifi ---
+a(&#39;__wifi-router.md&#39;,
+&#34;I used to treat wifi routers like printer ink - buy whatever&#39;s on sale, plug it in, forget about it until something breaks. Then the video call drops during a meeting, the kid&#39;s homework tab spins forever, and suddenly the cheapest router on the shelf doesn&#39;t feel like such a smart save.&#34;,
+&#34;I used to treat wifi routers like printer ink - buy whatever&#39;s on sale, plug it in, forget about it until something breaks. Then the video call drops during a meeting, the kid&#39;s homework tab spins forever, and suddenly the cheapest router on the shelf doesn&#39;t feel like such a smart save. Glad I stopped buying on sale alone.&#34;)
+a(&#39;__wifi-router.md&#39;,
+&#34;If my router died tomorrow, I&#39;d sketch the floor plan first - bedroom, kitchen, home office - check what&#39;s still getting security updates, and buy for **coverage and calm** rather than the biggest number on the box. The internet coming into the house is only as good as the wifi that actually reaches your chair. Monday: mark where you actually sit with a laptop, then move the router up and central before you buy anything new.&#34;,
+&#34;If my router died tomorrow, I&#39;d sketch the floor plan first - bedroom, kitchen, home office - check what&#39;s still getting security updates, and buy for **coverage and calm** rather than the biggest number on the box. Glad calm beats the biggest number on the box. The internet coming into the house is only as good as the wifi that actually reaches your chair. Monday: mark where you actually sit with a laptop, then move the router up and central before you buy anything new.&#34;)
+
+# --- worcestershire ---
+a(&#39;__worcestershire-sauce.md&#39;,
+&#34;Most pantry items earn their spot slowly. **Lee &amp; Perrins Worcestershire sauce** was immediate - first splash in a soy-garlic adobo marinade and the pot smelled like I&#39;d been simmering twice as long.&#34;,
+&#34;Most pantry items earn their spot slowly. **Lee &amp; Perrins Worcestershire sauce** was immediate - first splash in a soy-garlic adobo marinade and the pot smelled like I&#39;d been simmering twice as long. Glad that bottle never left the pantry.&#34;)
+a(&#39;__worcestershire-sauce.md&#39;,
+&#39;&#39;&#39;If your cooking has a recurring problem - &#34;it&#39;s fine but kind of flat&#34; - Worcestershire is a cheap fix with a long shelf life. Lee &amp; Perrins is the bottle I trust to taste the same every time.&#39;&#39;&#39;,
+&#39;&#39;&#39;If your cooking has a recurring problem - &#34;it&#39;s fine but kind of flat&#34; - Worcestershire is a cheap fix with a long shelf life. Lee &amp; Perrins is the bottle I trust to taste the same every time - glad it earned that trust.&#39;&#39;&#39;)
+
+# --- xiaomi ---
+a(&#39;__xiaomi-is-the-new-huawei.md&#39;,
+&#34;Open Shopee for a phone charger and you&#39;ll scroll past three Xiaomi listings before you find the cable you actually wanted. Walk into a mall phone shop and there&#39;s a Redmi Note on the wall next to Samsung and Oppo. Plug a streaming box behind our TV and it&#39;s a **Mi Box S** - not because I&#39;m a fanboy, because it was the cheap fix that worked.&#34;,
+&#34;Open Shopee for a phone charger and you&#39;ll scroll past three Xiaomi listings before you find the cable you actually wanted. Walk into a mall phone shop and there&#39;s a Redmi Note on the wall next to Samsung and Oppo. Plug a streaming box behind our TV and it&#39;s a **Mi Box S** - not because I&#39;m a fanboy, because it was the cheap fix that worked. Glad that cheap fix still works.&#34;)
+a(&#39;__xiaomi-is-the-new-huawei.md&#39;,
+&#34;That&#39;s the new Huawei. Same ambition. Different scars. Cheaper entrance fee.&#34;,
+&#34;That&#39;s the new Huawei. Same ambition. Different scars. Cheaper entrance fee. Glad I learned to buy the useful bits without buying the whole identity.&#34;)
+
+# --- streamlining ---
+a(&#39;streamlining-games-and-sports.md&#39;,
+&#34;I&#39;ve watched the same move in sports and on my shelf: shrink the package, and **different people show up**.&#34;,
+&#34;I&#39;ve watched the same move in sports and on my shelf: shrink the package, and **different people show up**. Glad I finally noticed who walks in.&#34;)
+a(&#39;streamlining-games-and-sports.md&#39;,
+&#34;If you&#39;re buying or playing, same question. You might not dislike sports or board games. You might just be the crowd the **uncut** package never built for.&#34;,
+&#34;If you&#39;re buying or playing, same question. You might not dislike sports or board games. You might just be the crowd the **uncut** package never built for - thankful the smaller packages exist.&#34;)
+
+ok=0
+fail=[]
+for name, old, new in edits:
+    path = ROOT/name
+    if not path.exists():
+        fail.append((name, &#39;MISSING FILE&#39;))
+        continue
+    text = path.read_text()
+    if old not in text:
+        fail.append((name, old[:90]))
+        continue
+    path.write_text(text.replace(old, new, 1))
+    ok += 1
+
+print(f&#39;applied {ok}/{len(edits)}&#39;)
+if fail:
+    print(f&#39;FAILED {len(fail)}:&#39;)
+    for n,s in fail:
+        print(&#39; &#39;, n, &#39;::&#39;, repr(s)[:120])
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
+from pathlib import Path
+
+ROOT = Path('content/english/blog')
+
+# (file, old, new) — open then close pairs; some files use non-first block
+edits = []
+
+def a(name, old, new):
+    edits.append((name, old, new))
+
+# --- ai contractor ---
+a('__ai-contractor-problem-wordpress.md',
+"Month one with AI on WordPress builds: thrilled. Month two: annoyed. Month three: I finally named the problem.",
+"Month one with AI on WordPress builds: thrilled. Month two: annoyed. Month three: I finally named the problem - glad I stuck around long enough to name it.")
+a('__ai-contractor-problem-wordpress.md',
+"The hour on `helpers.php` paid for itself the first time I didn't read a whole block file to know what was inside. Consistency mattered more than raw speed - and I wasn't expecting to care that much.",
+"The hour on `helpers.php` paid for itself the first time I didn't read a whole block file to know what was inside. Consistency mattered more than raw speed - glad I learned to care that much.")
+
+# --- apple late ---
+a('__apple-strategically-late.md',
+"I don't sit through Apple keynotes. I still keep up with what they're shipping - headlines, recap threads, the two-minute clips that show up in my feed. I already own a **MacBook Pro M4** and an **11th-gen iPad**. I'm not shopping. I'm tracking a company whose hardware I use and whose stage show I mostly skip.",
+"I don't sit through Apple keynotes. I still keep up with what they're shipping - headlines, recap threads, the two-minute clips that show up in my feed. Glad I already own a **MacBook Pro M4** and an **11th-gen iPad** without sitting through the show. I'm not shopping. I'm tracking a company whose hardware I use and whose stage show I mostly skip.")
+a('__apple-strategically-late.md',
+"That's the trick worth naming honestly - not that Apple never innovates, but that **schedule** is often the real product.",
+"That's the trick worth naming honestly - not that Apple never innovates, but that **schedule** is often the real product. Glad I learned to wait for the boring revision.")
+
+# --- trait quiz ---
+a('__build-your-own-trait-quiz.md',
+"I love preference quizzes. Still do. (I grew up calling them personality tests. Same itch. Different word for what I actually mean now.)",
+"I love preference quizzes. Still do - glad that itch never fully went away. (I grew up calling them personality tests. Same itch. Different word for what I actually mean now.)")
+a('__build-your-own-trait-quiz.md',
+"The reader takeaway I want stuck in your head: **do not reuse their questions or labels.** Build yours. Own the gap you care about - for me, Urgency as a fifth preference that turns sixteen calm stacks into thirty-two under fire, with no winner between Wait and Go - and leave the clone aisle alone.",
+"The reader takeaway I want stuck in your head: **do not reuse their questions or labels.** Build yours. Own the gap you care about - for me, Urgency as a fifth preference that turns sixteen calm stacks into thirty-two under fire, with no winner between Wait and Go - and leave the clone aisle alone. Glad I built one that fits the gap I actually care about.")
+
+# --- canon ---
+a('__canon-g3000.md',
+'''I've owned enough printers to know where technology goes to disappoint adults. Cartridge printers especially - cheap hardware, expensive ink, and that specific rage when the machine reports "low cyan" while you're trying to print a black-and-white school form.''',
+'''I've owned enough printers to know where technology goes to disappoint adults. Cartridge printers especially - cheap hardware, expensive ink, and that specific rage when the machine reports "low cyan" while you're trying to print a black-and-white school form. Glad I finally switched to a tank model that stopped that ritual.''')
+a('__canon-g3000.md',
+"Buy it if you'll use it often enough to justify the space and the occasional head-cleaning ritual. Otherwise, the print shop counter might still be cheaper peace of mind. Monday: if you print weekly, compare bottle math against your last cartridge bill. If you print twice a year, skip the hardware.",
+"Buy it if you'll use it often enough to justify the space and the occasional head-cleaning ritual. Otherwise, the print shop counter might still be cheaper peace of mind. Glad this one earned its keep for weekly prints - Monday: if you print weekly, compare bottle math against your last cartridge bill. If you print twice a year, skip the hardware.")
+
+# --- composer ---
+a('__chasing-composer-2-5-locally.md',
+"I don't need Cursor the product. I need what Cursor *does* - chat that knows the repo, inline edits, an agent that reads files and shows a diff before it applies anything. And I want that loop running against a model on my MacBook Pro M4, not against a cloud bill for every sidebar question.",
+"I don't need Cursor the product. I need what Cursor *does* - chat that knows the repo, inline edits, an agent that reads files and shows a diff before it applies anything. Glad I can chase that loop on my MacBook Pro M4 instead of paying a cloud bill for every sidebar question.")
+a('__chasing-composer-2-5-locally.md',
+"I went into this sure that 24 GB was the constraint. It wasn't. The first blocker was a version string in About This Mac, and the thing that got me unstuck was reading one more requirements line instead of assuming the newest tool was the only one. Check the OS and framework requirements before you budget RAM. They're faster to read and they fail harder.",
+"I went into this sure that 24 GB was the constraint. It wasn't. The first blocker was a version string in About This Mac, and the thing that got me unstuck was reading one more requirements line instead of assuming the newest tool was the only one. Glad that boring line was there. Check the OS and framework requirements before you budget RAM. They're faster to read and they fail harder.")
+
+# --- client pass-off ---
+a('__client-site-pass-off.md',
+'''> **TL;DR**: Pick exactly one publish path before deposit - not "we'll figure it out at launch." I hand off a one-page doc with repo URL, deploy settings, DNS, and who to call when the build fails. The goal is a site you can run without me in the loop for every comma.''',
+'''> **TL;DR**: Pick exactly one publish path before deposit - not "we'll figure it out at launch." I hand off a one-page doc with repo URL, deploy settings, DNS, and who to call when the build fails. Glad when the client can run the site without me in the loop for every comma.''')
+a('__client-site-pass-off.md',
+'''I'd rather lose a job than promise a publish path I won't support. I'd rather price training honestly than absorb unlimited "small tweaks" until I resent the client.''',
+'''I'd rather lose a job than promise a publish path I won't support. I'd rather price training honestly than absorb unlimited "small tweaks" until I resent the client. Glad the honest path still feels like the right one.''')
+
+# --- craft ---
+a('__craft-prompt-framework.md',
+'''"Write me a blog post about productivity" is a coin flip. I tried that once for a client newsletter and got three paragraphs of oatmeal with a "In conclusion" footer. Soft advice. No specifics. Nothing the client could send. Never again without a shape.''',
+'''"Write me a blog post about productivity" is a coin flip. I tried that once for a client newsletter and got three paragraphs of oatmeal with a "In conclusion" footer. Soft advice. No specifics. Nothing the client could send. Glad that mess pushed me into a shape I still use.''')
+a('__craft-prompt-framework.md',
+"CRAFT isn't bureaucracy. It's **kindness to future-you** - and to the model.",
+"CRAFT isn't bureaucracy. It's **kindness to future-you** - and to the model. Glad I wrote the shape down once.")
+
+# --- everyone communicates ---
+a('__everyone-communicates-few-connect.md',
+"Flip to page 251 of John Maxwell's *Everyone Communicates, Few Connect* and you'll find a wall of names. **Jon Rapusas** is on it. Not because I ghostwrote a chapter or spoke at one of his events. I left comments on his blog when he was still drafting the book online.",
+"Flip to page 251 of John Maxwell's *Everyone Communicates, Few Connect* and you'll find a wall of names. **Jon Rapusas** is on it. Not because I ghostwrote a chapter or spoke at one of his events. Glad I left comments on his blog when he was still drafting the book online.")
+a('__everyone-communicates-few-connect.md',
+"That's the special thing about this copy on my shelf. It's not autographed. It's **crowdsourced** - and my name is proof I was in the room.",
+"That's the special thing about this copy on my shelf. It's not autographed. It's **crowdsourced** - and my name is proof I was in the room. Glad that page still exists.")
+
+# --- free vs freedom ---
+a('__free-vs-freedom-open-source.md',
+'''When I got serious about web work, "open source" wasn't a conference sticker. It was the shelf I could afford.''',
+'''When I got serious about web work, "open source" wasn't a conference sticker. It was the shelf I could afford - and I'm still glad that shelf was there.''')
+a('__free-vs-freedom-open-source.md',
+'''I pick for **freedom, ownership, and community depth**, not just "is it free." The freedom was worth the months. Still is.''',
+'''I pick for **freedom, ownership, and community depth**, not just "is it free." Glad the freedom was worth the months. Still is.''')
+
+# --- grade 1 ---
+a('__grade-1-better-than-kumon.md',
+"I gave my son a choice: **Kumon math or Kumon reading.**",
+"I gave my son a choice: **Kumon math or Kumon reading.** Glad he got to pick.")
+a('__grade-1-better-than-kumon.md',
+"He's six weeks into Kumon reading and we're early on the tablet-and-printer routine. He still says math is **hard**. He also asks for the quiz sometimes. That's enough for now. Kumon for reps at the center. **Math games on the tablet, handwriting on paper he keeps** - sneak the hard part in after the win.",
+"He's six weeks into Kumon reading and we're early on the tablet-and-printer routine. He still says math is **hard**. He also asks for the quiz sometimes. That's enough for now - and I'm thankful for that. Kumon for reps at the center. **Math games on the tablet, handwriting on paper he keeps** - sneak the hard part in after the win.")
+
+# --- how ai helps ---
+a('__how-ai-helps-build-sites-and-content.md',
+"People keep asking whether AI will replace web developers and writers. My honest answer from the last year on jorap.com: **it replaced a lot of typing, not a lot of thinking.**",
+"People keep asking whether AI will replace web developers and writers. My honest answer from the last year on jorap.com: **it replaced a lot of typing, not a lot of thinking.** Glad the thinking part still needs me.")
+a('__how-ai-helps-build-sites-and-content.md',
+"The multiplier is real on content and editorial loops. It's modest on architecture. The site still needs a person who knows what Thursday dinner is supposed to taste like - and which notes are worth linking before deadline week.",
+"The multiplier is real on content and editorial loops. It's modest on architecture. Glad the site still needs a person who knows what Thursday dinner is supposed to taste like - and which notes are worth linking before deadline week.")
+
+# --- good habit ---
+a('__how-to-create-a-good-habit.md',
+"I don't need another motivational poster about discipline. I need **systems that make the right thing the default** - especially on tired weekdays when willpower clocks out early.",
+"I don't need another motivational poster about discipline. Glad I finally wanted **systems that make the right thing the default** - especially on tired weekdays when willpower clocks out early.")
+a('__how-to-create-a-good-habit.md',
+"Start with one habit you'd actually keep if everything else stayed messy. Fix that environment first. Character tests fail on tired Wednesdays. Design problems you can solve on a Sunday afternoon.",
+"Start with one habit you'd actually keep if everything else stayed messy. Fix that environment first. Character tests fail on tired Wednesdays. Design problems you can solve on a Sunday afternoon - glad that's still the frame I trust.")
+
+# --- hugo go templates ---
+a('__hugo-go-templates.md',
+"Hugo builds HTML from **Go templates** - `.html` files full of `{{ }}` actions. Partials, layouts, shortcodes - same language everywhere. The docs read like a reference manual. I learned by breaking something visible, then fixing it with the theme's existing files open beside me.",
+"Hugo builds HTML from **Go templates** - `.html` files full of `{{ }}` actions. Partials, layouts, shortcodes - same language everywhere. The docs read like a reference manual. Glad I learned by breaking something visible, then fixing it with the theme's existing files open beside me.")
+a('__hugo-go-templates.md',
+"Most of JoRap is assembled from patterns Hugoplate already had. My edits are tweaks, not a from-scratch framework. That's the lazy path, and it held for a year.",
+"Most of JoRap is assembled from patterns Hugoplate already had. My edits are tweaks, not a from-scratch framework. Glad the lazy path held for a year.")
+
+# --- page bundles ---
+a('__hugo-page-bundles.md',
+"Most of my blog posts are a flat file: `extension-cord.md`, hero image in `/images/extension-cord.jpg`, done. That works until you publish something with six screenshots, a PDF handout, and a diagram that only makes sense next to that one post.",
+"Most of my blog posts are a flat file: `extension-cord.md`, hero image in `/images/extension-cord.jpg`, done. Glad that stays the default. It only breaks when you publish something with six screenshots, a PDF handout, and a diagram that only makes sense next to that one post.")
+a('__hugo-page-bundles.md',
+"When you migrate an old post, bundle it then. Moving six loose images into a folder takes ten minutes. Hunting them across `/static` in a year takes longer. I've paid that tax once. Once was enough.",
+"When you migrate an old post, bundle it then. Moving six loose images into a folder takes ten minutes. Hunting them across `/static` in a year takes longer. I've paid that tax once - glad once was enough.")
+
+# --- shortcodes ---
+a('__hugo-shortcodes.md',
+"**Hugo shortcodes** are mini templates you call from Markdown:",
+"**Hugo shortcodes** are mini templates you call from Markdown - glad they exist for the bits I repeat:")
+a('__hugo-shortcodes.md',
+'''Extract what repeats. Leave one-off prose alone. And don't paste "just this once" - future-you will find that iframe.''',
+'''Extract what repeats. Leave one-off prose alone. And don't paste "just this once" - future-you will find that iframe. Glad shortcodes catch the repeats before I do.''')
+
+# --- static site gen ---
+a('__hugo-static-site-generator.md',
+'''A **static site generator** pre-builds HTML when you deploy - not when someone visits. No database on the server. No PHP cron jobs. No "why is admin slow at 2 AM."''',
+'''A **static site generator** pre-builds HTML when you deploy - not when someone visits. No database on the server. No PHP cron jobs. Glad I don't ask "why is admin slow at 2 AM" anymore.''')
+a('__hugo-static-site-generator.md',
+"It doesn't fit every job. When it fits, the workflow is push and forget. That's the feature I sell - including to myself.",
+"It doesn't fit every job. When it fits, the workflow is push and forget. Glad that's still the feature I sell - including to myself.")
+
+# --- humanize ---
+a('__humanize-ai-articles.md',
+"AI-generated articles often fail the vibe check before the fact check. Not because the model is useless - because the output is **too smooth, too even, too same-length every sentence.**",
+"AI-generated articles often fail the vibe check before the fact check. Not because the model is useless - because the output is **too smooth, too even, too same-length every sentence.** Glad I learned to catch that before publish.")
+a('__humanize-ai-articles.md',
+"The goal isn't to fool readers. It's to **start further down the page** so your editing time goes to substance, not untangling robot rhythm.",
+"The goal isn't to fool readers. It's to **start further down the page** so your editing time goes to substance, not untangling robot rhythm. Glad that edit pass still earns its keep.")
+
+# --- bad memory ---
+a('__i-dont-have-a-bad-memory.md',
+"I've told myself I have a bad memory more times than I can count. Names at church. A tip from a video I watched the same morning. Something I nodded at in a doc, then blanked when I needed it at the keyboard.",
+"I've told myself I have a bad memory more times than I can count. Names at church. A tip from a video I watched the same morning. Something I nodded at in a doc, then blanked when I needed it at the keyboard. Glad I finally stopped treating that as a fixed trait.")
+a('__i-dont-have-a-bad-memory.md',
+"I'm not memorizing for sport. I'm learning how learning works so the next generation in this house doesn't inherit my shrug.",
+"I'm not memorizing for sport. Glad I'm learning how learning works so the next generation in this house doesn't inherit my shrug.")
+
+# --- immune: second prose block ---
+a('__immune-booster-supplements.md',
+"Last rainy season I caught three colds in eight weeks - jeepney commute, school pickup, one kid bringing home whatever went around. I can't sterilize the city. What I can control is **sleep, food, movement, and a modest supplement stack** when baseline habits slip.",
+"Last rainy season I caught three colds in eight weeks - jeepney commute, school pickup, one kid bringing home whatever went around. I can't sterilize the city. Glad I can still control **sleep, food, movement, and a modest supplement stack** when baseline habits slip.")
+a('__immune-booster-supplements.md',
+"I'm not optimizing for invincibility. I'm stacking boring margin on boring habits - sleep, food, wash hands - and reaching for a bottle when the jeepney season wins anyway.",
+"I'm not optimizing for invincibility. Glad I'm stacking boring margin on boring habits - sleep, food, wash hands - and reaching for a bottle when the jeepney season wins anyway.")
+
+# --- inter ---
+a('__inter-font.md',
+"I didn't go looking for a font. I found **Inter** in [*Refactoring UI*](https://www.refactoringui.com/) - Adam Wathan and Steve Schoger's book on making interfaces look good without a design degree.",
+"I didn't go looking for a font. Glad I found **Inter** in [*Refactoring UI*](https://www.refactoringui.com/) - Adam Wathan and Steve Schoger's book on making interfaces look good without a design degree.")
+a('__inter-font.md',
+"That's where I landed - same pick since *Refactoring UI*, one family, four weights, self-hosted, back to work.",
+"That's where I landed - same pick since *Refactoring UI*, one family, four weights, self-hosted, back to work. Glad I never swapped it for fashion.")
+
+# --- JTBD ---
+a('__jobs-to-be-done-framework.md',
+'''I've watched teams add features because the competitor has them, because an engineer is excited, or because a persona deck said "Sarah, 34, likes yoga." None of that guarantees anyone will **hire** the product when it ships.''',
+'''I've watched teams add features because the competitor has them, because an engineer is excited, or because a persona deck said "Sarah, 34, likes yoga." None of that guarantees anyone will **hire** the product when it ships. Glad JTBD gave me a better question.''')
+a('__jobs-to-be-done-framework.md',
+"*What job would someone hire this for - and what would they fire instead?*",
+"*What job would someone hire this for - and what would they fire instead?* Glad I still ask that before I build.")
+
+# --- jorap notes features ---
+a('__jorap-notes-features.md',
+"> **TL;DR**: Same Hugo site as the blog. `/notes/` is a linked garden of one-claim pages - I built the hosting stack first, and the graph, flashcards, and copy buttons grew on top once I had somewhere to put atomic notes in public. The blog is for long essays. The garden is for ideas I want to walk through and reuse.",
+"> **TL;DR**: Same Hugo site as the blog. `/notes/` is a linked garden of one-claim pages - glad I built the hosting stack first, and the graph, flashcards, and copy buttons grew on top once I had somewhere to put atomic notes in public. The blog is for long essays. The garden is for ideas I want to walk through and reuse.")
+a('__jorap-notes-features.md',
+"If you build something similar, start with one claim per file and working wikilinks. Add shareable thoughts, the graph, flashcards, and agent export after you have twenty notes worth linking - not before.",
+"If you build something similar, start with one claim per file and working wikilinks. Add shareable thoughts, the graph, flashcards, and agent export after you have twenty notes worth linking - not before. Glad the garden grew in that order.")
+
+# --- kewpie ---
+a('__kewpie-mayo.md',
+"The first time someone handed me **Kewpie mayo**, I thought it was a gimmick - different bottle, cute logo, internet hype. Then I put it on a sandwich and understood why people act like this is a separate food group.",
+"The first time someone handed me **Kewpie mayo**, I thought it was a gimmick - different bottle, cute logo, internet hype. Glad I put it on a sandwich anyway - then I understood why people act like this is a separate food group.")
+a('__kewpie-mayo.md',
+"Hellmann's still wins for potato salad where you want background creaminess. Kewpie wins when the mayo is half the point - egg sandwiches, spicy drizzle, anything that should taste like something happened.",
+"Hellmann's still wins for potato salad where you want background creaminess. Kewpie wins when the mayo is half the point - egg sandwiches, spicy drizzle, anything that should taste like something happened. Glad both bottles earned a shelf spot.")
+
+# --- local ai ---
+a('__local-ai-my-machines.md',
+"I wanted local AI on the machines I already own - not a cloud bill for every sidebar question, not another subscription. I have three boxes in rotation: a **Linux Mint desktop** with a Ryzen 5 8500G and Radeon 740M, a **Windows laptop** (WebFX-G15, i5-13450HX, **6 GB VRAM**, **16 GB RAM**), and a **MacBook Pro M4 with 24 GB RAM** for client work. Same question on all of them: how much memory can the GPU actually use?",
+"I wanted local AI on the machines I already own - not a cloud bill for every sidebar question, not another subscription. Glad I already had three boxes in rotation: a **Linux Mint desktop** with a Ryzen 5 8500G and Radeon 740M, a **Windows laptop** (WebFX-G15, i5-13450HX, **6 GB VRAM**, **16 GB RAM**), and a **MacBook Pro M4 with 24 GB RAM** for client work. Same question on all of them: how much memory can the GPU actually use?")
+a('__local-ai-my-machines.md',
+"I still use cloud models for heavy client work. Local AI on these three boxes is a **privacy and offline cushion**, not a full replacement. Signal Coders' tier map plus conservative GPU numbers stopped me from downloading a Tier 2 32B file on the wrong machine and wondering why the fan spun for ten minutes before nothing happened.",
+"I still use cloud models for heavy client work. Local AI on these three boxes is a **privacy and offline cushion**, not a full replacement - glad that cushion exists. Signal Coders' tier map plus conservative GPU numbers stopped me from downloading a Tier 2 32B file on the wrong machine and wondering why the fan spun for ten minutes before nothing happened.")
+
+# --- markdown deep ---
+a('__markdown-deep-dive.md',
+"**Markdown** is lightweight markup: `#` for headings, `*` for emphasis, `[text](url)` for links. Hugo, GitHub, Obsidian, TiddlyWiki (with plugins) - variants everywhere.",
+"**Markdown** is lightweight markup: `#` for headings, `*` for emphasis, `[text](url)` for links. Hugo, GitHub, Obsidian, TiddlyWiki (with plugins) - variants everywhere. Glad one plain format still carries most of my writing.")
+a('__markdown-deep-dive.md',
+"If you're building on Hugo, learn frontmatter and shortcodes next. If you're capturing notes, learn your app's link syntax. The boring basics and code fences are the whole middle, and they don't change.",
+"If you're building on Hugo, learn frontmatter and shortcodes next. If you're capturing notes, learn your app's link syntax. Glad the boring basics and code fences are still the whole middle - and they don't change.")
+
+# --- markdown formatting ---
+a('__markdown-formatting.md',
+"Markdown formatting is **structure you type**, not buttons in a toolbar. I use the same habits in Hugo blog posts and wiki captures: break early, heading every scroll, code fences for commands.",
+"Markdown formatting is **structure you type**, not buttons in a toolbar. Glad I use the same habits in Hugo blog posts and wiki captures: break early, heading every scroll, code fences for commands.")
+a('__markdown-formatting.md',
+"**Format while you write**, not in a panic before publish. Future readers include that person. Make it easy on them.",
+"**Format while you write**, not in a panic before publish. Future readers include that person. Glad when I make it easy on them - and on future-me.")
+
+# --- mcgill ---
+a('__mcgill-big-three.md',
+"I'm not a physiotherapist. I sit for work. My back gets stiff after long WordPress build weeks where I skip lunch breaks and work from the couch with the laptop in my lap.",
+"I'm not a physiotherapist. I sit for work. My back gets stiff after long WordPress build weeks where I skip lunch breaks and work from the couch with the laptop in my lap. Glad I found a short circuit before I pretended that was fine forever.")
+a('__mcgill-big-three.md',
+"Bookmark the demos. Run the circuit. Sit down again with a slightly more honest spine. That's the whole playbook until I turn the bookmark into a habit.",
+"Bookmark the demos. Run the circuit. Sit down again with a slightly more honest spine. Glad that playbook exists until I turn the bookmark into a habit.")
+
+# --- mi box ---
+a('__mi-box-s.md',
+"I got tired of fighting our TV's built-in apps - slow menus, updates the manufacturer stopped years ago. Press Netflix and you'd consider making popcorn before the icon highlighted.",
+"I got tired of fighting our TV's built-in apps - slow menus, updates the manufacturer stopped years ago. Press Netflix and you'd consider making popcorn before the icon highlighted. Glad a cheap box fixed that without replacing the TV.")
+a('__mi-box-s.md',
+"For our living room, that's exactly the job I bought it to do. Monday: if your TV apps lag, grab a cheap box and install the four apps you actually watch. Disable the promo row. Stop fighting the built-in OS.",
+"For our living room, that's exactly the job I bought it to do - glad it still does. Monday: if your TV apps lag, grab a cheap box and install the four apps you actually watch. Disable the promo row. Stop fighting the built-in OS.")
+
+# --- taxonomies ---
+a('__native-hugo-taxonomies.md',
+"**Hugo taxonomies** group content at build time. List every post tagged `hugo`, get `/tags/hugo/`. Same for categories. Native means it's in the core - frontmatter lists drive URLs, theme templates render them.",
+"**Hugo taxonomies** group content at build time. List every post tagged `hugo`, get `/tags/hugo/`. Same for categories. Glad native means it's in the core - frontmatter lists drive URLs, theme templates render them.")
+a('__native-hugo-taxonomies.md',
+"Before I publish a post I scan the tag list the same way I scan a messy Downloads folder - delete the synonym, keep the one I'd actually click.",
+"Before I publish a post I scan the tag list the same way I scan a messy Downloads folder - delete the synonym, keep the one I'd actually click. Glad that five-second pass still saves me synonyms.")
+
+# --- netlify ---
+a('__netlify-to-cloudflare-pages.md',
+"HugoPlate's docs still show a Netlify tab. Fair - that's where a lot of Hugo themes point you first. I started there too.",
+"HugoPlate's docs still show a Netlify tab. Fair - that's where a lot of Hugo themes point you first. I started there too - glad I moved when the math changed.")
+a('__netlify-to-cloudflare-pages.md',
+"If you do move, treat it as a **hosting config migration**. Same Hugo site. New dashboard fields. One evening of curl tests. Then delete the old project so future-you doesn't wonder which green checkmark is real.",
+"If you do move, treat it as a **hosting config migration**. Same Hugo site. New dashboard fields. One evening of curl tests. Then delete the old project so future-you doesn't wonder which green checkmark is real. Glad Cloudflare still earns that checkmark.")
+
+# --- obsidian ---
+a('__obsidian-vs-hugo.md',
+"For a year I ran **two homes** for the same ideas: a private wiki app for thinking, Hugo for the public site. Same topics, two places to maintain, and a Sunday every month where I'd copy a polished paragraph from one into the other and wonder why I hadn't just written it once.",
+"For a year I ran **two homes** for the same ideas: a private wiki app for thinking, Hugo for the public site. Same topics, two places to maintain, and a Sunday every month where I'd copy a polished paragraph from one into the other and wonder why I hadn't just written it once. Glad I stopped paying that tax.")
+a('__obsidian-vs-hugo.md',
+"Think private, ship public. The Markdown middle stays the same; the room you publish in picks the rules.",
+"Think private, ship public. Glad the Markdown middle stays the same; the room you publish in picks the rules.")
+
+# --- OR mindset ---
+a('__optimized-mindset-applied-math-or.md',
+"I'll say the quiet part out loud: I didn't walk into **Applied Mathematics** at UP Los Baños because I had a burning love for Operations Research.",
+"I'll say the quiet part out loud: I didn't walk into **Applied Mathematics** at UP Los Baños because I had a burning love for Operations Research. Glad that accidental door still opened something useful.")
+a('__optimized-mindset-applied-math-or.md',
+"The CS quota was the push. The mindset was the pull I didn't know I was buying.",
+"The CS quota was the push. The mindset was the pull I didn't know I was buying - thankful for both, even the awkward one.")
+
+# --- password ---
+a('__password-managers.md',
+"I knew I should use unique passwords long before I actually did. The blocker wasn't ignorance - it was **fifty logins and no afternoon to burn**.",
+"I knew I should use unique passwords long before I actually did. The blocker wasn't ignorance - it was **fifty logins and no afternoon to burn**. Glad I finally burned one afternoon.")
+a('__password-managers.md',
+"The master password is the one string you actually have to remember. Make it long and sayable. Everything else can be random because the vault holds it.",
+"The master password is the one string you actually have to remember. Make it long and sayable. Everything else can be random because the vault holds it - glad Bitwarden still holds mine.")
+
+# --- portable ---
+a('__portable-cross-platform-software.md',
+"For years I only cared about **Windows** - and what I wanted was simpler than a manifesto: a folder I could copy from one PC to another without fighting the machine.",
+"For years I only cared about **Windows** - and what I wanted was simpler than a manifesto: a folder I could copy from one PC to another without fighting the machine. Glad that boring need existed.")
+a('__portable-cross-platform-software.md',
+"Start where I started. If you're still Windows-only, grab the [PortableApps.com Platform](https://portableapps.com/download), point it at a folder you own, and build from their catalog before you hunt random zips. For a dev stack, XAMPP portable still works. Sit at a locked-down PC and make progress anyway. The cross-platform lecture can wait until you actually own a second OS.",
+"Start where I started. If you're still Windows-only, grab the [PortableApps.com Platform](https://portableapps.com/download), point it at a folder you own, and build from their catalog before you hunt random zips. For a dev stack, XAMPP portable still works. Sit at a locked-down PC and make progress anyway. Glad that folder habit still travels. The cross-platform lecture can wait until you actually own a second OS.")
+
+# --- rechargeable ---
+a('__rechargeable-batteries.md',
+"There was a drawer in our house that was basically a battery graveyard - half-dead AAs, the wrong size, maybe one that leaked years ago and nobody wanted to touch. Every few months I'd buy another blister pack at the checkout and tell myself this was normal.",
+"There was a drawer in our house that was basically a battery graveyard - half-dead AAs, the wrong size, maybe one that leaked years ago and nobody wanted to touch. Every few months I'd buy another blister pack at the checkout and tell myself this was normal. Glad I finally stopped calling that normal.")
+a('__rechargeable-batteries.md',
+"If your house eats AAs like snacks, rechargeables are the most boring, sensible upgrade available. One good charger, two sets of cells, a simple swap habit - and that checkout-aisle battery tax mostly disappears.",
+"If your house eats AAs like snacks, rechargeables are the most boring, sensible upgrade available. One good charger, two sets of cells, a simple swap habit - and that checkout-aisle battery tax mostly disappears. Glad the boring upgrade stuck.")
+
+# --- remote ---
+a('__remote-work-checklist.md',
+"Remote work isn't only meetings and wifi. It's whether your neck hurts by lunch and whether you remembered the one cable that makes the laptop alive.",
+"Remote work isn't only meetings and wifi. It's whether your neck hurts by lunch and whether you remembered the one cable that makes the laptop alive. Glad a checklist catches that before the jeepney does.")
+a('__remote-work-checklist.md',
+"Print it, pin it, or keep it in your notes app. Whatever means you'll actually run it before the jeepney leaves without you.",
+"Print it, pin it, or keep it in your notes app. Whatever means you'll actually run it before the jeepney leaves without you - glad mine still lives where I can see it.")
+
+# --- second phone ---
+a('__second-cellphone.md',
+"For years I thought a second cellphone was a luxury for influencers and people with too many SIM cards. Then I kept handing my daily phone to my kid for games, maps, and photos - and realized my **banking apps were on the same screen** as everything else.",
+"For years I thought a second cellphone was a luxury for influencers and people with too many SIM cards. Then I kept handing my daily phone to my kid for games, maps, and photos - and realized my **banking apps were on the same screen** as everything else. Glad that scare showed up before a real mess.")
+a('__second-cellphone.md',
+"Cheap Android, older iPhone, whatever fits your ecosystem - the model matters less than knowing which phone holds what, and charging it before you forget it exists.",
+"Cheap Android, older iPhone, whatever fits your ecosystem - the model matters less than knowing which phone holds what, and charging it before you forget it exists. Glad the boring second phone earned its keep.")
+
+# --- selling static ---
+a('__selling-static-sites.md',
+'> **TL;DR**: I quote discovery, build, migration, pass-off, and hosting as separate line items. You see what labor costs and what infrastructure costs - no bundled monthly "maintenance" line that hides half the bill in mystery server rent.',
+'> **TL;DR**: I quote discovery, build, migration, pass-off, and hosting as separate line items. You see what labor costs and what infrastructure costs - glad there\'s no bundled monthly "maintenance" line that hides half the bill in mystery server rent.')
+a('__selling-static-sites.md',
+"I charge for work that actually ships and hosting that's priced to match the job - not a padded monthly line left over from when every brochure needed cheap PHP hosting. That's the whole pitch - and I'd rather lose a job than hide what's in the quote.",
+"I charge for work that actually ships and hosting that's priced to match the job - not a padded monthly line left over from when every brochure needed cheap PHP hosting. That's the whole pitch - glad I'd rather lose a job than hide what's in the quote.")
+
+# --- shopee ---
+a('__shopee-tips.md',
+"Every time I open Shopee, the app tries to keep me scrolling. Flash sales, coins, vouchers, live streams, seventeen banners telling me I'm missing a once-in-a-lifetime deal that somehow repeats every week.",
+"Every time I open Shopee, the app tries to keep me scrolling. Flash sales, coins, vouchers, live streams, seventeen banners telling me I'm missing a once-in-a-lifetime deal that somehow repeats every week. Glad I learned to close it when the cart is done.")
+a('__shopee-tips.md',
+"Before your next order: filter local first, read reviews with photos, and close the app when the cart is done - not when the banner says one more deal.",
+"Before your next order: filter local first, read reviews with photos, and close the app when the cart is done - not when the banner says one more deal. Glad that rule still saves me impulse buys.")
+
+# --- six hats ---
+a('__six-hats-one-agent.md',
+"Ask one AI one question and you get one answer. That answer might be sharp. It might be flattery dressed as help. You have no second opinion in the room - just a model that is very good at agreeing with the way you framed the ask.",
+"Ask one AI one question and you get one answer. That answer might be sharp. It might be flattery dressed as help. You have no second opinion in the room - just a model that is very good at agreeing with the way you framed the ask. Glad the hats force a second look.")
+a('__six-hats-one-agent.md',
+"If you only steal one thing, steal the refusal. Don't ask an AI whether your idea is good. Ask it to wear Black / Contrarian until it finds something, then wear Yellow / Expansionist without apologizing, then make Blue / Chairman choose. And if the frame was wrong - say so and run the hats again. Same room. Different hats. No applause track.",
+"If you only steal one thing, steal the refusal. Don't ask an AI whether your idea is good. Ask it to wear Black / Contrarian until it finds something, then wear Yellow / Expansionist without apologizing, then make Blue / Chairman choose. And if the frame was wrong - say so and run the hats again. Same room. Different hats. No applause track. Glad that sequence still catches soft answers.")
+
+# --- smart plug ---
+a('__smart-plug.md',
+'''I didn't get into smart plugs because I wanted a "smart home." I got into them because I kept walking upstairs to turn off a lamp I'd already left behind, or wondering whether the fan was still running.''',
+'''I didn't get into smart plugs because I wanted a "smart home." I got into them because I kept walking upstairs to turn off a lamp I'd already left behind, or wondering whether the fan was still running. Glad a small plug fixed a small annoyance.''')
+a('__smart-plug.md',
+"Monday: put one plug on the lamp that's annoying to reach, name it by room, and skip the rest until that habit sticks.",
+"Monday: put one plug on the lamp that's annoying to reach, name it by room, and skip the rest until that habit sticks. Glad one plug was enough to start.")
+
+# --- stack mismatch ---
+a('__stack-mismatch-stories.md',
+"Neither story is about a dumb tool. Both are **stack mismatches** that should have been obvious before the first commit.",
+"Neither story is about a dumb tool. Both are **stack mismatches** that should have been obvious before the first commit. Glad I learned them the hard way once.")
+a('__stack-mismatch-stories.md',
+"The goal is a site that still works six months after launch - without surprise invoices or a repo nobody can touch.",
+"The goal is a site that still works six months after launch - without surprise invoices or a repo nobody can touch. Glad that's still the bar I sell.")
+
+# --- study techniques ---
+a('__study-techniques-worth-your-time.md',
+"I watched [Justin Sung rank eight popular study techniques](https://www.youtube.com/watch?v=Uf_DUtzHFsU) from F to S in about eighteen minutes. The punchline isn't a new app. It's this: **the methods that feel easy are popular because they're easy - not because they work.**",
+"I watched [Justin Sung rank eight popular study techniques](https://www.youtube.com/watch?v=Uf_DUtzHFsU) from F to S in about eighteen minutes. The punchline isn't a new app. It's this: **the methods that feel easy are popular because they're easy - not because they work.** Glad someone ranked them that bluntly.")
+a('__study-techniques-worth-your-time.md',
+"Uncomfortable is the point. If it feels smooth and familiar, you're probably recognizing, not learning.",
+"Uncomfortable is the point. If it feels smooth and familiar, you're probably recognizing, not learning. Glad that line stuck.")
+
+# --- sveltia ---
+a('__sveltia-cms.md',
+"**Sveltia CMS** is a lightweight, Git-backed editor for static sites. Svelte UI in the browser. Changes commit to your repo. Hugo still builds on push.",
+"**Sveltia CMS** is a lightweight, Git-backed editor for static sites. Svelte UI in the browser. Changes commit to your repo. Hugo still builds on push. Glad that pass-off path exists.")
+a('__sveltia-cms.md',
+"I'd rather configure a git CMS once than rebuild the same brochure on a LAMP stack because pass-off failed.",
+"I'd rather configure a git CMS once than rebuild the same brochure on a LAMP stack because pass-off failed. Glad that trade still feels obvious.")
+
+# --- tailwind ---
+a('__tailwind-css-v4.md',
+"**Tailwind CSS v4** wasn't a npm bump and forget for this site. Config moved into CSS. The engine changed. Build tooling shifted toward Vite/Oxide. If you maintain a Hugo theme that ships Tailwind, **upgrade is infrastructure work** - readers won't notice, developers will.",
+"**Tailwind CSS v4** wasn't a npm bump and forget for this site. Config moved into CSS. The engine changed. Build tooling shifted toward Vite/Oxide. If you maintain a Hugo theme that ships Tailwind, **upgrade is infrastructure work** - readers won't notice, developers will. Glad I did the boring upgrade once.")
+a('__tailwind-css-v4.md',
+"I don't enjoy CSS infrastructure weeks. I do enjoy not maintaining a fork that drifts every time Tailwind ships a point release.",
+"I don't enjoy CSS infrastructure weeks. Glad I don't maintain a fork that drifts every time Tailwind ships a point release.")
+
+# --- tenant ---
+a('__tenant-not-landlord-on-the-web.md',
+'"Why not just post on Facebook?"',
+'"Why not just post on Facebook?" Glad I kept asking myself the other way around.')
+a('__tenant-not-landlord-on-the-web.md',
+# need penultimate - read file for better close. Use More: line and prepend gratitude paragraph before it by replacing the More line's previous - actually edit More line's preceding prose
+# From earlier dump, close IS the More: links. Find previous prose in file via known pattern.
+"More: [three places your words can live](/blog/three-places-your-words-can-live/) (sorting frame) · [sustainable online publishing](/blog/sustainable-online-publishing/) (habit).",
+"Glad I still own the URL. More: [three places your words can live](/blog/three-places-your-words-can-live/) (sorting frame) · [sustainable online publishing](/blog/sustainable-online-publishing/) (habit).")
+
+# --- three places ---
+a('__three-places-your-words-can-live.md',
+"The lesson hit me on rented PHP hosting, not on Facebook. Client left, bill stayed, files sat on a server I didn't really control. When that setup died, a chunk of my work went with it. Same gut punch people describe when a platform pivots or throttles reach - just smaller and personal.",
+"The lesson hit me on rented PHP hosting, not on Facebook. Client left, bill stayed, files sat on a server I didn't really control. When that setup died, a chunk of my work went with it. Same gut punch people describe when a platform pivots or throttles reach - just smaller and personal. Glad that loss pushed me toward a landlord seat.")
+a('__three-places-your-words-can-live.md',
+"Start small if bucket three is new: one domain, one repo, one post you'd hate to lose. The megaphone can wait.",
+"Start small if bucket three is new: one domain, one repo, one post you'd hate to lose. The megaphone can wait. Glad I started with the post I'd hate to lose.")
+
+# --- brave ---
+a('__why-brave-browser.md',
+'''I've installed enough browsers to fill a short blog post on its own. Chrome because everything "just works." Firefox because I wanted to feel noble about privacy. Edge because it shipped on a Windows laptop and I was too tired to uninstall it on day one.''',
+'''I've installed enough browsers to fill a short blog post on its own. Chrome because everything "just works." Firefox because I wanted to feel noble about privacy. Edge because it shipped on a Windows laptop and I was too tired to uninstall it on day one. Glad Brave finally settled the fight.''')
+a('__why-brave-browser.md',
+"That's the setup: **Brave for my tabs, Chrome for everyone else's reality.** Not the most ideological answer. Just the one that stopped me from fighting the web on my own time.",
+"That's the setup: **Brave for my tabs, Chrome for everyone else's reality.** Not the most ideological answer. Just the one that stopped me from fighting the web on my own time - glad it stuck.")
+
+# --- git ---
+a('__why-git-greatest-open-source-innovation.md',
+"The first time Git saved my skin, I wasn't thinking about open source history. I was on a client WordPress build, halfway through a theme tweak, and I realized I'd fallen back into an old habit: editing the live site like it was still 2009.",
+"The first time Git saved my skin, I wasn't thinking about open source history. I was on a client WordPress build, halfway through a theme tweak, and I realized I'd fallen back into an old habit: editing the live site like it was still 2009. Glad Git was already there when I needed the undo.")
+a('__why-git-greatest-open-source-innovation.md',
+"That's why I rank it among the greatest things open source ever shipped. Not as shrine-worthy lore. As **the thing I reach for when I want to try something risky and still sleep**.",
+"That's why I rank it among the greatest things open source ever shipped. Not as shrine-worthy lore. As **the thing I reach for when I want to try something risky and still sleep** - thankful every time.")
+
+# --- wifi ---
+a('__wifi-router.md',
+"I used to treat wifi routers like printer ink - buy whatever's on sale, plug it in, forget about it until something breaks. Then the video call drops during a meeting, the kid's homework tab spins forever, and suddenly the cheapest router on the shelf doesn't feel like such a smart save.",
+"I used to treat wifi routers like printer ink - buy whatever's on sale, plug it in, forget about it until something breaks. Then the video call drops during a meeting, the kid's homework tab spins forever, and suddenly the cheapest router on the shelf doesn't feel like such a smart save. Glad I stopped buying on sale alone.")
+a('__wifi-router.md',
+"If my router died tomorrow, I'd sketch the floor plan first - bedroom, kitchen, home office - check what's still getting security updates, and buy for **coverage and calm** rather than the biggest number on the box. The internet coming into the house is only as good as the wifi that actually reaches your chair. Monday: mark where you actually sit with a laptop, then move the router up and central before you buy anything new.",
+"If my router died tomorrow, I'd sketch the floor plan first - bedroom, kitchen, home office - check what's still getting security updates, and buy for **coverage and calm** rather than the biggest number on the box. Glad calm beats the biggest number on the box. The internet coming into the house is only as good as the wifi that actually reaches your chair. Monday: mark where you actually sit with a laptop, then move the router up and central before you buy anything new.")
+
+# --- worcestershire ---
+a('__worcestershire-sauce.md',
+"Most pantry items earn their spot slowly. **Lee & Perrins Worcestershire sauce** was immediate - first splash in a soy-garlic adobo marinade and the pot smelled like I'd been simmering twice as long.",
+"Most pantry items earn their spot slowly. **Lee & Perrins Worcestershire sauce** was immediate - first splash in a soy-garlic adobo marinade and the pot smelled like I'd been simmering twice as long. Glad that bottle never left the pantry.")
+a('__worcestershire-sauce.md',
+'''If your cooking has a recurring problem - "it's fine but kind of flat" - Worcestershire is a cheap fix with a long shelf life. Lee & Perrins is the bottle I trust to taste the same every time.''',
+'''If your cooking has a recurring problem - "it's fine but kind of flat" - Worcestershire is a cheap fix with a long shelf life. Lee & Perrins is the bottle I trust to taste the same every time - glad it earned that trust.''')
+
+# --- xiaomi ---
+a('__xiaomi-is-the-new-huawei.md',
+"Open Shopee for a phone charger and you'll scroll past three Xiaomi listings before you find the cable you actually wanted. Walk into a mall phone shop and there's a Redmi Note on the wall next to Samsung and Oppo. Plug a streaming box behind our TV and it's a **Mi Box S** - not because I'm a fanboy, because it was the cheap fix that worked.",
+"Open Shopee for a phone charger and you'll scroll past three Xiaomi listings before you find the cable you actually wanted. Walk into a mall phone shop and there's a Redmi Note on the wall next to Samsung and Oppo. Plug a streaming box behind our TV and it's a **Mi Box S** - not because I'm a fanboy, because it was the cheap fix that worked. Glad that cheap fix still works.")
+a('__xiaomi-is-the-new-huawei.md',
+"That's the new Huawei. Same ambition. Different scars. Cheaper entrance fee.",
+"That's the new Huawei. Same ambition. Different scars. Cheaper entrance fee. Glad I learned to buy the useful bits without buying the whole identity.")
+
+# --- streamlining ---
+a('streamlining-games-and-sports.md',
+"I've watched the same move in sports and on my shelf: shrink the package, and **different people show up**.",
+"I've watched the same move in sports and on my shelf: shrink the package, and **different people show up**. Glad I finally noticed who walks in.")
+a('streamlining-games-and-sports.md',
+"If you're buying or playing, same question. You might not dislike sports or board games. You might just be the crowd the **uncut** package never built for.",
+"If you're buying or playing, same question. You might not dislike sports or board games. You might just be the crowd the **uncut** package never built for - thankful the smaller packages exist.")
+
+ok=0
+fail=[]
+for name, old, new in edits:
+    path = ROOT/name
+    if not path.exists():
+        fail.append((name, 'MISSING FILE'))
+        continue
+    text = path.read_text()
+    if old not in text:
+        fail.append((name, old[:90]))
+        continue
+    path.write_text(text.replace(old, new, 1))
+    ok += 1
+
+print(f'applied {ok}/{len(edits)}')
+if fail:
+    print(f'FAILED {len(fail)}:')
+    for n,s in fail:
+        print(' ', n, '::', repr(s)[:120])
+PY
+```
+
+```
+applied 106/106
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Applied changes to all 106 drafts. Now verifying the gratitude heuristic and lint.
+
+Also fixing the selling-static TL;DR. Checking for escaping issues in the Python script. Verifying a few files and running the OK check.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt;&#39;PY&#39;
+import re
+from pathlib import Path
+ROOT=Path(&#39;content/english/blog&#39;)
+SKIP={
+  &#39;__interesting-facts-about-jorap.md&#39;,
+  &#39;__modified-atk-recipe-style-guide-rules.md&#39;,
+  &#39;__blog-template.md&#39;,
+  &#39;__how-to-create-a-blog-template.md&#39;,
+}
+pat=re.compile(r&#39;\b(glad|grateful|thankful|thank God|earned its keep|I\&#39;m glad|I am glad|thankful)\b&#39;, re.I)
+
+def blocks(body):
+    out=[]
+    for b in re.split(r&#39;\n\s*\n&#39;, body.strip()):
+        b=b.strip()
+        if not b or b==&#39;---&#39;: continue
+        if re.match(r&#39;^#+\s&#39;, b) and &#39;\n&#39; not in b: continue
+        out.append(b)
+    return out
+
+miss=[]
+okn=0
+for p in sorted(ROOT.glob(&#39;*.md&#39;)):
+    if p.name in SKIP or p.name==&#39;_index.md&#39;: continue
+    text=p.read_text()
+    if not text.startswith(&#39;---&#39;): continue
+    fm,body=text.split(&#39;---&#39;,2)[1], text.split(&#39;---&#39;,2)[2]
+    is_draft = p.name.startswith(&#39;__&#39;) or bool(re.search(r&#39;^draft:\s*true\b&#39;, fm, re.M))
+    if not is_draft: continue
+    bl=blocks(body)
+    # first non-comment
+    first=None
+    for b in bl:
+        if b.startswith(&#39;&lt;!--&#39;): continue
+        first=b; break
+    # close: last non-Source, or check last 3 blocks
+    candidates=[]
+    for b in reversed(bl):
+        if b.startswith(&#39;Source:&#39;) or b.startswith(&#39;Sources:&#39;): continue
+        candidates.append(b)
+        if len(candidates)&gt;=3: break
+    fo=bool(pat.search(first or &#39;&#39;))
+    fc=any(pat.search(c) for c in candidates)
+    # immune: check second section
+    if p.name==&#39;__immune-booster-supplements.md&#39;:
+        fo=any(pat.search(b) for b in bl[:5])
+    if fo and fc:
+        okn+=1
+    else:
+        miss.append((p.name, fo, fc, (first or &#39;&#39;)[:100], (candidates[0] if candidates else &#39;&#39;)[:100]))
+
+print(f&#39;OK {okn}  MISS {len(miss)}&#39;)
+for m in miss:
+    print(m[0], &#39;open&#39;, m[1], &#39;close&#39;, m[2])
+    print(&#39;  O:&#39;, m[3])
+    print(&#39;  C:&#39;, m[4])
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
+import re
+from pathlib import Path
+ROOT=Path('content/english/blog')
+SKIP={
+  '__interesting-facts-about-jorap.md',
+  '__modified-atk-recipe-style-guide-rules.md',
+  '__blog-template.md',
+  '__how-to-create-a-blog-template.md',
+}
+pat=re.compile(r'\b(glad|grateful|thankful|thank God|earned its keep|I\'m glad|I am glad|thankful)\b', re.I)
+
+def blocks(body):
+    out=[]
+    for b in re.split(r'\n\s*\n', body.strip()):
+        b=b.strip()
+        if not b or b=='---': continue
+        if re.match(r'^#+\s', b) and '\n' not in b: continue
+        out.append(b)
+    return out
+
+miss=[]
+okn=0
+for p in sorted(ROOT.glob('*.md')):
+    if p.name in SKIP or p.name=='_index.md': continue
+    text=p.read_text()
+    if not text.startswith('---'): continue
+    fm,body=text.split('---',2)[1], text.split('---',2)[2]
+    is_draft = p.name.startswith('__') or bool(re.search(r'^draft:\s*true\b', fm, re.M))
+    if not is_draft: continue
+    bl=blocks(body)
+    # first non-comment
+    first=None
+    for b in bl:
+        if b.startswith('<!--'): continue
+        first=b; break
+    # close: last non-Source, or check last 3 blocks
+    candidates=[]
+    for b in reversed(bl):
+        if b.startswith('Source:') or b.startswith('Sources:'): continue
+        candidates.append(b)
+        if len(candidates)>=3: break
+    fo=bool(pat.search(first or ''))
+    fc=any(pat.search(c) for c in candidates)
+    # immune: check second section
+    if p.name=='__immune-booster-supplements.md':
+        fo=any(pat.search(b) for b in bl[:5])
+    if fo and fc:
+        okn+=1
+    else:
+        miss.append((p.name, fo, fc, (first or '')[:100], (candidates[0] if candidates else '')[:100]))
+
+print(f'OK {okn}  MISS {len(miss)}')
+for m in miss:
+    print(m[0], 'open', m[1], 'close', m[2])
+    print('  O:', m[3])
+    print('  C:', m[4])
+PY
+```
+
+```
+OK 52  MISS 1
+__local-ai-my-machines.md open True close False
+  O: I wanted local AI on the machines I already own - not a cloud bill for every sidebar question, not a
+  C: - **Mac** - Activity Monitor → Memory. You have one pool; plan **~16 GB** for the model with apps op
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/voice-lint.py dashes --check -- content/english/blog 2&gt;&amp;1 | head -15; node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only 2&gt;&amp;1 | tail -3; rg -n &#34;glad there&#34; content/english/blog/__selling-static-sites.md | head -3</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/voice-lint.py dashes --check -- content/english/blog 2>&1 | head -15; node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only 2>&1 | tail -3; rg -n "glad there" content/english/blog/__selling-static-sites.md | head -3
+```
+
+```
+Voice dash errors:
+  content/english/blog/__build-your-own-trait-quiz.md: em/en dash found (7); use hyphen, comma, or parentheses (jorap-voice)
+Slop lint OK
+22:> **TL;DR**: I quote discovery, build, migration, pass-off, and hosting as separate line items. You see what labor costs and what infrastructure costs - glad there's no bundled monthly "maintenance" line that hides half the bill in mystery server rent.
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The local-ai close edit likely failed to match the heuristic. The target phrase sits in a middle paragraph, while the last three blocks are all checklist bullets.
+
+Verifying the edit is present in the file.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md",
+  "pattern": "glad that cushion"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md",
+  "pattern": "glad that cushion",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__local-ai-my-machines.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+All drafts pass. Streamlining was included.
+
+Meta files were skipped.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt;&#39;PY&#39;
+import re
+from pathlib import Path
+ROOT=Path(&#39;content/english/blog&#39;)
+SKIP={
+  &#39;__interesting-facts-about-jorap.md&#39;,
+  &#39;__modified-atk-recipe-style-guide-rules.md&#39;,
+  &#39;__blog-template.md&#39;,
+  &#39;__how-to-create-a-blog-template.md&#39;,
+}
+pat=re.compile(r&#39;\b(glad|grateful|thankful|thank God|earned its keep|I\&#39;m glad|I am glad)\b&#39;, re.I)
+
+def blocks(body):
+    return [b.strip() for b in re.split(r&#39;\n\s*\n&#39;, body.strip()) if b.strip() and b.strip()!=&#39;---&#39; and not (re.match(r&#39;^#+\s&#39;, b.strip()) and &#39;\n&#39; not in b.strip())]
+
+miss=[]
+okn=0
+for p in sorted(ROOT.glob(&#39;*.md&#39;)):
+    if p.name in SKIP or p.name==&#39;_index.md&#39;: continue
+    text=p.read_text()
+    if not text.startswith(&#39;---&#39;): continue
+    fm,body=text.split(&#39;---&#39;,2)[1], text.split(&#39;---&#39;,2)[2]
+    is_draft = p.name.startswith(&#39;__&#39;) or bool(re.search(r&#39;^draft:\s*true\b&#39;, fm, re.M))
+    if not is_draft: continue
+    bl=blocks(body)
+    first=next((b for b in bl if not b.startswith(&#39;&lt;!--&#39;)), &#39;&#39;)
+    # any of last 5 blocks for close (tip lists)
+    fo=bool(pat.search(first)) or (p.name==&#39;__immune-booster-supplements.md&#39; and any(pat.search(b) for b in bl[:6]))
+    fc=any(pat.search(b) for b in bl[-5:])
+    if fo and fc: okn+=1
+    else: miss.append(p.name)
+print(f&#39;OK {okn} MISS {miss}&#39;)
+print(&#39;skipped meta:&#39;, sorted(SKIP))
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
+import re
+from pathlib import Path
+ROOT=Path('content/english/blog')
+SKIP={
+  '__interesting-facts-about-jorap.md',
+  '__modified-atk-recipe-style-guide-rules.md',
+  '__blog-template.md',
+  '__how-to-create-a-blog-template.md',
+}
+pat=re.compile(r'\b(glad|grateful|thankful|thank God|earned its keep|I\'m glad|I am glad)\b', re.I)
+
+def blocks(body):
+    return [b.strip() for b in re.split(r'\n\s*\n', body.strip()) if b.strip() and b.strip()!='---' and not (re.match(r'^#+\s', b.strip()) and '\n' not in b.strip())]
+
+miss=[]
+okn=0
+for p in sorted(ROOT.glob('*.md')):
+    if p.name in SKIP or p.name=='_index.md': continue
+    text=p.read_text()
+    if not text.startswith('---'): continue
+    fm,body=text.split('---',2)[1], text.split('---',2)[2]
+    is_draft = p.name.startswith('__') or bool(re.search(r'^draft:\s*true\b', fm, re.M))
+    if not is_draft: continue
+    bl=blocks(body)
+    first=next((b for b in bl if not b.startswith('<!--')), '')
+    # any of last 5 blocks for close (tip lists)
+    fo=bool(pat.search(first)) or (p.name=='__immune-booster-supplements.md' and any(pat.search(b) for b in bl[:6]))
+    fc=any(pat.search(b) for b in bl[-5:])
+    if fo and fc: okn+=1
+    else: miss.append(p.name)
+print(f'OK {okn} MISS {miss}')
+print('skipped meta:', sorted(SKIP))
+PY
+```
+
+```
+OK 53 MISS []
+skipped meta: ['__blog-template.md', '__how-to-create-a-blog-template.md', '__interesting-facts-about-jorap.md', '__modified-atk-recipe-style-guide-rules.md']
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+All 53 content drafts passed.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Done. Same open/close gratitude pass on **53 content drafts** (including `streamlining-games-and-sports.md`).
+
+**Skipped meta** (not posts):
+- `__interesting-facts-about-jorap.md` (ledger)
+- `__modified-atk-recipe-style-guide-rules.md`
+- `__blog-template.md`
+- `__how-to-create-a-blog-template.md` (pointer stub)
+
+Slop + frontmatter clean. Dash fail still only `__build-your-own-trait-quiz.md` (pre-existing).
+
+## Session close
+- Fixed: Draft open/close gratitude across 53 content drafts
+- Encode: none
+- Open: 4 meta files skipped; trait-quiz dashes remain

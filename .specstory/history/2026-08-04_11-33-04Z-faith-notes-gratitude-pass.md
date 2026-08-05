@@ -422,3 +422,423 @@ I will dump all current examples into a file first. Then I will batch-craft the 
 _**Agent (composer-2.5-fast)**_
 
 Dumping all current examples, then applying hand-crafted gratitude edits in batch.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39; &gt; /tmp/faith_examples.txt
+import re
+from pathlib import Path
+files = &#34;&#34;&#34;abide-in-me ask-seek-knock assurance bear-each-others-burdens break-the-escalation-cycle by-their-fruits childlike-faith christianity-and-politics christlikeness come-to-me-weary confess-to-one-another count-the-cost discern-his-will-daily discipleship-vs-leadership discipleship dont-copy-the-pattern dont-worry eternal-rewards faith-and-works faithful-steward faithfulness father-forgive-them follow-christ-then-lead forgiveness-at-work forgiveness free-grace gentleness glorify-your-name god-centered-design golden-rule-at-work goodness grace great-commission guard-your-heart heart-righteousness humility-and-service integrity-without-an-audience into-your-hands invest-in-the-few iron-sharpens-iron it-is-written joy judge-not judgment-seat justification kindness kingdom-on-the-road law-of-addition law-of-buy-in law-of-connection law-of-empowerment law-of-explosive-growth law-of-influence law-of-intuition law-of-legacy law-of-magnetism law-of-navigation law-of-priorities law-of-process law-of-respect law-of-sacrifice law-of-solid-ground law-of-the-big-mo law-of-the-inner-circle law-of-the-lid law-of-the-picture law-of-timing law-of-victory let-your-light-shine let-your-yes-be-yes loss-of-reward love-god love-your-enemies love-your-neighbor love many-parts-one-body mercy moved-with-compassion not-my-will opened-scripture outcomes-over-pitch-decks patience peace peacemakers plain-commitments-at-work pray-before-you-choose pray-for-his-own pray-when-drained present-a-living-sacrifice priorities-before-the-inbox read-in-synagogue reconcile-before-the-review reconciliation-before-worship render-unto-caesar renewed-mind repent-and-believe sabbath-for-good sanctification secret-devotion seek-the-kingdom-first servant-leadership share-what-you-learn standing-vs-fellowship steward-after-the-win success-is-stewardship table-fellowship take-up-your-cross the-beatitudes the-fathers-food the-golden-rule the-narrow-way the-wise-builder treasure-in-heaven trust-god-for-today turn-the-other-cheek walk-by-the-spirit withdraw-to-pray words-that-build-up&#34;&#34;&#34;.split()
+base = Path(&#34;content/english/notes&#34;)
+for f in files:
+    text = (base / f&#34;{f}.md&#34;).read_text()
+    m = re.search(r&#39;^examples:\n((?:  - .+\n)+)&#39;, text, re.MULTILINE)
+    examples = re.findall(r&#39;  - &#34;(.+)&#34;&#39;, m.group(1))
+    print(f&#34;=== {f} ===&#34;)
+    print(f&#34;OLD0|{examples[0]}&#34;)
+    print(f&#34;OLD1|{examples[1]}&#34;)
+PYEOF
+wc -l /tmp/faith_examples.txt</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF' > /tmp/faith_examples.txt
+import re
+from pathlib import Path
+files = """abide-in-me ask-seek-knock assurance bear-each-others-burdens break-the-escalation-cycle by-their-fruits childlike-faith christianity-and-politics christlikeness come-to-me-weary confess-to-one-another count-the-cost discern-his-will-daily discipleship-vs-leadership discipleship dont-copy-the-pattern dont-worry eternal-rewards faith-and-works faithful-steward faithfulness father-forgive-them follow-christ-then-lead forgiveness-at-work forgiveness free-grace gentleness glorify-your-name god-centered-design golden-rule-at-work goodness grace great-commission guard-your-heart heart-righteousness humility-and-service integrity-without-an-audience into-your-hands invest-in-the-few iron-sharpens-iron it-is-written joy judge-not judgment-seat justification kindness kingdom-on-the-road law-of-addition law-of-buy-in law-of-connection law-of-empowerment law-of-explosive-growth law-of-influence law-of-intuition law-of-legacy law-of-magnetism law-of-navigation law-of-priorities law-of-process law-of-respect law-of-sacrifice law-of-solid-ground law-of-the-big-mo law-of-the-inner-circle law-of-the-lid law-of-the-picture law-of-timing law-of-victory let-your-light-shine let-your-yes-be-yes loss-of-reward love-god love-your-enemies love-your-neighbor love many-parts-one-body mercy moved-with-compassion not-my-will opened-scripture outcomes-over-pitch-decks patience peace peacemakers plain-commitments-at-work pray-before-you-choose pray-for-his-own pray-when-drained present-a-living-sacrifice priorities-before-the-inbox read-in-synagogue reconcile-before-the-review reconciliation-before-worship render-unto-caesar renewed-mind repent-and-believe sabbath-for-good sanctification secret-devotion seek-the-kingdom-first servant-leadership share-what-you-learn standing-vs-fellowship steward-after-the-win success-is-stewardship table-fellowship take-up-your-cross the-beatitudes the-fathers-food the-golden-rule the-narrow-way the-wise-builder treasure-in-heaven trust-god-for-today turn-the-other-cheek walk-by-the-spirit withdraw-to-pray words-that-build-up""".split()
+base = Path("content/english/notes")
+for f in files:
+    text = (base / f"{f}.md").read_text()
+    m = re.search(r'^examples:\n((?:  - .+\n)+)', text, re.MULTILINE)
+    examples = re.findall(r'  - "(.+)"', m.group(1))
+    print(f"=== {f} ===")
+    print(f"OLD0|{examples[0]}")
+    print(f"OLD1|{examples[1]}")
+PYEOF
+wc -l /tmp/faith_examples.txt
+```
+
+```
+354 /tmp/faith_examples.txt
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading each file to locate examples lacking quiet gladness beats.
+
+Preparing a Python script to process all 118 files and generate the edit dictionary.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /tmp/faith_examples.txt</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+I am now writing new first examples for all 118 files, embedding quiet gladness beats.
+
+A Python script will apply all edits. The pattern is friction plus a glad beat—caught, saved, held, or taught. The first draft for abide-in-me uses a snap at the kid after a week without prayer, then glad opening the Bible before the news feed.
+
+Drafts for ask-seek-knock, assurance, and bear-each-others-burdens are ready. Ask-seek-knock uses a thumb-refresh habit that held during panic. Assurance uses a bad week and dread that God changed His mind, then glad rest on Christ’s promise. Bear-each-others-burdens uses a teammate under elder-care stress, a Tuesday errand run instead of a sermon, and gladness at one less crate.
+
+Break-the-escalation-cycle is drafted. A parent emailed the principal snarkily about a field-trip delay. The author deleted a matching draft. He answered the facts. He offered a new date. Gladness at stopping the reply-all war before it started. By-their-fruits is also drafted. A youth coach talks smooth on day one. Players look stressed and bitter by month three. Gladness at fruit telling more than any clinic title.
+
+Childlike-faith is drafted. A daughter asked for water without calculating earned status. Gladness at catching a merit scoreboard with God before saying good morning.
+
+Christianity-and-politics is drafted. A tax bill landed. Part of the author wanted to treat paying it as betraying the kingdom. Gladness at keeping lawful duty and ultimate worship distinct.
+
+Christlikeness is drafted. A temper loss at dinner was met with slower apology. Gladness at faith settling standing while God reshapes. Christlikeness is slow.
+
+Come-to-me-weary is drafted. Burnout pushed the author to outserve until collapse. Gladness at Matthew 11 rest arriving when he admitted weariness and opened the Bible without the hero badge.
+
+Confess-to-one-another is drafted. Anger streak was shared with an accountability brother before it destroyed the marriage. Gladness at James confession turning into prayer that night instead of a shame podcast.
+
+Count-the-cost is drafted. The author said yes to leading small group without counting Thursday nights against travel season. Gladness at Jesus’ builder image stopping him mid-wall in March.
+
+Discern-his-will-daily is drafted. Two job offers were weighed in group chat. Gladness at renewed mind choosing kingdom service over ego titles.
+
+Discipleship-vs-leadership is drafted. Morning prayer was skipped for a month while running the youth program like a CEO. Gladness at discipleship pulling back to who is followed when nobody is watching.
+
+Discipleship is drafted. The basketball handbook was known cold. Still the author yelled at the ref. Gladness at the coach’s actual lesson landing: discipleship is doing what was taught today, not memorizing policy.
+
+Drafts for dont-copy-the-pattern, dont-worry, and eternal-rewards are ready. The first uses a known verse on patience that still snapped at dinner, then gladness at opening the Bible before the group chat broke the world’s hurry-and-react script. The second uses thumb-refreshing the news instead of sleeping, then gladness at trust reminding worry cannot add an hour to life. The third uses staying late to help reset the gym alone and immediately wanting to mention it at the next practice, then gladness that the Father already saw it and pays, not the team chat.
+
+Drafts for faith-and-works, faithful-steward, and faithfulness are ready. The first uses a coworker quoting James on faith plus works; gladness at one sentence holding that faith alone opens the door. The second uses snack organization for a kid’s team; gladness at faithful stewardship meaning use what was given rather than burying it or seeking applause. The third uses one mission trip as the whole eternal report card; gladness at faithfulness fruit being steady use over years, including Tuesdays nobody clapped for.
+
+Drafts for father-forgive-them, follow-christ-then-lead, and forgiveness-at-work are ready. The first uses a nuclear reply hover after online slander; gladness at Father forgive them turning into prayer first. The second uses a finance edit request while the team watched; gladness at following Christ before leading meant refusing the softening, explaining calmly, and owning the fallout. The third uses a sister's sharp comment replayed at every family dinner until release; gladness at forgiving stopping the debt without pretending it did not hurt.
+
+Drafts for forgiveness, free-grace, and gentleness are ready. Forgiveness uses a grudge nursed at breakfast; gladness at releasing the debt held even when it still mattered. Free-grace uses a teammate listing monthly good deeds as a ticket to heaven; gladness at trusting Christ’s promise for eternal life, not a seasonal report card. Gentleness uses a correction with the kid that turned sharp; gladness at Galatians gentleness holding as strength under control, not force.
+
+Glorify-your-name is drafted. The author wanted the hard conversation to disappear and prayed for an easy out. Gladness at Jesus praying for the Father’s name to be glorified as the hour arrived.
+
+God-centered-design is drafted. The youth event looked great in parent photos but nobody prayed afterward. Gladness at cutting one performance block for small groups and Scripture.
+
+Golden-rule-at-work is drafted. The author’s draft reply to a new team manager was technically right yet needlessly harsh. Gladness at pausing, asking how he would want that correction on his worst game day, and rewriting it.
+
+Goodness is drafted. Extra water for the bench was almost posted about. Gladness at goodness fruit shining so someone thinks God is real, not so the brand grows.
+
+Grace is drafted. A teammate listed monthly good deeds as a ticket to heaven. Gladness at grace being the gift through faith, not a seasonal report card.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Writing and running batch edits for all 118 files.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /tmp/apply_gratitude_edits.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+I wrote a script to apply the gratitude edits to the note files. Now I need to run it.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/apply_gratitude_edits.py</summary>
+```bash
+python3 /tmp/apply_gratitude_edits.py
+```
+
+```
+Edited: 118
+Skipped: 0
+Errors: 0
+Traceback (most recent call last):
+  File "/tmp/apply_gratitude_edits.py", line 179, in <module>
+    PYEOF
+NameError: name 'PYEOF' is not defined
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The script successfully edited 118 files. A stray PYEOF error appeared at the end due to a write mistake.
+
+Verifying the edits. Fixing awkward wording in reconcile-before-the-review.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+118 files edited. Verifying gratitude beats and fixing awkward phrasing.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re
+from pathlib import Path
+files = list(Path(&#34;content/english/notes&#34;).glob(&#34;*.md&#34;))
+# only the faith list
+names = open(&#34;/tmp/faith_examples.txt&#34;).read()
+slugs = re.findall(r&#34;=== (\S+) ===&#34;, names)
+grat = re.compile(r&#39;\b(glad|grateful|thankful|relieved)\b&#39;, re.I)
+contr = re.compile(r&#34;\b(don&#39;t|it&#39;s|I&#39;m|we&#39;re|can&#39;t|won&#39;t|didn&#39;t|isn&#39;t|aren&#39;t)\b&#34;, re.I)
+emdash = re.compile(r&#39;—&#39;)
+missing = []
+no_grat = []
+bad = []
+for slug in slugs:
+    p = Path(f&#34;content/english/notes/{slug}.md&#34;)
+    text = p.read_text()
+    m = re.search(r&#39;^examples:\n((?:  - .+\n)+)&#39;, text, re.MULTILINE)
+    ex = re.findall(r&#39;  - &#34;(.+)&#34;&#39;, m.group(1))
+    if not any(grat.search(e) for e in ex):
+        no_grat.append(slug)
+    for e in ex:
+        if contr.search(e) or emdash.search(e):
+            bad.append((slug, e[:80]))
+print(f&#34;slugs: {len(slugs)}&#34;)
+print(f&#34;no gratitude: {len(no_grat)} {no_grat}&#34;)
+print(f&#34;contractions/emdash: {len(bad)}&#34;)
+for b in bad[:5]: print(b)
+PY
+grep
+-A1
+^examples:
+content/english/notes/reconcile-before-the-review.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+files = list(Path("content/english/notes").glob("*.md"))
+# only the faith list
+names = open("/tmp/faith_examples.txt").read()
+slugs = re.findall(r"=== (\S+) ===", names)
+grat = re.compile(r'\b(glad|grateful|thankful|relieved)\b', re.I)
+contr = re.compile(r"\b(don't|it's|I'm|we're|can't|won't|didn't|isn't|aren't)\b", re.I)
+emdash = re.compile(r'—')
+missing = []
+no_grat = []
+bad = []
+for slug in slugs:
+    p = Path(f"content/english/notes/{slug}.md")
+    text = p.read_text()
+    m = re.search(r'^examples:\n((?:  - .+\n)+)', text, re.MULTILINE)
+    ex = re.findall(r'  - "(.+)"', m.group(1))
+    if not any(grat.search(e) for e in ex):
+        no_grat.append(slug)
+    for e in ex:
+        if contr.search(e) or emdash.search(e):
+            bad.append((slug, e[:80]))
+print(f"slugs: {len(slugs)}")
+print(f"no gratitude: {len(no_grat)} {no_grat}")
+print(f"contractions/emdash: {len(bad)}")
+for b in bad[:5]: print(b)
+PY
+grep
+-A1
+^examples:
+content/english/notes/reconcile-before-the-review.md
+```
+
+```
+slugs: 118
+no gratitude: 0 []
+contractions/emdash: 0
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
+-A1: command not found
+^examples:: command not found
+--: line 32: content/english/notes/reconcile-before-the-review.md: Permission denied
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 118 files already contain gratitude. No contractions or em dashes were found.
+
+Correcting an awkward typo in reconcile-before-the-review.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md",
+  "pattern": "scout beat"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md",
+  "pattern": "scout beat",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reconcile-before-the-review.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 3,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md",
+  "pattern": "^examples:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md",
+  "pattern": "^examples:",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/abide-in-me.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing the reconcile-before-the-review example. The original line about fifteen minutes with him before sitting with the scout beat needs adjustment.
+
+The reconcile-before-the-review rewrite now uses "came first" instead of "beat hoping charts would smooth." The success-is-stewardship change from "would built" to "had built" is correct. Spot-checking remaining awkward examples.
+
+break-the-escalation-cycle and ask-seek-knock still need refinement. The ask-seek-knock rewrite is awkward. Reconcile-before-the-review is finalized.
+
+Finalized the ask-seek-knock rewrite. The break-the-escalation-cycle example is being tightened to remove redundant wording. Scanning for other obvious issues next.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Fixing mangled line in `reconcile-before-the-review.md` and scanning for other awkward edits.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/break-the-escalation-cycle.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Fixed a typo in share-what-you-learn.md, changing "I would figured" to "I had figured."
+
+Checked let-your-yes-be-yes and preserved its meaning by removing theatrical quotes. All 118 files were edited successfully; none were skipped and there were no errors. No commit was made.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a final count of skipped, edited, and errored files, plus any that could not be written.
+
+Task complete. The response will use caveman style, since this is a status report rather than garden-voice drafting.
+
+Session close is required because repository files were modified.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+## Count
+
+| | |
+|---|---|
+| **Edited** | 118 |
+| **Skipped** | 0 |
+| **Errors** | 0 |
+
+None had existing glad/grateful/thankful/relieved beat. All 118 got one on first `examples:` line (preferred).
+
+## Post-pass fixes (3)
+
+- `reconcile-before-the-review.md` - removed duplicate "scout beat beat"
+- `ask-seek-knock.md` - smoothed "dependence prayer" phrasing
+- `break-the-escalation-cycle.md` - fixed "and glad" grammar
+
+## Sample
+
+`abide-in-me.md` first example now:
+
+> I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went - glad opening the Bible before the news feed wins again is abiding, not a badge from conversion day.
+
+No commit.
+
+## Session close
+- Fixed: gratitude beat on all 118 faith-lane notes `examples` (first line)
+- Encode: none
+- Open: clean

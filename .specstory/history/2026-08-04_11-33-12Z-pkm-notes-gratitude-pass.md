@@ -461,5 +461,930 @@ Direct file edits will replace the first example line in each file with quiet gl
 
 Drafting replacements for active-reading.md and analog-capture-tools.md. Adjusting punctuation to hyphens or commas for better flow.
 
-Finished analog-capture-tools.md with a margin scribble survival line. Drafted anti-fragile-systems.md
+Finished analog-capture-tools.md with a margin scribble survival line. Drafted anti-fragile-systems.md around the paper training log. Moving to atomic-habits.md.
+
+Drafted atomic-habits.md with a morning-journal line. Added a basketball-shoes claim for atomic-notes.md. Started attention-economy.md.
+
+Finished attention-economy.md with a push-alerts line. Drafted block-recovery-time.md around skipped Wednesday walks. Started building-a-personal-api.md with a pantry snack example.
+
+Finished building-a-personal-api.md with a pantry rice line. Drafted building-a-second-brain.md around a voice memo caught before gym noise. Continuing through the remaining files.
+
+Settled on parallel StrReplace batches of roughly fifteen to twenty files. Defined strict formatting rules: no contractions, no em dashes, exactly two examples, and prefer the first example. Continuing to draft replacements for the remaining files.
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Batch-editing all 90 files — one example line each, preferring the first.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/active-knowledge-curation.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/active-reading.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/analog-capture-tools.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/anti-fragile-systems.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-habits.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/atomic-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/attention-economy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/block-recovery-time.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-personal-api.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cap-todays-commitments.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-pass-off.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/commonplace-book.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/community-depth.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/compounding.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Progress is good. Continuing with more files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/context-aware-capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/create.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/creative-blocks.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/creative-output.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cross-platform-software.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/daily-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/deep-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/depth-of-understanding.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-garden.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-minimalism.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-serendipity.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/drafting-in-public.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-vs-fleeting-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/execution.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+I mistakenly swapped the meaning while editing depth-of-understanding.md.
+
+The first example described the gap between defining Open Source at dinner and deploying it. The second described seeing how maintenance and security change after shipping a public Hugo theme fork. I incorrectly merged these two distinct scenes.
+
+Drafting the corrected first example for depth-of-understanding.md. Will continue with remaining files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/depth-of-understanding.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/first-principles-thinking.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-the-rhythm.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/freedom-over-free.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-tier-hosting-stack.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/future-proofing-knowledge.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gate-what-you-consume.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-things-done.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/git-based-cms.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/graph-view-analytics.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gtd-vs-para.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/habit-formation.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/habit-stacking.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/inbox-zero.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/information-diet.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing with the remaining files. Counting completed edits and remaining items.
+
+About 45 files are now complete. The list includes active-knowledge-curation, atomic-habits, deep-work, and many others.
+
+Another ~45 files remain. Recent completions include first-principles-thinking, follow-the-rhythm, and information-diet.
+
+The remaining files include inspectable-stack, lean-startup, para-method, and many others.
+
+The remaining files now include teachable-stack, the-12-week-year, the-collectors-fallacy, the-feynman-technique, the-garage-concept, the-knowledge-lifecycle, the-second-brain-workflow, the-trusted-inbox, there-is-no-perfect-solution, and weekly-review-checklists.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/inspectable-stack.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/intellectual-sourcing.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/layered-reading.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/learn-hireable-stacks.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/linking-by-meaning.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/literature-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/local-first-software.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/low-hanging-fruit.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maintenance-window.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mental-models.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/metadata-strategy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mind-mapping.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-effective-dose.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-viable-product.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mobile-capture-workflows.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Removed a contraction from the mobile-capture file.
+
+Checking whether the lean-startup file exists and contains examples. Continuing with the remaining files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 3,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/lean-startup.md",
+  "pattern": "^examples:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/lean-startup.md",
+  "pattern": "^examples:",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/lean-startup.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/network-analysis.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/open-not-maintained.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/periodic-knowledge-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/permission-scales.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/platform-reach-is-borrowed.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/portable-software.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/process-over-outcomes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/quarterly-planning.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing through the remaining files in the list.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 3,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/read-later-queue.md",
+  "pattern": "^examples:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/read-later-queue.md",
+  "pattern": "^examples:",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/read-later-queue.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/lean-startup.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reading-the-garden.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/say-no-to-nulled.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/selling-static-sites.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sharpen-each-others-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ship-it.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signature-move.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/slow-productivity.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/static-site-client-scope.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sunk-cost-fallacy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/synthesis-as-a-goal.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-smart-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The remaining twelve files are being processed: read-later-queue, taxonomy, teachable-stack, the-12-week-year, the-collectors-fallacy, the-feynman-technique, the-garage-concept, the-knowledge-lifecycle, the-second-brain-workflow, the-trusted-inbox, there-is-no-perfect-solution, and weekly-review-checklists.
+
+Cross-platform and Che files were verified. All 90 files from the daily-notes list are now checked.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/read-later-queue.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/taxonomy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/teachable-stack.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-12-week-year.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-collectors-fallacy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-feynman-technique.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-knowledge-lifecycle.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-second-brain-workflow.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/there-is-no-perfect-solution.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying that all 90 files from the list were edited.
+
+Tallying the 90 filenames from the user's list.
+
+The user's list contains 98 filenames, not 90. Re-parsing the full line to confirm the exact count.
+
+Running a shell script to verify all files exist and contain the required gratitude beats.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Verifying all listed files have gratitude markers and no missing files:
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; FILES=&#34;active-knowledge-curation active-reading analog-capture-tools anti-fragile-systems atomic-habits atomic-notes attention-economy block-recovery-time building-a-personal-api building-a-second-brain cap-todays-commitments client-site-pass-off commonplace-book community-depth compounding context-aware-capture create creative-blocks creative-output cross-platform-software daily-notes deep-work depth-of-understanding digital-garden digital-minimalism digital-serendipity drafting-in-public evergreen-notes evergreen-vs-fleeting-notes execution first-principles-thinking follow-the-rhythm free-tier-hosting-stack freedom-over-free future-proofing-knowledge gate-what-you-consume getting-things-done git-based-cms graph-view-analytics gtd-vs-para habit-formation habit-stacking inbox-zero information-diet inspectable-stack intellectual-sourcing layered-reading lean-startup learn-hireable-stacks linking-by-meaning literature-notes local-first-software low-hanging-fruit maintenance-window mental-models metadata-strategy mind-mapping minimum-effective-dose minimum-viable-product mobile-capture-workflows network-analysis note-relationships open-not-maintained open-source para-method pareto-principle periodic-knowledge-review permission-scales pkm platform-reach-is-borrowed portable-software process-over-outcomes quarterly-planning read-later-queue reading-the-garden say-no-to-nulled selling-static-sites sharpen-each-others-work ship-it signal-vs-noise signature-move slow-productivity spaced-repetition static-site-client-scope sunk-cost-fallacy synthesis-as-a-goal take-smart-notes taxonomy teachable-stack the-12-week-year the-collectors-fallacy the-feynman-technique the-garage-concept the-knowledge-lifecycle the-second-brain-workflow the-trusted-inbox there-is-no-perfect-solution weekly-review-checklists&#34; &amp;&amp; missing=0 &amp;&amp; no_glad=0 &amp;&amp; has_contraction=0 &amp;&amp; for f in $FILES; do p=&#34;content/english/notes/${f}.md&#34;; if [ ! -f &#34;$p&#34; ]; then echo &#34;MISSING: $f&#34;; missing=$((missing+1)); continue; fi; ex=$(awk &#39;/^examples:/{f=1;next} f&amp;&amp;/^  - /{print; if(++n==2) exit}&#39; &#34;$p&#34;); if ! echo &#34;$ex&#34; | grep -qiE &#39;glad|grateful|thankful|relieved&#39;; then echo &#34;NO_GLAD: $f&#34;; echo &#34;$ex&#34;; no_glad=$((no_glad+1)); fi; if echo &#34;$ex&#34; | grep -qE &#34;don&#39;t|it&#39;s|I&#39;m|can&#39;t|won&#39;t|didn&#39;t|isn&#39;t|aren&#39;t|wasn&#39;t|weren&#39;t|you&#39;re|we&#39;re|they&#39;re|I&#39;ll|I&#39;ve|I&#39;d&#34;; then echo &#34;CONTRACTION: $f&#34;; has_contraction=$((has_contraction+1)); fi; done &amp;&amp; echo &#34;---&#34; &amp;&amp; echo &#34;total: $(echo $FILES | wc -w) missing: $missing no_glad: $no_glad contractions: $has_contraction&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && FILES="active-knowledge-curation active-reading analog-capture-tools anti-fragile-systems atomic-habits atomic-notes attention-economy block-recovery-time building-a-personal-api building-a-second-brain cap-todays-commitments client-site-pass-off commonplace-book community-depth compounding context-aware-capture create creative-blocks creative-output cross-platform-software daily-notes deep-work depth-of-understanding digital-garden digital-minimalism digital-serendipity drafting-in-public evergreen-notes evergreen-vs-fleeting-notes execution first-principles-thinking follow-the-rhythm free-tier-hosting-stack freedom-over-free future-proofing-knowledge gate-what-you-consume getting-things-done git-based-cms graph-view-analytics gtd-vs-para habit-formation habit-stacking inbox-zero information-diet inspectable-stack intellectual-sourcing layered-reading lean-startup learn-hireable-stacks linking-by-meaning literature-notes local-first-software low-hanging-fruit maintenance-window mental-models metadata-strategy mind-mapping minimum-effective-dose minimum-viable-product mobile-capture-workflows network-analysis note-relationships open-not-maintained open-source para-method pareto-principle periodic-knowledge-review permission-scales pkm platform-reach-is-borrowed portable-software process-over-outcomes quarterly-planning read-later-queue reading-the-garden say-no-to-nulled selling-static-sites sharpen-each-others-work ship-it signal-vs-noise signature-move slow-productivity spaced-repetition static-site-client-scope sunk-cost-fallacy synthesis-as-a-goal take-smart-notes taxonomy teachable-stack the-12-week-year the-collectors-fallacy the-feynman-technique the-garage-concept the-knowledge-lifecycle the-second-brain-workflow the-trusted-inbox there-is-no-perfect-solution weekly-review-checklists" && missing=0 && no_glad=0 && has_contraction=0 && for f in $FILES; do p="content/english/notes/${f}.md"; if [ ! -f "$p" ]; then echo "MISSING: $f"; missing=$((missing+1)); continue; fi; ex=$(awk '/^examples:/{f=1;next} f&&/^  - /{print; if(++n==2) exit}' "$p"); if ! echo "$ex" | grep -qiE 'glad|grateful|thankful|relieved'; then echo "NO_GLAD: $f"; echo "$ex"; no_glad=$((no_glad+1)); fi; if echo "$ex" | grep -qE "don't|it's|I'm|can't|won't|didn't|isn't|aren't|wasn't|weren't|you're|we're|they're|I'll|I've|I'd"; then echo "CONTRACTION: $f"; has_contraction=$((has_contraction+1)); fi; done && echo "---" && echo "total: $(echo $FILES | wc -w) missing: $missing no_glad: $no_glad contractions: $has_contraction"
+```
+
+```
+---
+total: 98 missing: 0 no_glad: 0 contractions: 0
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 98 files already contained glad markers. No edits were needed. No contractions appeared in the examples.
+
+The actual file count was 98, not ~90. Every file was edited; none were skipped. Zero errors occurred. I am now checking for em dashes and verifying each file still contains exactly two examples.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; FILES=&#34;active-knowledge-curation active-reading analog-capture-tools anti-fragile-systems atomic-habits atomic-notes attention-economy block-recovery-time building-a-personal-api building-a-second-brain cap-todays-commitments client-site-pass-off commonplace-book community-depth compounding context-aware-capture create creative-blocks creative-output cross-platform-software daily-notes deep-work depth-of-understanding digital-garden digital-minimalism digital-serendipity drafting-in-public evergreen-notes evergreen-vs-fleeting-notes execution first-principles-thinking follow-the-rhythm free-tier-hosting-stack freedom-over-free future-proofing-knowledge gate-what-you-consume getting-things-done git-based-cms graph-view-analytics gtd-vs-para habit-formation habit-stacking inbox-zero information-diet inspectable-stack intellectual-sourcing layered-reading lean-startup learn-hireable-stacks linking-by-meaning literature-notes local-first-software low-hanging-fruit maintenance-window mental-models metadata-strategy mind-mapping minimum-effective-dose minimum-viable-product mobile-capture-workflows network-analysis note-relationships open-not-maintained open-source para-method pareto-principle periodic-knowledge-review permission-scales pkm platform-reach-is-borrowed portable-software process-over-outcomes quarterly-planning read-later-queue reading-the-garden say-no-to-nulled selling-static-sites sharpen-each-others-work ship-it signal-vs-noise signature-move slow-productivity spaced-repetition static-site-client-scope sunk-cost-fallacy synthesis-as-a-goal take-smart-notes taxonomy teachable-stack the-12-week-year the-collectors-fallacy the-feynman-technique the-garage-concept the-knowledge-lifecycle the-second-brain-workflow the-trusted-inbox there-is-no-perfect-solution weekly-review-checklists&#34; &amp;&amp; bad_count=0 &amp;&amp; for f in $FILES; do p=&#34;content/english/notes/${f}.md&#34;; n=$(awk &#39;/^examples:/{f=1;next} f&amp;&amp;/^  - /{c++} f&amp;&amp;/^[^ ]/&amp;&amp;c{exit} END{print c+0}&#39; &#34;$p&#34;); if [ &#34;$n&#34; != &#34;2&#34; ]; then echo &#34;COUNT_$n: $f&#34;; bad_count=$((bad_count+1)); fi; ex=$(awk &#39;/^examples:/{f=1;next} f&amp;&amp;/^  - /{print; if(++i==2) exit}&#39; &#34;$p&#34;); if echo &#34;$ex&#34; | grep -q $&#39;—&#39;; then echo &#34;EMDASH: $f&#34;; bad_count=$((bad_count+1)); fi; done &amp;&amp; echo &#34;bad: $bad_count&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && FILES="active-knowledge-curation active-reading analog-capture-tools anti-fragile-systems atomic-habits atomic-notes attention-economy block-recovery-time building-a-personal-api building-a-second-brain cap-todays-commitments client-site-pass-off commonplace-book community-depth compounding context-aware-capture create creative-blocks creative-output cross-platform-software daily-notes deep-work depth-of-understanding digital-garden digital-minimalism digital-serendipity drafting-in-public evergreen-notes evergreen-vs-fleeting-notes execution first-principles-thinking follow-the-rhythm free-tier-hosting-stack freedom-over-free future-proofing-knowledge gate-what-you-consume getting-things-done git-based-cms graph-view-analytics gtd-vs-para habit-formation habit-stacking inbox-zero information-diet inspectable-stack intellectual-sourcing layered-reading lean-startup learn-hireable-stacks linking-by-meaning literature-notes local-first-software low-hanging-fruit maintenance-window mental-models metadata-strategy mind-mapping minimum-effective-dose minimum-viable-product mobile-capture-workflows network-analysis note-relationships open-not-maintained open-source para-method pareto-principle periodic-knowledge-review permission-scales pkm platform-reach-is-borrowed portable-software process-over-outcomes quarterly-planning read-later-queue reading-the-garden say-no-to-nulled selling-static-sites sharpen-each-others-work ship-it signal-vs-noise signature-move slow-productivity spaced-repetition static-site-client-scope sunk-cost-fallacy synthesis-as-a-goal take-smart-notes taxonomy teachable-stack the-12-week-year the-collectors-fallacy the-feynman-technique the-garage-concept the-knowledge-lifecycle the-second-brain-workflow the-trusted-inbox there-is-no-perfect-solution weekly-review-checklists" && bad_count=0 && for f in $FILES; do p="content/english/notes/${f}.md"; n=$(awk '/^examples:/{f=1;next} f&&/^  - /{c++} f&&/^[^ ]/&&c{exit} END{print c+0}' "$p"); if [ "$n" != "2" ]; then echo "COUNT_$n: $f"; bad_count=$((bad_count+1)); fi; ex=$(awk '/^examples:/{f=1;next} f&&/^  - /{print; if(++i==2) exit}' "$p"); if echo "$ex" | grep -q $'—'; then echo "EMDASH: $f"; bad_count=$((bad_count+1)); fi; done && echo "bad: $bad_count"
+```
+
+```
+bad: 0
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The edits are complete. I am now compiling the final count and failure list.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+## Results
+
+| | Count |
+|---|---|
+| **Skipped** | 0 |
+| **Edited** | 98 |
+| **Errors** | 0 |
+
+None of the listed files already had glad/grateful/thankful/relieved in `examples:`. Each got one first-line rewrite with quiet earned gladness; scenes kept, two examples each, no contractions or em dashes in examples.
+
+**Sample edits:**
+- `capture`-style: "Glad the voice memo caught the play idea during warm-ups before gym noise ate it..."
+- `context-aware-capture.md`: "Glad the parking-lot voice memo caught the meeting context..."
+- `the-trusted-inbox.md`: "Glad one bowl by the door for keys, papers, receipts held..."
+
+**Failures:** none
+
+No commit made.
+
+## Session close
+- Fixed: Added quiet gladness beat to first `examples:` line in 98 PKM/productivity notes
+- Encode: none
+- Open: clean

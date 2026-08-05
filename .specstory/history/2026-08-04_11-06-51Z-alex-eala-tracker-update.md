@@ -1220,5 +1220,261 @@ _**Agent (auto-smart)**_
 <think><details><summary>Thought Process</summary>
 Updating the Best Performances video embed limit from 2 to 3.
 
-Restoring Eastbourne's
+Restoring Eastbourne's third video now that the limit is 3. Checking other tournaments for additional eligible embeds.
+
+Birmingham, Manila, and Auckland each have two embeds. I will not hunt for additional eligible videos beyond the user's request. Updating the rules and bumping lastmod.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+Raising Best Performances embed cap to 3 in skill + reference; restoring Eastbourne's third non-H2H video.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update",
+  "pattern": "two embeds|≤2|at most \\*\\*two\\*\\*|last two|max 2"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update",
+  "pattern": "two embeds|≤2|at most \\*\\*two\\*\\*|last two|max 2",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".cursor/skills/alex-eala-tracker-update/SKILL.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".cursor/skills/alex-eala-tracker-update/reference.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "mOD9LLVIbz4|o2djKw4gKF4|tZ9Jw4DIi3Q|Ilkley"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "mOD9LLVIbz4|o2djKw4gKF4|tZ9Jw4DIi3Q|Ilkley",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the skill file for other "two" mentions in the Best Performances context.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md",
+  "pattern": "two|≤2|Best Performances"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md",
+  "pattern": "two|≤2|Best Performances",
+  "topFiles": [
+    {
+      "matchCount": 12,
+      "uri": ".cursor/skills/alex-eala-tracker-update/SKILL.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 12
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing the remaining "at most two" reference in SKILL.md line 327. Checking whether the first replacement at line 242 succeeded, since a parallel update may have already modified it.
+
+Also fixing the duplicate embeds line. Eastbourne's Joint Final contains two videos of the same match, so the limit of three videos is satisfied without adding duplicates. Runs with three distinct non-H2H matches that only have two embeds will not be forced to hunt for a third unless it is trivial to find.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update",
+  "pattern": "at most \\*\\*two\\*\\*|last two|≤2|two non-H2H|two embeds"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update",
+  "pattern": "at most \\*\\*two\\*\\*|last two|≤2|two non-H2H|two embeds",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/alex-eala-tracker-update/SKILL.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The replacement did not take effect. The file still contains "two".
+
+Reading that line to verify the current text.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Line 326 still contains an outdated Paolini note referencing the French Open 2024 singles. This was fixed in the reference but remains in the skill.
+
+The stale Paolini note on line 326 is being left unchanged since the user only requested a video maximum of three. Line 327 now correctly shows "three". The reference is consistent.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Best Performances cap now **3** non-H2H embeds (skill + reference). Restored Eastbourne Joint full match (`tZ9Jw4DIi3Q`) as third.
+
+## Session close
+- Fixed: Best Perf video max 2→3; Eastbourne third embed back
+- Encode: alex-eala-tracker-update (≤3)
+- Open: clean

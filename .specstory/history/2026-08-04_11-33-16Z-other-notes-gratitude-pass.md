@@ -277,4 +277,541 @@ _**Agent (composer-2.5-fast)**_
 
 <think><details><summary>Thought Process</summary>
 All 20 files lack glad, grateful, thankful, or relieved beats in their examples.
+
+I will rewrite one example per file to add a quiet earned gladness beat. The edits will use "glad" phrasing, avoid contractions and em dashes, and follow the friction-plus-keep pattern. I will check garden-voice examples for consistent patterns before writing.
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/examples.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Starting to rewrite one example line per file.
+
+All 20 files need editing. Rewriting the first example for accept-the-starting-line.md now.
+
+Finished the first example rewrite for accept-the-starting-line.md. Now rewriting adaptability.md.
+
+Rewriting behavioral-economics.md next. Starting change-takes-repetition.md.
+
+Finished change-takes-repetition.md. Started continuous-improvement.md.
+
+Finished continuous-improvement.md. Now rewriting create-regular-connection.md.
+
+Finished create-regular-connection.md. Now rewriting decision-quality.md.
+
+Finished decision-quality.md. Now rewriting deliberate-practice.md.
+
+Finished deliberate-practice.md. Now rewriting discipline.md.
+
+Finished discipline.md. Rewriting emotional-regulation.md next. Started failure-as-feedback.md.
+
+Finished failure-as-feedback.md. Now rewriting growth-mindset.md.
+
+Finished honest-self-awareness.md. Now rewriting practice-small-experiments.md.
+
+Finished practice-small-experiments.md. Now rewriting resilience.md.
+
+Finished resilience.md. Now rewriting second-order-thinking.md.
+
+Finished second-order-thinking.md. Now rewriting self-control.md.
+
+Finished self-control.md. Now rewriting standard-operating-procedures.md.
+
+Finished standard-operating-procedures.md. Now rewriting systems-thinking.md.
+
+Finished systems-thinking.md. Now rewriting versatility.md.
+
+Switching from em dashes to semicolons to comply with the no-em-dash rule. Checking all rewrites for contractions and em dashes.
+
+Applying the rewrites via StrReplace. Full forms will replace contractions. Each example line needs exact replacement to preserve meaning.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Applying gratitude rewrites to all 20 files — none had existing glad/grateful/thankful/relieved beats.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accept-the-starting-line.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/adaptability.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/behavioral-economics.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/change-takes-repetition.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/continuous-improvement.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/create-regular-connection.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/decision-quality.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/deliberate-practice.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipline.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/emotional-regulation.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Good progress so far. Continuing with the remaining 10 files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/failure-as-feedback.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/growth-mindset.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/honest-self-awareness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/practice-small-experiments.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/resilience.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/second-order-thinking.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/self-control.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/standard-operating-procedures.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-thinking.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/versatility.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 20 files were edited. Now verifying the changes.
+
+Verified all 20 files contain glad in at least one example. Confirmed no em dashes or contractions in the edited lines. Now grepping to confirm glad appears in every file.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{accept-the-starting-line,adaptability,behavioral-economics,change-takes-repetition,continuous-improvement,create-regular-connection,decision-quality,deliberate-practice,discipline,emotional-regulation,failure-as-feedback,growth-mindset,honest-self-awareness,practice-small-experiments,resilience,second-order-thinking,self-control,standard-operating-procedures,systems-thinking,versatility}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "glad"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "glad",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/versatility.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-thinking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/standard-operating-procedures.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/self-control.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/second-order-thinking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/resilience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/practice-small-experiments.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/honest-self-awareness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/growth-mindset.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/failure-as-feedback.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/emotional-regulation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipline.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/deliberate-practice.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/decision-quality.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/create-regular-connection.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/continuous-improvement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/change-takes-repetition.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/adaptability.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/behavioral-economics.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/accept-the-starting-line.md"
+    }
+  ],
+  "totalFiles": 20,
+  "totalMatches": 20
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{accept-the-starting-line,adaptability,behavioral-economics,change-takes-repetition,continuous-improvement,create-regular-connection,decision-quality,deliberate-practice,discipline,emotional-regulation,failure-as-feedback,growth-mindset,honest-self-awareness,practice-small-experiments,resilience,second-order-thinking,self-control,standard-operating-procedures,systems-thinking,versatility}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "—|–"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "—|–",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 20 files already contain "glad" in their examples. No edits are needed.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{accept-the-starting-line,adaptability,behavioral-economics,change-takes-repetition,continuous-improvement,create-regular-connection,decision-quality,deliberate-practice,discipline,emotional-regulation,failure-as-feedback,growth-mindset,honest-self-awareness,practice-small-experiments,resilience,second-order-thinking,self-control,standard-operating-procedures,systems-thinking,versatility}.md",
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^  - \""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^  - \"",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/versatility.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/systems-thinking.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/standard-operating-procedures.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/self-control.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/second-order-thinking.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/resilience.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/practice-small-experiments.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/honest-self-awareness.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/notes/growth-mindset.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/failure-as-feedback.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/emotional-regulation.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/discipline.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/deliberate-practice.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/decision-quality.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/create-regular-connection.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/continuous-improvement.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/change-takes-repetition.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/adaptability.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/behavioral-economics.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/accept-the-starting-line.md"
+    }
+  ],
+  "totalFiles": 20,
+  "totalMatches": 121
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Each file contains six bullet lines at the target indentation level. This confirms two examples and four shareable thoughts per file.
+
+All twenty files were edited. No files were skipped. No commit was made.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+**Edited: 20 | Skipped: 0**
+
+None of the 20 files had glad/grateful/thankful/relieved in `examples:` before. Each got one line rewritten: friction first, then `glad ...` for what held, caught, or saved.
+
+Pattern: semicolon join, no em dashes, no contractions in edited lines.
+
+| File | Glad beat (summary) |
+|------|---------------------|
+| accept-the-starting-line | jeepney ten minutes as real starting line |
+| adaptability | covered court held reps |
+| behavioral-economics | layout change, no sermon |
+| change-takes-repetition | repetition beat app reorg weekend |
+| continuous-improvement | small upgrades beat heroic overhaul |
+| create-regular-connection | Sunday ritual held |
+| decision-quality | neighbor call before school sign |
+| deliberate-practice | transition drills saved recital |
+| discipline | boring routine beat scroll |
+| emotional-regulation | kitchen walk before reply |
+| failure-as-feedback | form adjust, not identity quit |
+| growth-mindset | coach treated misses as reps |
+| honest-self-awareness | ten minutes, not another app |
+| practice-small-experiments | door capture lane survived busy week |
+| resilience | left earlier beat traffic cursing |
+| second-order-thinking | caught bedtime fights after screen time |
+| self-control | closed app until cortisol down |
+| standard-operating-procedures | whiteboard routine when exhausted |
+| systems-thinking | traced turnovers to warmup drill |
+| versatility | more than one lane on sick day |
+
+Only `examples` touched. No commit.
+
+## Session close
+- Fixed: gratitude beat in `examples:` on 20 Eternal Principles notes
+- Encode: none
+- Open: clean

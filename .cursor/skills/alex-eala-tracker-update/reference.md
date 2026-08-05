@@ -87,9 +87,11 @@ A **walkover** (`w/o`, opponent withdrew before the match was played) is **not a
 ### Tournament result (singles)
 
 ```markdown
-  - **Dubai (WTA 1000)** - Quarterfinals, l. Coco Gauff 0-6, 2-6 | [wtatennis.com](https://...) | [tennis.com](https://...)
+  - **Dubai (WTA 1000)** - Quarterfinals, l. [Coco Gauff](#coco-gauff) 0-6, 2-6 | [wtatennis.com](https://...) | [tennis.com](https://...)
     - Round of 16, d. Sorana Cîrstea 7-5, 6-4 | [wtatennis.com](https://...) | [tennis.com](https://...)
 ```
+
+Link opponent full name to the in-page H2H `###` anchor when that block exists (`[Coco Gauff](#coco-gauff)`). Leave unlinked when no H2H section (e.g. Sorana Cîrstea).
 
 Embed at most **three** videos for opponents **not** in either H2H section (last three such matches in the run). Omit embeds when deep rounds were all vs H2H opponents.
 
@@ -134,12 +136,15 @@ Rome-style loss note (optional sub-bullet before round links):
 ### Grand Slam result (singles)
 
 ```markdown
-  - **US Open** - 2nd Round
-    - 1st Round | [wtatennis.com](https://...) | [usopen.org](https://...)
-    - 2nd Round | [wtatennis.com](https://...) | [usopen.org](https://...)
+  - **Wimbledon**
+    - 4th Round, l. [Jasmine Paolini](#jasmine-paolini) 4-6, 6-4, 3-6 | [wtatennis.com](https://...) | [tennis.com](https://...)
+    - 3rd Round, d. [Iga Swiatek](#iga-swiatek) 7-6(9), 6-2 | [wtatennis.com](https://...) | [tennis.com](https://...)
+    - 2nd Round, d. Maya Joint 3-6, 6-2, 6-0 | [wtatennis.com](https://...) | [tennis.com](https://...)
 
 {{< youtube VIDEO_ID >}}
 ```
+
+Same H2H in-page link rule as WTA singles: wrap full names only when a `###` block exists.
 
 ### Grand Slam result (doubles)
 
