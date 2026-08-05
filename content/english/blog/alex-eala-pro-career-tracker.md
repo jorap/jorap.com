@@ -15,7 +15,7 @@ related_notes:
 level_depth: 1
 featured: false
 draft: false
-lastmod: "2026-08-05T00:50:00Z"
+lastmod: "2026-08-05T02:40:00Z"
 ---
 
 I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime, and I'm glad I started keeping notes when I did. This page is my running scrapbook for it. I update it when something happens worth pinning, not on a schedule.
@@ -29,7 +29,7 @@ The numbers I refresh first when something breaks on Twitter at 2am - everything
 - **Career highs:** No. 20 singles · No. 88 doubles
 - **WTA titles:** 3 (2025 Guadalajara 125, 2026 Birmingham 125, 2026 Washington 500)
 - **Best Slam (singles):** Wimbledon 2026 - Round of 16
-- **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina to reach a Grand Slam fourth round in the Open era (Wimbledon 2026); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina to win a WTA 500 title (Washington 2026); first Filipina in a WTA 500 final (Washington 2026); first Filipina in a WTA 500 semifinal (Berlin 2026); first Filipina in the WTA top 20; first Filipina in the WTA top 100
+- **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina seeded at a Grand Slam (Wimbledon 2026); first Filipina to reach a Grand Slam fourth round in the Open era (Wimbledon 2026); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina in a WTA 500 quarterfinal (Abu Dhabi 2026); first Filipina in a WTA 500 semifinal (Berlin 2026); first Filipina to reach a WTA 500 final (Washington 2026); first Filipina to win a WTA 500 title (Washington 2026); first Filipina in the WTA top 20; first Filipina in the WTA top 100
 
 ---
 
@@ -71,9 +71,11 @@ Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court,
 - 2026
 
   - **Wimbledon**
+    - First Filipina seeded at a Grand Slam (No. 29)
     - First Filipina to reach the second week (Round of 16) at a Grand Slam
     - First Filipina to reach the fourth round of a major in the Open era
     - Upset defending champion [Iga Swiatek](#iga-swiatek) on Centre Court
+    - Avenged 2025 Eastbourne final loss to Maya Joint
     - 4th Round, l. [Jasmine Paolini](#jasmine-paolini) 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06)
     - 3rd Round, d. [Iga Swiatek](#iga-swiatek) 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320392) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04)
     - 2nd Round, d. Maya Joint 3-6, 6-2, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320418) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-m-joint-2026-07-02)
@@ -89,6 +91,8 @@ Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court,
     - 1st Round, l. [Iva Jovic](#iva-jovic) 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS71642254) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/i-jovic-vs-a-eala-2026-05-26) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2026/SD068)
 
   - **Australian Open**
+    - First Filipina in an Australian Open main draw
+    - First Filipino to complete main-draw appearances at all four majors
     - 1st Round, l. Alycia Parks 6-0, 3-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LS67816724) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-20) | [ausopen.com](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
 
 {{< youtube HhdkG1AwDhU >}}
@@ -98,6 +102,8 @@ Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court,
 - 2025
 
   - **US Open**
+    - First Filipina in a US Open singles main draw
+    - First Filipina to win a Grand Slam main-draw match
     - 2nd Round, l. Cristina Bucsa 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63101293) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-bucsa-vs-a-eala-2025-08-27) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2204.html)
     - 1st Round, d. [Clara Tauson](#clara-tauson) 6-3, 2-6, 7-6(11) | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-tauson-vs-a-eala-2025-08-24) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2108.html)
 
@@ -108,7 +114,7 @@ Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court,
 {{< youtube y9gEMIEvosM >}}
 
   - **Wimbledon**
-    - Played against the defending champion [Barbora Krejcikova](#barbora-krejcikova) at the Centre Court
+    - Wimbledon main-draw debut; Centre Court vs defending champion [Barbora Krejcikova](#barbora-krejcikova)
     - 1st Round, l. [Barbora Krejcikova](#barbora-krejcikova) 3-6, 6-2, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/b-krejcikova-vs-a-eala-2025-07-01)
     
 
@@ -127,7 +133,8 @@ Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court,
 {{< youtube L81YQPBL1lY >}}
 
   - **Australian Open - with Ingrid Martins**
-    - 1st Round, l. Shuko Aoyama/Magda Linette 6-7(3), 2-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LD67893812) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21) | [ausopen.com](https://ausopen.com/match/2026-alexandra-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-wd126)
+    - Completed the set of Grand Slam doubles main draws with her Australian Open debut
+    - 1st Round, l. Shuko Aoyama/Magda Linette 6-7(3), 6-2, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LD67893812) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21) | [ausopen.com](https://ausopen.com/match/2026-alexandra-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-wd126)
 
 - 2025
 
@@ -150,31 +157,31 @@ Slams are in the section above. This is the week-to-week grind where the ranking
 
 - 2026
 
-  - **Washington (WTA 500, Hard)**
+  - **Washington (WTA 500, Hard)** - Winner, d. [Jessica Pegula](#jessica-pegula) 4-6, 6-4, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/j-pegula-vs-a-eala-2026-08-02)
     - First Career WTA 500 Title
     - First Filipina to win a WTA 500 title
     - Third Career WTA Title
     - First career hard-court WTA title
     - First Filipina to reach a WTA 500 final
-    - Winner, d. [Jessica Pegula](#jessica-pegula) 4-6, 6-4, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/j-pegula-vs-a-eala-2026-08-02)
     - Semifinals, d. [Naomi Osaka](#naomi-osaka) 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/n-osaka-vs-a-eala-2026-08-01)
     - Quarterfinals, d. [Elina Svitolina](#elina-svitolina) 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31)
     - Round of 16, d. [Leylah Fernandez](#leylah-fernandez) 6-2, 7-6(1) | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/l-fernandez-vs-a-eala-2026-07-29)
     - Round of 32, d. [Qinwen Zheng](#qinwen-zheng) 4-6, 6-4, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS029) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-q-zheng-2026-07-28)
 
-  - **Berlin (WTA 500, Grass)** 
+  - **Berlin (WTA 500, Grass)**
+    - First Filipina to reach a WTA 500 semifinal
+    - Wildcard entry
     - Semifinals, l. [Linda Noskova](#linda-noskova) 2-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20)
     - Quarterfinals, d. [Elina Svitolina](#elina-svitolina) 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/e-svitolina-vs-a-eala-2026-06-19)
     - Round of 16, d. [Elena Rybakina](#elena-rybakina) 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
     - Round of 32, d. [Donna Vekić](#donna-vekić) 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS030) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/d-vekic-vs-a-eala-2026-06-17)
 
-  - **Birmingham (WTA 125, Grass)**
+  - **Birmingham (WTA 125, Grass)** - Winner, d. Nikola Bartunkova 5-7, 6-3, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-n-bartunkova-2026-06-07)
     - Second Career WTA Title Win
     - First Career WTA Title on Grass
-    - Winner, d. Nikola Bartunkova 5-7, 6-3, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-n-bartunkova-2026-06-07)
     - Semifinals, d. Rebeka Masarova 6-2, 4-6, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS002) | [tennis.com](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-r-masarova-2026-06-06)
     - Quarterfinals, d. Mananchaya Sawangkaew 6-3, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS004) | [tennis.com](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-m-sawangkaew-2026-06-05)
-    - Round of 16, d. Anastasia Charaeva 6-2, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS008) | [tennis.com](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-a-charaeva-2026-06-04)
+    - Round of 16, d. Alina Charaeva 6-2, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS008) | [tennis.com](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-a-charaeva-2026-06-04)
     - Round of 32, d. Priscilla Hon 6-0, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS016) | [tennis.com](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-p-hon-2026-06-02)
         
 {{< youtube YbbYMWA4hho >}}
@@ -183,7 +190,7 @@ Slams are in the section above. This is the week-to-week grind where the ranking
  
 {{< youtube -aQ0q3tTvOw >}}
 
-  - **Dubai (WTA 1000, Hard)** 
+  - **Dubai (WTA 1000, Hard)**
     - Quarterfinals, l. [Coco Gauff](#coco-gauff) 0-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS005) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/c-gauff-vs-a-eala-2026-02-19)
     - Round of 16, d. Sorana Cîrstea 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS011) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/s-cirstea-vs-a-eala-2026-02-18)
     - Round of 32, d. [Jasmine Paolini](#jasmine-paolini) 6-1, 7-6(5) | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS023) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/a-eala-vs-j-paolini-2026-02-17)
@@ -194,6 +201,8 @@ Slams are in the section above. This is the week-to-week grind where the ranking
 {{< youtube vToI4CcaOo8 >}}
 
   - **Abu Dhabi (WTA 500, Hard)**
+    - First Filipina in a WTA 500 quarterfinal
+    - Round of 16: trailed 0-4 in the third, saved match point vs Aliaksandra Sasnovich
     - Quarterfinals, l. [Ekaterina Alexandrova](#ekaterina-alexandrova) 3-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-e-alexandrova-2026-02-05)
     - Round of 16, d. Aliaksandra Sasnovich 2-6, 6-4, 7-6(5) | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-a-sasnovich-2026-02-04)
     - Round of 32, d. Zeynep Sönmez 6-4, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS029) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-z-sonmez-2026-02-03)
@@ -203,9 +212,10 @@ Slams are in the section above. This is the week-to-week grind where the ranking
 {{< youtube 8urcN5nHhX4 >}}
 
   - **Manila (WTA 125, Hard)**
+    - Home wild card; first WTA event staged in the Philippines
     - Quarterfinals, l. Camila Osorio 4-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1153/manila-125/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/philippine-womens-open/matches/c-osorio-vs-a-eala-2026-01-29)
     - Round of 16, d. Himeno Sakatsume 6-4, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/1153/manila-125/2026/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/philippine-womens-open/matches/h-sakatsume-vs-a-eala-2026-01-28)
-    - Round of 32, d. Anastasia Charaeva 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1153/manila-125/2026/scores/LS031) | [tennis.com](https://www.tennis.com/tournaments/philippine-womens-open/matches/a-charaeva-vs-a-eala-2026-01-26)
+    - Round of 32, d. Alina Charaeva 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1153/manila-125/2026/scores/LS031) | [tennis.com](https://www.tennis.com/tournaments/philippine-womens-open/matches/a-charaeva-vs-a-eala-2026-01-26)
 
 {{< youtube lplpal_epxk >}}
 
@@ -225,8 +235,6 @@ Slams are in the section above. This is the week-to-week grind where the ranking
 
 - 2025
 
-{{< youtube VPVC0IF3HwE >}}
-
   - **Jingshan (WTA 125, Hard)**
     - Semifinals, l. Lulu Sun 6-3, 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1143/jingshan-125/2025/scores/LS002) | [tennis.com](https://www.tennis.com/tournaments/jingshan-tennis-open/matches/a-eala-vs-l-sun-2025-09-27)
     - Quarterfinals, d. Jia-Jing Lu 6-4, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/1143/jingshan-125/2025/scores/LS004) | [tennis.com](https://www.tennis.com/tournaments/jingshan-tennis-open/matches/a-eala-vs-j-lu-2025-09-26)
@@ -240,20 +248,21 @@ Slams are in the section above. This is the week-to-week grind where the ranking
 
 {{< youtube Rn6uX8S_6O0 >}}
 
-  - **Guadalajara (WTA 125, Hard)**
+  - **Guadalajara (WTA 125, Hard)** - Winner, d. Panna Udvardy 1-6, 7-5, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/p-udvardy-vs-a-eala-2025-09-06)
     - First Career WTA Tournament Win
-    - Winner, d. Panna Udvardy 1-6, 7-5, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/p-udvardy-vs-a-eala-2025-09-06)
+    - First Filipina to win a WTA singles title
     - Semifinals, d. Kayla Day 6-2, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/k-day-vs-a-eala-2025-09-05)
-    - Quarterfinals, d. Nadia Fossa Huergo 7-6(2), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/n-fossa-huergo-vs-a-eala-2025-09-04)
+    - Quarterfinals, d. Nicole Fossa Huergo 7-6(2), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/n-fossa-huergo-vs-a-eala-2025-09-04)
     - Round of 16, d. Varvara Lepchenko 6-3, 7-6(3) | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/v-lepchenko-vs-a-eala-2025-09-03)
     - Round of 32, d. Alexsandra Hartono 6-2, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS031) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/a-hartono-vs-a-eala-2025-09-02)
-    
 
-  - **Eastbourne Open (WTA 250, Grass)**
+{{< youtube VPVC0IF3HwE >}}
+
+  - **Eastbourne Open (WTA 250, Grass)** - Finalist, l. Maya Joint 4-6, 6-1, 6-7(10) | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/m-joint-vs-a-eala-2025-06-28)
     - First Filipina to reach a WTA singles final
-    - Finalist, l. Maya Joint 4-6, 6-1, 6-7(10) | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/m-joint-vs-a-eala-2025-06-28)
+    - Qualified into the main draw
     - Semifinals, d. Varvara Gracheva 7-5, 2-6, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/a-eala-vs-v-gracheva-2025-06-27)
-    - Quarterfinals, d. Kayla Dayana Yastremska 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS006) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/d-yastremska-vs-a-eala-2025-06-26)
+    - Quarterfinals, d. Dayana Yastremska 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS006) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/d-yastremska-vs-a-eala-2025-06-26)
     - Round of 16, d. [Jelena Ostapenko](#jelena-ostapenko) 0-6, 6-2, 3-2 ret. | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS013) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/j-ostapenko-vs-a-eala-2025-06-25)
     - Round of 32, d. Lucia Bronzetti 6-0, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS026) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/l-bronzetti-vs-a-eala-2025-06-24)
     
@@ -295,6 +304,7 @@ Slams are in the section above. This is the week-to-week grind where the ranking
 - 2026
 
   - **Bad Homburg (WTA 500, Grass) - with Venus Williams**
+    - Partnered with seven-time Grand Slam singles champion Venus Williams
     - Quarterfinals, l. Tereza Mihalikova/Olivia Nicholls 3-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2017/bad-homburg/2026/scores/LD007)
     - Round of 16, d. Catherine Harrison/Alexandra Osborne 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2017/bad-homburg/2026/scores/LD014)
 
@@ -317,7 +327,7 @@ Slams are in the section above. This is the week-to-week grind where the ranking
     - Round of 16, d. Emily Appleton/Qianhui Tang 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD010)
 
   - **Rome Open (WTA 1000, Clay) - with Coco Gauff**
-    - Lost to defending champions Jasmine Paolini / Sara Errani
+    - Partnered with [Coco Gauff](#coco-gauff); lost to defending champions Jasmine Paolini / Sara Errani
     - Quarterfinals, l. Jasmine Paolini/Sara Errani 7-5, 3-6, 7-10 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD005)
     - Round of 16, d. Angelina Grant/Laura Pigato 6-2, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD011)
     - Round of 32, d. Anastasia Panova/Fanny Stollar 6-3, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD022)
