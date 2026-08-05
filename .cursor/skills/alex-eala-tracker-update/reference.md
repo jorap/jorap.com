@@ -251,12 +251,12 @@ Use when promoting to H2H or building watch-list links:
 | Player | WTA ID | Notes |
 | --- | --- | --- |
 | Amanda Anisimova | 326384 | 2025 Wimbledon semifinalist |
-| Bianca Andreescu | 320962 | 2019 US Open |
+| Bianca Andreescu | 325088 | 2019 US Open |
 | Mirra Andreeva | 331809 | 2026 French Open Winner; Junior US Open 2022 context |
 | Paula Badosa | 320124 | Former world No. 2; no pro H2H yet (Miami 2025 walkover only) |
 | Belinda Bencic | 319001 | Olympic gold; 2026 Rome SF |
 | Sofia Kenin | 320942 | 2020 Australian Open |
-| Emma Navarro | 329682 | 2025 Strasbourg; top-20 American |
+| Emma Navarro | 325410 | 2025 Strasbourg; top-20 American |
 | Naomi Osaka | 319998 | Multi-Slam winner |
 | Emma Raducanu | 328366 | 2021 US Open |
 | Aryna Sabalenka | 320760 | Multi-Slam winner |

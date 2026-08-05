@@ -15,7 +15,7 @@ related_notes:
 level_depth: 1
 featured: false
 draft: false
-lastmod: "2026-08-05T00:10:00Z"
+lastmod: "2026-08-05T00:50:00Z"
 ---
 
 I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime, and I'm glad I started keeping notes when I did. This page is my running scrapbook for it. I update it when something happens worth pinning, not on a schedule.
@@ -88,10 +88,8 @@ Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court,
   - **French Open**
     - 1st Round, l. [Iva Jovic](#iva-jovic) 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS71642254) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/i-jovic-vs-a-eala-2026-05-26) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2026/SD068)
 
-{{< youtube WRTmI2IH0is >}}
-
   - **Australian Open**
-    - 1st Round, l. Alycia Parks | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LS67816724) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-20) | [ausopen.com](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
+    - 1st Round, l. Alycia Parks 6-0, 3-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LS67816724) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-20) | [ausopen.com](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
 
 {{< youtube HhdkG1AwDhU >}}
 
