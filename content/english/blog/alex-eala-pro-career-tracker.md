@@ -103,6 +103,8 @@ Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court,
     - 2nd Round, l. Cristina Bucsa 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63101293) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-bucsa-vs-a-eala-2025-08-27) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2204.html)
     - 1st Round, d. [Clara Tauson](#clara-tauson) 6-3, 2-6, 7-6(11) | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-tauson-vs-a-eala-2025-08-24) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2108.html)
 
+{{< youtube yzhMVHgI6C0 >}}
+
 {{< youtube vB6HVBHjpAg >}}
 
 {{< youtube y9gEMIEvosM >}}
