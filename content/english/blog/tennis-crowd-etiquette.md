@@ -1,7 +1,7 @@
 ---
 title: "Cheer Between Points - Not on the Toss"
 meta_title: "Pinoy Crowd Timing for Alex Eala Matches"
-description: "For Pinoys in the stands watching Alex: roar between points, not on the toss. Untimely shouts hurt both sides. Clap good tennis both ways."
+description: "If you're in the stands for Alex - save the roar for between points. A shout on the toss hits her too. Clap good tennis both ways, and leave the lines to the chair."
 slug: "tennis-crowd-etiquette"
 date: "2026-08-06T04:00:00Z"
 image: "/images/pinoy-tennis-fans.jpg"
