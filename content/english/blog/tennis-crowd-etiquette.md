@@ -24,15 +24,19 @@ I want those live sections known for that passion - and for maturing into tennis
 
 Most of us didn't learn fandom from tennis. We learned it from **Gilas** nights, packed **Philippine volleyball** gyms, and **Manny Pacquiao** main events - arenas where noise *is* the support. Yell while the ball is live. Yell while the punches land. Bring that same heat to Alex's match. Just learn the live-court clock.
 
-I saw the growing pains on a [WTA Toronto Round 2 highlights clip](https://www.youtube.com/watch?v=n2jzpFTc2hs) - **Alycia Parks vs Alexandra Eala**. Second round. Not a final. Not a Slam Sunday. Still, you can hear the Pinoy section like someone turned the volume up on purpose: real heat, flags, the kind of support Alex rarely gets as the away player. That crowd showed up for an early-round match the way some cities only show up for a title fight. Keep that.
+That passion already showed up on a [Grand Slam Round 1 highlights clip](https://www.youtube.com/watch?v=HhdkG1AwDhU) - **Australian Open 2026**, **Alycia Parks vs Alexandra Eala**. First round of a Slam. Not a quarterfinal. Not a Sunday night. Still a loud Pinoy bay: flags, heat, the kind of support Alex rarely gets as the away player. Early-round Slam, and the section showed up like a title fight. Keep that.
 
-In that same stretch, someone in the stands shouted **"Go Alex"** right as she was serving. Then the shushing wave. That shush isn't hate. It's the sport handing a first-timer the live-crowd rule - and protecting **both** players. Untimely noise doesn't only land on the opponent. On Alex's toss, it hits her too. Mid-point, it hits whoever is about to strike the ball. The Round 2 roar is the part I want the world to remember. The serve shout is the part we mature past.
+{{< youtube HhdkG1AwDhU >}}
+
+I saw the growing pains later on a [WTA Toronto Round 2 highlights clip](https://www.youtube.com/watch?v=n2jzpFTc2hs) - same matchup, **Parks vs Eala** again. Second round. Not a final. This time Alex **avenged her Australian Open loss** to Parks. Still, you can hear the Pinoy section like someone turned the volume up on purpose. That crowd showed up for an early-round match the way some cities only show up for a main event. Keep that too.
+
+In that Toronto stretch, someone in the stands shouted **"Go Alex"** right as she was serving. Then the shushing wave. That shush isn't hate. It's the sport handing a first-timer the live-crowd rule - and protecting **both** players. Untimely noise doesn't only land on the opponent. On Alex's toss, it hits her too. Mid-point, it hits whoever is about to strike the ball. The Round 1 Slam roar and the Round 2 Toronto roar are the parts I want the world to remember. The serve shout is the part we mature past.
 
 {{< youtube n2jzpFTc2hs >}}
 
-Learning it in public is part of growing up as a tennis section - same heart, cleaner timing. If we can bring final-night passion to a second round, we can learn the serve clock too.
+Learning it in public is part of growing up as a tennis section - same heart, cleaner timing. If we can bring final-night passion to a Slam first round and a midweek second round, we can learn the serve clock too.
 
-And to the rest of the arena - other fans, the broadcast, the comment section: **be patient with new Pinoy fans.** A lot of these seats are first-timers. They showed up loud for a Tuesday Round 2 because they love Alex. The serve clock is new to them. Pass the rule once. Don't flatten a whole bay as only "noisy" because someone cheered on the toss.
+And to the rest of the arena - other fans, the broadcast, the comment section: **be patient with new Pinoy fans.** A lot of these seats are first-timers. They showed up loud for a Wednesday Round 2 because they love Alex. The serve clock is new to them. Pass the rule once. Don't flatten a whole bay as only "noisy" because someone cheered on the toss.
 
 ---
 
@@ -46,7 +50,7 @@ And to the rest of the arena - other fans, the broadcast, the comment section: *
 
 **Tennis on serve:** the server needs a quiet second to toss, load, and hit. So does the returner. A shout mid-toss isn't loyalty. It's a distraction for **both** players - and the umpire can pause the point for it.
 
-Yell "Go Alex" on her own serve and you don't help her. You break her rhythm. Yell while the opponent serves and you break that point too. Untimely shouting is not one-sided pressure. It messes with whoever is trying to play tennis in that second.
+Yell "Go Alex" once she's already on the line to start her serve and you don't help her. You break her rhythm. Yell while the opponent is on her line to serve and you break that point too. Untimely shouting is not one-sided pressure. It messes with whoever is trying to play tennis in that second.
 
 Same heart. Different sport clock. The Gilas, volleyball, and Pacquiao roar isn't the problem. Parking it on the toss is. Passion stays. Timing grows up.
 
@@ -56,9 +60,9 @@ I'm not a tennis player myself - pickleball or badminton in a small room when I 
 
 ## One rule that covers most of it
 
-**Stay quiet from the start of the serve ritual until the point is over.**
+**Stay quiet once the server is already on the line to start her serve - and stay quiet until the point is over.**
 
-Not quiet forever. Quiet for the point - for Alex *and* for the woman across the net. Between points, clap. Between games, cheer. After a big winner, go as loud as a Pacquiao walk-in if you want. Save the "Go Alex" for the gap after the point ends - not while the ball is about to leave either player's hand.
+Visual cue: either player walks to the baseline, ball in hand, set to bounce or toss - she's **on the line**. Bay goes quiet. Until then, after a point dies, you can still yell. Not quiet forever. Quiet for the serve and the live point - for Alex *and* for the woman across the net. Between points, clap. Between games, cheer. After a big winner, go as loud as a Pacquiao walk-in if you want. Save the "Go Alex" for that gap - not once she's on the line to serve, and not while the ball is about to leave either player's hand.
 
 If you only remember one line before you find your seat: **cheer between points, not during them.** Untimely noise hurts both sides of the court.
 
@@ -85,7 +89,7 @@ You're there for Alex. You're also there for tennis. A great shot is a great sho
 
 **Stay still and quiet when:**
 
-- Either player is about to serve (ball bounce, toss, contact)
+- Either player is already on the line to start her serve (baseline, ball in hand, bounce, toss, contact)
 - The returner is set for the return
 - A point is still live - even if the ball looks wide from your seat
 - The umpire is talking to a player
@@ -100,7 +104,7 @@ Flags and short chants are fine in those gaps. Continuous mid-point noise is not
 
 Screenshot this before you walk into the arena.
 
-1. **Quiet on the serve.** No "Go Alex," no whistle, no phone call - not on her toss, not on the opponent's. Wait for the point to die. Untimely shouting affects **both** players.
+1. **Quiet once she's on the line to start her serve.** No "Go Alex," no whistle, no phone call - not on her toss, not on the opponent's. Yell after the point dies; stop when either server is already on the baseline to begin. Untimely shouting affects **both** players.
 2. **Never call the lines.** Don't yell "out" (or "in") from the audience. That is not a hindrance under the rules - the point stands, and a player who stops can lose it. Wait for the official call.
 3. **Clap after the point.** That's your window - Alex's winners, the opponent's winners, and yes, the opponent's double faults. All allowed once the point is dead.
 4. **Phone on silent, screen dim.** Flash and bright screens annoy the row behind you - and the broadcast.
@@ -116,7 +120,7 @@ The shushing in the stands is mostly new live fans learning in public - people w
 
 Alex doesn't get a packed Manila center court for a Slam. Away live crowds will lean local. What Pinoy fans *can* control is the story that sticks when she plays: passionate people in the seats who respect the point - and respect excellence when it comes from the other side of the net.
 
-I want the tennis world to say: Filipinos bring heat in the arena - even on a second-round Tuesday - they know when the court needs quiet, and they clap a great shot even when it hurts. Loud after Alex's winner. Still for the toss. Honest applause when the opponent earns it. Same loyalty that filled Gilas, volleyball, and Pacquiao nights - parked where live tennis can use it.
+I want the tennis world to say: Filipinos bring heat in the arena - even on a Slam first round, even on a second-round Wednesday - they know when the court needs quiet, and they clap a great shot even when it hurts. Loud after Alex's winner. Still once she's on the line to serve. Honest applause when the opponent earns it. Same loyalty that filled Gilas, volleyball, and Pacquiao nights - parked where live tennis can use it.
 
 That kind of reputation takes a season or two of learning in public. Give the new Pinoy sections that runway. Correct the timing. Keep the welcome warm. A first wrong "Go Alex" on serve is a coaching moment, not a character review of a whole country.
 
