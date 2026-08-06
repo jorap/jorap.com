@@ -52,8 +52,8 @@ Draft posts show *(draft)* in the list.
 | My go-to **chicken adobo** is tuned for an 8-quart Instant Pot and about **2 kg of bone-in thighs**. | [Instant Pot Chicken Adobo](/blog/instant-pot-chicken-adobo/) |
 | I **sear adobo in a separate pan** first - experiencing burn notices in the Instant Pot is annoying. | [Instant Pot Chicken Adobo](/blog/instant-pot-chicken-adobo/) |
 | **Lee & Perrins Worcestershire** goes in my marinades. **Kewpie mayo** is a permanent pantry staple. | [Instant Pot Chicken Adobo](/blog/instant-pot-chicken-adobo/), [Worcestershire Sauce](/blog/worcestershire-sauce/) *(draft)*, [Kewpie Mayo](/blog/kewpie-mayo/) *(draft)* |
-| Instant Pot **beefy taco pasta** is a **1 kg lean beef** + **1 kg short pasta** batch in the **8-quart** - separate skillet brown, layer liquid under pasta, high pressure **5 + 5** NPR. | [Instant Pot Beefy Taco Pasta](/blog/instant-pot-beefy-taco-pasta/) *(draft)* |
-| On that taco pasta I **skip table salt** and finish with **Parmesan** as the salt. | [Instant Pot Beefy Taco Pasta](/blog/instant-pot-beefy-taco-pasta/) *(draft)* |
+| Instant Pot **beefy taco pasta** is a **1 kg lean beef** + **1 kg short pasta** batch in the **8-quart** - separate skillet brown, layer liquid under pasta, high pressure **5 + 5** NPR. | [Instant Pot Beefy Taco Pasta](/blog/instant-pot-beefy-taco-pasta/) |
+| On that taco pasta I **skip table salt** and finish with **Parmesan** as the salt. | [Instant Pot Beefy Taco Pasta](/blog/instant-pot-beefy-taco-pasta/) |
 
 ---
 
