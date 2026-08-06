@@ -2,9 +2,11 @@
 title: "Blog Template"
 meta_title: "Blog Template - Hugo CMS Reference"
 description: "Hugo CMS Reference for blog publishing."
+social_media_intro: "Example social caption for this template post - swap the hook, keep the link-in-comments line. URL in the comments when you publish."
 slug: "blog-template"
 date: "1981-06-14T05:00:00Z"
 image: "/images/joraps-world.jpg"
+image_prompt: "Minimal blogger desk, laptop with blurred Markdown and YAML frontmatter on screen, notebook and pen, soft daylight, no readable text, no logos, photorealistic, neutral tutorial mood"
 categories: ["Website", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo CMS", "Markdown", "Shortcodes", "Frontmatter", "Blog Template", "Hugo", "Content Management", "Static Sites", "Web Development"]

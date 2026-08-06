@@ -2,9 +2,11 @@
 title: "What I Look For in Wireless Earphones"
 meta_title: "Wireless Earphones - My Personal Checklist"
 description: "After years of cycling through earbuds, neckbands, and over-ears, here's what I care about in wireless earphones - and the pair I keep reaching for."
+social_media_intro: "I stopped chasing noise cancellation when I realized I need to hear my kid and the jeepney behind me on a walk. Open-ear checklist. Link in comments."
 slug: "what-i-look-for-in-wireless-earphones"
 date: "2026-05-27T05:00:00Z"
 image: "/images/feature-soundpeats-runfree.jpg"
+image_prompt: "Photorealistic street-side walk scene, person wearing open-ear neckband earphones glancing over shoulder as a jeepney passes in soft focus, urban daylight, aware-and-safe mood, no readable ads or brand marks on earphones, no watermarks"
 categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
 tags: ["Wireless Earphones", "Open-Ear Earphones", "Bluetooth", "Soundpeats RunFree", "Earbuds", "Buying Guide", "Running Gear", "Everyday Carry"]

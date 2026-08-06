@@ -4,8 +4,9 @@ description: >-
   Write and edit JoRap blog posts in the author's personal voice. Use plain words
   that land on first read.
   Use when drafting, outlining, rewriting, or polishing blog content under
-  content/english/blog/, writing blog meta_title and description, matching JoRap's
-  writing style, or when posts sound generic, SEO-ish, stiff, or AI-generated.
+  content/english/blog/, writing blog meta_title, description, image_prompt, and
+  social_media_intro, matching JoRap's writing style, or when posts sound generic,
+  SEO-ish, stiff, or AI-generated.
   Runs seven rewrite passes (lived-in, de-AI, thinking, friend-flow, POV, credible,
   editor) plus likability and connection lenses before publish. Posts always open and close
   from an attitude of gratitude (understated, earned - not performative thanks). Craft backbone: Zinsser
@@ -31,7 +32,7 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 - Creating or expanding a blog post from an outline
 - Rewriting AI-generated or stiff drafts under `content/english/blog/`
 - Editing blog tone without changing facts
-- Writing blog `meta_title` and `description`
+- Writing blog `meta_title`, `description`, `image_prompt`, and `social_media_intro`
 - Recipe posts (instructional body + human section intros) — read [recipe-style.md](recipe-style.md)
 
 ## Workflow
@@ -288,7 +289,7 @@ Land on what you actually use, what you'd buy again, or a plain recommendation -
 
 Field order (always use this order; `pnpm lint:blog` enforces it):
 
-1. `title`, `meta_title`, `description`, `slug`, `date`, `image`
+1. `title`, `meta_title`, `description`, `social_media_intro`, `slug`, `date`, `image`, `image_prompt`
 2. `categories`, `author`, `tags`, `related_notes` (when used)
 3. `level_depth` (required: integer 1–5)
 4. `aliases`, `lastmod` (only when needed)
@@ -296,7 +297,13 @@ Field order (always use this order; `pnpm lint:blog` enforces it):
 
 - `description`: memorable one-breath summary - what the post is or what you learned; first person is fine. Not keyword-stuffed.
 - `meta_title`: useful and specific - not clickbait, not "Ultimate Guide to…" unless the post truly is a full guide.
+- `social_media_intro`: max **200 characters**. Paste-ready social caption that tells people the link is in the comments - then makes them want to open comments and hit the jorap.com link. Same voice as the post: specific, uneven, human. Not a summary of the article. Not engagement bait.
+  - **Must say** the link is in the comments (plain: "link in comments", "URL in the comments", etc.).
+  - **Must pull** - one concrete hook from the post (scene, take, friction), not "new post is up".
+  - **Must not sound AI** - no hollow openers, no "excited to share", no "check out my latest", no emoji spam, no hashtag walls, no "Thoughts?" closer.
+  - Count characters before finishing. Soften or cut until ≤200.
 - `slug`: always set - filename without `__` prefix (e.g. `slug: "wifi-router"`). Keep when the URL should differ from the filename (rare; add `aliases` for the old path).
+- `image_prompt`: one paste-ready prompt for generating the hero image (Midjourney / Flux / similar). Specific scene that matches the post - subject, setting, light, mood, what to exclude. Photorealistic unless the post needs otherwise. No text, logos, watermarks, or brand marks in frame unless the post is literally about that object and the mark is unavoidable. Not a caption; not SEO keywords. Keep until `image` points at a real file, then leave it as the generation record.
 - `level_depth`: max Depth of Understanding rung the post *reaches* (not the reader): 1 Recognize, 2 Explain, 3 Use, 4 Connect, 5 Create. Scrapbooks/catalogs → 1; how-to/recipes/lived criteria → 3; stack tradeoffs/systems → 4; inventing or shipping a new thing → 5.
 
 ### Publishing
@@ -346,6 +353,8 @@ Models invent confident liquid ratios. The style doc cuts shape drift - author s
 - [ ] Section headings sound like JoRap, not a product manual
 - [ ] Would sound natural read aloud by a person, not narrated by a help article
 - [ ] Frontmatter description sounds like the author, not an SEO bot
+- [ ] `social_media_intro` ≤200 chars, says link is in comments, sounds human, makes you want to open comments
+- [ ] `image_prompt` is a usable generation prompt for this post's hero (specific scene, no text/logos)
 - [ ] Passes the swap test: couldn't paste this into a random tech blog without it feeling off
 - [ ] Personal facts match the ledger (`__interesting-facts-about-jorap.md`); no invented pop-culture or sports picks from gap tables
 - [ ] Likability lens: useful takeaway, honest friction, human specific, respectful tone (not performative warmth)

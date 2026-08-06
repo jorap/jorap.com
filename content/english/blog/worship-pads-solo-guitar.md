@@ -2,9 +2,11 @@
 title: "Worship Pads for Solo Guitar: What Changed When I Finally Tried Them"
 meta_title: "Worship Pads for Solo Guitar - What Changed for Me"
 description: "Leading worship with just an acoustic guitar felt thin in a big room - until someone slid a pad track underneath me during practice."
+social_media_intro: "Leading with just an acoustic felt thin until someone slid a pad track under me in practice - the silence between songs finally had a floor. Link in comments."
 slug: "worship-pads-solo-guitar"
 date: "2025-05-04T05:00:00Z"
 image: "/images/worship-pads.jpg"
+image_prompt: "Photorealistic empty church sanctuary rehearsal, acoustic guitarist with mic stand facing padded pews, small mixer and tablet for pad track on a stool, warm stage lighting, intimate worship mood, no readable lyrics or logos, no text overlay"
 categories: ["Worship", "Music", "Tips"]
 author: "JoRap"
 tags: ["Worship Pads", "Worship Leading", "Guitar Worship", "Acoustic Guitar", "Pad Tracks", "Church Music", "Live Worship", "Backing Tracks"]

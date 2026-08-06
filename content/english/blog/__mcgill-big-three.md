@@ -2,9 +2,11 @@
 title: "Stuart McGill's Big Three Low Back Exercises"
 meta_title: "McGill's Big Three - Curl-Up, Side Plank, Bird Dog"
 description: "I sit for WordPress weeks and my back gets stiff. McGill's Big Three is bookmarked on my phone - curl-up, side plank, bird dog - not a daily habit yet."
+social_media_intro: "Long WordPress weeks from the couch wreck my back. McGill's Big Three is bookmarked on my phone - curl-up, side plank, bird dog. Link in comments."
 slug: "mcgill-big-three"
 date: "2026-06-18T06:09:00Z"
 image: "/images/feature-desktop.jpg"
+image_prompt: "Photorealistic living room floor exercise scene, person in side plank beside a couch with a laptop closed on the cushion, soft morning light, neutral athletic wear, no faces shown clearly, no logos or text"
 categories: ["Health", "Fitness", "Tips"]
 author: "JoRap"
 tags: ["Stuart McGill", "Low Back", "Core", "Exercise", "Back Pain", "Bird Dog", "Side Plank", "Curl-Up", "Spine Health", "Physical Therapy"]

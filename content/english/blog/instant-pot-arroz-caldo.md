@@ -2,9 +2,11 @@
 title: "Instant Pot Arroz Caldo"
 meta_title: "Instant Pot Arroz Caldo - Big-Batch Filipino Congee"
 description: "My arroz caldo now lives in an 8-quart Instant Pot. Bone-in drumsticks, 25 minutes under pressure, big batch in about 45 minutes start to bowl."
+social_media_intro: "Left the Instant Pot vent on Vent once and wondered why nothing happened for twenty minutes. Arroz caldo anyway - 10-12 bowls in 45. Link in comments."
 slug: "instant-pot-arroz-caldo"
 date: "2026-07-09T06:00:00Z"
 image: "/images/instant-pot-arroz-caldo.jpg"
+image_prompt: "Photorealistic kitchen counter, steaming bowl of Filipino arroz caldo with ginger scallions and hard-boiled egg, bone-in chicken visible, 8-quart stainless pressure cooker blurred behind, warm morning window light, cozy comfort-food mood, no text or logos"
 categories: ["Food", "Recipes", "Filipino"]
 author: "JoRap"
 tags: ["Arroz Caldo", "Filipino Recipes", "Instant Pot", "Congee", "Comfort Food", "Chicken Recipes", "Filipino Food", "One-Pot Meals"]

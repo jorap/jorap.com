@@ -2,9 +2,11 @@
 title: "Six Thinking Hats, Five Advisors, One Agent"
 meta_title: "Six Hats vs LLM Council - Why I Want One Agent"
 description: "I ran a five-advisor AI council on my published posts. Then I ran one-agent six hats on the notes garden. Same itch. Different bill."
+social_media_intro: "Ran a five-advisor AI council on my own posts. Token bill hurt. Do I need five subagents, or can one agent wear the hats? Link in comments."
 slug: "six-hats-one-agent"
-date: 2026-08-03T00:51:00Z
+date: "2026-08-03T00:51:00Z"
 image: "/images/image-template.jpg"
+image_prompt: "Photorealistic home office desk at night, laptop showing a long AI chat transcript beside a printed Edward de Bono Six Hats diagram, warm desk lamp, coffee mug, tired but focused mood, shallow depth of field, no readable text on screen, no logos or watermarks"
 categories: ["Technology", "AI", "Opinion"]
 author: "JoRap"
 tags: ["LLM Council", "Six Thinking Hats", "Edward de Bono", "Cursor", "AI Workflow", "Decision Making", "Prompting", "Karpathy", "Digital Garden"]

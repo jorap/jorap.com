@@ -2,9 +2,11 @@
 title: "Modified ATK Recipe Style Guide Rules"
 meta_title: "Modified ATK Recipe Rules - How I Write Recipes for AI and Humans"
 description: "I borrowed America's Test Kitchen's recipe discipline and changed the parts that fight a personal blog. My modified rules keep AI drafts consistent without turning adobo into a textbook."
+social_media_intro: "Ask AI to format a recipe Monday and Wednesday - vinegar in the marinade on one draft, add later on the other. My ATK-style fix. Link in comments."
 slug: "modified-atk-recipe-style-guide-rules"
 date: "2026-07-30T01:30:00Z"
 image: "/images/Chicken-Adobo.jpg"
+image_prompt: "Photorealistic kitchen table with two printed recipe drafts side by side, red pen marking conflicting steps, Instant Pot in background, warm overhead light, handwriting and print too blurred to read, no logos"
 categories: ["Food", "Writing", "AI"]
 author: "JoRap"
 tags: ["Recipe Writing", "Style Guide", "America's Test Kitchen", "AI", "Filipino Recipes", "Instant Pot", "Food Blog", "Writing Tips"]

@@ -2,9 +2,11 @@
 title: "The CRAFT Prompt Framework"
 meta_title: "CRAFT - How to Write Prompts That Actually Work"
 description: "Vague prompts get vague answers. CRAFT - Context, Role, Action, Format, Target Audience - is how I build prompts that don't leave the model guessing."
+social_media_intro: "Write me a blog post about productivity once got me oatmeal with an In conclusion footer. CRAFT is the shape I still use. Link in the comments."
 slug: "craft-prompt-framework"
 date: "2026-06-18T06:13:00Z"
 image: "/images/feature-consistent-ai-output.jpg"
+image_prompt: "Desk with five sticky notes on monitor bezel spelling CRAFT, crumpled generic printout in trash, keyboard and mug, warm lamp, sticky note text illegible, no logos, photorealistic"
 categories: ["AI", "Writing", "Tips"]
 author: "JoRap"
 tags: ["AI", "Prompts", "CRAFT", "Prompt Engineering", "Writing", "ChatGPT", "LLM", "Content Creation", "PKM"]

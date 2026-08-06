@@ -2,9 +2,11 @@
 title: "Interesting Facts About JoRap (Scraped From My Own Blog)"
 meta_title: "Facts About JoRap - A Table From Every Blog Post"
 description: "I pulled personal facts from every post on this site into one table, with links back to where I said each thing. A sanity check that the blog still sounds like me."
+social_media_intro: "I scraped my own blog for facts about me - Team Rapusas, Davis, the wrong gender announcement at birth. Never publishing this one. Link in comments."
 slug: "interesting-facts-about-jorap"
 date: "2026-07-28T02:00:00Z"
 image: "/images/joraps-world.jpg"
+image_prompt: "Photorealistic overhead shot of a messy desk with printed blog pages, sticky notes, and a highlighter circling rows in a handwritten fact table, afternoon window light, no faces, no readable screen text or logos"
 categories: ["Ideas", "Website"]
 author: "JoRap"
 tags: ["JoRap", "Personal", "Blogging", "Meta", "Digital Garden", "Identity", "Archive"]
@@ -149,6 +151,7 @@ Draft posts show *(draft)* in the list.
 | **Phone for quick hits. Laptop for anything** that needs a keyboard, a big screen, or more than ten focused minutes. | [Why I Still Keep a Desktop or Laptop](/blog/why-keep-desktop-laptop/) |
 | Laptop on a **stand** with **external keyboard and mouse** - learned that after a forty-minute call with the phone propped on books. | [Why I Still Keep a Desktop or Laptop](/blog/why-keep-desktop-laptop/) |
 | My old laptop got **four more years** from a cheap **SSD swap**. | [Why I Still Keep a Desktop or Laptop](/blog/why-keep-desktop-laptop/) |
+| Daily errand bag is the blue **medium IKEA FRAKTA** - not a viral tote. Kit inside: **BRATTBY**, **umbrella**, **small fan**. Light days: carry **BRATTBY** with **two medium FRAKTAs** nested; **large FRAKTA** for the shopping trolley and for multiple badminton rackets. | [Skip the Viral Tote - I Carry the IKEA FRAKTA](/blog/ikea-frakta-bag/) *(draft)* |
 | A **short extension cord** (~2 m) lives in my laptop bag for hotel outlets and blocked café sockets. | [The Short Extension Cord in My Laptop Bag](/blog/extension-cord/) |
 | In the bag I carry a **plain extension cord**; the **surge strip stays at the desk**. | [The Short Extension Cord in My Laptop Bag](/blog/extension-cord/) |
 | Remote-work bag also packs: dedicated power cord, keyboard, mouse, stand, mat, USB fan. | [Remote Work Checklist](/blog/remote-work-checklist/) *(draft)* |

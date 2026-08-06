@@ -2,9 +2,11 @@
 title: "Consistent AI Output for WordPress Builds"
 meta_title: "Consistent AI on WordPress Builds - What Fixed the Drift"
 description: "Month one with AI on WordPress builds I was thrilled. Month three I got consistent output - helpers, reference examples, and a short rules doc."
+social_media_intro: "Same WordPress feature on Tuesday and Thursday - two folders, two helper names, both work, neither match. How I fixed the drift - link in comments."
 slug: "consistent-ai-output-wordpress-builds"
 date: "2026-05-30T05:00:00Z"
 image: "/images/feature-consistent-ai-output.jpg"
+image_prompt: "Photorealistic freelance desk, two monitors showing mismatched WordPress component folders side by side, printed house-rules doc pinned to wall, coffee and sticky notes, cool office light, frustrated-then-organized mood, no readable text, no logos"
 categories: ["Technology", "AI", "Web Development"]
 author: "JoRap"
 tags: ["WordPress", "Developer Life", "AI Coding", "Cursor", "Workflow", "PHP", "Theme Development", "Documentation", "Prompt Engineering"]

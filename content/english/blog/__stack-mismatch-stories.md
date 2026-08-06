@@ -2,9 +2,11 @@
 title: "Two Stack Mismatches I Keep Seeing"
 meta_title: "Stack Mismatch Stories - When the Tool Was Fine"
 description: "A static portfolio with five staff who expected WordPress. A four-page brochure on WooCommerce. Neither tool was wrong. The fit was."
+social_media_intro: "Static portfolio looked great. Six months later five staff wanted WordPress logins. WordPress for a four-page brochure too. Stack mismatches - link in comments."
 slug: "stack-mismatch-stories"
 date: "2026-07-29T10:00:00Z"
 image: "/images/static-vs-cms.jpg"
+image_prompt: "Photorealistic split-scene office: left side fast minimal portfolio website on a laptop, right side frustrated staff at desks with sticky notes reading edit this line, cool daylight, muted colors, no readable screen text, no logos"
 categories: ["Website", "Technology", "Tips"]
 author: "JoRap"
 tags: ["Website Building", "Static Site Generator", "CMS", "WordPress", "Client Work", "Web Development"]

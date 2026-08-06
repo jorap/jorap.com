@@ -2,9 +2,11 @@
 title: "The Miracle of Isaiah David"
 meta_title: "The Miracle of Isaiah David - Pregnant and Birth Same Day"
 description: "On May 8, 2020, Pia and I found out she was pregnant and gave birth to our son the same day. Years later, that sentence still doesn't feel real."
+social_media_intro: "May 8, 2020: we found out Pia was pregnant and met Isaiah David the same afternoon, during ECQ. Still doesn't feel real. Link in comments."
 slug: "miracle-isaiah-david"
 date: "2023-05-08T05:00:00Z"
 image: "/images/feature-isaiah-david.jpg"
+image_prompt: "Photorealistic tender hospital room moment, new parents holding a swaddled newborn in soft afternoon window light, empty chairs and muted medical equipment blurred in background, quiet grateful mood, faces partially turned away, no readable charts or logos, no text overlay"
 categories: ["Faith", "Family", "Testimony"]
 author: "JoRap"
 tags: ["Isaiah David", "Miracle Story", "Faith Story", "Parenthood", "Birth Story", "Filipino Family", "Christian Testimony", "Philippines"]

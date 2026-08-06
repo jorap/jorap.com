@@ -2,9 +2,11 @@
 title: "The Mouse Wheel Click: One Button, Three Operating Systems"
 meta_title: "Middle-Click Opens Tabs - Windows, Mac, and Linux"
 description: "Most people right-click every link to open a new tab. There's a faster button under their finger - same gesture on every OS, and almost nobody uses it."
+social_media_intro: "If you still right-click to open a new tab, the scroll wheel does that on Windows, Mac, and Linux - same button, no setup. Link in comments."
 slug: "mouse-wheel-click"
 date: "2026-05-28T05:00:00Z"
 image: "/images/feature-mouse-wheel-click.jpg"
+image_prompt: "Photorealistic close-up of a hand pressing the scroll wheel on a simple wired mouse beside a laptop trackpad, browser with multiple tabs open but unreadable, clean desk, cool daylight, practical productivity mood, no logos or watermarks"
 categories: ["Technology", "Productivity", "Tips"]
 author: "JoRap"
 tags: ["Mouse", "Mouse Wheel Click", "Browser Tips", "Windows", "macOS", "Linux", "Middle Click", "Productivity"]

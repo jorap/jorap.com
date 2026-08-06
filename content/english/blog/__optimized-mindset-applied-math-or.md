@@ -2,9 +2,11 @@
 title: "The Optimized Mindset I Got From Applied Math (Operations Research)"
 meta_title: "Applied Math and OR - The Mindset That Stuck"
 description: "I picked Applied Math with an OR track partly to dodge the CS quota. Twenty years later, the useful part isn't the formulas - it's how I frame constraints."
+social_media_intro: "I picked Applied Math at UP Los Baños to dodge the CS waitlist. Twenty years later the useful part is framing constraints, not formulas. Link in comments."
 slug: "optimized-mindset-applied-math-or"
 date: "2026-07-30T00:00:00Z"
 image: "/images/note.jpg"
+image_prompt: "Photorealistic old university classroom chalkboard covered in graphs and corner points of a feasible region, wooden desks, late afternoon sun through jalousie windows, nostalgic academic mood, equations too blurred to read, no logos"
 categories: ["Education", "Opinion", "Developer Life"]
 author: "JoRap"
 tags: ["Applied Mathematics", "Operations Research", "UP Los Baños", "Computer Science", "Education", "Decision Making", "Career", "Mindset", "Constraints", "Tradeoffs"]

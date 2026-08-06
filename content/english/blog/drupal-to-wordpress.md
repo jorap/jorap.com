@@ -2,9 +2,11 @@
 title: "Why I Switched from Drupal to WordPress"
 meta_title: "Why I Left Drupal for WordPress"
 description: "I fell hard for Drupal's architecture and still couldn't find work with it. WordPress had familiar building blocks and a community big enough to pay the bills."
+social_media_intro: "I fell for Drupal's content modeling. Couldn't find paying work with it. WordPress had the job posts and familiar blocks - link in comments."
 slug: "drupal-to-wordpress"
 date: "2026-05-27T06:30:00Z"
 image: "/images/drupal-to-wp.jpg"
+image_prompt: "Photorealistic developer crossroads desk, two laptops one showing complex CMS architecture diagram blurred one showing simpler block editor, job listings printout crumpled aside, neutral daylight, career pivot mood, no readable text, no logos"
 categories: ["Technology", "Web Development", "Opinion"]
 author: "JoRap"
 tags: ["Drupal", "WordPress", "CMS", "Web Development", "Developer Life", "Open Source", "Gutenberg", "WordCamp"]

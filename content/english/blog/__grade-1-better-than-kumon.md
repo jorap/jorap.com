@@ -2,9 +2,11 @@
 title: "Kumon for the Reps. Math Games at Home Because Numbers Feel Hard"
 meta_title: "Grade 1 Math Games at Home - Better Than Kumon"
 description: "He picked Kumon reading, not math - numbers feel hard, games don't. Here's the tablet-and-printer routine we run at home instead of doubling down on worksheets."
+social_media_intro: "He picked Kumon reading, not math - numbers feel hard. Our tablet-and-printer routine at home instead of doubling worksheets. Link in the comments."
 slug: "grade-1-better-than-kumon"
 date: "2026-07-15T01:20:00Z"
 image: "/images/note.jpg"
+image_prompt: "Grade-school kid at kitchen table with tablet showing blurred math game, printed worksheet and crayons, parent hand pointing, warm afternoon, no Kumon branding visible, photorealistic"
 categories: ["Parenting", "Education", "Tutorial"]
 author: "JoRap"
 tags: ["Grade 1", "Homeschool", "Math", "Handwriting", "Kumon", "Early Learning", "Parenting", "Reading", "Spelling", "First Grade", "Tablet", "Printables"]

@@ -2,9 +2,11 @@
 title: "Blog Template"
 meta_title: "How to Create a Blog Template - Hugo Reference"
 description: "Internal Hugo reference for blog frontmatter, shortcodes, and layout patterns on jorap.com. See the full template post for examples."
+social_media_intro: "Internal Hugo pointer for frontmatter, shortcodes, and layout patterns on jorap.com - not a standalone essay. Link in the comments."
 slug: "how-to-create-a-blog-template"
 date: "1981-06-14T05:00:00Z"
 image: "/images/joraps-world.jpg"
+image_prompt: "Laptop showing blurred Hugo docs and file tree, arrow sticky note pointing at frontmatter block, minimal desk, soft daylight, no readable text, no logos, photorealistic"
 categories: ["Website", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo CMS", "Markdown", "Shortcodes", "Frontmatter", "Blog Template", "Hugo", "Content Management", "Static Sites", "Web Development"]

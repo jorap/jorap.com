@@ -2,9 +2,11 @@
 title: "I Don't Have a Bad Memory"
 meta_title: "I Don't Have a Bad Memory - I Handle Information Poorly"
 description: "I watched Justin Sung on 'bad memory' and recognized my own habit: I consume, then wonder why nothing stuck. I'm learning how learning works - for me, and for Davis later."
+social_media_intro: "I told myself I had a bad memory for years. Justin Sung's take made me see a habit I could fix - for me and for Davis later. Link in the comments."
 slug: "i-dont-have-a-bad-memory"
-date: 2026-08-02T12:10:00Z
+date: "2026-08-02T12:10:00Z"
 image: "/images/image-template.jpg"
+image_prompt: "Person paused at keyboard, blank sticky notes on monitor, blurred YouTube tab edge, half-filled notebook, frustrated stillness, home office light, no readable text, photorealistic"
 categories: ["Productivity", "Parenting", "Ideas"]
 author: "JoRap"
 tags: ["Learning", "Memory", "Working Memory", "Justin Sung", "Study Skills", "Parenting", "Active Recall"]

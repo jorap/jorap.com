@@ -2,9 +2,11 @@
 title: "Retheming Hanamikoji as Duopoly"
 meta_title: "Hanamikoji to Duopoly: Component Cuts and Mechanics Test"
 description: "I love Hanamikoji for the mechanics, not the geisha art. Duopoly is my build log - fewer components, dull flags, same hook without the illustration."
+social_media_intro: "I love Hanamikoji for the split-you-choose puzzle, not the geisha art. Rethemed it as Duopoly with dull country flags to test if mechanics alone bite. Link in comments."
 slug: "hanamikoji-duopoly-retheme"
 date: "2026-07-14T01:26:00Z"
 image: "/images/duopoly.jpg"
+image_prompt: "Photorealistic tabletop two-player card game, plain poker-size cards with small country flags and point numbers, dull business theme, zine rules booklet beside deck, warm overhead lamp, tense decision moment, no readable text, no commercial game art"
 categories: ["Games", "Design"]
 author: "JoRap"
 tags: ["Duopoly", "Hanamikoji", "Board Games", "Card Games", "Game Design", "Component Design", "Retheme", "I Split You Choose", "Zine", "DIY"]

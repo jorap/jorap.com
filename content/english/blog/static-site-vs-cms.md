@@ -2,9 +2,11 @@
 title: "Static Site or CMS? How I Pick the Stack"
 meta_title: "Static Site vs CMS - When Each One Actually Fits"
 description: "I pick static or WordPress by who publishes, what changes live, and whether anyone needs a login - not by which one wins the argument online."
+social_media_intro: "The forum won't tell you static vs WordPress. Wrong stack means five staff expecting Git when nobody learned it - or WordPress for four pages. Link in comments."
 slug: "static-site-vs-cms"
 date: "2026-07-10T06:00:00Z"
 image: "/images/static-vs-cms.jpg"
+image_prompt: "Photorealistic split-scene desk metaphor, left side simple static HTML files and a fast CDN diagram sketched on paper, right side cluttered CMS dashboard on a second monitor, thoughtful decision mood, cool office light, no readable screen text, no logos"
 categories: ["Website", "Technology", "Tips"]
 author: "JoRap"
 tags: ["Website Building", "Static Site Generator", "CMS", "WordPress", "Hugo", "Sveltia CMS", "Web Development", "Tips"]

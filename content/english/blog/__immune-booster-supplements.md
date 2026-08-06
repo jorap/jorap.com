@@ -2,9 +2,11 @@
 title: "Personal Immune Booster Supplements"
 meta_title: "What's In My Supplement Stack (Not Medical Advice)"
 description: "Not medical advice - just the immune-support supplements I keep in rotation, what the research-ish case is, and how I actually take them."
+social_media_intro: "Not medical advice - just the immune-support supplements I keep in rotation and how I actually take them. Link in the comments."
 slug: "immune-booster-supplements"
 date: "2026-06-18T06:10:00Z"
 image: "/images/note.jpg"
+image_prompt: "Kitchen counter with a few supplement bottles labels turned away, weekly pill organizer and glass of water, morning window light, casual not clinical, no readable text, no logos, photorealistic"
 categories: ["Health", "Wellness", "Tips"]
 author: "JoRap"
 tags: ["Supplements", "Health", "Immune System", "Wellness", "Vitamin C", "Vitamin D", "Zinc", "Daily Routine", "Self Care", "Nutrition"]

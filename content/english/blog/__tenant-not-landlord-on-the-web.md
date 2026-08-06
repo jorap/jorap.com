@@ -2,9 +2,11 @@
 title: "Tenant, Not Landlord, on the Web"
 meta_title: "Tenant Not Landlord - Why I Don't Trust One App With Everything"
 description: "On social platforms you're a tenant. Vine proved it. I still post there - but my notes garden, tracker, and essays live on a domain I control."
+social_media_intro: "You're a tenant on every social app. Vine vanished overnight. My notes garden and essays live on a domain I control - link in comments."
 slug: "tenant-not-landlord-on-the-web"
 date: "2026-07-29T10:00:00Z"
 image: "/images/website.jpg"
+image_prompt: "Photorealistic metaphor scene, small personal website glowing on a laptop on a wooden desk you own, ghosted social app icons fading on a phone in the background, warm lamp light, calm ownership mood, no logos or readable UI text"
 categories: ["Website", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Personal Website", "Platform Risk", "Content Ownership", "Social Media", "Blogging", "Digital Garden"]

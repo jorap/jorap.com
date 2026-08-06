@@ -2,9 +2,11 @@
 title: "2nd Cellphone"
 meta_title: "Why I Keep a Second Cellphone"
 description: "I keep a cheap second phone buried in my bag with bank apps on it - underpowered, off the daily-driver path, so the important stuff stays out of easy reach."
+social_media_intro: "My kid used my daily phone for games while my banking apps sat on the same screen. Second handset in the bag now - boring on purpose. Link in comments."
 slug: "second-cellphone"
 date: "2026-06-18T05:07:00Z"
 image: "/images/feature-desktop.jpg"
+image_prompt: "Photorealistic open messenger bag on a chair showing two phones - one modern daily driver face down, one older plain backup phone partially hidden in an inner pocket, natural daylight, no readable screens, no logos"
 categories: ["Technology", "Gear", "Tips"]
 author: "JoRap"
 tags: ["Cellphone", "Backup Phone", "Travel", "Gear", "Dual SIM", "Emergency Phone", "Work Phone", "Mobile Device", "Phone Backup", "Travel Essentials"]

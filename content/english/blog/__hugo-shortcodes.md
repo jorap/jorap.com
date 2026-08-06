@@ -2,9 +2,11 @@
 title: "Hugo Shortcodes Deep Dive"
 meta_title: "Hugo Shortcodes - Fix Images Once, Not in Every Post"
 description: "I use shortcodes for images, YouTube, Spotify - anything I'd otherwise paste as raw HTML. One template change updates every post that uses it."
+social_media_intro: "Shortcodes are the bits I repeat in Markdown - images, YouTube, Spotify - one template change updates every post that uses it. Link in the comments."
 slug: "hugo-shortcodes"
 date: "2026-06-19T06:00:00Z"
 image: "/images/joraps-world.jpg"
+image_prompt: "Markdown editor with blurred shortcode blocks, small embedded video and image placeholders rendered below, clean desk, no platform logos, no readable text, photorealistic"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo", "Shortcodes", "Markdown", "Web Development", "Static Sites", "Components", "PKM", "Documentation"]

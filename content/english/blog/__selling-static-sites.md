@@ -2,9 +2,11 @@
 title: "How I Quote Client Websites"
 meta_title: "How I Quote Client Websites - Clear Line Items"
 description: "I break quotes into readable pieces - discovery, build, migration, pass-off, hosting. No bundled fog, no invoice that mixes labor with server rent."
+social_media_intro: "When a client moved on I was paying the whole shared hosting bill for what was basically my blog. How I quote static sites now. Link in comments."
 slug: "selling-static-sites"
 date: "2026-07-02T05:00:00Z"
 image: "/images/website.jpg"
+image_prompt: "Photorealistic freelancer desk with printed quote sheet showing separate line items as blurred rows, laptop with simple static website mockup, calculator and pen, clean professional mood, warm desk lamp, no readable text or logos"
 categories: ["Website", "Business", "Tips"]
 author: "JoRap"
 tags: ["Website Building", "Freelance", "Static Site Generator", "Hugo", "Cloudflare Pages", "GitHub", "Client Work", "Pricing", "Business", "Web Hosting"]

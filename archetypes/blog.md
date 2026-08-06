@@ -2,9 +2,11 @@
 title: "{{ replace .Name "-" " " | title }}"
 meta_title: "{{ replace .Name "-" " " | title }}"
 description: ""
+social_media_intro: ""
 slug: "{{ .Name }}"
 date: {{ .Date }}
 image: "/images/image-template.jpg"
+image_prompt: ""
 categories: []
 author: "JoRap"
 tags: []

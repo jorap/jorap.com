@@ -2,9 +2,11 @@
 title: "HugoPlate: The Theme Quietly Powering This Site"
 meta_title: "HugoPlate Shortcodes + Theme Review: What Powers JoRap"
 description: "Live demos of every HugoPlate shortcode this site uses, plus why I still run the theme a year later - what I changed and where it bit me."
+social_media_intro: "Spent one weekend picking a Hugo theme and still haven't replaced HugoPlate a year later. Live shortcode gallery + what bit me. Link in comments."
 slug: "hugoplate-theme-review"
 date: "2026-05-29T05:00:00Z"
 image: "/images/joraps-world.jpg"
+image_prompt: "Photorealistic developer workspace, monitor showing a clean blog page layout with callout boxes and dark mode toggle, mechanical keyboard, muted room light, calm late-evening mood, no readable text on screen, no logos or watermarks"
 categories: ["Website", "Technology", "Reviews"]
 author: "JoRap"
 tags: ["Hugoplate", "Hugo", "Tailwind CSS", "Themes", "Static Sites", "Open Source", "Website Building", "Digital Garden"]

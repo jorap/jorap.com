@@ -2,9 +2,11 @@
 title: "Private Notes vs Hugo"
 meta_title: "Private Notes vs Hugo - Garage vs Public Garden"
 description: "I don't run a separate Obsidian vault anymore. Private captures stay in the garage; Hugo builds the public garden on jorap.com."
+social_media_intro: "I spent Sundays copying paragraphs between a private wiki and Hugo wondering why I didn't write once. Garage vs garden now. Link in comments."
 slug: "obsidian-vs-hugo"
 date: "2026-06-19T06:00:00Z"
 image: "/images/note.jpg"
+image_prompt: "Photorealistic split scene of two workspaces - cluttered offline notebook and draft papers on one side, clean published website on a monitor on the other - connected by a USB drive on the desk, soft natural light, no readable text, no logos"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo", "PKM", "Publishing", "Markdown", "Workflow", "Digital Garden", "Note Taking"]

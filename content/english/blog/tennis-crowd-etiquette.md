@@ -2,9 +2,11 @@
 title: "Cheer Between Points - Not on the Toss"
 meta_title: "Pinoy Crowd Timing for Alex Eala Matches"
 description: "If you're in the stands for Alex - save the roar for between points. A shout on the toss hits her too. Clap good tennis both ways, and leave the lines to the chair."
+social_media_intro: "Bring the Gilas roar to Alex's matches - just not on her serve toss. A shout mid-toss breaks her rhythm too. Link in comments."
 slug: "tennis-crowd-etiquette"
 date: "2026-08-06T04:00:00Z"
 image: "/images/pinoy-tennis-fans.jpg"
+image_prompt: "Photorealistic indoor tennis arena crowd section, Filipino fans with flags cheering between points with hands raised, player serving on court blurred in distance, bright arena lighting, passionate but respectful mood, no readable signage or logos, no text overlay"
 categories: ["Sports", "Filipino", "Tips"]
 author: "JoRap"
 tags: ["Tennis", "Alex Eala", "Crowd Etiquette", "Philippines", "WTA", "Sports Fan", "Gilas", "Volleyball", "Boxing", "Manny Pacquiao"]

@@ -2,9 +2,11 @@
 title: "Sustainable Online Publishing"
 meta_title: "Sustainable Online Publishing - The Habit Side"
 description: "I already decided to own my site. This is how I keep publishing without treating social as my archive - domain, Git, push, share."
+social_media_intro: "The real copy lives in Git now. Social is the megaphone, not the vault - after I lost PHP hosting once. Link in comments."
 slug: "sustainable-online-publishing"
 date: "2026-06-12T14:58:00Z"
 image: "/images/sustainable-publishing.jpg"
+image_prompt: "Photorealistic writer desk, open markdown draft on laptop beside a phone showing a blurred social feed, notebook with domain name scribbled illegibly, evening lamp light, calm ownership mood, no readable UI text, no logos or watermarks"
 categories: ["Website", "Ideas", "Technology"]
 author: "JoRap"
 tags: ["Publishing", "Self-Hosting", "Hugo", "Cloudflare Pages", "Content Ownership", "Platform Risk", "Blogging", "Digital Garden"]

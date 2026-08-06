@@ -2,9 +2,11 @@
 title: "Streamlining Brings the Audience the Uncut Version Never Had"
 meta_title: "Streamlining Techniques in Games and Sports"
 description: "Streamlining isn't just shorter - it's who shows up. T20, pickleball, Monopoly Deal: same hook, smaller package, audiences the uncut version never reached."
+social_media_intro: "Shrink the package and different people show up - T20 cricket, pickleball, Monopoly Deal. Same hook, smaller door. Link in comments."
 slug: "streamlining-games-and-sports"
 date: "2026-07-27T11:46:00Z"
 image: "/images/modern_board_gaming.jpg"
+image_prompt: "Photorealistic collage-style still life on a table, compact Monopoly Deal card box beside a pickleball paddle and a cricket bat leaning against a chair, diverse casual players blurred in background park light, energetic accessible mood, no readable brand text, no watermarks"
 categories: ["Games", "Opinion"]
 author: "JoRap"
 tags: ["Board Games", "Sports", "Game Design", "Cricket", "Volleyball", "Basketball", "3x3", "Pickleball", "Futsal", "Rugby League", "Touch Football", "Rugby Sevens", "Flag Football", "Softball", "Chess", "Tennis", "Monopoly Deal", "Jaipur", "Dominion", "Splendor", "Sushi Go", "Las Vegas", "Fluxx", "One Night Ultimate Werewolf", "Marvel Snap", "Opinion"]

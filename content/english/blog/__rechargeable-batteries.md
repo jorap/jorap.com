@@ -2,9 +2,11 @@
 title: "Rechargeable Batteries"
 meta_title: "Rechargeable Batteries - Stop Buying AAs Every Month"
 description: "Switching to rechargeable AA and AAA batteries cut our disposable pile and paid for itself faster than I expected. Here's the setup that actually stuck."
+social_media_intro: "Talking toy died at 9 PM on a school night. Convenience store alkalines I'd throw away in a month. That was the last blister pack. Link in comments."
 slug: "rechargeable-batteries"
 date: "2026-06-18T05:03:00Z"
 image: "/images/extension-cord.jpg"
+image_prompt: "Photorealistic kitchen drawer half open revealing mixed dead batteries and a neat row of rechargeable AA cells, battery charger on counter glowing green, late evening warm light, child's toy in soft focus background, no logos"
 categories: ["Gear", "Home", "Reviews"]
 author: "JoRap"
 tags: ["Batteries", "Rechargeable", "Everyday Carry", "Gear", "AA Batteries", "AAA Batteries", "Eneloop", "Sustainability", "Battery Charger", "Home Essentials"]

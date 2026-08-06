@@ -2,9 +2,11 @@
 title: "The AI Contractor Problem on WordPress Builds"
 meta_title: "The AI Contractor Problem - One Week Fixing Drift"
 description: "Every new AI chat is day one for a skilled hire who forgets yesterday's code. One week on a WordPress build taught me to build the layer first."
+social_media_intro: "Month three on a WordPress build, every new AI chat starts at day one again. I finally named that problem - and what I built first. Link in the comments."
 slug: "ai-contractor-problem-wordpress"
 date: "2026-07-29T10:00:00Z"
 image: "/images/feature-consistent-ai-output.jpg"
+image_prompt: "Late-night home desk, laptop showing two blurred AI chat panes with different PHP snippets for the same feature, coffee mug, warm lamp, tired developer silhouette in chair back, no readable text, no logos, photorealistic"
 categories: ["Technology", "AI", "Web Development"]
 author: "JoRap"
 tags: ["WordPress", "AI Coding", "Cursor", "Developer Life", "Workflow", "PHP", "Theme Development"]

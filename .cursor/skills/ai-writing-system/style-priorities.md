@@ -17,7 +17,7 @@ Use when a draft feels "correct" by checklist but wrong on read — or when shor
 | 7 | **Likability** — useful, honest, human, respectful (not performative warmth) | jorap-voice likability lens |
 | 8 | **Structure** — H2 personality, `---` breaks, no `## Bottom line` on opinion posts | jorap-voice Structure |
 | 9 | **Mechanical lint** — dashes, slop rules, voice-words.yaml | `pnpm lint:*` |
-| 10 | **Meta / SEO** — `description` memorable, not keyword-stuffed | frontmatter |
+| 10 | **Meta / SEO** — `description` memorable, not keyword-stuffed; `social_media_intro` ≤200 chars, link-in-comments hook; `image_prompt` paste-ready hero generation | frontmatter |
 
 ## Conflict examples
 

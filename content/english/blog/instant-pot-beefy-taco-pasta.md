@@ -2,9 +2,11 @@
 title: "Instant Pot Beefy Taco Pasta"
 meta_title: "Instant Pot Beefy Taco Pasta - 1 kg Beef and Pasta"
 description: "My Instant Pot taco pasta for a 1 kg lean beef and 1 kg short-pasta batch in the 8-quart. Brown the meat separate, layer under the sauce, high pressure 5 minutes."
+social_media_intro: "I kept getting burn notices until I stopped stirring meat and pasta before sealing - layer it instead. 1 kg batch. Link in comments."
 slug: "instant-pot-beefy-taco-pasta"
 date: "2026-08-06T02:30:00Z"
 image: "/images/beefy-taco-pasta.jpg"
+image_prompt: "Photorealistic top-down view of an open 8-quart Instant Pot before sealing, short twisted pasta on bottom, seasoned ground beef and tomato sauce layered on top with thick mushroom slices, kitchen counter light, weeknight dinner energy, no text or brand marks"
 categories: ["Food", "Recipes"]
 author: "JoRap"
 tags: ["Instant Pot", "Pasta", "Ground Beef", "Mushrooms", "Weeknight Dinner", "One-Pot Meals", "Comfort Food", "Pressure Cooking", "Taco Pasta"]

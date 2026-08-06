@@ -2,9 +2,11 @@
 title: "Alex Eala Pro Career Tracker"
 meta_title: "Alex Eala WTA Career Tracker - Rankings and Matches"
 description: "My running scrapbook of Alex Eala's WTA career - rankings, matches I'll never forget, and matchups I'm watching for next."
+social_media_intro: "Following Alex Eala since Miami 2025. Rankings, Slam runs, matchups I'm watching - a scrapbook I pin-update when Twitter breaks at 2am. Link in comments."
 slug: "alex-eala-pro-career-tracker"
 date: "2026-08-02T05:00:00Z"
 image: "/images/alex-eala.jpg"
+image_prompt: "Photorealistic late-night couch scene, laptop open to a tennis stats page blurred, phone showing tennis notification glow, Philippine flag throw pillow nearby, dim TV light, fan-at-2am mood, no readable text, no athlete likeness, no logos"
 categories: ["Sports", "Filipino", "People"]
 author: "JoRap"
 tags: ["Tennis", "Alex Eala", "WTA", "Grand Slam", "Philippines", "Career Tracker", "Pro Tennis", "Sports Fan"]

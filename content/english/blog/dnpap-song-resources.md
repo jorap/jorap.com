@@ -2,9 +2,11 @@
 title: "DNPAP - The Song Pia Recorded at Home"
 meta_title: "DNPAP - Pia, Destiny Music, and the Links I Keep"
 description: "DNPAP is memorable to me because Pia sang the studio vocal at home during COVID. Destiny Music wrote it. Here's the story, then the studio cut, live cut, and videos in one place."
+social_media_intro: "Pia tracked the DNPAP studio vocal at home during COVID while my mother-in-law watched our son next door. Story plus links - link in comments."
 slug: "dnpap-song-resources"
 date: "2022-11-12T05:00:00Z"
 image: "/images/feature-dnpap.jpg"
+image_prompt: "Photorealistic quiet home corner COVID-era vocal setup, headphones and microphone on stand, toddler toys visible through open doorway, warm afternoon window light, intimate family session mood, no readable text, no logos, no album art"
 categories: ["Worship", "Music", "Filipino"]
 author: "JoRap"
 tags: ["DNPAP", "Destiny Music", "Filipino Worship", "Worship Resources", "OPM", "Christian Music", "Spotify", "YouTube"]

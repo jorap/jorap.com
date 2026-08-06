@@ -2,9 +2,11 @@
 title: "Why I Stopped Playing Marvel Snap"
 meta_title: "Why I Quit Marvel Snap"
 description: "Marvel Snap hooked me with three-minute matches. Then the meta treadmill and cube anxiety turned a snack game into homework. I never spent a cent."
+social_media_intro: "Three-minute matches hooked me. Then I was googling deck lists after a bad streak instead of closing the app. Why I quit Snap. Link in comments."
 slug: "why-i-stopped-playing-marvel-snap"
 date: "2026-07-05T06:11:00Z"
 image: "/images/stop_snap.jpg"
+image_prompt: "Photorealistic phone on a couch cushion showing a blurred mobile card-game defeat screen, laptop nearby open to meta-deck websites with unreadable text, tired late-night blue light, homework-not-fun mood, no Marvel logos or readable UI, no watermarks"
 categories: ["Games", "Opinion"]
 author: "JoRap"
 tags: ["Marvel Snap", "Card Games", "Gaming", "Mobile Games", "Digital Collectibles", "FOMO", "Game Design", "Marvel", "Free to Play", "Quit Gaming"]

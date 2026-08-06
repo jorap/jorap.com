@@ -2,9 +2,11 @@
 title: "Don't Clone That Quiz - Build Your Own Preference Map"
 meta_title: "Preference Quiz with Urgency - 32 Results, No Best Wait or Go"
 description: "Don't clone a branded quiz. Build a preference quiz - five switches, not a personality verdict - and add Urgency (Wait/Go) so sixteen calm stacks become thirty-two, with no best answer on W or G."
+social_media_intro: "Stop cloning branded quizzes. I built a preference map - five switches, Wait or Go, no personality verdict. Link in the comments."
 slug: "build-your-own-trait-quiz"
 date: "2026-08-04T05:00:00Z"
 image: "/images/image-template.jpg"
+image_prompt: "Kitchen table sketch of five labeled toggle switches and a Wait/Go fork on graph paper, pencil, coffee cup, warm afternoon light, no branded quiz art, no readable text, photorealistic"
 categories: ["Opinion", "Technology", "Developer Life"]
 author: "JoRap"
 tags: ["Preferences", "Product Design", "Open Source", "Naming", "Intellectual Property", "Urgency"]

@@ -2,9 +2,11 @@
 title: "Why I Focused on Open Source Technologies"
 meta_title: "Why I Bet on Open Source - Practical, Not a Manifesto"
 description: "Open source wasn't a purity test. No license fee got me in the door; freedom to install, read the code, and move my files is what kept me for twenty years."
+social_media_intro: "Open source got real when I could unzip XAMPP on a locked-down office PC and break CMS installs at lunch - no admin prompt. Link in comments."
 slug: "why-i-focused-on-open-source"
 date: "2026-07-04T12:00:00Z"
 image: "/images/open-source.jpg"
+image_prompt: "Photorealistic corporate office cubicle lunch break, desktop with local server stack running in a terminal window, USB drive and printed IT restriction notice blurred, fluorescent overhead light, rebellious-but-quiet mood, no readable text, no logos"
 categories: ["Technology", "Opinion", "Developer Life"]
 author: "JoRap"
 tags: ["Open Source", "FOSS", "Hugo", "WordPress", "XOOPS", "Linux", "Web Development", "Developer Life", "Free Software", "Static Site Generator", "AI"]

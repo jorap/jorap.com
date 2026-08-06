@@ -2,9 +2,11 @@
 title: "Why I Love the Inter Font"
 meta_title: "Why Inter Is the Only Font on JoRap.com"
 description: "I met Inter in Refactoring UI, kept it for every project after, and run it as the only font on jorap.com - self-hosted, weight-based hierarchy, no second typeface."
+social_media_intro: "Found Inter in Refactoring UI. Now it's the only font on jorap.com - no serif pairing, no second voice arguing. Link in comments."
 slug: "inter-font"
 date: "2026-07-15T11:48:00Z"
 image: "/images/joraps-world.jpg"
+image_prompt: "Photorealistic close-up of a laptop screen showing a clean blog article in a neutral sans-serif typeface, warm desk lamp light, shallow depth of field, dark room, no logos or readable brand text in frame"
 categories: ["Website", "Design", "Opinion"]
 author: "JoRap"
 tags: ["Inter", "Typography", "Web Design", "Fonts", "Readability", "Hugo", "Tailwind CSS", "Self-Hosting", "UI Design", "Personal Website"]

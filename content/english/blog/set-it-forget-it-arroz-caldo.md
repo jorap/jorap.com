@@ -2,9 +2,11 @@
 title: "The Set It and Forget It Arroz Caldo"
 meta_title: "Set It and Forget It Arroz Caldo - Rice Cooker Method"
 description: "How I used to make arroz caldo in a rice cooker with a congee feature - five minutes of prep, an hour hands-off. I use an Instant Pot now."
+social_media_intro: "I used to hit the rice cooker congee button Friday night and wake up to ginger smell. Smaller-batch method - I'm on Instant Pot now. Link in comments."
 slug: "set-it-forget-it-arroz-caldo"
 date: "2025-03-29T05:00:00Z"
 image: "/images/arroz-caldo.jpg"
+image_prompt: "Photorealistic cozy kitchen at night, white rice cooker with steam rising, ladle resting on counter, ginger and garlic on a cutting board, warm amber under-cabinet light, sleepy Friday-night mood, no readable labels or logos"
 categories: ["Food", "Recipes", "Filipino"]
 author: "JoRap"
 tags: ["Arroz Caldo", "Filipino Recipes", "Rice Cooker Recipes", "Congee", "Comfort Food", "Chicken Recipes", "Filipino Food", "One-Pot Meals"]

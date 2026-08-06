@@ -2,9 +2,11 @@
 title: "Tailwind CSS v4.0"
 meta_title: "Tailwind CSS v4 - What Changed When Hugoplate Upgraded"
 description: "Tailwind v4 moved config into CSS and shuffled the build pipeline. I didn't fork blindly - I synced Hugoplate upstream and tested before pushing live."
+social_media_intro: "Tailwind v4 moved config into CSS. I edited tailwind.config.js out of habit and nothing moved. What broke my mental model - link in comments."
 slug: "tailwind-css-v4"
 date: "2026-06-19T06:00:00Z"
 image: "/images/joraps-world.jpg"
+image_prompt: "Photorealistic developer desk, code editor showing CSS @theme block on one monitor, faded tailwind.config.js tab on another, mechanical keyboard, neutral daylight, focused upgrade-session mood, no readable code text, no logos"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Tailwind CSS", "CSS", "Web Development", "Hugo", "Hugoplate", "Frontend"]

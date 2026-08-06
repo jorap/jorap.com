@@ -2,9 +2,11 @@
 title: "Why My Son Loves Toca Boca World"
 meta_title: "Why Davis Loves Toca Boca World"
 description: "Davis plays on a locked-down kids phone, not mine. Toca Boca World beat the apps every other kid talks about - no chat, no feed, no ranked meltdown when the timer hits."
+social_media_intro: "Davis runs Toca Boca on a locked-down kids phone - no chat, no feed, no ranked meltdown when the timer hits. Why it stuck. Link in comments."
 slug: "why-my-son-loves-toca-boca-world"
 date: "2026-07-30T02:53:00Z"
 image: "/images/tbw.jpg"
+image_prompt: "Photorealistic living room couch, grade-school boy holding a rugged kids phone with a colorful sandbox city game on screen, toy figures scattered on cushion, soft afternoon window light, playful calm mood, no readable app text or logos, no watermarks"
 categories: ["Parenting", "Games", "Opinion"]
 author: "JoRap"
 tags: ["Toca Boca World", "Toca Boca", "Kids Games", "Mobile Games", "Parenting", "Screen Time", "Kids Mode", "Android", "Grade 1", "Sandbox Games", "Roblox", "YouTube Kids", "Family", "Opinion"]

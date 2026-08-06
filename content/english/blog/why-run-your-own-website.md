@@ -2,9 +2,11 @@
 title: "Why I Still Run My Own Website"
 meta_title: "Why I Still Run My Own Website - Not Just Facebook"
 description: "People ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet."
+social_media_intro: "Why not just post on Facebook? My notes garden and Alex Eala tracker live here - I wouldn't trust that to a feed algorithm. Link in comments."
 slug: "why-run-your-own-website"
 date: "2024-03-10T05:00:00Z"
 image: "/images/website.jpg"
+image_prompt: "Photorealistic personal website on a laptop screen showing a mixed blog and notes layout with tennis and recipe thumbnails blurred, phone with social app icon row pushed aside on desk, owned-space mood, warm desk lamp, no readable text or logos, no watermarks"
 categories: ["Website", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Personal Website", "Self-Hosting", "Content Ownership", "Platform Risk", "Blogging", "Website Building", "Digital Garden", "Publishing", "Personal Branding"]

@@ -2,9 +2,11 @@
 title: "Kewpie Mayo"
 meta_title: "Kewpie Mayo - Why This Japanese Mayo Earned a Permanent Spot"
 description: "Kewpie isn't just yellow mayo in a squeeze bottle. Richer, eggier, tangier - and the one we reach for when the mayo should actually taste like something."
+social_media_intro: "Pia handed me Kewpie for sushi night. I reached for Hellmann's out of habit. One egg sandwich later I got why people treat this like its own food group. Link in comments."
 slug: "kewpie-mayo"
 date: "2026-06-18T05:06:00Z"
 image: "/images/Chicken-Adobo.jpg"
+image_prompt: "Photorealistic kitchen counter with a simple egg sandwich on toasted bread, squeeze bottle of Japanese mayo beside a generic Western mayo jar turned away from camera, warm morning light, no logos or labels facing camera"
 categories: ["Food", "Pantry", "Reviews"]
 author: "JoRap"
 tags: ["Kewpie", "Mayonnaise", "Japanese Food", "Pantry Staples", "Cooking", "Condiments", "Salad Dressing", "Asian Cuisine", "Ingredient Review", "Umami"]

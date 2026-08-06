@@ -2,9 +2,11 @@
 title: "Portable Software on Windows, Cross-Platform Later"
 meta_title: "Portable Software First - Cross-Platform When I Left Windows-Only"
 description: "Portable builds solved locked Windows PCs. Cross-platform mattered later - and most of the tools that run everywhere are open source."
+social_media_intro: "Locked corporate PC, no admin rights. XAMPP portable in a folder I could copy USB to USB - that trained me on portable first. Link in comments."
 slug: "portable-cross-platform-software"
 date: "2026-07-29T12:45:00Z"
 image: "/images/static-vs-cms.jpg"
+image_prompt: "Photorealistic office cubicle lunch break, USB drive plugged into a locked-down desktop, portable software folder open on screen with blurred file tree, fluorescent overhead light, no readable text, no company logos"
 categories: ["Technology", "Tips", "Developer Life"]
 author: "JoRap"
 tags: ["Portable Software", "Cross-Platform", "Windows", "Linux", "macOS", "PortableApps.com", "Beyond Compare", "XAMPP", "Developer Tools", "Workflow"]

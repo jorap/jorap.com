@@ -2,9 +2,11 @@
 title: "Shopee Tips"
 meta_title: "Shopee Tips - How I Shop Smarter on Shopee"
 description: "Shopee is overwhelming on purpose. Here's how I filter for local sellers, stretch shipping promos, and find deals that are actually worth opening the app for."
+social_media_intro: "Shopee sold me a premium USB hub lighter than the packaging suggested - dead in a week. How I filter local sellers now. Link in comments."
 slug: "shopee-tips"
 date: "2026-06-18T05:08:00Z"
 image: "/images/joraps-world.jpg"
+image_prompt: "Photorealistic parcel unboxing on a dining table, flimsy USB hub beside oversized shipping box and bubble wrap, skeptical mood, phone showing blurred shopping app, daylight from window, no readable app branding or logos"
 categories: ["Shopping", "Tips", "Guide"]
 author: "JoRap"
 tags: ["Shopee", "Online Shopping", "Philippines", "E-commerce", "Deals", "Free Shipping", "Local Sellers", "Marketplace", "Shopping Hacks", "Filipino"]

@@ -2,9 +2,11 @@
 title: "Instant Pot Chicken Adobo"
 meta_title: "Instant Pot Chicken Adobo - 10 Minutes Under Pressure"
 description: "My go-to chicken adobo for the Instant Pot. Bone-in thighs, 10 minutes under pressure, classic soy-garlic-vinegar glaze without the hours of waiting."
+social_media_intro: "Chicken adobo used to mean an hour at the stove. Now 10 minutes under pressure - but I don't brown in the Instant Pot (burn notices). Link in comments."
 slug: "instant-pot-chicken-adobo"
 date: "2026-05-03T23:00:00Z"
 image: "/images/Chicken-Adobo.jpg"
+image_prompt: "Photorealistic Filipino kitchen scene, glossy soy-garlic chicken adobo with bay leaves in a deep bowl, separate cast-iron skillet with seared bone-in thighs nearby, stainless pressure cooker in background, warm tungsten lighting, no text or logos"
 categories: ["Food", "Recipes", "Filipino"]
 author: "JoRap"
 tags: ["Chicken Adobo", "Filipino Recipes", "Instant Pot", "Comfort Food", "Chicken Recipes", "Filipino Food", "Weeknight Dinner", "Pressure Cooking"]

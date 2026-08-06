@@ -12,9 +12,11 @@ BLOG_FM_ORDER = (
     "title",
     "meta_title",
     "description",
+    "social_media_intro",
     "slug",
     "date",
     "image",
+    "image_prompt",
     "categories",
     "author",
     "tags",
@@ -36,7 +38,18 @@ LEVEL_DEPTH_LABELS = {
 }
 
 BLOG_ALWAYS_QUOTE = frozenset(
-    {"title", "meta_title", "description", "slug", "date", "image", "author", "lastmod"}
+    {
+        "title",
+        "meta_title",
+        "description",
+        "social_media_intro",
+        "slug",
+        "date",
+        "image",
+        "image_prompt",
+        "author",
+        "lastmod",
+    }
 )
 
 
@@ -137,9 +150,11 @@ def _self_check() -> None:
         "title": "Test",
         "meta_title": "Test",
         "description": "A post.",
+        "social_media_intro": "Skipped the viral tote. Blue FRAKTA still wins - link in comments.",
         "slug": "test",
         "date": "2026-01-01T05:00:00Z",
         "image": "/images/x.jpg",
+        "image_prompt": "Blue IKEA FRAKTA bag by a door, soft daylight, no text.",
         "categories": ["Tips"],
         "author": "JoRap",
         "tags": ["A"],
@@ -150,6 +165,8 @@ def _self_check() -> None:
     }
     text = dump_blog_frontmatter(sample)
     assert 'slug: "test"' in text
+    assert 'social_media_intro:' in text
+    assert 'image_prompt:' in text
     assert "related_notes:\n  - capture" in text
     assert "level_depth: 3" in text
     assert normalize_date("2026-05-03T23:00:00") == "2026-05-03T23:00:00Z"

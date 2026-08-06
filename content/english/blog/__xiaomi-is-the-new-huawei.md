@@ -2,9 +2,11 @@
 title: "Xiaomi Is the New Huawei"
 meta_title: "Xiaomi Took Huawei's Spot in Global Phones"
 description: "Huawei used to be the Chinese brand that felt premium without the premium tax. Sanctions changed that. Xiaomi is filling the gap - phones, gadgets, cars - and I keep running into it whether I'm shopping or fixing the TV."
+social_media_intro: "Open Shopee for a charger - three Xiaomi listings before the cable you wanted. That used to be Huawei. Why Xiaomi filled the lane - link in comments."
 slug: "xiaomi-is-the-new-huawei"
 date: "2026-07-28T04:45:00Z"
 image: "/images/feature-desktop.jpg"
+image_prompt: "Photorealistic Philippines mall phone shop wall display with midrange Android phones and a cheap streaming box on shelf, shopper scrolling phone in foreground, bright retail fluorescent light, incidental brand hardware only, no hero logos, no text overlays"
 categories: ["Technology", "Opinion"]
 author: "JoRap"
 tags: ["Xiaomi", "Huawei", "Redmi", "POCO", "Smartphones", "Android", "HyperOS", "Mi Box", "Electric Vehicles", "SU7", "Shopee", "Philippines", "Samsung", "Google Mobile Services", "US Sanctions", "Consumer Tech", "Opinion"]

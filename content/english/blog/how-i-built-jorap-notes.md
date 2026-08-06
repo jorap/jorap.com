@@ -2,9 +2,11 @@
 title: "How I Built JoRap Notes: After Losing PHP Hosting"
 meta_title: "How I Built JoRap Notes - Hugo, GitHub, Cloudflare Pages"
 description: "I lost my old PHP hosting and a chunk of my work. A weekend later I landed on Hugo + GitHub + Cloudflare Pages - faster and better than what I was paying for."
+social_media_intro: "I lost shared hosting and a chunk of my work. Now I push Markdown to GitHub and the site is live in about ninety seconds. Link in comments."
 slug: "how-i-built-jorap-notes"
 date: "2024-06-14T05:00:00Z"
 image: "/images/joraps-world.jpg"
+image_prompt: "Photorealistic home desk at night, laptop open to a terminal showing a green deploy success line, markdown notes and coffee mug beside it, warm desk lamp light, quiet focused mood, shallow depth of field, no readable logos or on-screen text, no watermarks"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo", "GitHub", "Cloudflare Pages", "Static Sites", "Website Building", "PHP", "Migration", "Digital Garden", "Self-Hosting"]

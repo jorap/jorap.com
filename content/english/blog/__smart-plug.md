@@ -2,9 +2,11 @@
 title: "Smart Plug"
 meta_title: "Smart Plug - Simple Automation That Actually Sticks"
 description: "Smart plugs are the least glamorous gadget in the house and also the one I keep buying. What they're good for, what to skip, and how to avoid troubleshooting."
+social_media_intro: "My first smart plug died nightly behind a metal TV stand. Moved it six inches. Fixed everything. What actually sticks - link in comments."
 slug: "smart-plug"
 date: "2026-06-18T05:01:00Z"
 image: "/images/extension-cord.jpg"
+image_prompt: "Photorealistic living room corner, white smart plug in wall outlet behind a metal TV stand, lamp and small fan plugged in, soft evening light, phone on side table showing a simple on-off UI glow, cozy domestic scene, no brand logos, no text overlays"
 categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
 tags: ["Smart Home", "Smart Plug", "Automation", "Gear", "IoT", "Home Automation", "Scheduling", "Energy Saving", "Wi-Fi Plug", "Voice Assistant"]

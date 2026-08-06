@@ -2,9 +2,11 @@
 title: "Make AI Articles More Human"
 meta_title: "Make AI Articles More Human - Perplexity and Editing"
 description: "AI drafts often sound flat because they're too uniform. Here's the prompt and editing lens I use when I want generated content to read like a person wrote it."
+social_media_intro: "AI drafts fail the vibe check before the fact check - too smooth, same-length every sentence. My prompt and edit lens for that. Link in the comments."
 slug: "humanize-ai-articles"
 date: "2026-06-18T06:07:00Z"
 image: "/images/feature-consistent-ai-output.jpg"
+image_prompt: "Two printed draft pages side by side on desk, one marked up heavily with red pen, other untouched and uniform, mug and lamp, text illegible, no logos, photorealistic"
 categories: ["AI", "Writing", "Tips"]
 author: "JoRap"
 tags: ["AI", "Writing", "ChatGPT", "Prompts", "Perplexity", "Burstiness", "Editing", "Human Writing", "Content Creation", "PKM"]

@@ -2,9 +2,11 @@
 title: "Why I Still Keep a Desktop or Laptop"
 meta_title: "Desktop or Laptop - Why Mobile-Only Fails"
 description: "Every couple of years someone goes mobile-only. I keep a laptop because real work happens faster there - upright, keyboard, full apps - not because I'm lending gear."
+social_media_intro: "Exported a hundred school photos on my phone at 12% battery - screen dimmed, gallery restarted. Same job on the laptop finished with coffee. Link in comments."
 slug: "why-keep-desktop-laptop"
 date: "2021-06-14T05:00:00Z"
 image: "/images/feature-desktop.jpg"
+image_prompt: "Photorealistic desk comparison scene, phone plugged in at low battery with dim screen beside an open laptop smoothly exporting a photo grid, coffee mug steaming, morning kitchen light, relief mood, no readable UI text, no logos"
 categories: ["Technology", "Productivity", "Tips"]
 author: "JoRap"
 tags: ["Desktop", "Laptop", "Mobile vs Desktop", "Hardware", "Workflow", "Productivity", "Remote Work", "Note Taking"]

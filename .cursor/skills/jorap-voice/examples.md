@@ -101,6 +101,26 @@ Fix: open on their mistake or annoyance, land a pick you'd stake your name on, a
 
 ---
 
+### ❌ AI social caption (`social_media_intro`)
+
+> Excited to share my latest blog post on why the IKEA FRAKTA bag is a game-changer! Link in comments - would love your thoughts!
+
+### ✅ JoRap `social_media_intro` (≤200 chars, link in comments)
+
+> Viral tote drops keep missing me. I already carry the blue IKEA FRAKTA - spare bag nested inside. Full take is on my site, link in the comments.
+
+---
+
+### ❌ Vague `image_prompt`
+
+> A nice blog header image about tote bags, modern, professional, high quality
+
+### ✅ Usable `image_prompt`
+
+> Soft daylight by a front door: scuffed blue IKEA FRAKTA tote with long handles, umbrella and a nested second FRAKTA peeking out, tile floor, no people, no text, no logos, photorealistic, slight wear on the fabric
+
+---
+
 ### ❌ Flat section heading
 
 ## Comfort Considerations
