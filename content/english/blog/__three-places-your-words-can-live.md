@@ -2,7 +2,7 @@
 title: "Three Places Your Words Can Live"
 meta_title: "Three Places Your Words Can Live - A Simple Ownership Frame"
 description: "Social, rented hosting, or files you control. I sort every publish decision into one of three buckets so I know where the real copy lives."
-social_media_intro: "Learned this on rented PHP hosting, not Facebook. Three buckets for where your words live - and which one gets the real copy. Link in comments."
+social_media_intro: "Lost work when rented PHP hosting died - not on Facebook. Three buckets for where your words live, and which one gets the real copy: article in the comments."
 slug: "three-places-your-words-can-live"
 date: "2026-07-29T10:00:00Z"
 image: "/images/sustainable-publishing.jpg"

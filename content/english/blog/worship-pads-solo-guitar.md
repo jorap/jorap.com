@@ -2,7 +2,7 @@
 title: "Worship Pads for Solo Guitar: What Changed When I Finally Tried Them"
 meta_title: "Worship Pads for Solo Guitar - What Changed for Me"
 description: "Leading worship with just an acoustic guitar felt thin in a big room - until someone slid a pad track underneath me during practice."
-social_media_intro: "Leading with just an acoustic felt thin until someone slid a pad track under me in practice - the silence between songs finally had a floor. Link in comments."
+social_media_intro: "Solo acoustic felt thin in a big room until someone slid a pad track under me in practice. Setup, keys, and when I still skip pads: article in the comments."
 slug: "worship-pads-solo-guitar"
 date: "2025-05-04T05:00:00Z"
 image: "/images/worship-pads.jpg"

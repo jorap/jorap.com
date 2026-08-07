@@ -2,7 +2,7 @@
 title: "2nd Cellphone"
 meta_title: "Why I Keep a Second Cellphone"
 description: "I keep a cheap second phone buried in my bag with bank apps on it - underpowered, off the daily-driver path, so the important stuff stays out of easy reach."
-social_media_intro: "My kid used my daily phone for games while my banking apps sat on the same screen. Second handset in the bag now - boring on purpose. Link in comments."
+social_media_intro: "Kid used my daily phone for games while banking apps sat on the same screen. Second boring handset in the bag - setup and what I look for. Article in the comments."
 slug: "second-cellphone"
 date: "2026-06-18T05:07:00Z"
 image: "/images/feature-desktop.jpg"

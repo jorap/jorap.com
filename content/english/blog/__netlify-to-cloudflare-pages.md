@@ -2,7 +2,7 @@
 title: "I Moved From Free Netlify to Free Cloudflare Pages"
 meta_title: "Netlify to Cloudflare Pages - What Actually Changes on Hugo"
 description: "HugoPlate pointed me at Netlify. jorap.com runs on Cloudflare Pages now. Same git-push workflow - different build settings, redirects, and CMS auth."
-social_media_intro: "Moved jorap.com from Netlify to Cloudflare Pages - same git push, different build settings and CMS auth. What actually changed. Link in comments."
+social_media_intro: "Moved jorap.com from Netlify to Cloudflare Pages - same git push, different build command, redirects, and CMS auth. What I changed. Article in the comments."
 slug: "netlify-to-cloudflare-pages"
 date: "2026-07-30T01:00:00Z"
 image: "/images/website.jpg"

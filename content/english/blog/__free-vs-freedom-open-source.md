@@ -2,7 +2,7 @@
 title: "Free vs Freedom in Open Source"
 meta_title: "Free vs Freedom - My Open Source Filter"
 description: "Open source wasn't a purity test. No license fee got me in the door. Freedom to install, read, and move the stack is what kept me."
-social_media_intro: "Open source got me in the door with no license fee. Freedom to install, read, and move the stack is what kept me. Link in the comments."
+social_media_intro: "No license fee got me in. Freedom to inspect, move, and find help is what kept me - my three-question FOSS filter. Article in the comments."
 slug: "free-vs-freedom-open-source"
 date: "2026-07-29T10:00:00Z"
 image: "/images/open-source.jpg"

@@ -2,7 +2,7 @@
 title: "The Optimized Mindset I Got From Applied Math (Operations Research)"
 meta_title: "Applied Math and OR - The Mindset That Stuck"
 description: "I picked Applied Math with an OR track partly to dodge the CS quota. Twenty years later, the useful part isn't the formulas - it's how I frame constraints."
-social_media_intro: "I picked Applied Math at UP Los Baños to dodge the CS waitlist. Twenty years later the useful part is framing constraints, not formulas. Link in comments."
+social_media_intro: "Picked Applied Math at UP Los Baños to dodge the CS waitlist. Twenty years later - four OR habits I still use on client quotes. Article in the comments."
 slug: "optimized-mindset-applied-math-or"
 date: "2026-07-30T00:00:00Z"
 image: "/images/note.jpg"

@@ -2,7 +2,7 @@
 title: "Personal Immune Booster Supplements"
 meta_title: "What's In My Supplement Stack (Not Medical Advice)"
 description: "Not medical advice - just the immune-support supplements I keep in rotation, what the research-ish case is, and how I actually take them."
-social_media_intro: "Not medical advice - just the immune-support supplements I keep in rotation and how I actually take them. Link in the comments."
+social_media_intro: "Three colds in eight weeks on the jeepney commute. Not medical advice - my D3, zinc, C stack and when I bump doses. Article in the comments."
 slug: "immune-booster-supplements"
 date: "2026-06-18T06:10:00Z"
 image: "/images/note.jpg"

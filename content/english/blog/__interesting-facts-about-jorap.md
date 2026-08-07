@@ -2,7 +2,7 @@
 title: "Interesting Facts About JoRap (Scraped From My Own Blog)"
 meta_title: "Facts About JoRap - A Table From Every Blog Post"
 description: "I pulled personal facts from every post on this site into one table, with links back to where I said each thing. A sanity check that the blog still sounds like me."
-social_media_intro: "I scraped my own blog for facts about me - Team Rapusas, Davis, the wrong gender announcement at birth. Never publishing this one. Link in comments."
+social_media_intro: "Scraped my blog into one fact table - Team Rapusas, Davis, wrong gender announcement - every personal detail with a source post. Article in the comments."
 slug: "interesting-facts-about-jorap"
 date: "2026-07-28T02:00:00Z"
 image: "/images/joraps-world.jpg"

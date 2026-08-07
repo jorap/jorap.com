@@ -299,4 +299,353 @@ _**Agent (auto-smart)**_
 ```bash
 ls -la /home/jorap/Documents/GitHub/jorap.com/static/images/ | head -80; ls /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__beefy-taco-pasta.md; git status --short content/english/blog/__beefy-taco-pasta.md static/images/ 2>/dev/null; find /home/jorap/Documents/GitHub/jorap.com -name '*taco*' -o -name '*beefy*' 2>/dev/null | head -30
 ```
+
+```
+ls: cannot access '/home/jorap/Documents/GitHub/jorap.com/static/images/': No such file or directory
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__beefy-taco-pasta.md
+ M content/english/blog/__beefy-taco-pasta.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__beefy-taco-pasta.md
+/home/jorap/Documents/GitHub/jorap.com/assets/images/beefy-taco-pasta.jpg
+/home/jorap/Documents/GitHub/jorap.com/public/tags/taco-pasta
+/home/jorap/Documents/GitHub/jorap.com/public/blog/beefy-taco-pasta
+/home/jorap/Documents/GitHub/jorap.com/public/blog/instant-pot-beefy-taco-pasta
+/home/jorap/Documents/GitHub/jorap.com/public/images/beefy-taco-pasta_hu_62f39f96b3581d80.webp
+/home/jorap/Documents/GitHub/jorap.com/public/images/beefy-taco-pasta.jpg
+/home/jorap/Documents/GitHub/jorap.com/public/images/beefy-taco-pasta_hu_bdf101c184ca2e24.webp
+/home/jorap/Documents/GitHub/jorap.com/public/images/beefy-taco-pasta_hu_5ebc23f0e1d81efe.webp
+/home/jorap/Documents/GitHub/jorap.com/public/images/beefy-taco-pasta_hu_945d00cd271d344.webp
+/home/jorap/Documents/GitHub/jorap.com/public/images/beefy-taco-pasta_hu_313341e233f92b90.jpg
+/home/jorap/Documents/GitHub/jorap.com/public/images/beefy-taco-pasta_hu_1ef80cfe622edf19.jpg
+/home/jorap/Documents/GitHub/jorap.com/public/images/beefy-taco-pasta_hu_ad47b6e80a879782.webp
+/home/jorap/Documents/GitHub/jorap.com/public/images/beefy-taco-pasta_hu_fc86dbda142b0dbd.webp
+/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-08-06_02-35-52Z-beefy-taco-pasta-recipe.md
+
+```
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The image already exists at `assets/images/beefy-taco-pasta.jpg`.
+
+I'll rename `__beefy-taco-pasta.md` to `instant-pot-beefy-taco-pasta.md` to match the slug. I'm reviewing the publishing steps in the jorap-voice skill and recipe-style.md.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/recipe-style.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "image:.*beefy|image:.*pasta"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "image:.*beefy|image:.*pasta",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__beefy-taco-pasta.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git log -5 --oneline -- content/english/blog/; ls /home/jorap/Documents/GitHub/jorap.com/content/english/blog/*.md | head -20; git diff content/english/blog/__beefy-taco-pasta.md | head -80</summary>
+```bash
+git log -5 --oneline -- content/english/blog/; ls /home/jorap/Documents/GitHub/jorap.com/content/english/blog/*.md | head -20; git diff content/english/blog/__beefy-taco-pasta.md | head -80
+```
+
+```
+8cb9db65 Update
+6b3a006e Update
+79316493 Update
+c63297ff Update alex-eala-pro-career-tracker.md
+818f9875 Update
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__ai-contractor-problem-wordpress.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__beefy-taco-pasta.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__blog-template.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__build-your-own-trait-quiz.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__canon-g3000.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__chasing-composer-2-5-locally.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__client-site-pass-off.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__craft-prompt-framework.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__everyone-communicates-few-connect.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__free-vs-freedom-open-source.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md
+ls: write error: Broken pipe
+diff --git a/content/english/blog/__beefy-taco-pasta.md b/content/english/blog/__b
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The image is already set. I need to proceed with publishing.
+
+Rename the draft file to `instant-pot-beefy-taco-pasta.md` to match its slug. Then set `draft: false`.
+
+Running lint checks and verifying git tracking and ledger updates. The filename should drop the `__` prefix to match the slug.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Image already set. Renaming draft, flipping `draft: false`, running publish lints.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__beefy-taco-pasta.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git status --short assets/images/beefy-taco-pasta.jpg content/english/blog/__beefy-taco-pasta.md; ls -la /home/jorap/Documents/GitHub/jorap.com/assets/images/beefy-taco-pasta.jpg; ls /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot*.md 2&gt;/dev/null</summary>
+```bash
+git status --short assets/images/beefy-taco-pasta.jpg content/english/blog/__beefy-taco-pasta.md; ls -la /home/jorap/Documents/GitHub/jorap.com/assets/images/beefy-taco-pasta.jpg; ls /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot*.md 2>/dev/null
+```
+
+```
+ M content/english/blog/__beefy-taco-pasta.md
+?? assets/images/beefy-taco-pasta.jpg
+-rw-rw-r-- 1 root root 589142 Aug  6 12:06 /home/jorap/Documents/GitHub/jorap.com/assets/images/beefy-taco-pasta.jpg
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md
+/home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md",
+  "pattern": "taco|pasta|Instant Pot|adobo|arroz"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md",
+  "pattern": "taco|pasta|Instant Pot|adobo|arroz",
+  "topFiles": [
+    {
+      "matchCount": 8,
+      "uri": "content/english/blog/__interesting-facts-about-jorap.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Renaming the file to match other Instant Pot posts and its slug.
+
+Setting draft to false. Removing draft markers from the ledger. Checking author-context for Instant Pot facts. Running lints.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md",
+  "pattern": "taco|Instant Pot|adobo|pasta"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md",
+  "pattern": "taco|Instant Pot|adobo|pasta",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/jorap-voice/author-context.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git mv content/english/blog/__beefy-taco-pasta.md content/english/blog/instant-pot-beefy-taco-pasta.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git mv content/english/blog/__beefy-taco-pasta.md content/english/blog/instant-pot-beefy-taco-pasta.md
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Renamed successfully. Now setting draft to false, updating the ledger, and running lints.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-beefy-taco-pasta.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/instant-pot-beefy-taco-pasta.md &amp;&amp; pnpm lint:voice -- content/english/blog/instant-pot-beefy-taco-pasta.md 2&gt;&amp;1; pnpm lint:slop -- content/english/blog/instant-pot-beefy-taco-pasta.md 2&gt;&amp;1; pnpm lint:blog 2&gt;&amp;1 | tail -40; pnpm lint:filenames 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/instant-pot-beefy-taco-pasta.md && pnpm lint:voice -- content/english/blog/instant-pot-beefy-taco-pasta.md 2>&1; pnpm lint:slop -- content/english/blog/instant-pot-beefy-taco-pasta.md 2>&1; pnpm lint:blog 2>&1 | tail -40; pnpm lint:filenames 2>&1 | tail -20
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/instant-pot-beefy-taco-pasta.md
+instant-pot-beefy-taco-pasta.md          words=1427 total=  7 per100w=  0.49
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check -- content/english/blog/instant-pot-beefy-taco-pasta.md
+Voice dash errors:
+  content/english/blog/__build-your-own-trait-quiz.md: em/en dash found (7); use hyphen, comma, or parentheses (jorap-voice)
+[ELIFECYCLE] Command failed with exit code 1.
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check -- content/english/blog/instant-pot-beefy-taco-pasta.md
+Slop lint OK
+$ node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify && node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only
+Blog frontmatter OK
+Slop lint OK
+$ node scripts/lint-filenames.mjs
+Git tracked: scanned 1841 path(s)
+No cross-platform unsafe path components found.
+Frontmatter aliases: scanned 425 path(s)
+No cross-platform unsafe aliases found.
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Voice lint failed because of an unrelated draft file.
+
+Checking how to lint just our file and verify it has no dash issues.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/voice-lint.py dashes --check -- content/english/blog/instant-pot-beefy-taco-pasta.md 2&gt;&amp;1; rg -n &#39;—|–&#39; content/english/blog/instant-pot-beefy-taco-pasta.md || echo &#34;no em/en dashes in post&#34;; git status --short content/english/blog/instant-pot-beefy-taco-pasta.md content/english/blog/__beefy-taco-pasta.md assets/images/beefy-taco-pasta.jpg content/english/blog/__interesting-facts-about-jorap.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/voice-lint.py dashes --check -- content/english/blog/instant-pot-beefy-taco-pasta.md 2>&1; rg -n '—|–' content/english/blog/instant-pot-beefy-taco-pasta.md || echo "no em/en dashes in post"; git status --short content/english/blog/instant-pot-beefy-taco-pasta.md content/english/blog/__beefy-taco-pasta.md assets/images/beefy-taco-pasta.jpg content/english/blog/__interesting-facts-about-jorap.md
+```
+
+```
+Voice dash errors:
+  content/english/blog/__build-your-own-trait-quiz.md: em/en dash found (7); use hyphen, comma, or parentheses (jorap-voice)
+no em/en dashes in post
+ M content/english/blog/__interesting-facts-about-jorap.md
+RM content/english/blog/__beefy-taco-pasta.md -> content/english/blog/instant-pot-beefy-taco-pasta.md
+?? assets/images/beefy-taco-pasta.jpg
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Publish is complete. A voice lint failure on an unrelated draft is not part of this publish.
+
+Draft is confirmed false. No commit unless requested. A session close block is needed for the modified repository files.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Published.
+
+- Renamed `__beefy-taco-pasta.md` → `instant-pot-beefy-taco-pasta.md`
+- `draft: false`, hero `beefy-taco-pasta.jpg`
+- Ledger draft markers cleared
+- Slop score **0.49**/100w; blog + slop + filenames clean
+- Untracked: `assets/images/beefy-taco-pasta.jpg` (needs add on commit)
+
+Site live after you commit + push. Say if you want that.
+
+## Session close
+- Fixed: Taco pasta post published (rename, draft off, image, ledger).
+- Encode: none
+- Open: image still untracked until commit

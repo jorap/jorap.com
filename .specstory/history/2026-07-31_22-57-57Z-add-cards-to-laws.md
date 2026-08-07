@@ -2,25 +2,25 @@
 
 # 2026-07-31 22:57:57Z
 
-<!-- Cursor IDE Session c2eb5fb2-3a87-41d6-a784-0f8efc9b0968 (2026-07-31 22:57:57Z) -->
+<!-- Cursor IDE Session f036e7c1-9362-40d1-91ac-38202faf7cbd (2026-07-31 22:57:57Z) -->
 
 _**User**_
 
-In /home/jorap/Documents/GitHub/jorap.com, add flashcard frontmatter to exactly these notes: law-of-legacy.md, law-of-magnetism.md, law-of-navigation.md, law-of-priorities.md, law-of-process.md, law-of-respect.md, law-of-sacrifice.md under content/english/notes. Read and follow .cursor/skills/flashcards/SKILL.md and .cursor/skills/garden-voice/SKILL.md, plus each full note. Add review: true, card_sets: ["Eternal Principles", "Discipleship"], and exactly six cards per note before draft. Each front must be a specific present-tense first-person life/work/discipleship cue with a subtle open hint question; no verse references, title telegraphy, or multiple choice. Each back must be shorter, plain, one immediate move or decision. Keep Free Grace doctrine: leadership practice follows grace and does not earn eternal life. Do not alter other content. Run relevant direct flashcard lint/audit/voice checks. Do not commit. Report files changed and any blockers.
+In /home/jorap/Documents/GitHub/jorap.com, add flashcard frontmatter to exactly these notes: law-of-addition.md, law-of-buy-in.md, law-of-connection.md, law-of-empowerment.md, law-of-explosive-growth.md, law-of-influence.md, law-of-intuition.md under content/english/notes. Read and follow .cursor/skills/flashcards/SKILL.md and .cursor/skills/garden-voice/SKILL.md, plus each full note. Add review: true, card_sets: ["Eternal Principles", "Discipleship"], and exactly six cards per note before draft. Each front must be a specific present-tense first-person life/work/discipleship cue with a subtle open hint question; no verse references, title telegraphy, or multiple choice. Each back must be shorter, plain, one immediate move or decision. Keep Free Grace doctrine: leadership practice follows grace and does not earn eternal life. Do not alter other content. Run relevant direct flashcard lint/audit/voice checks. Do not commit. Report files changed and any blockers.
 
 ---
 
 _**Agent (auto-smart)**_
 
 <think><details><summary>Thought Process</summary>
-Beginning work on adding flashcard frontmatter to the seven specified notes.
+Beginning to add flashcard frontmatter to the seven specified notes under content/english/notes.
 
-Reading the flashcards and garden-voice skill files, then examining the seven target notes.
+Reading the flashcard and garden-voice skill files and the seven target notes in parallel. Will add review flags, card sets, and six cards per note while respecting Free Grace doctrine. Will run lint and voice checks and report any blockers.
 </details></think>
 
 _**Agent (auto-smart)**_
 
-I'll add flashcards to those seven Eternal Principles notes using the flashcards and garden-voice skills, then run the lint checks.
+I'll add flashcards to those seven Eternal Principles notes, following the flashcards and garden-voice skills.
 
 _**Agent (auto-smart)**_
 
@@ -46,30 +46,44 @@ _**Agent (auto-smart)**_
 _**Agent (auto-smart)**_
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **7** results in **1** directory</summary>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **21** results in **1** directory</summary>
 
-Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (7 files)
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (21 files)
 
 | File |
 |------|
-| `content/english/notes/law-of-process.md` |
 | `content/english/notes/law-of-magnetism.md` |
-| `content/english/notes/law-of-priorities.md` |
-| `content/english/notes/law-of-respect.md` |
-| `content/english/notes/law-of-legacy.md` |
+| `content/english/notes/law-of-victory.md` |
 | `content/english/notes/law-of-navigation.md` |
+| `content/english/notes/law-of-addition.md` |
+| `content/english/notes/law-of-process.md` |
+| `content/english/notes/law-of-the-big-mo.md` |
+| `content/english/notes/law-of-timing.md` |
+| `content/english/notes/law-of-solid-ground.md` |
+| `content/english/notes/law-of-priorities.md` |
+| `content/english/notes/law-of-connection.md` |
+| `content/english/notes/law-of-empowerment.md` |
 | `content/english/notes/law-of-sacrifice.md` |
+| `content/english/notes/law-of-legacy.md` |
+| `content/english/notes/law-of-the-inner-circle.md` |
+| `content/english/notes/law-of-the-picture.md` |
+| `content/english/notes/law-of-buy-in.md` |
+| `content/english/notes/law-of-the-lid.md` |
+| `content/english/notes/law-of-explosive-growth.md` |
+| `content/english/notes/law-of-intuition.md` |
+| `content/english/notes/law-of-respect.md` |
+| `content/english/notes/law-of-influence.md` |
 </details></tool-use>
 
 _**Agent (auto-smart)**_
 
 <think><details><summary>Thought Process</summary>
-All seven notes were located. I am now reading them alongside reference decks to match tone.
+The skills are loaded. Next comes reading the seven target notes, plus reference decks and an existing law note with cards, to match tone and structure.
 </details></think>
 
 _**Agent (auto-smart)**_
 
-Next I'll read all seven notes plus a couple of reference decks for tone.
+Next I'll read the seven notes plus a couple of reference decks for tone.
 
 _**Agent (auto-smart)**_
 
@@ -81,49 +95,49 @@ An unknown error occurred
 _**Agent (auto-smart)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-legacy.md</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-addition.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-smart)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-magnetism.md</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-buy-in.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-smart)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-navigation.md</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-connection.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-smart)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-priorities.md</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-empowerment.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-smart)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-process.md</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-explosive-growth.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-smart)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-respect.md</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-influence.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-smart)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-sacrifice.md</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-intuition.md</summary>
 
 </details></tool-use>
 
@@ -162,29 +176,40 @@ Status: **completed**
 
 _**Agent (auto-smart)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 40,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md",
+  "pattern": "^cards:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md",
+  "pattern": "^cards:",
+  "topFiles": [
+    {
+      "matchCount": 15,
+      "uri": "content/english/notes/abide-in-me.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
 
 </details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
-
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<think><details><summary>Thought Process</summary>
-No existing law notes contain flashcards. I am checking other files for patterns.
-
-Checking recently modified notes like getting-started and iron-sharpens-iron for flashcard patterns.
-</details></think>
-
-_**Agent (auto-smart)**_
-
-Checking a recent law note with cards for pattern, and how frontmatter order is expected.
 
 _**Agent (auto-smart)**_
 
@@ -196,10 +221,9 @@ Parameters:
 ```json
 {
   "caseInsensitive": false,
-  "contextAfter": 25,
-  "glob": "*.md",
-  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "card_sets: \\[\"Eternal Principles\", \"Discipleship\"\\]"
+  "contextAfter": 40,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md",
+  "pattern": "^cards:"
 }
 ```
 Additional data:
@@ -208,11 +232,97 @@ Additional data:
 {
   "isPruned": true,
   "outputMode": "content",
-  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "card_sets: \\[\"Eternal Principles\", \"Discipleship\"\\]",
-  "topFiles": [],
-  "totalFiles": 0,
-  "totalMatches": 0
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md",
+  "pattern": "^cards:",
+  "topFiles": [
+    {
+      "matchCount": 15,
+      "uri": "content/english/notes/the-golden-rule.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+All seven notes are gathered. Cards will be placed before `draft: false`, following the pattern from abide-in-me.md and the golden-rule.
+
+The scaffold needs `review: true`, `card_sets`, and a `cards` array before `draft: false`. None of the law notes currently contain cards. Free Grace doctrine must be preserved: leadership practice follows grace and does not earn eternal life.
+
+Drafting the first note, law-of-addition.md. The six cards are being shaped around the core idea that leaders add value by serving rather than claiming credit. The first three prompts ask the reader to absorb a cost for a junior, serve unseen, and let a junior pick their shift first. Backs will avoid implying that leadership practice earns salvation.
+
+The remaining three cards for law-of-addition.md are now drafted. They cover unblocking a team silently, giving away the better assignment, and correcting the mistaken belief that serving earns heaven. The first two cards for law-of-buy-in.md are also ready, focusing on carrying load before pitching and trusting before presenting a reorg plan.
+
+The last four cards for law-of-buy-in.md are now drafted. They ask the reader to prove they bleed for the cause, earn trust before pitching a vision, lead with proof before sharing a roadmap, and correct the mistaken belief that leading well earns heaven. The first card for law-of-connection.md is being shaped around knowing the person before making the ask.
+
+Six cards for law-of-connection.md are now drafted. They ask the reader to check on someone before asking for overtime, to send one human sentence before a favor, to stop charming and appeal as a friend instead of commanding, and to correct the mistaken belief that connection earns spiritual brownie points.
+
+Drafting cards for law-of-empowerment.md. The prompts ask the reader to delegate one recurring decision, leave the room to name a boundary, give a decision without clutching, and train one lead to run standup independently.
+
+The last two cards for law-of-empowerment.md are now drafted. They ask the reader to name one recurring call owner and correct the mistaken belief that delegating earns God’s favor.
+
+Drafting cards for law-of-explosive-growth.md. The prompts ask the reader to teach one person the full playbook this quarter, mentor with judgment calls they’ll need when the leader is gone, and resist hiring more followers instead of raising leaders.
+
+Four cards for law-of-explosive-growth.md are now drafted. They ask the reader to mentor two people to break the bottleneck, train trainers who spawn leaders, and correct the mistaken belief that multiplying leaders earns heaven. Drafting has begun for law-of-influence.md, starting with the prompt that a title does not equal leadership.
+
+Six cards for law-of-influence.md are now drafted. They ask the reader to test whether anyone would follow if the title vanished, to lead from influence rather than an empty chair, to measure leadership by who moves when they speak, to earn sway instead of leaning on the badge, and to correct the mistaken belief that influence proves salvation.
+
+Drafting cards for law-of-intuition.md. The prompts ask the reader to pause and name a shifting meeting tone before continuing, to call a break and name the miss out loud when the room feels toxic, to name the gut warning against a data-backed hire, and to ask who gets hurt before rubber-stamping a plan.
+
+Two more prompts are drafted for law-of-intuition.md. They ask the reader to vouch for a new hire’s real potential when the team flinches past the resume, and to stop trusting the gut as magic by checking the pattern under pressure. The remaining cards are being refined to match the reference tone more closely. The Free Grace correction will be woven subtly, likely as one card per deck rather than forcing it into every note.
+
+One grace correction card per deck will be added where the merit instinct appears naturally, avoiding telegraphed doctrine. The exact placement of `review: true` and the format of `cards` in frontmatter are being verified against the skill files and examples.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Checking frontmatter placement and flashcard examples so the cards match existing patterns.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 2,
+  "contextBefore": 0,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md",
+  "pattern": "^review:|^card_sets:|^cards:|^draft:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md",
+  "pattern": "^review:|^card_sets:|^cards:|^draft:",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "content/english/notes/abide-in-me.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
 }
 ```
 Status: **completed**
@@ -222,7 +332,7 @@ Status: **completed**
 _**Agent (auto-smart)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/iron-sharpens-iron.md</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
 
 </details></tool-use>
 
@@ -265,255 +375,106 @@ Status: **completed**
 _**Agent (auto-smart)**_
 
 <think><details><summary>Thought Process</summary>
-Checking git status for existing law notes that may already contain cards.
+Writing the flashcard frontmatter into all seven notes now.
+
+Placing the YAML block before `draft: false`. Polishing each front longer than its back. Checking for subtle hint questions, no verse references, no title telegraphy, and plain present-tense first-person cues.
+
+Drafting the four flashcards for law-of-addition.md. Each front is a specific present-tense first-person cue with a subtle hint question. Each back is a plain one-move decision.
+
+Polishing the remaining two flashcards for law-of-addition.md. Tightening the fifth back to "Give the advantage away" to avoid echoing Abram. Adjusting the second front to remove telegraphy about giving away. Keeping the sixth front and back in place.
+
+Finalizing the second flashcard for law-of-addition.md with a sharper front question. Verifying front-back length ratios across cards. Starting the four flashcards for law-of-buy-in.md, beginning with a slide-deck cue and a reorg-plan cue.
+
+Finishing the four flashcards for law-of-buy-in.md. The last card pairs a present-tense first-person cue with a subtle hint question against a plain one-move back. The final back line keeps the Free Grace doctrine: faith in Christ saves, and leading does not earn eternal life.
+
+Refining the last flashcard for law-of-buy-in.md. Replacing the back line "Buy-in is practice after" with "Trust-building guides life after" to avoid telegraphing the note title. Adjusting the third card back to "Earn trust before I share the plan" instead of defining the "guide then map" sequence.
+
+Drafting the four flashcards for law-of-connection.md. Each front is a specific present-tense first-person cue with a subtle hint question. Each back is a plain one-move decision. The last card is still being polished.
+
+Finishing the four flashcards for law-of-connection.md. The last card pairs a present-tense first-person cue with a subtle hint question against a plain one-move back. The Free Grace doctrine is kept: faith in Christ saves, and connection follows grace.
+
+Drafting the four flashcards for law-of-empowerment.md. The first card targets decision overload by handing one recurring decision to someone else. The second card targets hovering in meetings after training.
+
+Finishing the four flashcards for law-of-empowerment.md. The last card pairs a present-tense first-person cue with a subtle hint question against a plain one-move back. The Free Grace doctrine is kept: faith in Christ secures us, and handing power away is the next step.
+
+Drafting the four flashcards for law-of-explosive-growth.md. Each front is a specific present-tense first-person cue with a subtle hint question. Each back is a plain one-move decision. The last card is still being polished.
+
+Completing the four flashcards for law-of-explosive-growth.md. The last card pairs a present-tense first-person cue with a subtle hint question against a plain one-move back. The Free Grace doctrine is kept: faith in Christ secures us, and multiplication is the fruit after.
+
+Fixing card three for law-of-explosive-growth.md. Replacing the back question with a plain one-move instruction: "Multiply teachers - not only headcount."
+
+Starting the four flashcards for law-of-influence.md. The first card asks an honest check about title versus influence.
+
+Drafting the remaining flashcards for law-of-influence.md. The fourth card asks how to earn sway without leaning on the badge. The fifth card asks one check before flashing the title to shut down debate.
+
+Finishing the four flashcards for law-of-influence.md. The fifth card asks whether people would still move with no title. The sixth card pairs a present-tense first-person cue with a subtle hint question against a plain one-move back. The Free Grace doctrine is kept: faith in Christ secures us, and influence is stewardship after.
+
+Drafting the four flashcards for law-of-intuition.md. The first card asks a pause move when meeting tone shifts. The second card asks a break move when the room feels toxic. The third card asks what to read when gut says a path is wrong.
+
+Finishing the four flashcards for law-of-intuition.md. The third card is still being polished because its front question may telegraph the "leadership lens" concept.
+
+Replacing the third card’s front question with “One read before I approve?” to avoid telegraphing the note title. Finalizing the last card for law-of-intuition.md. Applying all edits now and placing the YAML blocks before `draft: false`.
 </details></think>
 
 _**Agent (auto-smart)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+Writing six cue→apply cards into each note, placed before `draft: false`.
 
-Parameters:
+_**Agent (auto-smart)**_
 
-```json
-{
-  "caseInsensitive": false,
-  "contextAfter": 20,
-  "glob": "law-of-*.md",
-  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "^cards:"
-}
-```
-Additional data:
-
-```json
-{
-  "isPruned": true,
-  "outputMode": "content",
-  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "^cards:",
-  "topFiles": [],
-  "totalFiles": 0,
-  "totalMatches": 0
-}
-```
-Status: **completed**
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-addition.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-smart)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-addition.md</summary>
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-buy-in.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-smart)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-connection.md</summary>
 
-Parameters:
+</details></tool-use>
 
-```json
-{
-  "caseInsensitive": true,
-  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py",
-  "pattern": "front longer|len\\(front\\)|hint question|multiple.choice|telegraph"
-}
-```
-Additional data:
+_**Agent (auto-smart)**_
 
-```json
-{
-  "isPruned": true,
-  "outputMode": "content",
-  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py",
-  "pattern": "front longer|len\\(front\\)|hint question|multiple.choice|telegraph",
-  "topFiles": [
-    {
-      "matchCount": 4,
-      "uri": "scripts/lint-flashcard-frontmatter.py"
-    }
-  ],
-  "totalFiles": 1,
-  "totalMatches": 4
-}
-```
-Status: **completed**
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-empowerment.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-explosive-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-influence.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-intuition.md</summary>
 
 </details></tool-use>
 
 _**Agent (auto-smart)**_
 
 <think><details><summary>Thought Process</summary>
-law-of-addition.md also appears to lack flashcard frontmatter.
+Running lint:cards, audit:cards, and lint:voice checks.
 
-Checking existing law notes for review flags. Reviewing the modified getting-started file and prior agent transcripts for prior flashcard work.
-</details></think>
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
-Parameters:
-
-```json
-{
-  "caseInsensitive": false,
-  "glob": "law-of-*.md",
-  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "review: true"
-}
-```
-Additional data:
-
-```json
-{
-  "isPruned": true,
-  "outputMode": "content",
-  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "review: true",
-  "topFiles": [],
-  "totalFiles": 0,
-  "totalMatches": 0
-}
-```
-Status: **completed**
-
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
-
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2** • Run command: head -n 5 /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/*.jsonl 2&gt;/dev/null | head -80; ls -lt /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ | head -15</summary>
-```bash
-head -n 5 /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/*.jsonl 2>/dev/null | head -80; ls -lt /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ | head -15
-```
-
-```
-total 1720
-drwxrwxr-x 2 root root 4096 Aug  1 06:45 b0d89f4a-e882-44d8-8649-3d5f118a284b
-drwxrwxr-x 3 root root 4096 Aug  1 06:31 c637c79d-710f-432f-88c5-b1cda5a075f0
-drwxrwxr-x 3 root root 4096 Aug  1 06:20 bc21e1b3-50e3-4c3f-94e7-1bedadc0c55d
-drwxrwxr-x 3 root root 4096 Aug  1 06:08 ef19c6ee-e562-42a4-8b62-31b1fc29daee
-drwxrwxr-x 2 root root 4096 Jul 31 22:08 866de5d5-a255-4c61-a6af-70307f50c669
-drwxrwxr-x 2 root root 4096 Jul 31 22:02 fe1a16a9-6825-47bd-ae5a-6cd27b19a14e
-drwxrwxr-x 2 root root 4096 Jul 31 21:38 8159b45c-cb38-4c3f-8b4c-ecba889ff7b1
-drwxrwxr-x 2 root root 4096 Jul 31 20:47 307d012f-8ef2-4936-b595-ca7c6e32f26b
-drwxrwxr-x 2 root root 4096 Jul 31 20:23 8898a6d4-2b6e-43a0-9050-ee6eb441260b
-drwxrwxr-x 2 root root 4096 Jul 31 19:34 ac029b41-f0ec-4c65-b0b9-24c2f9313c87
-drwxrwxr-x 2 root root 4096 Jul 31 18:45 00eb3b13-ceb3-425e-90ae-a62455d26276
-drwxrwxr-x 2 root root 4096 Jul 31 18:05 240a4c05-dfa9-475f-bfb5-55290c564e60
-drwxrwxr-x 2 root root 4096 Jul 31 18:02 9d2815c4-260a-4a91-bb2e-5835941d2ccb
-drwxrwxr-x 2 root root 4096 Jul 31 17:11 79d86d71-2132-4634-b929-862e38edc91f
-ls: write error: Broken pipe
-
-```
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<think><details><summary>Thought Process</summary>
-Reviewing iron-sharpens-iron as a reference for Discipleship cards.
-
-Drafting six cards per note now. Checking lint rules for front-to-back length. Reviewing recent card patterns from law-of-addition and depth-of-understanding.
-
-Drafting the Legacy note now. One card targets the wrong instinct that leadership earns salvation. The first four cues cover succession, exit documentation, and brand ownership.
-
-Legacy card five covers mentoring without naming a successor. Card six warns that succession planning can feel like earning a place.
-
-Magnetism cards now target attraction and character. They ask about team complainers, hiring "like me," and whether character work is mistaken for earning heaven.
-
-Navigation drafting is starting next.
-
-Navigation cards now cover launch planning, Slack announcements, improvisation, hidden risks, and whether planning feels like earning God’s favor. Drafting of the Priorities note has begun, with cues on busy work versus fruitfulness, inbox priority, and kitchen frenzy.
-
-Priorities cards five and six now cover calendar clutter, recovery moves, and the mistaken belief that hidden years are wasted or that daily reps earn salvation.
-
-Process cards target slow compounding. They ask about skipping skill hours for hero sprints, microwaving promotions, and whether daily reps feel like earning eternal life.
-
-Respect cards now cover leading before training, quoting policy instead of showing competence, and whether earning respect feels like earning heaven. Sacrifice cards are starting with hidden costs and Saturday comfort versus team advance.
-
-Sacrifice cards five and six are now drafted. They ask about claiming rights that block reach, saying yes without naming the toll, and whether sacrifice feels like qualifying for heaven. All seven notes are now fully mapped. I am now checking the final constraints: front longer than back, present tense first person, subtle open hints, no verse references, no title telegraphy, no multiple choice, Free Grace doctrine on wrong-order cards, short immediate moves, and double-quoted YAML strings.
-
-Placing the card block between `featured` and `draft`. Refining back moves to be shorter and verb-first. Checking for forbidden words and note title leakage.
-</details></think>
-
-_**Agent (auto-smart)**_
-
-Drafting six cue→move cards per note, matching the iron-sharpens-iron / abide-in-me pattern and Free Grace framing.
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
-<summary>Tool use: **update_current_step**</summary>
-An unknown error occurred
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-legacy.md</summary>
-
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-magnetism.md</summary>
-
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-navigation.md</summary>
-
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-priorities.md</summary>
-
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-process.md</summary>
-
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-respect.md</summary>
-
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-sacrifice.md</summary>
-
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<think><details><summary>Thought Process</summary>
-Running the requested flashcard lint, audit, and voice checks now.
-
-Using pnpm instead of npm to match the repository setup. Verifying whether lint:cards supports file-specific scoping.
+Checking whether the lint scripts accept file paths as arguments.
 </details></think>
 
 _**Agent (auto-smart)**_
@@ -530,94 +491,149 @@ An unknown error occurred
 _**Agent (auto-smart)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2** • Run command: pnpm lint:cards 2&gt;&amp;1; echo &#34;---&#34;; pnpm audit:cards 2&gt;&amp;1; echo &#34;---&#34;; pnpm lint:voice 2&gt;&amp;1 | tail -80</summary>
+<summary>Tool use: **run_terminal_command_v2** • Run command: pnpm lint:cards 2&gt;&amp;1; echo &#34;EXIT:$?&#34;; pnpm audit:cards 2&gt;&amp;1; echo &#34;EXIT:$?&#34;; pnpm lint:voice 2&gt;&amp;1; echo &#34;EXIT:$?&#34;</summary>
 ```bash
-pnpm lint:cards 2>&1; echo "---"; pnpm audit:cards 2>&1; echo "---"; pnpm lint:voice 2>&1 | tail -80
+pnpm lint:cards 2>&1; echo "EXIT:$?"; pnpm audit:cards 2>&1; echo "EXIT:$?"; pnpm lint:voice 2>&1; echo "EXIT:$?"
 ```
 
 ```
 Command 'pnpm' not found, did you mean:
   command 'npm' from deb npm (9.2.0~ds1-2)
 Try: apt install <deb name>
----
+EXIT:127
 Command 'pnpm' not found, did you mean:
   command 'npm' from deb npm (9.2.0~ds1-2)
 Try: apt install <deb name>
----
+EXIT:127
 Command 'pnpm' not found, did you mean:
   command 'npm' from deb npm (9.2.0~ds1-2)
 Try: apt install <deb name>
+EXIT:127
 
 ```
 </details></tool-use>
 
 _**Agent (auto-smart)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
-Parameters:
-
-```json
-{
-  "caseInsensitive": false,
-  "glob": "*flashcard*",
-  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
-  "pattern": "argparse|sys.argv|--file|paths"
-}
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+files = [
+  &#34;law-of-addition.md&#34;,&#34;law-of-buy-in.md&#34;,&#34;law-of-connection.md&#34;,
+  &#34;law-of-empowerment.md&#34;,&#34;law-of-explosive-growth.md&#34;,&#34;law-of-influence.md&#34;,&#34;law-of-intuition.md&#34;
+]
+root = Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
+for f in files:
+  text = (root/f).read_text()
+  # crude parse
+  import re, yaml
+  fm = re.match(r&#39;^---\n(.*?)\n---&#39;, text, re.S).group(1)
+  data = yaml.safe_load(fm)
+  cards = data.get(&#39;cards&#39;, [])
+  print(f&#34;\n== {f} review={data.get(&#39;review&#39;)} sets={data.get(&#39;card_sets&#39;)} n={len(cards)}&#34;)
+  for i,c in enumerate(cards,1):
+    fl, bl = len(c[&#39;front&#39;]), len(c[&#39;back&#39;])
+    ok = fl &gt; bl
+    q = &#39;?&#39; in c[&#39;front&#39;]
+    print(f&#34;  {i}: front&gt;{bl}? {ok} hint? {q} | F={fl} B={bl}&#34;)
+    print(f&#34;     F: {c[&#39;front&#39;]}&#34;)
+    print(f&#34;     B: {c[&#39;back&#39;]}&#34;)
+PY</summary>
+```bash
+python3 - <<'PY'
+from pathlib import Path
+files = [
+  "law-of-addition.md","law-of-buy-in.md","law-of-connection.md",
+  "law-of-empowerment.md","law-of-explosive-growth.md","law-of-influence.md","law-of-intuition.md"
+]
+root = Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+for f in files:
+  text = (root/f).read_text()
+  # crude parse
+  import re, yaml
+  fm = re.match(r'^---\n(.*?)\n---', text, re.S).group(1)
+  data = yaml.safe_load(fm)
+  cards = data.get('cards', [])
+  print(f"\n== {f} review={data.get('review')} sets={data.get('card_sets')} n={len(cards)}")
+  for i,c in enumerate(cards,1):
+    fl, bl = len(c['front']), len(c['back'])
+    ok = fl > bl
+    q = '?' in c['front']
+    print(f"  {i}: front>{bl}? {ok} hint? {q} | F={fl} B={bl}")
+    print(f"     F: {c['front']}")
+    print(f"     B: {c['back']}")
+PY
 ```
-Additional data:
 
-```json
-{
-  "isPruned": true,
-  "outputMode": "content",
-  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
-  "pattern": "argparse|sys.argv|--file|paths",
-  "topFiles": [
-    {
-      "matchCount": 1,
-      "uri": "scripts/lint-flashcard-frontmatter.py"
-    },
-    {
-      "matchCount": 2,
-      "uri": "scripts/sync-note-flashcards.py"
-    }
-  ],
-  "totalFiles": 2,
-  "totalMatches": 3
-}
 ```
-Status: **completed**
 
+== law-of-addition.md review=True sets=['Eternal Principles', 'Discipleship'] n=6
+  1: front>42? True hint? True | F=86 B=42
+     F: Junior wants the easier shift and I'm eyeing the same slot. One move before I grab it?
+     B: Let them pick first - serve before credit.
+  2: front>40? True hint? True | F=90 B=40
+     F: Promotion fight brewing - I could absorb a cost so someone else wins. What do I give away?
+     B: One real cost - add value off the stage.
+  3: front>36? True hint? True | F=72 B=36
+     F: Tempted to serve only while the camera is on. Where do I actually serve?
+     B: Off-camera - when nobody's watching.
+  4: front>35? True hint? True | F=62 B=35
+     F: Team is blocked and I could silently unblock them. First move?
+     B: Unblock them before I claim credit.
+  5: front>24? True hint? True | F=72 B=24
+     F: Keeping the better assignment feels safer for my name. What comes first?
+     B: Give the advantage away.
+  6: front>49? True hint? True | F=78 B=49
+     F: Serving well feels like what qualifies me for heaven. What's the actual order?
+     B: Faith in Christ saves. Serving guides life after.
+
+== law-of-buy-in.md review=True sets=['Eternal Principles', 'Discipleship'] n=6
+  1: front>42? True hint? True | F=81 B=42
+     F: Slide deck is ready but the room hasn't seen me carry load yet. What comes first?
+     B: Carry load first - trust before the pitch.
+  2: front>33? True hint? True | F=80 B=33
+     F: Reorg plan looks perfect on paper and trust is thin. One check before I present?
+     B: Have they seen me bleed for this?
+  3: front>35? True hint? True | F=64 B=35
+     F: Excited about the vision while faces stay blank. What's missing?
+     B: Earn trust before I share the plan.
+  4: front>39? True hint? True | F=88 B=39
+     F: About to email the roadmap cold to people who barely know me. What comes before the map?
+     B: Prove I'm worth following - then share.
+  5: front>40? True hint? True | F=69 B=40
+     F: Last pitch flopped and I'm 
+… (output truncated)
+```
 </details></tool-use>
 
 _**Agent (auto-smart)**_
 
 <think><details><summary>Thought Process</summary>
-pnpm was not found. I will try npm, corepack, or locate the binary.
+pnpm is unavailable. I need to find another way to run npm scripts.
+
+Corepack, nvm, or direct node scripts could replace pnpm.
 </details></think>
 
 _**Agent (auto-smart)**_
 
+Finding how to run the project's npm scripts in this environment.
+
+_**Agent (auto-smart)**_
+
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2** • Run command: which npm node corepack 2&gt;/dev/null; ls ~/.local/share/pnpm 2&gt;/dev/null | head -5; type pnpm 2&gt;/dev/null; command -v pnpm || true; ls /home/jorap/.local/bin 2&gt;/dev/null | head -20; export PATH=&#34;$HOME/.local/share/pnpm:$HOME/.local/bin:$PATH&#34;; which pnpm npm 2&gt;/dev/null; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; (npm run lint:cards 2&gt;&amp;1)</summary>
+<summary>Tool use: **run_terminal_command_v2** • Run command: which npm node corepack 2&gt;/dev/null; ls /home/jorap/Documents/GitHub/jorap.com/node_modules/.bin/pnpm 2&gt;/dev/null; command -v fnm nvm 2&gt;/dev/null; ls ~/.local/share/pnpm 2&gt;/dev/null | head -3; type pnpm 2&gt;&amp;1; ls /home/jorap/.nvm/versions/node 2&gt;/dev/null | tail -3</summary>
 ```bash
-which npm node corepack 2>/dev/null; ls ~/.local/share/pnpm 2>/dev/null | head -5; type pnpm 2>/dev/null; command -v pnpm || true; ls /home/jorap/.local/bin 2>/dev/null | head -20; export PATH="$HOME/.local/share/pnpm:$HOME/.local/bin:$PATH"; which pnpm npm 2>/dev/null; cd /home/jorap/Documents/GitHub/jorap.com && (npm run lint:cards 2>&1)
+which npm node corepack 2>/dev/null; ls /home/jorap/Documents/GitHub/jorap.com/node_modules/.bin/pnpm 2>/dev/null; command -v fnm nvm 2>/dev/null; ls ~/.local/share/pnpm 2>/dev/null | head -3; type pnpm 2>&1; ls /home/jorap/.nvm/versions/node 2>/dev/null | tail -3
 ```
 
 ```
 /home/jorap/.nvm/versions/node/v22.23.0/bin/npm
 /home/jorap/.nvm/versions/node/v22.23.0/bin/node
 /home/jorap/.nvm/versions/node/v22.23.0/bin/corepack
+nvm
 store
-mise
-/home/jorap/.nvm/versions/node/v22.23.0/bin/npm
-
-> jorap-com@2.2.0 lint:cards
-> node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py
-
-Flashcard frontmatter OK
+--: line 1: type: pnpm: not found
+v22.23.0
 
 ```
 </details></tool-use>
@@ -625,23 +641,105 @@ Flashcard frontmatter OK
 _**Agent (auto-smart)**_
 
 <think><details><summary>Thought Process</summary>
-Card linting passed. Now running card audit and voice linting.
+Enabling pnpm via corepack or using npm run is needed first.
 </details></think>
 
 _**Agent (auto-smart)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;/home/jorap/.nvm/versions/node/v22.23.0/bin:$HOME/.local/share/pnpm:$HOME/.local/bin:$PATH&#34;
-cd /home/jorap/Documents/GitHub/jorap.com
-npm run audit:cards 2&gt;&amp;1
-echo &#34;===VOICE===&#34;
-npm run lint:voice 2&gt;&amp;1 | tail -100</summary>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;/home/jorap/.nvm/versions/node/v22.23.0/bin:$PATH&#34; &amp;&amp; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; corepack enable 2&gt;/dev/null; corepack prepare pnpm@latest --activate 2&gt;&amp;1 | tail -5; which pnpm; npm run lint:cards 2&gt;&amp;1; echo &#34;---&#34;; npm run audit:cards 2&gt;&amp;1; echo &#34;---&#34;; npm run lint:voice 2&gt;&amp;1</summary>
 ```bash
-export PATH="/home/jorap/.nvm/versions/node/v22.23.0/bin:$HOME/.local/share/pnpm:$HOME/.local/bin:$PATH"
-cd /home/jorap/Documents/GitHub/jorap.com
-npm run audit:cards 2>&1
-echo "===VOICE==="
-npm run lint:voice 2>&1 | tail -100
+export PATH="/home/jorap/.nvm/versions/node/v22.23.0/bin:$PATH" && cd /home/jorap/Documents/GitHub/jorap.com && corepack enable 2>/dev/null; corepack prepare pnpm@latest --activate 2>&1 | tail -5; which pnpm; npm run lint:cards 2>&1; echo "---"; npm run audit:cards 2>&1; echo "---"; npm run lint:voice 2>&1
+```
+
+```
+Internal Error: EACCES: permission denied, symlink '../lib/node_modules/corepack/dist/pnpm.js' -> '/home/jorap/.nvm/versions/node/v22.23.0/bin/pnpm'
+    at async Object.symlink (node:internal/fs/promises:1001:10)
+    at async EnableCommand.generatePosixLink (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23218:5)
+    at async Promise.all (index 0)
+    at async EnableCommand.execute (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23199:5)
+    at async EnableCommand.validateAndExecute (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:20278:22)
+    at async _Cli.run (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:21215:18)
+    at async Object.runMain (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23704:19)
+    at async Engine.resolveDescriptor (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23033:20)
+    at async PrepareCommand.execute (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23617:24)
+    at async PrepareCommand.validateAndExecute (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:20278:22)
+    at async _Cli.run (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:21215:18)
+    at async Object.runMain (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23704:19)
+/home/jorap/.local/share/mise/installs/pnpm/latest/pnpm
+
+> jorap-com@2.2.0 lint:cards
+> node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py
+
+Flashcard frontmatter OK
+---
+
+> jorap-com@2.2.0 audit:cards
+> node scripts/runPython.mjs scripts/audit-flashcard-north-star.py
+
+Flashcard north-star audit issues:
+  content/english/notes/depth-of-understanding.md [telegraphy-front] front=I can define the idea at 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The third card in law-of-empowerment.md needs fixing.
+
+The fourth card in law-of-empowerment.md now asks "First person I pass it to?" instead of "handoff." The depth-of-understanding.md lint failure is pre-existing and unrelated. Lint:voice will be re-run after the fix.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Fixing the voice lint hit on `handoff`, then re-running checks.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-empowerment.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;/home/jorap/.local/share/mise/installs/pnpm/latest:/home/jorap/.nvm/versions/node/v22.23.0/bin:$PATH&#34; &amp;&amp; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run lint:cards 2&gt;&amp;1 &amp;&amp; npm run lint:voice 2&gt;&amp;1 &amp;&amp; npm run audit:cards 2&gt;&amp;1 | rg -n &#34;law-of-(addition|buy-in|connection|empowerment|explosive-growth|influence|intuition)|OK|issue|Flashcard&#34; || true</summary>
+```bash
+export PATH="/home/jorap/.local/share/mise/installs/pnpm/latest:/home/jorap/.nvm/versions/node/v22.23.0/bin:$PATH" && cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 && npm run lint:voice 2>&1 && npm run audit:cards 2>&1 | rg -n "law-of-(addition|buy-in|connection|empowerment|explosive-growth|influence|intuition)|OK|issue|Flashcard" || true
+```
+
+```
+
+> jorap-com@2.2.0 lint:cards
+> node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py
+
+Flashcard frontmatter OK
+
+> jorap-com@2.2.0 lint:voice
+> node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check
+
+Voice dash lint OK
+Voice lint OK
+5:Flashcard north-star audit issues:
+9:2 issue(s) in garden flashcards
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying that audit issues are limited to depth-of-understanding and do not affect the target files.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;/home/jorap/.local/share/mise/installs/pnpm/latest:/home/jorap/.nvm/versions/node/v22.23.0/bin:$PATH&#34; &amp;&amp; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run audit:cards 2&gt;&amp;1</summary>
+```bash
+export PATH="/home/jorap/.local/share/mise/installs/pnpm/latest:/home/jorap/.nvm/versions/node/v22.23.0/bin:$PATH" && cd /home/jorap/Documents/GitHub/jorap.com && npm run audit:cards 2>&1
 ```
 
 ```
@@ -654,303 +752,9 @@ Flashcard north-star audit issues:
   content/english/notes/depth-of-understanding.md [telegraphy-front] front=Stuck between naming the concept and using it in a real… back=Explanation - meaning and relationships …
 
 2 issue(s) in garden flashcards
-===VOICE===
-
-> jorap-com@2.2.0 lint:voice
-> node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check
-
-Voice dash lint OK
-Voice lint warnings:
-  content/english/notes/law-of-empowerment.md: cards[3].front: AI-tell word `handoff` - try: pass off / pass to client
 
 ```
 </details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<think><details><summary>Thought Process</summary>
-The card audit failed on depth-of-understanding.md, but that file was already modified and is not among the target notes.
-
-Voice lint warned on law-of-empowerment.md, which was not modified. Exit code 1 likely came from voice lint rather than audit. I will filter the audit to only the seven target files.
-
-Front card 6 on law-of-legacy.md may violate the skill rule against title or concept telegraphy by naming "Succession." I will audit only the seven target files to confirm.
-</details></think>
-
-_**Agent (auto-smart)**_
-
-Audit failed on other notes; verifying these seven specifically.
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;/home/jorap/.nvm/versions/node/v22.23.0/bin:$PATH&#34;
-cd /home/jorap/Documents/GitHub/jorap.com
-# Audit only the seven files - see if script accepts paths
-python3 scripts/audit-flashcard-north-star.py --help 2&gt;&amp;1 | head -40
-node scripts/runPython.mjs scripts/audit-flashcard-north-star.py 2&gt;&amp;1 | rg -i &#34;law-of-(legacy|magnetism|navigation|priorities|process|respect|sacrifice)&#34; || echo &#34;No issues in target law notes&#34;
-# Voice lint scoped to our files if possible
-node scripts/runPython.mjs scripts/voice-lint.py site --check 2&gt;&amp;1 | rg -i &#34;law-of-(legacy|magnetism|navigation|priorities|process|respect|sacrifice)&#34; || echo &#34;No voice issues in target law notes&#34;
-# Double-check front &gt; back lengths on our cards
-python3 - &lt;&lt;&#39;PY&#39;
-import re, pathlib, yaml
-# simple parse without full yaml if frontmatter messy
-files = [
-  &#34;law-of-legacy&#34;,&#34;law-of-magnetism&#34;,&#34;law-of-navigation&#34;,&#34;law-of-priorities&#34;,
-  &#34;law-of-process&#34;,&#34;law-of-respect&#34;,&#34;law-of-sacrifice&#34;
-]
-root = pathlib.Path(&#34;content/english/notes&#34;)
-for name in files:
-    text = (root/f&#34;{name}.md&#34;).read_text()
-    fm = text.split(&#34;---&#34;,2)[1]
-    fronts = re.findall(r&#39;front: &#34;(.*)&#34;&#39;, fm)
-    backs = re.findall(r&#39;back: &#34;(.*)&#34;&#39;, fm)
-    print(f&#34;\n{name}: {len(fronts)} cards, review={&#39;review: true&#39; in fm}&#34;)
-    for i,(f,b) in enumerate(zip(fronts,backs),1):
-        ok = len(f) &gt; len(b)
-        q = &#34;?&#34; in f
-        print(f&#34;  {i}: front={len(f)} back={len(b)} longer={ok} has_q={q}&#34;)
-        if not ok or not q:
-            print(f&#34;     F: {f}&#34;)
-            print(f&#34;     B: {b}&#34;)
-PY</summary>
-```bash
-export PATH="/home/jorap/.nvm/versions/node/v22.23.0/bin:$PATH"
-cd /home/jorap/Documents/GitHub/jorap.com
-# Audit only the seven files - see if script accepts paths
-python3 scripts/audit-flashcard-north-star.py --help 2>&1 | head -40
-node scripts/runPython.mjs scripts/audit-flashcard-north-star.py 2>&1 | rg -i "law-of-(legacy|magnetism|navigation|priorities|process|respect|sacrifice)" || echo "No issues in target law notes"
-# Voice lint scoped to our files if possible
-node scripts/runPython.mjs scripts/voice-lint.py site --check 2>&1 | rg -i "law-of-(legacy|magnetism|navigation|priorities|process|respect|sacrifice)" || echo "No voice issues in target law notes"
-# Double-check front > back lengths on our cards
-python3 - <<'PY'
-import re, pathlib, yaml
-# simple parse without full yaml if frontmatter messy
-files = [
-  "law-of-legacy","law-of-magnetism","law-of-navigation","law-of-priorities",
-  "law-of-process","law-of-respect","law-of-sacrifice"
-]
-root = pathlib.Path("content/english/notes")
-for name in files:
-    text = (root/f"{name}.md").read_text()
-    fm = text.split("---",2)[1]
-    fronts = re.findall(r'front: "(.*)"', fm)
-    backs = re.findall(r'back: "(.*)"', fm)
-    print(f"\n{name}: {len(fronts)} cards, review={'review: true' in fm}")
-    for i,(f,b) in enumerate(zip(fronts,backs),1):
-        ok = len(f) > len(b)
-        q = "?" in f
-        print(f"  {i}: front={len(f)} back={len(b)} longer={ok} has_q={q}")
-        if not ok or not q:
-            print(f"     F: {f}")
-            print(f"     B: {b}")
-PY
-```
-
-```
-Flashcard north-star audit issues:
-  content/english/notes/depth-of-understanding.md [telegraphy-front] front=I can define the idea at dinner but never used it at wo… back=Explanation - not Application yet.…
-  content/english/notes/depth-of-understanding.md [telegraphy-front] front=Stuck between naming the concept and using it in a real… back=Explanation - meaning and relationships …
-
-2 issue(s) in garden flashcards
-No issues in target law notes
-No voice issues in target law notes
-
-law-of-legacy: 6 cards, review=True
-  1: front=80 back=28 longer=True has_q=True
-  2: front=80 back=30 longer=True has_q=True
-  3: front=85 back=33 longer=True has_q=True
-  4: front=86 back=32 longer=True has_q=True
-  5: front=81 back=24 longer=True has_q=True
-  6: front=69 back=45 longer=True has_q=True
-
-law-of-magnetism: 6 cards, review=True
-  1: front=81 back=28 longer=True has_q=True
-  2: front=84 back=32 longer=True has_q=True
-  3: front=74 back=33 longer=True has_q=True
-  4: front=82 back=32 longer=True has_q=True
-  5: front=73 back=33 longer=True has_q=True
-  6: front=70 back=45 longer=True has_q=True
-
-law-of-navigation: 6 cards, review=True
-  1: front=71 back=34 longer=True has_q=True
-  2: front=77 back=26 longer=True has_q=True
-  3: front=74 back=24 longer=True has_q=True
-  4: front=74 back=33 longer=True has_q=True
-  5: front=64 back=41 longer=True has_q=True
-  6: front=70 back=39 longer=True has_q=True
-
-law-of-priorities: 6 cards, review=True
-  1: front=76 back=34 longer=True has_q=True
-  2: front=65 back=34 longer=True has_q=True
-  3: front=68 back=34 longer=True has_q=True
-  4: front=60 back=40 longer=True has_q=True
-  5: front=69 back=35 longer=True has_q=True
-  6: front=66 back=36 longer=True has_q=True
-
-law-of-process: 6 cards, review=True
-  1: front=63 back=26 longer=True has_q=True
-  2: front=75 back=42 longer=True has_q=True
-  3: front=67 back=42 longer=True has_q=True
-  4: front=70 back=26 longer=True has_q=True
-  5: front=65 back=34 longer=True has_q=True
-  6: front=7
-… (output truncated)
-```
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<think><details><summary>Thought Process</summary>
-A few concerns emerged during the de-AI pass.
-
-Card 6 of law-of-legacy may telegraph its concept slightly. Card 3 of law-of-process asks a question on the back instead of giving an immediate move; it needs rewriting. The law-of-magnetism card 1 back is solid.
-
-Priorities card 3 back is another question instead of an immediate move. It will be rewritten as a decision. Sacrifice card 3 is acceptable. Process card 3 back will be fixed to a concrete move.
-
-The legacy card 6 front will be softened to avoid naming succession directly. The magnetism card 1 back is acceptable. Process card 3 back is being rewritten as a concrete move. Priorities card 3 back is a filter question, which the flashcards skill permits.
-
-Priorities card 3 back is confirmed as a valid filter question. Process card 3 back will be rewritten as a concrete imperative move rather than a multiple-choice check.
-
-Legacy card 4 back, magnetism card 3 back, and respect card 4 back all follow valid check patterns. Process card 1 back is a clear decision. The word "microwave" is acceptable because it comes from the note's own key-concept language. A few remaining weak spots will be softened.
-
-Legacy card 6 will drop the word "Succession" entirely. Process card 3 back will be rewritten as a concrete imperative move: "Still in the pit years - keep stacking."
-</details></think>
-
-_**Agent (auto-smart)**_
-
-Polishing a few backs that read as questions instead of moves, then re-checking.
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-legacy.md</summary>
-
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-process.md</summary>
-
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/law-of-priorities.md</summary>
-
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<think><details><summary>Thought Process</summary>
-Re-running the card lint audit to verify the files.
-
-Verifying that each front card still matches its corresponding back.
-</details></think>
-
-_**Agent (auto-smart)**_
-
-<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
-<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;/home/jorap/.nvm/versions/node/v22.23.0/bin:$PATH&#34;
-cd /home/jorap/Documents/GitHub/jorap.com
-npm run lint:cards 2&gt;&amp;1
-echo &#34;---&#34;
-node scripts/runPython.mjs scripts/audit-flashcard-north-star.py 2&gt;&amp;1 | rg -i &#34;law-of-(legacy|magnetism|navigation|priorities|process|respect|sacrifice)|issue\(s\)&#34; || true
-echo &#34;---&#34;
-node scripts/runPython.mjs scripts/voice-lint.py site --check 2&gt;&amp;1 | rg -i &#34;law-of-(legacy|magnetism|navigation|priorities|process|respect|sacrifice)&#34; || echo &#34;No voice issues in target law notes&#34;
-# confirm only cards/review/card_sets changed
-git diff --stat -- content/english/notes/law-of-legacy.md content/english/notes/law-of-magnetism.md content/english/notes/law-of-navigation.md content/english/notes/law-of-priorities.md content/english/notes/law-of-process.md content/english/notes/law-of-respect.md content/english/notes/law-of-sacrifice.md
-git diff -- content/english/notes/law-of-legacy.md | head -60
-# length check on edited cards
-python3 - &lt;&lt;&#39;PY&#39;
-import re, pathlib
-for name in [&#34;law-of-legacy&#34;,&#34;law-of-priorities&#34;,&#34;law-of-process&#34;]:
-    fm = (pathlib.Path(&#34;content/english/notes&#34;)/f&#34;{name}.md&#34;).read_text().split(&#34;---&#34;,2)[1]
-    for i,(f,b) in enumerate(zip(re.findall(r&#39;front: &#34;(.*)&#34;&#39;, fm), re.findall(r&#39;back: &#34;(.*)&#34;&#39;, fm)),1):
-        if len(f)&lt;=len(b):
-            print(f&#34;FAIL {name} {i}: {len(f)} vs {len(b)}&#34;)
-    print(f&#34;{name}: all fronts longer&#34;)
-PY
-</summary>
-```bash
-export PATH="/home/jorap/.nvm/versions/node/v22.23.0/bin:$PATH"
-cd /home/jorap/Documents/GitHub/jorap.com
-npm run lint:cards 2>&1
-echo "---"
-node scripts/runPython.mjs scripts/audit-flashcard-north-star.py 2>&1 | rg -i "law-of-(legacy|magnetism|navigation|priorities|process|respect|sacrifice)|issue\(s\)" || true
-echo "---"
-node scripts/runPython.mjs scripts/voice-lint.py site --check 2>&1 | rg -i "law-of-(legacy|magnetism|navigation|priorities|process|respect|sacrifice)" || echo "No voice issues in target law notes"
-# confirm only cards/review/card_sets changed
-git diff --stat -- content/english/notes/law-of-legacy.md content/english/notes/law-of-magnetism.md content/english/notes/law-of-navigation.md content/english/notes/law-of-priorities.md content/english/notes/law-of-process.md content/english/notes/law-of-respect.md content/english/notes/law-of-sacrifice.md
-git diff -- content/english/notes/law-of-legacy.md | head -60
-# length check on edited cards
-python3 - <<'PY'
-import re, pathlib
-for name in ["law-of-legacy","law-of-priorities","law-of-process"]:
-    fm = (pathlib.Path("content/english/notes")/f"{name}.md").read_text().split("---",2)[1]
-    for i,(f,b) in enumerate(zip(re.findall(r'front: "(.*)"', fm), re.findall(r'back: "(.*)"', fm)),1):
-        if len(f)<=len(b):
-            print(f"FAIL {name} {i}: {len(f)} vs {len(b)}")
-    print(f"{name}: all fronts longer")
-PY
-
-```
-
-```
-
-> jorap-com@2.2.0 lint:cards
-> node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py
-
-Flashcard frontmatter OK
----
-2 issue(s) in garden flashcards
----
-No voice issues in target law notes
- content/english/notes/law-of-legacy.md     | 15 +++++++++++++++
- content/english/notes/law-of-magnetism.md  | 15 +++++++++++++++
- content/english/notes/law-of-navigation.md | 15 +++++++++++++++
- content/english/notes/law-of-priorities.md | 15 +++++++++++++++
- content/english/notes/law-of-process.md    | 15 +++++++++++++++
- content/english/notes/law-of-respect.md    | 15 +++++++++++++++
- content/english/notes/law-of-sacrifice.md  | 15 +++++++++++++++
- 7 files changed, 105 insertions(+)
-diff --git a/content/english/notes/law-of-legacy.md b/content/english/notes/law-of-legacy.md
-index fb09bb91..f6d4fa23 100644
---- a/content/english/notes/law-of-legacy.md
-+++ b/content/english/notes/law-of-legacy.md
-@@ -50,5 +50,20 @@ author: "JoRap"
- tags: ["Faith", "Leadership", "Bible", "Discipleship"]
- aliases: ["law of legacy", "the law of legacy"]
- featured: false
-+review: true
-+card_sets: ["Eternal Principles", "Discipleship"]
-+cards:
-+  - front: "Leaving the role next month - every key still lives in my head. What's the move?"
-+    back: "Name a successor in writing."
-+  - front: "Best project win this year - nobody else can run it without me. First fix I try?"
-+    back: "Hand the baton to two juniors."
-+  - front: "Writing exit docs at midnight instead of coaching someone all year. What comes first?"
-+    back: "Coach the person before the docs."
-+  - front: "Team still asks only me - brand feels personal. One check before I take the next call?"
-+    back: "Can they finish this without me?"
-+  - front: "Mentoring a junior hard, never saying they own the work after me. What's missing?"
-+    back: "Say the charge out loud."
-+  - front: "Handing off my role feels like what qualifies me for heaven. Wrong order?"
-+    back: "Already saved by faith - the baton is fruit."
- draft: false
- 
-… (output truncated)
-```
-</details></tool-use>
-
-_**Agent (auto-smart)**_
-
-<think><details><summary>Thought Process</summary>
-The two audit issues are pre-existing in depth-of-understanding.md and unrelated to the current changes.
-
-No blockers remain. Final step metadata will be updated before closing the session.
-</details></think>
 
 _**Agent (auto-smart)**_
 
@@ -962,34 +766,31 @@ An unknown error occurred
 _**Agent (auto-smart)**_
 
 <think><details><summary>Thought Process</summary>
-Preparing a clean report of changes and blockers.
+The flashcard frontmatter work is complete. A session close block is required because repository files were modified.
 </details></think>
 
 _**Agent (auto-smart)**_
 
-Added flashcard frontmatter to all seven notes — six cue→move cards each, Free Grace order on the sixth card, nothing else touched.
+Added six cue→apply cards to each of the seven Law notes (`review: true`, `card_sets: ["Eternal Principles", "Discipleship"]`). Body and other frontmatter untouched. No commit.
 
 **Files changed**
-- `content/english/notes/law-of-legacy.md`
-- `content/english/notes/law-of-magnetism.md`
-- `content/english/notes/law-of-navigation.md`
-- `content/english/notes/law-of-priorities.md`
-- `content/english/notes/law-of-process.md`
-- `content/english/notes/law-of-respect.md`
-- `content/english/notes/law-of-sacrifice.md`
+- `content/english/notes/law-of-addition.md`
+- `content/english/notes/law-of-buy-in.md`
+- `content/english/notes/law-of-connection.md`
+- `content/english/notes/law-of-empowerment.md`
+- `content/english/notes/law-of-explosive-growth.md`
+- `content/english/notes/law-of-influence.md`
+- `content/english/notes/law-of-intuition.md`
 
 **Checks**
 - `npm run lint:cards` — OK
-- `npm run audit:cards` — no hits on these seven
-- `npm run lint:voice` — no hits on these seven
+- `npm run lint:voice` — OK (fixed `handoff` → plain wording on empowerment)
+- `npm run audit:cards` — fails on **pre-existing** telegraphy in `depth-of-understanding.md` only; none of these seven decks flagged
 
-**Blockers (pre-existing, not from this edit)**
-- `depth-of-understanding.md` — 2 `[telegraphy-front]` audit issues
-- `law-of-empowerment.md` — voice warning on `handoff`
-
-No commit.
+**Blockers**
+- Garden-wide `audit:cards` still exits non-zero because of `depth-of-understanding.md` (out of scope here).
 
 ## Session close
-- Fixed: Flashcards added to seven law notes.
+- Fixed: Six-card review decks on seven Law notes.
 - Encode: none
-- Open: clean for this task; 2 garden audit + 1 voice warn elsewhere
+- Open: 1 audit failure on depth-of-understanding (pre-existing)

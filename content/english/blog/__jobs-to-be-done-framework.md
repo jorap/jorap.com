@@ -2,7 +2,7 @@
 title: "Jobs to Be Done Framework"
 meta_title: "Jobs to Be Done - What Job Is Your Product Hired For?"
 description: "Features don't sell products. Jobs do. These are the Jobs to Be Done questions I run before I spec anything."
-social_media_intro: "A pastor didn't hire a redesign - he hired Friday bulletin updates before Sunday without learning Git. That's JTBD in a sales call. Link in comments."
+social_media_intro: "A pastor didn't hire a redesign - he hired Friday bulletin uploads before Sunday. Six JTBD questions I run before I spec anything. Article in the comments."
 slug: "jobs-to-be-done-framework"
 date: "2026-06-18T06:02:00Z"
 image: "/images/note.jpg"

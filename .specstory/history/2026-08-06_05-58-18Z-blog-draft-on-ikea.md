@@ -929,4 +929,145 @@ _**Agent (auto-smart)**_
 
 <think><details><summary>Thought Process</summary>
 Drafting the post with Framework A.
+
+Marking scenes without real memories as [NEEDS SCENE]. The bag holds an umbrella, small fan, and extra frakta. No invented details. Update the ledger with the FRAKTA fact after drafting. Slug: `ikea-frakta-bag`. Categories: Gear, Home, Tips or Reviews. Level depth: 3. No currency amounts. No Trader Joe's references. Keep the manly IKEA blue voice. Target: ~800 words.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__ikea-frakta-bag.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the ledger with the FRAKTA fact. Running the slop score. Preparing a draft summary flagged NEEDS SCENE.
+
+Adding a ledger row per author-context rules. Running a word count and slop score. The meta response will use caveman voice; the blog content stays normal.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: wc -w /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__ikea-frakta-bag.md &amp;&amp; pnpm slop:score content/english/blog/__ikea-frakta-bag.md 2&gt;&amp;1 | tail -20</summary>
+```bash
+wc -w /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__ikea-frakta-bag.md && pnpm slop:score content/english/blog/__ikea-frakta-bag.md 2>&1 | tail -20
+```
+
+```
+645 /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__ikea-frakta-bag.md
+Command 'pnpm' not found, did you mean:
+  command 'npm' from deb npm (9.2.0~ds1-2)
+Try: sudo apt install <deb name>
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The document contains 645 words including frontmatter. The body text is likely around 500 words.
+
+The draft needs expansion to reach roughly 800 words. I'll add more substance to the viral tote contrast and closing gratitude without inventing scenes. I'll mark NEEDS SCENE carefully and add a ledger row. I also need to check the corepack and pnpm paths.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: which pnpm || ls /home/jorap/Documents/GitHub/jorap.com/node_modules/.bin/pnpm 2&gt;/dev/null; export PATH=&#34;$HOME/.local/share/pnpm:$PATH:/home/jorap/Documents/GitHub/jorap.com/node_modules/.bin:$PATH&#34;; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; (command -v pnpm &amp;&amp; pnpm slop:score content/english/blog/__ikea-frakta-bag.md) 2&gt;&amp;1 | tail -30</summary>
+```bash
+which pnpm || ls /home/jorap/Documents/GitHub/jorap.com/node_modules/.bin/pnpm 2>/dev/null; export PATH="$HOME/.local/share/pnpm:$PATH:/home/jorap/Documents/GitHub/jorap.com/node_modules/.bin:$PATH"; cd /home/jorap/Documents/GitHub/jorap.com && (command -v pnpm && pnpm slop:score content/english/blog/__ikea-frakta-bag.md) 2>&1 | tail -30
+```
+
+```
+/home/jorap/.local/share/mise/installs/pnpm/latest/pnpm
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/__ikea-frakta-bag.md
+__ikea-frakta-bag.md                     words= 545 total=  2 per100w=  0.37
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The body needs roughly 255 more words to reach the target of about 800.
+
+Draft expansion will add depth on capacity, jobs, and viral contrast without inventing scenes. NEEDS SCENE remains. Author-context quick anchors will be synced briefly.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+545 words - expanding toward ~800 without inventing scenes.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__ikea-frakta-bag.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Running another quick word count and preparing to report.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;/home/jorap/.local/share/mise/installs/pnpm/latest:$PATH&#34;; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__ikea-frakta-bag.md 2&gt;&amp;1 | tail -5; wc -w content/english/blog/__ikea-frakta-bag.md</summary>
+```bash
+export PATH="/home/jorap/.local/share/mise/installs/pnpm/latest:$PATH"; cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__ikea-frakta-bag.md 2>&1 | tail -5; wc -w content/english/blog/__ikea-frakta-bag.md
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/__ikea-frakta-bag.md
+__ikea-frakta-bag.md                     words= 674 total=  2 per100w=  0.30
+775 content/english/blog/__ikea-frakta-bag.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The draft body is 674 words, nearly 800. It is sufficient for now. NEEDS SCENE will add more content later.
+
+I will provide the file path and explain what blocks the session from closing.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Draft at `content/english/blog/__ikea-frakta-bag.md` (~674 body words, Frame A). `draft: true`. Ledger + author-context updated.
+
+**Your move:** replace `[NEEDS SCENE]` with one real place the kit paid off. Also swap `image-template.jpg` before publish.
+
+Say the scene when ready - I'll drop it in and run voice passes.
+
+## Session close
+- Fixed: Frame A FRAKTA draft filed; ledger/author-context synced.
+- Encode: none
+- Open: NEEDS SCENE + hero image before publish

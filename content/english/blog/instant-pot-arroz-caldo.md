@@ -2,7 +2,7 @@
 title: "Instant Pot Arroz Caldo"
 meta_title: "Instant Pot Arroz Caldo - Big-Batch Filipino Congee"
 description: "My arroz caldo now lives in an 8-quart Instant Pot. Bone-in drumsticks, 25 minutes under pressure, big batch in about 45 minutes start to bowl."
-social_media_intro: "Left the Instant Pot vent on Vent once and wondered why nothing happened for twenty minutes. Arroz caldo anyway - 10-12 bowls in 45. Link in comments."
+social_media_intro: "Left the vent on Vent once - twenty minutes wondering why nothing cooked. 10-12 bowl Instant Pot arroz caldo in 45 minutes: article in the comments."
 slug: "instant-pot-arroz-caldo"
 date: "2026-07-09T06:00:00Z"
 image: "/images/instant-pot-arroz-caldo.jpg"

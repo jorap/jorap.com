@@ -2,7 +2,7 @@
 title: "Why My Son Loves Toca Boca World"
 meta_title: "Why Davis Loves Toca Boca World"
 description: "Davis plays on a locked-down kids phone, not mine. Toca Boca World beat the apps every other kid talks about - no chat, no feed, no ranked meltdown when the timer hits."
-social_media_intro: "Davis runs Toca Boca on a locked-down kids phone - no chat, no feed, no ranked meltdown when the timer hits. Why it stuck. Link in comments."
+social_media_intro: "Davis runs Toca Boca on a locked-down kids phone - no chat, no feed, no ranked meltdown when the timer hits. What we filter and why: article in the comments."
 slug: "why-my-son-loves-toca-boca-world"
 date: "2026-07-30T02:53:00Z"
 image: "/images/tbw.jpg"

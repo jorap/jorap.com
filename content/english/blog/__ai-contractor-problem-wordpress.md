@@ -2,7 +2,7 @@
 title: "The AI Contractor Problem on WordPress Builds"
 meta_title: "The AI Contractor Problem - One Week Fixing Drift"
 description: "Every new AI chat is day one for a skilled hire who forgets yesterday's code. One week on a WordPress build taught me to build the layer first."
-social_media_intro: "Month three on a WordPress build, every new AI chat starts at day one again. I finally named that problem - and what I built first. Link in the comments."
+social_media_intro: "Tuesday: block-testimonial.php. Thursday: team-grid/block.php. Same client, two openers - month three I built the helper layer first. Four-step fix: article in the comments."
 slug: "ai-contractor-problem-wordpress"
 date: "2026-07-29T10:00:00Z"
 image: "/images/feature-consistent-ai-output.jpg"

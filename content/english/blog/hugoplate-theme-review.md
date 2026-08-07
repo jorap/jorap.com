@@ -2,7 +2,7 @@
 title: "HugoPlate: The Theme Quietly Powering This Site"
 meta_title: "HugoPlate Shortcodes + Theme Review: What Powers JoRap"
 description: "Live demos of every HugoPlate shortcode this site uses, plus why I still run the theme a year later - what I changed and where it bit me."
-social_media_intro: "Spent one weekend picking a Hugo theme and still haven't replaced HugoPlate a year later. Live shortcode gallery + what bit me. Link in comments."
+social_media_intro: "One weekend picking a Hugo theme - still on HugoPlate a year later. Live shortcode gallery plus what bit me when I customized: article in the comments."
 slug: "hugoplate-theme-review"
 date: "2026-05-29T05:00:00Z"
 image: "/images/joraps-world.jpg"

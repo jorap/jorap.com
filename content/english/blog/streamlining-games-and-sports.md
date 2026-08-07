@@ -2,7 +2,7 @@
 title: "Streamlining Brings the Audience the Uncut Version Never Had"
 meta_title: "Streamlining Techniques in Games and Sports"
 description: "Streamlining isn't just shorter - it's who shows up. T20, pickleball, Monopoly Deal: same hook, smaller package, audiences the uncut version never reached."
-social_media_intro: "Shrink the package and different people show up - T20 cricket, pickleball, Monopoly Deal. Same hook, smaller door. Link in comments."
+social_media_intro: "Shrink the package and different people show up - T20 cricket, pickleball, Monopoly Deal. Who walks in when you cut runtime: article in the comments."
 slug: "streamlining-games-and-sports"
 date: "2026-07-27T11:46:00Z"
 image: "/images/modern_board_gaming.jpg"

@@ -2,7 +2,7 @@
 title: "Smart Plug"
 meta_title: "Smart Plug - Simple Automation That Actually Sticks"
 description: "Smart plugs are the least glamorous gadget in the house and also the one I keep buying. What they're good for, what to skip, and how to avoid troubleshooting."
-social_media_intro: "My first smart plug died nightly behind a metal TV stand. Moved it six inches. Fixed everything. What actually sticks - link in comments."
+social_media_intro: "My first smart plug dropped offline nightly behind a metal TV stand. Moved it six inches. Which automations actually stick - and what to skip: article in the comments."
 slug: "smart-plug"
 date: "2026-06-18T05:01:00Z"
 image: "/images/extension-cord.jpg"

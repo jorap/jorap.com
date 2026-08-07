@@ -2,7 +2,7 @@
 title: "Why Brave Is My Personal Browser"
 meta_title: "Why I Use Brave as My Daily Browser"
 description: "Brave Origin on my Linux desktop because it's free there, regular Brave on Android, Chrome for client work - shields on, sync without a Google account, and a clean split between billable tabs and everything else."
-social_media_intro: "Brave Shields on means fewer cookie popups and checkout drama. Chromium underneath so client staging links still work. Why it stuck - link in comments."
+social_media_intro: "Fewer cookie popups on my Linux desktop - Shields on by default. Still Chromium for client staging links. Why Brave gets personal tabs, Chrome gets billable ones: article in the comments."
 slug: "why-brave-browser"
 date: "2026-07-20T00:40:00Z"
 image: "/images/feature-desktop.jpg"

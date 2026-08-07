@@ -2,7 +2,7 @@
 title: "Private Notes vs Hugo"
 meta_title: "Private Notes vs Hugo - Garage vs Public Garden"
 description: "I don't run a separate Obsidian vault anymore. Private captures stay in the garage; Hugo builds the public garden on jorap.com."
-social_media_intro: "I spent Sundays copying paragraphs between a private wiki and Hugo wondering why I didn't write once. Garage vs garden now. Link in comments."
+social_media_intro: "Spent Sundays copying paragraphs between a private wiki and Hugo. Garage vs garden now - one capture habit, one publish pipeline. Article in the comments."
 slug: "obsidian-vs-hugo"
 date: "2026-06-19T06:00:00Z"
 image: "/images/note.jpg"

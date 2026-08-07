@@ -2,7 +2,7 @@
 title: "Sveltia CMS"
 meta_title: "Sveltia CMS - When the Client Won't Touch Git"
 description: "I publish via Markdown and git push. Sveltia CMS is the bridge when someone needs buttons - edits still commit to the repo, build pipeline unchanged."
-social_media_intro: "Client froze at the word terminal. Four-page brochure, twice-a-month edits. Sveltia CMS gave buttons without sneaking in WordPress - link in comments."
+social_media_intro: "Client froze at the word terminal. Four-page brochure, twice-a-month edits. How Sveltia gives buttons without sneaking in WordPress: article in the comments."
 slug: "sveltia-cms"
 date: "2026-06-19T06:00:00Z"
 image: "/images/static-vs-cms.jpg"

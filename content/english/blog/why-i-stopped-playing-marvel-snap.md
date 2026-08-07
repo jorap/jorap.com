@@ -2,7 +2,7 @@
 title: "Why I Stopped Playing Marvel Snap"
 meta_title: "Why I Quit Marvel Snap"
 description: "Marvel Snap hooked me with three-minute matches. Then the meta treadmill and cube anxiety turned a snack game into homework. I never spent a cent."
-social_media_intro: "Three-minute matches hooked me. Then I was googling deck lists after a bad streak instead of closing the app. Why I quit Snap. Link in comments."
+social_media_intro: "Three-minute matches hooked me. Then I was googling deck lists after a bad streak instead of closing the app. Why I deleted Snap: article in the comments."
 slug: "why-i-stopped-playing-marvel-snap"
 date: "2026-07-05T06:11:00Z"
 image: "/images/stop_snap.jpg"

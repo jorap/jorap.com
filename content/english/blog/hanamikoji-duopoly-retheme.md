@@ -2,7 +2,7 @@
 title: "Retheming Hanamikoji as Duopoly"
 meta_title: "Hanamikoji to Duopoly: Component Cuts and Mechanics Test"
 description: "I love Hanamikoji for the mechanics, not the geisha art. Duopoly is my build log - fewer components, dull flags, same hook without the illustration."
-social_media_intro: "I love Hanamikoji for the split-you-choose puzzle, not the geisha art. Rethemed it as Duopoly with dull country flags to test if mechanics alone bite. Link in comments."
+social_media_intro: "Love Hanamikoji for the split-you-choose puzzle, not the geisha art. Rethemed it as Duopoly with dull flags - build log of what I cut from the box: article in the comments."
 slug: "hanamikoji-duopoly-retheme"
 date: "2026-07-14T01:26:00Z"
 image: "/images/duopoly.jpg"

@@ -685,4 +685,186 @@ _**Agent (auto-smart)**_
 
 <think><details><summary>Thought Process</summary>
 Running pnpm requires full path access or permissions.
+
+The voice needs several fixes. The opening line is too label-y and SEO-driven; it should merge into a lived human hook like adobo. The "Why this batch size" section repeats the same bold bullet shape across seven items. The description uses third-person SEO language instead of personal voice. "Without drama" and "reheat without drama" feel like mild AI telling. Related notes are fine since they match adobo.
+
+The first paragraph repeats the title, so it should be trimmed. The batch size heading is too flat compared to adobo’s personal style. The image template is set to draft mode, which blocks publishing. The burn notice story is solid but could sharpen the separate-pan tradeoff.
+
+A ledger row for the Instant Pot beefy taco pasta will be added after the rewrite. Prose sections are being rewritten next.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: command -v pnpm || ls ~/Library/pnpm 2&gt;/dev/null; type pnpm; (export PATH=&#34;$HOME/.local/share/pnpm:$HOME/.local/bin:$PATH&#34;; which pnpm; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__beefy-taco-pasta.md)</summary>
+```bash
+command -v pnpm || ls ~/Library/pnpm 2>/dev/null; type pnpm; (export PATH="$HOME/.local/share/pnpm:$HOME/.local/bin:$PATH"; which pnpm; cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__beefy-taco-pasta.md)
+```
+
+```
+--: line 1: type: pnpm: not found
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/__beefy-taco-pasta.md
+__beefy-taco-pasta.md                    words=1444 total=  7 per100w=  0.48
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The slop score is already at zero.
+
+Recipe score is 48 per 100w. Lint:voice flagged several voice issues to fix. The opening needs a lived hook and Instant Pot clarity. Parallel bold bullets should become prose paragraphs. The description needs first-person voice. The H2 batch title should match adobo's style. "Without drama" needs softening. Every H2 section needs a failure rule.
+
+The voice fixes target notes and descriptions. Ingredients and steps stay untouched. Notes are hybrid, so small voice tweaks are safe. Running lint:voice now.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Slop already low (0.48). Rewriting voice zones: kill label opener, break parallel bold bullets, match adobo’s lived lead.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/blog/__beefy-taco-pasta.md 2&gt;&amp;1 | tail -40; pnpm slop:score content/english/blog/instant-pot-chicken-adobo.md 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/__beefy-taco-pasta.md 2>&1 | tail -40; pnpm slop:score content/english/blog/instant-pot-chicken-adobo.md 2>&1 | tail -5
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check -- content/english/blog/__beefy-taco-pasta.md
+Voice dash errors:
+  content/english/blog/__build-your-own-trait-quiz.md: em/en dash found (7); use hyphen, comma, or parentheses (jorap-voice)
+[ELIFECYCLE] Command failed with exit code 1.
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/instant-pot-chicken-adobo.md
+instant-pot-chicken-adobo.md             words= 871 total=  2 per100w=  0.23
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Running voice lint on this file.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/voice-lint.py site --check --path content/english/blog/__beefy-taco-pasta.md 2&gt;&amp;1; node scripts/runPython.mjs scripts/voice-lint.py dashes --check --path content/english/blog/__beefy-taco-pasta.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/voice-lint.py site --check --path content/english/blog/__beefy-taco-pasta.md 2>&1; node scripts/runPython.mjs scripts/voice-lint.py dashes --check --path content/english/blog/__beefy-taco-pasta.md 2>&1
+```
+
+```
+Voice lint warnings:
+  content/english/notes/finish-strong.md: examples[1]: AI-tell word `handoff` - try: pass off / pass to client
+  content/english/notes/no-successor-left.md: examples[0]: AI-tell word `handoff` - try: pass off / pass to client
+Voice dash errors:
+  content/english/blog/__build-your-own-trait-quiz.md: em/en dash found (7); use hyphen, comma, or parentheses (jorap-voice)
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__beefy-taco-pasta.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The entire file was rewritten successfully.
+
+Rescoring and checking for remaining voice issues. Updating the ledger with a personal fact. Replaced "cookbook version" with "smaller version" and removed the "Instant Pot" label. Changed parallel bold bullets to prose. Fixed the description to first person. Updated the H2 to "My 1 kg Instant Pot batch". Added a tradeoff about the extra dirty skillet.
+
+Rephrased the soft-noodle note to first person.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__beefy-taco-pasta.md 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__beefy-taco-pasta.md 2>&1 | tail -5
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/__beefy-taco-pasta.md
+__beefy-taco-pasta.md                    words=1427 total=  7 per100w=  0.49
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Adding ledger rows for taco pasta. The skill indicates to update during review.
+
+The draft remains unpublished. It will be linked with *(draft)*, similar to Worcestershire.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Syncing author-context quick anchors for the Instant Pot taco pasta recipe.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a clear voice check summary for /jorap-voice. Will cover what was wrong, what was fixed, and any remaining blockers.
+
+The response used caveman style, but the voice content was written normally. A session close was also needed.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+**Verdict:** Voice zones rewritten to match Instant Pot adobo. Ingredients/steps left ATK-scannable. Slop **0.48 → 0.49** (already clean; slight word drop).
+
+**Fixed**
+- Killed label opener (“This is an Instant Pot recipe…”) - lead now lived, Instant Pot still clear
+- Broke seven parallel **Bold.** bullets into prose
+- Description first person (`My Instant Pot…`)
+- H2 → `My 1 kg Instant Pot batch`
+- Named the skillet tax; “I waited” on soft noodles; Parmesan/salt already in
+- Ledger + author-context synced
+
+**Still before undraft**
+- `image-template.jpg` (publish blocker)
+- Fill-line photo if you want stranger-proof max-fill
+
+## Session close
+- Fixed: jorap-voice pass on Instant Pot beefy taco pasta; ledger synced
+- Encode: none
+- Open: hero image still template

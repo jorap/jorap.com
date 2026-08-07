@@ -2,7 +2,7 @@
 title: "Xiaomi Is the New Huawei"
 meta_title: "Xiaomi Took Huawei's Spot in Global Phones"
 description: "Huawei used to be the Chinese brand that felt premium without the premium tax. Sanctions changed that. Xiaomi is filling the gap - phones, gadgets, cars - and I keep running into it whether I'm shopping or fixing the TV."
-social_media_intro: "Open Shopee for a charger - three Xiaomi listings before the cable you wanted. That used to be Huawei. Why Xiaomi filled the lane - link in comments."
+social_media_intro: "Shopee for a charger - three Xiaomi listings before the cable you wanted. That lane used to be Huawei. Why the swap after sanctions: article in the comments."
 slug: "xiaomi-is-the-new-huawei"
 date: "2026-07-28T04:45:00Z"
 image: "/images/feature-desktop.jpg"

@@ -2,7 +2,7 @@
 title: "Everyone Communicates, Few Connect (and My Name Is in the Book)"
 meta_title: "John Maxwell's Everyone Communicates, Few Connect - I Helped Shape It"
 description: "John Maxwell posted his manuscript online in 2009. I commented. My name landed in the contributors list - and the book still shapes how I think about writing that connects."
-social_media_intro: "Page 251 of John Maxwell's book - my name is in the contributors list because I commented on his blog in 2009. Link in the comments."
+social_media_intro: "Page 251 - Jon Rapusas in John Maxwell's contributors list from 2009 blog comments. Broadcast vs bond: what I still steal. Article in the comments."
 slug: "everyone-communicates-few-connect"
 date: "2026-07-30T08:00:00Z"
 image: "/images/joraps-world.jpg"

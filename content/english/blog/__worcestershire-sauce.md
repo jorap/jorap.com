@@ -2,7 +2,7 @@
 title: "Worcestershire Sauce - Lee and Perrins"
 meta_title: "Lee and Perrins Worcestershire - The Bottle I Restock"
 description: "Lee & Perrins is the Worcestershire sauce I reach for without thinking. Here's why it earned a permanent spot in the pantry and how we actually use it."
-social_media_intro: "Pia splashed Lee and Perrins into adobo on a whim. Pot smelled like we'd simmered twice as long. The pantry bottle I restock - link in comments."
+social_media_intro: "Pia splashed Lee and Perrins into adobo on a whim. Pot smelled like we'd simmered twice as long. Pantry uses I restock for: article in the comments."
 slug: "worcestershire-sauce"
 date: "2026-06-18T05:05:00Z"
 image: "/images/Chicken-Adobo.jpg"

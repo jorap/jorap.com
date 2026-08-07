@@ -2,7 +2,7 @@
 title: "Rechargeable Batteries"
 meta_title: "Rechargeable Batteries - Stop Buying AAs Every Month"
 description: "Switching to rechargeable AA and AAA batteries cut our disposable pile and paid for itself faster than I expected. Here's the setup that actually stuck."
-social_media_intro: "Talking toy died at 9 PM on a school night. Convenience store alkalines I'd throw away in a month. That was the last blister pack. Link in comments."
+social_media_intro: "Talking toy died at 9 PM on a school night. Convenience store alkalines I'd trash in a month - charger, Eneloop setup, and what stays disposable. Article in the comments."
 slug: "rechargeable-batteries"
 date: "2026-06-18T05:03:00Z"
 image: "/images/extension-cord.jpg"
