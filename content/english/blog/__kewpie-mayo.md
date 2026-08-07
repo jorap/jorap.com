@@ -2,7 +2,7 @@
 title: "Kewpie Mayo"
 meta_title: "Kewpie Mayo - Why This Japanese Mayo Earned a Permanent Spot"
 description: "Kewpie isn't just yellow mayo in a squeeze bottle. Richer, eggier, tangier - and the one we reach for when the mayo should actually taste like something."
-social_media_intro: "Pia handed me Kewpie for sushi night. I reached for Hellmann's out of habit. One egg sandwich later I got why people treat this like its own food group. Link in comments."
+social_media_intro: "Pia handed me Kewpie for sushi night. I reached for Hellmann's out of habit. Where it wins on sandwiches, sushi, and lazy spicy mayo. Article in the comments."
 slug: "kewpie-mayo"
 date: "2026-06-18T05:06:00Z"
 image: "/images/Chicken-Adobo.jpg"

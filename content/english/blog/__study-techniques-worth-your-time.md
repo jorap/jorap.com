@@ -2,7 +2,7 @@
 title: "Study Techniques Worth Your Time (and the Ones That Aren't)"
 meta_title: "Study Techniques Worth Your Time - What Actually Sticks"
 description: "I watched Justin Sung rank eight popular study methods from F to S. The easy ones feel productive. The ones that work make you build connections."
-social_media_intro: "Justin Sung ranked study methods F to S. Highlighting got an F - rereading feels like learning but isn't. What I'd keep - link in comments."
+social_media_intro: "Justin Sung ranked study methods F to S. Highlighting got F - rereading feels like learning but isn't. My keep/skip list for recall: article in the comments."
 slug: "study-techniques-worth-your-time"
 date: "2026-08-02T07:10:00Z"
 image: "/images/image-template.jpg"

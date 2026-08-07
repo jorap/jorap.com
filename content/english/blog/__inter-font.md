@@ -2,7 +2,7 @@
 title: "Why I Love the Inter Font"
 meta_title: "Why Inter Is the Only Font on JoRap.com"
 description: "I met Inter in Refactoring UI, kept it for every project after, and run it as the only font on jorap.com - self-hosted, weight-based hierarchy, no second typeface."
-social_media_intro: "Found Inter in Refactoring UI. Now it's the only font on jorap.com - no serif pairing, no second voice arguing. Link in comments."
+social_media_intro: "Found Inter in Refactoring UI. One font on jorap.com - weight hierarchy, no second voice. Self-hosting setup. Article in the comments."
 slug: "inter-font"
 date: "2026-07-15T11:48:00Z"
 image: "/images/joraps-world.jpg"

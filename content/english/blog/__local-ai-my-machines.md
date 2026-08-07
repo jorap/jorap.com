@@ -2,7 +2,7 @@
 title: "Local AI on My Linux Desktop, Windows Laptop, and M4 MacBook"
 meta_title: "Local AI on Linux, Windows, and Mac - What Actually Fits"
 description: "I mapped local AI on my Ryzen Linux box, a 6 GB VRAM Windows laptop, and my M4 MacBook against Signal Coders' tiers - conservative GPU budgets and Tier 0-2 model picks."
-social_media_intro: "I mapped local AI on a Ryzen Linux box, a 6 GB VRAM laptop, and an M4 Mac - same question, three different memory stories. Link in comments."
+social_media_intro: "Mapped local AI on a Ryzen Linux box, a 6 GB VRAM laptop, and an M4 Mac. GPU budgets plus Tier 0-2 model picks per machine: article in the comments."
 slug: "local-ai-my-machines"
 date: "2026-07-28T12:00:00Z"
 image: "/images/feature-consistent-ai-output.jpg"

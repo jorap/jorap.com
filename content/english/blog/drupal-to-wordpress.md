@@ -2,7 +2,7 @@
 title: "Why I Switched from Drupal to WordPress"
 meta_title: "Why I Left Drupal for WordPress"
 description: "I fell hard for Drupal's architecture and still couldn't find work with it. WordPress had familiar building blocks and a community big enough to pay the bills."
-social_media_intro: "I fell for Drupal's content modeling. Couldn't find paying work with it. WordPress had the job posts and familiar blocks - link in comments."
+social_media_intro: "Fell for Drupal's content modeling. Job posts in my city said WordPress. What I liked, what it cost me, and when I finally switched: article in the comments."
 slug: "drupal-to-wordpress"
 date: "2026-05-27T06:30:00Z"
 image: "/images/drupal-to-wp.jpg"

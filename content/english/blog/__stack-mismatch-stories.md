@@ -2,7 +2,7 @@
 title: "Two Stack Mismatches I Keep Seeing"
 meta_title: "Stack Mismatch Stories - When the Tool Was Fine"
 description: "A static portfolio with five staff who expected WordPress. A four-page brochure on WooCommerce. Neither tool was wrong. The fit was."
-social_media_intro: "Static portfolio looked great. Six months later five staff wanted WordPress logins. WordPress for a four-page brochure too. Stack mismatches - link in comments."
+social_media_intro: "Static portfolio looked great till five staff wanted WordPress logins. Brochure site on WooCommerce too. Two stack mismatch stories - questions before the first commit: article in the comments."
 slug: "stack-mismatch-stories"
 date: "2026-07-29T10:00:00Z"
 image: "/images/static-vs-cms.jpg"

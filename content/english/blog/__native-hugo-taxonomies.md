@@ -2,7 +2,7 @@
 title: "Native Hugo Taxonomies"
 meta_title: "Native Hugo Taxonomies - Categories, Tags, and Limits"
 description: "Hugo builds category and tag pages from frontmatter - no plugin. I use them for site navigation, not as a private Second Brain."
-social_media_intro: "Hugo builds a tag page for every string you type. I once had Hugo and Hugo SSG splitting the same three posts. Taxonomy cleanup. Link in comments."
+social_media_intro: "Hugo builds a tag page for every string you type. I once split the same three posts between Hugo and Hugo SSG - taxonomy cleanup rules. Article in the comments."
 slug: "native-hugo-taxonomies"
 date: "2026-06-19T06:00:00Z"
 image: "/images/joraps-world.jpg"

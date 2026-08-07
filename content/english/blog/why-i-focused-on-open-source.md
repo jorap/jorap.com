@@ -2,7 +2,7 @@
 title: "Why I Focused on Open Source Technologies"
 meta_title: "Why I Bet on Open Source - Practical, Not a Manifesto"
 description: "Open source wasn't a purity test. No license fee got me in the door; freedom to install, read the code, and move my files is what kept me for twenty years."
-social_media_intro: "Open source got real when I could unzip XAMPP on a locked-down office PC and break CMS installs at lunch - no admin prompt. Link in comments."
+social_media_intro: "Open source clicked when I could unzip XAMPP on a locked-down office PC and break CMS installs at lunch - no admin prompt. Twenty-year take: article in the comments."
 slug: "why-i-focused-on-open-source"
 date: "2026-07-04T12:00:00Z"
 image: "/images/open-source.jpg"

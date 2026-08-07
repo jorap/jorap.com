@@ -2,7 +2,7 @@
 title: "Apple Isn't Innovative - It's Strategically Late"
 meta_title: "Apple Doesn't Invent the Future - It Schedules It"
 description: "I don't watch Apple keynotes, but I stay current on what they ship. Most of the time Apple's skill is strategic patience - wait, package, sell. The M-series Mac transition was the exception Tim Cook got right."
-social_media_intro: "I skip Apple keynotes but I still track what they ship. Most of the time the skill is waiting, packaging, selling - not inventing. Link in the comments."
+social_media_intro: "Apple keynotes? I skip. Still track what ships - wait, package, sell, not invent. iPod, iPhone, M-series: the pattern and the one exception. Article in the comments."
 slug: "apple-strategically-late"
 date: "2026-07-28T00:30:00Z"
 image: "/images/google-vs-apple.jpg"

@@ -2,7 +2,7 @@
 title: "What Happens After Your Website Goes Live"
 meta_title: "Client Site Pass-Off - Who Publishes After Launch"
 description: "Launch day isn't the finish line. Before deposit I name who publishes next - Git, retainer, CMS - and leave a one-page doc so you're not stuck for every typo."
-social_media_intro: "Launch day isn't when I disappear. I pick one publish path before deposit and leave a one-page handoff doc. Link in the comments."
+social_media_intro: "Launch applause, dead site six weeks later - nobody agreed who publishes next. Four pass-off paths I name before deposit. Article in the comments."
 slug: "client-site-pass-off"
 date: "2026-07-02T07:00:00Z"
 image: "/images/website.jpg"

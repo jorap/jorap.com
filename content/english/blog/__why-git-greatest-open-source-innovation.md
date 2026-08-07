@@ -2,7 +2,7 @@
 title: "Why Git Might Be the Best Thing Open Source Ever Shipped"
 meta_title: "Why Git Might Be the Best Thing Open Source Shipped"
 description: "I don't romanticize every tool in my stack. Git earned its place - distributed history, branches that actually save you, and the plumbing that let Linux, GitHub, and my own site survive bad hosting and worse Fridays."
-social_media_intro: "Halfway through a live WordPress tweak I panicked. git checkout -- . and I was back to last commit. Why Git earned its place - link in comments."
+social_media_intro: "Halfway through a live WordPress tweak I panicked. git checkout -- . put me back. Why undo-safety changed what I dare try: article in the comments."
 slug: "why-git-greatest-open-source-innovation"
 date: "2026-07-20T00:47:00Z"
 image: "/images/open-source.jpg"

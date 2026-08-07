@@ -2,7 +2,7 @@
 title: "Hugo Static Site Generator"
 meta_title: "Hugo as a Static Site Generator - Why I Still Use It"
 description: "Hugo turns Markdown into HTML at build time - no database, no PHP surprises. It's the engine behind JoRap Notes and most client sites I quote."
-social_media_intro: "No database on the server. No PHP cron jobs. Hugo pre-builds HTML at deploy - glad I stopped asking why admin is slow at 2 AM. Link in the comments."
+social_media_intro: "Hugo pre-builds HTML at deploy - no 2 AM admin slowness. Push at lunch, live before coffee; when I quote it vs say no. Article in the comments."
 slug: "hugo-static-site-generator"
 date: "2026-06-19T06:00:00Z"
 image: "/images/joraps-world.jpg"

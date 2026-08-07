@@ -2,7 +2,7 @@
 title: "What I Look For in Wireless Earphones"
 meta_title: "Wireless Earphones - My Personal Checklist"
 description: "After years of cycling through earbuds, neckbands, and over-ears, here's what I care about in wireless earphones - and the pair I keep reaching for."
-social_media_intro: "I stopped chasing noise cancellation when I realized I need to hear my kid and the jeepney behind me on a walk. Open-ear checklist. Link in comments."
+social_media_intro: "Stopped chasing noise cancellation - I need to hear my kid and the jeepney behind me on a walk. Open-ear buying checklist in the comments."
 slug: "what-i-look-for-in-wireless-earphones"
 date: "2026-05-27T05:00:00Z"
 image: "/images/feature-soundpeats-runfree.jpg"

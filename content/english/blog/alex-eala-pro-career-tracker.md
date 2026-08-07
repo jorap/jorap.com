@@ -2,7 +2,7 @@
 title: "Alex Eala Pro Career Tracker"
 meta_title: "Alex Eala WTA Career Tracker - Rankings and Matches"
 description: "My running scrapbook of Alex Eala's WTA career - rankings, matches I'll never forget, and matchups I'm watching for next."
-social_media_intro: "Following Alex Eala since Miami 2025. Rankings, Slam runs, matchups I'm watching - a scrapbook I pin-update when Twitter breaks at 2am. Link in comments."
+social_media_intro: "Following Alex Eala since Miami 2025. Rankings, Slam runs, head-to-heads I pin-update when Twitter breaks at 2am. The living scrapbook: article in the comments."
 slug: "alex-eala-pro-career-tracker"
 date: "2026-08-02T05:00:00Z"
 image: "/images/alex-eala.jpg"
@@ -17,7 +17,7 @@ related_notes:
 level_depth: 1
 featured: false
 draft: false
-lastmod: "2026-08-05T03:35:00Z"
+lastmod: "2026-08-06T07:30:00Z"
 ---
 
 I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime, and I'm glad I started keeping notes when I did. This page is my running scrapbook for it. I update it when something happens worth pinning, not on a schedule.
@@ -42,6 +42,7 @@ I keep all of these open during Slams because WTA's site is best for live scores
 - [WTA Profile](https://www.wtatennis.com/players/330332/alexandra-eala/#overview)
 - [WTA Matches](https://www.wtatennis.com/players/330332/alexandra-eala/matches#main-content)
 - [WTA Doubles Matches](https://www.wtatennis.com/players/330332/alexandra-eala/matches?type=D)
+- [TennisDB Matches](https://tennis-db.com/wta/players/balldontlie_wta:89/alexandra-eala/matches)
 - [Tennis.com](https://www.tennis.com/players-rankings/alexandra-eala)
 - [TNNSLIVE](https://tnnslive.com/player/627278?content=form)
 
@@ -78,10 +79,10 @@ Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court,
     - First Filipina to reach the fourth round of a major in the Open era
     - Upset defending champion [Iga Swiatek](#iga-swiatek) on Centre Court
     - Avenged 2025 Eastbourne final loss to Maya Joint
-    - 4th Round, l. [Jasmine Paolini](#jasmine-paolini) 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06)
-    - 3rd Round, d. [Iga Swiatek](#iga-swiatek) 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320392) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04)
-    - 2nd Round, d. Maya Joint 3-6, 6-2, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320418) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-m-joint-2026-07-02)
-    - 1st Round, d. Renata Zarazua 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362772) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-r-zarazua-2026-06-30)
+    - 4th Round, l. [Jasmine Paolini](#jasmine-paolini) 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:11804040/jasmine-paolini-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06)
+    - 3rd Round, d. [Iga Swiatek](#iga-swiatek) 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320392) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:11702735/alexandra-eala-vs-iga-swiatek) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04)
+    - 2nd Round, d. Maya Joint 3-6, 6-2, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320418) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:11540558/alexandra-eala-vs-maya-joint) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-m-joint-2026-07-02)
+    - 1st Round, d. Renata Zarazua 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362772) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:11070741/alexandra-eala-vs-renata-zarazua) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-r-zarazua-2026-06-30)
 
 {{< youtube lZq5ModLtX8 >}}
 
@@ -90,12 +91,12 @@ Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court,
 {{< youtube URp-0VSanbQ >}}
 
   - **French Open**
-    - 1st Round, l. [Iva Jovic](#iva-jovic) 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS71642254) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/i-jovic-vs-a-eala-2026-05-26) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2026/SD068)
+    - 1st Round, l. [Iva Jovic](#iva-jovic) 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS71642254) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:8201869/iva-jovic-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/i-jovic-vs-a-eala-2026-05-26) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2026/SD068)
 
   - **Australian Open**
     - First Filipina in an Australian Open main draw
     - First Filipino to complete main-draw appearances at all four majors
-    - 1st Round, l. Alycia Parks 6-0, 3-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LS67816724) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-19) | [ausopen.com](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
+    - 1st Round, l. Alycia Parks 6-0, 3-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LS67816724) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:51/alycia-parks-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-19) | [ausopen.com](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
 
 {{< youtube HhdkG1AwDhU >}}
 
@@ -106,8 +107,8 @@ Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court,
   - **US Open**
     - First Filipina in a US Open singles main draw
     - First Filipina to win a Grand Slam main-draw match
-    - 2nd Round, l. Cristina Bucsa 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63101293) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-bucsa-vs-a-eala-2025-08-27) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2204.html)
-    - 1st Round, d. [Clara Tauson](#clara-tauson) 6-3, 2-6, 7-6(11) | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/a-eala-vs-c-tauson-2025-08-24) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2108.html)
+    - 2nd Round, l. Cristina Bucsa 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63101293) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:334061/cristina-bucsa-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-bucsa-vs-a-eala-2025-08-27) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2204.html)
+    - 1st Round, d. [Clara Tauson](#clara-tauson) 6-3, 2-6, 7-6(11) | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:334002/alexandra-eala-vs-clara-tauson) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/a-eala-vs-c-tauson-2025-08-24) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2108.html)
 
 {{< youtube yzhMVHgI6C0 >}}
 
@@ -117,12 +118,12 @@ Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court,
 
   - **Wimbledon**
     - Wimbledon main-draw debut; Centre Court vs defending champion [Barbora Krejcikova](#barbora-krejcikova)
-    - 1st Round, l. [Barbora Krejcikova](#barbora-krejcikova) 3-6, 6-2, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/b-krejcikova-vs-a-eala-2025-07-01)
+    - 1st Round, l. [Barbora Krejcikova](#barbora-krejcikova) 3-6, 6-2, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:333861/barbora-krejcikova-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/b-krejcikova-vs-a-eala-2025-07-01)
     
 
   - **French Open**
     - First Filipina to compete in a Grand Slam main draw
-    - 1st Round, l. Emiliana Arango 0-6, 6-2, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS60736223) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/a-eala-vs-e-arango-2025-05-25) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/SD078)
+    - 1st Round, l. Emiliana Arango 0-6, 6-2, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS60736223) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:333478/emiliana-arango-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/a-eala-vs-e-arango-2025-05-25) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/SD078)
     
 
 ### Doubles
@@ -159,24 +160,24 @@ Slams are in the section above. This is the week-to-week grind where the ranking
 
 - 2026
 
-  - **Washington (WTA 500, Hard)** - Winner, d. [Jessica Pegula](#jessica-pegula) 4-6, 6-4, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/j-pegula-vs-a-eala-2026-08-02)
+  - **Washington (WTA 500, Hard)** - Winner, d. [Jessica Pegula](#jessica-pegula) 4-6, 6-4, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS001) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:13891295/alexandra-eala-vs-jessica-pegula) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/j-pegula-vs-a-eala-2026-08-02)
     - First Career WTA 500 Title
     - First Filipina to win a WTA 500 title
     - Third Career WTA Title
     - First career hard-court WTA title
     - First Filipina to reach a WTA 500 final
-    - Semifinals, d. [Naomi Osaka](#naomi-osaka) 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/n-osaka-vs-a-eala-2026-08-01)
-    - Quarterfinals, d. [Elina Svitolina](#elina-svitolina) 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31)
-    - Round of 16, d. [Leylah Fernandez](#leylah-fernandez) 6-2, 7-6(1) | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/l-fernandez-vs-a-eala-2026-07-29)
-    - Round of 32, d. [Qinwen Zheng](#qinwen-zheng) 4-6, 6-4, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS029) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-q-zheng-2026-07-28)
+    - Semifinals, d. [Naomi Osaka](#naomi-osaka) 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS003) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:13832700/alexandra-eala-vs-naomi-osaka) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/n-osaka-vs-a-eala-2026-08-01)
+    - Quarterfinals, d. [Elina Svitolina](#elina-svitolina) 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:13791403/alexandra-eala-vs-elina-svitolina) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31)
+    - Round of 16, d. [Leylah Fernandez](#leylah-fernandez) 6-2, 7-6(1) | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS014) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:13660870/alexandra-eala-vs-leylah-fernandez) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/l-fernandez-vs-a-eala-2026-07-29)
+    - Round of 32, d. [Qinwen Zheng](#qinwen-zheng) 4-6, 6-4, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS029) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:13556281/alexandra-eala-vs-qinwen-zheng) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-q-zheng-2026-07-28)
 
   - **Berlin (WTA 500, Grass)**
     - First Filipina to reach a WTA 500 semifinal
     - Wildcard entry
-    - Semifinals, l. [Linda Noskova](#linda-noskova) 2-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20)
-    - Quarterfinals, d. [Elina Svitolina](#elina-svitolina) 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/e-svitolina-vs-a-eala-2026-06-19)
-    - Round of 16, d. [Elena Rybakina](#elena-rybakina) 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
-    - Round of 32, d. [Donna Vekić](#donna-vekić) 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS030) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/d-vekic-vs-a-eala-2026-06-17)
+    - Semifinals, l. [Linda Noskova](#linda-noskova) 2-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:10690670/linda-noskova-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20)
+    - Quarterfinals, d. [Elina Svitolina](#elina-svitolina) 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:10636367/alexandra-eala-vs-elina-svitolina) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/e-svitolina-vs-a-eala-2026-06-19)
+    - Round of 16, d. [Elena Rybakina](#elena-rybakina) 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS015) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:10581475/alexandra-eala-vs-elena-rybakina) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
+    - Round of 32, d. [Donna Vekić](#donna-vekić) 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS030) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:10526435/alexandra-eala-vs-donna-vekic) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/d-vekic-vs-a-eala-2026-06-17)
 
   - **Birmingham (WTA 125, Grass)** - Winner, d. Nikola Bartunkova 5-7, 6-3, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-n-bartunkova-2026-06-07)
     - Second Career WTA Title Win
@@ -193,9 +194,9 @@ Slams are in the section above. This is the week-to-week grind where the ranking
 {{< youtube -aQ0q3tTvOw >}}
 
   - **Dubai (WTA 1000, Hard)**
-    - Quarterfinals, l. [Coco Gauff](#coco-gauff) 0-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS005) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/c-gauff-vs-a-eala-2026-02-19)
-    - Round of 16, d. Sorana Cîrstea 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS011) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/s-cirstea-vs-a-eala-2026-02-18)
-    - Round of 32, d. [Jasmine Paolini](#jasmine-paolini) 6-1, 7-6(5) | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS023) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/a-eala-vs-j-paolini-2026-02-17)
+    - Quarterfinals, l. [Coco Gauff](#coco-gauff) 0-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS005) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:2433417/coco-gauff-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/c-gauff-vs-a-eala-2026-02-19)
+    - Round of 16, d. Sorana Cîrstea 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS011) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:2360980/alexandra-eala-vs-sorana-cirstea) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/s-cirstea-vs-a-eala-2026-02-18)
+    - Round of 32, d. [Jasmine Paolini](#jasmine-paolini) 6-1, 7-6(5) | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS023) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:2243735/alexandra-eala-vs-jasmine-paolini) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/a-eala-vs-j-paolini-2026-02-17)
     - Round of 64, d. Hailey Baptiste 6-4, 0-1 ret. | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS046) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/h-baptiste-vs-a-eala-2026-02-15)
 
 {{< youtube d5UbBS8X5qI >}}
@@ -205,9 +206,9 @@ Slams are in the section above. This is the week-to-week grind where the ranking
   - **Abu Dhabi (WTA 500, Hard)**
     - First Filipina in a WTA 500 quarterfinal
     - Round of 16: trailed 0-4 in the third, saved match point vs Aliaksandra Sasnovich
-    - Quarterfinals, l. [Ekaterina Alexandrova](#ekaterina-alexandrova) 3-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-e-alexandrova-2026-02-05)
-    - Round of 16, d. Aliaksandra Sasnovich 2-6, 6-4, 7-6(5) | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-sasnovich-vs-a-eala-2026-02-04)
-    - Round of 32, d. Zeynep Sönmez 6-4, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS029) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-z-sonmez-2026-02-02)
+    - Quarterfinals, l. [Ekaterina Alexandrova](#ekaterina-alexandrova) 3-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS007) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:1626888/ekaterina-alexandrova-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-e-alexandrova-2026-02-05)
+    - Round of 16, d. Aliaksandra Sasnovich 2-6, 6-4, 7-6(5) | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS014) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:1570488/alexandra-eala-vs-aliaksandra-sasnovich) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-sasnovich-vs-a-eala-2026-02-04)
+    - Round of 32, d. Zeynep Sönmez 6-4, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS029) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:1416885/alexandra-eala-vs-zeynep-sonmez) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-z-sonmez-2026-02-02)
 
 {{< youtube yJQRz9_cMik >}}
 
@@ -226,10 +227,10 @@ Slams are in the section above. This is the week-to-week grind where the ranking
 {{< youtube AIdv9p64R7Y >}}
 
   - **Auckland (WTA 250, Hard)**
-    - Semifinals, l. Xinyu Wang 7-5, 5-7, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-x-wang-2026-01-10)
-    - Quarterfinals, d. [Magda Linette](#magda-linette) 6-3, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS006) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/m-linette-vs-a-eala-2026-01-09)
-    - Round of 16, d. Petra Marcinko 6-0, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS013) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/p-marcinko-vs-a-eala-2026-01-08)
-    - Round of 32, d. [Donna Vekić](#donna-vekić) 4-6, 6-4, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS027) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/d-vekic-vs-a-eala-2026-01-06)
+    - Semifinals, l. Xinyu Wang 7-5, 5-7, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS003) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:334423/xinyu-wang-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-x-wang-2026-01-10)
+    - Quarterfinals, d. [Magda Linette](#magda-linette) 6-3, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS006) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:334420/alexandra-eala-vs-magda-linette) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/m-linette-vs-a-eala-2026-01-09)
+    - Round of 16, d. Petra Marcinko 6-0, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS013) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:334415/alexandra-eala-vs-petra-marcinko) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/p-marcinko-vs-a-eala-2026-01-08)
+    - Round of 32, d. [Donna Vekić](#donna-vekić) 4-6, 6-4, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS027) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:334410/alexandra-eala-vs-donna-vekic) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/d-vekic-vs-a-eala-2026-01-06)
 
 {{< youtube 8lBaetYycsI >}}
 
@@ -244,9 +245,9 @@ Slams are in the section above. This is the week-to-week grind where the ranking
     - Round of 32, d. Aliona Falei 6-3, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/1143/jingshan-125/2025/scores/LS016) | [tennis.com](https://www.tennis.com/tournaments/jingshan-tennis-open/matches/a-eala-vs-a-falei-2025-09-23)
 
   - **Sao Paulo (WTA 250, Hard)**
-    - Quarterfinals, l. Janice Tjen 4-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS006) | [tennis.com](https://www.tennis.com/tournaments/sp-open/matches/j-tjen-vs-a-eala-2025-09-12)
-    - Round of 16, d. Julia Riera 6-1, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS013) | [tennis.com](https://www.tennis.com/tournaments/sp-open/matches/j-riera-vs-a-eala-2025-09-10)
-    - Round of 32, d. Yasmine Mansouri 6-0, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS027) | [tennis.com](https://www.tennis.com/tournaments/sp-open/matches/y-mansouri-vs-a-eala-2025-09-09)
+    - Quarterfinals, l. Janice Tjen 4-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS006) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:328854/janice-tjen-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/sp-open/matches/j-tjen-vs-a-eala-2025-09-12)
+    - Round of 16, d. Julia Riera 6-1, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS013) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:328850/alexandra-eala-vs-julia-riera) | [tennis.com](https://www.tennis.com/tournaments/sp-open/matches/j-riera-vs-a-eala-2025-09-10)
+    - Round of 32, d. Yasmine Mansouri 6-0, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS027) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:328844/alexandra-eala-vs-yasmine-mansouri) | [tennis.com](https://www.tennis.com/tournaments/sp-open/matches/y-mansouri-vs-a-eala-2025-09-09)
 
 {{< youtube Rn6uX8S_6O0 >}}
 
@@ -282,12 +283,12 @@ Slams are in the section above. This is the week-to-week grind where the ranking
 
   - **Miami Open (WTA 1000, Hard)**
     - First Filipina to reach a WTA 1000 semifinal
-    - Semifinals, l. [Jessica Pegula](#jessica-pegula) 6-7(3), 7-5, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/j-pegula-vs-a-eala-2025-03-28)
-    - Quarterfinals, d. [Iga Swiatek](#iga-swiatek) 6-2, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-i-swiatek-2025-03-26)
+    - Semifinals, l. [Jessica Pegula](#jessica-pegula) 6-7(3), 7-5, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS003) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:331761/jessica-pegula-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/j-pegula-vs-a-eala-2025-03-28)
+    - Quarterfinals, d. [Iga Swiatek](#iga-swiatek) 6-2, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS007) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:331758/alexandra-eala-vs-iga-swiatek) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-i-swiatek-2025-03-26)
     - Round of 16, d. Paula Badosa w/o | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-p-badosa-2025-03-24)
-    - Round of 32, d. [Madison Keys](#madison-keys) 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS028) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/m-keys-vs-a-eala-2025-03-23)
-    - Round of 64, d. [Jelena Ostapenko](#jelena-ostapenko) 7-6(2), 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS057) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-j-ostapenko-2025-03-21)
-    - Round of 128, d. Katie Volynets 6-3, 7-6(3) | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS114) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-k-volynets-2025-03-19)
+    - Round of 32, d. [Madison Keys](#madison-keys) 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS028) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:331744/alexandra-eala-vs-madison-keys) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/m-keys-vs-a-eala-2025-03-23)
+    - Round of 64, d. [Jelena Ostapenko](#jelena-ostapenko) 7-6(2), 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS057) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:331719/alexandra-eala-vs-jelena-ostapenko) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-j-ostapenko-2025-03-21)
+    - Round of 128, d. Katie Volynets 6-3, 7-6(3) | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS114) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:331693/alexandra-eala-vs-katie-volynets) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-k-volynets-2025-03-19)
 
   - **Canberra International (WTA 125, Hard)**
     - Semifinals, l. Sijia Wei 5-7, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/workday-canberra-international/matches/s-wei-vs-a-eala-2025-01-03)
@@ -361,6 +362,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 - [WTA Profile](https://www.wtatennis.com/players/326408/iga-swiatek)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/326408)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/iga-swiatek-vs-alexandra-eala?player1_id=balldontlie_wta:2&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 1
 
 **Grand Slam Titles:**
@@ -373,19 +375,19 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 **Matches:**
 
-- **2026 Wimbledon (Grass)** - 3rd Round, WIN, 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320392) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04)
+- **2026 Wimbledon (Grass)** - 3rd Round, WIN, 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320392) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:11702735/alexandra-eala-vs-iga-swiatek) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04)
 
 {{< youtube KUVh-Jflv_Q >}}
 
 {{< youtube fqg-3HuDjB0 >}}
 
-- **2025 Miami Open (Hard)** - Quarterfinals, WIN, 6-2, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-i-swiatek-2025-03-26)
+- **2025 Miami Open (Hard)** - Quarterfinals, WIN, 6-2, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS007) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:331758/alexandra-eala-vs-iga-swiatek) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-i-swiatek-2025-03-26)
 
 {{< youtube maG9TzsuVeM >}}
 
 {{< youtube WyGEfKSatB0 >}}
 
-- **2025 Madrid (Clay)** - Round of 64, LOSS, 6-4, 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1038/madrid/2025/scores/LS063) | [tennis.com](https://www.tennis.com/tournaments/mutua-madrid-open/matches/a-eala-vs-i-swiatek-2025-04-24)
+- **2025 Madrid (Clay)** - Round of 64, LOSS, 6-4, 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1038/madrid/2025/scores/LS063) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:331117/iga-swiatek-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/mutua-madrid-open/matches/a-eala-vs-i-swiatek-2025-04-24)
 
 {{< youtube TqBCa8hIHcY >}}
 
@@ -395,6 +397,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 - [WTA Profile](https://www.wtatennis.com/players/319998/naomi-osaka)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/319998)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/naomi-osaka-vs-alexandra-eala?player1_id=balldontlie_wta:16&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 1
 
 **Grand Slam Titles:**
@@ -406,7 +409,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 **Matches:**
 
-- **2026 Washington (Hard)** - Semifinals, WIN, 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/n-osaka-vs-a-eala-2026-08-01)
+- **2026 Washington (Hard)** - Semifinals, WIN, 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS003) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:13832700/alexandra-eala-vs-naomi-osaka) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/n-osaka-vs-a-eala-2026-08-01)
 
 {{< youtube h-ICrhuXE18 >}}
 
@@ -416,6 +419,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 - [WTA Profile](https://www.wtatennis.com/players/324166/elena-rybakina)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/324166)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/elena-rybakina-vs-alexandra-eala?player1_id=balldontlie_wta:5&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 2
 
 **Grand Slam Titles:**
@@ -427,13 +431,13 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 **Matches:**
 
-- **2026 Berlin (Grass)** - Round of 16, WIN, 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
+- **2026 Berlin (Grass)** - Round of 16, WIN, 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS015) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:10581475/alexandra-eala-vs-elena-rybakina) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
 
 {{< youtube 4C8dT5T-fHM >}}
 
 {{< youtube a02WYy8h2r8 >}}
 
-- **2026 Rome (Clay)** - Round of 32, LOSS, 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2026/scores/LS031) | [tennis.com](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-e-rybakina-2026-05-10)
+- **2026 Rome (Clay)** - Round of 32, LOSS, 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2026/scores/LS031) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:7674889/elena-rybakina-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-e-rybakina-2026-05-10)
 
 {{< youtube AgecNaf6eE4 >}}
 
@@ -443,6 +447,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 - [WTA Profile](https://www.wtatennis.com/players/328560/coco-gauff)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/328560)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/coco-gauff-vs-alexandra-eala?player1_id=balldontlie_wta:3&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 2
 
 **Grand Slam Titles:**
@@ -454,8 +459,8 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 **Matches:**
 
-- **2026 Indian Wells (Hard)** - Round of 32, WIN (Retired), 6-2, 2-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/indian-wells/scores/LS020) | [tennis.com](https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/c-gauff-vs-a-eala-2026-03-09)
-- **2026 Dubai (Hard)** - Quarterfinals, LOSS, 0-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS005) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/c-gauff-vs-a-eala-2026-02-19)
+- **2026 Indian Wells (Hard)** - Round of 32, WIN (Retired), 6-2, 2-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/indian-wells/scores/LS020) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:3257544/alexandra-eala-vs-coco-gauff) | [tennis.com](https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/c-gauff-vs-a-eala-2026-03-09)
+- **2026 Dubai (Hard)** - Quarterfinals, LOSS, 0-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS005) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:2433417/coco-gauff-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/c-gauff-vs-a-eala-2026-02-19)
 
 {{< youtube Z-NN1Y1lknY >}}
 
@@ -465,6 +470,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 - [WTA Profile](https://www.wtatennis.com/players/318314/barbora-krejcikova)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/318314)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/alexandra-eala-vs-barbora-krejcikova?player1_id=balldontlie_wta:89&player2_id=balldontlie_wta:263)
 - **Career High Singles:** No. 2
 
 **Grand Slam Titles:**
@@ -476,7 +482,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 **Matches:**
 
-- **2025 Wimbledon (Grass)** - 1st Round, LOSS, 3-6, 6-2, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/b-krejcikova-vs-a-eala-2025-07-01)
+- **2025 Wimbledon (Grass)** - 1st Round, LOSS, 3-6, 6-2, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:333861/barbora-krejcikova-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/b-krejcikova-vs-a-eala-2025-07-01)
 
 {{< youtube PtLGq_avxI4 >}}
 
@@ -488,6 +494,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 - [WTA Profile](https://www.wtatennis.com/players/329668/linda-noskova)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/329668)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/linda-noskova-vs-alexandra-eala?player1_id=balldontlie_wta:13&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 7
 
 **Grand Slam Titles:**
@@ -498,11 +505,11 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 **Matches:**
 
-- **2026 Berlin (Grass)** - Semifinals, LOSS, 2-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20)
+- **2026 Berlin (Grass)** - Semifinals, LOSS, 2-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:10690670/linda-noskova-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20)
 
 {{< youtube 2xXtCXEVBqg >}}
 
-- **2026 Indian Wells (Hard)** - Round of 16, LOSS, 2-6, 0-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/indian-wells/scores/LS010) | [tennis.com](https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/a-eala-vs-l-noskova-2026-03-11)
+- **2026 Indian Wells (Hard)** - Round of 16, LOSS, 2-6, 0-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/indian-wells/scores/LS010) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:3365589/linda-noskova-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/a-eala-vs-l-noskova-2026-03-11)
 
 {{< youtube wQ1Y2R4_dAU >}}
 
@@ -512,6 +519,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 - [WTA Profile](https://www.wtatennis.com/players/316959/madison-keys)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/316959)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/madison-keys-vs-alexandra-eala?player1_id=balldontlie_wta:9&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 5
 
 **Grand Slam Titles:**
@@ -522,7 +530,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 **Matches:**
 
-- **2025 Miami Open (Hard)** - Round of 32, WIN, 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS028) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/m-keys-vs-a-eala-2025-03-23)
+- **2025 Miami Open (Hard)** - Round of 32, WIN, 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS028) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:331744/alexandra-eala-vs-madison-keys) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/m-keys-vs-a-eala-2025-03-23)
 
 {{< youtube rK9CLjVv_dY >}}
 
@@ -534,6 +542,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 - [WTA Profile](https://www.wtatennis.com/players/323027/marketa-vondrousova)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/323027)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/marketa-vondrousova-vs-alexandra-eala?player1_id=balldontlie_wta:74&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 6
 
 **Grand Slam Titles:**
@@ -544,7 +553,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 **Matches:**
 
-- **2025 Montreal (Hard)** - 1st Round, LOSS, 6-3, 1-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/806/montreal/2025/scores/LS085) | [tennis.com](https://www.tennis.com/tournaments/national-bank-open/matches/m-vondrousova-vs-a-eala-2025-07-27)
+- **2025 Montreal (Hard)** - 1st Round, LOSS, 6-3, 1-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/806/montreal/2025/scores/LS085) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:331189/marketa-vondrousova-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/national-bank-open/matches/m-vondrousova-vs-a-eala-2025-07-27)
 
 {{< youtube 3jTnT-QQZAI >}}
 
@@ -554,6 +563,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 - [WTA Profile](https://www.wtatennis.com/players/319939/jelena-ostapenko)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/319939)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/jelena-ostapenko-vs-alexandra-eala?player1_id=balldontlie_wta:64&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 5
 
 **Grand Slam Titles:**
@@ -564,12 +574,12 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 **Matches:**
 
-- **2026 Linz (Clay)** - Round of 16, LOSS, 4-6, 5-7 | [wtatennis.com](https://www.wtatennis.com/tournaments/528/linz/2026/scores/LS010) | [tennis.com](https://www.tennis.com/tournaments/upper-austria-ladies-linz/matches/j-ostapenko-vs-a-eala-2026-04-08)
+- **2026 Linz (Clay)** - Round of 16, LOSS, 4-6, 5-7 | [wtatennis.com](https://www.wtatennis.com/tournaments/528/linz/2026/scores/LS010) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:4659761/jelena-ostapenko-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/upper-austria-ladies-linz/matches/j-ostapenko-vs-a-eala-2026-04-08)
 
 {{< youtube pBmH23s_VJY >}}
 
 - **2025 Eastbourne (Grass)** - Round of 16, WIN (Retired), 0-6, 6-2, 3-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS013) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/a-eala-vs-j-ostapenko-2025-06-25)
-- **2025 Miami Open (Hard)** - Round of 64, WIN, 7-6(2), 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS057) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-j-ostapenko-2025-03-21)
+- **2025 Miami Open (Hard)** - Round of 64, WIN, 7-6(2), 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS057) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:331719/alexandra-eala-vs-jelena-ostapenko) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-j-ostapenko-2025-03-21)
 
 {{< youtube m0TgQhZNRxk >}}
 
@@ -583,11 +593,12 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - [WTA Profile](https://www.wtatennis.com/players/319007/ekaterina-alexandrova)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/319007)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/ekaterina-alexandrova-vs-alexandra-eala?player1_id=balldontlie_wta:11&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 10
 
 **Matches:**
 
-- **2026 Abu Dhabi (Hard)** - Quarterfinals, LOSS, 3-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-e-alexandrova-2026-02-05)
+- **2026 Abu Dhabi (Hard)** - Quarterfinals, LOSS, 3-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS007) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:1626888/ekaterina-alexandrova-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-e-alexandrova-2026-02-05)
 
 {{< youtube Cfn0SHv302U >}}
 
@@ -597,15 +608,16 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - [WTA Profile](https://www.wtatennis.com/players/326735/leylah-fernandez)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/326735)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/leylah-fernandez-vs-alexandra-eala?player1_id=balldontlie_wta:62&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 13
 
 **Matches:**
 
-- **2026 Washington (Hard)** - Round of 16, WIN, 6-2, 7-6(1) | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/l-fernandez-vs-a-eala-2026-07-29)
+- **2026 Washington (Hard)** - Round of 16, WIN, 6-2, 7-6(1) | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS014) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:13660870/alexandra-eala-vs-leylah-fernandez) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/l-fernandez-vs-a-eala-2026-07-29)
 
 {{< youtube zrLRktfS-q4 >}}
 
-- **2026 Stuttgart (Clay)** - Round of 32, LOSS, 1-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1051/stuttgart/2026/scores/LS018) | [tennis.com](https://www.tennis.com/tournaments/porsche-tennis-grand-prix/matches/a-eala-vs-l-fernandez-2026-04-14)
+- **2026 Stuttgart (Clay)** - Round of 32, LOSS, 1-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1051/stuttgart/2026/scores/LS018) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:4879729/leylah-fernandez-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/porsche-tennis-grand-prix/matches/a-eala-vs-l-fernandez-2026-04-14)
 
 {{< youtube Opdw8Q_HFdQ >}}
 
@@ -615,15 +627,16 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - [WTA Profile](https://www.wtatennis.com/players/332285/iva-jovic)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/332285)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/iva-jovic-vs-alexandra-eala?player1_id=balldontlie_wta:70&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 16
 
 **Matches:**
 
-- **2026 London (Grass)** - Round of 16, LOSS, 2-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1111/queens/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/hsbc-championships/matches/i-jovic-vs-a-eala-2026-06-10)
+- **2026 London (Grass)** - Round of 16, LOSS, 2-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1111/queens/2026/scores/LS014) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:9956542/iva-jovic-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/hsbc-championships/matches/i-jovic-vs-a-eala-2026-06-10)
 
 {{< youtube kv9jOR3P7O0 >}}
 
-- **2026 French Open (Clay)** - 1st Round, LOSS, 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS71642254) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/i-jovic-vs-a-eala-2026-05-26) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2026/SD068)
+- **2026 French Open (Clay)** - 1st Round, LOSS, 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS71642254) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:8201869/iva-jovic-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/i-jovic-vs-a-eala-2026-05-26) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2026/SD068)
 
 {{< youtube WRTmI2IH0is >}}
 
@@ -633,11 +646,12 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - [WTA Profile](https://www.wtatennis.com/players/326482/marta-kostyuk)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/326482)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/marta-kostyuk-vs-alexandra-eala?player1_id=balldontlie_wta:20&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 11
 
 **Matches:**
 
-- **2025 Rome (Clay)** - Round of 128, LOSS, 0-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LS070) | [tennis.com](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-m-kostyuk-2025-05-07)
+- **2025 Rome (Clay)** - Round of 128, LOSS, 0-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LS070) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:333282/marta-kostyuk-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-m-kostyuk-2025-05-07)
 
 ---
 
@@ -645,20 +659,21 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - [WTA Profile](https://www.wtatennis.com/players/315130/magda-linette)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/315130)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/alexandra-eala-vs-magda-linette?player1_id=balldontlie_wta:89&player2_id=balldontlie_wta:138)
 - **Career High Singles:** No. 19
 
 **Matches:**
 
-- **2026 Miami Open (Hard)** - Round of 32, WIN, 6-3, 7-6(2) | [wtatennis.com](https://www.wtatennis.com/tournaments/miami-open/scores/LS031) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-m-linette-2026-03-21)
+- **2026 Miami Open (Hard)** - Round of 32, WIN, 6-3, 7-6(2) | [wtatennis.com](https://www.wtatennis.com/tournaments/miami-open/scores/LS031) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:3952211/alexandra-eala-vs-magda-linette) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-m-linette-2026-03-21)
 
 {{< youtube wJ7yqQm2jSw >}}
 
-- **2026 Auckland (Hard)** - Quarterfinals, WIN, 6-3, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS006) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/m-linette-vs-a-eala-2026-01-09)
+- **2026 Auckland (Hard)** - Quarterfinals, WIN, 6-3, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS006) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:334420/alexandra-eala-vs-magda-linette) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/m-linette-vs-a-eala-2026-01-09)
 
 {{< youtube 6j0r-o9cwrw >}}
 
-- **2025 Nottingham (Grass)** - Round of 32, LOSS, 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1080/nottingham/2025/scores/LS028) | [tennis.com](https://www.tennis.com/tournaments/lexus-nottingham-open/matches/m-linette-vs-a-eala-2025-06-17)
-- **2024 Abu Dhabi (Hard)** - Round of 32, LOSS, 6-7(4), 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2024/scores/LS029) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-m-linette-2024-02-06)
+- **2025 Nottingham (Grass)** - Round of 32, LOSS, 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1080/nottingham/2025/scores/LS028) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:329138/magda-linette-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/lexus-nottingham-open/matches/m-linette-vs-a-eala-2025-06-17)
+- **2024 Abu Dhabi (Hard)** - Round of 32, LOSS, 6-7(4), 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2024/scores/LS029) | [tennis-db.com](https://tennis-db.com/wta/matches/sackmann_wta:6034c79b3e894fde3b6cbb82f96b0a8fbebd9a227dd5a1aa5ef76c4f97c2b430/magda-linette-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-m-linette-2024-02-06)
 
 {{< youtube Y7E3QgznEv0 >}}
 
@@ -668,11 +683,12 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - [WTA Profile](https://www.wtatennis.com/players/331006/victoria-mboko)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/331006)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/victoria-mboko-vs-alexandra-eala?player1_id=balldontlie_wta:17&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 9
 
 **Matches:**
 
-- **2025 Hong Kong (Hard)** - Round of 16, LOSS, 6-3, 3-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1074/hong-kong/2025/scores/LS013) | [tennis.com](https://www.tennis.com/tournaments/prudential-hong-kong-tennis-open/matches/a-eala-vs-v-mboko-2025-10-30)
+- **2025 Hong Kong (Hard)** - Round of 16, LOSS, 6-3, 3-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1074/hong-kong/2025/scores/LS013) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:332083/victoria-mboko-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/prudential-hong-kong-tennis-open/matches/a-eala-vs-v-mboko-2025-10-30)
 
 {{< youtube zuJKcqCGD4o >}}
 
@@ -682,19 +698,20 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - [WTA Profile](https://www.wtatennis.com/players/317964/elise-mertens)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/317964)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/elise-mertens-vs-alexandra-eala?player1_id=balldontlie_wta:61&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 12
 
 **Matches:**
 
-- **2026 Bad Homburg (Grass)** - Round of 32, LOSS, 3-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2017/bad-homburg/2026/scores/LS029) | [tennis.com](https://www.tennis.com/tournaments/bad-homburg-open-presented-by-engel-volkers/matches/a-eala-vs-e-mertens-2026-06-22)
+- **2026 Bad Homburg (Grass)** - Round of 32, LOSS, 3-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2017/bad-homburg/2026/scores/LS029) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:10804850/elise-mertens-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/bad-homburg-open-presented-by-engel-volkers/matches/a-eala-vs-e-mertens-2026-06-22)
 
 {{< youtube YcRjqt5tF34 >}}
 
-- **2026 Madrid (Clay)** - Round of 64, LOSS, 2-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1038/madrid/2026/scores/LS058) | [tennis.com](https://www.tennis.com/tournaments/mutua-madrid-open/matches/e-mertens-vs-a-eala-2026-04-24)
+- **2026 Madrid (Clay)** - Round of 64, LOSS, 2-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1038/madrid/2026/scores/LS058) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:5653861/elise-mertens-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/mutua-madrid-open/matches/e-mertens-vs-a-eala-2026-04-24)
 
 {{< youtube hVX11SyjzYM >}}
 
-- **2023 Monastir (Hard)** - Round of 32, LOSS, 5-7, 0-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2072/monastir/2023/scores/LS031)
+- **2023 Monastir (Hard)** - Round of 32, LOSS, 5-7, 0-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2072/monastir/2023/scores/LS031) | [tennis-db.com](https://tennis-db.com/wta/matches/sackmann_wta:371685cd117cc753747eb7a68658f54fc5c1ec9412221c619176cd4243fa30d7/elise-mertens-vs-alexandra-eala)
 
 ---
 
@@ -702,11 +719,12 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - [WTA Profile](https://www.wtatennis.com/players/322191/karolina-muchova)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/322191)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/karolina-muchova-vs-alexandra-eala?player1_id=balldontlie_wta:19&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 6
 
 **Matches:**
 
-- **2026 Miami Open (Hard)** - Round of 16, LOSS, 0-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/miami-open/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/k-muchova-vs-a-eala-2026-03-23)
+- **2026 Miami Open (Hard)** - Round of 16, LOSS, 0-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/miami-open/scores/LS015) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:4044479/karolina-muchova-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/k-muchova-vs-a-eala-2026-03-23)
 
 {{< youtube FRKYk8uPUJo >}}
 
@@ -716,17 +734,18 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - [WTA Profile](https://www.wtatennis.com/players/319280/jasmine-paolini)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/319280)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/jasmine-paolini-vs-alexandra-eala?player1_id=balldontlie_wta:7&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 4
 
 **Matches:**
 
-- **2026 Wimbledon (Grass)** - 4th Round, LOSS, 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06)
+- **2026 Wimbledon (Grass)** - 4th Round, LOSS, 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:11804040/jasmine-paolini-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06)
 
 {{< youtube ZsJYg7q0ZnM >}}
 
 {{< youtube 1Yj1XwwqH9M >}}
 
-- **2026 Dubai (Hard)** - Round of 32, WIN, 6-1, 7-6(5) | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS023) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/a-eala-vs-j-paolini-2026-02-17)
+- **2026 Dubai (Hard)** - Round of 32, WIN, 6-1, 7-6(5) | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS023) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:2243735/alexandra-eala-vs-jasmine-paolini) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/a-eala-vs-j-paolini-2026-02-17)
 
 {{< youtube eUCpH8JRkg4 >}}
 
@@ -736,11 +755,12 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - [WTA Profile](https://www.wtatennis.com/players/313796/anastasia-pavlyuchenkova)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/313796)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/anastasia-pavlyuchenkova-vs-alexandra-eala?player1_id=balldontlie_wta:84&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 11
 
 **Matches:**
 
-- **2026 Madrid (Clay)** - Round of 128, WIN, 6-3, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/1038/madrid/2026/scores/LS117) | [tennis.com](https://www.tennis.com/tournaments/mutua-madrid-open/matches/a-pavlyuchenkova-vs-a-eala-2026-04-22)
+- **2026 Madrid (Clay)** - Round of 128, WIN, 6-3, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/1038/madrid/2026/scores/LS117) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:5381492/alexandra-eala-vs-anastasia-pavlyuchenkova) | [tennis.com](https://www.tennis.com/tournaments/mutua-madrid-open/matches/a-pavlyuchenkova-vs-a-eala-2026-04-22)
 
 {{< youtube WbVhuvJ5eLM >}}
 
@@ -750,15 +770,16 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - [WTA Profile](https://www.wtatennis.com/players/316956/jessica-pegula)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/316956)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/jessica-pegula-vs-alexandra-eala?player1_id=balldontlie_wta:6&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 3
 
 **Matches:**
 
-- **2026 Washington (Hard)** - Final, WIN, 4-6, 6-4, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/j-pegula-vs-a-eala-2026-08-02)
+- **2026 Washington (Hard)** - Final, WIN, 4-6, 6-4, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS001) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:13891295/alexandra-eala-vs-jessica-pegula) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/j-pegula-vs-a-eala-2026-08-02)
 
 {{< youtube OvjNXy1mQjY >}}
 
-- **2025 Miami Open (Hard)** - Semifinals, LOSS, 6-7(3), 7-5, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/j-pegula-vs-a-eala-2025-03-28)
+- **2025 Miami Open (Hard)** - Semifinals, LOSS, 6-7(3), 7-5, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS003) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:331761/jessica-pegula-vs-alexandra-eala) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/j-pegula-vs-a-eala-2025-03-28)
 
 {{< youtube efazYG5hSAA >}}
 
@@ -770,15 +791,16 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - [WTA Profile](https://www.wtatennis.com/players/316738/elina-svitolina)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/316738)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/elina-svitolina-vs-alexandra-eala?player1_id=balldontlie_wta:12&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 3
 
 **Matches:**
 
-- **2026 Washington (Hard)** - Quarterfinals, WIN, 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31)
+- **2026 Washington (Hard)** - Quarterfinals, WIN, 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:13791403/alexandra-eala-vs-elina-svitolina) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31)
 
 {{< youtube AiBTDJd_ekQ >}}
 
-- **2026 Berlin (Grass)** - Quarterfinals, WIN, 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/e-svitolina-vs-a-eala-2026-06-19)
+- **2026 Berlin (Grass)** - Quarterfinals, WIN, 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:10636367/alexandra-eala-vs-elina-svitolina) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/e-svitolina-vs-a-eala-2026-06-19)
 
 {{< youtube AdoeRVzt6FQ >}}
 
@@ -788,11 +810,12 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - [WTA Profile](https://www.wtatennis.com/players/327793/clara-tauson)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/327793)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/clara-tauson-vs-alexandra-eala?player1_id=balldontlie_wta:14&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 12
 
 **Matches:**
 
-- **2025 US Open (Hard)** - 1st Round, WIN, 6-3, 2-6, 7-6(11) | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/a-eala-vs-c-tauson-2025-08-24) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2108.html)
+- **2025 US Open (Hard)** - 1st Round, WIN, 6-3, 2-6, 7-6(11) | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:334002/alexandra-eala-vs-clara-tauson) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/a-eala-vs-c-tauson-2025-08-24) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2108.html)
 
 {{< youtube HFzs0qaQJ6I >}}
 
@@ -806,15 +829,16 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - [WTA Profile](https://www.wtatennis.com/players/318516/donna-vekic)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/318516)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/alexandra-eala-vs-donna-vekic?player1_id=balldontlie_wta:89&player2_id=balldontlie_wta:235)
 - **Career High Singles:** No. 17
 
 **Matches:**
 
-- **2026 Berlin (Grass)** - Round of 32, WIN, 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS030) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/d-vekic-vs-a-eala-2026-06-17)
+- **2026 Berlin (Grass)** - Round of 32, WIN, 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS030) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:10526435/alexandra-eala-vs-donna-vekic) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/d-vekic-vs-a-eala-2026-06-17)
 
 {{< youtube 0mO499y9Ebk >}}
 
-- **2026 Auckland (Hard)** - Round of 32, WIN, 4-6, 6-4, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS027) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/d-vekic-vs-a-eala-2026-01-06)
+- **2026 Auckland (Hard)** - Round of 32, WIN, 4-6, 6-4, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS027) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:334410/alexandra-eala-vs-donna-vekic) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/d-vekic-vs-a-eala-2026-01-06)
 
 {{< youtube M1_ce5wWwrQ >}}
 
@@ -824,11 +848,12 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - [WTA Profile](https://www.wtatennis.com/players/328120/qinwen-zheng)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/328120)
+- [TennisDB Head to Head](https://tennis-db.com/wta/rivalries/qinwen-zheng-vs-alexandra-eala?player1_id=balldontlie_wta:65&player2_id=balldontlie_wta:89)
 - **Career High Singles:** No. 4
 
 **Matches:**
 
-- **2026 Washington (Hard)** - Round of 32, WIN, 4-6, 6-4, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS029) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-q-zheng-2026-07-28)
+- **2026 Washington (Hard)** - Round of 32, WIN, 4-6, 6-4, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS029) | [tennis-db.com](https://tennis-db.com/wta/matches/balldontlie_wta:13556281/alexandra-eala-vs-qinwen-zheng) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-q-zheng-2026-07-28)
 
 {{< youtube _z06v_b8bIM >}}
 

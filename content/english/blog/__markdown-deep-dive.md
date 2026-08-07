@@ -2,7 +2,7 @@
 title: "Markdown Deep Dive"
 meta_title: "Markdown Deep Dive - What I Use Beyond Bold and Bullets"
 description: "Markdown is the format behind JoRap, Hugo, GitHub, and my notes. Here's what I actually use beyond bold and bullets - and where flavors diverge."
-social_media_intro: "Learned Markdown the boring way - pasted forum posts into a PHP blog and wondered why my bold showed literal asterisks. What I use now. Link in comments."
+social_media_intro: "Pasted forum posts into a PHP blog and my bold showed literal asterisks. The Markdown I actually use beyond bold and bullets on Hugo. Article in the comments."
 slug: "markdown-deep-dive"
 date: "2026-06-19T06:00:00Z"
 image: "/images/note.jpg"

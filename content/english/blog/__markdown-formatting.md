@@ -2,7 +2,7 @@
 title: "Markdown Formatting"
 meta_title: "Markdown Formatting - How I Make Posts Scannable"
 description: "Markdown is structure without a WYSIWYG. Same habits in Hugo posts and private notes: short paragraphs, real headings, lists when they earn it."
-social_media_intro: "I had 200-word paragraphs until I opened a draft on the jeepney and couldn't find the point before my stop. How I format posts now. Link in comments."
+social_media_intro: "Opened a 200-word paragraph draft on the jeepney and couldn't find the point before my stop. My scannable Markdown habits now. Article in the comments."
 slug: "markdown-formatting"
 date: "2026-06-19T06:00:00Z"
 image: "/images/note.jpg"

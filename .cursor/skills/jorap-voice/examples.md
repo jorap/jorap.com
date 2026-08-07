@@ -105,9 +105,25 @@ Fix: open on their mistake or annoyance, land a pick you'd stake your name on, a
 
 > Excited to share my latest blog post on why the IKEA FRAKTA bag is a game-changer! Link in comments - would love your thoughts!
 
-### ✅ JoRap `social_media_intro` (≤200 chars, link in comments)
+### ❌ Article-first opener (format before interest)
 
-> Viral tote drops keep missing me. I already carry the blue IKEA FRAKTA - spare bag nested inside. Full take is on my site, link in the comments.
+> Here's an article attached in the comments about nesting a BRATTBY in the medium FRAKTA bag kit.
+
+### ❌ Hook with no click payoff
+
+> Viral tote drops keep missing me. Blue FRAKTA by the door. Link in the comments.
+
+### ❌ Vague "link" - not clearly an article
+
+> Viral tote drops keep missing me. I nest a BRATTBY in the medium FRAKTA. Link in comments.
+
+### ✅ JoRap `social_media_intro` (≤200 chars - hook → payoff → CTA)
+
+> Viral tote drops keep missing me. I nest a BRATTBY in the medium FRAKTA - bag kit that beats the chase. How I pack it: article in the comments.
+
+### ✅ Same shape, louder closer
+
+> Viral tote drops keep missing me. I nest a BRATTBY in the medium FRAKTA - bag kit that beats the chase. Full article in the comments.
 
 ---
 

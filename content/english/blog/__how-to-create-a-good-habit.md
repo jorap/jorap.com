@@ -2,7 +2,7 @@
 title: "How to Create a Good Habit"
 meta_title: "How to Create a Good Habit - James Clear's Four Laws"
 description: "Atomic Habits boiled down to what I actually use: make it obvious, attractive, easy, and satisfying - and invert those to break bad habits."
-social_media_intro: "Tired weekdays when willpower clocks out early - Atomic Habits boiled down to the four laws I actually use. Link in the comments."
+social_media_intro: "Tired weekdays when willpower quits - James Clear's four laws I use, plus how I inverted them for late-night scrolling. Article in the comments."
 slug: "how-to-create-a-good-habit"
 date: "2026-06-18T06:05:00Z"
 image: "/images/note.jpg"

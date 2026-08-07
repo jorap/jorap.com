@@ -2,7 +2,7 @@
 title: "Why I Still Run My Own Website"
 meta_title: "Why I Still Run My Own Website - Not Just Facebook"
 description: "People ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet."
-social_media_intro: "Why not just post on Facebook? My notes garden and Alex Eala tracker live here - I wouldn't trust that to a feed algorithm. Link in comments."
+social_media_intro: "Why not just post on Facebook? Notes garden, Alex Eala tracker, recipes - I wouldn't trust any of it to a feed algorithm. Full article in the comments."
 slug: "why-run-your-own-website"
 date: "2024-03-10T05:00:00Z"
 image: "/images/website.jpg"

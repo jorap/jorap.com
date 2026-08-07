@@ -2,7 +2,7 @@
 title: "Sustainable Online Publishing"
 meta_title: "Sustainable Online Publishing - The Habit Side"
 description: "I already decided to own my site. This is how I keep publishing without treating social as my archive - domain, Git, push, share."
-social_media_intro: "The real copy lives in Git now. Social is the megaphone, not the vault - after I lost PHP hosting once. Link in comments."
+social_media_intro: "Real copy lives in Git now. Social is the megaphone, not the vault - how I keep publishing after losing PHP hosting once: article in the comments."
 slug: "sustainable-online-publishing"
 date: "2026-06-12T14:58:00Z"
 image: "/images/sustainable-publishing.jpg"

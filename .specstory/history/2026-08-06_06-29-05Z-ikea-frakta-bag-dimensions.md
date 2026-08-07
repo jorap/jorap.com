@@ -474,5 +474,52 @@ Status: **completed**
 _**Agent (auto-smart)**_
 
 <think><details><summary>Thought Process</summary>
-The large FRAKTA bullet will be updated to reflect its use as a shopping trolley for multiple badminton 
+The large FRAKTA bullet will be updated to reflect its use as a shopping trolley for multiple badminton rackets.
+
+The "What actually lives in mine" section, the facts ledger row, and the bag line in author-context.md will also be updated. The tone stays specific, plain, and lived-in, without currency.
 </details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__ikea-frakta-bag.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__ikea-frakta-bag.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The frontmatter description remains roughly accurate.
+
+The closing description is fine. Done.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Large FRAKTA now reads as your trolley bag and badminton-racket carrier - in the size list and in the kit section. Facts ledger + author-context synced.
+
+## Session close
+- Fixed: Wired large FRAKTA to shopping trolley + multi-racket badminton carry in draft and ledger.
+- Encode: none
+- Open: clean

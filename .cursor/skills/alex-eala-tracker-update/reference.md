@@ -7,6 +7,8 @@
 | WTA player | `330332` - `https://www.wtatennis.com/players/330332/alexandra-eala` |
 | WTA matches (singles) | `https://www.wtatennis.com/players/330332/alexandra-eala/matches` |
 | WTA matches (doubles) | `https://www.wtatennis.com/players/330332/alexandra-eala/matches?type=D` |
+| TennisDB player | `balldontlie_wta:89` - `https://tennis-db.com/wta/players/balldontlie_wta:89/alexandra-eala` |
+| TennisDB matches | `https://tennis-db.com/wta/players/balldontlie_wta:89/alexandra-eala/matches` |
 | Tennis.com | `627278` - `https://www.tennis.com/players-rankings/alexandra-eala` |
 | TNNSLIVE | `627278` |
 
@@ -18,6 +20,7 @@ H2H base: `https://www.wtatennis.com/head-to-head/330332/[OPPONENT_ID]`
 - [WTA Profile](https://www.wtatennis.com/players/330332/alexandra-eala/#overview)
 - [WTA Matches](https://www.wtatennis.com/players/330332/alexandra-eala/matches#main-content)
 - [WTA Doubles Matches](https://www.wtatennis.com/players/330332/alexandra-eala/matches?type=D)
+- [TennisDB Matches](https://tennis-db.com/wta/players/balldontlie_wta:89/alexandra-eala/matches)
 - [Tennis.com](https://www.tennis.com/players-rankings/alexandra-eala)
 - [TNNSLIVE](https://tnnslive.com/player/627278?content=form)
 ```
@@ -70,7 +73,17 @@ Confirm tier on the WTA tournament page before adding or correcting an entry.
 - Walkovers (Best Performances only): `d. Paula Badosa w/o` or `l. Opponent w/o` - full name, no set scores; include match links
 - Tiebreak notation unchanged: `7-6(5)` means Eala 7 games, opponent 6, TB 5–7
 
-When copying from WTA or tennis.com, flip any set or super-tiebreak segment that lists the opponent first.
+When copying from WTA, TennisDB, or tennis.com, flip any set or super-tiebreak segment that lists the opponent first.
+
+## TennisDB link rules
+
+- Load Eala's match log at most once per routine update. It usually supplies recent scores plus exact `H2H` and `Match data` hrefs.
+- Add the exact TennisDB `Match data` link (`/wta/matches/...`) to result and H2H match lines. Add the exact rivalry link (`/wta/rivalries/...`) to opponent blocks as **TennisDB Head to Head**.
+- Never derive TennisDB IDs or slugs. If the page does not expose a link, omit it and report the gap.
+- TennisDB coverage is mainly WTA 250+ / Slams - many WTA 125 and some 250s (e.g. Eastbourne, Birmingham, Manila) may be absent. Omit quietly; do not guess.
+- Loss rows on TennisDB may list opponent games first - still match by opponent + tournament + year when scores disagree with Eala-first tracker lines.
+- Link order: WTA, TennisDB, then Tennis.com or the official Grand Slam site.
+- Do not open every linked page. One additional targeted TennisDB page is the session maximum.
 
 ## Walkovers
 
@@ -87,8 +100,8 @@ A **walkover** (`w/o`, opponent withdrew before the match was played) is **not a
 ### Tournament result (singles)
 
 ```markdown
-  - **Dubai (WTA 1000)** - Quarterfinals, l. [Coco Gauff](#coco-gauff) 0-6, 2-6 | [wtatennis.com](https://...) | [tennis.com](https://...)
-    - Round of 16, d. Sorana Cîrstea 7-5, 6-4 | [wtatennis.com](https://...) | [tennis.com](https://...)
+  - **Dubai (WTA 1000)** - Quarterfinals, l. [Coco Gauff](#coco-gauff) 0-6, 2-6 | [wtatennis.com](https://...) | [tennis-db.com](https://...) | [tennis.com](https://...)
+    - Round of 16, d. Sorana Cîrstea 7-5, 6-4 | [wtatennis.com](https://...) | [tennis-db.com](https://...) | [tennis.com](https://...)
 ```
 
 Link opponent full name to the in-page H2H `###` anchor when that block exists (`[Coco Gauff](#coco-gauff)`). Leave unlinked when no H2H section (e.g. Sorana Cîrstea).
@@ -98,7 +111,7 @@ Embed at most **three** videos for opponents **not** in either H2H section (last
 Title run:
 
 ```markdown
-  - **Birmingham (WTA 125)** - Winner, d. Nikola Bartunkova 5-7, 6-3, 7-5 | [wtatennis.com](https://...) | [tennis.com](https://...)
+  - **Birmingham (WTA 125)** - Winner, d. Nikola Bartunkova 5-7, 6-3, 7-5 | [wtatennis.com](https://...) | [tennis-db.com](https://...) | [tennis.com](https://...)
     - Second Career WTA Win
     - First career title on grass
 
@@ -117,9 +130,9 @@ With milestone (link-only round label also valid when tennis.com slug is missing
 Exit round on the main line; earlier rounds as sub-bullets. Always include partner:
 
 ```markdown
-  - **Abu Dhabi (WTA 500)** - Semifinals (with Janice Tjen) | [wtatennis.com](https://...)
-    - Quarterfinals | [wtatennis.com](https://...)
-    - Round of 16 | [wtatennis.com](https://...)
+  - **Abu Dhabi (WTA 500)** - Semifinals (with Janice Tjen) | [wtatennis.com](https://...) | [tennis-db.com](https://...)
+    - Quarterfinals | [wtatennis.com](https://...) | [tennis-db.com](https://...)
+    - Round of 16 | [wtatennis.com](https://...) | [tennis-db.com](https://...)
 
 {{< youtube VIDEO_ID >}}
 ```
@@ -137,9 +150,9 @@ Rome-style loss note (optional sub-bullet before round links):
 
 ```markdown
   - **Wimbledon**
-    - 4th Round, l. [Jasmine Paolini](#jasmine-paolini) 4-6, 6-4, 3-6 | [wtatennis.com](https://...) | [tennis.com](https://...)
-    - 3rd Round, d. [Iga Swiatek](#iga-swiatek) 7-6(9), 6-2 | [wtatennis.com](https://...) | [tennis.com](https://...)
-    - 2nd Round, d. Maya Joint 3-6, 6-2, 6-0 | [wtatennis.com](https://...) | [tennis.com](https://...)
+    - 4th Round, l. [Jasmine Paolini](#jasmine-paolini) 4-6, 6-4, 3-6 | [wtatennis.com](https://...) | [tennis-db.com](https://...) | [wimbledon.com](https://...)
+    - 3rd Round, d. [Iga Swiatek](#iga-swiatek) 7-6(9), 6-2 | [wtatennis.com](https://...) | [tennis-db.com](https://...) | [wimbledon.com](https://...)
+    - 2nd Round, d. Maya Joint 3-6, 6-2, 6-0 | [wtatennis.com](https://...) | [tennis-db.com](https://...) | [wimbledon.com](https://...)
 
 {{< youtube VIDEO_ID >}}
 ```
@@ -148,12 +161,12 @@ Same H2H in-page link rule as WTA singles: wrap full names only when a `###` blo
 
 ### Grand Slam result (doubles)
 
-Same dual-link pattern as singles; include partner on the tournament line:
+Use same ordered link pattern as singles; include partner on the tournament line:
 
 ```markdown
   - **French Open** - 2nd Round (with Renata Zarazua)
-    - 1st Round | [wtatennis.com](https://...) | [rolandgarros.com](https://...)
-    - 2nd Round | [wtatennis.com](https://...) | [rolandgarros.com](https://...)
+    - 1st Round | [wtatennis.com](https://...) | [tennis-db.com](https://...) | [rolandgarros.com](https://...)
+    - 2nd Round | [wtatennis.com](https://...) | [tennis-db.com](https://...) | [rolandgarros.com](https://...)
 
 {{< youtube VIDEO_ID >}}
 ```
@@ -167,6 +180,7 @@ Add embeds when verified official/broadcaster footage exists - every non-H2H rou
 
 - [WTA Profile](https://www.wtatennis.com/players/XXXXXX/opponent-slug)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/XXXXXX)
+- [TennisDB Head to Head](https://...)
 - **Career High Singles:** No. XX
 
 **Grand Slam Titles:**
@@ -177,8 +191,8 @@ Add embeds when verified official/broadcaster footage exists - every non-H2H rou
 
 **Matches:**
 
-- **2026 Rome - Clay Court - Loss** - [Match Stats](https://...)
-- **2025 Miami Open - Hard Court - Win** - [Match Stats](https://...)
+- **2026 Rome - Clay Court - Loss** - [Match Stats](https://...) | [tennis-db.com](https://...)
+- **2025 Miami Open - Hard Court - Win** - [Match Stats](https://...) | [tennis-db.com](https://...)
 
 List completed singles meetings **newest first**.
 
@@ -194,11 +208,12 @@ Other Top 20 sections use the same **Matches:** format as Grand Slam Champions b
 
 - [WTA Profile](https://www.wtatennis.com/players/XXXXXX/opponent-slug)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/XXXXXX)
+- [TennisDB Head to Head](https://...)
 - **Career High Singles:** No. XX
 
 **Matches:**
 
-- **2026 Berlin (Grass)** - Quarterfinals, WIN, 6-3, 6-4 | [wtatennis.com](https://...) | [tennis.com](https://...)
+- **2026 Berlin (Grass)** - Quarterfinals, WIN, 6-3, 6-4 | [wtatennis.com](https://...) | [tennis-db.com](https://...) | [tennis.com](https://...)
 
 List completed singles meetings **newest first**. Add official slam site link on Grand Slam meetings.
 
@@ -287,8 +302,9 @@ Use exactly: `Win`, `Loss`, or `Win (Retired)` when applicable
 | --- | --- |
 | WTA tour matches | `tennis.com` tournament match URL |
 | WTA official scores | `wtatennis.com` tournament scores URL |
-| Grand Slams | WTA scores first, then official slam match page |
-| Player / H2H | `wtatennis.com` |
+| TennisDB match data | Exact `Match data` href exposed by Eala's match log |
+| Grand Slams | WTA scores, TennisDB match data, then official Slam match page |
+| Player / H2H | WTA first, then exact TennisDB `H2H` href |
 | Exit round (tournaments) | Main line links to deepest round played; earlier rounds on sub-bullets |
 
 ## YouTube embed rules

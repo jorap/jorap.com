@@ -2,7 +2,7 @@
 title: "Chasing a Local Cursor-Like IDE on a 24 GB MacBook"
 meta_title: "Local Cursor-Like Coding on an M4 MacBook - What Fits"
 description: "I want Cursor's IDE features with a local model on my M4. Composer won't fit, the 2 GB trick needs macOS 26, and oMLX runs on the Sequoia I already have."
-social_media_intro: "I want Cursor's repo loop on a local model, not a cloud bill per sidebar question. Chasing that on a 24 GB M4 MacBook. Link in the comments."
+social_media_intro: "Composer 2.5 won't fit 24 GB RAM - 600 GB weights. What I'm chasing instead on an M4 Mac: oMLX, IDE shape, the OS gotcha. Article in the comments."
 slug: "chasing-composer-2-5-locally"
 date: "2026-08-02T12:40:00Z"
 image: "/images/image-template.jpg"

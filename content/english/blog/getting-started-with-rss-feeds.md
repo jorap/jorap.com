@@ -2,7 +2,7 @@
 title: "RSS Feeds - What I Wish I'd Done Sooner"
 meta_title: "RSS Still Works - What I Wish I'd Done Sooner"
 description: "I figured RSS quietly died around 2010. A friend pointed out it never actually did - it just stopped being trendy. Two weeks of using it later, I was a convert."
-social_media_intro: "Friend laughed when I said RSS died around 2010. Two weeks on Inoreader and I stopped opening ten tabs to find nothing new. Link in comments."
+social_media_intro: "I figured RSS died around 2010. Two weeks on Inoreader and I stopped opening ten tabs to find nothing new. Plain setup that still works: article in the comments."
 slug: "getting-started-with-rss-feeds"
 date: "2024-03-30T05:00:00Z"
 image: "/images/rss.jpg"

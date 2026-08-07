@@ -2,7 +2,7 @@
 title: "Remote Work Checklist"
 meta_title: "Remote Work Checklist - What I Pack for a Day Away"
 description: "Remote work fails in small ways - dead battery, bad angle, forgotten mouse. Here's the checklist I run before leaving the house with the laptop bag."
-social_media_intro: "Café in Biñan: laptop at 4%, outlet behind a booth I couldn't reach, trackpad for a two-hour spreadsheet. My bag checklist now. Link in comments."
+social_media_intro: "Café in Biñan: laptop at 4%, outlet behind an unreachable booth, trackpad for a two-hour spreadsheet. Bag checklist and pre-flight: checklist in the comments."
 slug: "remote-work-checklist"
 date: "2026-06-18T06:04:00Z"
 image: "/images/feature-desktop.jpg"

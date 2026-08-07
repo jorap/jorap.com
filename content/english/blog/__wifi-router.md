@@ -2,7 +2,7 @@
 title: "What I Look For in a Home Wifi Router"
 meta_title: "Wifi Router - What I Look For and What I'd Buy Again"
 description: "After one too many dead zones and mystery reboots, here's what I care about in a home wifi router - and the habits that matter more than the box."
-social_media_intro: "Our cheap router needed weekly reboots - unplug, count to ten, pray. Coverage beats the AX6000 number on the box. My checklist - link in comments."
+social_media_intro: "Weekly reboot ritual on a cheap router - unplug, count to ten, pray. Coverage beats the AX6000 number on the box. Before-you-buy checklist in the comments."
 slug: "wifi-router"
 date: "2026-06-18T05:00:00Z"
 image: "/images/feature-desktop.jpg"

@@ -288,4 +288,691 @@ import re
 which hugo; hugo version 2>/dev/null || true
 
 ```
+
+```
+themes/jorap/layouts/_markup/render-heading.html:5:<h{{ $lvl }} id="{{ .Anchor }}" {{- with .Attributes.class }} class="{{ . }}" {{- end }}>
+169:    - Round of 32, d. Donna Vekić 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS030) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/d-vekic-vs-a-eala-2026-06-17)
+222:    - Round of 32, d. Donna Vekić 4-6, 6-4, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS027) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/d-vekic-vs-a-eala-2026-01-06)
+781:### Donna Vekić
+5
+/home/jorap/.local/share/mise/installs/hugo-extended/0.163.3/hugo
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+```
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying Hugo anchors for Donna Vekić and other names.
+
+Clarified that "link to H2H if it exists" means linking to in-page H2H section anchors, not external WTA URLs. These anchors only appear when a ### H2H block exists for that opponent.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo gen chromastyles &gt;/dev/null 2&gt;&amp;1; python3 &lt;&lt;&#39;PY&#39;
+# Hugo uses github.com/yuin/goldmark and asciidoctor-like; in recent Hugo, 
+# Default is to use github.com/gohugoio/hugo/markup/goldmark with GitHub-like anchors
+# Let&#39;s render a tiny test
+from pathlib import Path
+import tempfile, subprocess, os, re
+
+test = &#39;&#39;&#39;---
+title: &#34;Anchor Test&#34;
+---
+### Donna Vekić
+### Iga Swiatek
+### Qinwen Zheng
+### Ekaterina Alexandrova
+&#39;&#39;&#39;
+Path(&#39;/tmp/anchor-test-content&#39;).mkdir(exist_ok=True)
+# Use hugo&#39;s markdown renderer via a one-off? Or check built site
+# Simpler: use hugo&#39;s help or go
+print(subprocess.check_output([&#39;hugo&#39;,&#39;config&#39;], cwd=&#39;/home/jorap/Documents/GitHub/jorap.com&#39;, text=True)[:500])
+PY
+# Build just to see anchors - too heavy. Use hugo&#39;s markdown via:
+hugo list all 2&gt;/dev/null | head -1
+# Check goldmark docs - Hugo 0.123+ uses GitHub style with unicode preserved often
+# Create minimal content and render with hugo
+mkdir -p /tmp/hugo-anchor-test/content /tmp/hugo-anchor-test/layouts
+cat &gt; /tmp/hugo-anchor-test/hugo.toml &lt;&lt;&#39;EOF&#39;
+baseURL = &#34;http://example.org/&#34;
+title = &#34;Test&#34;
+EOF
+cat &gt; /tmp/hugo-anchor-test/content/_index.md &lt;&lt;&#39;EOF&#39;
+---
+title: Home
+---
+
+### Donna Vekić
+
+### Iga Swiatek
+
+### Qinwen Zheng
+EOF
+cat &gt; /tmp/hugo-anchor-test/layouts/index.html &lt;&lt;&#39;EOF&#39;
+{{ range .Content }}{{ end }}
+{{ .Content }}
+EOF
+cd /tmp/hugo-anchor-test &amp;&amp; hugo 2&gt;&amp;1 | tail -5 &amp;&amp; grep -o &#39;id=&#34;[^&#34;]*&#34;&#39; public/index.html
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo gen chromastyles >/dev/null 2>&1; python3 <<'PY'
+# Hugo uses github.com/yuin/goldmark and asciidoctor-like; in recent Hugo, 
+# Default is to use github.com/gohugoio/hugo/markup/goldmark with GitHub-like anchors
+# Let's render a tiny test
+from pathlib import Path
+import tempfile, subprocess, os, re
+
+test = '''---
+title: "Anchor Test"
+---
+### Donna Vekić
+### Iga Swiatek
+### Qinwen Zheng
+### Ekaterina Alexandrova
+'''
+Path('/tmp/anchor-test-content').mkdir(exist_ok=True)
+# Use hugo's markdown renderer via a one-off? Or check built site
+# Simpler: use hugo's help or go
+print(subprocess.check_output(['hugo','config'], cwd='/home/jorap/Documents/GitHub/jorap.com', text=True)[:500])
+PY
+# Build just to see anchors - too heavy. Use hugo's markdown via:
+hugo list all 2>/dev/null | head -1
+# Check goldmark docs - Hugo 0.123+ uses GitHub style with unicode preserved often
+# Create minimal content and render with hugo
+mkdir -p /tmp/hugo-anchor-test/content /tmp/hugo-anchor-test/layouts
+cat > /tmp/hugo-anchor-test/hugo.toml <<'EOF'
+baseURL = "http://example.org/"
+title = "Test"
+EOF
+cat > /tmp/hugo-anchor-test/content/_index.md <<'EOF'
+---
+title: Home
+---
+
+### Donna Vekić
+
+### Iga Swiatek
+
+### Qinwen Zheng
+EOF
+cat > /tmp/hugo-anchor-test/layouts/index.html <<'EOF'
+{{ range .Content }}{{ end }}
+{{ .Content }}
+EOF
+cd /tmp/hugo-anchor-test && hugo 2>&1 | tail -5 && grep -o 'id="[^"]*"' public/index.html
+
+```
+
+```
+archetypedir = 'archetypes'
+assetdir = 'assets'
+baseurl = 'https://www.jorap.com/'
+cachedir = '/home/jorap/.cache/hugo_cache'
+capitalizelisttitles = true
+contentdir = 'content/english'
+datadir = 'data'
+defaultcontentlanguage = 'en'
+defaultcontentrole = 'guest'
+defaultoutputformat = 'html'
+disablehugogeneratorinject = true
+environment = 'production'
+i18ndir = 'i18n'
+layoutdir = 'layouts'
+locale = 'en-us'
+mainsections = ['blog', 'notes']
+pluralizelisttitles = true
+publishdir = 'public'
+resourcedir
+path,slug,title,date,expiryDate,publishDate,draft,permalink,kind,section
+Command 'hugo' not found, but can be installed with:
+apt install hugo
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The Hugo path was lost. Using the full path instead.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: HUGO=/home/jorap/.local/share/mise/installs/hugo-extended/0.163.3/hugo
+rm -rf /tmp/hugo-anchor-test
+mkdir -p /tmp/hugo-anchor-test/content /tmp/hugo-anchor-test/layouts
+cat &gt; /tmp/hugo-anchor-test/hugo.toml &lt;&lt;&#39;EOF&#39;
+baseURL = &#34;http://example.org/&#34;
+title = &#34;Test&#34;
+EOF
+cat &gt; /tmp/hugo-anchor-test/content/_index.md &lt;&lt;&#39;EOF&#39;
+---
+title: Home
+---
+
+### Donna Vekić
+
+### Iga Swiatek
+
+### Qinwen Zheng
+
+### Marketa Vondrousova
+EOF
+cat &gt; /tmp/hugo-anchor-test/layouts/index.html &lt;&lt;&#39;EOF&#39;
+{{ .Content }}
+EOF
+cd /tmp/hugo-anchor-test &amp;&amp; $HUGO &amp;&amp; grep -oE &#39;id=&#34;[^&#34;]+&#34;&#39; public/index.html
+</summary>
+```bash
+HUGO=/home/jorap/.local/share/mise/installs/hugo-extended/0.163.3/hugo
+rm -rf /tmp/hugo-anchor-test
+mkdir -p /tmp/hugo-anchor-test/content /tmp/hugo-anchor-test/layouts
+cat > /tmp/hugo-anchor-test/hugo.toml <<'EOF'
+baseURL = "http://example.org/"
+title = "Test"
+EOF
+cat > /tmp/hugo-anchor-test/content/_index.md <<'EOF'
+---
+title: Home
+---
+
+### Donna Vekić
+
+### Iga Swiatek
+
+### Qinwen Zheng
+
+### Marketa Vondrousova
+EOF
+cat > /tmp/hugo-anchor-test/layouts/index.html <<'EOF'
+{{ .Content }}
+EOF
+cd /tmp/hugo-anchor-test && $HUGO && grep -oE 'id="[^"]+"' public/index.html
+
+```
+
+```
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+WARN  found no layout file for "html" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+
+                  │ EN 
+──────────────────┼────
+ Pages            │  5 
+ Paginator pages  │  0 
+ Non-page files   │  0 
+ Static files     │  0 
+ Processed images │  0 
+ Aliases          │  0 
+ Cleaned          │  0 
+
+Total in 14 ms
+id="donna-vekić"
+id="iga-swiatek"
+id="qinwen-zheng"
+id="marketa-vondrousova"
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Hugo preserves accents in URL slugs, such as `#donna-vekić`.
+
+Updating singles result lines in Grand Slam Main Draw Results and Best Performances sections. Opponent names with existing H2H sections will receive links. Doubles are excluded. Milestone prose lines naming players will also be linked.
+
+In-page anchors will link to existing H2H sections. Four mapped names are Jasmine Paolini, Iga Swiatek, Iva Jovic, and Clara Tauson.
+
+Thirteen additional names were mapped for H2H links, including Barbora Krejcikova, Jessica Pegula, and Coco Gauff. Prose lines naming these players will also be linked.
+
+A Python script will handle the replacements safely, scoped strictly to the singles sections.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Linking H2H opponents in Grand Slam and WTA singles result lines to in-page anchors. Encoding rule in skill after.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import re
+
+path = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md&#39;)
+text = path.read_text()
+
+# Opponents with ### H2H blocks (exact display name -&gt; anchor)
+h2h = {
+    &#39;Iga Swiatek&#39;: &#39;iga-swiatek&#39;,
+    &#39;Naomi Osaka&#39;: &#39;naomi-osaka&#39;,
+    &#39;Elena Rybakina&#39;: &#39;elena-rybakina&#39;,
+    &#39;Coco Gauff&#39;: &#39;coco-gauff&#39;,
+    &#39;Barbora Krejcikova&#39;: &#39;barbora-krejcikova&#39;,
+    &#39;Linda Noskova&#39;: &#39;linda-noskova&#39;,
+    &#39;Madison Keys&#39;: &#39;madison-keys&#39;,
+    &#39;Marketa Vondrousova&#39;: &#39;marketa-vondrousova&#39;,
+    &#39;Jelena Ostapenko&#39;: &#39;jelena-ostapenko&#39;,
+    &#39;Ekaterina Alexandrova&#39;: &#39;ekaterina-alexandrova&#39;,
+    &#39;Leylah Fernandez&#39;: &#39;leylah-fernandez&#39;,
+    &#39;Iva Jovic&#39;: &#39;iva-jovic&#39;,
+    &#39;Marta Kostyuk&#39;: &#39;marta-kostyuk&#39;,
+    &#39;Magda Linette&#39;: &#39;magda-linette&#39;,
+    &#39;Victoria Mboko&#39;: &#39;victoria-mboko&#39;,
+    &#39;Elise Mertens&#39;: &#39;elise-mertens&#39;,
+    &#39;Karolina Muchova&#39;: &#39;karolina-muchova&#39;,
+    &#39;Jasmine Paolini&#39;: &#39;jasmine-paolini&#39;,
+    &#39;Anastasia Pavlyuchenkova&#39;: &#39;anastasia-pavlyuchenkova&#39;,
+    &#39;Jessica Pegula&#39;: &#39;jessica-pegula&#39;,
+    &#39;Elina Svitolina&#39;: &#39;elina-svitolina&#39;,
+    &#39;Clara Tauson&#39;: &#39;clara-tauson&#39;,
+    &#39;Donna Vekić&#39;: &#39;donna-vekić&#39;,
+    &#39;Qinwen Zheng&#39;: &#39;qinwen-zheng&#39;,
+}
+
+# Extract Grand Slam Singles section (### Singles ... ### Doubles under Grand Slam)
+# and Best Performances Singles (### Singles ... ### Doubles under Best Performances)
+
+def find_section(text, start_marker, end_marker, after=0):
+    i = text.find(start_marker, after)
+    if i &lt; 0:
+        raise SystemExit(f&#39;missing {start_marker!r}&#39;)
+    j = text.find(end_marker, i + len(start_marker))
+    if j &lt; 0:
+        raise SystemExit(f&#39;missing end {end_marker!r}&#39;)
+    return i, j, text[i:j]
+
+# Grand Slam Main Draw Results -&gt; Singles ends at ### Doubles
+gs_start = text.find(&#39;## Grand Slam Main Draw Results&#39;)
+gs_singles_h = text.find(&#39;### Singles&#39;, gs_start)
+gs_doubles_h = text.find(&#39;### Doubles&#39;, gs_singles_h)
+bp_start = text.find(&#39;## Best Performances in WTA Tournaments&#39;)
+bp_singles_h = text.find(&#39;### Singles&#39;, bp_start)
+bp_doubles_h = text.find(&#39;### Doubles&#39;, bp_singles_h)
+
+ranges = [
+    (gs_singles_h, gs_doubles_h, &#39;GS singles&#39;),
+    (bp_singles_h, bp_doubles_h, &#39;WTA singles&#39;),
+]
+
+# Sort names longest-first so we don&#39;t partial-match
+names = sorted(h2h.keys(), key=len, reverse=True)
+name_re = re.compile(&#39;|&#39;.join(re.escape(n) for n in names))
+
+def linkify(chunk):
+    out = []
+    i = 0
+    changes = 0
+    while i &lt; len(chunk):
+        m = name_re.search(chunk, i)
+        if not m:
+            out.append(chunk[i:])
+            break
+        start, end = m.span()
+        name = m.group(0)
+        # skip if already inside a markdown link [Name](...)
+        # look backward for &#39;[&#39; without &#39;]&#39; between, and forward for &#39;](&#39;
+        before = chunk[max(0, start-1):start]
+        after = chunk[end:end+2]
+        # already linked: ...[Name](...
+        if before == &#39;[&#39; and after.startswith(&#39;]&#39;):
+            out.append(chunk[i:end])
+            i = end
+            continue
+        # skip ### headers
+        line_start = chunk.rfind(&#39;\n&#39;, 0, start) + 1
+        line_prefix = chunk[line_start:start]
+        if line_prefix.lstrip().startswith(&#39;###&#39;):
+            out.append(chunk[i:end])
+            i = end
+            continue
+        anchor = h2h[name]
+        out.append(chunk[i:start])
+        out.append(f&#39;[{name}](#{anchor})&#39;)
+        changes += 1
+        i = end
+    return &#39;&#39;.join(out), changes
+
+parts = []
+last = 0
+total = 0
+for start, end, label in ranges:
+    parts.append(text[last:start])
+    linked, n = linkify(text[start:end])
+    parts.append(linked)
+    total += n
+    print(f&#39;{label}: {n} links&#39;)
+    last = end
+parts.append(text[last:])
+new = &#39;&#39;.join(parts)
+
+# bump lastmod
+new = re.sub(
+    r&#39;^lastmod: &#34;.*&#34;$&#39;,
+    &#39;lastmod: &#34;2026-08-05T00:05:00Z&#34;&#39;,
+    new,
+    count=1,
+    flags=re.M,
+)
+
+path.write_text(new)
+print(f&#39;total links added: {total}&#39;)
+
+# show a few samples
+for line in new.splitlines():
+    if &#39;](#&#39; in line and (&#39;d. &#39; in line or &#39;l. &#39; in line or &#39;Upset&#39; in line or &#39;Played against&#39; in line):
+        print(line.strip()[:120])
+PY
+</summary>
+```bash
+python3 <<'PY'
+from pathlib import Path
+import re
+
+path = Path('/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md')
+text = path.read_text()
+
+# Opponents with ### H2H blocks (exact display name -> anchor)
+h2h = {
+    'Iga Swiatek': 'iga-swiatek',
+    'Naomi Osaka': 'naomi-osaka',
+    'Elena Rybakina': 'elena-rybakina',
+    'Coco Gauff': 'coco-gauff',
+    'Barbora Krejcikova': 'barbora-krejcikova',
+    'Linda Noskova': 'linda-noskova',
+    'Madison Keys': 'madison-keys',
+    'Marketa Vondrousova': 'marketa-vondrousova',
+    'Jelena Ostapenko': 'jelena-ostapenko',
+    'Ekaterina Alexandrova': 'ekaterina-alexandrova',
+    'Leylah Fernandez': 'leylah-fernandez',
+    'Iva Jovic': 'iva-jovic',
+    'Marta Kostyuk': 'marta-kostyuk',
+    'Magda Linette': 'magda-linette',
+    'Victoria Mboko': 'victoria-mboko',
+    'Elise Mertens': 'elise-mertens',
+    'Karolina Muchova': 'karolina-muchova',
+    'Jasmine Paolini': 'jasmine-paolini',
+    'Anastasia Pavlyuchenkova': 'anastasia-pavlyuchenkova',
+    'Jessica Pegula': 'jessica-pegula',
+    'Elina Svitolina': 'elina-svitolina',
+    'Clara Tauson': 'clara-tauson',
+    'Donna Vekić': 'donna-vekić',
+    'Qinwen Zheng': 'qinwen-zheng',
+}
+
+# Extract Grand Slam Singles section (### Singles ... ### Doubles under Grand Slam)
+# and Best Performances Singles (### Singles ... ### Doubles under Best Performances)
+
+def find_section(text, start_marker, end_marker, after=0):
+    i = text.find(start_marker, after)
+    if i < 0:
+        raise SystemExit(f'missing {start_marker!r}')
+    j = text.find(end_marker, i + len(start_marker))
+    if j < 0:
+        raise SystemExit(f'missing end {end_marker!r}')
+    return i, j, text[i:j]
+
+# Grand Slam Main Draw Results -> Singles ends at ### Doubles
+gs_start = text.find('## Grand Slam Main Draw Results')
+gs_singles_h = text.find('### Singles', gs_start)
+gs_doubles_h = text.find('### Doubles', gs_singles_h)
+bp_start = text.find('## Best Performances in WTA Tournaments')
+bp_singles_h = text.find('### Singles', bp_start)
+bp_doubles_h = text.find('### Doubles', bp_singles_h)
+
+ranges = [
+    (gs_singles_h, gs_doubles_h, 'GS singles'),
+    (bp_singles_h, bp_doubles_h, 'WTA singles'),
+]
+
+# Sort names longest-first so we don't partial-match
+names = sorted(h2h.keys(), key=len, reverse=True)
+name_re = re.compile('|'.join(re.escape(n) for n in names))
+
+def linkify(chunk):
+    out = []
+    i = 0
+    changes = 0
+    while i < len(chunk):
+        m = name_re.search(chunk, i)
+        if not m:
+            out.append(chunk[i:])
+            break
+        start, end = m.span()
+        name = m.group(0)
+        # skip if already inside a markdown link [Name](...)
+        # look backward for '[' without ']' between, and forward for ']('
+        before = chunk[max(0, start-1):start]
+        after = chunk[end:end+2]
+        # already linked: ...[Name](...
+        if before == '[' and after.startswith(']'):
+            out.append(chunk[i:end])
+            i = end
+            continue
+        # skip ### headers
+        line_start = chunk.rfind('\n', 0, start) + 1
+        line_prefix = chunk[line_start:start]
+        if line_prefix.lstrip().startswith('###'):
+            out.append(chunk[i:end])
+            i = end
+            continue
+        anchor = h2h[name]
+        out.append(chunk[i:start])
+        out.append(f'[{name}](#{anchor})')
+        changes += 1
+        i = end
+    return ''.join(out), changes
+
+parts = []
+last = 0
+total = 0
+for start, end, label in ranges:
+    parts.append(text[last:start])
+    linked, n = linkify(text[start:end])
+    parts.append(linked)
+    total += n
+    print(f'{label}: {n} links')
+    last = end
+parts.append(text[last:])
+new = ''.join(parts)
+
+# bump lastmod
+new = re.sub(
+    r'^lastmod: ".*"$',
+    'lastmod: "2026-08-05T00:05:00Z"',
+    new,
+    count=1,
+    flags=re.M,
+)
+
+path.write_text(new)
+print(f'total links added: {total}')
+
+# show a few samples
+for line in new.splitlines():
+    if '](#' in line and ('d. ' in line or 'l. ' in line or 'Upset' in line or 'Played against' in line):
+        print(line.strip()[:120])
+PY
+
+```
+
+```
+GS singles: 7 links
+WTA singles: 19 links
+total links added: 26
+- Upset defending champion [Iga Swiatek](#iga-swiatek) on Centre Court
+- 4th Round, l. [Jasmine Paolini](#jasmine-paolini) 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournament
+- 3rd Round, d. [Iga Swiatek](#iga-swiatek) 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledo
+- 1st Round, l. [Iva Jovic](#iva-jovic) 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/s
+- 1st Round, d. [Clara Tauson](#clara-tauson) 6-3, 2-6, 7-6(11) | [wtatennis.com](https://www.wtatennis.com/tournaments/
+- Played against the defending champion [Barbora Krejcikova](#barbora-krejcikova) at the Centre Court
+- 1st Round, l. [Barbora Krejcikova](#barbora-krejcikova) 3-6, 6-2, 1-6 | [wtatennis.com](https://www.wtatennis.com/tour
+- Winner, d. [Jessica Pegula](#jessica-pegula) 4-6, 6-4, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/104
+- Semifinals, d. [Naomi Osaka](#naomi-osaka) 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washi
+- Quarterfinals, d. [Elina Svitolina](#elina-svitolina) 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments
+- Round of 16, d. [Leylah Fernandez](#leylah-fernandez) 6-2, 7-6(1) | [wtatennis.com](https://www.wtatennis.com/tourname
+- Round of 32, d. [Qinwen Zheng](#qinwen-zheng) 4-6, 6-4, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/10
+- Semifinals, l. [Linda Noskova](#linda-noskova) 2-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/b
+- Quarterfinals, d. [Elina Svitolina](#elina-svitolina) 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments
+- Round of 16, d. [Elena Rybakina](#elena-rybakina) 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/201
+- Round of 32, d. [Donna Vekić](#donna-vekić) 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berl
+- Quarterfinals, l. [Coco Gauff](#coco-gauff) 0-6, 2-6 | [wtatennis.c
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The Grand Slam introduction mentions Wimbledon 2026 and Paolini's Centre Court victory.
+
+Only full names will link to H2H; surnames like Swiatek and Paolini are excluded. The skill file needs updating to require in-page H2H links when blocks exist. The lastmod timestamp should advance from the existing 04:40 UTC to roughly 00:10 UTC.
+
+The existing lastmod timestamp is 04:40 UTC, which is ahead of the current UTC time. I will advance it further to 08:05 UTC or use the actual current time.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Encoding convention into skill, fixing lastmod to current UTC.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Updating skill opponent naming rules and reference templates to show the H2H in-page link pattern.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:agent-config 2&gt;&amp;1 | tail -20
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:agent-config 2>&1 | tail -20
+
+```
+
+```
+$ node scripts/lint-agent-config.mjs
+agent config OK: 20 skill(s), 9 rule(s), Kilo → .cursor/skills
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+A verification checklist item should be added to the skill.
+
+The Grand Slam template structure needs fixing. I will check reference.md around that area. I also need to verify doubles were left untouched and that the GS intro surname prose was not wrongly linked.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "\\]\\(#"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "\\]\\(#",
+  "topFiles": [
+    {
+      "matchCount": 26,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 26
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Doubles were left untouched. 26 H2H links were added.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+**26 in-page H2H links** on Grand Slam + WTA singles. Only opponents with a `###` block.
+
+Examples: `d. [Iga Swiatek](#iga-swiatek)`, `l. [Donna Vekić](#donna-vekić)`. No link when no H2H block (Maya Joint, Sorana Cîrstea, etc.). Doubles left alone. Surname-only prose (`Swiatek on Centre Court`) left alone.
+
+Skill + reference updated so future singles adds get the same treatment.
+
+## Session close
+- Fixed: Singles result names link to in-page H2H anchors when section exists
+- Encode: alex-eala-tracker-update opponent naming (done)
+- Open: clean

@@ -2,7 +2,7 @@
 title: "Tenant, Not Landlord, on the Web"
 meta_title: "Tenant Not Landlord - Why I Don't Trust One App With Everything"
 description: "On social platforms you're a tenant. Vine proved it. I still post there - but my notes garden, tracker, and essays live on a domain I control."
-social_media_intro: "You're a tenant on every social app. Vine vanished overnight. My notes garden and essays live on a domain I control - link in comments."
+social_media_intro: "Vine vanished overnight. On every social app you're a tenant. My map for notes, essays, and scrapbooks that survive a pivot: article in the comments."
 slug: "tenant-not-landlord-on-the-web"
 date: "2026-07-29T10:00:00Z"
 image: "/images/website.jpg"

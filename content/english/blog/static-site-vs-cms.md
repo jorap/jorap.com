@@ -2,7 +2,7 @@
 title: "Static Site or CMS? How I Pick the Stack"
 meta_title: "Static Site vs CMS - When Each One Actually Fits"
 description: "I pick static or WordPress by who publishes, what changes live, and whether anyone needs a login - not by which one wins the argument online."
-social_media_intro: "The forum won't tell you static vs WordPress. Wrong stack means five staff expecting Git when nobody learned it - or WordPress for four pages. Link in comments."
+social_media_intro: "Forum won't pick your stack. I ask who publishes after launch - wrong answer means Git for staff who never learned it. Decision checklist in the comments."
 slug: "static-site-vs-cms"
 date: "2026-07-10T06:00:00Z"
 image: "/images/static-vs-cms.jpg"

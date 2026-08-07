@@ -2,7 +2,7 @@
 title: "Skip the Viral Tote - I Carry the IKEA FRAKTA"
 meta_title: "IKEA FRAKTA Bag vs the Viral Trader Joe's Tote"
 description: "Viral tote bags come and go. Trader Joe's is Aldi under another name. I still grab the blue IKEA FRAKTA - BRATTBY nested in the medium, large when the haul grows, and that manly IKEA blue."
-social_media_intro: "Viral tote drops keep missing me. Blue medium FRAKTA by the door, BRATTBY nested inside - no resale hunt required. Link in the comments."
+social_media_intro: "Viral tote drops keep missing me. I nest a BRATTBY in the medium FRAKTA - bag kit that beats the chase. How I pack it: article in the comments."
 slug: "ikea-frakta-bag"
 date: "2026-08-06T06:00:00Z"
 image: "/images/image-template.jpg"

@@ -2,7 +2,7 @@
 title: "Why I Prefer the Google Ecosystem Over Apple"
 meta_title: "Google vs Apple - Why I Stay on Google's Side"
 description: "I run a MacBook Pro M4 and an 11th-gen iPad - and I still live in Google's ecosystem. One Google account glues my Mac, Android, Linux, and TV together. No compelling reason to add an iPhone or Apple Watch on top."
-social_media_intro: "I run a MacBook Pro M4 and still live in Gmail, Chrome, and Drive - not iCloud. One Google account across Mac, Android, Linux. Why - link in comments."
+social_media_intro: "MacBook Pro M4, still on Gmail and Drive - not iCloud. One Google account across Mac, Android, Linux. Why I mix brands instead of the full Apple loop: article in the comments."
 slug: "google-over-apple-ecosystem"
 date: "2026-07-26T02:51:00Z"
 image: "/images/google-vs-apple.jpg"

@@ -605,6 +605,95 @@ _**Agent (auto-smart)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/tennis-crowd-etiquette.md</summary>
-Status: **loading**
 
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/tennis-crowd-etiquette.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/tennis-crowd-etiquette.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/tennis-crowd-etiquette.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/tennis-crowd-etiquette.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the description and any remaining "service pose" or "toss" cues for alignment.
+
+The "clean timing on serve" description is fine. The "on the toss" and "Parking it on the toss" references remain accurate for the specific incident. No further changes are needed.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/tennis-crowd-etiquette.md",
+  "pattern": "service pose|on the line|avenged|Australian Open"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/tennis-crowd-etiquette.md",
+  "pattern": "service pose|on the line|avenged|Australian Open",
+  "topFiles": [
+    {
+      "matchCount": 8,
+      "uri": "content/english/blog/tennis-crowd-etiquette.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The response appears consistent. A brief caveman reply will be followed by closing the session.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Done.
+
+- Quiet cue now: **on the line to start her serve** (one-rule H2, visual cue, quiet list, field card, sports section, close)
+- Toronto beat: Alex **avenged her Australian Open loss** to Parks
+
+## Session close
+- Fixed: on-the-line quiet rule + AO revenge note in Toronto graf
+- Encode: none
+- Open: clean

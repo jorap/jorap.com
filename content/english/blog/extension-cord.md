@@ -2,7 +2,7 @@
 title: "The Short Extension Cord in My Laptop Bag"
 meta_title: "Short Extension Cord - Hotel Outlets and Tight Plugs"
 description: "A short extension cord lives in my laptop bag. Hotel outlets behind the bed, blocked café sockets, full meeting-room strips - here's what I look for."
-social_media_intro: "The thing in my laptop bag I reach for most is a short extension cord. Hotel outlet behind the bed, cafe socket blocked by a fat charger. Link in comments."
+social_media_intro: "Hotel outlet behind the bed. Cafe socket blocked by a fat charger. Short cord in my laptop bag - and what length I pack: article in the comments."
 slug: "extension-cord"
 date: "2026-07-11T05:04:00Z"
 image: "/images/extension-cord.jpg"

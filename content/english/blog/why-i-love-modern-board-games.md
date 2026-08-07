@@ -2,7 +2,7 @@
 title: "Why I Love Modern Board Games"
 meta_title: "Why I Love Modern Board Games (Not the Toy Store Aisle)"
 description: "Toy-store games never clicked - Monopoly unfinished, chess theory that didn't survive a real game. Modern hobby games fit my 30-minute table, home shelf and travel pouch both."
-social_media_intro: "I never finished a Monopoly game once. Modern shelf: Hanamikoji in fifteen minutes, clean ending, room for one more round. Link in comments."
+social_media_intro: "Never finished Monopoly once. Modern shelf: Hanamikoji in fifteen minutes, clean ending, room for one more round. What finally clicked for me: article in the comments."
 slug: "why-i-love-modern-board-games"
 date: "2026-07-27T10:00:00Z"
 image: "/images/modern_board_gaming.jpg"

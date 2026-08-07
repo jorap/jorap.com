@@ -254,3 +254,22 @@ _**Agent (auto-smart)**_
 <summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/tennis-crowd-etiquette.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The user may yell before the opponent enters her service pose.
+
+Session close required.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Correct. Point dies → roar OK. She settles into service pose → quiet until point over.
+
+Post now uses that cue in the one-rule section, quiet list, and field card.
+
+## Session close
+- Fixed: Service-pose cue added so first-timers know yell window ends when either player sets to serve.
+- Encode: none
+- Open: clean

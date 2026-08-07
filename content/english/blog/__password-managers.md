@@ -2,7 +2,7 @@
 title: "Password Managers"
 meta_title: "Why I Use Bitwarden (and a Password Manager at All)"
 description: "I put off a password manager for years because migrating felt like a weekend I'd never get back. Bitwarden on the free plan now - one afternoon to migrate, boring ever since."
-social_media_intro: "I put off Bitwarden for years because fifty logins felt like a weekend I'd never get back. Took one afternoon. Boring ever since. Link in comments."
+social_media_intro: "Put off Bitwarden for years because fifty logins felt like a weekend I'd never get back. My one-afternoon migration order and top-twenty-first rule. Article in the comments."
 slug: "password-managers"
 date: "2026-06-18T06:08:00Z"
 image: "/images/feature-desktop.jpg"

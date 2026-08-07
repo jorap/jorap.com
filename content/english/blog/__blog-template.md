@@ -2,7 +2,7 @@
 title: "Blog Template"
 meta_title: "Blog Template - Hugo CMS Reference"
 description: "Hugo CMS Reference for blog publishing."
-social_media_intro: "Example social caption for this template post - swap the hook, keep the link-in-comments line. URL in the comments when you publish."
+social_media_intro: "Template stub: swap the hook, name the payoff (shortcodes, frontmatter cheat sheet), keep the comments CTA. Sample shape: article in the comments."
 slug: "blog-template"
 date: "1981-06-14T05:00:00Z"
 image: "/images/joraps-world.jpg"

@@ -2,7 +2,7 @@
 title: "Hugo Page Bundles"
 meta_title: "Hugo Page Bundles - When I Stop Dumping Images in /static"
 description: "Most posts are a single .md with a hero in /images. Page bundles are for messier ones - screenshots, downloads, assets that belong to one post."
-social_media_intro: "Most posts are one flat .md file. Page bundles are for the messy ones - six screenshots, a PDF, a diagram that only fits that post. Link in the comments."
+social_media_intro: "Six screenshots and a PDF don't belong in /static forever. Hugo leaf bundles - index.md owns the clutter. When I switch: article in the comments."
 slug: "hugo-page-bundles"
 date: "2026-06-19T06:00:00Z"
 image: "/images/joraps-world.jpg"

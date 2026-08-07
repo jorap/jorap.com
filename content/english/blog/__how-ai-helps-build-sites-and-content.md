@@ -2,7 +2,7 @@
 title: "How AI Helps Me Build Sites and Write Content"
 meta_title: "How AI Helps Build Sites and Content - What Actually Moved"
 description: "AI didn't replace judgment on jorap.com - it compressed lint loops, batch edits, and first drafts. Here's what moved on the Hugo site and the notes garden."
-social_media_intro: "AI replaced a lot of typing on jorap.com, not a lot of thinking. What actually moved on the Hugo site and notes garden. Link in the comments."
+social_media_intro: "295 notes in six weeks would've been months solo. What AI actually moved on jorap.com - lint loops, not judgment. Full article in the comments."
 slug: "how-ai-helps-build-sites-and-content"
 date: "2026-07-30T02:00:00Z"
 image: "/images/feature-consistent-ai-output.jpg"

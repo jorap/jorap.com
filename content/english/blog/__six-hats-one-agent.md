@@ -2,7 +2,7 @@
 title: "Six Thinking Hats, Five Advisors, One Agent"
 meta_title: "Six Hats vs LLM Council - Why I Want One Agent"
 description: "I ran a five-advisor AI council on my published posts. Then I ran one-agent six hats on the notes garden. Same itch. Different bill."
-social_media_intro: "Ran a five-advisor AI council on my own posts. Token bill hurt. Do I need five subagents, or can one agent wear the hats? Link in comments."
+social_media_intro: "I ran a five-advisor AI council on my posts - token bill stung. One agent wearing six hats in order gets the same friction cheaper. My verdict: article in the comments."
 slug: "six-hats-one-agent"
 date: "2026-08-03T00:51:00Z"
 image: "/images/image-template.jpg"

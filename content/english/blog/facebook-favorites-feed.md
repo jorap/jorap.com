@@ -2,7 +2,7 @@
 title: "Facebook's Hidden Gem: The Favorites Feed"
 meta_title: "Facebook Favorites Feed - Messenger Plus a Smaller Feed"
 description: "I still need Facebook for Messenger. I mostly stopped scrolling the main feed and use Favorites for the handful of people I actually picked."
-social_media_intro: "I still need Messenger. Quit scrolling the main feed. Favorites only shows people I picked - and the feed actually ends. How to find it - link in comments."
+social_media_intro: "Still need Messenger. Quit doom-scrolling the main feed. Favorites only shows people I picked - and the feed ends. Where to find it: article in the comments."
 slug: "facebook-favorites-feed"
 date: "2024-02-04T05:00:00Z"
 image: "/images/fbf.jpg"

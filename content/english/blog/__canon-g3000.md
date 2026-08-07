@@ -2,7 +2,7 @@
 title: "Canon G3000"
 meta_title: "Canon G3000 - Ink Tank Printer Notes"
 description: "The Canon G3000 is an ink-tank printer for people tired of cartridge roulette. Here's what it's good at, what annoyed me, and whether I'd buy ink tank again."
-social_media_intro: "Cartridge roulette finally pushed me to an ink-tank printer. The Canon G3000 - what stuck, what annoyed me. Link in the comments."
+social_media_intro: "Cartridge roulette on a black-and-white school form pushed me to Canon G3000 tanks. Bottle refills, clog lesson, buy-again test: article in the comments."
 slug: "canon-g3000"
 date: "2026-06-18T05:09:00Z"
 image: "/images/feature-desktop.jpg"

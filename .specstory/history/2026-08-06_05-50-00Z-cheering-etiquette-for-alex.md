@@ -43,3 +43,400 @@ _**Agent (auto-smart)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/tennis-crowd-etiquette.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the tennis crowd etiquette blog to avoid Facebook AI content flags.
+
+The user provided a concise comment summary to incorporate. Facebook AI detection often flags overly structured or balanced content. The existing post is already polished and lengthy.
+
+The user's comment text is punchy and human. The blog likely still carries AI tells that Facebook flags. I will check SpecStory history and author context for examples of human-sounding prose. The goal is to make the shared blog post read naturally without AI detection.
+
+The draft shows clear AI tells: symmetrical sections, repeated parallelisms, and FAQ-style explanations. I will roughen the prose, make it uneven, and run voice and slop checks. Meta descriptions will also be humanized.
+
+The field card numbered list and closing summary-sandwich feel like AI checklist content. Parallel constructions and generic phrasing such as "That kind of reputation takes a season or two" sound committee-approved. The rewrite should read like JoRap typed for friends rather than a formal etiquette guide.
+
+Meta’s AI detection can flag the shared link preview or the post body itself. I will read the author context and a reference opinion post, then aggressively rewrite the blog body and shareable description to sound messy and human.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Checking session history and a reference post so rewrite lands human, not "AI Content" on Facebook.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-08-06_05-23-19Z-tennis-crowd-etiquette-blog.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: pnpm slop:score content/english/blog/tennis-crowd-etiquette.md &amp;&amp; pnpm lint:voice -- content/english/blog/tennis-crowd-etiquette.md 2&gt;&amp;1 | head -80</summary>
+```bash
+pnpm slop:score content/english/blog/tennis-crowd-etiquette.md && pnpm lint:voice -- content/english/blog/tennis-crowd-etiquette.md 2>&1 | head -80
+```
+
+```
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/pnpm/11.7.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.3/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.146.5/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.150.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.155.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.157.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.158.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.2/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.3/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+Command 'pnpm' not found, did you mean:
+  command 'npm' from deb npm (9.2.0~ds1-2)
+Try: apt install <deb name>
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The message contains two parts.
+
+The Facebook post needs rewriting to avoid AI content flags. The current polished structure triggers AI detection. I'll make it rougher and more human, keeping the facts and links. I'll also try running pnpm with the correct path.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Rewriting for human rhythm and less guide-shaped polish so Facebook stops labeling it AI. Checking how to run lint here.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: which node; ls node_modules/.bin/pnpm 2&gt;/dev/null; type pnpm; command -v corepack; ls package.json</summary>
+```bash
+which node; ls node_modules/.bin/pnpm 2>/dev/null; type pnpm; command -v corepack; ls package.json
+```
+
+```
+/home/jorap/.nvm/versions/node/v22.23.0/bin/node
+--: line 1: type: pnpm: not found
+/home/jorap/.nvm/versions/node/v22.23.0/bin/corepack
+package.json
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice",
+  "pattern": "AI Content|facebook|FB|de-AI|detector"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice",
+  "pattern": "AI Content|facebook|FB|de-AI|detector",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".cursor/skills/jorap-voice/SKILL.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Rewriting the blog post to sound more human and avoid AI-detectable language on Facebook.
+
+The user's comment text is the core message to share. The current post likely triggers AI flags because of its rigid H2 structure, parallel sports sections, numbered field cards, and overly balanced closing.
+
+The prose is too polished and committee-approved. The title reads like a SEO mill product. The symmetrical noise lists feel robotic. I will roughen the tone, cut the parallel sports block, soften the field card, and strip the SEO language. The facts about Miami Open 2025, AO 2026 Parks, and Rusedski 2003 will stay.
+
+YouTube embeds and frontmatter fields will stay. The user will paste the short comment text directly into the Facebook post rather than sharing the full article. This avoids AI detection on the article itself.
+
+Meta may flag the article link as AI-generated during scraping. The rewrite will use varied paragraph lengths, specific anecdotes instead of abstract rules, and avoid tip-list framing. A substantial rewrite will keep the core message but remove the handbook shape.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Rewriting post: less handbook polish, more uneven first-person so Meta stops labeling it AI.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/tennis-crowd-etiquette.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The rewrite improved slightly, but the structure remains largely unchanged from the original.
+
+Facebook AI detection is tricky. Meta flags content created with its AI tools, user disclosures, or third-party image classification. The current rewrite still carries an AI-shaped structure—parallel sports sections, a numbered field card, and balanced "when to roar / when to shut up" phrasing—that likely triggers these labels.
+
+The rewrite needs a heavier, more aggressive roughening to mimic a casual post like Marvel Snap. Parallel structure and symmetry should be stripped out further. The user’s Facebook comment copy will be provided ready to paste. Linting will follow.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;/home/jorap/.nvm/versions/node/v22.23.0/bin:$PATH&#34;; corepack enable 2&gt;/dev/null; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; (command -v pnpm || npm i -g pnpm@9) &amp;&amp; pnpm slop:score content/english/blog/tennis-crowd-etiquette.md &amp;&amp; pnpm lint:voice 2&gt;&amp;1 | rg -n &#34;tennis-crowd|error|Error|FAIL|pass&#34; | head -40; pnpm lint:blog 2&gt;&amp;1 | rg -n &#34;tennis-crowd|error|Error|FAIL|pass&#34; | head -40; pnpm lint:slop 2&gt;&amp;1 | rg -n &#34;tennis-crowd|error|Error|FAIL|pass&#34; | head -40</summary>
+```bash
+export PATH="/home/jorap/.nvm/versions/node/v22.23.0/bin:$PATH"; corepack enable 2>/dev/null; cd /home/jorap/Documents/GitHub/jorap.com && (command -v pnpm || npm i -g pnpm@9) && pnpm slop:score content/english/blog/tennis-crowd-etiquette.md && pnpm lint:voice 2>&1 | rg -n "tennis-crowd|error|Error|FAIL|pass" | head -40; pnpm lint:blog 2>&1 | rg -n "tennis-crowd|error|Error|FAIL|pass" | head -40; pnpm lint:slop 2>&1 | rg -n "tennis-crowd|error|Error|FAIL|pass" | head -40
+```
+
+```
+Internal Error: EACCES: permission denied, symlink '../lib/node_modules/corepack/dist/pnpm.js' -> '/home/jorap/.nvm/versions/node/v22.23.0/bin/pnpm'
+    at async Object.symlink (node:internal/fs/promises:1001:10)
+    at async EnableCommand.generatePosixLink (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23218:5)
+    at async Promise.all (index 0)
+    at async EnableCommand.execute (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23199:5)
+    at async EnableCommand.validateAndExecute (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:20278:22)
+    at async _Cli.run (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:21215:18)
+    at async Object.runMain (/home/jorap/.nvm/versions/node/v22.23.0/lib/node_modules/corepack/dist/lib/corepack.cjs:23704:19)
+/home/jorap/.local/share/mise/installs/pnpm/latest/pnpm
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/tennis-crowd-etiquette.md
+tennis-crowd-etiquette.md                words=1540 total= 10 per100w=  0.65
+2:Voice dash errors:
+2:Blog frontmatter errors:
+3:  content/english/blog/tennis-crowd-etiquette.md: key order ['title', 'meta_title', 'description', 'slug', 'date', 'lastmod', 'image', 'categories', 'author', 'tags', 'related_notes', 'level_depth', 'featured', 'draft'] != ['title', 'meta_title', 'description', 'slug', 'date', 'image', 'categories', 'author', 'tags', 'related_notes', 'level_depth', 'featured', 'draft', 'lastmod']
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing the frontmatter key order so `lastmod` appears after `featured` and `draft` per the lint rules.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Fixing frontmatter key order for lint.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/tennis-crowd-etiquette.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;/home/jorap/.local/share/mise/installs/pnpm/latest:$PATH:/home/jorap/.nvm/versions/node/v22.23.0/bin&#34;; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog 2&gt;&amp;1 | rg &#34;tennis-crowd|error|Error|PASS|pass|ok&#34; | head -30; pnpm lint:voice 2&gt;&amp;1 | rg &#34;tennis-crowd|dash|error|PASS&#34; | head -30; pnpm lint:slop 2&gt;&amp;1 | rg &#34;tennis-crowd|error|FAIL|pass&#34; | head -30</summary>
+```bash
+export PATH="/home/jorap/.local/share/mise/installs/pnpm/latest:$PATH:/home/jorap/.nvm/versions/node/v22.23.0/bin"; cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog 2>&1 | rg "tennis-crowd|error|Error|PASS|pass|ok" | head -30; pnpm lint:voice 2>&1 | rg "tennis-crowd|dash|error|PASS" | head -30; pnpm lint:slop 2>&1 | rg "tennis-crowd|error|FAIL|pass" | head -30
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check
+Voice dash errors:
+  content/english/blog/__build-your-own-trait-quiz.md: em/en dash found (7); use hyphen, comma, or parentheses (jorap-voice)
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Lint checks passed with no tennis-crowd errors.
+
+Lint:voice failed on an unrelated draft file. The rewrite may still read too guide-like for Facebook AI detection. Meta likely flags the shared text or article itself.
+
+The comment text itself is very human. The AI label likely comes from the link preview or scraped article instead. Meta flags structured educational content and generic advice. I will roughen the rewrite further by converting the numbered list into prose, breaking parallel sports bullets, and making the opening more uneven.
+
+The title now reads "Cheer Between Points - Not on the Toss." This avoids SEO guide phrasing.
+
+The rewrite still risks detection. Clean H2 sections and matching list structures remain. The closing still uses a summary sandwich. The sports section still feels parallel.
+
+I will convert more lists to prose. I will shorten the closing. I will break the sports section apart.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Roughening further — still reads like a polished guide. Cutting parallel list shape.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/tennis-crowd-etiquette.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying lint:blog passes. Preparing the Facebook comment text for pasting.
+
+Deployment is needed for Facebook to scrape the updated content. Sticky caching may prevent immediate updates.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: export PATH=&#34;/home/jorap/.local/share/mise/installs/pnpm/latest:$PATH:/home/jorap/.nvm/versions/node/v22.23.0/bin&#34;; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog 2&gt;&amp;1 | tail -20; pnpm slop:score content/english/blog/tennis-crowd-etiquette.md; node scripts/runPython.mjs scripts/voice-lint.py dashes --check content/english/blog/tennis-crowd-etiquette.md 2&gt;&amp;1 | tail -10; node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/tennis-crowd-etiquette.md 2&gt;&amp;1 | tail -15; node scripts/runPython.mjs scripts/slop-lint.py --check content/english/blog/tennis-crowd-etiquette.md 2&gt;&amp;1 | tail -15</summary>
+```bash
+export PATH="/home/jorap/.local/share/mise/installs/pnpm/latest:$PATH:/home/jorap/.nvm/versions/node/v22.23.0/bin"; cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog 2>&1 | tail -20; pnpm slop:score content/english/blog/tennis-crowd-etiquette.md; node scripts/runPython.mjs scripts/voice-lint.py dashes --check content/english/blog/tennis-crowd-etiquette.md 2>&1 | tail -10; node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/tennis-crowd-etiquette.md 2>&1 | tail -15; node scripts/runPython.mjs scripts/slop-lint.py --check content/english/blog/tennis-crowd-etiquette.md 2>&1 | tail -15
+```
+
+```
+$ node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify && node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only
+Blog frontmatter OK
+Slop lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/tennis-crowd-etiquette.md
+tennis-crowd-etiquette.md                words=1371 total= 10 per100w=  0.73
+Voice dash errors:
+  content/english/blog/__build-your-own-trait-quiz.md: em/en dash found (7); use hyphen, comma, or parentheses (jorap-voice)
+Voice lint warnings:
+  content/english/notes/finish-strong.md: examples[1]: AI-tell word `handoff` - try: pass off / pass to client
+  content/english/notes/no-successor-left.md: examples[0]: AI-tell word `handoff` - try: pass off / pass to client
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Blog frontmatter and slop checks passed. The voice dash error is on an unrelated file.
+
+Tennis post is clean. Title and description now match the Facebook text without AI branding. A ready-to-paste FB comment is included. Commit and push are needed for live scraping. Facebook may cache the old OG preview.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Updated. Title now **Cheer Between Points - Not on the Toss**. Cut guide shape (parallel sports blocks, field-card list, summary sandwich). Description matches your FB line. Lint clean on this file.
+
+**FB post text (paste):**
+> For Pinoys in the stands watching Alex: cheer between points, not on the toss. Untimely shouts hurt both. Clap good tennis both ways. Don't call lines. Passion + timing helps Alex.
+
+Put blog link in comments. After you **commit + push**, FB may still show old scrape for a bit - try sharing again or [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/) to refresh.
+
+Not committed. Say if you want that.
+
+## Session close
+- Fixed: Tennis etiquette post de-AI rewrite - punchier title, less handbook shape, FB-ready description.
+- Encode: none
+- Open: clean
+
+---
+
+_**User**_
+
+update this:
+
+For Pinoys in the stands watching Alex: cheer between points, not on the toss. Untimely shouts hurt both. Clap good tennis both ways. Don't call lines. Passion + timing helps Alex. Blog in comments.
+
+so it is not flagged as AI content in FB
+
+---
+
+_**Agent (auto-smart)**_
+
+> Auto routed to Cursor Grok 4.5
+
+
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Rewriting the Facebook post text to avoid AI content flags. The blog itself stays unchanged.
+
+Identified the specific AI-detection triggers in the current caption: colon-heavy formatting, parallel short imperatives, the "X + Y helps Z" formula, and telegraphic listicle pacing. These structural patterns are what Facebook's AI detectors typically flag.
+
+The rewrite will use casual, uneven, first-person language instead of a rigid tip list. The blog description may also be updated to match the more human tone.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Rewriting FB caption so it reads like a person typed it, not a tip list. Syncing blog description if it still matches the old line.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/tennis-crowd-etiquette.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+A human-style Facebook caption will be drafted. The blog description will also be rewritten naturally, since Facebook scrapes the Open Graph meta description.
+
+The AI version reads like a robotic tip dump with formulaic phrases. A casual, conversational draft is being written instead. One option uses casual Messenger-style language. Another starts with a quick note for Pinoys watching Alex live.
+
+The draft now warns that untimely shouts hurt Alex too, not just the opponent. It adds that clapping good tennis both ways and avoiding line calls. The tone is casual and conversational, ending with a link in comments.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/tennis-crowd-etiquette.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The Facebook paste text will be provided clearly.
+
+The session is now closed.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Old line read like tip stack (colon, parallel shorts, `Passion + timing`). FB loves flagging that.
+
+**Paste this:**
+
+> If you're in the stands for Alex - save the "Go Alex" for between points. Not on the toss. That shout hits her too, not just the other side. Clap good tennis both ways. And leave the lines to the chair - you're not the umpire. Loud is fine. Timed is better.
+>
+> Link in the comments.
+
+Synced blog `description` to same tone (FB scrapes that for the preview).
+
+## Session close
+- Fixed: FB caption + OG description de-AI'd - less tip-list, more typed-on-phone.
+- Encode: none
+- Open: clean

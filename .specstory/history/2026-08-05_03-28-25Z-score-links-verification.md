@@ -12,12 +12,6 @@ _**User**_
 
 _**Agent (auto-smart)**_
 
-> Auto routed to Opus 5
-
-
-
-_**Agent (auto-smart)**_
-
 <think><details><summary>Thought Process</summary>
 I need to balance the user's request to verify all the score links against the instruction to be respectful with requests—they explicitly said not to hammer the sites, so I should pace things out. Let me start by reading the file to see what links we're working with.
 </details></think>
@@ -44,4 +38,1840 @@ _**Agent (auto-smart)**_
 ```bash
 grep -oE 'https?://[^)]+' content/english/blog/alex-eala-pro-career-tracker.md | sort | uniq -c | sort -rn | awk '{print $2}' | sed -E 's#https?://([^/]+)/.*#\1#' | sort | uniq -c
 ```
+
+```
+      2 ausopen.com
+      1 commons.wikimedia.org
+      1 creativecommons.org
+      1 tnnslive.com
+      1 www.gettyimages.com
+      4 www.rolandgarros.com
+     97 www.tennis.com
+      2 www.usopen.org
+    175 www.wtatennis.com
+
+```
 </details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm looking at around 280 total links, but that's too many to check individually. After deduplicating the WTA score links, I'm down to about 175 unique ones. Checking all of them sequentially with a 2-second delay would take roughly 10 minutes, which is manageable and not aggressive if I pace it properly—just hitting wtatennis.com around 175 times total.
+
+My approach: do a quick HTTP status check plus grab the page title for each score page, since WTA titles typically include player names. But first I need to test one URL to see what actually comes back, and I'll need full network access since the sandbox might not allow wtatennis.com.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -sS -A &#34;Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36&#34; -o /tmp/wta1.html -w &#34;%{http_code} %{url_effective} %{size_download}\n&#34; &#34;https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320392&#34;; grep -oiE &#39;&lt;title&gt;[^&lt;]*&lt;/title&gt;&#39; /tmp/wta1.html</summary>
+```bash
+curl -sS -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36" -o /tmp/wta1.html -w "%{http_code} %{url_effective} %{size_download}\n" "https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320392"; grep -oiE '<title>[^<]*</title>' /tmp/wta1.html
+```
+
+```
+200 https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320392 261002
+<title>Eala vs. Swiatek | Round of 32 The Championships, Wimbledon 2026 | WTA Official</title>
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The WTA page title has all the details I need to verify each score link. I notice the page says "Round of 32" while the tracker shows "3rd Round" — for Wimbledon's 128-player draw, that's correct since R32 is indeed the 3rd round. Now I'm moving on to check tennis.com.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -sS -A &#34;Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36&#34; -o /tmp/t1.html -w &#34;%{http_code} %{size_download}\n&#34; &#34;https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04&#34;; grep -oiE &#39;&lt;title&gt;[^&lt;]*&lt;/title&gt;&#39; /tmp/t1.html; echo &#34;---rg---&#34;; curl -sS -A &#34;Mozilla/5.0&#34; -o /tmp/rg1.html -w &#34;%{http_code} %{size_download}\n&#34; &#34;https://www.rolandgarros.com/en-us/matches/2026/SD068&#34;; grep -oiE &#39;&lt;title&gt;[^&lt;]*&lt;/title&gt;&#39; /tmp/rg1.html</summary>
+```bash
+curl -sS -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36" -o /tmp/t1.html -w "%{http_code} %{size_download}\n" "https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04"; grep -oiE '<title>[^<]*</title>' /tmp/t1.html; echo "---rg---"; curl -sS -A "Mozilla/5.0" -o /tmp/rg1.html -w "%{http_code} %{size_download}\n" "https://www.rolandgarros.com/en-us/matches/2026/SD068"; grep -oiE '<title>[^<]*</title>' /tmp/rg1.html
+```
+
+```
+200 100332
+<title>Alexandra Eala vs Iga Świątek · Round 3 · Wimbledon</title>
+---rg---
+200 573341
+<title>First Round Women’s Singles - Roland-Garros 2026 - The official site</title>
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I notice the tennis.com titles include both players and round information, while Roland Garros titles only show the round and year, so I'll need to search the payload for player names. My approach is to build a script that extracts all links with their context from the markdown, fetches each unique URL with a 2-second delay between domains to avoid rate limiting, and compiles the results into a comparison table. I'm looking at roughly 280 unique URLs, which at that rate should be manageable.
+
+Let me deduplicate the URLs first since some appear in multiple sections, then write a Node script that reads the markdown, extracts unique URLs, fetches them sequentially with delays, and pulls out the title plus a boolean flag for whether "Eala" appears in the HTML body. For the slam sites where the title alone isn't enough, I can also search for opponent surnames in the response, though I'd need to pass the expected opponent names to the script for each URL.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Fetch pattern works and titles carry both player names. I'll extract every link with its expected match context, then fetch each unique URL once, paced, and compare.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /tmp/verify-links.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node /tmp/verify-links.mjs &gt; /tmp/link-run.log 2&gt;&amp;1; echo exit=$?</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node /tmp/verify-links.mjs > /tmp/link-run.log 2>&1; echo exit=$?
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: head -30 /tmp/link-run.log; echo ...; tail -12 /tmp/link-run.log</summary>
+```bash
+head -30 /tmp/link-run.log; echo ...; tail -12 /tmp/link-run.log
+```
+
+```
+links=264 unique=217
+1/217 200 https://www.tennis.com/players-rankings/alexandra-eala
+  Alexandra Eala | Tennis.com
+  missing: -
+2/217 200 https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404
+  Paolini vs. Eala | Round of 16 The Championships, Wimbledon 2026 | WTA Official
+  missing: -
+3/217 200 https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06
+  Jasmine Paolini vs Alexandra Eala · Round 4 · Wimbledon
+  missing: -
+4/217 200 https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320392
+  Eala vs. Swiatek | Round of 32 The Championships, Wimbledon 2026 | WTA Official
+  missing: -
+5/217 200 https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04
+  Alexandra Eala vs Iga Świątek · Round 3 · Wimbledon
+  missing: -
+6/217 200 https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320418
+  Eala vs. Joint | Round of 64 The Championships, Wimbledon 2026 | WTA Official
+  missing: -
+7/217 200 https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-m-joint-2026-07-02
+  Alexandra Eala vs Maya Joint · Round 2 · Wimbledon
+  missing: -
+8/217 200 https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362772
+  Eala vs. Zarazua | Round of 128 The Championships, Wimbledon 2026 | WTA Official
+  missing: -
+9/217 200 https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-r-zarazua-2026-06-30
+  Alexandra Eala vs Renata Zarazúa · Round 1 · Wimbledon
+  missing: -
+10/217 200 https://www.wtatennis.com/tournaments/roland-garros/scores/LS71642254
+  Jovic vs. Eala | Round of 128 Roland Garros 2026 | WTA Official
+...
+53/217 200 https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS015
+  Eala vs. Rybakina | Round of 16 VANDA Pharmaceuticals Berlin Tennis Open 2026 | WTA Official
+  missing: -
+54/217 200 https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18
+  Alexandra Eala vs Elena Rybakina · Round 2 · WTA Berlin
+  missing: -
+55/2
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The crawl is progressing well with 217 unique URLs taking about 2.5 seconds each across alternating hosts, so it should wrap up in around 5 minutes. I'm noticing a discrepancy in how the Berlin tournament is labeled—WTA calls it "Round of 16" while tennis.com says "Round 2"—but I'll let the crawl finish and sort that out afterward.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Verification is running through 217 unique URLs at a paced 2.5s per host. Waiting for it to finish.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="await"><details>
+<summary>Tool use: **await**</summary>
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; node -e &#39;
+const d=require(&#34;/tmp/link-report.json&#34;);
+console.log(&#34;total&#34;,d.length);
+const bad=d.filter(r=&gt;r.status!==200||r.missing.length);
+console.log(&#34;flagged&#34;,bad.length);
+for(const r of bad){console.log(&#34;\n#&#34;,r.n,r.status,r.url);console.log(&#34;  lines:&#34;,r.lines.join(&#34;,&#34;));console.log(&#34;  ctx:&#34;,r.text.slice(0,110));console.log(&#34;  title:&#34;,r.title.slice(0,120));console.log(&#34;  missing:&#34;,r.missing.join(&#34;, &#34;));}
+&#39;</summary>
+```bash
+cd /tmp && node -e '
+const d=require("/tmp/link-report.json");
+console.log("total",d.length);
+const bad=d.filter(r=>r.status!==200||r.missing.length);
+console.log("flagged",bad.length);
+for(const r of bad){console.log("\n#",r.n,r.status,r.url);console.log("  lines:",r.lines.join(","));console.log("  ctx:",r.text.slice(0,110));console.log("  title:",r.title.slice(0,120));console.log("  missing:",r.missing.join(", "));}
+'
+```
+
+```
+total 217
+flagged 55
+
+# 18 200 https://www.usopen.org/en_US/scores/stats/2204.html
+  lines: 107
+  ctx: 2nd Round, l. Cristina Bucsa 4-6, 3-6
+  title: 
+  missing: Cristina, Bucsa
+
+# 20 200 https://www.tennis.com/tournaments/us-open/matches/c-tauson-vs-a-eala-2025-08-24
+  lines: 108,793
+  ctx: 1st Round, d. [Clara Tauson](#clara-tauson) 6-3, 2-6, 7-6(11)
+  title: Match not found
+  missing: Clara
+
+# 21 200 https://www.usopen.org/en_US/scores/stats/2108.html
+  lines: 108,793
+  ctx: 1st Round, d. [Clara Tauson](#clara-tauson) 6-3, 2-6, 7-6(11)
+  title: 
+  missing: Clara, Tauson
+
+# 25 200 https://www.tennis.com/tournaments/roland-garros/matches/e-arango-vs-a-eala-2025-05-25
+  lines: 123
+  ctx: 1st Round, l. Emiliana Arango 0-6, 6-2, 3-6
+  title: Match not found
+  missing: Emiliana
+
+# 27 200 https://www.wtatennis.com/tournaments/wimbledon/scores/LD72362771
+  lines: 131
+  ctx: 1st Round, l. Jelena Ostapenko/Sofia Kenin 6-3, 3-6, 1-6
+  title: Women's Tennis Association - Official Website
+  missing: Jelena, Ostapenko, Sofia, Kenin
+
+# 32 200 https://www.tennis.com/tournaments/wimbledon/matches/a-eala-e-lys-vs-q-gleason-i-martins-2025-07-03
+  lines: 142
+  ctx: 1st Round, l. Quinn Gleason/Ingrid Martins 4-6, 2-6
+  title: Match not found
+  missing: Quinn, Ingrid
+
+# 78 200 https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-a-sasnovich-2026-02-04
+  lines: 207
+  ctx: Round of 16, d. Aliaksandra Sasnovich 2-6, 6-4, 7-6(5)
+  title: Match not found
+  missing: Aliaksandra
+
+# 80 200 https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-z-sonmez-2026-02-03
+  lines: 208
+  ctx: Round of 32, d. Zeynep Sönmez 6-4, 6-3
+  title: Match not found
+  missing: Zeynep
+
+# 90 200 https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-m-linette-2026-01-08
+  lines: 228,654
+  ctx: Quarterfinals, d. [Magda Linette](#magda-linette) 6-3, 6-2
+  title: Match not found
+  missing: Magda
+
+# 92 200 https://www.tennis.com/tournaments/asb-classic/matches/a-e
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm sorting through the broken links I found. There are about 22 tennis.com pages that return 200 status but have empty content, plus a handful of tournament-specific dead links on tennis.com and a WTA Wimbledon doubles entry that's pointing to the wrong page.
+
+I'm also noticing the usopen.org stats pages have empty titles, likely because they're client-rendered, so I need to verify whether those are actually valid pages or just broken.
+
+But more importantly, I'm finding real factual errors in the opponent names throughout the tracker — multiple instances where first names are wrong or misspelled. Angela should be Aliona, both Alexsandra entries should be Arianne, Sachia is actually Sijia, Sada is Sinja, Giulia is Giorgia, and Caroline is Carole. There's also uncertainty around a few names like Yara Mansouri and some doubles pairs where first names are missing entirely. Pigato is **Lisa Pigato**, and I'm working through the other names — Panova should be **Alexandra Panova**, Falkowska is **Weronika Falkowska**, Kubka is **Martyna Kubka**, and for McPhee I'm checking if it's **Kaylah McPhee** or if Destanee Aiava is the correct player.
+
+I'm seeing a pattern where first names are either invented or incorrect in the source data, and since the WTA doubles titles only list surnames, I need to re-fetch the actual tournament pages to extract full names from the embedded JSON. I'll also need to verify the usopen.org links and check the Wimbledon 2026 doubles WTA LD ID while I'm at it.
+
+Writing a script to fetch and parse player names... I'll re-fetch the WTA doubles pages with surname-only titles to get the full opponent names and fix those errors, then check the usopen.org and Wimbledon links, and finally report back on the tennis.com dead links. Let me start by testing the extraction on one of those WTA pages.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Found real issues. Now I need full player names from the pages that only showed surnames, plus checks on a few odd ones.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; curl -sS -A &#34;Mozilla/5.0 (X11; Linux x86_64) Chrome/126&#34; -o /tmp/ld.html &#34;https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD002&#34; &amp;&amp; grep -oiE &#39;&#34;(firstName|lastName|fullName)&#34;:&#34;[^&#34;]*&#34;&#39; /tmp/ld.html | head -40</summary>
+```bash
+cd /tmp && curl -sS -A "Mozilla/5.0 (X11; Linux x86_64) Chrome/126" -o /tmp/ld.html "https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD002" && grep -oiE '"(firstName|lastName|fullName)":"[^"]*"' /tmp/ld.html | head -40
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; grep -oiE &#39;[Pp]iter[^&lt;&#34;]{0,40}&#39; ld.html | head -20; echo &#34;====&#34;; grep -oiE &#39;&#34;[A-Za-z]*[Nn]ame[A-Za-z]*&#34;:&#34;[^&#34;]{1,30}&#34;&#39; ld.html | sort -u | head -40</summary>
+```bash
+cd /tmp && grep -oiE '[Pp]iter[^<"]{0,40}' ld.html | head -20; echo "===="; grep -oiE '"[A-Za-z]*[Nn]ame[A-Za-z]*":"[^"]{1,30}"' ld.html | sort -u | head -40
+```
+
+```
+Piter/Tjen vs. Eala/Kichenok | Semifinals Gua
+Piter/Tjen vs. Eala/Kichenok | Semifinals Gua
+Piter / J. Tjen d A. Eala / N. Kichenok 6-7(4
+Piter / J. Tjen d A. Eala / N. Kichenok 6-7(4
+Piter/Tjen vs. Eala/Kichenok | Semifinals Gua
+Piter / J. Tjen d A. Eala / N. Kichenok 6-7(4
+Piter/Tjen \u003cspan style\u003d\&quot;text-
+Piter
+Piter
+piter
+Piter
+Piter/Tjen vs. Eala/Kichenok | Semifinals Gua
+Piter/Tjen vs. Eala/Kichenok | Semifinals Gua
+Piter/Tjen vs. Eala/Kichenok
+Piter/Tjen vs. Eala/Kichenok
+piter-tjen
+Piter & Janice Tjen
+piter
+Piter
+Piter&quot;,&quot;fullName&quot;:&quot;Katarz
+====
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I found that the HTML contains escaped JSON with the full name data—Piter's actual name is Katarzyna, not Anastasia as the tracker shows. Now I'm writing a script to pull all the flagged pages and extract their `fullName` values to verify the discrepancies.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /tmp/names.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; node names.mjs \
+&#34;https://www.wtatennis.com/tournaments/1143/jingshan-125/2025/scores/LS016&#34; \
+&#34;https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS027&#34; \
+&#34;https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS031&#34; \
+&#34;https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS003&#34; \
+&#34;https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS015&#34; \
+&#34;https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS030&#34; \
+&#34;https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS012&#34; \
+&#34;https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS025&#34; 2&gt;&amp;1</summary>
+```bash
+cd /tmp && node names.mjs \
+"https://www.wtatennis.com/tournaments/1143/jingshan-125/2025/scores/LS016" \
+"https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS027" \
+"https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS031" \
+"https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS003" \
+"https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS015" \
+"https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS030" \
+"https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS012" \
+"https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS025" 2>&1
+```
+
+```
+
+https://www.wtatennis.com/tournaments/1143/jingshan-125/2025/scores/LS016
+  status=200 title=Eala vs. Falei | Round of 32 Jingshan Tennis Open 2025 | WTA Official
+  names: Lulu Sun | Eudice Chong | En-Shuo Liang
+
+https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS027
+  status=200 title=Mansouri vs. Eala | Round of 32 SP Open 2025 | WTA Official
+  names: Tiantsoa Rakotomanga Rajaonah | Timea Babos | Luisa Stefani
+
+https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS031
+  status=200 title=Hartono vs. Eala | Round of 32 Guadalajara 125 Open 2025 | WTA Official
+  names: Alexandra Eala | Iryna Shymanovich | Mariia Kozyreva
+
+https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS003
+  status=200 title=Wei vs. Eala | Semifinals Workday Canberra International 2025 | WTA Official
+  names: Aoi Ito | Petra Hule | Jaimee Fourlis
+
+https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS015
+  status=200 title=Eala vs. Hartono | Round of 16 Workday Canberra International 2025 | WTA Official
+  names: Aoi Ito | Petra Hule | Jaimee Fourlis
+
+https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS030
+  status=200 title=Eala vs. Kraus | Round of 32 Workday Canberra International 2025 | WTA Official
+  names: Aoi Ito | Petra Hule | Jaimee Fourlis
+
+https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS012
+  status=200 title=Pedone vs. Eala | Round of 16 Veneto Open promoted by Regione del Veneto 2024 | WTA Official
+  names: Alycia Parks | Hailey Baptiste
+
+https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS025
+  status=200 title=Eala vs. Monnet | Round of 32 Veneto Open promoted by Regione del Veneto 2024 | WTA Official
+  names: Alycia Parks | Hailey Baptiste
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm noticing that the `fullName` fields on singles pages aren't reliable for this data, but tennis.com titles have been providing full names for several opponents—I can see examples like Falei, Hartono, and Wei appearing in the match titles, though the Wei entry seems to cut off mid-way.
+
+For doubles, the WTA pages do contain `fullName` fields, so I should fetch those pages to extract the partner names. I have a list of doubles matches that need names extracted—starting with Guangzhou LD002 through several other tournaments, though the list appears incomplete at the end.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+tennis.com titles gave me the correct full names for the singles mismatches. Now the doubles pages, which do embed full names.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; node names.mjs \
+&#34;https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD002&#34; \
+&#34;https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD005&#34; \
+&#34;https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD011&#34; \
+&#34;https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD022&#34; \
+&#34;https://www.wtatennis.com/tournaments/2092/ningbo/2024/scores/LD005&#34; \
+&#34;https://www.wtatennis.com/tournaments/2098/guadalajara-125/2024/scores/LD007&#34; \
+&#34;https://www.wtatennis.com/tournaments/2087/warsaw-125/2024/scores/LD007&#34; \
+&#34;https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD002&#34; \
+&#34;https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD005&#34; \
+&#34;https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD011&#34; 2&gt;&amp;1</summary>
+```bash
+cd /tmp && node names.mjs \
+"https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD002" \
+"https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD005" \
+"https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD011" \
+"https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD022" \
+"https://www.wtatennis.com/tournaments/2092/ningbo/2024/scores/LD005" \
+"https://www.wtatennis.com/tournaments/2098/guadalajara-125/2024/scores/LD007" \
+"https://www.wtatennis.com/tournaments/2087/warsaw-125/2024/scores/LD007" \
+"https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD002" \
+"https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD005" \
+"https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD011" 2>&1
+```
+
+```
+
+https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD002
+  status=200 title=Piter/Tjen vs. Eala/Kichenok | Semifinals Guangzhou Open 2025 | WTA Official
+  names: Ann Li | Katarzyna Piter | Janice Tjen
+
+https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD005
+  status=200 title=Eala/Kichenok vs. Kudermetova/Rakhimova | Quarterfinals Guangzhou Open 2025 | WTA Official
+  names: Ann Li | Katarzyna Piter | Janice Tjen
+
+https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD011
+  status=200 title=Eala/Gauff vs. Grant/Pigato | Round of 16 Internazionali BNL d'Italia 2025 | WTA Official
+  names: Jasmine Paolini | Sara Errani
+
+https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD022
+  status=200 title=Panova/Stollar vs. Eala/Gauff | Round of 32 Internazionali BNL d'Italia 2025 | WTA Official
+  names: Jasmine Paolini | Sara Errani
+
+https://www.wtatennis.com/tournaments/2092/ningbo/2024/scores/LD005
+  status=200 title=Olmos/Panova vs. Eala/Liang | Quarterfinals Ningbo Open 2024 | WTA Official
+  names: Daria Kasatkina | Demi Schuurs | Yue Yuan
+
+https://www.wtatennis.com/tournaments/2098/guadalajara-125/2024/scores/LD007
+  status=200 title=Birrell/Eala vs. Piter/Stollar | Quarterfinals Guadalajara 125 Open 2024 | WTA Official
+  names: Kamilla Rakhimova | Katarzyna Piter | Fanny Stollar
+
+https://www.wtatennis.com/tournaments/2087/warsaw-125/2024/scores/LD007
+  status=200 title=Eala/Semenistaja vs. Falkowska/Kubka | Quarterfinals Polish Open 2024 | WTA Official
+  names: Alycia Parks | Weronika Falkowska | Martyna Kubka
+
+https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD002
+  status=200 title=McPhee/Sharma vs. Eala/Pigossi | Semifinals Workday Canberra International 2024 | WTA Official
+  names: Nuria Parrizas Diaz | Veronika Erjavec | Darja Semenistaja
+
+https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD005
+  status=200 title=Bondar/Naef vs. Eala/Pigossi | Quarterfinals Workday Canberra International 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm cross-referencing the tracker data against actual names and finding multiple discrepancies—Katarzyna Piter is listed as Anastasia in the tracker, Weronika Falkowska and Martyna Kubka are both misidentified, and I'm working through verifying Rakhimova's correct name as well.
+
+For the remaining unknowns, I need to search for specific player names across those tournament pages—Alexandra Panova (not Anastasia), Angelina Grant, Lisa Pigato, Kaylah McPhee, and Mansouri's first name—so I'm fetching those pages and grepping for the surnames with surrounding context to confirm identities.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /tmp/ctx.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; node ctx.mjs &#34;https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD011&#34; Grant Pigato; sleep 3; node ctx.mjs &#34;https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD022&#34; Panova Stollar; sleep 3; node ctx.mjs &#34;https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD002&#34; McPhee Sharma; sleep 3; node ctx.mjs &#34;https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS027&#34; Mansouri</summary>
+```bash
+cd /tmp && node ctx.mjs "https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD011" Grant Pigato; sleep 3; node ctx.mjs "https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD022" Panova Stollar; sleep 3; node ctx.mjs "https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD002" McPhee Sharma; sleep 3; node ctx.mjs "https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS027" Mansouri
+```
+
+```
+https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD011 200
+ Grant: name="twitter:description" content="A. Eala / C. Gauff d T. Grant
+      property="og:description" content="A. Eala / C. Gauff d T. Grant
+     le\u003d\"text-transform: lowercase;\"\u003evs.</span\u003e Grant
+     NL d'Italia 2025 | Match Center" aria-label="Eala/Gauff vs. Grant
+ Pigato:  <meta name="twitter:title" content="Eala/Gauff vs. Grant/Pigato
+     e="description" content="A. Eala / C. Gauff d T. Grant / L. Pigato
+     er:description" content="A. Eala / C. Gauff d T. Grant / L. Pigato
+     og:description" content="A. Eala / C. Gauff d T. Grant / L. Pigato
+     3d\"text-transform: lowercase;\"\u003evs.</span\u003e Grant/Pigato
+     talia 2025 | Match Center" aria-label="Eala/Gauff vs. Grant/Pigato
+https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD022 200
+ Panova: name="twitter:description" content="A. Eala / C. Gauff d A. Panova
+      property="og:description" content="A. Eala / C. Gauff d A. Panova
+     status":"Finished","match_type":"WTA 1000","match_players":"Panova
+     nternazionali BNL d'Italia 2025 | Match Center" aria-label="Panova
+ Stollar: ="description" content="A. Eala / C. Gauff d A. Panova / F. Stollar
+     r:description" content="A. Eala / C. Gauff d A. Panova / F. Stollar
+     g:description" content="A. Eala / C. Gauff d A. Panova / F. Stollar
+     :"Finished","match_type":"WTA 1000","match_players":"Panova/Stollar
+     ionali BNL d'Italia 2025 | Match Center" aria-label="Panova/Stollar
+https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD002 200
+ McPhee: _status":"Finished","match_type":"WTA 125","match_players":"McPhee
+     day Canberra International 2024 | Match Center" aria-label="McPhee
+ Sharma: ":"Finished","match_type":"WTA 125","match_players":"McPhee/Sharma
+     berra International 2024 | Match Center" aria-label="McPhee/Sharma
+https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS027 200
+ Mansouri: :"Finished","match_
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Looking at the tracker results for these Rome locations, I'm noticing discrepancies between what the tracker shows and the actual names. For LD011, the tracker has the wrong initials for both athletes—Tyra Caterina Grant and Lisa Pigato are the correct names. For LD022, the tracker also has incorrect information for Anastasia Panova and Fanny Stollar.
+
+I've confirmed Giuliana Olmos is correct for the Ningbo doubles match, and Yasmine Mansouri is the right name for São Paulo (not Yara). For Canberra LD002, I need to find Kaylah McPhee's full details. I'm going to do some targeted web searches to fill in the missing first names for Grant, Panova, and McPhee rather than hitting the tournament sites directly.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "WTA doubles player \"Panova\" Alexandra Panova Rome 2025 doubles Stollar"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Panova/Stollar vs. Eala/Gauff | Round of 32 Internazionali BNL d'Italia 2025 | WTA Official](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD022)\n2. [Panova A / Stollar F Eala A / Gauff C live score and H2H results - Sofascore](https://www.sofascore.com/tennis/match/eala-gauff-panova-stollar/jWEiscxLi)\n3. [Tennis Explorer - Match detail](http://www.tennisexplorer.com/match-detail/?id=2888079)\n4. [Alexandra Eala/Cori Gauff vs. Alexandra Panova/Fanny Stollar 10.05.2025 - Internazionali BNL d'Italia - Rome | TennisLive.at](https://www.tennislive.at/wta/spiel/alexandra-eala-cori-gauff-VS-alexandra-panova-fanny-stollar/internazionali-bnl-ditalia-rome-2025/)\n5. [Alexandra Panova/Fanny Stollár - Alexandra Eala/Coco Gauff Live - Rome Women's Doubles -: Tennis Scores \u0026 Highlights - 10/05/2025](https://www.tntsports.co.uk/tennis/wta-rome-doubles/2025/live-alexandra-panovafanny-stollar-alexandra-ealacoco-gauff_mtc1594724/live.shtml)\n\nSynthesis:\nAt the 2025 Internazionali BNL d'Italia in Rome, Alexandra Panova and Fanny Stollar competed together in the women's doubles draw [1][2]. On May 10, 2025, they played Alexandra Eala and Coco Gauff in the Round of 32 [1][2]. Panova and Stollar lost the match in straight sets, 3-6, 1-6 [3][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003ePanova/Stollar vs. Eala/Gauff | Round of 32 Internazionali BNL d'Italia 2025 | WTA Official\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/tournaments/709/rome/2025/scores/LD022\u003c/url\u003e\n\u003ccontent\u003ePanova/Stollar vs. Eala/Gauff | Round of 32 Internazionali BNL d'Italia 2025 | WTA Official\n\nGo back to the home page\n\n-\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003ePanova A / Stollar F Eala A / Gauff C live score and H2H results - Sofascore\u003c/title\u003e\n\u003curl\u003ehttps://www.sofascore.com/tennis/match/eala-ga
+… (output truncated)
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm verifying Alexandra Panova's match details against the tracker — the score of 6-3, 6-1 is correct, though there's a discrepancy with the opponent's first name listed. The round designation varies between sources calling it "Round 1" versus the WTA's "Round of 32," but that's a minor labeling difference. Now I'm moving on to check Grant and McP's information.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Canberra International 2024 WTA 125 doubles semifinal McPhee Sharma beat Eala Pigossi first names"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [McPhee/Sharma vs. Eala/Pigossi | Semifinals Workday Canberra International 2024 | WTA Official](https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD002)\n2. [Kaylah Mcphee/Astra Sharma vs. Alexandra Eala/Laura Pigossi 05.01.2024 - Canberra 125 - Canberra | TennisLive.com](https://www.tennislive.net/wta/match/kaylah-mcphee-astra-sharma-VS-alexandra-eala-laura-pigossi/canberra-125-canberra-2024/)\n3. [Kaylah Mcphee/Astra Sharma vs. Alexandra Eala/Laura Pigossi 05.01.2024 - Canberra 125 - Canberra | TennisErgebnisse.net](https://www.tennisergebnisse.net/wta/spiel/kaylah-mcphee-astra-sharma-VS-alexandra-eala-laura-pigossi/canberra-125-canberra-2024/)\n4. [McPhee Kaylah / Sharma Astra - Eala Alexandra / Pigossi Laura - H2H stats, results, odds](https://www.betexplorer.com/tennis/challenger-women-doubles/canberra-2024/mcphee-kaylah-sharma-astra-eala-alexandra-pigossi-laura/fa1uiMKU/)\n5. [Eala, partner reach Canberra semis | Daily Tribune](https://tribune.net.ph/2024/01/04/eala-partner-reach-canberra-semis)\n\nSynthesis:\nThe first names of the players in the 2024 Canberra International doubles semifinal are Kaylah McPhee, Astra Sharma, Alexandra Eala, and Laura Pigossi [1][2]. In the match held on January 5, 2024, the Australian pair of Kaylah McPhee and Astra Sharma defeated the duo of Alexandra Eala and Laura Pigossi with a score of 7-6, 6-3 [1][2][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eMcPhee/Sharma vs. Eala/Pigossi | Semifinals Workday Canberra International 2024 | WTA Official\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD002\u003c/url\u003e\n\u003ccontent\u003eMcPhee/Sharma vs. Eala/Pigossi | Semifinals Workday Canberra International 2024 | WTA Official\n\n 2-0 Sets \n\n K. McPhee \n\nAUS\n\n A. Sharma \n\nAUS\n\n A. Eala \n\nPHI\n\n L. Pigossi \n\nBRA\n\n Workday Canberra International - Can
+… (output truncated)
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm verifying Kaylah McPhee's information and catching a scoring discrepancy in the Canberra 2024 semifinal — the tracker had the match result reversed from Eala's perspective, but cross-checking with WTA confirms the correct score is 6-7(1), 3-6.
+
+Now I'm finding another name error in the Canberra quarterfinal walkover: the tracker lists "Lea Naef" but it should be "Céline Naef" — the Daily Tribune article confirms this. My substring-based checker missed this because "Lea" appears in common words like "league" and "clear," creating false negatives. I'm realizing I need word-boundary matching instead, but that would require re-fetching all 217 pages again, which feels wasteful even though it's technically feasible in about five minutes with paced requests.
+
+A better approach: I already have the tennis.com titles saved in my link-report.json file, and those contain full names. I can parse that data for free and compare the opponent names against what the tracker shows, which would resolve most singles entries without any new fetches. For doubles matches and dead links, I'd still need the WTA page bodies, but that's a smaller subset to handle.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Good catch on the false negatives from substring matching. Let me re-analyze precisely using the tennis.com titles I already captured, no new requests.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /tmp/analyze.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; node analyze.mjs</summary>
+```bash
+cd /tmp && node analyze.mjs
+```
+
+```
+=== DEAD PAGES (32) ===
+line 108,793 | 1st Round, d. [Clara Tauson](#clara-tauson) 6-3, 2-6, 7-6(11)
+    https://www.tennis.com/tournaments/us-open/matches/c-tauson-vs-a-eala-2025-08-24
+    title: Match not found
+line 123 | 1st Round, l. Emiliana Arango 0-6, 6-2, 3-6
+    https://www.tennis.com/tournaments/roland-garros/matches/e-arango-vs-a-eala-2025-05-25
+    title: Match not found
+line 137 | 1st Round, l. Shuko Aoyama/Magda Linette 6-7(3), 6-2, 3-6
+    https://www.tennis.com/tournaments/australian-open/matches/a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21
+    title: Match not found
+line 142 | 1st Round, l. Quinn Gleason/Ingrid Martins 4-6, 2-6
+    https://www.tennis.com/tournaments/wimbledon/matches/a-eala-e-lys-vs-q-gleason-i-martins-2025-07-03
+    title: Match not found
+line 147 | 2nd Round, l. Olga Danilovic/Anastasia Potapova 1-6, 3-6
+    https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-olga-danilovic-anastasia-potapova-2025-05-29
+    title: Match not found
+line 148 | 1st Round, d. Emily Appleton/Yvonne Cavalle-Reimers 7-5, 6-4
+    https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-emily-appleton-yvonne-cavalle-reimers-2025-05-27
+    title: Match not found
+line 207 | Round of 16, d. Aliaksandra Sasnovich 2-6, 6-4, 7-6(5)
+    https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-a-sasnovich-2026-02-04
+    title: Match not found
+line 208 | Round of 32, d. Zeynep Sönmez 6-4, 6-3
+    https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-z-sonmez-2026-02-03
+    title: Match not found
+line 228,654 | Quarterfinals, d. [Magda Linette](#magda-linette) 6-3, 6-2
+    https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-m-linette-2026-01-08
+    title: Match not found
+line 229 | Round of 16, d. Petra Marcinko 6-0, 6-2
+    https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-p-marcinko-2026-01-08
+    title: Match not found
+lin
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Most of the name mismatches are false positives from tournament names in the dataset, but I've identified a few genuine player-name errors by cross-referencing with tennis.com: Angela Falei should be Aliona Falei, Alexsandra Hartono should be Arianne Hartono, and Sachia Wei should be Sijia Wei, with one more entry that got cut off.
+
+Continuing through the list, there are several more corrections needed—Sada Kraus to Sinja Kraus, Giulia Pedone to Giorgia Pedone, Caroline Monnet to Carole Monnet, and Yara Mansouri to Yasmine Mansouri. In the doubles section, I'm finding similar issues: Anastasia Piter should be Katarzyna Piter, Kamila Rakhimova needs an extra 'l', and Anastasia Panova appears twice and should be Alexandra Panova both times. There are also a couple of entries where I need to verify or complete first names, and some spelling variants like Bartůňková that are arguably acceptable as-is.
+
+Now I'm thinking about the broader verification strategy—the Świątek spelling issue is just a consistency choice between accented and unaccented versions, so that's not an error to fix. But I should systematically re-check all the remaining doubles lines and the tennis.com entries that couldn't be verified directly, using word-boundary searches on the WTA page to catch any false negatives from shorter first names. Most of these opponents check out as real players, though I'm uncertain about Lisa Cabrera—could be Alicia Cabrera instead. I'll write a script to verify the uncertain names by fetching the WTA pages and matching against player records. I'll fetch the remaining WTA pages and extract the og:description initials to verify against my tracker data, then handle the edge cases separately — the empty usopen.org titles, those suspicious Roland-Garros 2026 redirects on 2025 URLs, and the broken Wimbledon link. Starting with the initials batch first.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Most name flags were tournament-word noise. Now checking the lines where tennis.com is dead or doubles-only, using WTA's initial-based match descriptions.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /tmp/initials.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; node initials.mjs 2&gt;&amp;1</summary>
+```bash
+cd /tmp && node initials.mjs 2>&1
+```
+
+```
+checking 49 WTA pages
+
+line 108,793 :: - 1st Round, d. [Clara Tauson](#clara-tauson) 6-3, 2-6, 7-6(11)
+  https://www.wtatennis.com/tournaments/us-open/scores/LS63131469
+  wta: E. Alexandra d T. Clara 6-3,2-6,7-6(13) | Round of 128 match of US Open 2025. Stats, head-to-head and scores.
+
+line 123 :: - 1st Round, l. Emiliana Arango 0-6, 6-2, 3-6
+  https://www.wtatennis.com/tournaments/roland-garros/scores/LS60736223
+  wta: A. Emiliana d E. Alexandra 0-6,6-2,3-6 | Round of 128 match of Roland Garros 2025. Stats, head-to-head and scores.
+
+line 131 :: - 1st Round, l. Jelena Ostapenko/Sofia Kenin 6-3, 3-6, 1-6
+  https://www.wtatennis.com/tournaments/wimbledon/scores/LD72362771
+  wta: The official website of the Women's Tennis Association. Rankings, live scores and more!
+
+line 137 :: - 1st Round, l. Shuko Aoyama/Magda Linette 6-7(3), 6-2, 3-6
+  https://www.wtatennis.com/tournaments/australian-open/scores/LD67893812
+  wta: Aoyama, Shuko / Linette, Magda d Eala, Alexandra / Martins, Ingrid 6(7)-7,6-2,3-6 | Round of 64 match of Australian Open 2026. Stats, head-to-head and scores.
+
+line 142 :: - 1st Round, l. Quinn Gleason/Ingrid Martins 4-6, 2-6
+  https://www.wtatennis.com/tournaments/wimbledon/scores/LD61641892
+  wta: Gleason, Quinn / Martins, Ingrid d Eala, Alexandra / Lys, Eva 6-4,6-2 | Round of 64 match of The Championships, Wimbledon 2025. Stats, head-to-head and scores.
+
+line 147 :: - 2nd Round, l. Olga Danilovic/Anastasia Potapova 1-6, 3-6
+  https://www.wtatennis.com/tournaments/roland-garros/scores/LD60707893
+  wta: Danilovic, Olga / Potapova, Anastasia d Eala, Alexandra / Zarazua, Renata 6-1,6-3 | Round of 32 match of Roland Garros 2025. Stats, head-to-head and scores.
+
+line 148 :: - 1st Round, d. Emily Appleton/Yvonne Cavalle-Reimers 7-5, 6-4
+  https://www.wtatennis.com/tournaments/roland-garros/scores/LD60813525
+  wta: Eala, Alexandra / Zarazua, Renata d Appleton, Emily / Cavalle-Reimers, Yvonne 7-5,6-4 | Round of 64 match of Roland Garros 2025. Stats, head-to-head
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm checking the score accuracy against the tracker using the Eala-first rule and finding a discrepancy in the US Open R1 match between Eala and Tauson—the WTA lists the tiebreak as 7-6(13) while the tracker shows 7-6(11), and I'm trying to clarify what the tiebreak notation actually means.
+
+I'm also spotting name errors: Lea Naef should be Céline Naef, and there's uncertainty around whether the player listed as Laura Pigato is actually Lisa Pigato, the well-known Italian player.
+
+Continuing through the list, I'm finding more discrepancies—Anastasia Panova is actually Alexandra, Anastasia Piter should be Katarzyna, and several other entries have incorrect first names where the tracker shows initials that don't match the full names listed. For instance, Destanee McPhee is actually Kaylah McPhee, and there's a walkover entry at Ningbo R16 that needs verification against the WTA records.
+
+Now I'm checking the actual match scores against the tracker data. The first entry shows WTA reporting 6-3, 2-6, 7-6(13) but the tracker has 7-6(11) in the final set—that's a mismatch. Then there's a confusing entry where the score format seems reversed or the winner/loser designation is unclear, with Arango defeating Eala but the games listed don't align with that result.
+
+Moving through the rest of the matches, most of them check out correctly against the tracker: Eala's win over Sasnovich, several matches with consistent 6-4, 6-3 and 6-0, 6-2 scorelines, a retirement match, and continuing down the list. Checking more match results and verifying the tracker data against the descriptions, particularly for doubles matches where the winner's score is listed first and I need to flip it to get Eala's perspective. Set 1 is definitely wrong in the tracker — Eala/Gauff lost 5-7, but the tracker shows them winning 7-5. Looking at the other matches: L326 and L327 check out, but L331 has the same issue where the tracker reversed the first set score for Eala/Gauff against Errani/Paolini. Continuing to verify the score flips across more matches, checking entries like Swiatek vs Eala, Vondrousova vs Eala, and others to ensure the reversal logic is working correctly throughout the dataset. The WTA format uses parentheses to denote the losing side's tiebreak points, so "6(7)-7" means 6-7 where the loser scored 7 in the tiebreak. The tracker shows (3) while WTA shows (7) for the tiebreak score, so I need to verify which is correct on the actual page. Continuing to verify the remaining scores and links — I've confirmed a few more matches, but there are still several issues to track down: the tiebreak discrepancy at line 108, the Australian Open doubles set-1 tiebreak conflict at line 137, a broken Wimbledon 2026 WTA doubles link, and a couple of flipped sets. I also need to verify the first names for Grant and Pigato, and check whether those US Open and Roland-Garros links are actually working despite their title issues.
+
+Let me start by pulling the WTA score page for that US Open match and checking the actual tiebreak, then work through the Australian Open doubles page, the Roland-Garros 2025 matches, and hunt down the correct Wimbledon 2026 doubles link.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Score cross-check surfaced real discrepancies. Let me resolve the last few ambiguous ones.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; node ctx.mjs &#34;https://www.wtatennis.com/tournaments/us-open/scores/LS63131469&#34; &#34;7-6&#34; &#34;tiebreak&#34; &#34;15-13&#34;; sleep 3; node ctx.mjs &#34;https://ausopen.com/match/2026-alexandra-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-wd126&#34; &#34;Aoyama&#34; &#34;Eala&#34;; sleep 3; node ctx.mjs &#34;https://www.rolandgarros.com/en-us/matches/2025/SD078&#34; &#34;Arango&#34; &#34;Eala&#34;</summary>
+```bash
+cd /tmp && node ctx.mjs "https://www.wtatennis.com/tournaments/us-open/scores/LS63131469" "7-6" "tiebreak" "15-13"; sleep 3; node ctx.mjs "https://ausopen.com/match/2026-alexandra-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-wd126" "Aoyama" "Eala"; sleep 3; node ctx.mjs "https://www.rolandgarros.com/en-us/matches/2025/SD078" "Arango" "Eala"
+```
+
+```
+https://www.wtatennis.com/tournaments/us-open/scores/LS63131469 200
+ 7-6: name="description" content="E. Alexandra d T. Clara 6-3,2-6,7-6
+     itter:description" content="E. Alexandra d T. Clara 6-3,2-6,7-6
+     y="og:description" content="E. Alexandra d T. Clara 6-3,2-6,7-6
+ tiebreak: (not found)
+ 15-13: (not found)
+https://ausopen.com/match/2026-alexandra-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-wd126 200
+ Aoyama: x3A;"I.&#x20;Martins"&#x7D;,&#x7B;"playerOne"&#x3A;"S.&#x20;Aoyama
+     &#x23;x2F&#x3B;Eala&amp;&#x23;x20&#x3B;v&amp;&#x23;x20&#x3B;Aoyama
+ Eala: D;,"teamDoubles"&#x3A;&#x5B;&#x7B;"playerOne"&#x3A;"A.&#x20;Eala
+     mp;quot&#x3B;Martins&amp;&#x23;x5C&#x3B;&amp;&#x23;x2F&#x3B;Eala
+https://www.rolandgarros.com/en-us/matches/2025/SD078 200
+ Arango: ft-rg-site/245abf06-0851-498a-a4a5-cee2ac6ac7a2_20240305_PJ_Arango
+     astName:"ARANGO",shortName:"E.ARANGO",shortNameLowercase:"E.Arango
+     -site\u002F245abf06-0851-498a-a4a5-cee2ac6ac7a2_20240305_PJ_Arango
+ Eala: a",lastName:"EALA",shortName:"A.EALA",shortNameLowercase:"A.Eala
+     ,buttonStyle:c,externalLink:b}],news:[{title:"ATP\u002FWTA: Eala
+     Getty Images North America\"\u003E\u003Cimg alt=\"Alexandra Eala
+      Photocall trophée - WTA 500 Washington\" title=\"Alexandra Eala
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The Roland Garros link checks out fine. Australian Open women's doubles entry is valid too. I'm noticing a discrepancy with the US Open tiebreak score—my display window shows it truncated at 7-6, but the full description indicates 7-6(13) for the WTA side while the tracker shows 7-6(11), so I should verify which is correct through a search since this is a featured match. I also still need to pull the Australian Open doubles set information.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Alex Eala def Clara Tauson US Open 2025 first round score third set tiebreak 7-6"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Alexandra Eala def. Clara Tauson, 2025 US Open First Round | TennisDB](https://tennis-db.com/wta/matches/balldontlie_wta:334002/alexandra-eala-vs-clara-tauson)\n2. [With the crowd rallying behind her, Eala makes tennis history for the Philippines](https://www.wtatennis.com/news/4349424/with-the-crowd-rallying-behind-her-eala-makes-tennis-history-for-the-philippines)\n3. [Eala upsets Tauson at US Open; 1st from Philippines to win major match - ESPN](https://www.espn.com/tennis/story/_/id/46065849/alexandra-eala-upsets-clara-tauson-us-open-becoming-first-player-philippines-win-major-match)\n4. [US Open 2025 results: Alexandra Eala makes history at US Open with win over Clara Tauson - and is 'in the mood for more' - BBC Sport](https://www.bbc.com/sport/tennis/articles/c04ryqwrw1xo)\n\nSynthesis:\nIn the first round of the 2025 US Open, Alexandra Eala defeated Clara Tauson with a final score of 6-3, 2-6, 7-6(11) [1][2][3]. The third-set tiebreak ended with a score of 13-11 [4][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala def. Clara Tauson, 2025 US Open First Round | TennisDB\u003c/title\u003e\n\u003curl\u003ehttps://tennis-db.com/wta/matches/balldontlie_wta:334002/alexandra-eala-vs-clara-tauson\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala def. Clara Tauson, 2025 US Open First Round | TennisDB\n\nSite data updated: 2026-07-06 22:30 UTC\n\n# Alexandra Eala#65 def. Clara Tauson#19\n\n6-3 2-6 7-6(11)\n\n## Match Information\n\n| Date | Aug 24, 2025 |\n| --- | --- |\n| Tournament | US Open |\n| Category | Grand Slam |\n| Surface | Hard |\n| Round | R128 |\n| Winner | Alexandra Eala |\n| Score | 6-3 2-6 7-6(11) |\n| Loser | Clara Tauson |\n\nNo match stats are available for this match.\n\n## Pre-match Comparison\n\n| Field | Alexandra Eala | Clara Tauson |\n| --- | --- | --- |\n| Country | PHI | DEN |\n| Birth date | — | Dec 21, 2002 |\n| Age | — | 22 |\n| Height
+… (output truncated)
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The tracker's notation of 7-6(11) is correct based on WTA's own reporting, while their page description showing 7-6(13) appears to be an inconsistency in how they handle the loser's tiebreak score. Moving on to the Australian Open results.
+
+For the doubles match, the WTA description "6(7)-7" with the parenthetical next to Eala's score indicates she scored 7 points in the tiebreak, making it 9-7, not 6-7(3) as the tracker shows. Since the description lists Eala's scores first despite naming the winners first, the tracker's 6-7(3) appears to be incorrect and should be 6-7(7). I need to verify this against the Australian Open page and then check the Wimbledon results.
+
+Now I'm running parallel searches for the 2026 Australian Open doubles score, the 2026 Wimbledon doubles result with Bartunkova, and the Rome 2025 match details for Grant and Pigato.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Eala Martins vs Aoyama Linette Australian Open 2026 women's doubles first round score tiebreak"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [2026 Australian Open: Alexandra Eala, Ingrid Martins beaten in first round of women's doubles](https://www.olympics.com/en/news/2026-australian-open-alexandra-eala-ingrid-martins-beaten-first-round-womens-doubles)\n2. [Eala/Martins vs. Aoyama/Linette | Round of 64 Australian Open 2026 | WTA Official](https://www.wtatennis.com/tournaments/australian-open/scores/LD67893812)\n3. [Australian Open Women's Doubles: Alexandra Eala, Ingrid Martins vs. Shuko Aoyama, Magda Linette - Yahoo Sports](https://sports.yahoo.com/tennis/2026/australian-open/womens-doubles/eala-martins-aoyama-linette-15747787/)\n\nSynthesis:\nIn the first round of the 2026 Australian Open women's doubles, Shuko Aoyama and Magda Linette defeated Alexandra Eala and Ingrid Martins with a final score of 7-6(3), 2-6, 6-3 [1][2]. The tiebreak in the first set was won by Aoyama and Linette with a score of 7-3 [1][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003e2026 Australian Open: Alexandra Eala, Ingrid Martins beaten in first round of women's doubles\u003c/title\u003e\n\u003curl\u003ehttps://www.olympics.com/en/news/2026-australian-open-alexandra-eala-ingrid-martins-beaten-first-round-womens-doubles\u003c/url\u003e\n\u003ccontent\u003e2026 Australian Open: Alexandra Eala, Ingrid Martins beaten in first round of women's doubles\n...\n# 2026 Australian Open: Alexandra Eala and partner Ingrid Martins beaten in first round of women's doubles\n...\nEala and Martins were defeated over three sets by Magda Linette and Aoyama Shuko on Tuesday (20 January).\n...\nAlexandra Eala and Ingrid Martins are out of the 2026 Australian Open, following a closely contested defeat on Tuesday evening (20 January).\n...\nDespite a strong start to their women’s doubles campaign on court 14, the pair fell to Magda Linette and Aoyama Shuko– 6-7(3), 6-2, 3-6.\n...\nEala/Martins were in cruise control of the first set, leading 4-0 at one point. L
+… (output truncated)
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The tracker's notation for the AO doubles match is correct, and WTA's inconsistent parenthetical convention doesn't affect that. I'm noticing WTA recorded Tauson's match as 7-6(13) when it should be 7-6(11), but the tracker has it right.
+
+Now I'm working through the Guangzhou and Rome matches to figure out whether WTA's score descriptions list them in winner-first order or by draw position. For Guangzhou L325, the description shows Piter/Tjen defeating Eala/Kichenok 6-7(4), 6-3, 1-0(5), but the tracker has Eala-first as 6-7(4), 3-6, 5-10. If the description numbers were Eala-first, set 2 would read 6-3 for Eala winning, which contradicts the tracker. So the description might actually be listing scores in winner-first order here, which would make Eala-first 7-6(4), 3-6, 5-10 — but that doesn't match the tracker either. So the WTA descriptions don't consistently follow a winner-first or loser-first pattern—they're organized by draw side instead. This means for Guangzhou, if I interpret the numbers as Eala-first, I get 7-6(4), 3-6, 5-10, but the tracker shows 6-7(4), which contradicts that reading.
+
+For Rome QF, the description "Errani/Paolini d. Eala/Gauff 7-5, 3-6, 1-0(7)" appears to be winner-first since Errani/Paolini won the match. That gives them 7-5, 3-6, 1-0(7), while Eala/Gauff would have 5-7, 6-3, 7-10. The tracker shows 7-5, 3-6, 7-10, which has the first two sets flipped relative to the Eala-first interpretation. I should double-check this against available match records to confirm.
+
+I also need to find Grant and Pigato's first names, plus locate the Wimbledon 2026 doubles draw link.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Eala Kichenok vs Piter Tjen Guangzhou 2025 doubles semifinal score"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Alex Eala exits Guangzhou short of first career WTA doubles final](https://www.rappler.com/sports/tennis-match-results-alex-eala-wta-guangzhou-open-doubles-semifinal-october-25-2025/)\n2. [Alex Eala, Kichenok denied spot in Guangzhou doubles final](https://tiebreakertimes.com.ph/tbt/alex-eala-kichenok-denied-spot-in-guangzhou-doubles-final/353476)\n3. [Katarzyna Piter/Janice Tjen vs. Alexandra Eala/Nadiya Kichenok 25.10.2025 - Guangzhou Open - Guangzhou | TennisLive.com](https://www.tennislive.net/wta/match/katarzyna-piter-janice-tjen-VS-alexandra-eala-nadiya-kichenok/guangzhou-open-guangzhou-2025/)\n4. [Piter/Tjen vs. Eala/Kichenok | Semifinals Guangzhou Open 2025 | WTA Official](https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD002)\n5. [K. Piter / J. Tjen - A. Eala / N. Kichenok: Meeting protocol 25-10-2025](https://escore.com/en/en/game/katarzyna-piter-janice-tjen-alexandra-eala-nadiia-kichenok/318175/summary)\n\nSynthesis:\nKatarzyna Piter and Janice Tjen defeated Alexandra Eala and Nadiia Kichenok in the 2025 Guangzhou Open doubles semifinals with a score of 6-7(4), 6-3, 10-5 [1][2][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala exits Guangzhou short of first career WTA doubles final\u003c/title\u003e\n\u003curl\u003ehttps://www.rappler.com/sports/tennis-match-results-alex-eala-wta-guangzhou-open-doubles-semifinal-october-25-2025/\u003c/url\u003e\n\u003ccontent\u003eAlex Eala's much-needed winning run in the WTA Guangzhou doubles action comes to a heartbreaking end as she and her Ukrainian partner blow a first-set lead in a three-frame knockout semifinal loss\n...\nMANILA, Philippines – In yet another heartbreaking three-set affair, weary Filipina tennis star Alex Eala bowed out of the WTA Guangzhou Open doubles tournament as the Polish-Indonesian pair of Katarzyna Piter and Janice Tjen rolled to a 6-7(4), 6-3, 10-5 final-clinching win on Satu
+… (output truncated)
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm checking the Guangzhou SF match result—the tracker has the score reversed, showing 6-7(4) when it should be 7-6(4) in the first set. Moving on to the Rome 2025 quarterfinals doubles match where Errani and Paolini defeated Eala and Gauff, but the tracker's data appears incomplete or cut off mid-entry.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Eala Gauff vs Errani Paolini Rome 2025 doubles quarterfinal score sets"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Sara Errani/Jasmine Paolini vs. Alexandra Eala/Cori Gauff 14.05.2025 - Internazionali BNL d'Italia - Rome | TennisLive.com](https://www.tennislive.net/wta/match/sara-errani-jasmine-paolini-VS-alexandra-eala-cori-gauff/internazionali-bnl-ditalia-rome-2025/)\n2. [Eala-Gauff tandem bows to Errani-Paolini duo in three sets - BusinessWorld Online](https://bworldonline.com/sports/2025/05/15/672778/eala-gauff-tandem-bows-to-errani-paolini-duo-in-three-sets/)\n3. [Alex Eala, Coco Gauff fall to Sara Errani, Jasmine Paolini in Italian Open quarters | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/946216/alex-eala-coco-gauff-fall-to-sara-errani-jasmine-paolini-in-italian-open-quarters/story/?amp=)\n4. [Errani/Paolini vs. Eala/Gauff | Quarterfinals Internazionali BNL d'Italia 2025 | WTA Official](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD005)\n5. [S. Errani / J. Paolini - A. Eala / C. Gauff: Meeting protocol 14-05-2025](https://escore.com/en/en/game/sara-errani-jasmine-paolini-alexandra-eala-coco-gauff/194743/summary)\n\nSynthesis:\nIn the 2025 Italian Open doubles quarterfinals held on May 14, 2025, Sara Errani and Jasmine Paolini defeated Alexandra Eala and Coco Gauff with a final score of 7-5, 3-6, 10-7 [1][2][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eSara Errani/Jasmine Paolini vs. Alexandra Eala/Cori Gauff 14.05.2025 - Internazionali BNL d'Italia - Rome | TennisLive.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennislive.net/wta/match/sara-errani-jasmine-paolini-VS-alexandra-eala-cori-gauff/internazionali-bnl-ditalia-rome-2025/\u003c/url\u003e\n\u003ccontent\u003e| 14.05.25 | 1/4 | Sara Errani/Jasmine Paolini | Alexandra Eala/Cori Gauff | 7-5, 3-6, 10-7 | Rome | Clay |\n| --- | --- | --- | --- | --- | --- | --- |\n...\n| 1 |\n| --- |\n...\n| Sara Errani/Jasmine Paolini | 0-0 |\n| 0-0, 15-0, 30-0, 40-0, 40-15 |\n| 1-0 | Alexandra Eala
+… (output truncated)
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I've confirmed the Rome quarterfinal score was 5-7, 6-3, 7-10, which contradicts what the tracker shows. I also verified that Tyra Caterina Grant and Lisa Pigato played in the Rome round of 16. Now I need to track down the Wimbledon 2026 doubles link since that WTA ID appears to be dead, and I should double-check the score for that entry.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Eala Bartunkova Wimbledon 2026 women's doubles first round Ostapenko Kenin result"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Alex Eala, Nikola Bartunkova fall to Jelena Ostapenko, Sofia Kenin in Wimbledon doubles | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/993583/alex-eala-nikola-bartunkova-fall-to-jelena-ostapenko-sofia-kenin-in-wimbledon-doubles/story/)\n2. [Alex Eala, partner Nikola Bartunkova fall in Wimbledon doubles](https://sports.inquirer.net/684519/alex-eala-partner-nikola-bartunkova-fall-in-wimbledon-doubles)\n3. [Kenin / Ostapenko vs Bartůňková / Eala 3-6 6-3 6-1 — Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Doubles)](https://mungomash.com/sports/tennis/wimbledon-2026/matches/womens-doubles/2026-07-02-kenin-bartunkova/)\n4. [Eala, partner suffer early exit in Wimbledon doubles | Philstar.com](https://www.philstar.com/sports/2026/07/03/2539550/eala-partner-suffer-early-exit-wimbledon-doubles)\n\nSynthesis:\nAlex Eala and Nikola Bartunkova lost to Jelena Ostapenko and Sofia Kenin in the first round of the 2026 Wimbledon women's doubles tournament [1][2]. The final score was 3-6, 6-3, 6-1 in favor of Ostapenko and Kenin [3][4]. Despite a strong start where Eala and Bartunkova took the first set, the eighth-seeded duo of Ostapenko and Kenin secured the comeback victory in one hour and 53 minutes [1][5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala, Nikola Bartunkova fall to Jelena Ostapenko, Sofia Kenin in Wimbledon doubles | GMA News Online\u003c/title\u003e\n\u003curl\u003ehttps://www.gmanetwork.com/news/sports/othersports/993583/alex-eala-nikola-bartunkova-fall-to-jelena-ostapenko-sofia-kenin-in-wimbledon-doubles/story/\u003c/url\u003e\n\u003ccontent\u003eAlex Eala, Nikola Bartunkova fall to Jelena Ostapenko, Sofia Kenin in Wimbledon doubles | GMA News Online\n...\nAlexandra \"Alex\" Eala and Nikola Bartunkova bowed out of the Wimbledon women's doubles tournament after falling to the tandem of Jelena Ostapenko and Sofia Kenin, 3-6, 6-3, 6-1
+… (output truncated)
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I've confirmed the Wimbledon 2026 doubles score is correct, but the WTA link ID isn't working—it just redirects to the homepage. Looking at the singles match pattern from that tournament, I can see the ID format uses LS72362772 for R1, so I'm trying to find the right adjacent ID for the doubles match instead of the one I initially guessed.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "wtatennis.com \"tournaments/wimbledon/scores\" Kenin Ostapenko Bartunkova Eala 2026 doubles match centre"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Wimbledon 2026: Alex Eala and Nikola Bartůňková beaten in doubles first round by Sofia Kenin and Jeļena Ostapenko](https://www.olympics.com/en/news/wimbledon-2026-eala-bartunkova-kenin-ostapenko-doubles-round-one)\n2. [Marcinko vs. Kenin | Round of 128 The Championships, Wimbledon 2026 | WTA Official](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362762)\n3. [Dolehide/Kenin vs. Chan/Krejcikova | Round of 16 The Championships, Wimbledon 2025 | WTA Official](https://www.wtatennis.com/tournaments/wimbledon/scores/LD61463577)\n\nSynthesis:\nIn the first round of the 2026 Wimbledon doubles tournament, Sofia Kenin and Jelena Ostapenko defeated Nikola Bartunkova and Alexandra Eala with a score of 3-6, 6-3, 6-1 [1][2]. The match took place on July 2, 2026 [2][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eWimbledon 2026: Alex Eala and Nikola Bartůňková beaten in doubles first round by Sofia Kenin and Jeļena Ostapenko\u003c/title\u003e\n\u003curl\u003ehttps://www.olympics.com/en/news/wimbledon-2026-eala-bartunkova-kenin-ostapenko-doubles-round-one\u003c/url\u003e\n\u003ccontent\u003eWimbledon 2026: Alex Eala and Nikola Bartůňková beaten in doubles first round by Sofia Kenin and Jeļena Ostapenko\n\n# Wimbledon 2026: Alex Eala and Nikola Bartůňková beaten in doubles first round by Sofia Kenin and Jeļena Ostapenko\n\nThe Filipina tennis star and her 20-year-old Czech teammate were knocked out by the No. 8 seeds at the All England Club on Thursday (2 July).\n\nPicture by Cameron Spencer/Getty Images\n\nBy Olympics.com Updated on 02 July 2026 19:41 GMT+01 min read\n\nAlexandra Eala was unable to secure a second victory of the day at Wimbledon 2026 on Thursday (2 July).\n\nThe Filipina star, fresh off stamping her spot in round three of the singles competition, teamed up with Czechia's Nikola Bartůňková but fell to a 3-6, 6-3, 6-1 defeat to No. 8 seeds Sofia Kenin and Jeļena Os
+… (output truncated)
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The search didn't turn up the exact doubles URL, so rather than risk hammering WTA with ID guesses, I'll flag this and suggest swapping in a verified alternative like wimbledon.com. I could test a wimbledon.com URL pattern, though the skill warns against guessing their slugs either. Another approach would be to pull the WTA Wimbledon 2026 doubles draw page and search it for Bartun.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; curl -sS -A &#34;Mozilla/5.0 (X11; Linux x86_64) Chrome/126&#34; &#34;https://www.wtatennis.com/tournaments/wimbledon/scores&#34; -o w1.html -w &#34;%{http_code}\n&#34; &amp;&amp; grep -oE &#39;LD7[0-9]{7}&#39; w1.html | sort -u | head -20; echo &#34;--- bartunkova refs ---&#34;; grep -oiE &#39;.{80}bartunkova&#39; w1.html | head -5</summary>
+```bash
+cd /tmp && curl -sS -A "Mozilla/5.0 (X11; Linux x86_64) Chrome/126" "https://www.wtatennis.com/tournaments/wimbledon/scores" -o w1.html -w "%{http_code}\n" && grep -oE 'LD7[0-9]{7}' w1.html | sort -u | head -20; echo "--- bartunkova refs ---"; grep -oiE '.{80}bartunkova' w1.html | head -5
+```
+
+```
+200
+LD72320696
+LD72320698
+LD72320700
+LD72320702
+LD72320704
+LD72320706
+LD72320708
+LD72320710
+LD72320712
+LD72320714
+LD72320716
+LD72320718
+LD72320720
+LD72320722
+LD72320724
+LD72320726
+LD72320728
+LD72320730
+LD72320732
+LD72320734
+--- bartunkova refs ---
+ss="match-table__player match-table__player--link" href="/players/721779/nikola-bartunkova
+f 128 The Championships, Wimbledon 2026 | Match Center" aria-label="Stearns vs. Bartunkova
+ss="match-table__player match-table__player--link" href="/players/721779/nikola-bartunkova
+ 64 The Championships, Wimbledon 2026 | Match Center" aria-label="Siniakova vs. Bartunkova
+ss="match-table__player match-table__player--link" href="/players/721779/nikola-bartunkova
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm looking at the scores page which has doubles match IDs in the LD723207xx format, and I need to find the specific one for the Kenin/Ostapenko versus Bartunkova/Eala match by searching the page's aria-labels.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; grep -oiE &#39;href=&#34;[^&#34;]*LD7[0-9]{7}[^&#34;]*&#34;[^&gt;]*&#39; w1.html | head -3; echo &#34;=== pair labels ===&#34;; grep -oiE &#39;aria-label=&#34;[^&#34;]*(Bartunkova/Eala|Eala/Bartunkova|Kenin/Ostapenko|Ostapenko/Kenin)[^&#34;]*&#34;&#39; w1.html | sort -u; echo &#34;=== context ===&#34;; grep -oE &#39;.{200}(Eala/Bartunkova|Bartunkova/Eala)&#39; w1.html | head -3</summary>
+```bash
+cd /tmp && grep -oiE 'href="[^"]*LD7[0-9]{7}[^"]*"[^>]*' w1.html | head -3; echo "=== pair labels ==="; grep -oiE 'aria-label="[^"]*(Bartunkova/Eala|Eala/Bartunkova|Kenin/Ostapenko|Ostapenko/Kenin)[^"]*"' w1.html | sort -u; echo "=== context ==="; grep -oE '.{200}(Eala/Bartunkova|Bartunkova/Eala)' w1.html | head -3
+```
+
+```
+href="/tournaments/wimbledon/scores/LD72366236"
+href="/tournaments/wimbledon/scores/LD72366242"
+href="/tournaments/wimbledon/scores/LD72477024"
+=== pair labels ===
+aria-label="Bartunkova/Eala vs. Kenin/Ostapenko | Round of 64 The Championships, Wimbledon 2026 | Match Center"
+aria-label="Detiuc/Khromacheva vs. Kenin/Ostapenko | Round of 32 The Championships, Wimbledon 2026 | Match Center"
+=== context ===
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; python3 - &lt;&lt;&#39;EOF&#39;
+import re
+h=open(&#39;w1.html&#39;,encoding=&#39;utf-8&#39;,errors=&#39;ignore&#39;).read()
+i=h.find(&#39;Bartunkova/Eala vs. Kenin/Ostapenko&#39;)
+seg=h[max(0,i-3000):i+500]
+print(sorted(set(re.findall(r&#39;LD7\d{7}&#39;,seg))))
+EOF</summary>
+```bash
+cd /tmp && python3 - <<'EOF'
+import re
+h=open('w1.html',encoding='utf-8',errors='ignore').read()
+i=h.find('Bartunkova/Eala vs. Kenin/Ostapenko')
+seg=h[max(0,i-3000):i+500]
+print(sorted(set(re.findall(r'LD7\d{7}',seg))))
+EOF
+```
+
+```
+['LD72366244']
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; node ctx.mjs &#34;https://www.wtatennis.com/tournaments/wimbledon/scores/LD72366244&#34; &#34;og:description&#34; &#34;Bartunkova&#34;</summary>
+```bash
+cd /tmp && node ctx.mjs "https://www.wtatennis.com/tournaments/wimbledon/scores/LD72366244" "og:description" "Bartunkova"
+```
+
+```
+https://www.wtatennis.com/tournaments/wimbledon/scores/LD72366244 200
+ og:description: (not found)
+ Bartunkova: e="description" content="Kenin, Sofia / Ostapenko, Jelena d Bartunkova
+     er:description" content="Kenin, Sofia / Ostapenko, Jelena d Bartunkova
+     og:description" content="Kenin, Sofia / Ostapenko, Jelena d Bartunkova
+     atus":"Finished","match_type":"Grand Slam","match_players":"Bartunkova
+     e Championships, Wimbledon 2026 | Match Center" aria-label="Bartunkova
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I found the correct link for that entry. Now I'm weighing whether to try replacing the 32 dead tennis.com links or remove them entirely — some of those URLs have simply disappeared from the site, so rather than speculate on replacements, it makes sense to just remove the dead ones and keep the WTA link that still works. Since the user asked me to verify the links, I should report what I found and make the fix.
+
+Looking at the dead links more closely, I notice a pattern: some appear to be walkovers that never had match pages, while others might have had their URLs changed or dates shifted. A few Miami 2025 matches do have working pages on tennis.com, but many from that tournament are gone entirely. I could try correcting the dates in the slugs to see if that resolves them, but that's getting into guesswork territory.
+
+The user asked me to verify links without hammering the sites, so I should focus on reporting the dead ones and fixing the obvious errors rather than attempting a full date-correction campaign. Let me test a couple of samples first to see if a date shift actually helps — that's a cheap way to check if it's worth pursuing further. Looking at Eala's Miami run, the Keys match was likely March 23 or 24, not the 24th that's currently in the slug.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; for u in &#34;m-keys-vs-a-eala-2025-03-23&#34; &#34;a-eala-vs-m-keys-2025-03-24&#34; &#34;j-ostapenko-vs-a-eala-2025-03-21&#34; &#34;k-volynets-vs-a-eala-2025-03-19&#34;; do printf &#34;%s -&gt; &#34; &#34;$u&#34;; curl -sS -A &#34;Mozilla/5.0 (X11; Linux x86_64) Chrome/126&#34; &#34;https://www.tennis.com/tournaments/miami-open/matches/$u&#34; | grep -oiE &#39;&lt;title&gt;[^&lt;]*&lt;/title&gt;&#39;; sleep 3; done</summary>
+```bash
+cd /tmp && for u in "m-keys-vs-a-eala-2025-03-23" "a-eala-vs-m-keys-2025-03-24" "j-ostapenko-vs-a-eala-2025-03-21" "k-volynets-vs-a-eala-2025-03-19"; do printf "%s -> " "$u"; curl -sS -A "Mozilla/5.0 (X11; Linux x86_64) Chrome/126" "https://www.tennis.com/tournaments/miami-open/matches/$u" | grep -oiE '<title>[^<]*</title>'; sleep 3; done
+```
+
+```
+m-keys-vs-a-eala-2025-03-23 -> <title>Madison Keys vs Alexandra Eala · ATP/WTA Miami</title>
+a-eala-vs-m-keys-2025-03-24 -> <title>Match not found</title>
+j-ostapenko-vs-a-eala-2025-03-21 -> <title>Match not found</title>
+k-volynets-vs-a-eala-2025-03-19 -> <title>Match not found</title>
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I've confirmed the issue is a date mismatch—one slug works when I adjust the date by a day. I need to fetch the WTA pages for each dead link to extract the actual match dates from the "Start Time" field, then use those to construct the correct tennis.com URLs.
+
+I'm weighing the approach: I could try date±1 variations directly on tennis.com (cheaper, single host but aggressive), or fetch WTA pages first to get authoritative dates, then verify once on tennis.com (more requests but cleaner, alternating hosts). The second approach is better—around 75-150 seconds total with proper pacing. Let me write the script to extract dates from the WTA HTML and test it on one page.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Dead links are date-shifted slugs, not removed pages. Let me pull the real match dates from WTA and rebuild the tennis.com URLs.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; node -e &#39;
+const UA=&#34;Mozilla/5.0 (X11; Linux x86_64) Chrome/126&#34;;
+const r=await fetch(&#34;https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS028&#34;,{headers:{&#34;user-agent&#34;:UA}});
+const h=await r.text();
+for(const p of [/&#34;match(?:_date|Date|Time)?[^&#34;]*&#34;:&#34;([^&#34;]{4,40})&#34;/g, /\b(20\d\d-\d\d-\d\dT[0-9:]+)/g, /(Mon|Tue|Wed|Thu|Fri|Sat|Sun) \d\d [A-Z][a-z]{2} 20\d\d/g]) {
+  console.log([...new Set([...h.matchAll(p)].map(m=&gt;m[0]))].slice(0,8));
+}&#39;</summary>
+```bash
+cd /tmp && node -e '
+const UA="Mozilla/5.0 (X11; Linux x86_64) Chrome/126";
+const r=await fetch("https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS028",{headers:{"user-agent":UA}});
+const h=await r.text();
+for(const p of [/"match(?:_date|Date|Time)?[^"]*":"([^"]{4,40})"/g, /\b(20\d\d-\d\d-\d\dT[0-9:]+)/g, /(Mon|Tue|Wed|Thu|Fri|Sat|Sun) \d\d [A-Z][a-z]{2} 20\d\d/g]) {
+  console.log([...new Set([...h.matchAll(p)].map(m=>m[0]))].slice(0,8));
+}'
+```
+
+```
+[eval]:3
+const r=await fetch("https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS028",{headers:{"user-agent":UA}});
+        ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at new Script (node:vm:94:7)
+    at createScript (node:vm:250:10)
+    at Object.runInThisContext (node:vm:298:10)
+    at node:internal/process/execution:82:21
+    at [eval]-wrapper:6:24
+    at runScript (node:internal/process/execution:81:62)
+    at evalScript (node:internal/process/execution:103:10)
+    at node:internal/main/eval_string:30:3
+
+Node.js v18.19.1
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; cat &gt; probe.mjs &lt;&lt;&#39;EOF&#39;
+const UA=&#34;Mozilla/5.0 (X11; Linux x86_64) Chrome/126&#34;;
+const r=await fetch(&#34;https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS028&#34;,{headers:{&#34;user-agent&#34;:UA}});
+const h=await r.text();
+for (const p of [/&#34;[a-zA-Z_]*[Dd]ate[a-zA-Z_]*&#34;:&#34;?([^&#34;,]{4,40})/g, /20\d\d-\d\d-\d\dT[0-9:]+/g, /(Mon|Tue|Wed|Thu|Fri|Sat|Sun),? \d\d [A-Z][a-z]{2} 20\d\d/g]) {
+  console.log([...new Set([...h.matchAll(p)].map(m=&gt;m[0]))].slice(0,10));
+}
+EOF
+node probe.mjs</summary>
+```bash
+cd /tmp && cat > probe.mjs <<'EOF'
+const UA="Mozilla/5.0 (X11; Linux x86_64) Chrome/126";
+const r=await fetch("https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS028",{headers:{"user-agent":UA}});
+const h=await r.text();
+for (const p of [/"[a-zA-Z_]*[Dd]ate[a-zA-Z_]*":"?([^",]{4,40})/g, /20\d\d-\d\d-\d\dT[0-9:]+/g, /(Mon|Tue|Wed|Thu|Fri|Sat|Sun),? \d\d [A-Z][a-z]{2} 20\d\d/g]) {
+  console.log([...new Set([...h.matchAll(p)].map(m=>m[0]))].slice(0,10));
+}
+EOF
+node probe.mjs
+```
+
+```
+[]
+[]
+[ 'Sun 23 Mar 2025' ]
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The WTA page shows "Sun 23 Mar 2025" which aligns with the working tennis.com date format 2025-03-23. I'm building a repair script that will iterate through each broken tennis.com link, locate its corresponding WTA link on the same line, fetch that page to extract the date, reconstruct the tennis.com URL with the corrected date, and verify it works. I also notice there are some older sr-tournament and sr-match URLs scattered throughout (five in the H2H section) that use an obsolete format and need to be swapped out for the modern sl format instead.
+
+For the H2H entries, I can reuse the working tournament URLs from their corresponding lines — for instance, the Swiatek Miami QF match on line 380 can pull from the working URL on line 284. I've mapped out which lines need which repairs, though Madrid and Montreal require special handling since I need to find their exact tournament slugs first. The script will read through the markdown, identify dead links paired with WTA URLs, fetch the dates, construct and test candidates, then report results, spacing requests across hosts at 2.5-second intervals to avoid overwhelming the servers.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /tmp/repair.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; node repair.mjs 2&gt;&amp;1</summary>
+```bash
+cd /tmp && node repair.mjs 2>&1
+```
+
+```
+line 108,793: date already 2025-08-24, still dead -> https://www.tennis.com/tournaments/us-open/matches/c-tauson-vs-a-eala-2025-08-24
+line 123: date already 2025-05-25, still dead -> https://www.tennis.com/tournaments/roland-garros/matches/e-arango-vs-a-eala-2025-05-25
+line 137 STILL DEAD
+  old https://www.tennis.com/tournaments/australian-open/matches/a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21
+  new https://www.tennis.com/tournaments/australian-open/matches/a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-20
+  Match not found
+line 142: date already 2025-07-03, still dead -> https://www.tennis.com/tournaments/wimbledon/matches/a-eala-e-lys-vs-q-gleason-i-martins-2025-07-03
+line 147 STILL DEAD
+  old https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-olga-danilovic-anastasia-potapova-2025-05-29
+  new https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-olga-danilovic-anastasia-potapova-2025-05-30
+  Match not found
+line 148: date already 2025-05-27, still dead -> https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-emily-appleton-yvonne-cavalle-reimers-2025-05-27
+line 207: date already 2026-02-04, still dead -> https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-a-sasnovich-2026-02-04
+line 208 FIXED
+  old https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-z-sonmez-2026-02-03
+  new https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-z-sonmez-2026-02-02
+  Alexandra Eala vs Zeynep Sönmez · Round 1 · WTA Abu Dhabi
+line 228,654 STILL DEAD
+  old https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-m-linette-2026-01-08
+  new https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-m-linette-2026-01-09
+  Match not found
+line 229 STILL DEAD
+  old https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-p-marcinko-2026-01-08
+  new https://www.tennis.com/tourn
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I've fixed five more entries and spotted another name error where "Lisa Cabrera" should be "Lizette Cabrera" on line 279. About 25 matches are still unresolved, and some might just need their slug names reordered—it looks like tennis.com orders player names by winner in the slug format.
+
+My plan is to test each remaining dead link with swapped player order at the correct WTA date, plus one day before and after. That's roughly 25 requests spread over a minute, which is manageable. If that doesn't work, I'll report the remaining dead links and suggest removing them since the WTA date is still available on every line anyway. Compiling the corrected slugs for the remaining dead links — swapping player names where needed and using the dates I've already identified, so no additional requests required. Continuing through more tournament matches for Eala, including events at Porsche, Internazionali, Abu Dhabi, Hong Kong, Monastir, and Madrid across various years.
+
+I also notice line 279 has Lizette Cabrera listed. Let me run the swap test to verify the data.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Five links repaired by date. Let me test whether the rest are name-order swaps.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /tmp/swap.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; node swap.mjs 2&gt;&amp;1</summary>
+```bash
+cd /tmp && node swap.mjs 2>&1
+```
+
+```
+OK    line 108 Alexandra Eala vs Clara Tauson · US Open :: https://www.tennis.com/tournaments/us-open/matches/a-eala-vs-c-tauson-2025-08-24
+OK    line 123 Alexandra Eala vs Emiliana Arango · French Open :: https://www.tennis.com/tournaments/roland-garros/matches/a-eala-vs-e-arango-2025-05-25
+dead  line 137 Match not found :: https://www.tennis.com/tournaments/australian-open/matches/shuko-aoyama-magda-linette-vs-a-eala-ingrid-martins-2026-01-20
+dead  line 142 Match not found :: https://www.tennis.com/tournaments/wimbledon/matches/q-gleason-i-martins-vs-a-eala-e-lys-2025-07-03
+dead  line 147 Match not found :: https://www.tennis.com/tournaments/roland-garros/matches/olga-danilovic-anastasia-potapova-vs-a-eala-renata-zarazua-2025-05-30
+dead  line 148 Match not found :: https://www.tennis.com/tournaments/roland-garros/matches/emily-appleton-yvonne-cavalle-reimers-vs-a-eala-renata-zarazua-2025-05-27
+OK    line 207 Aliaksandra Sasnovich vs Alexandra Eala · Round 2 · WTA Abu Dhabi :: https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-sasnovich-vs-a-eala-2026-02-04
+OK    line 228 Magda Linette vs Alexandra Eala · Quarterfinal · WTA Auckland :: https://www.tennis.com/tournaments/asb-classic/matches/m-linette-vs-a-eala-2026-01-09
+dead  line 229 Match not found :: https://www.tennis.com/tournaments/asb-classic/matches/p-marcinko-vs-a-eala-2026-01-07
+OK    line 246 Julia Riera vs Alexandra Eala · WTA São Paulo :: https://www.tennis.com/tournaments/sp-open/matches/j-riera-vs-a-eala-2025-09-10
+OK    line 247 Yasmine Mansouri vs Alexandra Eala · WTA São Paulo :: https://www.tennis.com/tournaments/sp-open/matches/y-mansouri-vs-a-eala-2025-09-09
+OK    line 266 Alexandra Eala vs Jeļena Ostapenko · ATP/WTA Eastbourne :: https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/a-eala-vs-j-ostapenko-2025-06-25
+OK    line 285 Alexandra Eala vs Paula Badosa · ATP/WTA Miami :: https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-p-badosa-2025-03-24
+OK 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I've fixed 17 more entries, leaving four doubles slam matches and a couple others still problematic. For the Marcinko entry, I'm checking if the Auckland R16 date might be swapped—the repair script flagged 2026-01-07 as dead while the original had 2026-01-08, so I'm testing whether reversing those dates helps identify the correct match.
+
+For the doubles matches, I'm noticing that tennis.com might not actually host doubles match pages at all—all four dead entries are doubles, and I haven't found any working doubles links in the tracker, so those four might just need to be dropped entirely. I'm running a final small batch of URL variants for the Marcinko and Monastir 2023 entries, testing a couple date possibilities for each.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; cat &gt; last.mjs &lt;&lt;&#39;EOF&#39;
+const c = [
+  [&#34;asb-classic&#34;, &#34;p-marcinko-vs-a-eala-2026-01-08&#34;],
+  [&#34;asb-classic&#34;, &#34;a-eala-vs-p-marcinko-2026-01-06&#34;],
+  [&#34;jasmin-open-monastir&#34;, &#34;e-mertens-vs-a-eala-2023-10-16&#34;],
+  [&#34;jasmin-open-monastir&#34;, &#34;e-mertens-vs-a-eala-2023-10-18&#34;],
+];
+const UA = &#34;Mozilla/5.0 (X11; Linux x86_64) Chrome/126&#34;;
+for (const [t, s] of c) {
+  const u = `https://www.tennis.com/tournaments/${t}/matches/${s}`;
+  const h = await (await fetch(u, { headers: { &#34;user-agent&#34;: UA } })).text();
+  console.log((h.match(/&lt;title[^&gt;]*&gt;([\s\S]*?)&lt;\/title&gt;/i)?.[1] ?? &#34;&#34;).trim(), &#34;::&#34;, u);
+  await new Promise((r) =&gt; setTimeout(r, 2500));
+}
+EOF
+node last.mjs</summary>
+```bash
+cd /tmp && cat > last.mjs <<'EOF'
+const c = [
+  ["asb-classic", "p-marcinko-vs-a-eala-2026-01-08"],
+  ["asb-classic", "a-eala-vs-p-marcinko-2026-01-06"],
+  ["jasmin-open-monastir", "e-mertens-vs-a-eala-2023-10-16"],
+  ["jasmin-open-monastir", "e-mertens-vs-a-eala-2023-10-18"],
+];
+const UA = "Mozilla/5.0 (X11; Linux x86_64) Chrome/126";
+for (const [t, s] of c) {
+  const u = `https://www.tennis.com/tournaments/${t}/matches/${s}`;
+  const h = await (await fetch(u, { headers: { "user-agent": UA } })).text();
+  console.log((h.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? "").trim(), "::", u);
+  await new Promise((r) => setTimeout(r, 2500));
+}
+EOF
+node last.mjs
+```
+
+```
+Petra Marčinko vs Alexandra Eala · Round 2 · WTA Auckland :: https://www.tennis.com/tournaments/asb-classic/matches/p-marcinko-vs-a-eala-2026-01-08
+Match not found :: https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-p-marcinko-2026-01-06
+Match not found :: https://www.tennis.com/tournaments/jasmin-open-monastir/matches/e-mertens-vs-a-eala-2023-10-16
+Match not found :: https://www.tennis.com/tournaments/jasmin-open-monastir/matches/e-mertens-vs-a-eala-2023-10-18
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I've fixed line 229 with the correct match slug, and identified four lines that can't be resolved since those doubles slam pages aren't hosted on tennis.com, plus one Monastir 2023 entry. Now I'm working through the five legacy H2H links that need updating to modern slugs, starting with line 380.
+
+For the remaining ones, I need to verify line 284's tennis.com URL is actually working, then tackle lines 386 and 545 which require finding the correct tournament slugs for Madrid and Montreal on tennis.com — I'll need to fetch those dates from WTA and test the slugs.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; node -e &#39;const d=require(&#34;/tmp/link-report.json&#34;);for(const r of d){if(r.lines.includes(284)||r.lines.includes(283))console.log(r.url,&#34;|&#34;,r.title)}&#39;</summary>
+```bash
+cd /tmp && node -e 'const d=require("/tmp/link-report.json");for(const r of d){if(r.lines.includes(284)||r.lines.includes(283))console.log(r.url,"|",r.title)}'
+```
+
+```
+https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS003 | Pegula vs. Eala | Semifinals Miami Open presented by Itaú 2025 | WTA Official
+https://www.tennis.com/tournaments/miami-open/matches/j-pegula-vs-a-eala-2025-03-28 | Jessica Pegula vs Alexandra Eala · ATP/WTA Miami
+https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS007 | Eala vs. Swiatek | Quarterfinals Miami Open presented by Itaú 2025 | WTA Official
+https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-i-swiatek-2025-03-26 | Alexandra Eala vs Iga Świątek · ATP/WTA Miami
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; cat &gt; srfix.mjs &lt;&lt;&#39;EOF&#39;
+const UA = &#34;Mozilla/5.0 (X11; Linux x86_64) Chrome/126&#34;;
+const sleep = (m) =&gt; new Promise((r) =&gt; setTimeout(r, m));
+const MON={Jan:&#34;01&#34;,Feb:&#34;02&#34;,Mar:&#34;03&#34;,Apr:&#34;04&#34;,May:&#34;05&#34;,Jun:&#34;06&#34;,Jul:&#34;07&#34;,Aug:&#34;08&#34;,Sep:&#34;09&#34;,Oct:&#34;10&#34;,Nov:&#34;11&#34;,Dec:&#34;12&#34;};
+const wta = [
+  [&#34;madrid&#34;, &#34;https://www.wtatennis.com/tournaments/1038/madrid/2025/scores/LS063&#34;],
+  [&#34;montreal&#34;, &#34;https://www.wtatennis.com/tournaments/806/montreal/2025/scores/LS085&#34;],
+];
+const dates = {};
+for (const [k, u] of wta) {
+  const h = await (await fetch(u, { headers: { &#34;user-agent&#34;: UA } })).text();
+  const d = h.match(/(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun),? (\d\d) ([A-Z][a-z]{2}) (20\d\d)/);
+  dates[k] = `${d[3]}-${MON[d[2]]}-${d[1]}`;
+  console.log(k, dates[k]);
+  await sleep(2500);
+}
+const tries = [
+  [&#34;mutua-madrid-open&#34;, `i-swiatek-vs-a-eala-${dates.madrid}`],
+  [&#34;mutua-madrid-open&#34;, `a-eala-vs-i-swiatek-${dates.madrid}`],
+  [&#34;national-bank-open&#34;, `m-vondrousova-vs-a-eala-${dates.montreal}`],
+  [&#34;omnium-banque-nationale&#34;, `m-vondrousova-vs-a-eala-${dates.montreal}`],
+];
+for (const [t, s] of tries) {
+  const u = `https://www.tennis.com/tournaments/${t}/matches/${s}`;
+  const h = await (await fetch(u, { headers: { &#34;user-agent&#34;: UA } })).text();
+  console.log((h.match(/&lt;title[^&gt;]*&gt;([\s\S]*?)&lt;\/title&gt;/i)?.[1] ?? &#34;&#34;).trim(), &#34;::&#34;, u);
+  await sleep(2500);
+}
+EOF
+node srfix.mjs</summary>
+```bash
+cd /tmp && cat > srfix.mjs <<'EOF'
+const UA = "Mozilla/5.0 (X11; Linux x86_64) Chrome/126";
+const sleep = (m) => new Promise((r) => setTimeout(r, m));
+const MON={Jan:"01",Feb:"02",Mar:"03",Apr:"04",May:"05",Jun:"06",Jul:"07",Aug:"08",Sep:"09",Oct:"10",Nov:"11",Dec:"12"};
+const wta = [
+  ["madrid", "https://www.wtatennis.com/tournaments/1038/madrid/2025/scores/LS063"],
+  ["montreal", "https://www.wtatennis.com/tournaments/806/montreal/2025/scores/LS085"],
+];
+const dates = {};
+for (const [k, u] of wta) {
+  const h = await (await fetch(u, { headers: { "user-agent": UA } })).text();
+  const d = h.match(/(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun),? (\d\d) ([A-Z][a-z]{2}) (20\d\d)/);
+  dates[k] = `${d[3]}-${MON[d[2]]}-${d[1]}`;
+  console.log(k, dates[k]);
+  await sleep(2500);
+}
+const tries = [
+  ["mutua-madrid-open", `i-swiatek-vs-a-eala-${dates.madrid}`],
+  ["mutua-madrid-open", `a-eala-vs-i-swiatek-${dates.madrid}`],
+  ["national-bank-open", `m-vondrousova-vs-a-eala-${dates.montreal}`],
+  ["omnium-banque-nationale", `m-vondrousova-vs-a-eala-${dates.montreal}`],
+];
+for (const [t, s] of tries) {
+  const u = `https://www.tennis.com/tournaments/${t}/matches/${s}`;
+  const h = await (await fetch(u, { headers: { "user-agent": UA } })).text();
+  console.log((h.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? "").trim(), "::", u);
+  await sleep(2500);
+}
+EOF
+node srfix.mjs
+```
+
+```
+madrid 2025-04-24
+montreal 2025-07-27
+Match not found :: https://www.tennis.com/tournaments/mutua-madrid-open/matches/i-swiatek-vs-a-eala-2025-04-24
+Alexandra Eala vs Iga Świątek · ATP/WTA Madrid :: https://www.tennis.com/tournaments/mutua-madrid-open/matches/a-eala-vs-i-swiatek-2025-04-24
+Markéta Vondroušová vs Alexandra Eala · WTA Montreal, Canada :: https://www.tennis.com/tournaments/national-bank-open/matches/m-vondrousova-vs-a-eala-2025-07-27
+Markéta Vondroušová vs Alexandra Eala · WTA Montreal, Canada :: https://www.tennis.com/tournaments/omnium-banque-nationale/matches/m-vondrousova-vs-a-eala-2025-07-27
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I've identified all five legacy links that need fixing. The broken tennis.com links require swapping the player names in the URLs—specifically changing the match-up order from Tauson vs Eala to Eala vs Tauson, and Arango vs Eala to Eala vs Arango across the affected lines. Continuing through the remaining match corrections, swapping player order and adjusting dates where needed. 026-04-22`
+23. L380: sr-match → `https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-i-swiatek-2025-03-26`
+24. L386: sr-match → `https://www.tennis.com/tournaments/mutua-madrid-open/matches/a-eala-vs-i-swiatek-2025-04-24`
+25. L523: sr-match → miami m-keys-vs-a-eala-2025-03-23
+26. L545: sr-match → `https://www.tennis.com/tournaments/national-bank-open/matches/m-vondrousova-vs-a-eala-2025-07-27`
+27. L570: sr-match → miami a-eala-vs-j-ostapenko
+
+Continuing to update match URLs and identifiers, now working through the sr-match entries that need full tournament URLs or slug corrections.
+
+Now I'm updating a WTA doubles ID that changed from LD72362771 to LD72366244, removing several broken tennis.com doubles links that don't have working replacements, and fixing player name inconsistencies across the document like correcting Angela Falei to Aliona Falei, Yara Mansouri to Yasmine Mansouri, and standardizing Alexsandra Hartono to Arianne Hartono. Continuing with more name corrections and score adjustments, then reconsidering how to handle Céline Naef's accent — the WTA profile uses "C. Naef" but the skill guidelines say to match WTA spelling with accents preserved, so I'll go with "Celine Naef" to keep it consistent. Ready to start making the edits.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Verification complete. Now applying the fixes: 28 link repairs, 18 opponent-name corrections, and 2 score corrections.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+import re,io
+p=&#39;content/english/blog/alex-eala-pro-career-tracker.md&#39;
+s=open(p,encoding=&#39;utf-8&#39;).read()
+subs=[
+ # link repairs
+ (&#34;tennis.com/tournaments/us-open/matches/c-tauson-vs-a-eala-2025-08-24&#34;,&#34;tennis.com/tournaments/us-open/matches/a-eala-vs-c-tauson-2025-08-24&#34;),
+ (&#34;roland-garros/matches/e-arango-vs-a-eala-2025-05-25&#34;,&#34;roland-garros/matches/a-eala-vs-e-arango-2025-05-25&#34;),
+ (&#34;mubadala-abu-dhabi-open/matches/a-eala-vs-a-sasnovich-2026-02-04&#34;,&#34;mubadala-abu-dhabi-open/matches/a-sasnovich-vs-a-eala-2026-02-04&#34;),
+ (&#34;mubadala-abu-dhabi-open/matches/a-eala-vs-z-sonmez-2026-02-03&#34;,&#34;mubadala-abu-dhabi-open/matches/a-eala-vs-z-sonmez-2026-02-02&#34;),
+ (&#34;asb-classic/matches/a-eala-vs-m-linette-2026-01-08&#34;,&#34;asb-classic/matches/m-linette-vs-a-eala-2026-01-09&#34;),
+ (&#34;asb-classic/matches/a-eala-vs-p-marcinko-2026-01-08&#34;,&#34;asb-classic/matches/p-marcinko-vs-a-eala-2026-01-08&#34;),
+ (&#34;sp-open/matches/a-eala-vs-j-riera-2025-09-10&#34;,&#34;sp-open/matches/j-riera-vs-a-eala-2025-09-10&#34;),
+ (&#34;sp-open/matches/a-eala-vs-y-mansouri-2025-09-08&#34;,&#34;sp-open/matches/y-mansouri-vs-a-eala-2025-09-09&#34;),
+ (&#34;lexus-eastbourne-open/matches/j-ostapenko-vs-a-eala-2025-06-25&#34;,&#34;lexus-eastbourne-open/matches/a-eala-vs-j-ostapenko-2025-06-25&#34;),
+ (&#34;lexus-eastbourne-open/matches/l-bronzetti-vs-a-eala-2025-06-24&#34;,&#34;lexus-eastbourne-open/matches/l-bronzetti-vs-a-eala-2025-06-23&#34;),
+ (&#34;lexus-ilkley-open/matches/a-eala-vs-v-ryser-2025-06-11&#34;,&#34;lexus-ilkley-open/matches/a-eala-vs-v-ryser-2025-06-12&#34;),
+ (&#34;lexus-ilkley-open/matches/a-eala-vs-l-cabrera-2025-06-09&#34;,&#34;lexus-ilkley-open/matches/a-eala-vs-l-cabrera-2025-06-10&#34;),
+ (&#34;miami-open/matches/p-badosa-vs-a-eala-2025-03-25&#34;,&#34;miami-open/matches/a-eala-vs-p-badosa-2025-03-24&#34;),
+ (&#34;miami-open/matches/m-keys-vs-a-eala-2025-03-24&#34;,&#34;miami-open/matches/m-keys-vs-a-eala-2025-03-23&#34;),
+ (&#34;miami-open/matches/j-ostapenko-vs-a-eala-2025-03-22&#34;,&#34;miami-open/matches/a-eala-vs-j-ostapenko-2025-03-21&#34;),
+ (&#34;miami-open/matches/k-volynets-vs-a-eala-2025-03-20&#34;,&#34;miami-open/matches/a-eala-vs-k-volynets-2025-03-19&#34;),
+ (&#34;veneto-open/matches/s-errani-vs-a-eala-2024-06-21&#34;,&#34;veneto-open/matches/a-eala-vs-s-errani-2024-06-21&#34;),
+ (&#34;porsche-tennis-grand-prix/matches/l-fernandez-vs-a-eala-2026-04-14&#34;,&#34;porsche-tennis-grand-prix/matches/a-eala-vs-l-fernandez-2026-04-14&#34;),
+ (&#34;internazionali-bnl-ditalia/matches/m-kostyuk-vs-a-eala-2025-05-07&#34;,&#34;internazionali-bnl-ditalia/matches/a-eala-vs-m-kostyuk-2025-05-07&#34;),
+ (&#34;mubadala-abu-dhabi-open/matches/m-linette-vs-a-eala-2024-02-06&#34;,&#34;mubadala-abu-dhabi-open/matches/a-eala-vs-m-linette-2024-02-06&#34;),
+ (&#34;prudential-hong-kong-tennis-open/matches/v-mboko-vs-a-eala-2025-10-30&#34;,&#34;prudential-hong-kong-tennis-open/matches/a-eala-vs-v-mboko-2025-10-30&#34;),
+ (&#34;mutua-madrid-open/matches/a-eala-vs-a-pavlyuchenkova-2026-04-22&#34;,&#34;mutua-madrid-open/matches/a-pavlyuchenkova-vs-a-eala-2026-04-22&#34;),
+ (&#34;https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906263/&#34;,&#34;https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-i-swiatek-2025-03-26&#34;),
+ (&#34;https://www.tennis.com/tournaments/sr-tournament-2785-madrid-spain/sr-match-59915292/&#34;,&#34;https://www.tennis.com/tournaments/mutua-madrid-open/matches/a-eala-vs-i-swiatek-2025-04-24&#34;),
+ (&#34;https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906303/&#34;,&#34;https://www.tennis.com/tournaments/miami-open/matches/m-keys-vs-a-eala-2025-03-23&#34;),
+ (&#34;https://www.tennis.com/tournaments/sr-tournament-2975-wta-montreal-canada/sr-match-62356318/&#34;,&#34;https://www.tennis.com/tournaments/national-bank-open/matches/m-vondrousova-vs-a-eala-2025-07-27&#34;),
+ (&#34;https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906325/&#34;,&#34;https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-j-ostapenko-2025-03-21&#34;),
+ (&#34;wimbledon/scores/LD72362771&#34;,&#34;wimbledon/scores/LD72366244&#34;),
+ # dead links with no replacement
+ (&#34; | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21)&#34;,&#34;&#34;),
+ (&#34; | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-e-lys-vs-q-gleason-i-martins-2025-07-03)&#34;,&#34;&#34;),
+ (&#34; | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-olga-danilovic-anastasia-potapova-2025-05-29)&#34;,&#34;&#34;),
+ (&#34; | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-emily-appleton-yvonne-cavalle-reimers-2025-05-27)&#34;,&#34;&#34;),
+ (&#34; | [tennis.com](https://www.tennis.com/tournaments/jasmin-open-monastir/matches/e-mertens-vs-a-eala-2023-10-17)&#34;,&#34;&#34;),
+ # opponent name corrections
+ (&#34;d. Angela Falei&#34;,&#34;d. Aliona Falei&#34;),
+ (&#34;d. Yara Mansouri&#34;,&#34;d. Yasmine Mansouri&#34;),
+ (&#34;d. Alexsandra Hartono&#34;,&#34;d. Arianne Hartono&#34;),
+ (&#34;d. Lisa Cabrera&#34;,&#34;d. Lizette Cabrera&#34;),
+ (&#34;l. Sachia Wei&#34;,&#34;l. Sijia Wei&#34;),
+ (&#34;d. Sada Kraus&#34;,&#34;d. Sinja Kraus&#34;),
+ (&#34;d. Giulia Pedone&#34;,&#34;d. Giorgia Pedone&#34;),
+ (&#34;d. Caroline Monnet&#34;,&#34;d. Carole Monnet&#34;),
+ (&#34;Anastasia Piter/Janice Tjen&#34;,&#34;Katarzyna Piter/Janice Tjen&#34;),
+ (&#34;Polina Kudermetova/Kamila Rakhimova&#34;,&#34;Polina Kudermetova/Kamilla Rakhimova&#34;),
+ (&#34;Angelina Grant/Laura Pigato&#34;,&#34;Tyra Caterina Grant/Lisa Pigato&#34;),
+ (&#34;Anastasia Panova/Fanny Stollar&#34;,&#34;Alexandra Panova/Fanny Stollar&#34;),
+ (&#34;Giuliana Olmos/Anastasia Panova&#34;,&#34;Giuliana Olmos/Alexandra Panova&#34;),
+ (&#34;Anastasia Piter/Fanny Stollar&#34;,&#34;Katarzyna Piter/Fanny Stollar&#34;),
+ (&#34;Katarzyna Falkowska/Maja Kubka&#34;,&#34;Weronika Falkowska/Martyna Kubka&#34;),
+ (&#34;Destanee McPhee/Astra Sharma&#34;,&#34;Kaylah McPhee/Astra Sharma&#34;),
+ (&#34;Anna Bondar/Lea Naef&#34;,&#34;Anna Bondar/Celine Naef&#34;),
+ # score corrections
+ (&#34;l. Katarzyna Piter/Janice Tjen 6-7(4), 3-6, 5-10&#34;,&#34;l. Katarzyna Piter/Janice Tjen 7-6(4), 3-6, 5-10&#34;),
+ (&#34;l. Jasmine Paolini/Sara Errani 7-5, 3-6, 7-10&#34;,&#34;l. Jasmine Paolini/Sara Errani 5-7, 6-3, 7-10&#34;),
+ (&#39;lastmod: &#34;2026-08-05T02:40:00Z&#34;&#39;,&#39;lastmod: &#34;2026-08-05T03:35:00Z&#34;&#39;),
+]
+for a,b in subs:
+    n=s.count(a)
+    if n==0: print(&#34;MISS:&#34;,a[:80])
+    s=s.replace(a,b)
+open(p,&#39;w&#39;,encoding=&#39;utf-8&#39;).write(s)
+print(&#34;done&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+import re,io
+p='content/english/blog/alex-eala-pro-career-tracker.md'
+s=open(p,encoding='utf-8').read()
+subs=[
+ # link repairs
+ ("tennis.com/tournaments/us-open/matches/c-tauson-vs-a-eala-2025-08-24","tennis.com/tournaments/us-open/matches/a-eala-vs-c-tauson-2025-08-24"),
+ ("roland-garros/matches/e-arango-vs-a-eala-2025-05-25","roland-garros/matches/a-eala-vs-e-arango-2025-05-25"),
+ ("mubadala-abu-dhabi-open/matches/a-eala-vs-a-sasnovich-2026-02-04","mubadala-abu-dhabi-open/matches/a-sasnovich-vs-a-eala-2026-02-04"),
+ ("mubadala-abu-dhabi-open/matches/a-eala-vs-z-sonmez-2026-02-03","mubadala-abu-dhabi-open/matches/a-eala-vs-z-sonmez-2026-02-02"),
+ ("asb-classic/matches/a-eala-vs-m-linette-2026-01-08","asb-classic/matches/m-linette-vs-a-eala-2026-01-09"),
+ ("asb-classic/matches/a-eala-vs-p-marcinko-2026-01-08","asb-classic/matches/p-marcinko-vs-a-eala-2026-01-08"),
+ ("sp-open/matches/a-eala-vs-j-riera-2025-09-10","sp-open/matches/j-riera-vs-a-eala-2025-09-10"),
+ ("sp-open/matches/a-eala-vs-y-mansouri-2025-09-08","sp-open/matches/y-mansouri-vs-a-eala-2025-09-09"),
+ ("lexus-eastbourne-open/matches/j-ostapenko-vs-a-eala-2025-06-25","lexus-eastbourne-open/matches/a-eala-vs-j-ostapenko-2025-06-25"),
+ ("lexus-eastbourne-open/matches/l-bronzetti-vs-a-eala-2025-06-24","lexus-eastbourne-open/matches/l-bronzetti-vs-a-eala-2025-06-23"),
+ ("lexus-ilkley-open/matches/a-eala-vs-v-ryser-2025-06-11","lexus-ilkley-open/matches/a-eala-vs-v-ryser-2025-06-12"),
+ ("lexus-ilkley-open/matches/a-eala-vs-l-cabrera-2025-06-09","lexus-ilkley-open/matches/a-eala-vs-l-cabrera-2025-06-10"),
+ ("miami-open/matches/p-badosa-vs-a-eala-2025-03-25","miami-open/matches/a-eala-vs-p-badosa-2025-03-24"),
+ ("miami-open/matches/m-keys-vs-a-eala-2025-03-24","miami-open/matches/m-keys-vs-a-eala-2025-03-23"),
+ ("miami-open/matches/j-ostapenko-vs-a-eala-2025-03-22","miami-open/matches/a-eala-vs-j-ostapenko-2025-03-21"),
+ ("miami-open/matches/k-volynets-vs-a-eala-2025-03-20","miami-open/matches/a-eala-vs-k-volynets-2025-03-19"),
+ ("veneto-open/matches/s-errani-vs-a-eala-2024-06-21","veneto-open/matches/a-eala-vs-s-errani-2024-06-21"),
+ ("porsche-tennis-grand-prix/matches/l-fernandez-vs-a-eala-2026-04-14","porsche-tennis-grand-prix/matches/a-eala-vs-l-fernandez-2026-04-14"),
+ ("internazionali-bnl-ditalia/matches/m-kostyuk-vs-a-eala-2025-05-07","internazionali-bnl-ditalia/matches/a-eala-vs-m-kostyuk-2025-05-07"),
+ ("mubadala-abu-dhabi-open/matches/m-linette-vs-a-eala-2024-02-06","mubadala-abu-dhabi-open/matches/a-eala-vs-m-linette-2024-02-06"),
+ ("prudential-hong-kong-tennis-open/matches/v-mboko-vs-a-eala-2025-10-30","prudential-hong-kong-tennis-open/matches/a-eala-vs-v-mboko-2025-10-30"),
+ ("mutua-madrid-open/matches/a-eala-vs-a-pavlyuchenkova-2026-04-22","mutua-madrid-open/matches/a-pavlyuchenkova-vs-a-eala-2026-04-22"),
+ ("https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906263/","https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-i-swiatek-2025-03-26"),
+ ("https://www.tennis.com/tournaments/sr-tournament-2785-madrid-spain/sr-match-59915292/","https://www.tennis.com/tournaments/mutua-madrid-open/matches/a-eala-vs-i-swiatek-2025-04-24"),
+ ("https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906303/","https://www.tennis.com/tournaments/miami-open/matches/m-keys-vs-a-eala-2025-03-23"),
+ ("https://www.tennis.com/tournaments/sr-tournament-2975-wta-montreal-canada/sr-match-62356318/","https://www.tennis.com/tournaments/national-bank-open/matches/m-vondrousova-vs-a-eala-2025-07-27"),
+ ("https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906325/","https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-j-ostapenko-2025-03-21"),
+ ("wimbledon/scores/LD72362771","wimbledon/scores/LD72366244"),
+ # dead links with no replacement
+ (" | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21)",""),
+ (" | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-e-lys-vs-q-gleason-i-martins-2025-07-03)",""),
+ (" | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-olga-danilovic-anastasia-potapova-2025-05-29)",""),
+ (" | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-emily-appleton-yvonne-cavalle-reimers-2025-05-27)",""),
+ (" | [tennis.com](https://www.tennis.com/tournaments/jasmin-open-monastir/matches/e-mertens-vs-a-eala-2023-10-17)",""),
+ # opponent name corrections
+ ("d. Angela Falei","d. Aliona Falei"),
+ ("d. Yara Mansouri","d. Yasmine Mansouri"),
+ ("d. Alexsandra Hartono","d. Arianne Hartono"),
+ ("d. Lisa Cabrera","d. Lizette Cabrera"),
+ ("l. Sachia Wei","l. Sijia Wei"),
+ ("d. Sada Kraus","d. Sinja Kraus"),
+ ("d. Giulia Pedone","d. Giorgia Pedone"),
+ ("d. Caroline Monnet","d. Carole Monnet"),
+ ("Anastasia Piter/Janice Tjen","Katarzyna Piter/Janice Tjen"),
+ ("Polina Kudermetova/Kamila Rakhimova","Polina Kudermetova/Kamilla Rakhimova"),
+ ("Angelina Grant/Laura Pigato","Tyra Caterina Grant/Lisa Pigato"),
+ ("Anastasia Panova/Fanny Stollar","Alexandra Panova/Fanny Stollar"),
+ ("Giuliana Olmos/Anastasia Panova","Giuliana Olmos/Alexandra Panova"),
+ ("Anastasia Piter/Fanny Stollar","Katarzyna Piter/Fanny Stollar"),
+ ("Katarzyna Falkowska/Maja Kubka","Weronika Falkowska/Martyna Kubka"),
+ ("Destanee McPhee/Astra Sharma","Kaylah McPhee/Astra Sharma"),
+ ("Anna Bondar/Lea Naef","Anna Bondar/Celine Naef"),
+ # score corrections
+ ("l. Katarzyna Piter/Janice Tjen 6-7(4), 3-6, 5-10","l. Katarzyna Piter/Janice Tjen 7-6(4), 3-6, 5-10"),
+ ("l. Jasmine Paolini/Sara Errani 7-5, 3-6, 7-10","l. Jasmine Paolini/Sara Errani 5-7, 6-3, 7-10"),
+ ('lastmod: "2026-08-05T02:40:00Z"','lastmod: "2026-08-05T03:35:00Z"'),
+]
+for a,b in subs:
+    n=s.count(a)
+    if n==0: print("MISS:",a[:80])
+    s=s.replace(a,b)
+open(p,'w',encoding='utf-8').write(s)
+print("done")
+PY
+```
+
+```
+done
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+All the substitutions went through successfully. Now I should verify the modified lines and run a link check on the updated URLs to make sure everything still works properly, then review the diff to confirm the changes.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff --stat &amp;&amp; git diff -U0 content/english/blog/alex-eala-pro-career-tracker.md | grep -E &#39;^[-+][^-+]&#39; | head -120</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat && git diff -U0 content/english/blog/alex-eala-pro-career-tracker.md | grep -E '^[-+][^-+]' | head -120
+```
+
+```
+ .specstory/statistics.json                         |  18 ++++
+ .../english/blog/alex-eala-pro-career-tracker.md   | 110 ++++++++++-----------
+ 2 files changed, 73 insertions(+), 55 deletions(-)
+-lastmod: "2026-08-05T02:40:00Z"
++lastmod: "2026-08-05T03:35:00Z"
+-    - 1st Round, l. Alycia Parks 6-0, 3-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LS67816724) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-20) | [ausopen.com](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
++    - 1st Round, l. Alycia Parks 6-0, 3-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LS67816724) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-19) | [ausopen.com](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
+-    - 1st Round, d. [Clara Tauson](#clara-tauson) 6-3, 2-6, 7-6(11) | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-tauson-vs-a-eala-2025-08-24) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2108.html)
++    - 1st Round, d. [Clara Tauson](#clara-tauson) 6-3, 2-6, 7-6(11) | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/a-eala-vs-c-tauson-2025-08-24) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2108.html)
+-    - 1st Round, l. Emiliana Arango 0-6, 6-2, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS60736223) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/e-arango-vs-a-eala-2025-05-25) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/SD078)
++    - 1st Round, l. Emiliana Arango 0-6, 6-2, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I'm noticing a discrepancy in the diff for the Australian Open singles link — the date appears to have changed from 01-20 to 01-19, but I need to verify this against what I actually saw in the original file since the direction seems off. The change from 01-20 to 01-19 was already on disk before my edit, so it's not something I introduced. The URL itself checked out fine during my link verification. Now I need to do a final pass on all the URLs that changed in the file to make sure they all resolve correctly.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Let me re-verify every URL I changed, then check the file lints clean.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; cat &gt; final.mjs &lt;&lt;&#39;EOF&#39;
+import { execSync } from &#34;node:child_process&#34;;
+const diff = execSync(
+  &#34;cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff content/english/blog/alex-eala-pro-career-tracker.md&#34;
+).toString();
+const urls = [
+  ...new Set(
+    [...diff.matchAll(/^\+.*$/gm)]
+      .flatMap((l) =&gt; [...l[0].matchAll(/\((https:\/\/(?:www\.)?(?:wtatennis|tennis)\.com[^)]+)\)/g)].map((m) =&gt; m[1]))
+  ),
+];
+const UA = &#34;Mozilla/5.0 (X11; Linux x86_64) Chrome/126&#34;;
+const sleep = (m) =&gt; new Promise((r) =&gt; setTimeout(r, m));
+let bad = 0;
+for (const u of urls) {
+  const h = await (await fetch(u, { headers: { &#34;user-agent&#34;: UA } })).text();
+  const t = (h.match(/&lt;title[^&gt;]*&gt;([\s\S]*?)&lt;\/title&gt;/i)?.[1] ?? &#34;&#34;).trim();
+  const ok = !/not found|^Women&#39;s Tennis Association - Official Website$/i.test(t);
+  if (!ok) bad++;
+  console.log(`${ok ? &#34;OK  &#34; : &#34;BAD &#34;} ${t.slice(0, 80)} :: ${u}`);
+  await sleep(2500);
+}
+console.log(`\n${urls.length} checked, ${bad} bad`);
+EOF
+node final.mjs 2&gt;&amp;1</summary>
+```bash
+cd /tmp && cat > final.mjs <<'EOF'
+import { execSync } from "node:child_process";
+const diff = execSync(
+  "cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/blog/alex-eala-pro-career-tracker.md"
+).toString();
+const urls = [
+  ...new Set(
+    [...diff.matchAll(/^\+.*$/gm)]
+      .flatMap((l) => [...l[0].matchAll(/\((https:\/\/(?:www\.)?(?:wtatennis|tennis)\.com[^)]+)\)/g)].map((m) => m[1]))
+  ),
+];
+const UA = "Mozilla/5.0 (X11; Linux x86_64) Chrome/126";
+const sleep = (m) => new Promise((r) => setTimeout(r, m));
+let bad = 0;
+for (const u of urls) {
+  const h = await (await fetch(u, { headers: { "user-agent": UA } })).text();
+  const t = (h.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? "").trim();
+  const ok = !/not found|^Women's Tennis Association - Official Website$/i.test(t);
+  if (!ok) bad++;
+  console.log(`${ok ? "OK  " : "BAD "} ${t.slice(0, 80)} :: ${u}`);
+  await sleep(2500);
+}
+console.log(`\n${urls.length} checked, ${bad} bad`);
+EOF
+node final.mjs 2>&1
+```
+
+```
+OK   Parks vs. Eala | Round of 128 Australian Open 2026 | WTA Official :: https://www.wtatennis.com/tournaments/australian-open/scores/LS67816724
+OK   Alycia Parks vs Alexandra Eala · Round 1 · Australian Open :: https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-19
+OK   Eala vs. Tauson | Round of 128 US Open 2025 | WTA Official :: https://www.wtatennis.com/tournaments/us-open/scores/LS63131469
+OK   Alexandra Eala vs Clara Tauson · US Open :: https://www.tennis.com/tournaments/us-open/matches/a-eala-vs-c-tauson-2025-08-24
+OK   Eala vs. Arango | Round of 128 Roland Garros 2025 | WTA Official :: https://www.wtatennis.com/tournaments/roland-garros/scores/LS60736223
+OK   Alexandra Eala vs Emiliana Arango · French Open :: https://www.tennis.com/tournaments/roland-garros/matches/a-eala-vs-e-arango-2025-05-25
+OK   Bartunkova/Eala vs. Kenin/Ostapenko | Round of 64 The Championships, Wimbledon 2 :: https://www.wtatennis.com/tournaments/wimbledon/scores/LD72366244
+OK   Eala/Martins vs. Aoyama/Linette | Round of 64 Australian Open 2026 | WTA Officia :: https://www.wtatennis.com/tournaments/australian-open/scores/LD67893812
+OK   Gleason/Martins vs. Eala/Lys | Round of 64 The Championships, Wimbledon 2025 | W :: https://www.wtatennis.com/tournaments/wimbledon/scores/LD61641892
+OK   Danilovic/Potapova vs. Eala/Zarazua | Round of 32 Roland Garros 2025 | WTA Offic :: https://www.wtatennis.com/tournaments/roland-garros/scores/LD60707893
+OK   Eala/Zarazua vs. Appleton/Cavalle-Reimers | Round of 64 Roland Garros 2025 | WTA :: https://www.wtatennis.com/tournaments/roland-garros/scores/LD60813525
+OK   Sasnovich vs. Eala | Round of 16 Mubadala Abu Dhabi Open presented by Abu Dhabi  :: https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS014
+OK   Aliaksandra Sasnovich vs Alexandra Eala · Round 2 · WTA Abu Dhabi :: https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-sasnovich-vs-a-eala-2026-02-04
+OK   Eala vs. Sonmez | Round 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+One URL returned a generic title instead of the expected match details, but it had worked correctly in an earlier run with a proper description. This suggests it might be a transient issue or rate-limiting, so I'll verify it again once the full run completes.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="await"><details>
+<summary>Tool use: **await**</summary>
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp &amp;&amp; tail -22 /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/189495.txt; echo &#34;=== recheck gaiba LS006 ===&#34;; sleep 3; curl -sS -A &#34;Mozilla/5.0 (X11; Linux x86_64) Chrome/126&#34; &#34;https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS006&#34; | grep -oiE &#39;&lt;title&gt;[^&lt;]*&lt;/title&gt;&#39;</summary>
+```bash
+cd /tmp && tail -22 /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/189495.txt; echo "=== recheck gaiba LS006 ==="; sleep 3; curl -sS -A "Mozilla/5.0 (X11; Linux x86_64) Chrome/126" "https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS006" | grep -oiE '<title>[^<]*</title>'
+```
+
+```
+OK   Alexandra Eala vs Iga Świątek · ATP/WTA Madrid :: https://www.tennis.com/tournaments/mutua-madrid-open/matches/a-eala-vs-i-swiatek-2025-04-24
+OK   Vondrousova vs. Eala | Round of 128 Omnium Banque Nationale présenté par Rogers  :: https://www.wtatennis.com/tournaments/806/montreal/2025/scores/LS085
+OK   Markéta Vondroušová vs Alexandra Eala · WTA Montreal, Canada :: https://www.tennis.com/tournaments/national-bank-open/matches/m-vondrousova-vs-a-eala-2025-07-27
+OK   Eala vs. Fernandez | Round of 32 Porsche Tennis Grand Prix 2026 | WTA Official :: https://www.wtatennis.com/tournaments/1051/stuttgart/2026/scores/LS018
+OK   Alexandra Eala vs Leylah Fernandez · Round 1 · WTA Stuttgart :: https://www.tennis.com/tournaments/porsche-tennis-grand-prix/matches/a-eala-vs-l-fernandez-2026-04-14
+OK   Eala vs. Kostyuk | Round of 128 Internazionali BNL d'Italia 2025 | WTA Official :: https://www.wtatennis.com/tournaments/709/rome/2025/scores/LS070
+OK   Alexandra Eala vs Marta Kostyuk · WTA Rome :: https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-m-kostyuk-2025-05-07
+OK   Eala vs. Linette | Round of 32 Mubadala Abu Dhabi Open 2024 | WTA Official :: https://www.wtatennis.com/tournaments/2088/abu-dhabi/2024/scores/LS029
+OK   Alexandra Eala vs Magda Linette · WTA Abu Dhabi :: https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-m-linette-2024-02-06
+OK   Eala vs. Mboko | Round of 16 Prudential Hong Kong Tennis Open 2025 | WTA Officia :: https://www.wtatennis.com/tournaments/1074/hong-kong/2025/scores/LS013
+OK   Alexandra Eala vs Victoria Mboko · WTA Hong Kong :: https://www.tennis.com/tournaments/prudential-hong-kong-tennis-open/matches/a-eala-vs-v-mboko-2025-10-30
+OK   Eala vs. Mertens | Round of 32 Jasmin Open Monastir 2023 | WTA Official :: https://www.wtatennis.com/tournaments/2072/monastir/2023/scores/LS031
+OK   Pavlyuchenkova vs. Eala | Round of 128 Mutua Madrid Open 2026 | WTA Official :: https://www.wtatennis.com/tour
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+All the URLs are checking out—that one problematic link was just a temporary issue and works fine now. Moving on to run the lints.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:filenames 2&gt;&amp;1 | tail -5; pnpm lint:blog 2&gt;&amp;1 | tail -15</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:filenames 2>&1 | tail -5; pnpm lint:blog 2>&1 | tail -15
+```
+
+```
+$ node scripts/lint-filenames.mjs
+Git tracked: scanned 1834 path(s)
+No cross-platform unsafe path components found.
+Frontmatter aliases: scanned 424 path(s)
+No cross-platform unsafe aliases found.
+$ node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify && node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only
+Blog frontmatter OK
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+I've verified all the lints pass and checked 217 unique links across the site with proper rate limiting. Found and fixed 33 broken tennis.com links—22 slug repairs, 5 legacy match redirects, and 1 WT link, with 27 total repaired and 5 removed.
+
+Also corrected 18 name errors, 2 score errors, and verified the Tauson 7-6(11) tiebreak is accurate despite what the WTA page shows. Everything else checks out, though I need to note that the session-close block is required per the skill guidelines, and I won't commit these changes yet.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Checked all 217 unique links on the page — one request each, 2.5s spacing per host, no retry loops. Found and fixed three classes of error.
+
+**Broken links (33 total)**
+
+28 repaired, 5 dropped:
+- 22 tennis.com match links were dead. Two causes: slug date off by one day (Keys was `2025-03-24`, real match `2025-03-23`) and reversed player order in the slug (`c-tauson-vs-a-eala` → `a-eala-vs-c-tauson`). Got real dates from the WTA match pages, then confirmed each rebuilt URL loads.
+- 5 legacy `sr-tournament/sr-match` links in the head-to-head sections were fully dead. Replaced with current tennis.com slugs (Miami 2025 ×3, Madrid 2025, Montreal 2025).
+- The Wimbledon 2026 doubles WTA link pointed at `LD72362771`, which returns the WTA homepage. Correct ID is `LD72366244` — pulled from the Wimbledon scores index, since those IDs are not sequential.
+- 5 links have no working replacement, so I removed them: four Grand Slam doubles pages (tennis.com does not appear to host slam doubles matches) and Monastir 2023 vs Mertens. The WTA link stays on every one of those lines.
+
+**Wrong opponent first names (18 lines)**
+
+The surnames were right, the first names were not. Confirmed against tennis.com match titles and WTA page data: Aliona (not Angela) Falei, Yasmine (not Yara) Mansouri, Arianne (not Alexsandra) Hartono ×2, Lizette (not Lisa) Cabrera, Sijia (not Sachia) Wei, Sinja (not Sada) Kraus, Giorgia (not Giulia) Pedone, Carole (not Caroline) Monnet, Katarzyna (not Anastasia) Piter ×2, Kamilla Rakhimova, Tyra Caterina Grant/Lisa Pigato (was Angelina Grant/Laura Pigato), Alexandra (not Anastasia) Panova ×2, Weronika Falkowska/Martyna Kubka (was Katarzyna/Maja), Kaylah (not Destanee) McPhee, Celine (not Lea) Naef.
+
+**Wrong scores (2 lines)**
+
+Both doubles, both with sets in the wrong order:
+- Guangzhou 2025 semifinal: Eala won the opening set, so it is `7-6(4), 3-6, 5-10`, not `6-7(4)`.
+- Rome 2025 quarterfinal vs Errani/Paolini: `5-7, 6-3, 7-10`, not `7-5, 3-6, 7-10`.
+
+One thing I checked and left alone: the WTA page for the Tauson US Open win renders the tiebreak as `7-6(13)`, but WTA's own match report, ESPN, and BBC all say 13-11, so the page's `7-6(11)` is correct. Every replaced URL was re-fetched afterward and loads; `pnpm lint:filenames` and `pnpm lint:blog` pass. Nothing committed.
+
+## Session close
+- Fixed: 33 broken score links, 18 wrong opponent first names, 2 flipped doubles scores in the Eala tracker.
+- Encode: add to `alex-eala-tracker-update` — tennis.com slugs encode the real match date and draw-side order, so verify by page title, not by guessing.
+- Open: 5 tennis.com links removed with no replacement (4 slam doubles, Monastir 2023); WTA links cover those rounds.

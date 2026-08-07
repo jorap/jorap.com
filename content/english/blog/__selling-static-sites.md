@@ -2,7 +2,7 @@
 title: "How I Quote Client Websites"
 meta_title: "How I Quote Client Websites - Clear Line Items"
 description: "I break quotes into readable pieces - discovery, build, migration, pass-off, hosting. No bundled fog, no invoice that mixes labor with server rent."
-social_media_intro: "When a client moved on I was paying the whole shared hosting bill for what was basically my blog. How I quote static sites now. Link in comments."
+social_media_intro: "When a client moved on I paid the whole shared hosting bill for what was basically my blog. How I quote static sites in clear line items now. Article in the comments."
 slug: "selling-static-sites"
 date: "2026-07-02T05:00:00Z"
 image: "/images/website.jpg"

@@ -297,11 +297,15 @@ Field order (always use this order; `pnpm lint:blog` enforces it):
 
 - `description`: memorable one-breath summary - what the post is or what you learned; first person is fine. Not keyword-stuffed.
 - `meta_title`: useful and specific - not clickbait, not "Ultimate Guide to…" unless the post truly is a full guide.
-- `social_media_intro`: max **200 characters**. Paste-ready social caption that tells people the link is in the comments - then makes them want to open comments and hit the jorap.com link. Same voice as the post: specific, uneven, human. Not a summary of the article. Not engagement bait.
-  - **Must say** the link is in the comments (plain: "link in comments", "URL in the comments", etc.).
-  - **Must pull** - one concrete hook from the post (scene, take, friction), not "new post is up".
-  - **Must not sound AI** - no hollow openers, no "excited to share", no "check out my latest", no emoji spam, no hashtag walls, no "Thoughts?" closer.
-  - Count characters before finishing. Soften or cut until ≤200.
+- `social_media_intro`: max **200 characters**. Paste-ready social caption whose job is to get someone to open the comments and click through to the article on jorap.com. Same voice as the post: specific, uneven, human. Not a summary of the article. Not engagement bait.
+  - **Shape (pro social playbook):** **hook → payoff → CTA**. Line 1 stops the scroll (scene, friction, sharp take). Mid names what they get if they click (checklist, fix, skip, story beat). End is a dull, loud destination line - logistics after desire, never before.
+  - **Preferred closers** (pick one; keep plain): `Full article in the comments.` / `Article in the comments.` / `Write-up in the first comment.` / `Checklist in the comments.` Also fine: `post linked in comments`, `full article - link in comments`.
+  - **Must make the article obvious** - reader should know an article (post / write-up / piece) is linked in the comments, not a vague "link" that could be anything.
+  - **Must say** that link lives in the comments (comments are where they go; the article URL is what they click). When posting for real, put the jorap.com URL in the **first comment** - caption points there; comment holds the click (Facebook especially throttles links in the post body).
+  - **Must motivate the click** - name the payoff so scrolling past costs them something. Hook alone is not enough; closer alone is not enough. Why open comments *and* why tap the article URL, in one breath.
+  - **Must pull** - one concrete hook from the post (scene, take, friction). Do **not** open on the article itself.
+  - **Must not sound AI / creator-template** - no hollow openers, no "excited to share", no "check out my latest", no emoji spam, no hashtag walls, no "Thoughts?" closer. Reject article-first soft openers: "Here's an article attached in the comments about…", "I wrote a post about…", "New article in the comments:…". Those announce format before interest and burn the char budget.
+  - Count characters before finishing. Soften or cut until ≤200. Spend chars on the hook and payoff; keep the CTA short.
 - `slug`: always set - filename without `__` prefix (e.g. `slug: "wifi-router"`). Keep when the URL should differ from the filename (rare; add `aliases` for the old path).
 - `image_prompt`: one paste-ready prompt for generating the hero image (Midjourney / Flux / similar). Specific scene that matches the post - subject, setting, light, mood, what to exclude. Photorealistic unless the post needs otherwise. No text, logos, watermarks, or brand marks in frame unless the post is literally about that object and the mark is unavoidable. Not a caption; not SEO keywords. Keep until `image` points at a real file, then leave it as the generation record.
 - `level_depth`: max Depth of Understanding rung the post *reaches* (not the reader): 1 Recognize, 2 Explain, 3 Use, 4 Connect, 5 Create. Scrapbooks/catalogs → 1; how-to/recipes/lived criteria → 3; stack tradeoffs/systems → 4; inventing or shipping a new thing → 5.
@@ -353,7 +357,7 @@ Models invent confident liquid ratios. The style doc cuts shape drift - author s
 - [ ] Section headings sound like JoRap, not a product manual
 - [ ] Would sound natural read aloud by a person, not narrated by a help article
 - [ ] Frontmatter description sounds like the author, not an SEO bot
-- [ ] `social_media_intro` ≤200 chars, says link is in comments, sounds human, makes you want to open comments
+- [ ] `social_media_intro` ≤200 chars, shape is hook → payoff → CTA, makes clear an article is linked in comments, names why to click, sounds human - you'd open comments and tap it (no article-first opener)
 - [ ] `image_prompt` is a usable generation prompt for this post's hero (specific scene, no text/logos)
 - [ ] Passes the swap test: couldn't paste this into a random tech blog without it feeling off
 - [ ] Personal facts match the ledger (`__interesting-facts-about-jorap.md`); no invented pop-culture or sports picks from gap tables
