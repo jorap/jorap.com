@@ -17,7 +17,7 @@ related_notes:
 level_depth: 1
 featured: false
 draft: false
-lastmod: "2026-08-05T03:35:00Z"
+lastmod: "2026-08-07T14:21:00Z"
 ---
 
 I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime, and I'm glad I started keeping notes when I did. This page is my running scrapbook for it. I update it when something happens worth pinning, not on a schedule.
@@ -95,7 +95,7 @@ Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court,
   - **Australian Open**
     - First Filipina in an Australian Open main draw
     - First Filipino to complete main-draw appearances at all four majors
-    - 1st Round, l. Alycia Parks 6-0, 3-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LS67816724) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-19) | [ausopen.com](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
+    - 1st Round, l. Alycia Parks 0-6, 3-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LS67816724) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-19) | [ausopen.com](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
 
 {{< youtube HhdkG1AwDhU >}}
 
